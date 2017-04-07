@@ -1,0 +1,8 @@
+CURIE	label	type
+rdfs:label	label	owl:AnnotationProperty
+rdf:type	type	owl:ObjectProperty
+rdfs:subClassOf	subclass of	owl:ObjectProperty
+owl:deprecated	obsolete	owl:DatatypeProperty
+IAO:0000118	alternative term	owl:AnnotationProperty
+OBO:ncbitaxon#has_rank	rank	owl:AnnotationProperty
+NCBITaxon:10090	Mus musculus	owl:Class

@@ -1,6 +1,7 @@
 : Mus musculus BALB/c
-type: owl:Class
+type: class
+label: Mus musculus BALB/c
 alternative term: BALB/c
 subclass of: Mus musculus
 rank: subspecies
-obsolete: false
+obsolete: false> xsd:boolean

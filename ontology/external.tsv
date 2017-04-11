@@ -1,4 +1,5 @@
 CURIE	label	type
+owl:Class	class	owl:DatatypeProperty
 rdfs:label	label	owl:AnnotationProperty
 rdf:type	type	owl:ObjectProperty
 rdfs:subClassOf	subclass of	owl:ObjectProperty

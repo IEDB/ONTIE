@@ -1,7 +1,7 @@
-: Mus musculus BALB/c
+: ONTIE:0000001
 type: class
 label: Mus musculus BALB/c
-alternative term: BALB/c
+alternative term: balb
 subclass of: Mus musculus
 rank: subspecies
 obsolete: false

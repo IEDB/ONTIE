@@ -1,14 +1,15 @@
 <html>
-  <body>
-    <ul prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  <body prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 rdfs: http://www.w3.org/2000/01/rdf-schema#
 xsd: http://www.w3.org/2001/XMLSchema#
 owl: http://www.w3.org/2002/07/owl#
 obo: http://purl.obolibrary.org/obo/
 oio: http://www.geneontology.org/formats/oboInOwl#
-IAO: http://purl.obolibrary.org/obo/IAO_ .
-ONTIE: https://ontology.iedb.org/ONTIE_"
-      resource="ONTIE:0000001">
+IAO: http://purl.obolibrary.org/obo/IAO_
+NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+ncbitaxon: http://purl.obolibrary.org/obo/ncbitaxon#
+ONTIE: https://ontology.iedb.org/ONTIE_">
+    <ul resource="ONTIE:0000001">
       <li>
         <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type</a>:
         <a href="http://www.w3.org/2002/07/owl#Class" property="rdf:type">class</a>
@@ -27,7 +28,7 @@ ONTIE: https://ontology.iedb.org/ONTIE_"
       </li>
       <li>
         <a href="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">rank</a>:
-        <span property="obo:ncbitaxon#has_rank">subspecies</span>
+        <a href="http://purl.obolibrary.org/obo/NCBITaxon_subspecies" property="ncbitaxon:has_rank">subspecies</a>
       </li>
       <li>
         <a href="http://www.w3.org/2002/07/owl#deprecated">obsolete</a>:

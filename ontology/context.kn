@@ -6,4 +6,5 @@
 @prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
 @prefix IAO: <http://purl.obolibrary.org/obo/IAO_>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+@prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
 @prefix ONTIE: <https://ontology.iedb.org/ONTIE_>

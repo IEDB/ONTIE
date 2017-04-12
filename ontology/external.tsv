@@ -1,8 +1,9 @@
-CURIE	label	type	datatype
-rdfs:label	label	owl:AnnotationProperty	plain
-rdf:type	type	owl:ObjectProperty	link
-rdfs:subClassOf	subclass of	owl:ObjectProperty	link
-owl:deprecated	obsolete	owl:DatatypeProperty	xsd:boolean
-IAO:0000118	alternative term	owl:AnnotationProperty	plain
-obo:ncbitaxon#has_rank	rank	owl:AnnotationProperty	plain
-NCBITaxon:10090	Mus musculus	owl:Class
+label	target	type
+label	rdfs:label	owl:AnnotationProperty
+type	rdf:type > link	rdf:Property
+subclass of	rdfs:subClassOf > link	rdf:Property
+obsolete	owl:deprecated > xsd:boolean	owl:DatatypeProperty
+alternative term	IAO:0000118	owl:AnnotationProperty
+rank	ncbitaxon:has_rank > link	owl:AnnotationProperty
+subspecies	NCBITaxon:subspecies	owl:Class
+Mus musculus	NCBITaxon:10090	owl:Class

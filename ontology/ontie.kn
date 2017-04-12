@@ -1,5 +1,5 @@
 : ONTIE:0000001
-type: class
+type: owl:Class
 label: Mus musculus BALB/c
 alternative term: balb
 subclass of: Mus musculus

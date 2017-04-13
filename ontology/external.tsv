@@ -3,7 +3,589 @@ label	rdfs:label	owl:AnnotationProperty
 type	rdf:type > link	rdf:Property
 subclass of	rdfs:subClassOf > link	rdf:Property
 obsolete	owl:deprecated > xsd:boolean	owl:DatatypeProperty
-alternative term	IAO:0000118	owl:AnnotationProperty
+alternative term	obo:IAO_0000118	owl:AnnotationProperty
+IEDB alternative term	obo:OBI_9991118	owl:AnnotationProperty
 rank	ncbitaxon:has_rank > link	owl:AnnotationProperty
+in taxon	obo:RO_0002162 > link	owl:ObjectProperty
 subspecies	NCBITaxon:subspecies	owl:Class
+no rank	NCBITaxon:no_rank	owl:Class
+protein	obo:PR_000000001	owl:Class
+Acinetobacter haemolyticus	NCBITaxon:29430	owl:Class
+Acinetobacter lwoffii	NCBITaxon:28090	owl:Class
+Actinobacillus pleuropneumoniae	NCBITaxon:715	owl:Class
+Adeno-associated virus	NCBITaxon:272636	owl:Class
+Aegilops speltoides	NCBITaxon:4573	owl:Class
+African swine fever virus	NCBITaxon:10497	owl:Class
+Aggregatibacter actinomycetemcomitans	NCBITaxon:714	owl:Class
+Agrobacterium tumefaciens	NCBITaxon:358	owl:Class
+Aleutian mink disease virus	NCBITaxon:28314	owl:Class
+Alternaria alternata	NCBITaxon:5599	owl:Class
+Ambrosia psilostachya	NCBITaxon:29715	owl:Class
+Anacardium occidentale	NCBITaxon:171929	owl:Class
+Anaplasma marginale	NCBITaxon:770	owl:Class
+Anaplasma phagocytophilum	NCBITaxon:948	owl:Class
+Anatid herpesvirus 1	NCBITaxon:104388	owl:Class
+Andes hantavirus	NCBITaxon:46607	owl:Class
+Anisakis simplex	NCBITaxon:6269	owl:Class
+Anthoxanthum odoratum	NCBITaxon:29661	owl:Class
+Arabidopsis thaliana	NCBITaxon:3702	owl:Class
+Arachis hypogaea	NCBITaxon:3818	owl:Class
+Aspergillus flavus	NCBITaxon:5059	owl:Class
+Aspergillus fumigatus	NCBITaxon:746128	owl:Class
+Aspergillus niger	NCBITaxon:5061	owl:Class
+Aspergillus terreus	NCBITaxon:33178	owl:Class
+Aspergillus versicolor	NCBITaxon:46472	owl:Class
+Avian leukosis virus	NCBITaxon:11864	owl:Class
+Avian orthoreovirus	NCBITaxon:38170	owl:Class
+Avibacterium paragallinarum	NCBITaxon:728	owl:Class
+Babesia bigemina	NCBITaxon:5866	owl:Class
+Babesia bovis	NCBITaxon:5865	owl:Class
+Babesia divergens	NCBITaxon:32595	owl:Class
+Bacillus amyloliquefaciens	NCBITaxon:1390	owl:Class
+Bacillus anthracis	NCBITaxon:1392	owl:Class
+Bacillus anthracis str. Sterne	NCBITaxon:260799	owl:Class
+Bacillus subtilis	NCBITaxon:1423	owl:Class
+Bacillus subtilis subsp. spizizenii	NCBITaxon:96241	owl:Class
+Bacillus thuringiensis	NCBITaxon:1428	owl:Class
+Bacteroides ovatus	NCBITaxon:28116	owl:Class
+Balaenoptera physalus	NCBITaxon:9770	owl:Class
+Bertholletia excelsa	NCBITaxon:3645	owl:Class
+Betula pendula	NCBITaxon:3505	owl:Class
+Bifidobacterium breve	NCBITaxon:1685	owl:Class
+Blastomyces dermatitidis	NCBITaxon:5039	owl:Class
+Blattella germanica	NCBITaxon:6973	owl:Class
+Bluetongue virus 16	NCBITaxon:45029	owl:Class
+Bordetella pertussis	NCBITaxon:520	owl:Class
+Borna disease virus	NCBITaxon:12455	owl:Class
+Borreliella afzelii	NCBITaxon:29518	owl:Class
+Borreliella burgdorferi	NCBITaxon:139	owl:Class
+Borreliella garinii	NCBITaxon:29519	owl:Class
+Bos taurus	NCBITaxon:9913	owl:Class
+Bovine alphaherpesvirus 1	NCBITaxon:10320	owl:Class
+Bovine alphaherpesvirus 5	NCBITaxon:35244	owl:Class
+Bovine coronavirus	NCBITaxon:11128	owl:Class
+Bovine ephemeral fever virus	NCBITaxon:11303	owl:Class
+Bovine leukemia virus	NCBITaxon:11901	owl:Class
+Bovine viral diarrhea virus 1	NCBITaxon:11099	owl:Class
+Brassica juncea	NCBITaxon:3707	owl:Class
+Brucella abortus	NCBITaxon:235	owl:Class
+Brucella melitensis	NCBITaxon:29459	owl:Class
+Brucella ovis	NCBITaxon:236	owl:Class
+Brugia malayi	NCBITaxon:6279	owl:Class
+Burkholderia pseudomallei	NCBITaxon:28450	owl:Class
+Campylobacter fetus subsp. fetus	NCBITaxon:32019	owl:Class
+Campylobacter jejuni	NCBITaxon:197	owl:Class
+Campylobacter jejuni subsp. jejuni	NCBITaxon:32022	owl:Class
+Campylobacter jejuni subsp. jejuni 260.94	NCBITaxon:360108	owl:Class
+Candida albicans	NCBITaxon:5476	owl:Class
+Candida parapsilosis	NCBITaxon:5480	owl:Class
+Candida sojae	NCBITaxon:52253	owl:Class
+Candidatus Solibacter	NCBITaxon:332162	owl:Class
+Canine distemper virus	NCBITaxon:11232	owl:Class
+Canine parvovirus	NCBITaxon:10788	owl:Class
+Canine parvovirus 2	NCBITaxon:246878	owl:Class
+Canis lupus familiaris	NCBITaxon:9615	owl:Class
+Capra hircus	NCBITaxon:9925	owl:Class
+Caprine arthritis encephalitis virus	NCBITaxon:11660	owl:Class
+Cavia porcellus	NCBITaxon:10141	owl:Class
+Caviid betaherpesvirus 2	NCBITaxon:33706	owl:Class
+Chaetomium globosum	NCBITaxon:38033	owl:Class
+Chaetonerius	NCBITaxon:333745	owl:Class
+Chamaecyparis obtusa	NCBITaxon:13415	owl:Class
+Chikungunya virus	NCBITaxon:37124	owl:Class
+Chimpanzee adenovirus	NCBITaxon:310542	owl:Class
+Chlamydia abortus	NCBITaxon:83555	owl:Class
+Chlamydia pneumoniae	NCBITaxon:83558	owl:Class
+Chlamydia psittaci	NCBITaxon:83554	owl:Class
+Chlamydia trachomatis	NCBITaxon:813	owl:Class
+Citrobacter freundii	NCBITaxon:546	owl:Class
+Classical swine fever virus	NCBITaxon:11096	owl:Class
+Classical swine fever virus isolates	NCBITaxon:358770	owl:Class
+Clostridioides difficile	NCBITaxon:1496	owl:Class
+Clostridium botulinum	NCBITaxon:1491	owl:Class
+Clostridium botulinum A	NCBITaxon:36826	owl:Class
+Clostridium botulinum A str. Hall	NCBITaxon:441771	owl:Class
+Clostridium botulinum B	NCBITaxon:36827	owl:Class
+Clostridium botulinum C	NCBITaxon:36828	owl:Class
+Clostridium botulinum D	NCBITaxon:36829	owl:Class
+Clostridium botulinum E	NCBITaxon:36830	owl:Class
+Clostridium botulinum F	NCBITaxon:36831	owl:Class
+Clostridium tetani	NCBITaxon:1513	owl:Class
+Coccidioides posadasii	NCBITaxon:199306	owl:Class
+Columba livia	NCBITaxon:8932	owl:Class
+Concholepas concholepas	NCBITaxon:137544	owl:Class
+Corylus avellana	NCBITaxon:13451	owl:Class
+Corynebacterium diphtheriae	NCBITaxon:1717	owl:Class
+Cowpox virus	NCBITaxon:10243	owl:Class
+Cowpox virus (Brighton Red)	NCBITaxon:265872	owl:Class
+Coxiella burnetii	NCBITaxon:777	owl:Class
+Coxsackievirus A16	NCBITaxon:31704	owl:Class
+Coxsackievirus B3	NCBITaxon:12072	owl:Class
+Coxsackievirus B4	NCBITaxon:12073	owl:Class
+Cryptococcus neoformans	NCBITaxon:5207	owl:Class
+Cryptococcus neoformans var. neoformans	NCBITaxon:40410	owl:Class
+Cryptomeria japonica	NCBITaxon:3369	owl:Class
+Cucumber mosaic virus	NCBITaxon:12305	owl:Class
+Cupressus torulosa	NCBITaxon:329091	owl:Class
+Cynodon dactylon	NCBITaxon:28909	owl:Class
+Danio rerio	NCBITaxon:7955	owl:Class
+Dasyatis americana	NCBITaxon:50411	owl:Class
+Dasyuroides byrnei	NCBITaxon:32544	owl:Class
+Dengue virus 1	NCBITaxon:11053	owl:Class
+Dengue virus 2	NCBITaxon:11060	owl:Class
+Dengue virus 3	NCBITaxon:11069	owl:Class
+Dengue virus 4	NCBITaxon:11070	owl:Class
+Dermatophagoides	NCBITaxon:6953	owl:Class
+Dermatophagoides farinae	NCBITaxon:6954	owl:Class
+Dermatophagoides pteronyssinus	NCBITaxon:6956	owl:Class
+Dictyostelium discoideum	NCBITaxon:44689	owl:Class
+Drosophila melanogaster	NCBITaxon:7227	owl:Class
+Duck Tembusu virus	NCBITaxon:1399582	owl:Class
+Duck hepatitis A virus 1	NCBITaxon:1006061	owl:Class
+Duck hepatitis A virus 3	NCBITaxon:1006063	owl:Class
+Duck hepatitis B virus	NCBITaxon:12639	owl:Class
+Duvenhage lyssavirus	NCBITaxon:38767	owl:Class
+Eastern equine encephalitis virus	NCBITaxon:11021	owl:Class
+Ebola virus	NCBITaxon:1570291	owl:Class
+Echovirus E6	NCBITaxon:12062	owl:Class
+Ectromelia virus	NCBITaxon:12643	owl:Class
+Ehrlichia ruminantium	NCBITaxon:779	owl:Class
+Eimeria acervulina	NCBITaxon:5801	owl:Class
+Encephalomyocarditis virus	NCBITaxon:12104	owl:Class
+Entamoeba histolytica	NCBITaxon:5759	owl:Class
+Enterovirus A	NCBITaxon:138948	owl:Class
+Enterovirus A71	NCBITaxon:39054	owl:Class
+Enterovirus E	NCBITaxon:12064	owl:Class
+Equid alphaherpesvirus 1	NCBITaxon:10326	owl:Class
+Equid alphaherpesvirus 4	NCBITaxon:10331	owl:Class
+Equid gammaherpesvirus 2	NCBITaxon:12657	owl:Class
+Equine infectious anemia virus	NCBITaxon:11665	owl:Class
+Equine rhinitis A virus	NCBITaxon:47000	owl:Class
+Equine rhinitis B virus 2	NCBITaxon:168014	owl:Class
+Equus caballus	NCBITaxon:9796	owl:Class
+Erbovirus A	NCBITaxon:312185	owl:Class
+Escherichia coli	NCBITaxon:562	owl:Class
+Escherichia coli B	NCBITaxon:37762	owl:Class
+Escherichia coli K-12	NCBITaxon:83333	owl:Class
+Escherichia coli O6	NCBITaxon:217992	owl:Class
+Escherichia virus MS2	NCBITaxon:329852	owl:Class
+Exogenous mouse mammary tumor virus	NCBITaxon:46608	owl:Class
+Fagopyrum esculentum	NCBITaxon:3617	owl:Class
+Fasciola hepatica	NCBITaxon:6192	owl:Class
+Feline immunodeficiency virus	NCBITaxon:11673	owl:Class
+Feline infectious peritonitis virus	NCBITaxon:11135	owl:Class
+Feline leukemia virus	NCBITaxon:11768	owl:Class
+Felis catus	NCBITaxon:9685	owl:Class
+Fenneropenaeus indicus	NCBITaxon:29960	owl:Class
+Foot-and-mouth disease virus	NCBITaxon:12110	owl:Class
+Foot-and-mouth disease virus (strain A5)	NCBITaxon:12113	owl:Class
+Foot-and-mouth disease virus (strain O1)	NCBITaxon:73482	owl:Class
+Foot-and-mouth disease virus - type A	NCBITaxon:12111	owl:Class
+Foot-and-mouth disease virus - type Asia 1	NCBITaxon:110195	owl:Class
+Foot-and-mouth disease virus - type C	NCBITaxon:12116	owl:Class
+Foot-and-mouth disease virus - type O	NCBITaxon:12118	owl:Class
+Foot-and-mouth disease virus - type SAT 1	NCBITaxon:12122	owl:Class
+Foot-and-mouth disease virus - type SAT 2	NCBITaxon:35292	owl:Class
+Foot-and-mouth disease virus - type SAT 3	NCBITaxon:12123	owl:Class
+Foot-and-mouth disease virus C1	NCBITaxon:12121	owl:Class
+Foot-and-mouth disease virus C3	NCBITaxon:46290	owl:Class
+Francisella tularensis	NCBITaxon:263	owl:Class
+Francisella tularensis subsp. holarctica LVS	NCBITaxon:376619	owl:Class
+Francisella tularensis subsp. tularensis	NCBITaxon:119856	owl:Class
+GB virus C	NCBITaxon:54290	owl:Class
+Gallus gallus	NCBITaxon:9031	owl:Class
+Glossina morsitans	NCBITaxon:7394	owl:Class
+Glycine max	NCBITaxon:3847	owl:Class
+Gnathostoma binucleatum	NCBITaxon:61466	owl:Class
+Goose parvovirus	NCBITaxon:38251	owl:Class
+Guanarito mammarenavirus	NCBITaxon:45219	owl:Class
+H10N4 subtype	NCBITaxon:222772	owl:Class
+H10N5 subtype	NCBITaxon:183666	owl:Class
+H11N1 subtype	NCBITaxon:127960	owl:Class
+H12N5 subtype	NCBITaxon:142951	owl:Class
+H1N1 subtype	NCBITaxon:114727	owl:Class
+H1N1 swine influenza virus	NCBITaxon:36420	owl:Class
+H1N2 subtype	NCBITaxon:114728	owl:Class
+H2N8 subtype	NCBITaxon:114732	owl:Class
+H3N1 subtype	NCBITaxon:157802	owl:Class
+H3N2 subtype	NCBITaxon:119210	owl:Class
+H3N3 subtype	NCBITaxon:215851	owl:Class
+H5N1 subtype	NCBITaxon:102793	owl:Class
+H5N2 subtype	NCBITaxon:119220	owl:Class
+H5N3 subtype	NCBITaxon:119221	owl:Class
+H6N2 subtype	NCBITaxon:119213	owl:Class
+H7N2 subtype	NCBITaxon:119214	owl:Class
+H7N7 subtype	NCBITaxon:119218	owl:Class
+H9N2 subtype	NCBITaxon:102796	owl:Class
+Haemophilus influenzae	NCBITaxon:727	owl:Class
+Hantaan hantavirus	NCBITaxon:11599	owl:Class
+Hantavirus HTN	NCBITaxon:38016	owl:Class
+Helicobacter pylori	NCBITaxon:210	owl:Class
+Helicobacter pylori B128	NCBITaxon:544406	owl:Class
+Hepatitis B virus	NCBITaxon:10407	owl:Class
+Hepatitis C virus	NCBITaxon:11103	owl:Class
+Hepatitis C virus genotype 2	NCBITaxon:40271	owl:Class
+Hepatitis C virus genotype 4	NCBITaxon:33745	owl:Class
+Hepatitis C virus genotype 5	NCBITaxon:33746	owl:Class
+Hepatitis C virus genotype 6	NCBITaxon:42182	owl:Class
+Hepatitis C virus subtype 1a	NCBITaxon:31646	owl:Class
+Hepatitis C virus subtype 1b	NCBITaxon:31647	owl:Class
+Hepatitis C virus subtype 2a	NCBITaxon:31649	owl:Class
+Hepatitis C virus subtype 2b	NCBITaxon:31650	owl:Class
+Hepatitis C virus subtype 2i	NCBITaxon:356387	owl:Class
+Hepatitis C virus subtype 3a	NCBITaxon:356426	owl:Class
+Hepatitis C virus subtype 6a	NCBITaxon:31655	owl:Class
+Hepatitis E virus	NCBITaxon:12461	owl:Class
+Hepatitis E virus type 3	NCBITaxon:509628	owl:Class
+Hepatitis E virus type 4	NCBITaxon:185580	owl:Class
+Hepatitis delta virus	NCBITaxon:12475	owl:Class
+Hesperocyparis arizonica	NCBITaxon:49011	owl:Class
+Hevea brasiliensis	NCBITaxon:3981	owl:Class
+Homo sapiens	NCBITaxon:9606	owl:Class
+Human T-cell lymphotrophic virus type 1 (Caribbean isolate)	NCBITaxon:11927	owl:Class
+Human T-lymphotropic virus 1	NCBITaxon:11908	owl:Class
+Human T-lymphotropic virus 2	NCBITaxon:11909	owl:Class
+Human adenovirus 2	NCBITaxon:10515	owl:Class
+Human adenovirus 5	NCBITaxon:28285	owl:Class
+Human alphaherpesvirus 1	NCBITaxon:10298	owl:Class
+Human alphaherpesvirus 2	NCBITaxon:10310	owl:Class
+Human alphaherpesvirus 3	NCBITaxon:10335	owl:Class
+Human astrovirus 8	NCBITaxon:43358	owl:Class
+Human betaherpesvirus 5	NCBITaxon:10359	owl:Class
+Human betaherpesvirus 6A	NCBITaxon:32603	owl:Class
+Human betaherpesvirus 6B	NCBITaxon:32604	owl:Class
+Human betaherpesvirus 7	NCBITaxon:10372	owl:Class
+Human endogenous retrovirus	NCBITaxon:11827	owl:Class
+Human gammaherpesvirus 4	NCBITaxon:10376	owl:Class
+Human gammaherpesvirus 8	NCBITaxon:37296	owl:Class
+Human hepatitis A virus	NCBITaxon:208726	owl:Class
+Human hepatitis A virus Hu/Australia/HM175/1976	NCBITaxon:12098	owl:Class
+Human herpesvirus 1 strain KOS	NCBITaxon:10306	owl:Class
+Human immunodeficiency virus 1	NCBITaxon:11676	owl:Class
+Human mastadenovirus B	NCBITaxon:108098	owl:Class
+Human metapneumovirus	NCBITaxon:162145	owl:Class
+Human papillomavirus	NCBITaxon:10566	owl:Class
+Human papillomavirus type 16	NCBITaxon:333760	owl:Class
+Human papillomavirus type 18	NCBITaxon:333761	owl:Class
+Human papillomavirus type 33	NCBITaxon:10586	owl:Class
+Human papillomavirus type 6b	NCBITaxon:10600	owl:Class
+Human parvovirus	NCBITaxon:1346520	owl:Class
+Human parvovirus B19	NCBITaxon:10798	owl:Class
+Human poliovirus 1	NCBITaxon:12080	owl:Class
+Human poliovirus 2	NCBITaxon:12083	owl:Class
+Human poliovirus 3	NCBITaxon:12086	owl:Class
+Human polyomavirus 1	NCBITaxon:1891762	owl:Class
+Human respiratory syncytial virus	NCBITaxon:11250	owl:Class
+Human respiratory syncytial virus A	NCBITaxon:208893	owl:Class
+Human respiratory syncytial virus B	NCBITaxon:208895	owl:Class
+Human rhinovirus A2	NCBITaxon:12130	owl:Class
+Human rhinovirus A89	NCBITaxon:12132	owl:Class
+Human rotavirus A	NCBITaxon:10941	owl:Class
+Infectious bronchitis virus	NCBITaxon:11120	owl:Class
+Infectious bursal disease virus	NCBITaxon:10995	owl:Class
+Infectious bursal disease virus E	NCBITaxon:31560	owl:Class
+Influenza A virus	NCBITaxon:11320	owl:Class
+Influenza A virus (A/Alaska/6/1977(H3N2))	NCBITaxon:385576	owl:Class
+Influenza A virus (A/X-31(H3N2))	NCBITaxon:132504	owl:Class
+Influenza A virus H3N2	NCBITaxon:41857	owl:Class
+Influenza B virus	NCBITaxon:11520	owl:Class
+Inia geoffrensis	NCBITaxon:9725	owl:Class
+JC polyomavirus	NCBITaxon:10632	owl:Class
+Japanese encephalitis virus	NCBITaxon:11072	owl:Class
+Japanese encephalitis virus strain SA-14	NCBITaxon:11073	owl:Class
+Junin mammarenavirus	NCBITaxon:11619	owl:Class
+Juniperus formosana	NCBITaxon:453927	owl:Class
+Juniperus saxicola	NCBITaxon:884045	owl:Class
+Kappapapillomavirus 2	NCBITaxon:10623	owl:Class
+Klebsiella pneumoniae	NCBITaxon:573	owl:Class
+Kunjin virus	NCBITaxon:11077	owl:Class
+Lactate dehydrogenase-elevating virus	NCBITaxon:11048	owl:Class
+Lactobacillus johnsonii	NCBITaxon:33959	owl:Class
+Lassa mammarenavirus	NCBITaxon:11620	owl:Class
+Lassa virus Josiah	NCBITaxon:11622	owl:Class
+Legionella pneumophila serogroup 1	NCBITaxon:66976	owl:Class
+Leishmania aethiopica	NCBITaxon:5667	owl:Class
+Leishmania amazonensis	NCBITaxon:5659	owl:Class
+Leishmania braziliensis	NCBITaxon:5660	owl:Class
+Leishmania donovani	NCBITaxon:5661	owl:Class
+Leishmania donovani donovani	NCBITaxon:99875	owl:Class
+Leishmania infantum	NCBITaxon:5671	owl:Class
+Leishmania major	NCBITaxon:5664	owl:Class
+Leishmania mexicana	NCBITaxon:5665	owl:Class
+Leishmania panamensis	NCBITaxon:5679	owl:Class
+Leishmania tropica	NCBITaxon:5666	owl:Class
+Lelystad virus	NCBITaxon:11049	owl:Class
+Leptospira interrogans serovar Lai	NCBITaxon:57678	owl:Class
+Leptospira sp. Akiyami A	NCBITaxon:94043	owl:Class
+Listeria innocua	NCBITaxon:1642	owl:Class
+Listeria monocytogenes	NCBITaxon:1639	owl:Class
+Lolium perenne	NCBITaxon:4522	owl:Class
+Lymphocytic choriomeningitis mammarenavirus	NCBITaxon:11623	owl:Class
+Lymphocytic choriomeningitis virus (strain Armstrong)	NCBITaxon:11624	owl:Class
+Lymphocytic choriomeningitis virus (strain WE)	NCBITaxon:11627	owl:Class
+Macaca fascicularis	NCBITaxon:9541	owl:Class
+Macaca mulatta polyomavirus 1	NCBITaxon:1891767	owl:Class
+Machupo mammarenavirus	NCBITaxon:11628	owl:Class
+Malus domestica	NCBITaxon:3750	owl:Class
+Mannheimia haemolytica	NCBITaxon:75985	owl:Class
+Measles virus	NCBITaxon:11234	owl:Class
+Measles virus genotypes and isolates	NCBITaxon:351680	owl:Class
+Megathura crenulata	NCBITaxon:55429	owl:Class
+Meleagris gallopavo	NCBITaxon:9103	owl:Class
+Merkel cell polyomavirus	NCBITaxon:493803	owl:Class
+Mesocricetus auratus	NCBITaxon:10036	owl:Class
+Micrurus corallinus	NCBITaxon:54390	owl:Class
+Moloney murine leukemia virus	NCBITaxon:11801	owl:Class
+Monkeypox virus	NCBITaxon:10244	owl:Class
+Moraxella catarrhalis	NCBITaxon:480	owl:Class
+Mouse mammary tumor virus	NCBITaxon:11757	owl:Class
+Multiple sclerosis associated retrovirus element	NCBITaxon:89382	owl:Class
+Mumps virus genotype G	NCBITaxon:1384672	owl:Class
+Mupapillomavirus 1	NCBITaxon:334203	owl:Class
+Murid betaherpesvirus 1	NCBITaxon:10366	owl:Class
+Murid gammaherpesvirus 4	NCBITaxon:33708	owl:Class
+Murine cytomegalovirus (strain Smith)	NCBITaxon:10367	owl:Class
+Murine hepatitis virus	NCBITaxon:11138	owl:Class
+Murine leukemia virus	NCBITaxon:11786	owl:Class
+Murine norovirus 1	NCBITaxon:223997	owl:Class
 Mus musculus	NCBITaxon:10090	owl:Class
+Muscovy duck parvovirus	NCBITaxon:37325	owl:Class
+Muscovy duck reovirus	NCBITaxon:77153	owl:Class
+Mycobacterium	NCBITaxon:1763	owl:Class
+Mycobacterium avium	NCBITaxon:1764	owl:Class
+Mycobacterium avium subsp. avium	NCBITaxon:44454	owl:Class
+Mycobacterium avium subsp. paratuberculosis	NCBITaxon:1770	owl:Class
+Mycobacterium bovis	NCBITaxon:1765	owl:Class
+Mycobacterium bovis BCG	NCBITaxon:33892	owl:Class
+Mycobacterium gastri	NCBITaxon:1777	owl:Class
+Mycobacterium kansasii	NCBITaxon:1768	owl:Class
+Mycobacterium leprae	NCBITaxon:1769	owl:Class
+Mycobacterium scrofulaceum	NCBITaxon:1783	owl:Class
+Mycobacterium tuberculosis	NCBITaxon:1773	owl:Class
+Mycoplasma gallisepticum	NCBITaxon:2096	owl:Class
+Mycoplasma hyopneumoniae	NCBITaxon:2099	owl:Class
+Mycoplasma penetrans	NCBITaxon:28227	owl:Class
+Narcine timlei	NCBITaxon:195316	owl:Class
+Neisseria gonorrhoeae	NCBITaxon:485	owl:Class
+Neisseria meningitidis	NCBITaxon:487	owl:Class
+Neisseria meningitidis H44/76	NCBITaxon:909420	owl:Class
+Neisseria meningitidis MC58	NCBITaxon:122586	owl:Class
+Neisseria meningitidis serogroup A	NCBITaxon:65699	owl:Class
+Neisseria meningitidis serogroup B	NCBITaxon:491	owl:Class
+Neisseria meningitidis serogroup C	NCBITaxon:135720	owl:Class
+Neisseria meningitidis serogroup Y	NCBITaxon:648194	owl:Class
+Neisseria meningitidis serogroup Z	NCBITaxon:525171	owl:Class
+Neovison vison	NCBITaxon:452646	owl:Class
+Newcastle disease virus	NCBITaxon:11176	owl:Class
+Nitrococcus mobilis	NCBITaxon:35797	owl:Class
+Norovirus	NCBITaxon:142786	owl:Class
+Norovirus GI	NCBITaxon:122928	owl:Class
+Norovirus GI.3	NCBITaxon:647516	owl:Class
+Norovirus GII	NCBITaxon:122929	owl:Class
+Norovirus GII.2	NCBITaxon:490039	owl:Class
+Norovirus GII.3	NCBITaxon:490041	owl:Class
+Norovirus GIII	NCBITaxon:340017	owl:Class
+Norovirus GIV.1	NCBITaxon:1160947	owl:Class
+Norovirus genogroup 1 isolates	NCBITaxon:235544	owl:Class
+Norwalk virus	NCBITaxon:11983	owl:Class
+Notamacropus eugenii	NCBITaxon:9315	owl:Class
+Orcinus orca	NCBITaxon:9733	owl:Class
+Orientia tsutsugamushi	NCBITaxon:784	owl:Class
+Oryctolagus cuniculus	NCBITaxon:9986	owl:Class
+Oryza sativa	NCBITaxon:4530	owl:Class
+Ovis aries	NCBITaxon:9940	owl:Class
+Pan troglodytes	NCBITaxon:9598	owl:Class
+Papio cynocephalus	NCBITaxon:9556	owl:Class
+Paraburkholderia fungorum	NCBITaxon:134537	owl:Class
+Paracoccidioides brasiliensis	NCBITaxon:121759	owl:Class
+Parietaria judaica	NCBITaxon:33127	owl:Class
+Parietaria officinalis	NCBITaxon:13187	owl:Class
+Pasteurella multocida	NCBITaxon:747	owl:Class
+Peste-des-petits-ruminants virus	NCBITaxon:31604	owl:Class
+Phleum pratense	NCBITaxon:15957	owl:Class
+Phocine distemper virus	NCBITaxon:11240	owl:Class
+Physeter catodon	NCBITaxon:9755	owl:Class
+Pichinde mammarenavirus	NCBITaxon:11630	owl:Class
+Pinus pinaster	NCBITaxon:71647	owl:Class
+Pinus taeda	NCBITaxon:3352	owl:Class
+Pistacia vera	NCBITaxon:55513	owl:Class
+Plasmodium berghei	NCBITaxon:5821	owl:Class
+Plasmodium chabaudi adami	NCBITaxon:5826	owl:Class
+Plasmodium falciparum	NCBITaxon:5833	owl:Class
+Plasmodium knowlesi	NCBITaxon:5850	owl:Class
+Plasmodium vivax	NCBITaxon:5855	owl:Class
+Plasmodium yoelii	NCBITaxon:5861	owl:Class
+Plasmodium yoelii killicki	NCBITaxon:283801	owl:Class
+Plasmodium yoelii yoelii	NCBITaxon:73239	owl:Class
+Plasmodium yoelii yoelii 17XNL	NCBITaxon:352914	owl:Class
+Platyrrhini	NCBITaxon:9479	owl:Class
+Plum pox virus	NCBITaxon:12211	owl:Class
+Populus trichocarpa	NCBITaxon:3694	owl:Class
+Porcine circovirus	NCBITaxon:46221	owl:Class
+Porcine circovirus 1	NCBITaxon:133704	owl:Class
+Porcine circovirus 2	NCBITaxon:85708	owl:Class
+Porcine endogenous retrovirus	NCBITaxon:61673	owl:Class
+Porcine epidemic diarrhea virus	NCBITaxon:28295	owl:Class
+Porcine parvovirus	NCBITaxon:10796	owl:Class
+Porcine reproductive and respiratory syndrome virus	NCBITaxon:28344	owl:Class
+Porcine transmissible gastroenteritis coronavirus strain Purdue	NCBITaxon:11151	owl:Class
+Porphyromonas gingivalis	NCBITaxon:837	owl:Class
+Potato virus Y	NCBITaxon:12216	owl:Class
+Proteus mirabilis	NCBITaxon:584	owl:Class
+Proteus penneri	NCBITaxon:102862	owl:Class
+Proteus vulgaris	NCBITaxon:585	owl:Class
+Protobothrops elegans	NCBITaxon:88086	owl:Class
+Providencia stuartii	NCBITaxon:588	owl:Class
+Pseudomonas aeruginosa	NCBITaxon:287	owl:Class
+Pseudomonas amygdali pv. morsprunorum	NCBITaxon:129138	owl:Class
+Pseudomonas avellanae	NCBITaxon:46257	owl:Class
+Pseudomonas putida	NCBITaxon:303	owl:Class
+Pseudomonas savastanoi pv. glycinea	NCBITaxon:318	owl:Class
+Pseudomonas savastanoi pv. phaseolicola	NCBITaxon:319	owl:Class
+Pseudomonas syringae pv. atrofaciens	NCBITaxon:192087	owl:Class
+Pseudomonas syringae pv. helianthi	NCBITaxon:251654	owl:Class
+Pseudomonas syringae pv. tagetis	NCBITaxon:129140	owl:Class
+Puumala hantavirus	NCBITaxon:11604	owl:Class
+Puumala virus Hallnas B1	NCBITaxon:11605	owl:Class
+Pythium insidiosum	NCBITaxon:114742	owl:Class
+Rabbit hemorrhagic disease virus	NCBITaxon:11976	owl:Class
+Rabies lyssavirus	NCBITaxon:11292	owl:Class
+Rattus norvegicus	NCBITaxon:10116	owl:Class
+Reticuloendotheliosis virus	NCBITaxon:11636	owl:Class
+Rhesus rotavirus	NCBITaxon:10969	owl:Class
+Rhipicephalus decoloratus	NCBITaxon:60189	owl:Class
+Rhipicephalus sanguineus	NCBITaxon:34632	owl:Class
+Rhodococcus equi	NCBITaxon:43767	owl:Class
+Ricinus communis	NCBITaxon:3988	owl:Class
+Rickettsia conorii	NCBITaxon:781	owl:Class
+Rift Valley fever virus	NCBITaxon:11588	owl:Class
+Rinderpest virus	NCBITaxon:11241	owl:Class
+Rotavirus G3	NCBITaxon:73036	owl:Class
+Rotavirus G4	NCBITaxon:35336	owl:Class
+Rotavirus G9	NCBITaxon:42567	owl:Class
+Rous sarcoma virus	NCBITaxon:11886	owl:Class
+Rubella virus	NCBITaxon:11041	owl:Class
+SARS coronavirus	NCBITaxon:227859	owl:Class
+Sabia mammarenavirus	NCBITaxon:45709	owl:Class
+Saccharomyces cerevisiae	NCBITaxon:4932	owl:Class
+Salmo salar	NCBITaxon:8030	owl:Class
+Salmonella	NCBITaxon:590	owl:Class
+Salmonella enterica	NCBITaxon:28901	owl:Class
+Salmonella enterica subsp. enterica serovar Dublin	NCBITaxon:98360	owl:Class
+Salmonella enterica subsp. enterica serovar Enteritidis	NCBITaxon:149539	owl:Class
+Salmonella enterica subsp. enterica serovar Gallinarum	NCBITaxon:594	owl:Class
+Salmonella enterica subsp. enterica serovar Gallinarum/pullorum	NCBITaxon:604	owl:Class
+Salmonella enterica subsp. enterica serovar Heidelberg	NCBITaxon:611	owl:Class
+Salmonella enterica subsp. enterica serovar Minnesota	NCBITaxon:70803	owl:Class
+Salmonella enterica subsp. enterica serovar Paratyphi A	NCBITaxon:54388	owl:Class
+Salmonella enterica subsp. enterica serovar Typhi	NCBITaxon:90370	owl:Class
+Salmonella enterica subsp. enterica serovar Typhimurium	NCBITaxon:90371	owl:Class
+Salmonella enterica subsp. enterica serovar Typhimurium str. DT104	NCBITaxon:85569	owl:Class
+Salmonella thompson C1	NCBITaxon:75555	owl:Class
+Schistosoma japonicum	NCBITaxon:6182	owl:Class
+Schistosoma mansoni	NCBITaxon:6183	owl:Class
+Schizophyllum commune	NCBITaxon:5334	owl:Class
+Secale cereale	NCBITaxon:4550	owl:Class
+Semliki Forest virus	NCBITaxon:11033	owl:Class
+Sendai virus	NCBITaxon:11191	owl:Class
+Serratia marcescens	NCBITaxon:615	owl:Class
+Sesamum indicum	NCBITaxon:4182	owl:Class
+Severe acute respiratory syndrome-related coronavirus	NCBITaxon:694009	owl:Class
+Shigella dysenteriae	NCBITaxon:622	owl:Class
+Shigella flexneri	NCBITaxon:623	owl:Class
+Shigella flexneri 5	NCBITaxon:373383	owl:Class
+Shigella sonnei	NCBITaxon:624	owl:Class
+Simian immunodeficiency virus	NCBITaxon:11723	owl:Class
+Simian immunodeficiency virus - mac	NCBITaxon:11711	owl:Class
+Simian immunodeficiency virus - sm	NCBITaxon:11712	owl:Class
+Sin Nombre hantavirus	NCBITaxon:37705	owl:Class
+Sinapis alba	NCBITaxon:3728	owl:Class
+Sindbis virus	NCBITaxon:11034	owl:Class
+Small ruminant lentivirus	NCBITaxon:254355	owl:Class
+Solanum lycopersicum	NCBITaxon:4081	owl:Class
+Spermatophyta	NCBITaxon:58024	owl:Class
+St. Louis encephalitis virus	NCBITaxon:11080	owl:Class
+Staphylococcus aureus	NCBITaxon:1280	owl:Class
+Staphylococcus aureus subsp. aureus	NCBITaxon:46170	owl:Class
+Streptococcus	NCBITaxon:1301	owl:Class
+Streptococcus agalactiae	NCBITaxon:1311	owl:Class
+Streptococcus agalactiae serogroup III	NCBITaxon:216495	owl:Class
+Streptococcus anginosus	NCBITaxon:1328	owl:Class
+Streptococcus criceti	NCBITaxon:1333	owl:Class
+Streptococcus downei	NCBITaxon:1317	owl:Class
+Streptococcus dysgalactiae	NCBITaxon:1334	owl:Class
+Streptococcus dysgalactiae subsp. equisimilis	NCBITaxon:119602	owl:Class
+Streptococcus mutans	NCBITaxon:1309	owl:Class
+Streptococcus mutans serotype C	NCBITaxon:40287	owl:Class
+Streptococcus oralis	NCBITaxon:1303	owl:Class
+Streptococcus pneumoniae	NCBITaxon:1313	owl:Class
+Streptococcus pyogenes	NCBITaxon:1314	owl:Class
+Streptococcus pyogenes serotype M12	NCBITaxon:342023	owl:Class
+Streptococcus pyogenes serotype M2	NCBITaxon:404330	owl:Class
+Streptococcus pyogenes serotype M3	NCBITaxon:301448	owl:Class
+Streptococcus pyogenes serotype M6	NCBITaxon:301450	owl:Class
+Streptococcus ratti	NCBITaxon:1341	owl:Class
+Streptococcus salivarius	NCBITaxon:1304	owl:Class
+Streptococcus sanguinis	NCBITaxon:1305	owl:Class
+Streptococcus sobrinus	NCBITaxon:1310	owl:Class
+Streptococcus sp. 'group B'	NCBITaxon:1319	owl:Class
+Streptococcus suis	NCBITaxon:1307	owl:Class
+Styela plicata	NCBITaxon:7726	owl:Class
+Suid alphaherpesvirus 1	NCBITaxon:10345	owl:Class
+Sus scrofa	NCBITaxon:9823	owl:Class
+Swine vesicular disease virus	NCBITaxon:12075	owl:Class
+Taenia crassiceps	NCBITaxon:6207	owl:Class
+Taenia solium	NCBITaxon:6204	owl:Class
+Tamiasciurus hudsonicus	NCBITaxon:10009	owl:Class
+Taylorella asinigenitalis	NCBITaxon:84590	owl:Class
+Tetronarce californica	NCBITaxon:7787	owl:Class
+Theiler's encephalomyelitis virus	NCBITaxon:12124	owl:Class
+Theiler's encephalomyelitis virus (STRAIN BEAN 8386)	NCBITaxon:12125	owl:Class
+Theileria annulata	NCBITaxon:5874	owl:Class
+Theileria parva	NCBITaxon:5875	owl:Class
+Theileria sergenti	NCBITaxon:5877	owl:Class
+Theromyzon tessulatum	NCBITaxon:13286	owl:Class
+Tick-borne encephalitis virus	NCBITaxon:11084	owl:Class
+Tick-borne encephalitis virus (WESTERN SUBTYPE)	NCBITaxon:11088	owl:Class
+Tobacco leaf curl Zimbabwe virus	NCBITaxon:223337	owl:Class
+Tobacco mosaic virus	NCBITaxon:12242	owl:Class
+Toxoplasma gondii	NCBITaxon:5811	owl:Class
+Transmissible gastroenteritis virus	NCBITaxon:11149	owl:Class
+Treponema pallidum	NCBITaxon:160	owl:Class
+Treponema pallidum subsp. pallidum	NCBITaxon:161	owl:Class
+Trichomonas vaginalis	NCBITaxon:5722	owl:Class
+Triticum aestivum	NCBITaxon:4565	owl:Class
+Triticum turgidum	NCBITaxon:4571	owl:Class
+Trueperella pyogenes	NCBITaxon:1661	owl:Class
+Trypanosoma brucei	NCBITaxon:5691	owl:Class
+Trypanosoma brucei rhodesiense	NCBITaxon:31286	owl:Class
+Trypanosoma cruzi	NCBITaxon:5693	owl:Class
+Vaccinia virus	NCBITaxon:10245	owl:Class
+Variola major virus	NCBITaxon:12870	owl:Class
+Variola virus	NCBITaxon:10255	owl:Class
+Venezuelan equine encephalitis virus	NCBITaxon:11036	owl:Class
+Vertebrata	NCBITaxon:7742	owl:Class
+Vibrio	NCBITaxon:662	owl:Class
+Vibrio cholerae	NCBITaxon:666	owl:Class
+Vibrio cholerae O1	NCBITaxon:127906	owl:Class
+Vibrio cholerae O139	NCBITaxon:45888	owl:Class
+Vipera aspis	NCBITaxon:8706	owl:Class
+Viruses	NCBITaxon:10239	owl:Class
+Visna/maedi virus	NCBITaxon:11741	owl:Class
+Vladivostok virus	NCBITaxon:74537	owl:Class
+Vulpes vulpes	NCBITaxon:9627	owl:Class
+West Nile virus	NCBITaxon:11082	owl:Class
+Western equine encephalitis virus	NCBITaxon:11039	owl:Class
+Whitewater Arroyo mammarenavirus	NCBITaxon:46919	owl:Class
+Woodchuck hepatitis virus 7	NCBITaxon:10432	owl:Class
+Yellow fever virus	NCBITaxon:11089	owl:Class
+Yersinia enterocolitica	NCBITaxon:630	owl:Class
+Yersinia enterocolitica (type O:8)	NCBITaxon:34054	owl:Class
+Yersinia pestis	NCBITaxon:632	owl:Class
+Yersinia pestis KIM10+	NCBITaxon:187410	owl:Class
+Yersinia pseudotuberculosis	NCBITaxon:633	owl:Class
+Yokenella regensburgei	NCBITaxon:158877	owl:Class
+Zika virus	NCBITaxon:64320	owl:Class
+[Candida] glabrata	NCBITaxon:5478	owl:Class
+[Haemophilus] ducreyi	NCBITaxon:730	owl:Class
+unidentified	NCBITaxon:32644	owl:Class

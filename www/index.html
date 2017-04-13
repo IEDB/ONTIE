@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IEDB Source of Truth</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/assets/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/assets/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">IEDB SoT</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <!--
+            <ul class="nav navbar-nav">
+              <li><a href="ontie.html">ONTIE</a></li>
+              <li><a href="api.html">API</a></li>
+            </ul>
+            -->
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <div id="content">
+<h1>IEDB Source of Truth</h1>
+
+<p>SoT is a system for dynamically creating, maintaining, and sharing an application ontology that builds on multiple reference resources. A reference resource could be a reference ontology such as OBI, or a similar non-ontological resource such as UniProt. We intend for the SoT system to be general, but the primary goal is to serve projects at LJI, including IEDB, LabKey database for HIPC and DORAS, TopCat, and Bioinformatics Core.</p>
+
+<p>The core of SoT is an application ontology (ONTIE) with its own terms and axioms. ONTIE builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept. We reuse terms from reference resources as much as possible, but when this is not possible we add terms to ONTIE. Examples include taxa not in NCBI Taxonomy, and proteins not in GenPept. New terms can be added to ONTIE immediately, and will be maintained indefinitely. However, if a better term is found in a reference ontology, the ONTIE term will be marked obsolete and mapped to the reference term.</p>
+
+<p>Each reference resource is pulled in and validated using an importer module. Specific versions of reference resources are used, and updates to reference resources are carefully checked for terms that have been dropped, added, merged, or had their logic changed.</p>
+
+<p>Users can search, browse, and query SoT (i.e. the union of ONTIE and the reference resources) using a uniform web-based interface and API. </p>
+
+<p>SoT consumers such as IEDB will usually have their own internal identifiers for terms, but must keep track of the IRIs for the terms they use from SoT. They can then query SoT using IRIs, ask whether the IRIs have been mapped to new IRIs, and get tables of data for those terms. Consumers can send their users to SoT to find and request terms, but the consumer is responsible for maintaining and displaying terms, local versions of labels and synonyms, and tree structure.</p>
+
+<p>SoT is public and does not contain secret or confidential information. Unauthenticated users can browse and search for terms. Authenticated users can request new terms by selecting a term template and filling in the required information. If SoT can validate that information, it immediately creates a new ONTIE term and provides the user with the new IRI.</p>
+
+<p>A secondary goal of SoT is to demonstrate tight integration across OBO Foundry ontologies. We intend for ONTIE to have a single, integrated and logically-consistent hierarchy, with a unified set of OWL annotation properties and object properties. The term creation and management aspect of SoT may also serve as a good example of how term request can percolate up from specific use-cases to community reference ontologies, while keeping the originating application ontology and annotated datasets in sync.</p>
+      </div> <!-- /content -->
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/assets/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

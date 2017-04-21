@@ -3254,3 +3254,5 @@ ONTIE:0003252	Abundant larval transcript-2 (Brugia malayi)	owl:Class	false
 ONTIE:0003253	immunoglobulin gamma3 heavy chain constant region (Bos taurus)	owl:Class	false	
 ONTIE:0003254	immunoglobulin gamma4 heavy chain variable region (Bos taurus)	owl:Class	false	
 ONTIE:0003255	URG11 (Homo sapiens)	owl:Class	false	
+ONTIE:0003256	protein taxon	owl:AnnotationProperty	false	
+ONTIE:0003257	protein label	owl:AnnotationProperty	false	

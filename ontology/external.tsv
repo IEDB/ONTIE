@@ -5,8 +5,12 @@ subclass of	rdfs:subClassOf > link	rdf:Property
 obsolete	owl:deprecated > xsd:boolean	owl:DatatypeProperty
 alternative term	obo:IAO_0000118	owl:AnnotationProperty
 IEDB alternative term	obo:OBI_9991118	owl:AnnotationProperty
+definition	obo:IAO_0000115	owl:AnnotationProperty
 rank	ncbitaxon:has_rank > link	owl:AnnotationProperty
 in taxon	obo:RO_0002162 > link	owl:ObjectProperty
+template	kn:apply-template > link	owl:AnnotationProperty
+protein label	ONTIE:0003257	owl:AnnotationProperty
+protein taxon	ONTIE:0003256 > link	owl:AnnotationProperty
 subspecies	NCBITaxon:subspecies	owl:Class
 no rank	NCBITaxon:no_rank	owl:Class
 protein	obo:PR_000000001	owl:Class

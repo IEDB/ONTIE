@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 @prefix obo: <http://purl.obolibrary.org/obo/>
+@prefix kn: <https://knotation.org/>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 @prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
 @prefix ONTIE: <https://ontology.iedb.org/ontology/ONTIE_>

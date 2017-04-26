@@ -6,6 +6,7 @@ obsolete	owl:deprecated > xsd:boolean	owl:DatatypeProperty
 alternative term	obo:IAO_0000118	owl:AnnotationProperty
 IEDB alternative term	obo:OBI_9991118	owl:AnnotationProperty
 definition	obo:IAO_0000115	owl:AnnotationProperty
+curator note	obo:IAO_0000232	owl:AnnotationProperty
 rank	ncbitaxon:has_rank > link	owl:AnnotationProperty
 in taxon	obo:RO_0002162 > link	owl:ObjectProperty
 template	kn:apply-template > link	owl:AnnotationProperty

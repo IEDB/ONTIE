@@ -7,6 +7,15 @@
    {"predicate": {"label": "label"},
     "content": "{protein label} ({protein taxon})"},
    {"predicate": {"label": "IEDB alternative term"},
-    "content": "{protein label}"}]}
-  ]}
+    "content": "{protein label}"},
+   {"predicate": {"label": "ONTIE domain"},
+    "content": "protein"}]},
+ {"label": "taxon class",
+  "iri": "https://ontology.iedb.org/templates/template_2",
+  "required-predicates": ["label", "parent taxon"],
+  "statements":
+  [{"predicate": {"label": "type"},
+    "content": "owl:Class"},
+   {"predicate": {"label": "ONTIE domain"},
+    "content": "taxon"}]}
 ]

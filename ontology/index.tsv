@@ -3256,3 +3256,5 @@ ONTIE:0003254	immunoglobulin gamma4 heavy chain variable region (Bos taurus)	owl
 ONTIE:0003255	URG11 (Homo sapiens)	owl:Class	false	
 ONTIE:0003256	protein taxon	owl:AnnotationProperty	false	
 ONTIE:0003257	protein label	owl:AnnotationProperty	false	
+ONTIE:0003258	parent taxon	owl:AnnotationProperty	false	
+ONTIE:0003259	ONTIE domain	owl:AnnotationProperty	false	

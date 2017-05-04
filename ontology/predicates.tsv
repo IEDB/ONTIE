@@ -1,0 +1,14 @@
+label	CURIE	datatype
+label	rdfs:label	plain
+type	rdf:type	link
+subclass of	rdfs:subClassOf	link
+obsolete	owl:deprecated	xsd:boolean
+alternative term	obo:IAO_0000118	plain
+IEDB alternative term	obo:OBI_9991118	plain
+definition	obo:IAO_0000115	plain
+curator note	obo:IAO_0000232	plain
+rank	ncbitaxon:has_rank	link
+in taxon	obo:RO_0002162	link
+template	kn:apply-template	link
+protein label	ONTIE:0003257	plain
+protein taxon	ONTIE:0003256	link

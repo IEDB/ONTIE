@@ -28,4 +28,16 @@ WHERE {
   OPTIONAL { ?taxon ONTIE:0003259 ?domain . }
   FILTER (!regex(str(?taxon), \"NCBITaxon_\") && ?domain != \"taxon\")
 }"}
+ {:label "ONTIE label must not duplicate NCBI Taxonomy label"
+  :iri "http://example.com/validation_4"
+  :select "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?label ?term1 ?term2
+WHERE {
+  GRAPH <https://ontology.iedb.org/ontology/ONTIE> {
+    ?term1 rdfs:label ?label .
+  }
+  GRAPH <http://purl.obolibrary.org/obo/NCBITaxon> {
+    ?term2 rdfs:label ?label .
+  }
+}"}
 ]

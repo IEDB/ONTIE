@@ -2051,13 +2051,13 @@ ONTIE:0002049	Cruzipain (Trypanosoma cruzi)	owl:Class	false
 ONTIE:0002050	Trans-sialidase (Trypanosoma cruzi)	owl:Class	false	
 ONTIE:0002051	mucin-associated surface protein (Trypanosoma cruzi)	owl:Class	false	
 ONTIE:0002052	B13 antigen (Trypanosoma cruzi)	owl:Class	false	
-ONTIE:0002053	Large structural phosphoprotein (Human betaherpesvirus 5)	owl:Class	false	
+ONTIE:0002053	Large structural phosphoprotein [ONTIE:0002053] (Human betaherpesvirus 5)	owl:Class	false	
 ONTIE:0002054	major DNA binding protein (Bovine alphaherpesvirus 1)	owl:Class	false	
 ONTIE:0002055	35-KDa protein (Plasmodium falciparum)	owl:Class	false	
 ONTIE:0002056	55-KDa protein (Plasmodium falciparum)	owl:Class	false	
 ONTIE:0002057	hepatocyte erythrocyte protein 17 kDa (Plasmodium yoelii)	owl:Class	false	
 ONTIE:0002058	Fag e 1 (Fagopyrum esculentum)	owl:Class	false	
-ONTIE:0002059	Large structural phosphoprotein (Human betaherpesvirus 5)	owl:Class	false	
+ONTIE:0002059	Large structural phosphoprotein [ONTIE:0002059] (Human betaherpesvirus 5)	owl:Class	false	
 ONTIE:0002060	HLA class II histocompatibility antigen, DRB1 beta chain (Homo sapiens)	owl:Class	false	
 ONTIE:0002061	surface protein 9B (Schistosoma mansoni)	owl:Class	false	
 ONTIE:0002062	170 kDa surface lectin (Entamoeba histolytica)	owl:Class	false	
@@ -2211,7 +2211,7 @@ ONTIE:0002209	membrane-spanning 4-domains, subfamily A, member 1 (Homo sapiens)	
 ONTIE:0002210	early phosphoprotein P34 (Human gammaherpesvirus 4)	owl:Class	false	
 ONTIE:0002211	Antigen 85-B (Mycobacterium leprae)	owl:Class	false	
 ONTIE:0002212	interferon, gamma-inducible protein (Homo sapiens)	owl:Class	false	
-ONTIE:0002213	lactate dehydrogenase (Papio cynocephalus)	owl:Class	false	
+ONTIE:0002213	lactate dehydrogenase [ONTIE:0002213] (Papio cynocephalus)	owl:Class	false	
 ONTIE:0002214	Protective antigen (Taenia solium)	owl:Class	false	
 ONTIE:0002215	CD23; Low affinity IgE receptor; Fc epsilon RII (Homo sapiens)	owl:Class	false	
 ONTIE:0002216	thyroid stimulating hormone, beta (Homo sapiens)	owl:Class	false	
@@ -2426,7 +2426,7 @@ ONTIE:0002424	RNA-directed RNA polymerase L (Human metapneumovirus)	owl:Class	fa
 ONTIE:0002425	Protein E6 (Human papillomavirus type 16)	owl:Class	false	
 ONTIE:0002426	Protein E7 (Human papillomavirus type 16)	owl:Class	false	
 ONTIE:0002427	Major capsid protein L1 (Human papillomavirus type 16)	owl:Class	false	
-ONTIE:0002428	lactate dehydrogenase (Papio cynocephalus)	owl:Class	false	
+ONTIE:0002428	lactate dehydrogenase [ONTIE:0002428] (Papio cynocephalus)	owl:Class	false	
 ONTIE:0002429	RNA polymerase (Rabies lyssavirus)	owl:Class	false	
 ONTIE:0002430	non-structural protein (Muscovy duck parvovirus)	owl:Class	false	
 ONTIE:0002431	Proteinase-activated receptor 4 (Homo sapiens)	owl:Class	false	
@@ -2916,7 +2916,7 @@ ONTIE:0002914	Hemolysin activator protein (Two-partner secretion system accessor
 ONTIE:0002915	Mycobacterium tuberculosis proteins (reference genome GI: 135) (Mycobacterium tuberculosis)	owl:Class	false	
 ONTIE:0002916	GCR homolog (Murid betaherpesvirus 1)	owl:Class	false	
 ONTIE:0002917	Structural protein (Murid betaherpesvirus 1)	owl:Class	false	
-ONTIE:0002918	US22 family homolog (Murid betaherpesvirus 1)	owl:Class	false	
+ONTIE:0002918	US22 family homolog [ONTIE:0002918] (Murid betaherpesvirus 1)	owl:Class	false	
 ONTIE:0002919	PREDICTED: similar to filaggrin (Mus musculus)	owl:Class	false	
 ONTIE:0002920	polyprotein (Hepatitis C virus)	owl:Class	false	
 ONTIE:0002921	Early nuclear nonstructural protein (Murid betaherpesvirus 1)	owl:Class	false	
@@ -2927,7 +2927,7 @@ ONTIE:0002925	DNA helicase (Murid betaherpesvirus 1)	owl:Class	false
 ONTIE:0002926	apolipoprotein B-100 precursor (Homo sapiens)	owl:Class	false	
 ONTIE:0002927	apolipoprotein(a) precursor (Homo sapiens)	owl:Class	false	
 ONTIE:0002928	hypothetical protein (Severe acute respiratory syndrome-related coronavirus)	owl:Class	false	
-ONTIE:0002929	US22 family homolog (Murid betaherpesvirus 1)	owl:Class	false	
+ONTIE:0002929	US22 family homolog [ONTIE:0002929] (Murid betaherpesvirus 1)	owl:Class	false	
 ONTIE:0002930	hypothetical protein CLJ_B1853 (Clostridium botulinum)	owl:Class	false	
 ONTIE:0002931	integrin alpha-1 precursor (Homo sapiens)	owl:Class	false	
 ONTIE:0002932	cytochrome b-c1 complex subunit 6, mitochondrial (Homo sapiens)	owl:Class	false	

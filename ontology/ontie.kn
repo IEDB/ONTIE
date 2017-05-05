@@ -13781,7 +13781,7 @@ alternative term: CA-2
 
 : ONTIE:0002053
 template: protein class
-protein label: Large structural phosphoprotein
+protein label: Large structural phosphoprotein [ONTIE:0002053]
 protein taxon: Human betaherpesvirus 5
 alternative term: pp150
 alternative term: 150 kDa matrix phosphoprotein
@@ -13824,7 +13824,7 @@ alternative term: Legumin-like protein 3
 
 : ONTIE:0002059
 template: protein class
-protein label: Large structural phosphoprotein
+protein label: Large structural phosphoprotein [ONTIE:0002059]
 protein taxon: Human betaherpesvirus 5
 alternative term: pp150
 alternative term: 150 kDa matrix phosphoprotein
@@ -14650,7 +14650,7 @@ protein taxon: Homo sapiens
 
 : ONTIE:0002213
 template: protein class
-protein label: lactate dehydrogenase
+protein label: lactate dehydrogenase [ONTIE:0002213]
 protein taxon: Papio cynocephalus
 
 : ONTIE:0002214
@@ -15868,7 +15868,7 @@ protein taxon: Human papillomavirus type 16
 
 : ONTIE:0002428
 template: protein class
-protein label: lactate dehydrogenase
+protein label: lactate dehydrogenase [ONTIE:0002428]
 protein taxon: Papio cynocephalus
 
 : ONTIE:0002429
@@ -19068,7 +19068,7 @@ alternative term: MuHV1_gpM104
 
 : ONTIE:0002918
 template: protein class
-protein label: US22 family homolog
+protein label: US22 family homolog [ONTIE:0002918]
 protein taxon: Murid betaherpesvirus 1
 alternative term: MuHV1_gpm139
 
@@ -19133,7 +19133,7 @@ alternative term: BSCRV-672_gp11
 
 : ONTIE:0002929
 template: protein class
-protein label: US22 family homolog
+protein label: US22 family homolog [ONTIE:0002929]
 protein taxon: Murid betaherpesvirus 1
 alternative term: MuHV1_gpm141
 

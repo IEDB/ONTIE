@@ -12,3 +12,4 @@ in taxon	obo:RO_0002162	link
 template	kn:apply-template	link
 protein label	ONTIE:0003257	plain
 protein taxon	ONTIE:0003256	link
+parent taxon	ONTIE:0003258	link

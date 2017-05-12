@@ -5,6 +5,7 @@ subclass of	rdfs:subClassOf	link
 obsolete	owl:deprecated	xsd:boolean
 alternative term	obo:IAO_0000118	plain
 IEDB alternative term	obo:OBI_9991118	plain
+replacement	obo:IAO_0100001	link
 definition	obo:IAO_0000115	plain
 curator note	obo:IAO_0000232	plain
 rank	ncbitaxon:has_rank	link

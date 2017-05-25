@@ -7,3 +7,4 @@
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 @prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
 @prefix ONTIE: <https://ontology.iedb.org/ontology/ONTIE_>
+@prefix EXAMPLE: <https://example.com/ontology/EXAMPLE_>

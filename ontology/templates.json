@@ -16,6 +16,8 @@
   "statements":
   [{"predicate": {"label": "type"},
     "content": "owl:Class"},
+   {"predicate": {"label": "subclass of"},
+    "content": "{parent taxon}"},
    {"predicate": {"label": "ONTIE domain"},
     "content": "taxon"}]}
 ]

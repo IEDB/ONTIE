@@ -44,6 +44,12 @@ IRI	label	recognized	obsolete	replacement
 https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
 ```
 
+If the query parameter `show-headers` is `false`, then the header row is omitted, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv?show-headers=false](/ontology/ONTIE_0000001.tsv?show-headers=false):
+
+```
+https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
+```
+
 The `select` query parameter controls the columns that are returned. Provide a comma-separated list of predicate labels, or one of the special values: `IRI`, `CURIE`, `recognized`. The order of predicates is respected in the returned data. For example, [https://ontology.iedb.org/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term](/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term):
 
 ```
@@ -60,6 +66,13 @@ CURIE	replacement
 ONTIE:0002059	ONTIE:0002053
 ```
 
+If the name of a predicate in a `select` is followed by `[IRI]`, `[CURIE]`, or `[label]`, then the system will attempt to return values for the column in the format. For example: [https://ontology.iedb.org/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20\[CURIE\],replacement%20\[label\]](/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20[CURIE],replacement%20[label]):
+
+```
+CURIE	replacement [CURIE]	replacement [label]
+ONTIE:0002059	ONTIE:0002053	Large structural phosphoprotein (Human betaherpesvirus 5)
+```
+
 
 ## Multiple Ontology Terms
 
@@ -68,7 +81,7 @@ Information about multiple ontology terms can be retrieved at these IRIs:
 - [https://ontology.iedb.org/ontology/](/ontology/)
 - [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE)
 
-The `format` query parameter can be used to select between `html`, `ttl`, `json`, and `tsv` formats. For TSV, the `select` and `compact` query parameters can be used, as above. For any of the formats, `CURIE` and `IRI` query parameters can be set to include either one term or multiple terms:
+The `format` query parameter can be used to select between `html`, `ttl`, `json`, and `tsv` formats. For TSV, the `select`, `compact`, and `show-headers` query parameters can be used, as above. For any of the formats, `CURIE` and `IRI` query parameters can be set to include either one term or multiple terms:
 
 - For a single term, use the equality operator `eq.`, for example [https://ontology.iedb.org/ontology/?CURIE=eq.ONTIE:0000001](/ontology/?CURIE=eq.ONTIE:0000001).
 - For multiple terms, use the `in.` operator and provide a space-separated list: [https://ontology.iedb.org/ontology/?CURIE=in.ONTIE:0000001%20ONTIE:0000002](/ontology/?CURIE=in.ONTIE:0000001%20ONTIE:0000002)

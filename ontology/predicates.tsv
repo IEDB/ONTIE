@@ -1,16 +1,17 @@
 label	CURIE	datatype	cardinality
-label	rdfs:label	plain	one
-type	rdf:type	link	one or more
-subclass of	rdfs:subClassOf	link	zero or more
 obsolete	owl:deprecated	xsd:boolean	zero or one
-alternative term	obo:IAO_0000118	plain	zero or more
-IEDB alternative term	obo:OBI_9991118	plain	zero or one
 replacement	obo:IAO_0100001	link	zero or one
+type	rdf:type	link	one or more
+label	rdfs:label	plain	one
+alternative term	obo:IAO_0000118	plain	zero or more
 definition	obo:IAO_0000115	plain	zero or one
+IEDB alternative term	obo:OBI_9991118	plain	zero or one
+subclass of	rdfs:subClassOf	link	zero or more
 curator note	obo:IAO_0000232	plain	zero or more
 rank	ncbitaxon:has_rank	link	zero or one
 in taxon	obo:RO_0002162	link	zero or one
 template	kn:apply-template	link	zero or more
+ONTIE domain	ONTIE:0003259	plain	zero or one
 protein label	ONTIE:0003257	plain	zero or one
 protein taxon	ONTIE:0003256	link	zero or one
 parent taxon	ONTIE:0003258	link	zero or one

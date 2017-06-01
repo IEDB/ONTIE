@@ -6,5 +6,6 @@
 @prefix kn: <https://knotation.org/>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 @prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
+@prefix MRO: <http://purl.obolibrary.org/obo/MRO_>
 @prefix ONTIE: <https://ontology.iedb.org/ontology/ONTIE_>
 @prefix EXAMPLE: <https://example.com/ontology/EXAMPLE_>

@@ -19,6 +19,7 @@ Acinetobacter lwoffii	NCBITaxon:28090	owl:Class
 Actinobacillus pleuropneumoniae	NCBITaxon:715	owl:Class
 Adeno-associated virus	NCBITaxon:272636	owl:Class
 Aegilops speltoides	NCBITaxon:4573	owl:Class
+African horse sickness virus	NCBITaxon:40050	owl:Class
 African swine fever virus	NCBITaxon:10497	owl:Class
 Aggregatibacter actinomycetemcomitans	NCBITaxon:714	owl:Class
 Agrobacterium tumefaciens	NCBITaxon:358	owl:Class
@@ -56,6 +57,7 @@ Balaenoptera physalus	NCBITaxon:9770	owl:Class
 Bertholletia excelsa	NCBITaxon:3645	owl:Class
 Betula pendula	NCBITaxon:3505	owl:Class
 Bifidobacterium breve	NCBITaxon:1685	owl:Class
+Bifidobacterium thermacidophilum	NCBITaxon:246618	owl:Class
 Blastomyces dermatitidis	NCBITaxon:5039	owl:Class
 Blattella germanica	NCBITaxon:6973	owl:Class
 Bluetongue virus 16	NCBITaxon:45029	owl:Class
@@ -205,8 +207,10 @@ Goose parvovirus	NCBITaxon:38251	owl:Class
 Guanarito mammarenavirus	NCBITaxon:45219	owl:Class
 H10N4 subtype	NCBITaxon:222772	owl:Class
 H10N5 subtype	NCBITaxon:183666	owl:Class
+H10N7 subtype	NCBITaxon:102801	owl:Class
 H11N1 subtype	NCBITaxon:127960	owl:Class
 H12N5 subtype	NCBITaxon:142951	owl:Class
+H14N6 subtype	NCBITaxon:309405	owl:Class
 H1N1 subtype	NCBITaxon:114727	owl:Class
 H1N1 swine influenza virus	NCBITaxon:36420	owl:Class
 H1N2 subtype	NCBITaxon:114728	owl:Class
@@ -217,9 +221,11 @@ H3N3 subtype	NCBITaxon:215851	owl:Class
 H5N1 subtype	NCBITaxon:102793	owl:Class
 H5N2 subtype	NCBITaxon:119220	owl:Class
 H5N3 subtype	NCBITaxon:119221	owl:Class
+H6N1 subtype	NCBITaxon:119212	owl:Class
 H6N2 subtype	NCBITaxon:119213	owl:Class
 H7N2 subtype	NCBITaxon:119214	owl:Class
 H7N7 subtype	NCBITaxon:119218	owl:Class
+H8N4 subtype	NCBITaxon:142943	owl:Class
 H9N2 subtype	NCBITaxon:102796	owl:Class
 Haemophilus influenzae	NCBITaxon:727	owl:Class
 Hantaan hantavirus	NCBITaxon:11599	owl:Class
@@ -365,6 +371,7 @@ Mycobacterium gastri	NCBITaxon:1777	owl:Class
 Mycobacterium kansasii	NCBITaxon:1768	owl:Class
 Mycobacterium leprae	NCBITaxon:1769	owl:Class
 Mycobacterium scrofulaceum	NCBITaxon:1783	owl:Class
+Mycobacterium smegmatis	NCBITaxon:1772	owl:Class
 Mycobacterium tuberculosis	NCBITaxon:1773	owl:Class
 Mycoplasma gallisepticum	NCBITaxon:2096	owl:Class
 Mycoplasma hyopneumoniae	NCBITaxon:2099	owl:Class
@@ -393,6 +400,7 @@ Norovirus GIV.1	NCBITaxon:1160947	owl:Class
 Norovirus genogroup 1 isolates	NCBITaxon:235544	owl:Class
 Norwalk virus	NCBITaxon:11983	owl:Class
 Notamacropus eugenii	NCBITaxon:9315	owl:Class
+Onchocerca volvulus	NCBITaxon:6282	owl:Class
 Orcinus orca	NCBITaxon:9733	owl:Class
 Orientia tsutsugamushi	NCBITaxon:784	owl:Class
 Oryctolagus cuniculus	NCBITaxon:9986	owl:Class

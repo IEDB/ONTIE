@@ -3258,3 +3258,46 @@ ONTIE:0003256	protein taxon	owl:AnnotationProperty	false
 ONTIE:0003257	protein label	owl:AnnotationProperty	false	
 ONTIE:0003258	parent taxon	owl:AnnotationProperty	false	
 ONTIE:0003259	ONTIE domain	owl:AnnotationProperty	false	
+ONTIE:0003260	Leishmania amazonensis IFLA/BR/67/PH8	owl:Class	false	
+ONTIE:0003261	ZIKV/H. sapiens/Malaysia/P6740/1947	owl:Class	false	
+ONTIE:0003262	Influenza A virus (A/Louisiana/08/2013 (H1N1))	owl:Class	false	
+ONTIE:0003263	Influenza A virus (A/duck/Vietnam/NCVD-664/2010(H5N1))	owl:Class	false	
+ONTIE:0003264	Influenza A virus (A/duck/Vietnam/NCVD-680/2011(H5N1))	owl:Class	false	
+ONTIE:0003265	Influenza A virus (A/Taiwan/2/2013(H6N1))	owl:Class	false	
+ONTIE:0003266	Influenza A virus (A/garganey/Ukraine/05835-NAMRU3/2006(H8N4))	owl:Class	false	
+ONTIE:0003267	Influenza A virus (A/chicken/Vietnam/NCVD-1156/2011(H9N2))	owl:Class	false	
+ONTIE:0003268	Influenza A virus (A/chicken/Bangladesh/OP-4/2013(H9N2))	owl:Class	false	
+ONTIE:0003269	Influenza A virus (A/environment/Bangladesh/OE-09/2013(H9N2))	owl:Class	false	
+ONTIE:0003270	Influenza A virus (A/quail/Bangladesh/337/2013(H9N2))	owl:Class	false	
+ONTIE:0003271	Influenza A virus (A/Hong Kong/308/2014(H9N2))	owl:Class	false	
+ONTIE:0003272	Influenza A virus (A/Ohio/88/2012(H3N2))	owl:Class	false	
+ONTIE:0003273	Influenza A virus (A/duck/Vietnam/NCVD-0035/2012(H10N7))	owl:Class	false	
+ONTIE:0003274	Influenza A virus (A/garganey/Ukraine/05839-NAMRU3/2006(H14N6))	owl:Class	false	
+ONTIE:0003275	polyketide synthase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003276	5-oxoprolinase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003277	MerR family transcriptional regulator (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003278	haloalkane dehalogenase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003279	short-chain dehydrogenase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003280	Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003281	methionine tRNA ligase (Mycobacterium bovis)	owl:Class	false	
+ONTIE:0003282	50S ribosomal protein L10 (Mycobacterium smegmatis)	owl:Class	false	
+ONTIE:0003283	30S ribosomal protein S1 (Mycobacterium smegmatis)	owl:Class	false	
+ONTIE:0003284	outer surface protein C (Borreliella afzelii)	owl:Class	false	
+ONTIE:0003285	androgen receptor (Homo sapiens)	owl:Class	false	
+ONTIE:0003286	transcription initiation factor TFIID (Homo sapiens)	owl:Class	false	
+ONTIE:0003287	TDP43 (Homo sapiens)	owl:Class	false	
+ONTIE:0003288	ASH1 (Homo sapiens)	owl:Class	false	
+ONTIE:0003289	phosphorylated adapter RNA export protein (Homo sapiens)	owl:Class	false	
+ONTIE:0003290	tektin-3 (Homo sapiens)	owl:Class	false	
+ONTIE:0003291	RING12 (Homo sapiens)	owl:Class	false	
+ONTIE:0003292	olfactory receptor 10J4olfactory receptor 10J4 (Homo sapiens)	owl:Class	false	
+ONTIE:0003293	regulatory protein IE1 (Human betaherpesvirus 5)	owl:Class	false	
+ONTIE:0003294	alternatively spliced Insulin (Homo sapiens)	owl:Class	false	
+ONTIE:0003295	ABC transporter permease (Bifidobacterium thermacidophilum)	owl:Class	false	
+ONTIE:0003296	nonstructural protein NS4 (African horse sickness virus)	owl:Class	false	
+ONTIE:0003297	toll-like receptor 2 (Ovis aries)	owl:Class	false	
+ONTIE:0003298	Onchocerca volvulus protein (Onchocerca volvulus)	owl:Class	false	
+ONTIE:0003299	type VII secretion protein EsxH (Mycobacterium tuberculosis)	owl:Class	false	
+ONTIE:0003300	phosphate ABC transporter substrate-binding protein (Mycobacterium tuberculosis)	owl:Class	false	
+ONTIE:0003301	ribosomal-protein-alanine acetyltransferase rimJ (Mycobacterium tuberculosis)	owl:Class	false	
+ONTIE:0003302	thiol:disulfide interchange protein (Mycobacterium tuberculosis)	owl:Class	false	

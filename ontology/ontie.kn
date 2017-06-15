@@ -9,6 +9,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus BALB/c A2/Kb Tg
 parent taxon: Mus musculus BALB/c HLA Transgenic
+parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
 : ONTIE:0000003
@@ -55,6 +56,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus BALB/c HLA-B27 Tg human beta2m Tg
 parent taxon: Mus musculus BALB/c HLA Transgenic
+parent taxon: Mus musculus HLA-B27 Tg
 rank: subspecies
 
 : ONTIE:0000010
@@ -93,18 +95,21 @@ label: Mus musculus BALB/c X A/J
 alternative term: CAF1
 alternative term: CAF1/J
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus A/J
 rank: subspecies
 
 : ONTIE:0000015
 template: taxon class
 label: Mus musculus BALB/c X B10.BR
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000016
 template: taxon class
 label: Mus musculus BALB/c X C3H
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus C3H Crosses
 rank: subspecies
 
 : ONTIE:0000017
@@ -112,12 +117,14 @@ template: taxon class
 label: Mus musculus BALB/c X C57BL/10
 alternative term: BALB/c X B10
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000018
 template: taxon class
 label: Mus musculus BALB/c X DBA/2
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
 : ONTIE:0000019
@@ -181,6 +188,7 @@ rank: subspecies
 : ONTIE:0000028
 template: taxon class
 label: Mus musculus C3H X DBA/2
+parent taxon: Mus musculus C3H Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -234,6 +242,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C3H/FeJ X C57BL/6
 alternative term: C3FeB6F1
+parent taxon: Mus musculus C3H Crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -250,6 +259,7 @@ label: Mus musculus 3A9 TCR Tg
 alternative term: HEL(48-62)-specific TCR Tg
 alternative term: Tg(TcrHEL3A9)1Mmd
 alternative term: DGSTDYGILQINSRWW-specific TCR Tg
+parent taxon: Mus musculus C3H
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -263,6 +273,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C3HeB X DBA/2
 alternative term: C3HeB/FeJ X DBA/2
+parent taxon: Mus musculus C3H Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -298,6 +309,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/10 HLA-DR3 Tg IAbeta null
 alternative term: DR3 Tg IAb null B10
+parent taxon: Mus musculus C57BL/10
 parent taxon: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
@@ -305,6 +317,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/10 X C3H/HeJ
 alternative term: B10 X C3H/HeJ
+parent taxon: Mus musculus C3H Crosses
 parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
@@ -312,6 +325,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/10 X DBA/2
 alternative term: B10.D2
+parent taxon: Mus musculus B10 Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -433,6 +447,7 @@ template: taxon class
 label: Mus musculus C57BL/6 A11/Kb Tg
 alternative term: A11/Kb Tg B6
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-A Transgenic
 rank: subspecies
 
 : ONTIE:0000065
@@ -477,6 +492,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A*0201 Tg human CD8 Tg
 alternative term: HLA-A*0201 Tg human CD8 Tg B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -484,25 +500,33 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A*0201/Kb Tg
 alternative term: A*0201/Kb Tg B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
 : ONTIE:0000072
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A*0201/Kb Tg X BALB/c
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus HLA-A2 Tg
+parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
 : ONTIE:0000073
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A*1101/Kb Tg X BALB/c
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus HLA-A Transgenic
+parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
 : ONTIE:0000074
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A2 Tg
 alternative term: HLA-A2 Tg B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -510,12 +534,15 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A2.1/Db Tg HLA-DR1 Tg H2-I null H2-II null
 parent taxon: Mus musculus HLA-A2 Tg
+parent taxon: Mus musculus HLA-DR1 Tg
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
 : ONTIE:0000076
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg
 alternative term: A2.1/Kb Tg B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -523,13 +550,17 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg Db null Kb null
 alternative term: A2.1/Kb Tg Db null Kb null B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
 : ONTIE:0000078
 template: taxon class
 label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg X SLJ
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus HLA-A2 Tg
+parent taxon: Mus musculus SJL
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
 : ONTIE:0000079
@@ -537,25 +568,31 @@ template: taxon class
 label: Mus musculus C57BL/6 HLA-A2/Kb Tg
 alternative term: A2.1/Kb Tg B6
 alternative term: A2/Kb Tg B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
 : ONTIE:0000080
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B*0702/Kb Tg X BALB/c
+parent taxon: Mus musculus C57BL/6 Crosses
+parent taxon: Mus musculus C57BL/6 TCR transgenic
 parent taxon: Mus musculus HLA-B7 Tg
+parent taxon: Mus musculus BALB/c crosses
 rank: subspecies
 
 : ONTIE:0000081
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B*07021/Kb Tg Db null Kb null
 alternative term: HLA-B*07021/Kb Tg Db null Kb null B6
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-B7 Tg
 rank: subspecies
 
 : ONTIE:0000082
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B*2705 Tg
+parent taxon: Mus musculus HLA-B27 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
@@ -563,6 +600,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B*27052/Kb Tg Db null Kb null
 alternative term: HLA-B*27052/Kb Tg Db null Kb null B6
+parent taxon: Mus musculus HLA-B27 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
@@ -570,6 +608,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B27 Tg H-2 Kb null Db null
 alternative term: HLA-B27/H2 DKO
+parent taxon: Mus musculus HLA-B27 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
@@ -578,6 +617,7 @@ template: taxon class
 label: Mus musculus C57BL/6 HLA-DR2 Tg
 alternative term: HLA-DR2 Tg B6
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-DR2 Tg
 rank: subspecies
 
 : ONTIE:0000086
@@ -585,6 +625,7 @@ template: taxon class
 label: Mus musculus C57BL/6 HLA-DR4 Tg
 alternative term: DR4 Tg B6
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-DR4 Tg
 rank: subspecies
 
 : ONTIE:0000087
@@ -665,6 +706,7 @@ rank: subspecies
 : ONTIE:0000097
 template: taxon class
 label: Mus musculus C57BL/6 Prp null
+parent taxon: Mus musculus C57BL/6
 parent taxon: Mus musculus PrP null
 rank: subspecies
 
@@ -711,6 +753,7 @@ template: taxon class
 label: Mus musculus C57BL/6 X B10.D2
 alternative term: B6 X B10.D2
 parent taxon: Mus musculus C57BL/6 Crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000104
@@ -874,12 +917,14 @@ rank: subspecies
 template: taxon class
 label: Mus musculus (BALB/c X C57BL/10) Db null Kb null
 alternative term: Db null Kb null CB10
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000131
 template: taxon class
 label: Mus musculus (C57BL/10 X DBA/2) InsHA Tg
+parent taxon: Mus musculus B10 Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -888,12 +933,14 @@ template: taxon class
 label: Mus musculus (C57BL/6 X 129/SV) p53 null
 alternative term: p53 null B6 x 129/SV
 parent taxon: Mus musculus C57BL/6 Crosses
+parent taxon: Mus musculus 129
 rank: subspecies
 
 : ONTIE:0000133
 template: taxon class
 label: Mus musculus (C57BL/6 X BALB/c) H2bm8
 alternative term: B6.C-H2bm8
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -918,6 +965,7 @@ alternative term: CB6
 alternative term: CB6F1
 alternative term: CB6F1J
 alternative term: CB6F1/J
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -925,6 +973,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 X BALB/c-H2dm2
 alternative term: B6 X dm2
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -932,6 +981,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 X C3H
 alternative term: B6C3F1
+parent taxon: Mus musculus C3H Crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -946,6 +996,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 X DBA/2
 alternative term: B6.D2
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -980,6 +1031,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6-Tg(HLA-A2.1)1Enge
 alternative term: C57BL/6-Tg(HLA-A2.1)1Enge/J
+parent taxon: Mus musculus C57BL/6 HLA transgenic
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -1004,6 +1056,7 @@ rank: subspecies
 : ONTIE:0000148
 template: taxon class
 label: Mus musculus CBA /J HLA-B*2705 Tg
+parent taxon: Mus musculus CBA
 parent taxon: Mus musculus HLA-B27 Tg
 rank: subspecies
 
@@ -1017,6 +1070,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus CBA X BALB/c
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus CBA
 rank: subspecies
 
 : ONTIE:0000151
@@ -1038,6 +1092,7 @@ rank: subspecies
 : ONTIE:0000153
 template: taxon class
 label: Mus musculus CBA/Ca 2Kb/HLA-G Tg human beta2m Tg human CD8alpha Tg
+parent taxon: Mus musculus CBA
 parent taxon: Mus musculus HLA Transgenic
 rank: subspecies
 
@@ -1089,6 +1144,7 @@ template: taxon class
 label: Mus musculus (C57BL/6 X BALB/c) Tg(HBV 1.3 genome)chi32
 alternative term: 1.3.32 Tg CB6F1
 alternative term: CB6F1 Tg(HBV 1.3 genome)chi32
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -1097,6 +1153,7 @@ template: taxon class
 label: Mus musculus (C57BL/6 X DBA/2) Tg(HBV 1.3 genome)chi32
 alternative term: 1.3.32 Tg B6.D2
 alternative term: B6.D2 Tg(HBV 1.3 genome)chi32
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus DBA Crosses
 rank: subspecies
 
@@ -1370,6 +1427,7 @@ alternative term: (C57BL/6 X DBA/2) P14 TCR Tg
 alternative term: LCMV GP33-specific TCR Tg
 alternative term: Tg(TcrLCMV)327Sdz
 alternative term: Tg(TcrLCMV)318Sdz
+parent taxon: Mus musculus C57BL/6 TCR transgenic
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -3068,12 +3126,14 @@ rank: subspecies
 template: taxon class
 label: Mus musculus FVB/N HLA-DR1 Tg
 parent taxon: Mus musculus HLA-DR1 Tg
+parent taxon: Mus musculus FVB
 rank: subspecies
 
 : ONTIE:0000481
 template: taxon class
 label: Mus musculus FVB/N HLA-DRB1*0101 Tg
 parent taxon: Mus musculus HLA-DRB1*0101 Tg
+parent taxon: Mus musculus FVB
 rank: subspecies
 
 : ONTIE:0000482
@@ -3263,6 +3323,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus HLA-DR15 Tg Valpha3.1 Vbeta2.1 TCR Tg IAbeta null
 parent taxon: Mus musculus TCR transgenic
+parent taxon: Mus musculus HLA-DR15 Tg
 rank: subspecies
 
 : ONTIE:0000513
@@ -3275,6 +3336,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus HLA-DR2 Tg MBP(85-99)-specific human VB2 TCR Tg
 parent taxon: Mus musculus HLA-DR2 Tg
+parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
 : ONTIE:0000515
@@ -3701,6 +3763,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus (BALB/c x B10.G)F1-B10.G bone marrow chimera
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000578
@@ -5178,6 +5241,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 HLA-DR3 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
 : ONTIE:0000818
@@ -5201,6 +5265,7 @@ rank: subspecies
 : ONTIE:0000821
 template: taxon class
 label: Mus musculus C57BL/6 HLA-B27 Tg human beta2m Tg human CD8 Tg
+parent taxon: Mus musculus HLA-B27 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
 
@@ -5358,6 +5423,7 @@ template: taxon class
 label: Mus musculus C57BL/6 X BALB/cByJ
 alternative term: CByB6F1/J
 alternative term: CByB6F1
+parent taxon: Mus musculus BALB/c crosses
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -6663,6 +6729,7 @@ template: taxon class
 label: Mus musculus (C57BL/6 X A/J)
 alternative term: C57BL/6 X A/J
 alternative term: A/J X C57BL/6
+parent taxon: Mus musculus C57BL/6 Crosses
 parent taxon: Mus musculus A/J
 rank: subspecies
 
@@ -6726,6 +6793,7 @@ label: Mus musculus B10.A x A/J
 alternative term: B10.A x A/J
 alternative term: A/J x B10.A
 parent taxon: Mus musculus A/J
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0001035
@@ -6746,6 +6814,7 @@ alternative term: C57BL/6 x SJL
 alternative term: B6SJLF1
 alternative term: SJL x C57BL/6
 parent taxon: Mus musculus C57BL/6 Crosses
+parent taxon: Mus musculus SJL
 rank: subspecies
 
 : ONTIE:0001037
@@ -6857,6 +6926,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C3H/He HLA-B*3501 Tg
 alternative term: HLA-B*3501
+parent taxon: Mus musculus C3H
 parent taxon: Mus musculus HLA-B Transgenic
 rank: subspecies
 
@@ -6943,6 +7013,7 @@ template: taxon class
 label: Mus musculus B10.A x BALB/c
 alternative term: BALB/c x B10.A
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0001065
@@ -7060,6 +7131,7 @@ template: taxon class
 label: Mus musculus NOD HLA-DQ8 Tg
 alternative term: DQ8
 parent taxon: Mus musculus NOD
+parent taxon: Mus musculus HLA-DQ Tg
 rank: subspecies
 
 : ONTIE:0001081
@@ -7137,6 +7209,7 @@ template: taxon class
 label: Mus musculus NOD-Dralpha Tg
 alternative term: NOD.Dralpha Tg
 parent taxon: Mus musculus NOD
+parent taxon: Mus musculus HLA-DR Tg
 rank: subspecies
 
 : ONTIE:0001092
@@ -7189,6 +7262,7 @@ template: taxon class
 label: Mus musculus BALB/c X B10.Q
 alternative term: B10.Q X BALB/c
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0001099
@@ -7196,6 +7270,7 @@ template: taxon class
 label: Mus musculus C57BL/6 GAD65 HLA-DR4 Tg
 alternative term: GAD65 HLA-DR4 Tg
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-DR4 Tg
 rank: subspecies
 
 : ONTIE:0001100
@@ -7209,6 +7284,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus DBA/1 X B10.Q
 alternative term: B10.Q X DBA/1
+parent taxon: Mus musculus DBA Crosses
 parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
@@ -7395,6 +7471,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus hCD4.DR3-DQ2.MHCII
 alternative term: hCD4.DR3-DQ2.MHCII
+parent taxon: Mus musculus HLA-DQ Tg
 parent taxon: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
@@ -7454,6 +7531,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus FVB X A2.1
 alternative term: A2.1 X FVB
+parent taxon: Mus musculus FVB
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -7475,6 +7553,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus HLA-DR3/DQ6 Tg
 alternative term: DQ6/DR3
+parent taxon: Mus musculus HLA-DQ Tg
 parent taxon: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
@@ -7490,6 +7569,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus HLA-DR3/DQ8 Tg
 alternative term: DQ8/DR3
+parent taxon: Mus musculus HLA-DQ Tg
 parent taxon: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
@@ -7508,6 +7588,7 @@ template: taxon class
 label: Mus musculus PL/J X SJL
 alternative term: SJL X PL/J
 parent taxon: Mus musculus PL
+parent taxon: Mus musculus SJL
 rank: subspecies
 
 : ONTIE:0001142
@@ -7522,6 +7603,7 @@ template: taxon class
 label: Mus musculus PL/J X B10.PL
 alternative term: PB10.PL X PL/J
 parent taxon: Mus musculus PL
+parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0001144
@@ -7529,6 +7611,7 @@ template: taxon class
 label: Mus musculus SJL X B10.PL
 alternative term: B10.PL X SJL
 parent taxon: Mus musculus B10 Crosses
+parent taxon: Mus musculus SJL
 rank: subspecies
 
 : ONTIE:0001145
@@ -7565,6 +7648,7 @@ label: Mus musculus MS2-3C8 TCR Tg
 alternative term: MS2-3C8
 alternative term: MBP(111-129)-specific TCR Tg
 alternative term: LSRFSWGAEGQRPGFGYGG-specific TCR Tg
+parent taxon: Mus musculus TCR transgenic
 parent taxon: Mus musculus HLA-DRB1*0401 Tg
 rank: subspecies
 
@@ -7689,6 +7773,7 @@ template: taxon class
 label: Mus musculus SJL X BALB/c
 alternative term: BALB/c X SJL
 parent taxon: Mus musculus BALB/c crosses
+parent taxon: Mus musculus SJL
 rank: subspecies
 
 : ONTIE:0001168
@@ -7766,6 +7851,7 @@ label: Mus musculus Clone 19 TCR Tg
 alternative term: MBP Ac1-11-specific TCR Tg
 alternative term: T/R+
 alternative term: ASQKRPSQRSK-specific TCR Tg
+parent taxon: Mus musculus TCR transgenic
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -8011,6 +8097,7 @@ template: taxon class
 label: Mus musculus HLA-DRB1*1501 x DQB1*0602
 alternative term: DRB1*1501 x DQB1*0602
 alternative term: DQB1*0602 x DRB1*1501
+parent taxon: Mus musculus HLA-DQ Tg
 parent taxon: Mus musculus HLA-DRB1*1501 Tg
 rank: subspecies
 
@@ -8030,6 +8117,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus APP HLA-DR15 MBP85-99 Tg
 alternative term: MBP85-99 HLA-DR15 APP
+parent taxon: Mus musculus HLA-DR15 Tg
 parent taxon: Mus musculus APP
 rank: subspecies
 
@@ -8317,6 +8405,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus FVB/B X B10.RIII
 alternative term: B10.RIII X FVB/B
+parent taxon: Mus musculus FVB
 parent taxon: Mus musculus B10 Crosses
 rank: subspecies
 
@@ -8572,6 +8661,7 @@ template: taxon class
 label: Mus musculus HLA-A*0201/DRB1*0101
 alternative term: DRB1*0101/HLA-A*0201
 parent taxon: Mus musculus HLA-A2 Tg
+parent taxon: Mus musculus HLA-DRB1*0101 Tg
 rank: subspecies
 
 : ONTIE:0001291
@@ -8972,6 +9062,7 @@ template: taxon class
 label: Mus musculus BALB/c TCR Transgenic
 alternative term: BALB/c TCR Transgenic
 parent taxon: Mus musculus BALB/c
+parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
 : ONTIE:0001349
@@ -9007,6 +9098,7 @@ template: taxon class
 label: Mus musculus C57BL/6 TCR transgenic
 alternative term: C57BL/6 TCR transgenic
 parent taxon: Mus musculus C57BL/6
+parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
 : ONTIE:0001354
@@ -9028,6 +9120,7 @@ template: taxon class
 label: Mus musculus NOD TCR Transgenic
 alternative term: NOD TCR Transgenic
 parent taxon: Mus musculus NOD
+parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
 : ONTIE:0001357
@@ -9377,6 +9470,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 X 129
 alternative term: 129 X C57BL/6
+parent taxon: Mus musculus 129
 parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
@@ -9425,6 +9519,7 @@ rank: subspecies
 : ONTIE:0001414
 template: taxon class
 label: Mus musculus HLA-A2 NOD/SCID/HHD
+parent taxon: Mus musculus NOD
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -9906,6 +10001,7 @@ template: taxon class
 label: Mus musculus B10 X 129
 alternative term: 129 X B10
 parent taxon: Mus musculus B10 Crosses
+parent taxon: Mus musculus 129
 rank: subspecies
 
 : ONTIE:0001484
@@ -10194,6 +10290,7 @@ template: taxon class
 label: Mus musculus C3H X B6.K1
 alternative term: B6.K1 X C3H
 parent taxon: Mus musculus C3H Crosses
+parent taxon: Mus musculus C57BL/6 Crosses
 rank: subspecies
 
 : ONTIE:0001529
@@ -10473,6 +10570,7 @@ template: taxon class
 label: Mus musculus C57BL/6 HLA-B*1302 Tg
 alternative term: HLA-B*1302
 parent taxon: Mus musculus C57BL/6 HLA transgenic
+parent taxon: Mus musculus HLA-B Transgenic
 rank: subspecies
 
 : ONTIE:0001573
@@ -10523,6 +10621,7 @@ label: Mus musculus HLA-A*0201 Tg NOD.HHD
 alternative term: NOD
 alternative term: HLA-A2
 alternative term: HHD
+parent taxon: Mus musculus NOD
 parent taxon: Mus musculus HLA-A2 Tg
 rank: subspecies
 
@@ -10593,6 +10692,7 @@ template: taxon class
 label: Mus musculus B10.BR X C3H.OL
 alternative term: C3H.OL X B10.BR
 parent taxon: Mus musculus B10 Crosses
+parent taxon: Mus musculus C3H Crosses
 rank: subspecies
 
 : ONTIE:0001590
@@ -11791,6 +11891,7 @@ alternative term: DR2 Tg MBP-85-99 TCR Tg
 alternative term: Ob.1A12
 alternative term: HLA-DRB1*1501/Ob.1A12 TCR Tg
 parent taxon: Mus musculus HLA-DRB1*1501 Tg
+parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
 : ONTIE:0001778
@@ -11868,6 +11969,7 @@ rank: subspecies
 : ONTIE:0001789
 template: taxon class
 label: Mus musculus NOD HLA-A*1101 Tg
+parent taxon: Mus musculus HLA-A Transgenic
 parent taxon: Mus musculus NOD
 rank: subspecies
 
@@ -11875,6 +11977,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus NOD HLA-B*0702 Tg
 parent taxon: Mus musculus NOD
+parent taxon: Mus musculus HLA-B7 Tg
 rank: subspecies
 
 : ONTIE:0001791

@@ -28,9 +28,9 @@ In order to capture RDF semantics, IRIs and literal values are represented as ob
 {"label": {"@value":"Mus musculus BALB/c"},
  "alternative term": [{"@value":"balb"}],
  "parent taxon":
- {"@id": "NCBITaxon:10090",
-  "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
-  "label": "Mus musculus"}
+ [{"@id": "NCBITaxon:10090",
+   "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+   "label": "Mus musculus"}]
  ...}
 ```
 
@@ -105,7 +105,7 @@ https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true
 https://ontology.iedb.org/ontology/ONTIE_0000002	Mus musculus BALB/c A2/Kb Tg	true		
 ```
 
-The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`.
+The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.
 
 
 ### Example: Term Status

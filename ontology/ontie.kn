@@ -1274,7 +1274,7 @@ rank: subspecies
 : ONTIE:0000180
 template: taxon class
 label: Mus musculus AND TCR Tg
-alternative term: PCC(88?104)-specific TCR Tg
+alternative term: PCC(88-104)-specific TCR Tg
 alternative term: Tg(TcrAND)53Hed
 alternative term: KAERADLIAYLKQATAK-specific TCR Tg
 parent taxon: Mus musculus B10.BR
@@ -2178,7 +2178,7 @@ rank: subspecies
 
 : ONTIE:0000325
 template: taxon class
-label: Murid herpesvirus 1 Mutant ? m4:m6+m152 MCMV
+label: Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV
 parent taxon: Murid betaherpesvirus 1
 rank: subspecies
 
@@ -6397,12 +6397,12 @@ rank: subspecies
 
 : ONTIE:0000980
 template: taxon class
-label: Mus musculus ?MT
+label: Mus musculus µMT
 alternative term: mMt
 alternative term: uMt
 alternative term: &#956MT
 alternative term: muMt
-alternative term: ?Mt
+alternative term: µMt
 parent taxon: Mus musculus Uncategorized
 rank: subspecies
 
@@ -7100,7 +7100,7 @@ rank: subspecies
 
 : ONTIE:0001076
 template: taxon class
-label: Mus musculus G9Calpha ?/ ?.NOD
+label: Mus musculus G9Calpha -/-.NOD
 alternative term: G9C
 parent taxon: Mus musculus NOD
 rank: subspecies
@@ -7462,7 +7462,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus HH8 TCR Tg
 alternative term: HH8
-alternative term: ?-Gliadin(57-73)Q65E-specific TCR Tg
+alternative term: α-Gliadin(57-73)Q65E-specific TCR Tg
 alternative term: QLQPFPQPELPYPQPQS-specicif TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -8194,7 +8194,7 @@ template: taxon class
 label: Mus musculus 172.10 TCR Tg
 alternative term: MBP AC1-11
 alternative term: MBP Ac1-11-specific TCR Tg
-alternative term: V?2.3/V?8.2 TCR Tg
+alternative term: Vα2.3/Vβ8.2 TCR Tg
 alternative term: Tg(TCRA)B1Jg x Tg(TCRB)C14Jg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -8234,7 +8234,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus B6.11 TCR Tg
 alternative term: Torpedo californica AChR TCR Tg
-alternative term: T?(146?162)-specific TCR Tg
+alternative term: Tα(146-162)-specific TCR Tg
 alternative term: TAChR(146-162)-specific TCR Tg
 alternative term: T. californica AChR(146-162)-specific TCR Tg
 alternative term: LGIWTYDGTKVSISPES-specific TCR Tg
@@ -8580,7 +8580,7 @@ template: taxon class
 label: Mus musculus 1E4 TCR Tg
 alternative term: 1E4
 alternative term: H/K ATPase beta subunit(253-277)-specific TCR Tg
-alternative term: H/K?(253?277)-specific TCR Tg
+alternative term: H/Kβ(253–277)-specific TCR Tg
 alternative term: 1E4.C1
 alternative term: LLNVPKNMQVSIVCKILADHVTFNN-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
@@ -8591,7 +8591,7 @@ template: taxon class
 label: Mus musculus 1H3.1 TCR Tg
 alternative term: 1H3.1
 alternative term: Ealpha(52-68)-specific TCR Tg
-alternative term: MHC-II I-E ?-chain(52-68)-specific TCR Tg
+alternative term: MHC-II I-E α-chain(52-68)-specific TCR Tg
 alternative term: ASFEAQGALANIAVDKA-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -8634,9 +8634,9 @@ rank: subspecies
 template: taxon class
 label: Mus musculus A23 TCR Tg
 alternative term: H/K ATPase alpha
-alternative term: H/K ATPase alpha(630?641)-specific TCR Tg
+alternative term: H/K ATPase alpha(630-641)-specific TCR Tg
 alternative term: TXA23
-alternative term: H/K ATPase alpha(633?641)-specific TCR Tg
+alternative term: H/K ATPase alpha(633-641)-specific TCR Tg
 alternative term: PITAKAIAASVG-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -9140,7 +9140,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus 2B4 TCR Tg
 alternative term: 2B4 TCR Tg
-alternative term: PCC(88?104)-specific TCR Tg
+alternative term: PCC(88-104)-specific TCR Tg
 alternative term: ADLIAYLKQAT-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -9285,7 +9285,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus C57BL/6 CMAH null
 alternative term: B6 CMAH null
-alternative term: C57BL/6 cytidine monophospho?N-acetylneuraminic acid hydroxylase (CMAH) null
+alternative term: C57BL/6 cytidine monophospho-N-acetylneuraminic acid hydroxylase (CMAH) null
 parent taxon: Mus musculus C57BL/6
 rank: subspecies
 
@@ -9535,7 +9535,7 @@ alternative term: A1 RAG1null
 alternative term: REEALHQFRSGRKPI-specific TCR Tg
 alternative term: HY-A1 TCR Tg
 alternative term: A1(M) TCR Tg
-alternative term: Dby(479?493)-specific TCR Tg
+alternative term: Dby(479-493)-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -9853,8 +9853,8 @@ rank: subspecies
 
 : ONTIE:0001463
 template: taxon class
-label: Neisseria meningitidis serogroup B Strain  80?165
-alternative term: 80?165
+label: Neisseria meningitidis serogroup B Strain 80-165
+alternative term: 80-165
 parent taxon: Neisseria meningitidis serogroup B
 rank: subspecies
 
@@ -10479,8 +10479,7 @@ rank: subspecies
 : ONTIE:0001558
 template: taxon class
 label: Mus musculus 6218 TCR Tg
-alternative term: PA? Rg
-alternative term: PA? Rg
+alternative term: PAα Rg
 alternative term: Influenza PA(224-233)-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -10778,7 +10777,7 @@ template: taxon class
 label: Mus musculus NY8.3 TCR Tg
 alternative term: IGRP(206-214)-specific TCR Tg
 alternative term: VYLKTNVFL-specific TCR Tg
-alternative term: 17.4?-8.3? TCR Tg
+alternative term: 17.4α-8.3β TCR Tg
 alternative term: KYNKANVFL-specific TCR Tg
 parent taxon: Mus musculus NOD TCR Transgenic
 rank: subspecies
@@ -10909,7 +10908,7 @@ rank: subspecies
 : ONTIE:0001622
 template: taxon class
 label: Streptococcus pneumoniae type 11E
-alternative term: Type 11A?
+alternative term: Type 11Aβ
 parent taxon: Streptococcus pneumoniae
 rank: subspecies
 
@@ -11985,7 +11984,7 @@ label: Mus musculus OVA23-3 TCR Tg
 alternative term: OVA23-3
 alternative term: ISQAVHAAHAEINEAGR-specific TCR Tg
 alternative term: OVA(323-339)-specific TCR Tg
-alternative term: Clone 7?3?7
+alternative term: Clone 7-3-7
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -12483,9 +12482,9 @@ rank: subspecies
 template: taxon class
 label: Mus musculus LLO56 TCR Tg
 alternative term: LLO56
-alternative term: L. monocytogenes LLO(190?205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190?205)-specific TCR Tg
+alternative term: Listeriolysin-O(190-205)-specific TCR Tg
 parent taxon: Mus musculus C57BL/6 TCR transgenic
 rank: subspecies
 
@@ -12493,9 +12492,9 @@ rank: subspecies
 template: taxon class
 label: Mus musculus LLO118 TCR Tg
 alternative term: LLO118
-alternative term: L. monocytogenes LLO(190?205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190?205)-specific TCR Tg
+alternative term: Listeriolysin-O(190-205)-specific TCR Tg
 parent taxon: Mus musculus C57BL/6 TCR transgenic
 rank: subspecies
 
@@ -13197,7 +13196,7 @@ label: Aggregatibacter actinomycetemcomitans serotype a str. CDC A1916
 alternative term: ATCC 29523
 alternative term: Klinger 1912
 alternative term: Kilian 2006
-alternative term: N?rskov-Lauritsen
+alternative term: Nørskov-Lauritsen
 parent taxon: Aggregatibacter actinomycetemcomitans
 rank: subspecies
 
@@ -13207,7 +13206,7 @@ label: Aggregatibacter actinomycetemcomitans serotype c str. CDC NCTC 9710
 alternative term: ATCC 33384
 alternative term: Klinger 1912
 alternative term: Kilian 2006
-alternative term: N?rskov-Lauritsen
+alternative term: Nørskov-Lauritsen
 parent taxon: Aggregatibacter actinomycetemcomitans
 rank: subspecies
 
@@ -13427,7 +13426,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus 172.10 beta-chain TCR Tg
 alternative term: MBP Ac1-11-specific TCR beta-chain Tg
-alternative term: V?8.2 TCR Tg
+alternative term: Vβ8.2 TCR Tg
 alternative term: Tg(TCRB)C14Jg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13472,8 +13471,8 @@ rank: subspecies
 : ONTIE:0002000
 template: taxon class
 label: Mus musculus qCII24 TCR Tg
-alternative term: Collagen II(245?270)-specific TCR Tg
-alternative term: CII(245?270)-specific TCR Tg
+alternative term: Collagen II(245-270)-specific TCR Tg
+alternative term: CII(245-270)-specific TCR Tg
 alternative term: ATGPLGPKGQTGEPGIAGFKGEQGPK-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13489,7 +13488,7 @@ rank: subspecies
 : ONTIE:0002002
 template: taxon class
 label: Mus musculus MBP121-150 TCR Tg
-alternative term: Rat MBP(121?150)-specific TCR Tg
+alternative term: Rat MBP(121-150)-specific TCR Tg
 alternative term: GFGYGGRASDYKSAHKGFKGAYDAQGTLSK-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13514,7 +13513,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus A51 TCR Tg
 alternative term: TXA51
-alternative term: H/K ATPase alpha(889?901)-specific TCR Tg
+alternative term: H/K ATPase alpha(889-901)-specific TCR Tg
 alternative term: PLLCVGLRPQWE-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13568,7 +13567,7 @@ rank: subspecies
 : ONTIE:0002011
 template: taxon class
 label: Mus musculus P25 TCR Tg
-alternative term: M. tuberculosis Ag85B(240?254)-specific TCR Tg
+alternative term: M. tuberculosis Ag85B(240-254)-specific TCR Tg
 alternative term: BP-1
 alternative term: FQDAYNAAGGHNAVF-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
@@ -13577,7 +13576,7 @@ rank: subspecies
 : ONTIE:0002012
 template: taxon class
 label: Mus musculus L9.6 TCR Tg
-alternative term: L. monocytogenes p60(217?225)-specific TCR Tg
+alternative term: L. monocytogenes p60(217-225)-specific TCR Tg
 alternative term: KYGVSVQDI-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13585,7 +13584,7 @@ rank: subspecies
 : ONTIE:0002013
 template: taxon class
 label: Mus musculus D1C55 TCR Tg
-alternative term: V?9-V?2 TCR Tg
+alternative term: Vγ9-Vδ2 TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -13593,7 +13592,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus RSV-M187 TCR Tg
 alternative term: NAITNAKII-specific TCR Tg
-alternative term: RSV M(187?195)-specific TCR Tg
+alternative term: RSV M(187-195)-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -13611,7 +13610,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus gp150 TCR
 alternative term: LSNNNPTTIMRPPVAQN-specific TCR Tg
-alternative term: ?-herpesvirus-68 gp150(67-83)-specific TCR Tg
+alternative term: γ-herpesvirus-68 gp150(67-83)-specific TCR Tg
 alternative term: 4211
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
@@ -13629,7 +13628,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus TRBV13-1 TCR Tg
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82?90)-specific TCR Tg
+alternative term: RSV M2(82-90)-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -13637,7 +13636,7 @@ rank: subspecies
 template: taxon class
 label: Mus musculus TRBV13-2 TCR Tg
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82?90)-specific TCR Tg
+alternative term: RSV M2(82-90)-specific TCR Tg
 parent taxon: Mus musculus TCR transgenic
 rank: subspecies
 
@@ -13705,7 +13704,7 @@ rank: subspecies
 
 : ONTIE:0002027
 template: taxon class
-label: Mus musculus 17.6?-8.3? TCR Tg
+label: Mus musculus 17.6α-8.3β TCR Tg
 alternative term: 17.6 TCR Tg
 alternative term: IGRP(206-214)-specific TCR Tg
 alternative term: VYLKTNVFL-specific TCR Tg
@@ -13850,9 +13849,9 @@ protein taxon: Mycobacterium
 
 : ONTIE:0002048
 template: protein class
-protein label: poly-?-D-glutamic-acid
+protein label: poly-γ-D-glutamic-acid
 protein taxon: Bacillus anthracis
-alternative term: ?DPGA
+alternative term: γDPGA
 alternative term: Capsule polypeptide
 
 : ONTIE:0002049

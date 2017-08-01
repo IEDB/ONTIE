@@ -323,7 +323,7 @@ ONTIE:0000321	Murid herpesvirus 1 Isolate G4	owl:Class	false
 ONTIE:0000322	Murid herpesvirus 1 Isolate K6	owl:Class	false	
 ONTIE:0000323	Murid herpesvirus 1 Isolate N1	owl:Class	false	
 ONTIE:0000324	Murid herpesvirus 1 m152/gp40 mutant	owl:Class	false	
-ONTIE:0000325	Murid herpesvirus 1 Mutant ? m4:m6+m152 MCMV	owl:Class	false	
+ONTIE:0000325	Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV	owl:Class	false	
 ONTIE:0000326	Human herpesvirus 4 Akata	owl:Class	false	
 ONTIE:0000327	Human herpesvirus 4 BL36	owl:Class	false	
 ONTIE:0000328	Human herpesvirus 4 BL72	owl:Class	false	
@@ -978,7 +978,7 @@ ONTIE:0000976	Foot-and-mouth disease virus - type O (strain HKN/14/82)	owl:Class
 ONTIE:0000977	Mus musculus BA	owl:Class	false	
 ONTIE:0000978	Cryptococcus neoformans var. neoformans Serotype D	owl:Class	false	
 ONTIE:0000979	Chlamydia trachomatis Serovar Da	owl:Class	false	
-ONTIE:0000980	Mus musculus ?MT	owl:Class	false	
+ONTIE:0000980	Mus musculus µMT	owl:Class	false	
 ONTIE:0000981	Bordetella pertussis Wellcome 28	owl:Class	false	
 ONTIE:0000982	Mus musculus Porton	owl:Class	false	
 ONTIE:0000983	Mus musculus TCR Tg for VSV NP	owl:Class	false	
@@ -1074,7 +1074,7 @@ ONTIE:0001072	Mus musculus NOD.H-2h4	owl:Class	false
 ONTIE:0001073	Mus musculus C57BL/6-H-2g7	owl:Class	false	
 ONTIE:0001074	Mus musculus NOD.PD	owl:Class	false	
 ONTIE:0001075	Mus musculus Tg AI4-NOD.Rag1-/-	owl:Class	false	
-ONTIE:0001076	Mus musculus G9Calpha ?/ ?.NOD	owl:Class	false	
+ONTIE:0001076	Mus musculus G9Calpha -/-.NOD	owl:Class	false	
 ONTIE:0001077	Mus musculus NOD.Calpha-/-	owl:Class	false	
 ONTIE:0001078	Mus musculus NOD.Calpha-/-RIP-B7-1	owl:Class	false	
 ONTIE:0001079	Mus musculus G9Calpha-/-.RIP-B7.1 NOD	owl:Class	false	
@@ -1461,7 +1461,7 @@ ONTIE:0001459	Candida albicans NIH A-207 (serotype A)	owl:Class	false
 ONTIE:0001460	Mus musculus BALB/c Thy 1.1	owl:Class	false	
 ONTIE:0001461	Mus musculus HNT TCR Tg	owl:Class	false	
 ONTIE:0001462	Mus musculus NZW X BALB/c	owl:Class	false	
-ONTIE:0001463	Neisseria meningitidis serogroup B Strain  80?165	owl:Class	false	
+ONTIE:0001463	Neisseria meningitidis serogroup B Strain 80-165	owl:Class	false	
 ONTIE:0001464	Escherichia coli O125	owl:Class	false	
 ONTIE:0001465	Campylobacter jejuni subsp. jejuni ATCC 43431	owl:Class	false	
 ONTIE:0001466	Mus musculus alphaGal IgM H Tg	owl:Class	false	
@@ -2025,7 +2025,7 @@ ONTIE:0002023	Mus musculus BDC2.5 TCR Tg	owl:Class	false
 ONTIE:0002024	Mus musculus 16.2beta TCR Tg	owl:Class	false	
 ONTIE:0002025	Mus musculus 508 TCR Tg	owl:Class	false	
 ONTIE:0002026	Mus musculus 506 TCR Tg	owl:Class	false	
-ONTIE:0002027	Mus musculus 17.6?-8.3? TCR Tg	owl:Class	false	
+ONTIE:0002027	Mus musculus 17.6α-8.3β TCR Tg	owl:Class	false	
 ONTIE:0002028	Mus musculus TCR3 Rg	owl:Class	false	
 ONTIE:0002029	Influenza A virus (A/swan/Poland/305-135V08/2006(H5N1))	owl:Class	false	
 ONTIE:0002030	Thyroglobulin precursor (Homo sapiens)	owl:Class	false	
@@ -2046,7 +2046,7 @@ ONTIE:0002044	Skeletal muscle myosin heavy chain 1 (Homo sapiens)	owl:Class	fals
 ONTIE:0002045	LSA1 (Plasmodium falciparum)	owl:Class	false	
 ONTIE:0002046	RESA (Plasmodium falciparum)	owl:Class	false	
 ONTIE:0002047	CONSERVED HYPOTHETICAL PROTEIN (Mycobacterium)	owl:Class	false	
-ONTIE:0002048	poly-?-D-glutamic-acid (Bacillus anthracis)	owl:Class	false	
+ONTIE:0002048	poly-γ-D-glutamic-acid (Bacillus anthracis)	owl:Class	false	
 ONTIE:0002049	Cruzipain (Trypanosoma cruzi)	owl:Class	false	
 ONTIE:0002050	Trans-sialidase (Trypanosoma cruzi)	owl:Class	false	
 ONTIE:0002051	mucin-associated surface protein (Trypanosoma cruzi)	owl:Class	false	

@@ -2586,13 +2586,13 @@ rank: subspecies
 : ONTIE:0000392
 template: taxon class
 label: Puumala virus CG18-20
-parent taxon: Puumala hantavirus
+parent taxon: Puumala orthohantavirus
 rank: subspecies
 
 : ONTIE:0000393
 template: taxon class
 label: Puumala virus Kazan
-parent taxon: Puumala hantavirus
+parent taxon: Puumala orthohantavirus
 rank: subspecies
 
 : ONTIE:0000394
@@ -2956,7 +2956,7 @@ rank: subspecies
 template: taxon class
 label: Sin Nombre virus NM H10
 alternative term: NMH10
-parent taxon: Sin Nombre hantavirus
+parent taxon: Sin Nombre orthohantavirus
 rank: subspecies
 
 : ONTIE:0000453
@@ -3010,7 +3010,7 @@ rank: subspecies
 : ONTIE:0000461
 template: taxon class
 label: Andes virus CHI-7913
-parent taxon: Andes hantavirus
+parent taxon: Andes orthohantavirus
 rank: subspecies
 
 : ONTIE:0000462
@@ -6934,7 +6934,7 @@ rank: subspecies
 template: taxon class
 label: Puumala virus (strain Umea/hu)
 alternative term: Umea/hu
-parent taxon: Puumala hantavirus
+parent taxon: Puumala orthohantavirus
 rank: subspecies
 
 : ONTIE:0001054
@@ -17462,7 +17462,7 @@ alternative term: Anion exchanger 1
 : ONTIE:0002659
 template: protein class
 protein label: Nucleoprotein
-protein taxon: Puumala hantavirus
+protein taxon: Puumala orthohantavirus
 alternative term: Nucleocapsid protein
 alternative term: Protein N
 

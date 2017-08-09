@@ -30,7 +30,7 @@ Anacardium occidentale	NCBITaxon:171929	owl:Class
 Anaplasma marginale	NCBITaxon:770	owl:Class
 Anaplasma phagocytophilum	NCBITaxon:948	owl:Class
 Anatid herpesvirus 1	NCBITaxon:104388	owl:Class
-Andes hantavirus	NCBITaxon:46607	owl:Class
+Andes orthohantavirus	NCBITaxon:1980456	owl:Class
 Anisakis simplex	NCBITaxon:6269	owl:Class
 Anthoxanthum odoratum	NCBITaxon:29661	owl:Class
 Arabidopsis thaliana	NCBITaxon:3702	owl:Class
@@ -457,7 +457,7 @@ Pseudomonas savastanoi pv. phaseolicola	NCBITaxon:319	owl:Class
 Pseudomonas syringae pv. atrofaciens	NCBITaxon:192087	owl:Class
 Pseudomonas syringae pv. helianthi	NCBITaxon:251654	owl:Class
 Pseudomonas syringae pv. tagetis	NCBITaxon:129140	owl:Class
-Puumala hantavirus	NCBITaxon:11604	owl:Class
+Puumala orthohantavirus	NCBITaxon:1980486	owl:Class
 Puumala virus Hallnas B1	NCBITaxon:11605	owl:Class
 Pythium insidiosum	NCBITaxon:114742	owl:Class
 Rabbit hemorrhagic disease virus	NCBITaxon:11976	owl:Class
@@ -510,7 +510,7 @@ Shigella sonnei	NCBITaxon:624	owl:Class
 Simian immunodeficiency virus	NCBITaxon:11723	owl:Class
 Simian immunodeficiency virus - mac	NCBITaxon:11711	owl:Class
 Simian immunodeficiency virus - sm	NCBITaxon:11712	owl:Class
-Sin Nombre hantavirus	NCBITaxon:37705	owl:Class
+Sin Nombre orthohantavirus	NCBITaxon:1980491	owl:Class
 Sinapis alba	NCBITaxon:3728	owl:Class
 Sindbis virus	NCBITaxon:11034	owl:Class
 Small ruminant lentivirus	NCBITaxon:254355	owl:Class

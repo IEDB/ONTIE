@@ -2,18 +2,39 @@
 title: IEDB Source of Truth
 ---
 
-# IEDB Source of Truth
+Many valuable community resources are available for describing immunology experiments and results, including:
+[UniProt](http://www.uniprot.org),
+[GenBank](https://www.ncbi.nlm.nih.gov/genbank/),
+[the NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy),
+[the Ontology for Biomedical Investigations](http://obi-ontology.org),
+[the MHC Restriction Ontology](https://github.com/IEDB/MRO),
+and many more.
+By using standardized terminology from these community resources we make our data much easier to validate, share, reuse, search, and analyze.
 
-SoT is a system for dynamically creating, maintaining, and sharing an application ontology that builds on multiple reference resources. A reference resource could be a reference ontology such as OBI, or a similar non-ontological resource such as UniProt. We intend for the SoT system to be general, but the primary goal is to serve projects at LJI, including IEDB, LabKey database for HIPC and DORAS, TopCat, and Bioinformatics Core.
+These community resources are designed to be useful to the widest audience, but we know that every scientific project is unique. No matter how excellent these resources are, they will never be a perfect match for the needs of a given project:
 
-The core of SoT is an application ontology (ONTIE) with its own terms and axioms. ONTIE builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept. We reuse terms from reference resources as much as possible, but when this is not possible we add terms to ONTIE. Examples include taxa not in NCBI Taxonomy, and proteins not in GenPept. New terms can be added to ONTIE immediately, and will be maintained indefinitely. However, if a better term is found in a reference ontology, the ONTIE term will be marked obsolete and mapped to the reference term.
+- they include too much, but there's always something missing
+- they change too slowly, but they don't change quickly enough
 
-Each reference resource is pulled in and validated using an importer module. Specific versions of reference resources are used, and updates to reference resources are carefully checked for terms that have been dropped, added, merged, or had their logic changed.
+Source of Truth (SoT) is designed to solve these problems by introducing a layer of control between the community resources and individual projects. It provides a website for finding the term you want or requesting a new term, and a REST API for fetching and updating lists of terms.
 
-Users can search, browse, and query SoT (i.e. the union of ONTIE and the reference resources) using a uniform web-based interface and API. 
+At the [La Jolla Institute for Allergy and Immunology](http://www.lji.org) (LJI), our planned use of SoT looks something like this:
 
-SoT consumers such as IEDB will usually have their own internal identifiers for terms, but must keep track of the IRIs for the terms they use from SoT. They can then query SoT using IRIs, ask whether the IRIs have been mapped to new IRIs, and get tables of data for those terms. Consumers can send their users to SoT to find and request terms, but the consumer is responsible for maintaining and displaying terms, local versions of labels and synonyms, and tree structure.
+![LJI SoT](lji.png)
 
-SoT is public and does not contain secret or confidential information. Unauthenticated users can browse and search for terms. Authenticated users can request new terms by selecting a term template and filling in the required information. If SoT can validate that information, it immediately creates a new ONTIE term and provides the user with the new IRI.
+See <https://ontology.iedb.org>.
 
-A secondary goal of SoT is to demonstrate tight integration across OBO Foundry ontologies. We intend for ONTIE to have a single, integrated and logically-consistent hierarchy, with a unified set of OWL annotation properties and object properties. The term creation and management aspect of SoT may also serve as a good example of how term request can percolate up from specific use-cases to community reference ontologies, while keeping the originating application ontology and annotated datasets in sync.
+
+## Using SoT at LJI
+
+If you are at LJI and want to make use of our SoT for your project, you should follow these steps:
+
+1. collect a list of terms that you are using in your project
+2. create a mapping from your private identifiers to the public identifiers used by SoT
+3. query SoT using the public identifiers to get information about your terms
+
+SoT uses [IRIs](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier) for all public identifiers. IRIs can be shortened to [CURIEs](https://en.wikipedia.org/wiki/CURIE) using a prefix. If you need a term that's not available in SoT, you can [request it](mailto:james@overton.ca) -- currently this is a manual process. We will either import the term from a community resource, or create a new ONTIE term.
+
+The [API documentation](docs/api.html) explains how to query for terms.
+
+You should periodically query SoT with your list of terms to see if any of the terms have been updated or replaced. Our general goal is to replace ONTIE terms with term from a community resource, but we will maintain ONTIE term identifiers indefinitely.

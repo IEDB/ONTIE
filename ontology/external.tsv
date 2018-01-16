@@ -13,9 +13,9 @@ rank	ncbitaxon:has_rank	owl:AnnotationProperty
 in taxon	obo:RO_0002162	owl:ObjectProperty
 template	kn:apply-template	owl:AnnotationProperty
 process	obo:BFO_0000015	owl:Class
+biological process	obo:GO_0008150	owl:Class
 planned process	obo:OBI_0000011	owl:Class
 information content entity	obo:IAO_0000030	owl:Class
-disease course	obo:OGMS_0000063	owl:Class
 administering substance in vivo	obo:OBI_0600007	owl:Class
 subspecies	NCBITaxon:subspecies	owl:Class
 no rank	NCBITaxon:no_rank	owl:Class

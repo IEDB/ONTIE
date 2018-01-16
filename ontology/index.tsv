@@ -3358,3 +3358,4 @@ ONTIE:0003318	occurrence of allergy	owl:Class	false
 ONTIE:0003319	occurence of autoimmune disease	owl:Class	false
 ONTIE:0003320	occurrence of cancer	owl:Class	false
 ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class	false
+ONTIE:0003322	occurrence of disease	owl:Class	false

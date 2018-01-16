@@ -21314,7 +21314,7 @@ subclass of: process
 : ONTIE:0003306
 type: owl:Class
 label: occurrence of asymptomatic infection
-definition: A process in which an infectious agent is in or on the body of an organism without causing detectable disease .
+definition: A process in which an infectious agent is in or on the body of an organism without causing detectable disease.
 example of usage: A restaurant worker tests positive for presence of Norovirus, but experiences no symptoms of illness.
 subclass of: process
 
@@ -21365,7 +21365,7 @@ type: owl:Class
 label: occurrence of cancer associated with virus
 definition: An occurence of cancer where there is evidence for the presence of a cancer causing oncovirus in the tumor.
 example of usage: The process of human T-lymphotropic virus replicating in a subject prior to their development of adult T-cell leukemia/lymphoma.
-subclass of: process
+subclass of: occurrence of disease
 
 : ONTIE:0003314
 type: owl:Class
@@ -21394,6 +21394,7 @@ type: owl:Class
 label: occurrence of infectious disease
 definition: The process in which an infectious disease unfolds.
 example of usage: The process of developing fever, chills, and congestion after being infected with influenza A virus.
+subclass of: occurrence of disease
 mapping note: We intend to map this term to OBI:1110008.
 
 : ONTIE:0003318
@@ -21408,7 +21409,7 @@ type: owl:Class
 label: occurence of autoimmune disease
 definition: The process in which an autoimmune disease unfolds.
 example of usage: The process of developing increasingly severe joint swelling, pain and disfigurement as rheumatoid arthritis affects a patient.
-subclass of: disease course
+subclass of: occurrence of disease
 mapping note: We intend to map this term to OBI:1110054.
 
 : ONTIE:0003320
@@ -21416,7 +21417,7 @@ type: owl:Class
 label: occurrence of cancer
 definition: The process in which cancer unfolds
 example of usage: The process of developing a cough and difficulty breathing as a tumor grows in the airway of a lung cancer patient.
-subclass of: disease course
+subclass of: occurrence of disease
 mapping note: We intend to map this term to OBI:1110053.
 
 : ONTIE:0003321
@@ -21426,3 +21427,10 @@ definition: A process in which an organism is exposed to a material entity which
 example of usage: A restaurant worker tests positive for presence of Norovirus, but experiences no symptoms of illness.
 subclass of: process
 mapping note: We intend to map this term to OBI:1110061.
+
+: ONTIE:0003322
+type: owl:Class
+label: occurrence of disease
+definition: The process in which a disease unfolds.
+subclass of: biological process
+mapping note: We intend to map this term to OGMS:0000063.

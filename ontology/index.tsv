@@ -3320,3 +3320,41 @@ ONTIE:0003318	occurrence of allergy	owl:Class	false
 ONTIE:0003319	occurence of autoimmune disease	owl:Class	false
 ONTIE:0003320	occurrence of cancer	owl:Class	false
 ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class	false
+ONTIE:0003303	mapping note	owl:AnnotationProperty	false
+ONTIE:0003304	vaccination	owl:Class	false
+ONTIE:0003305	exposure to substance without evidence for disease	owl:Class	false
+ONTIE:0003306	occurrence of asymptomatic infection	owl:Class	false
+ONTIE:0003307	documented exposure without evidence for disease	owl:Class	false
+ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class	false
+ONTIE:0003309	no exposure	owl:Class	false
+ONTIE:0003310	unknown	owl:Class	false
+ONTIE:0003311	solid tissue transplantation	owl:Class	false
+ONTIE:0003312	transfusion	owl:Class	false
+ONTIE:0003313	occurrence of cancer associated with virus	owl:Class	false
+ONTIE:0003314	administering substance in vivo	owl:Class	false
+ONTIE:0003315	infectious challenge	owl:Class	false
+ONTIE:0003316	transplantation or transfusion	owl:Class	false
+ONTIE:0003317	occurrence of infectious disease	owl:Class	false
+ONTIE:0003318	occurrence of allergy	owl:Class	false
+ONTIE:0003319	occurence of autoimmune disease	owl:Class	false
+ONTIE:0003320	occurrence of cancer	owl:Class	false
+ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class	false
+ONTIE:0003303	mapping note	owl:AnnotationProperty	false
+ONTIE:0003304	vaccination	owl:Class	false
+ONTIE:0003305	exposure to substance without evidence for disease	owl:Class	false
+ONTIE:0003306	occurrence of asymptomatic infection	owl:Class	false
+ONTIE:0003307	documented exposure without evidence for disease	owl:Class	false
+ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class	false
+ONTIE:0003309	no exposure	owl:Class	false
+ONTIE:0003310	unknown	owl:Class	false
+ONTIE:0003311	solid tissue transplantation	owl:Class	false
+ONTIE:0003312	transfusion	owl:Class	false
+ONTIE:0003313	occurrence of cancer associated with virus	owl:Class	false
+ONTIE:0003314	administering substance in vivo	owl:Class	false
+ONTIE:0003315	infectious challenge	owl:Class	false
+ONTIE:0003316	transplantation or transfusion	owl:Class	false
+ONTIE:0003317	occurrence of infectious disease	owl:Class	false
+ONTIE:0003318	occurrence of allergy	owl:Class	false
+ONTIE:0003319	occurence of autoimmune disease	owl:Class	false
+ONTIE:0003320	occurrence of cancer	owl:Class	false
+ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class	false

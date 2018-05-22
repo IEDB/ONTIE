@@ -1,6 +1,4 @@
 label	CURIE	type
-label	rdfs:label	owl:AnnotationProperty
-type	rdf:type	rdf:Property
 subclass of	rdfs:subClassOf	rdf:Property
 obsolete	owl:deprecated	owl:DatatypeProperty
 alternative term	obo:IAO_0000118	owl:AnnotationProperty
@@ -11,7 +9,6 @@ definition	obo:IAO_0000115	owl:AnnotationProperty
 curator note	obo:IAO_0000232	owl:AnnotationProperty
 rank	ncbitaxon:has_rank	owl:AnnotationProperty
 in taxon	obo:RO_0002162	owl:ObjectProperty
-template	kn:apply-template	owl:AnnotationProperty
 process	obo:BFO_0000015	owl:Class
 biological process	obo:GO_0008150	owl:Class
 planned process	obo:OBI_0000011	owl:Class

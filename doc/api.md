@@ -188,3 +188,40 @@ NCBITaxon:12	obsolete taxon 12	true	true	http://purl.obolibrary.org/obo/NCBITaxo
 NCBITaxon:3	obsolete taxon 3	true	true	
 NCBITaxon:0		false		
 ```
+
+
+## Term Submission
+
+SoT can accept new term submissions from authorized developers. The system current works via a REST API. An HTML form is in development.
+
+Terms can be submitted to [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE) using HTTP `PUT` request. You must include an `X-API-Key` HTTP header containing a valid developer API key. The body of the request must be a valid [Knotation](http://knotation.org) block. It should not include a subject -- if the request is valid then a new subject IRI will be assigned. Ideally the new term should use a previously defined template. The [ontie.kn](https://github.com/IEDB/ONTIE/blob/master/ontology/ontie.kn) source file contains a number of examples.
+
+
+#### Example: New Taxon
+
+```
+apply template: taxon class
+ label: Mus musculus BALB/c
+ parent taxon: Mus musculus
+alternative term: balb
+rank: subspecies
+```
+
+#### Example: New Protein
+
+```
+apply template: protein class
+ label: Polymerase acidic protein
+ taxon: Influenza A virus
+alternative term: RNA-directed RNA polymerase subunit P2
+alternative term: PA
+```
+
+#### Example: No Template
+
+```
+type: owl:Class
+label: occurrence of disease
+definition: The process in which a disease unfolds.
+subclass of: biological process
+```

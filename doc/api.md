@@ -7,6 +7,16 @@ title: IEDB SoT API
 The IEDB SoT is designed to be used by both humans and software. For humans, we provide HTML pages connected by hyperlinks. For machines, we provide a consistent API to access data in several machine-readable formats.
 
 
+## ONTIE and Other Resources
+
+SoT provides access to the ONTIE application ontology and a number of other resources used by ONTIE and IEDB, including the NCBI Taxonomy, Chemical Entities of Biological Interest, the MHC Restriction Ontology, and more. The full list of resources (including ONTIE) is available at [https://ontology.iedb.org/resources](/resources). You can query for a specific resource or across all resources.
+
+- ONTIE: [https://ontology.iedb.org/resources/ONTIE](/resources/ONTIE)
+- NCBI Taxonomy: [https://ontology.iedb.org/resources/NCBITaxonomy](/resources/NCBITaxonomy)
+- all resources: [https://ontology.iedb.org/resources/all](/resources/all)
+- ONTIE (alternative): [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE)
+
+
 ## Individual ONTIE Terms
 
 Individual ONTIE terms can be accessed at their term IRI, for example [https://ontology.iedb.org/ontology/ONTIE_0000001](/ontology/ONTIE_0000001). An HTTP GET request to the term IRI will return an HTML document with embedded [RDFa](https://rdfa.info) data. Alternative representations are available in [Turtle](https://www.w3.org/TeamSubmission/turtle/), [JSON-LD](https://json-ld.org), and TSV formats.
@@ -14,7 +24,7 @@ Individual ONTIE terms can be accessed at their term IRI, for example [https://o
 
 ### JSON-LD
 
-The JSON Linked Data representation of an ONTIE term is a standard JSON object with a few special conventions:
+The JSON Linked Data representation of a single term is a standard JSON object with a few special conventions:
 
 - the `@context` helps map values to an RDF representation, but can be ignored for many use cases
 - `@id` keys are used for CURIE values
@@ -74,22 +84,61 @@ ONTIE:0002059	ONTIE:0002053	Large structural phosphoprotein (Human betaherpesvir
 ```
 
 
-## Multiple Ontology Terms
+## Individual Subjects
 
-Information about multiple ontology terms can be retrieved at these IRIs:
+You can query for individual subjects within a resource or across all resources using the subject CURIE or IRI. Special characters in IRIs should be escaped:
 
-- [https://ontology.iedb.org/ontology/](/ontology/)
-- [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE)
+- [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001](/resources/ONTIE/subject?curie=ONTIE:0000001)
+- [https://ontology.iedb.org/resources/all/subject?curie=ONTIE:0000001](/resources/all/subject?curie=ONTIE:0000001)
+- [https://ontology.iedb.org/resources/ONTIE/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001](/resources/ONTIE/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001)
+- [https://ontology.iedb.org/resources/all/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001](/resources/all/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001)
 
-The `format` query parameter can be used to select between `html`, `ttl`, `json`, and `tsv` formats. For TSV, the `select`, `compact`, and `show-headers` query parameters can be used, as above. For any of the formats, `CURIE` and `IRI` query parameters can be set to include either one term or multiple terms:
+Subject pages are also available in other formats:
 
-- For a single term, use the equality operator `eq.`, for example [https://ontology.iedb.org/ontology/?CURIE=eq.ONTIE:0000001](/ontology/?CURIE=eq.ONTIE:0000001).
-- For multiple terms, use the `in.` operator and provide a space-separated list: [https://ontology.iedb.org/ontology/?CURIE=in.ONTIE:0000001%20ONTIE:0000002](/ontology/?CURIE=in.ONTIE:0000001%20ONTIE:0000002)
+- Turtle [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=ttl](/resources/ONTIE/subject?curie=ONTIE:0000001&format=ttl)
+- JSON-LD [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=json](/resources/ONTIE/subject?curie=ONTIE:0000001&format=json)
+- TSV [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=tsv](/resources/ONTIE/subject?curie=ONTIE:0000001&format=tsv)
 
 
-### POST instead of GET
+## Predicates
 
-When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For this to work, you MUST include `method=GET` in the query string. For example, POSTing to [https://ontology.iedb.org/ontology/?method=GET&format=tsv](/ontology/?method=GET&format=tsv) with this body:
+You can get the list of all predicates used within a resource or across all resources:
+
+- [https://ontology.iedb.org/resources/ONTIE/predicates](/resources/ONTIE/predicates)
+- [https://ontology.iedb.org/resources/all/predicates](/resources/all/predicates)
+
+
+## Multiple Subjects
+
+You can also query for multiple subjects within a resource or across resources:
+
+- [https://ontology.iedb.org/resources/ONTIE/subjects](/resources/ONTIE/subjects)
+- [https://ontology.iedb.org/resources/all/subjects](/resources/all/subjects)
+
+The HTML form lets you build a query and return results in HTML or TSV formats. The query is controlled by the query parameters in the URL.
+
+- `format` can be `html` (default) or `tsv`
+- `select` a comma-separated list of predicates to be used as columns in the resulting table; the default is `IRI,label,obsolete,replacement`
+- `limit` the number of results to return, defaults to 100, maximum 10000
+- `offset` the index of the first result to return
+- `show-headers` when `false`, headers will not be included in TSV output
+- `compact` when `true` CURIEs will be used instead of IRIs whenever possible
+
+You can specify a constraint on the query as the combination of a predicate, an operator, and an object. The predicate should be a label such as `type` or `alternative term`. The operator should be one of:
+
+- `eq.` for string equality of the object literal
+- `like.` for wildcard matching to the literal object, where `*` is the wildcard characters
+- `iri.eq.` for string equality of the object IRI
+- `iri.like.` for wildcard matching to the object IRI
+
+The object is the value to match. For example, to match any `rdfs:label` starting with 'Mus' the query parameter would be `label=like.Mus*`: [https://ontology.iedb.org/resources/ONTIE/subjects?label=like.Mus*](/resources/ONTIE/subjects?label=like.Mus*)
+
+The `IRI` and `CURIE` query parameters are used to specify exactly which subjects to search for. A row is returned for each requested subject, in order, whether or not the requested subject is found in the resource. This is useful for checking term status. Use the `in.(*)` operator, like so: [https://ontology.iedb.org/resources/ONTIE/subjects?CURIE=in.(ONTIE:0000001,ONTIE:0000002)](/resources/ONTIE/subjects?CURIE=in.%28ONTIE:0000001,ONTIE:0000002%29). Also see "POST instead of GET" below.
+
+
+## POST instead of GET
+
+When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For this to work, you MUST include `method=GET` in the query string. For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
 
 ```
 CURIE
@@ -100,17 +149,17 @@ ONTIE:0000002
 will return a table:
 
 ```
-IRI	label	recognized	obsolete	replacement
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
-https://ontology.iedb.org/ontology/ONTIE_0000002	Mus musculus BALB/c A2/Kb Tg	true		
+CURIE	label	recognized	obsolete	replacement
+ONTIE:0000001	Mus musculus BALB/c	true		
+ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	true		
 ```
 
 The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.
 
 
-### Example: Term Status
+## Example: Term Status
 
-When requesting a TSV table, the default columns provide a summary of each term's status. For example, POST to [https://ontology.iedb.org/ontology/?method=GET&format=tsv](/ontology/?method=GET&format=tsv) with this body:
+When requesting a TSV table, the default columns provide a summary of each term's status. For example, POST to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
 
 ```
 CURIE
@@ -141,3 +190,38 @@ NCBITaxon:0		false
 ```
 
 
+## Term Submission
+
+SoT can accept new term submissions from authorized developers. The system current works via a REST API. An HTML form is in development.
+
+Terms can be submitted to [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE) using HTTP `PUT` request. You must include an `X-API-Key` HTTP header containing a valid developer API key. The body of the request must be a valid [Knotation](http://knotation.org) block. It should not include a subject -- if the request is valid then a new subject IRI will be assigned. Ideally the new term should use a previously defined template. The [ontie.kn](https://github.com/IEDB/ONTIE/blob/master/ontology/ontie.kn) source file contains a number of examples.
+
+
+#### Example: New Taxon
+
+```
+apply template: taxon class
+ label: Mus musculus BALB/c
+ parent taxon: Mus musculus
+alternative term: balb
+rank: subspecies
+```
+
+#### Example: New Protein
+
+```
+apply template: protein class
+ label: Polymerase acidic protein
+ taxon: Influenza A virus
+alternative term: RNA-directed RNA polymerase subunit P2
+alternative term: PA
+```
+
+#### Example: No Template
+
+```
+type: owl:Class
+label: occurrence of disease
+definition: The process in which a disease unfolds.
+subclass of: biological process
+```

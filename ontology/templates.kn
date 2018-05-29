@@ -1,0 +1,17 @@
+: ONTIE:protein-class
+label: protein class
+template content: 
+ type: owl:Class
+ label: {label} ({taxon})
+ IEDB alternative term: {label}
+ in taxon: {taxon}
+ ONTIE domain: protein
+
+: ONTIE:taxon-class
+label: taxon class
+template content: 
+ type: owl:Class
+ label: {label}
+ subclass of: {parent taxon}
+ ONTIE domain: taxon
+

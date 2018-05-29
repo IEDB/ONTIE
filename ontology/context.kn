@@ -3,9 +3,35 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 @prefix obo: <http://purl.obolibrary.org/obo/>
-@prefix kn: <https://knotation.org/>
+@prefix knd: <https://knotation.org/datatype/>
+@prefix knp: <https://knotation.org/predicate/>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 @prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
 @prefix MRO: <http://purl.obolibrary.org/obo/MRO_>
 @prefix ONTIE: <https://ontology.iedb.org/ontology/ONTIE_>
 @prefix EXAMPLE: <https://example.com/ontology/EXAMPLE_>
+
+: rdfs:label
+rdfs:label: label
+
+: knd:link
+label: link
+
+: knp:default-datatype
+label: default datatype
+default datatype; link: link
+
+: rdf:type
+rdfs:label: type
+default datatype: link
+
+: rdfs:subClassOf
+label: subclass of
+default datatype: link
+
+: knp:template-content
+label: template content
+
+: knp:apply-template
+label: apply template
+

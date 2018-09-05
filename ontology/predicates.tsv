@@ -14,3 +14,4 @@ ONTIE domain	ONTIE:0003259	plain	zero or one
 protein label	ONTIE:0003257	plain	zero or one
 protein taxon	ONTIE:0003256	link	zero or one
 parent taxon	ONTIE:0003258	link	zero or more
+xref	oboInOwl:hasDbXref	plain	zero or more

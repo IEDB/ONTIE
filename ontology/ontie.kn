@@ -51,6 +51,7 @@ alternative term: 14.3.d
 alternative term: SFERFEIFPKE-specific TCR Tg
 alternative term: Tg(Tcra/Tcrb)1Vbo
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:2680176
 
 : ONTIE:0000009
 apply template: taxon class
@@ -262,6 +263,7 @@ alternative term: HEL(48-62)-specific TCR Tg
 alternative term: Tg(TcrHEL3A9)1Mmd
 alternative term: DGSTDYGILQINSRWW-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:2385683
 
 : ONTIE:0000039
 apply template: taxon class
@@ -365,6 +367,7 @@ alternative term: NP(366-374)-specific TCR Tg
 alternative term: Tg(CD2-TcraF5,CD2-TcrbF5)1Kio
 alternative term: ASNENMDAM-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3706698
 
 : ONTIE:0000053
 apply template: taxon class
@@ -441,6 +444,7 @@ alternative term: LSPFPFDL-specific TCR Tg
 alternative term: Tg(Tcra2C,Tcrb2C)1Dlo
 alternative term: SIYRYYGL-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3621454
 
 : ONTIE:0000064
 apply template: taxon class
@@ -636,6 +640,7 @@ alternative term: HSV-1 gB(498-505)-specific TCR Tg
 alternative term: SSIEFARL-specific TCR Tg
 alternative term: Tg(TcraHsv2.3,TcrbHsv2.3)L118-1Cbn
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3722258
 
 : ONTIE:0000088
 apply template: taxon class
@@ -740,6 +745,7 @@ alternative term: Vbeta8.2+ TCR Tg
 alternative term: B6.2.16 beta chain Tg
 alternative term: Male antigen H-Y-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3056727
 
 : ONTIE:0000102
 apply template: taxon class
@@ -1045,6 +1051,7 @@ alternative term: Tg(TcraTcrb)1100Mjb
 alternative term: OVA(257-264)-specific TCR Tg
 alternative term: SIINFEKL-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3054907
 
 : ONTIE:0000147
 apply template: taxon class
@@ -1279,6 +1286,7 @@ alternative term: PCC(88-104)-specific TCR Tg
 alternative term: Tg(TcrAND)53Hed
 alternative term: KAERADLIAYLKQATAK-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3053044
 
 : ONTIE:0000181
 apply template: taxon class
@@ -1430,6 +1438,7 @@ alternative term: LCMV GP33-specific TCR Tg
 alternative term: Tg(TcrLCMV)327Sdz
 alternative term: Tg(TcrLCMV)318Sdz
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3801008
 
 : ONTIE:0000203
 apply template: taxon class
@@ -3623,6 +3632,7 @@ alternative term: LCMV GP(61-80)-specific TCR Tg
 alternative term: LCMV Epitope P1-specific TCR Tg
 alternative term: Tg(TcrLCMV)Aox
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3789674
 
 : ONTIE:0000558
 apply template: taxon class
@@ -6435,6 +6445,7 @@ alternative term: N15tg/RAG-2null
 alternative term: VSV NP (52-59)-specific TCR Tg
 alternative term: VSV8-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3777745
 
 : ONTIE:0000986
 apply template: taxon class
@@ -6770,6 +6781,7 @@ alternative term: gp100(25-33)-specific TCR Tg
 alternative term: KVPRNQDWL-specific TCR Tg
 alternative term: Tg(TcraTcrb)8Rest
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3051150
 
 : ONTIE:0001033
 apply template: taxon class
@@ -6798,6 +6810,7 @@ alternative term: OVA(323-339)-specific TCR Tg
 alternative term: Tg(TcraTcrb)425Cbn/J
 alternative term: OT-2
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3046083
 
 : ONTIE:0001036
 apply template: taxon class
@@ -7411,6 +7424,7 @@ alternative term: Bovine RNase(42-56)-specific TCR Tg
 alternative term: Bovine RNase(41-61)-specific TCR Tg
 alternative term: Tg(TcraR28,TcrbR28)KRNDim
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3767242
 
 : ONTIE:0001121
 apply template: taxon class
@@ -7567,6 +7581,7 @@ alternative term: MBP Ac1-9-specific TCR Tg
 alternative term: MBP Ac1-11-specific TCR Tg
 alternative term: Tg(CD2-TcraAc1-9,-TcrbAc1-9)4Kio
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4354587
 
 : ONTIE:0001141
 apply template: taxon class
@@ -7822,6 +7837,7 @@ alternative term: MOG(35-55)-specific TCR Tg
 alternative term: Tg(Tcra2D2,Tcrb2D2)1Kuch
 alternative term: MOG(38-49)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3700794
 
 : ONTIE:0001177
 apply template: taxon class
@@ -7957,6 +7973,7 @@ alternative term: Influenza HA(542-550)-specific TCR Tg
 alternative term: Influenza PR8 HA(518-526)-specific TCR Tg
 alternative term: Tg(TcraCl4,TcrbCl4)1Shrm
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3586582
 
 : ONTIE:0001197
 apply template: taxon class
@@ -7967,6 +7984,7 @@ alternative term: MOG(92-106)-specific TCR Tg
 alternative term: DEGGYTCFFRDHSYQ-specific TCR Tg
 alternative term: Tg(H2-Kb-Tcra,-Tcrb)1640Kurs
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:5644514
 
 : ONTIE:0001198
 apply template: taxon class
@@ -8033,6 +8051,7 @@ alternative term: 2E7
 alternative term: P0(1-25)-specific TCR Tg
 alternative term: Myelin protein 0 (1-25)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4453841
 
 : ONTIE:0001207
 apply template: taxon class
@@ -8183,6 +8202,7 @@ alternative term: MBP Ac1-11-specific TCR Tg
 alternative term: Vα2.3/Vβ8.2 TCR Tg
 alternative term: Tg(TCRA)B1Jg x Tg(TCRB)C14Jg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3055333
 
 : ONTIE:0001227
 apply template: taxon class
@@ -8193,6 +8213,7 @@ alternative term: Salmonella typhimurium FliC(431-439)-specific TCR Tg
 alternative term: Tg(TcraCN.B1,TcrbCN.B1)SM1Jen
 alternative term: FNSAITNLG-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4821793
 
 : ONTIE:0001228
 apply template: taxon class
@@ -8580,6 +8601,7 @@ alternative term: Ealpha(52-68)-specific TCR Tg
 alternative term: MHC-II I-E α-chain(52-68)-specific TCR Tg
 alternative term: ASFEAQGALANIAVDKA-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3722813
 
 : ONTIE:0001282
 apply template: taxon class
@@ -9413,6 +9435,7 @@ alternative term: Smcy(738-746)-specific TCR Tg
 alternative term: H-Y(738-746)-specific TCR Tg
 alternative term: Tg(TcraH-Y,TcrbH-Y)71Vbo
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3044562
 
 : ONTIE:0001402
 apply template: taxon class
@@ -9523,6 +9546,7 @@ alternative term: HY-A1 TCR Tg
 alternative term: A1(M) TCR Tg
 alternative term: Dby(479-493)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4354497
 
 : ONTIE:0001417
 apply template: taxon class
@@ -9670,6 +9694,7 @@ alternative term: Tg(Cd4-TcraDN32D3)1Aben
 alternative term: Valpha14-Jalpha18 NKT TCR Tg
 alternative term: NKT Invariant Valpha14 TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3505746
 
 : ONTIE:0001439
 apply template: taxon class
@@ -9828,6 +9853,7 @@ alternative term: HNTNGVTAACSHE-specific TCR Tg
 alternative term: Influenza PR8 HA(126-138)-specific TCR Tg
 alternative term: T2.5-5
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3581980
 
 : ONTIE:0001462
 apply template: taxon class
@@ -10766,6 +10792,7 @@ alternative term: VYLKTNVFL-specific TCR Tg
 alternative term: 17.4α-8.3β TCR Tg
 alternative term: KYNKANVFL-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3584121
 
 : ONTIE:0001603
 apply template: taxon class
@@ -11876,6 +11903,7 @@ alternative term: DR2 Tg MBP-85-99 TCR Tg
 alternative term: Ob.1A12
 alternative term: HLA-DRB1*1501/Ob.1A12 TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:5429700
 
 : ONTIE:0001778
 apply template: taxon class
@@ -13397,6 +13425,7 @@ alternative term: Insulin B(9-23)-specific TCR beta-chain Tg
 alternative term: SHLVEALYLVCGERG-specific TCR beta-chain  Tg
 alternative term: Tg(TcrbBDC12-4.1)82Gse
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3687034
 
 : ONTIE:0001994
 apply template: taxon class
@@ -13406,6 +13435,7 @@ alternative term: Insulin B(9-23)-specific TCR alpha-chain Tg
 alternative term: SHLVEALYLVCGERG-specific TCR alpha-chain  Tg
 alternative term: Tg(TcraBDC12-4.1)10Jos
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3687036
 
 : ONTIE:0001995
 apply template: taxon class
@@ -13415,6 +13445,7 @@ alternative term: MBP Ac1-11-specific TCR beta-chain Tg
 alternative term: Vβ8.2 TCR Tg
 alternative term: Tg(TCRB)C14Jg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3055339
 
 : ONTIE:0001996
 apply template: taxon class
@@ -13434,6 +13465,7 @@ alternative term: 5C.C7 TCR Tg
 alternative term: MCC(92-103)-specific TCR Tg
 alternative term: ADLIAYLKQATK-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3761187
 
 : ONTIE:0001998
 apply template: taxon class
@@ -13452,6 +13484,7 @@ alternative term: Tg(DO11.10)10Dlo
 alternative term: OVA(323-339)-specific TCR Tg
 alternative term: D0-11.10
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:2664398
 
 : ONTIE:0002000
 apply template: taxon class
@@ -13511,6 +13544,7 @@ alternative term: DDX3Y(605-619)-specific TCR Tg
 alternative term: NAGFNSNRANSSRSS-specific TCR Tg
 alternative term: Dby(608-622)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:3045612
 
 : ONTIE:0002007
 apply template: taxon class
@@ -13539,6 +13573,7 @@ alternative term: IKB7/5
 alternative term: EQEGPEYWEEQTQRA-specific TCR Tg
 alternative term: QEGPEYWERETQKAK-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4417822
 
 : ONTIE:0002010
 apply template: taxon class
@@ -13548,6 +13583,7 @@ alternative term: IKB3/4
 alternative term: EQEGPEYWEEQTQRA-specific TCR Tg
 alternative term: QEGPEYWERETQKAK-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4417821
 
 : ONTIE:0002011
 apply template: taxon class
@@ -13557,6 +13593,7 @@ alternative term: M. tuberculosis Ag85B(240-254)-specific TCR Tg
 alternative term: BP-1
 alternative term: FQDAYNAAGGHNAVF-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4454446
 
 : ONTIE:0002012
 apply template: taxon class
@@ -13641,6 +13678,7 @@ alternative term: LVVKNPAAHHAIS-specific TCR Tg
 alternative term: Clone CW/M 5
 alternative term: B. dermatitis calnexin(103-115)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:5315014
 
 : ONTIE:0002022
 apply template: taxon class
@@ -13659,6 +13697,7 @@ alternative term: DEPLTSLTPRCNTAWNRLKL-specific TCR Tg
 alternative term: 2.5TCR
 alternative term: Chromogranin-A (29-42)-specific TCR Tg
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:2181203
 
 : ONTIE:0002024
 apply template: taxon class
@@ -13668,6 +13707,7 @@ alternative term: 9.1-2 beta chain
 alternative term: LACK(156-173)-specific TCR beta chain
 alternative term: ICFSPSLEHPIVVSGSWD-specific TCR Tg beta chain
 rank: subspecies
+xref: http://www.informatics.jax.org/allele/MGI:4838256
 
 : ONTIE:0002025
 apply template: taxon class

@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 @prefix obo: <http://purl.obolibrary.org/obo/>
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 @prefix knd: <https://knotation.org/datatype/>
 @prefix knp: <https://knotation.org/predicate/>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>

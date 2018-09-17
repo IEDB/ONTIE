@@ -3359,3 +3359,29 @@ ONTIE:0003319	occurence of autoimmune disease	owl:Class
 ONTIE:0003320	occurrence of cancer	owl:Class		
 ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
 ONTIE:0003322	occurrence of disease	owl:Class		
+ONTIE:0003323	ZIKV/H. sapiens/Martinique/MRS_OPYPaRi/2015	owl:Class	false	
+ONTIE:0003324	ZIKV/H. sapiens/Italy/10552/2016	owl:Class	false	
+ONTIE:0003325	Peste-des-petits-ruminants virus Ivory Coast 1989	owl:Class	false	
+ONTIE:0003326	Mus musculus Kymouse	owl:Class	false	
+ONTIE:0003327	Mus musculus 2W-OVA	owl:Class	false	
+ONTIE:0003328	Mus musculus V(alpha)19i TCR Transgenic	owl:Class	false	
+ONTIE:0003329	Plasmodium berghei Kyberg 173	owl:Class	false	
+ONTIE:0003330	Porcine reproductive and respiratory syndrome virus GZ11-G1	owl:Class	false	
+ONTIE:0003331	Rattus norvegicus OmniRat5Lew x Rat4	owl:Class	false	
+ONTIE:0003332	Mus musculus C7 TCR Tg	owl:Class	false	
+ONTIE:0003333	Influenza A virus (A/Kitakyushu/6/2006(H3N2))	owl:Class	false	
+ONTIE:0003334	Streptococcus pneumoniae 3532	owl:Class	false	
+ONTIE:0003335	Streptococcus pneumoniae 2366	owl:Class	false	
+ONTIE:0003336	Streptococcus pneumoniae 2521	owl:Class	false	
+ONTIE:0003337	Mycobacterium avium strain 2447	owl:Class	false	
+ONTIE:0003338	Foot-and-mouth disease virus A/VN/03/2009	owl:Class	false	
+ONTIE:0003339	Foot-and-mouth disease virus O/Tibet/CHA/99	owl:Class	false	
+ONTIE:0003340	Porcine circovirus 2 T657	owl:Class	false	
+ONTIE:0003341	Streptococcus pneumoniae 7F	owl:Class	false	
+ONTIE:0003342	Influenza A virus (A/Hong Kong/4801/2014(H3N2))	owl:Class	false	
+ONTIE:0003343	Mus musculus CD1a	owl:Class	false	
+ONTIE:0003344	Sus scrofa Duroc X Yorkshire X Hampshire	owl:Class	false	
+ONTIE:0003345	Porcine epidemic diarrhea virus PEDV USA/Colorado/2013	owl:Class	false	
+ONTIE:0003346	Mus musculus MOG-specific TCR beta-chain Tg	owl:Class	false	
+ONTIE:0003347	Mus musculus Antibody Transgenic	owl:Class	false	
+ONTIE:0003348	mus musculus VelocImmune	owl:Class	false	

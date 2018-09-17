@@ -133,7 +133,7 @@ def init_data():
 	- ontology/index.tsv to get the last ONTIE ID
 	- ontology/externals.tsv to get existing external classes
 	- organism_map.tsv to get recently added IDs"""
-	global ontie_id, organism_map
+	global ontie_id, organism_map, external
 
 	if os.path.exists(index_path):
 		with open(index_path, 'r') as index:

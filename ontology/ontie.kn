@@ -21460,3 +21460,193 @@ label: occurrence of disease
 definition: The process in which a disease unfolds.
 subclass of: biological process
 mapping note: We intend to map this term to OGMS:0000063.
+
+: ONTIE:0003323
+apply template: taxon class
+ label: ZIKV/H. sapiens/Martinique/MRS_OPYPaRi/2015
+ parent taxon: Zika virus
+alternative term: ZIKV/H. sapiens/MRS_OPY_Martinique_PaRi/2015
+rank: subspecies
+
+: ONTIE:0003324
+apply template: taxon class
+ label: ZIKV/H. sapiens/Italy/10552/2016
+ parent taxon: Zika virus
+alternative term: ZIKV/H. sapiens/10552/Pavia/Italy/2016
+rank: subspecies
+
+: ONTIE:0003325
+apply template: taxon class
+ label: Peste-des-petits-ruminants virus Ivory Coast 1989
+ parent taxon: Small ruminant morbillivirus
+alternative term: IC 89
+alternative term: Peste des petits ruminants virus Ivory Coast 1989
+rank: subspecies
+
+: ONTIE:0003326
+apply template: taxon class
+ label: Mus musculus Kymouse
+ parent taxon: Mus musculus Uncategorized
+alternative term: Kymab mouse
+rank: subspecies
+
+: ONTIE:0003327
+apply template: taxon class
+ label: Mus musculus 2W-OVA
+ parent taxon: Mus musculus Uncategorized
+alternative term: Act-2W-OVA
+rank: subspecies
+
+: ONTIE:0003328
+apply template: taxon class
+ label: Mus musculus V(alpha)19i TCR Transgenic
+ parent taxon: Mus musculus TCR transgenic
+alternative term: TRAV1/TRAJ33 TCR Transgenic
+alternative term: V(alpha)19i
+rank: subspecies
+
+: ONTIE:0003329
+apply template: taxon class
+ label: Plasmodium berghei Kyberg 173
+ parent taxon: Plasmodium berghei
+alternative term: PbK173
+rank: subspecies
+
+: ONTIE:0003330
+apply template: taxon class
+ label: Porcine reproductive and respiratory syndrome virus GZ11-G1
+ parent taxon: Porcine reproductive and respiratory syndrome virus
+alternative term: GZ11-G1
+rank: subspecies
+
+: ONTIE:0003331
+apply template: taxon class
+ label: Rattus norvegicus OmniRat5Lew x Rat4
+ parent taxon: Rattus norvegicus
+alternative term: OmniRat5Lew x Rat4
+alternative term: OmniRat
+rank: subspecies
+
+: ONTIE:0003332
+apply template: taxon class
+ label: Mus musculus C7 TCR Tg
+ parent taxon: Mus musculus TCR transgenic
+alternative term: ESAT-6
+alternative term: C7
+rank: subspecies
+
+: ONTIE:0003333
+apply template: taxon class
+ label: Influenza A virus (A/Kitakyushu/6/2006(H3N2))
+ parent taxon: H3N2 subtype
+alternative term: Kitakyushu
+rank: subspecies
+
+: ONTIE:0003334
+apply template: taxon class
+ label: Streptococcus pneumoniae 3532
+ parent taxon: Streptococcus pneumoniae
+alternative term: 3532
+rank: subspecies
+
+: ONTIE:0003335
+apply template: taxon class
+ label: Streptococcus pneumoniae 2366
+ parent taxon: Streptococcus pneumoniae
+alternative term: 2366
+rank: subspecies
+
+: ONTIE:0003336
+apply template: taxon class
+ label: Streptococcus pneumoniae 2521
+ parent taxon: Streptococcus pneumoniae
+alternative term: 2521
+rank: subspecies
+
+: ONTIE:0003337
+apply template: taxon class
+ label: Mycobacterium avium strain 2447
+ parent taxon: Mycobacterium avium
+alternative term: 2447
+rank: subspecies
+
+: ONTIE:0003338
+apply template: taxon class
+ label: Foot-and-mouth disease virus A/VN/03/2009
+ parent taxon: Foot-and-mouth disease virus - type A
+alternative term: A/VN/03/2009
+rank: subspecies
+
+: ONTIE:0003339
+apply template: taxon class
+ label: Foot-and-mouth disease virus O/Tibet/CHA/99
+ parent taxon: Foot-and-mouth disease virus - type O
+alternative term: O/Tibet/CHA/99
+rank: subspecies
+
+: ONTIE:0003340
+apply template: taxon class
+ label: Porcine circovirus 2 T657
+ parent taxon: Porcine circovirus 2
+alternative term: T657
+rank: subspecies
+
+: ONTIE:0003341
+apply template: taxon class
+ label: Streptococcus pneumoniae 7F
+ parent taxon: Streptococcus pneumoniae
+rank: subspecies
+
+: ONTIE:0003342
+apply template: taxon class
+ label: Influenza A virus (A/Hong Kong/4801/2014(H3N2))
+ parent taxon: H3N2 subtype
+alternative term: Hong Kong
+alternative term: 4801
+rank: subspecies
+
+: ONTIE:0003343
+apply template: taxon class
+ label: Mus musculus CD1a
+ parent taxon: Mus musculus CD1
+alternative term: CD1a
+rank: subspecies
+
+: ONTIE:0003344
+apply template: taxon class
+ label: Sus scrofa Duroc X Yorkshire X Hampshire
+ parent taxon: Sus scrofa
+alternative term: Duroc
+alternative term: Yorkshire
+alternative term: Hampshire
+rank: subspecies
+
+: ONTIE:0003345
+apply template: taxon class
+ label: Porcine epidemic diarrhea virus PEDV USA/Colorado/2013
+ parent taxon: Porcine epidemic diarrhea virus
+alternative term: CO
+rank: subspecies
+
+: ONTIE:0003346
+apply template: taxon class
+ label: Mus musculus MOG-specific TCR beta-chain Tg
+ parent taxon: Mus musculus C57BL/6 TCR transgenic
+alternative term: Kaa
+rank: subspecies
+
+: ONTIE:0003347
+apply template: taxon class
+ label: Mus musculus Antibody Transgenic
+ parent taxon: Mus musculus
+alternative term: Ab
+alternative term: antibody
+rank: subspecies
+
+: ONTIE:0003348
+apply template: taxon class
+ label: mus musculus VelocImmune
+ parent taxon: Mus musculus Antibody Transgenic
+alternative term: VelocImmune
+rank: subspecies
+

@@ -112,16 +112,16 @@ def add_organism(ontie, index, orgs, row):
 	if parent_tax_id < 10000000 and not parent in external:
 		new_external[parent] = 'NCBITaxon:%d' % parent_tax_id
 
-	index.write('%s	%s	owl:Class	false	\n' % (curie, label))
+	index.write('%s	%s	owl:Class		\n' % (curie, label))
 
 	orgs.write('%d	%s	%s\n' % (tax_id, curie, label))
 
 	ontie.write(': %s\n' % curie)
-	ontie.write('template: taxon class\n')
-	ontie.write('label: %s\n' % label)
+	ontie.write('apply template: taxon class\n')
+	ontie.write(' label: %s\n' % label)
+	ontie.write(' parent taxon: %s\n' % parent)
 	for alternative_term in alternative_terms[tax_id]:
 		ontie.write('alternative term: %s\n' % alternative_term)
-	ontie.write('parent taxon: %s\n' % parent)
 	if rank:
 		ontie.write('rank: %s\n' % rank)
 	ontie.write('\n')

@@ -93,8 +93,8 @@ rank: subspecies
 : ONTIE:0000014
 apply template: taxon class
  label: Mus musculus BALB/c X A/J
- parent taxon: Mus musculus A/J
-subclass of: Mus musculus BALB/c crosses
+ parent taxon: Mus musculus BALB/c crosses
+subclass of: Mus musculus A/J
 alternative term: CAF1
 alternative term: CAF1/J
 rank: subspecies
@@ -189,8 +189,8 @@ rank: subspecies
 : ONTIE:0000028
 apply template: taxon class
  label: Mus musculus C3H X DBA/2
- parent taxon: Mus musculus C3H Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus C3H Crosses
 rank: subspecies
 
 : ONTIE:0000029
@@ -242,8 +242,8 @@ rank: subspecies
 : ONTIE:0000036
 apply template: taxon class
  label: Mus musculus C3H/FeJ X C57BL/6
- parent taxon: Mus musculus C3H Crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus C3H Crosses
 alternative term: C3FeB6F1
 rank: subspecies
 
@@ -257,8 +257,8 @@ rank: subspecies
 : ONTIE:0000038
 apply template: taxon class
  label: Mus musculus 3A9 TCR Tg
- parent taxon: Mus musculus C3H
-subclass of: Mus musculus TCR transgenic
+ parent taxon: Mus musculus TCR transgenic
+subclass of: Mus musculus C3H
 alternative term: HEL(48-62)-specific TCR Tg
 alternative term: Tg(TcrHEL3A9)1Mmd
 alternative term: DGSTDYGILQINSRWW-specific TCR Tg
@@ -274,8 +274,8 @@ rank: subspecies
 : ONTIE:0000040
 apply template: taxon class
  label: Mus musculus C3HeB X DBA/2
- parent taxon: Mus musculus C3H Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus C3H Crosses
 alternative term: C3HeB/FeJ X DBA/2
 rank: subspecies
 
@@ -310,24 +310,24 @@ rank: subspecies
 : ONTIE:0000045
 apply template: taxon class
  label: Mus musculus C57BL/10 HLA-DR3 Tg IAbeta null
- parent taxon: Mus musculus C57BL/10
-subclass of: Mus musculus HLA-DR3 Tg
+ parent taxon: Mus musculus HLA-DR3 Tg
+subclass of: Mus musculus C57BL/10
 alternative term: DR3 Tg IAb null B10
 rank: subspecies
 
 : ONTIE:0000046
 apply template: taxon class
  label: Mus musculus C57BL/10 X C3H/HeJ
- parent taxon: Mus musculus C3H Crosses
-subclass of: Mus musculus B10 Crosses
+ parent taxon: Mus musculus B10 Crosses
+subclass of: Mus musculus C3H Crosses
 alternative term: B10 X C3H/HeJ
 rank: subspecies
 
 : ONTIE:0000047
 apply template: taxon class
  label: Mus musculus C57BL/10 X DBA/2
- parent taxon: Mus musculus B10 Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus B10 Crosses
 alternative term: B10.D2
 rank: subspecies
 
@@ -495,24 +495,24 @@ rank: subspecies
 : ONTIE:0000070
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A*0201 Tg human CD8 Tg
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: HLA-A*0201 Tg human CD8 Tg B6
 rank: subspecies
 
 : ONTIE:0000071
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A*0201/Kb Tg
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: A*0201/Kb Tg B6
 rank: subspecies
 
 : ONTIE:0000072
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A*0201/Kb Tg X BALB/c
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 Crosses
 subclass of: Mus musculus BALB/c crosses
 subclass of: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
@@ -520,8 +520,8 @@ rank: subspecies
 : ONTIE:0000073
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A*1101/Kb Tg X BALB/c
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus HLA-A Transgenic
+ parent taxon: Mus musculus HLA-A Transgenic
+subclass of: Mus musculus C57BL/6 Crosses
 subclass of: Mus musculus BALB/c crosses
 subclass of: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
@@ -529,8 +529,8 @@ rank: subspecies
 : ONTIE:0000074
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A2 Tg
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: HLA-A2 Tg B6
 rank: subspecies
 
@@ -545,24 +545,24 @@ rank: subspecies
 : ONTIE:0000076
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: A2.1/Kb Tg B6
 rank: subspecies
 
 : ONTIE:0000077
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg Db null Kb null
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: A2.1/Kb Tg Db null Kb null B6
 rank: subspecies
 
 : ONTIE:0000078
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A2.1/Kb Tg X SLJ
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 Crosses
 subclass of: Mus musculus SJL
 subclass of: Mus musculus C57BL/6 HLA transgenic
 rank: subspecies
@@ -570,8 +570,8 @@ rank: subspecies
 : ONTIE:0000079
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-A2/Kb Tg
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: A2.1/Kb Tg B6
 alternative term: A2/Kb Tg B6
 rank: subspecies
@@ -579,40 +579,40 @@ rank: subspecies
 : ONTIE:0000080
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B*0702/Kb Tg X BALB/c
- parent taxon: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus HLA-B7 Tg
+subclass of: Mus musculus C57BL/6 Crosses
 subclass of: Mus musculus C57BL/6 TCR transgenic
-subclass of: Mus musculus HLA-B7 Tg
 subclass of: Mus musculus BALB/c crosses
 rank: subspecies
 
 : ONTIE:0000081
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B*07021/Kb Tg Db null Kb null
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-B7 Tg
+ parent taxon: Mus musculus HLA-B7 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: HLA-B*07021/Kb Tg Db null Kb null B6
 rank: subspecies
 
 : ONTIE:0000082
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B*2705 Tg
- parent taxon: Mus musculus HLA-B27 Tg
-subclass of: Mus musculus C57BL/6 HLA transgenic
+ parent taxon: Mus musculus C57BL/6 HLA transgenic
+subclass of: Mus musculus HLA-B27 Tg
 rank: subspecies
 
 : ONTIE:0000083
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B*27052/Kb Tg Db null Kb null
- parent taxon: Mus musculus HLA-B27 Tg
-subclass of: Mus musculus C57BL/6 HLA transgenic
+ parent taxon: Mus musculus C57BL/6 HLA transgenic
+subclass of: Mus musculus HLA-B27 Tg
 alternative term: HLA-B*27052/Kb Tg Db null Kb null B6
 rank: subspecies
 
 : ONTIE:0000084
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B27 Tg H-2 Kb null Db null
- parent taxon: Mus musculus HLA-B27 Tg
-subclass of: Mus musculus C57BL/6 HLA transgenic
+ parent taxon: Mus musculus C57BL/6 HLA transgenic
+subclass of: Mus musculus HLA-B27 Tg
 alternative term: HLA-B27/H2 DKO
 rank: subspecies
 
@@ -711,8 +711,8 @@ rank: subspecies
 : ONTIE:0000097
 apply template: taxon class
  label: Mus musculus C57BL/6 Prp null
- parent taxon: Mus musculus C57BL/6
-subclass of: Mus musculus PrP null
+ parent taxon: Mus musculus PrP null
+subclass of: Mus musculus C57BL/6
 rank: subspecies
 
 : ONTIE:0000098
@@ -922,16 +922,16 @@ rank: subspecies
 : ONTIE:0000130
 apply template: taxon class
  label: Mus musculus (BALB/c X C57BL/10) Db null Kb null
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus B10 Crosses
+ parent taxon: Mus musculus B10 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: Db null Kb null CB10
 rank: subspecies
 
 : ONTIE:0000131
 apply template: taxon class
  label: Mus musculus (C57BL/10 X DBA/2) InsHA Tg
- parent taxon: Mus musculus B10 Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus B10 Crosses
 rank: subspecies
 
 : ONTIE:0000132
@@ -945,8 +945,8 @@ rank: subspecies
 : ONTIE:0000133
 apply template: taxon class
  label: Mus musculus (C57BL/6 X BALB/c) H2bm8
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: B6.C-H2bm8
 rank: subspecies
 
@@ -965,8 +965,8 @@ rank: subspecies
 : ONTIE:0000136
 apply template: taxon class
  label: Mus musculus C57BL/6 X BALB/c
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: B6C
 alternative term: BC6
 alternative term: CB6
@@ -978,16 +978,16 @@ rank: subspecies
 : ONTIE:0000137
 apply template: taxon class
  label: Mus musculus C57BL/6 X BALB/c-H2dm2
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: B6 X dm2
 rank: subspecies
 
 : ONTIE:0000138
 apply template: taxon class
  label: Mus musculus C57BL/6 X C3H
- parent taxon: Mus musculus C3H Crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus C3H Crosses
 alternative term: B6C3F1
 rank: subspecies
 
@@ -1001,8 +1001,8 @@ rank: subspecies
 : ONTIE:0000140
 apply template: taxon class
  label: Mus musculus C57BL/6 X DBA/2
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus C57BL/6 Crosses
 alternative term: B6.D2
 rank: subspecies
 
@@ -1036,8 +1036,8 @@ rank: subspecies
 : ONTIE:0000145
 apply template: taxon class
  label: Mus musculus C57BL/6-Tg(HLA-A2.1)1Enge
- parent taxon: Mus musculus C57BL/6 HLA transgenic
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus C57BL/6 HLA transgenic
 alternative term: C57BL/6-Tg(HLA-A2.1)1Enge/J
 rank: subspecies
 
@@ -1063,8 +1063,8 @@ rank: subspecies
 : ONTIE:0000148
 apply template: taxon class
  label: Mus musculus CBA /J HLA-B*2705 Tg
- parent taxon: Mus musculus CBA
-subclass of: Mus musculus HLA-B27 Tg
+ parent taxon: Mus musculus HLA-B27 Tg
+subclass of: Mus musculus CBA
 rank: subspecies
 
 : ONTIE:0000149
@@ -1099,8 +1099,8 @@ rank: subspecies
 : ONTIE:0000153
 apply template: taxon class
  label: Mus musculus CBA/Ca 2Kb/HLA-G Tg human beta2m Tg human CD8alpha Tg
- parent taxon: Mus musculus CBA
-subclass of: Mus musculus HLA Transgenic
+ parent taxon: Mus musculus HLA Transgenic
+subclass of: Mus musculus CBA
 rank: subspecies
 
 : ONTIE:0000154
@@ -1149,8 +1149,8 @@ rank: subspecies
 : ONTIE:0000160
 apply template: taxon class
  label: Mus musculus (C57BL/6 X BALB/c) Tg(HBV 1.3 genome)chi32
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: 1.3.32 Tg CB6F1
 alternative term: CB6F1 Tg(HBV 1.3 genome)chi32
 rank: subspecies
@@ -1158,8 +1158,8 @@ rank: subspecies
 : ONTIE:0000161
 apply template: taxon class
  label: Mus musculus (C57BL/6 X DBA/2) Tg(HBV 1.3 genome)chi32
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus DBA Crosses
+ parent taxon: Mus musculus DBA Crosses
+subclass of: Mus musculus C57BL/6 Crosses
 alternative term: 1.3.32 Tg B6.D2
 alternative term: B6.D2 Tg(HBV 1.3 genome)chi32
 rank: subspecies
@@ -1282,7 +1282,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus AND TCR Tg
  parent taxon: Mus musculus B10.BR
-alternative term: PCC(88-104)-specific TCR Tg
+alternative term: PCC(88–104)-specific TCR Tg
 alternative term: Tg(TcrAND)53Hed
 alternative term: KAERADLIAYLKQATAK-specific TCR Tg
 rank: subspecies
@@ -1430,8 +1430,8 @@ rank: subspecies
 : ONTIE:0000202
 apply template: taxon class
  label: Mus musculus P14 TCR Tg
- parent taxon: Mus musculus C57BL/6 TCR transgenic
-subclass of: Mus musculus TCR transgenic
+ parent taxon: Mus musculus TCR transgenic
+subclass of: Mus musculus C57BL/6 TCR transgenic
 alternative term: P14 TCR Tg B6.D2
 alternative term: (C57BL/6 X DBA/2) P14 TCR Tg
 alternative term: LCMV GP33-specific TCR Tg
@@ -1647,7 +1647,7 @@ rank: subspecies
 : ONTIE:0000236
 apply template: taxon class
  label: Mycobacterium bovis T/91/1378
- parent taxon: Mycobacterium bovis
+ parent taxon: Mycobacterium tuberculosis variant bovis
 rank: subspecies
 
 : ONTIE:0000237
@@ -2042,7 +2042,7 @@ rank: subspecies
 : ONTIE:0000301
 apply template: taxon class
  label: Human herpesvirus 1 strain KOS 1.1
- parent taxon: Human herpesvirus 1 strain KOS
+ parent taxon: Human alphaherpesvirus 1 strain KOS
 rank: subspecies
 
 : ONTIE:0000302
@@ -2092,7 +2092,7 @@ rank: subspecies
 : ONTIE:0000309
 apply template: taxon class
  label: Human herpesvirus 1 strain KOS 321
- parent taxon: Human herpesvirus 1 strain KOS
+ parent taxon: Human alphaherpesvirus 1 strain KOS
 rank: subspecies
 
 : ONTIE:0000310
@@ -2460,34 +2460,34 @@ rank: subspecies
 : ONTIE:0000370
 apply template: taxon class
  label: Canine distemper virus FXNO
- parent taxon: Canine distemper virus
+ parent taxon: Canine morbillivirus
 rank: subspecies
 
 : ONTIE:0000371
 apply template: taxon class
  label: Measles virus CAM/RB
- parent taxon: Measles virus
+ parent taxon: Measles morbillivirus
 alternative term: CAM/RBH
 rank: subspecies
 
 : ONTIE:0000372
 apply template: taxon class
  label: Phocine distemper virus 2558/Han 88
- parent taxon: Phocine distemper virus
+ parent taxon: Phocine morbillivirus
 alternative term: Han.88
 rank: subspecies
 
 : ONTIE:0000373
 apply template: taxon class
  label: Phocine distemper virus 5804/Han 90
- parent taxon: Phocine distemper virus
+ parent taxon: Phocine morbillivirus
 alternative term: Han.90
 rank: subspecies
 
 : ONTIE:0000374
 apply template: taxon class
  label: Rinderpest virus LATC
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 rank: subspecies
 
 : ONTIE:0000375
@@ -2896,7 +2896,7 @@ rank: subspecies
 : ONTIE:0000441
 apply template: taxon class
  label: Peste-des-petits-ruminants virus Sungri-96
- parent taxon: Peste-des-petits-ruminants virus
+ parent taxon: Small ruminant morbillivirus
 alternative term: Sungri/96
 rank: subspecies
 
@@ -2934,13 +2934,13 @@ rank: subspecies
 : ONTIE:0000447
 apply template: taxon class
  label: Mycobacterium bovis BCG Danish 1331
- parent taxon: Mycobacterium bovis BCG
+ parent taxon: Mycobacterium tuberculosis variant bovis BCG
 rank: subspecies
 
 : ONTIE:0000448
 apply template: taxon class
  label: Mycobacterium bovis BCG Tokyo
- parent taxon: Mycobacterium bovis BCG
+ parent taxon: Mycobacterium tuberculosis variant bovis BCG
 rank: subspecies
 
 : ONTIE:0000449
@@ -3007,7 +3007,7 @@ rank: subspecies
 : ONTIE:0000459
 apply template: taxon class
  label: Rhodococcus equi ATCC103+
- parent taxon: Rhodococcus equi
+ parent taxon: Rhodococcus hoagii
 rank: subspecies
 
 : ONTIE:0000460
@@ -3522,6 +3522,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus NOD HLA-DR3 Tg IAbeta null
  parent taxon: Mus musculus NOD
+subclass of: Mus musculus HLA-DR3 Tg
 rank: subspecies
 
 : ONTIE:0000543
@@ -4083,6 +4084,7 @@ apply template: taxon class
  parent taxon: Pseudomonas aeruginosa
 alternative term: FD4
 alternative term: Fisher-Devlin immunotype 4
+alternative term: ATCC 27315
 rank: subspecies
 
 : ONTIE:0000629
@@ -5274,8 +5276,8 @@ rank: subspecies
 : ONTIE:0000821
 apply template: taxon class
  label: Mus musculus C57BL/6 HLA-B27 Tg human beta2m Tg human CD8 Tg
- parent taxon: Mus musculus HLA-B27 Tg
-subclass of: Mus musculus C57BL/6 HLA transgenic
+ parent taxon: Mus musculus C57BL/6 HLA transgenic
+subclass of: Mus musculus HLA-B27 Tg
 rank: subspecies
 
 : ONTIE:0000822
@@ -5383,7 +5385,7 @@ rank: subspecies
 : ONTIE:0000838
 apply template: taxon class
  label: Rinderpest virus strain Iran
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 rank: subspecies
 
 : ONTIE:0000839
@@ -5417,21 +5419,21 @@ rank: subspecies
 : ONTIE:0000843
 apply template: taxon class
  label: Rinderpest virus strain eland
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 rank: subspecies
 
 : ONTIE:0000844
 apply template: taxon class
  label: Rinderpest virus strain Saudi 1/81
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 alternative term: Rinderpest virus strain Saudi/81
 rank: subspecies
 
 : ONTIE:0000845
 apply template: taxon class
  label: Mus musculus C57BL/6 X BALB/cByJ
- parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus BALB/c crosses
 alternative term: CByB6F1/J
 alternative term: CByB6F1
 rank: subspecies
@@ -5571,7 +5573,7 @@ rank: subspecies
 : ONTIE:0000865
 apply template: taxon class
  label: Sendai virus strain P3193
- parent taxon: Sendai virus
+ parent taxon: Murine respirovirus
 rank: subspecies
 
 : ONTIE:0000866
@@ -5716,7 +5718,7 @@ rank: subspecies
 : ONTIE:0000885
 apply template: taxon class
  label: Peste-des-petits-ruminants virus (strain Nigeria 75/1)
- parent taxon: Peste-des-petits-ruminants virus
+ parent taxon: Small ruminant morbillivirus
 alternative term: Nigeria 75/1
 alternative term: Nigeria
 rank: subspecies
@@ -5798,14 +5800,14 @@ rank: subspecies
 : ONTIE:0000896
 apply template: taxon class
  label: Newcastle disease virus (strain La Sota)
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 alternative term: La Sota
 rank: subspecies
 
 : ONTIE:0000897
 apply template: taxon class
  label: Newcastle disease virus (strain KBNP-4152)
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 alternative term: KBNP-4152
 alternative term: KBNP
 alternative term: 4152
@@ -6032,14 +6034,14 @@ rank: subspecies
 : ONTIE:0000927
 apply template: taxon class
  label: Rinderpest virus (strain Kudu)
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 alternative term: Kudu
 rank: subspecies
 
 : ONTIE:0000928
 apply template: taxon class
  label: Rinderpest virus (strain Egypt)
- parent taxon: Rinderpest virus
+ parent taxon: Rinderpest morbillivirus
 alternative term: Egypt
 rank: subspecies
 
@@ -6219,7 +6221,13 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus C57BL/6 IL-4 null
  parent taxon: Mus musculus C57BL/6
-subclass of: Neisseria meningitidis serogroup B
+alternative term: IL-4
+rank: subspecies
+
+: ONTIE:0000954
+apply template: taxon class
+ label: Neisseria meningitidis serogroup B Strain 188/87
+ parent taxon: Neisseria meningitidis serogroup B
 alternative term: 188/87
 rank: subspecies
 
@@ -6444,6 +6452,7 @@ apply template: taxon class
 alternative term: N15tg/RAG-2null
 alternative term: VSV NP (52-59)-specific TCR Tg
 alternative term: VSV8-specific TCR Tg
+alternative term: Tg(TcraN15,TcrbN15)L2Elre
 rank: subspecies
 xref: http://www.informatics.jax.org/allele/MGI:3777745
 
@@ -6497,21 +6506,21 @@ rank: subspecies
 : ONTIE:0000993
 apply template: taxon class
  label: Newcastle disease virus (strain Eaves)
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 alternative term: Eaves, Grimes
 rank: subspecies
 
 : ONTIE:0000994
 apply template: taxon class
  label: Newcastle disease virus (strain MC110)
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 alternative term: MC110
 rank: subspecies
 
 : ONTIE:0000995
 apply template: taxon class
  label: Newcastle disease virus (strain WA2116)
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 alternative term: WA2116
 rank: subspecies
 
@@ -6673,7 +6682,7 @@ rank: subspecies
 : ONTIE:0001018
 apply template: taxon class
  label: Measles virus strain MVi/Ibadan.NIE/9.98/6
- parent taxon: Measles virus
+ parent taxon: Measles morbillivirus
 alternative term: Ibadan
 alternative term: MVi/Ibadan.NIE/9.98/6
 rank: subspecies
@@ -6730,8 +6739,8 @@ rank: subspecies
 : ONTIE:0001026
 apply template: taxon class
  label: Mus musculus (C57BL/6 X A/J)
- parent taxon: Mus musculus C57BL/6 Crosses
-subclass of: Mus musculus A/J
+ parent taxon: Mus musculus A/J
+subclass of: Mus musculus C57BL/6 Crosses
 alternative term: C57BL/6 X A/J
 alternative term: A/J X C57BL/6
 rank: subspecies
@@ -6930,8 +6939,8 @@ rank: subspecies
 : ONTIE:0001052
 apply template: taxon class
  label: Mus musculus C3H/He HLA-B*3501 Tg
- parent taxon: Mus musculus C3H
-subclass of: Mus musculus HLA-B Transgenic
+ parent taxon: Mus musculus HLA-B Transgenic
+subclass of: Mus musculus C3H
 alternative term: HLA-B*3501
 rank: subspecies
 
@@ -7039,6 +7048,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus RIP-B7/DRB1*0401
  parent taxon: Mus musculus HLA-DRB1*0401 Tg
+alternative term: DR0401
 rank: subspecies
 
 : ONTIE:0001068
@@ -7052,7 +7062,13 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus RIP-B7 X BALB/c
  parent taxon: Mus musculus BALB/c crosses
-subclass of: Mus musculus Uncategorized
+alternative term: BALB/c X RIP-B7
+rank: subspecies
+
+: ONTIE:0001070
+apply template: taxon class
+ label: Mus musculus RIP-B7 H2d/d
+ parent taxon: Mus musculus Uncategorized
 alternative term: d/d
 rank: subspecies
 
@@ -7098,7 +7114,7 @@ rank: subspecies
 
 : ONTIE:0001076
 apply template: taxon class
- label: Mus musculus G9Calpha -/-.NOD
+ label: Mus musculus G9Calpha –/ –.NOD
  parent taxon: Mus musculus NOD
 alternative term: G9C
 rank: subspecies
@@ -7281,8 +7297,8 @@ rank: subspecies
 : ONTIE:0001101
 apply template: taxon class
  label: Mus musculus DBA/1 X B10.Q
- parent taxon: Mus musculus DBA Crosses
-subclass of: Mus musculus B10 Crosses
+ parent taxon: Mus musculus B10 Crosses
+subclass of: Mus musculus DBA Crosses
 alternative term: B10.Q X DBA/1
 rank: subspecies
 
@@ -7469,8 +7485,8 @@ rank: subspecies
 : ONTIE:0001126
 apply template: taxon class
  label: Mus musculus hCD4.DR3-DQ2.MHCII
- parent taxon: Mus musculus HLA-DQ Tg
-subclass of: Mus musculus HLA-DR3 Tg
+ parent taxon: Mus musculus HLA-DR3 Tg
+subclass of: Mus musculus HLA-DQ Tg
 alternative term: hCD4.DR3-DQ2.MHCII
 rank: subspecies
 
@@ -7529,8 +7545,8 @@ rank: subspecies
 : ONTIE:0001134
 apply template: taxon class
  label: Mus musculus FVB X A2.1
- parent taxon: Mus musculus FVB
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus FVB
 alternative term: A2.1 X FVB
 rank: subspecies
 
@@ -7551,8 +7567,8 @@ rank: subspecies
 : ONTIE:0001137
 apply template: taxon class
  label: Mus musculus HLA-DR3/DQ6 Tg
- parent taxon: Mus musculus HLA-DQ Tg
-subclass of: Mus musculus HLA-DR3 Tg
+ parent taxon: Mus musculus HLA-DR3 Tg
+subclass of: Mus musculus HLA-DQ Tg
 alternative term: DQ6/DR3
 rank: subspecies
 
@@ -7567,8 +7583,8 @@ rank: subspecies
 : ONTIE:0001139
 apply template: taxon class
  label: Mus musculus HLA-DR3/DQ8 Tg
- parent taxon: Mus musculus HLA-DQ Tg
-subclass of: Mus musculus HLA-DR3 Tg
+ parent taxon: Mus musculus HLA-DR3 Tg
+subclass of: Mus musculus HLA-DQ Tg
 alternative term: DQ8/DR3
 rank: subspecies
 
@@ -7645,8 +7661,8 @@ rank: subspecies
 : ONTIE:0001149
 apply template: taxon class
  label: Mus musculus MS2-3C8 TCR Tg
- parent taxon: Mus musculus TCR transgenic
-subclass of: Mus musculus HLA-DRB1*0401 Tg
+ parent taxon: Mus musculus HLA-DRB1*0401 Tg
+subclass of: Mus musculus TCR transgenic
 alternative term: MS2-3C8
 alternative term: MBP(111-129)-specific TCR Tg
 alternative term: LSRFSWGAEGQRPGFGYGG-specific TCR Tg
@@ -8098,8 +8114,8 @@ rank: subspecies
 : ONTIE:0001213
 apply template: taxon class
  label: Mus musculus HLA-DRB1*1501 x DQB1*0602
- parent taxon: Mus musculus HLA-DQ Tg
-subclass of: Mus musculus HLA-DRB1*1501 Tg
+ parent taxon: Mus musculus HLA-DRB1*1501 Tg
+subclass of: Mus musculus HLA-DQ Tg
 alternative term: DRB1*1501 x DQB1*0602
 alternative term: DQB1*0602 x DRB1*1501
 rank: subspecies
@@ -8119,8 +8135,8 @@ rank: subspecies
 : ONTIE:0001216
 apply template: taxon class
  label: Mus musculus APP HLA-DR15 MBP85-99 Tg
- parent taxon: Mus musculus HLA-DR15 Tg
-subclass of: Mus musculus APP
+ parent taxon: Mus musculus APP
+subclass of: Mus musculus HLA-DR15 Tg
 alternative term: MBP85-99 HLA-DR15 APP
 rank: subspecies
 
@@ -8241,7 +8257,7 @@ apply template: taxon class
  label: Mus musculus B6.11 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: Torpedo californica AChR TCR Tg
-alternative term: Tα(146-162)-specific TCR Tg
+alternative term: Tα(146–162)-specific TCR Tg
 alternative term: TAChR(146-162)-specific TCR Tg
 alternative term: T. californica AChR(146-162)-specific TCR Tg
 alternative term: LGIWTYDGTKVSISPES-specific TCR Tg
@@ -8409,8 +8425,8 @@ rank: subspecies
 : ONTIE:0001256
 apply template: taxon class
  label: Mus musculus FVB/B X B10.RIII
- parent taxon: Mus musculus FVB
-subclass of: Mus musculus B10 Crosses
+ parent taxon: Mus musculus B10 Crosses
+subclass of: Mus musculus FVB
 alternative term: B10.RIII X FVB/B
 rank: subspecies
 
@@ -8642,9 +8658,9 @@ apply template: taxon class
  label: Mus musculus A23 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: H/K ATPase alpha
-alternative term: H/K ATPase alpha(630-641)-specific TCR Tg
+alternative term: H/K ATPase alpha(630–641)-specific TCR Tg
 alternative term: TXA23
-alternative term: H/K ATPase alpha(633-641)-specific TCR Tg
+alternative term: H/K ATPase alpha(633–641)-specific TCR Tg
 alternative term: PITAKAIAASVG-specific TCR Tg
 rank: subspecies
 
@@ -9148,7 +9164,7 @@ apply template: taxon class
  label: Mus musculus 2B4 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: 2B4 TCR Tg
-alternative term: PCC(88-104)-specific TCR Tg
+alternative term: PCC(88–104)-specific TCR Tg
 alternative term: ADLIAYLKQAT-specific TCR Tg
 rank: subspecies
 
@@ -9278,13 +9294,13 @@ rank: subspecies
 : ONTIE:0001378
 apply template: taxon class
  label: Newcastle disease virus Kr-005/00
- parent taxon: Newcastle disease virus
+ parent taxon: Avian avulavirus 1
 rank: subspecies
 
 : ONTIE:0001379
 apply template: taxon class
  label: Anatid herpesvirus 1 Clone-03
- parent taxon: Anatid herpesvirus 1
+ parent taxon: Anatid alphaherpesvirus 1
 alternative term: strain 03
 rank: subspecies
 
@@ -9293,7 +9309,7 @@ apply template: taxon class
  label: Mus musculus C57BL/6 CMAH null
  parent taxon: Mus musculus C57BL/6
 alternative term: B6 CMAH null
-alternative term: C57BL/6 cytidine monophospho-N-acetylneuraminic acid hydroxylase (CMAH) null
+alternative term: C57BL/6 cytidine monophospho–N-acetylneuraminic acid hydroxylase (CMAH) null
 rank: subspecies
 
 : ONTIE:0001381
@@ -9476,8 +9492,8 @@ rank: subspecies
 : ONTIE:0001407
 apply template: taxon class
  label: Mus musculus C57BL/6 X 129
- parent taxon: Mus musculus 129
-subclass of: Mus musculus C57BL/6 Crosses
+ parent taxon: Mus musculus C57BL/6 Crosses
+subclass of: Mus musculus 129
 alternative term: 129 X C57BL/6
 rank: subspecies
 
@@ -9526,8 +9542,8 @@ rank: subspecies
 : ONTIE:0001414
 apply template: taxon class
  label: Mus musculus HLA-A2 NOD/SCID/HHD
- parent taxon: Mus musculus NOD
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus NOD
 rank: subspecies
 
 : ONTIE:0001415
@@ -9544,7 +9560,7 @@ alternative term: A1 RAG1null
 alternative term: REEALHQFRSGRKPI-specific TCR Tg
 alternative term: HY-A1 TCR Tg
 alternative term: A1(M) TCR Tg
-alternative term: Dby(479-493)-specific TCR Tg
+alternative term: Dby(479–493)-specific TCR Tg
 rank: subspecies
 xref: http://www.informatics.jax.org/allele/MGI:4354497
 
@@ -9570,7 +9586,7 @@ rank: subspecies
 : ONTIE:0001420
 apply template: taxon class
  label: Junin virus strain MC2
- parent taxon: Junin mammarenavirus
+ parent taxon: Argentinian mammarenavirus
 rank: subspecies
 
 : ONTIE:0001421
@@ -9594,7 +9610,7 @@ rank: subspecies
 : ONTIE:0001424
 apply template: taxon class
  label: Pichinde virus strain Munchique
- parent taxon: Pichinde mammarenavirus
+ parent taxon: Cali mammarenavirus
 rank: subspecies
 
 : ONTIE:0001425
@@ -9864,9 +9880,9 @@ rank: subspecies
 
 : ONTIE:0001463
 apply template: taxon class
- label: Neisseria meningitidis serogroup B Strain 80-165
+ label: Neisseria meningitidis serogroup B Strain  80–165
  parent taxon: Neisseria meningitidis serogroup B
-alternative term: 80-165
+alternative term: 80–165
 rank: subspecies
 
 : ONTIE:0001464
@@ -10492,6 +10508,7 @@ apply template: taxon class
  label: Mus musculus 6218 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: PAα Rg
+alternative term: PAα Rg
 alternative term: Influenza PA(224-233)-specific TCR Tg
 rank: subspecies
 
@@ -10627,8 +10644,8 @@ rank: subspecies
 : ONTIE:0001579
 apply template: taxon class
  label: Mus musculus HLA-A*0201 Tg NOD.HHD
- parent taxon: Mus musculus NOD
-subclass of: Mus musculus HLA-A2 Tg
+ parent taxon: Mus musculus HLA-A2 Tg
+subclass of: Mus musculus NOD
 alternative term: NOD
 alternative term: HLA-A2
 alternative term: HHD
@@ -11302,7 +11319,7 @@ rank: subspecies
 : ONTIE:0001684
 apply template: taxon class
  label: Pichinde virus AN3739
- parent taxon: Pichinde mammarenavirus
+ parent taxon: Cali mammarenavirus
 rank: subspecies
 
 : ONTIE:0001685
@@ -11980,8 +11997,8 @@ rank: subspecies
 : ONTIE:0001789
 apply template: taxon class
  label: Mus musculus NOD HLA-A*1101 Tg
- parent taxon: Mus musculus HLA-A Transgenic
-subclass of: Mus musculus NOD
+ parent taxon: Mus musculus NOD
+subclass of: Mus musculus HLA-A Transgenic
 rank: subspecies
 
 : ONTIE:0001790
@@ -11998,7 +12015,7 @@ apply template: taxon class
 alternative term: OVA23-3
 alternative term: ISQAVHAAHAEINEAGR-specific TCR Tg
 alternative term: OVA(323-339)-specific TCR Tg
-alternative term: Clone 7-3-7
+alternative term: Clone 7–3–7
 rank: subspecies
 
 : ONTIE:0001792
@@ -12012,7 +12029,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus DbGagL TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: FV-TCR Tg
+alternative term: FV-TCR Tg
 alternative term: CCLCLTVFL-specific TCR Tg
 alternative term: GagL(85-93)-specific TCR Tg
 alternative term: FMuLVgag-specific TCR Tg
@@ -12321,7 +12338,7 @@ apply template: taxon class
 : ONTIE:0001843
 apply template: taxon class
  label: Sendai virus (MN)
- parent taxon: Sendai virus
+ parent taxon: Murine respirovirus
 alternative term: Sendai virus strain MN
 rank: subspecies
 
@@ -12496,9 +12513,9 @@ apply template: taxon class
  label: Mus musculus LLO56 TCR Tg
  parent taxon: Mus musculus C57BL/6 TCR transgenic
 alternative term: LLO56
-alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190–205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190-205)-specific TCR Tg
+alternative term: Listeriolysin-O(190–205)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0001868
@@ -12506,9 +12523,9 @@ apply template: taxon class
  label: Mus musculus LLO118 TCR Tg
  parent taxon: Mus musculus C57BL/6 TCR transgenic
 alternative term: LLO118
-alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190–205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190-205)-specific TCR Tg
+alternative term: Listeriolysin-O(190–205)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0001869
@@ -12581,7 +12598,7 @@ rank: subspecies
 : ONTIE:0001878
 apply template: taxon class
  label: Rhesus rotavirus MMU 18006
- parent taxon: Rhesus rotavirus
+ parent taxon: Simian rotavirus A strain RRV
 alternative term: mmu 18006
 alternative term: ATCC VR-1739
 rank: subspecies
@@ -12869,7 +12886,7 @@ rank: subspecies
 : ONTIE:0001918
 apply template: taxon class
  label: Peste-des-petits-ruminants virus China/Tibet/Geg/07-30
- parent taxon: Peste-des-petits-ruminants virus
+ parent taxon: Small ruminant morbillivirus
 alternative term: China/Tibet/Geg/07-30
 rank: subspecies
 
@@ -13490,8 +13507,8 @@ xref: http://www.informatics.jax.org/allele/MGI:2664398
 apply template: taxon class
  label: Mus musculus qCII24 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: Collagen II(245-270)-specific TCR Tg
-alternative term: CII(245-270)-specific TCR Tg
+alternative term: Collagen II(245–270)-specific TCR Tg
+alternative term: CII(245–270)-specific TCR Tg
 alternative term: ATGPLGPKGQTGEPGIAGFKGEQGPK-specific TCR Tg
 rank: subspecies
 
@@ -13507,7 +13524,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus MBP121-150 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: Rat MBP(121-150)-specific TCR Tg
+alternative term: Rat MBP(121–150)-specific TCR Tg
 alternative term: GFGYGGRASDYKSAHKGFKGAYDAQGTLSK-specific TCR Tg
 rank: subspecies
 
@@ -13532,7 +13549,7 @@ apply template: taxon class
  label: Mus musculus A51 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: TXA51
-alternative term: H/K ATPase alpha(889-901)-specific TCR Tg
+alternative term: H/K ATPase alpha(889–901)-specific TCR Tg
 alternative term: PLLCVGLRPQWE-specific TCR Tg
 rank: subspecies
 
@@ -13589,7 +13606,7 @@ xref: http://www.informatics.jax.org/allele/MGI:4417821
 apply template: taxon class
  label: Mus musculus P25 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: M. tuberculosis Ag85B(240-254)-specific TCR Tg
+alternative term: M. tuberculosis Ag85B(240–254)-specific TCR Tg
 alternative term: BP-1
 alternative term: FQDAYNAAGGHNAVF-specific TCR Tg
 rank: subspecies
@@ -13599,7 +13616,7 @@ xref: http://www.informatics.jax.org/allele/MGI:4454446
 apply template: taxon class
  label: Mus musculus L9.6 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: L. monocytogenes p60(217-225)-specific TCR Tg
+alternative term: L. monocytogenes p60(217–225)-specific TCR Tg
 alternative term: KYGVSVQDI-specific TCR Tg
 rank: subspecies
 
@@ -13615,7 +13632,7 @@ apply template: taxon class
  label: Mus musculus RSV-M187 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: NAITNAKII-specific TCR Tg
-alternative term: RSV M(187-195)-specific TCR Tg
+alternative term: RSV M(187–195)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002015
@@ -13651,7 +13668,7 @@ apply template: taxon class
  label: Mus musculus TRBV13-1 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82-90)-specific TCR Tg
+alternative term: RSV M2(82–90)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002019
@@ -13659,7 +13676,7 @@ apply template: taxon class
  label: Mus musculus TRBV13-2 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82-90)-specific TCR Tg
+alternative term: RSV M2(82–90)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002020
@@ -13753,6 +13770,113 @@ apply template: taxon class
  parent taxon: H5N1 subtype
 alternative term: 305-135V08
 alternative term: swan/Poland/305-135V08/2006
+rank: subspecies
+
+: ONTIE:0003260
+apply template: taxon class
+ label: Leishmania amazonensis IFLA/BR/67/PH8
+ parent taxon: Leishmania amazonensis
+alternative term: ATCC 50159
+rank: subspecies
+
+: ONTIE:0003261
+apply template: taxon class
+ label: ZIKV/H. sapiens/Malaysia/P6740/1947
+ parent taxon: Zika virus
+alternative term: Malaysia/P6740/1947
+alternative term: ZP6740
+alternative term: zika
+rank: subspecies
+
+: ONTIE:0003262
+apply template: taxon class
+ label: Influenza A virus (A/Louisiana/08/2013 (H1N1))
+ parent taxon: H1N1 subtype
+alternative term: A/Louisiana/08/2013
+rank: subspecies
+
+: ONTIE:0003263
+apply template: taxon class
+ label: Influenza A virus (A/duck/Vietnam/NCVD-664/2010(H5N1))
+ parent taxon: H5N1 subtype
+alternative term: A/duck/Vietnam/NCVD-664/2010
+rank: subspecies
+
+: ONTIE:0003264
+apply template: taxon class
+ label: Influenza A virus (A/duck/Vietnam/NCVD-680/2011(H5N1))
+ parent taxon: H5N1 subtype
+alternative term: A/duck/Vietnam/NCVD-680/2011
+rank: subspecies
+
+: ONTIE:0003265
+apply template: taxon class
+ label: Influenza A virus (A/Taiwan/2/2013(H6N1))
+ parent taxon: H6N1 subtype
+alternative term: A/Taiwan/2/2013
+rank: subspecies
+
+: ONTIE:0003266
+apply template: taxon class
+ label: Influenza A virus (A/garganey/Ukraine/05835-NAMRU3/2006(H8N4))
+ parent taxon: H8N4 subtype
+alternative term: A/garganey/Ukraine/05835-NAMRU3/2006
+rank: subspecies
+
+: ONTIE:0003267
+apply template: taxon class
+ label: Influenza A virus (A/chicken/Vietnam/NCVD-1156/2011(H9N2))
+ parent taxon: H9N2 subtype
+alternative term: A/chicken/Vietnam/NCVD-1156/2011
+rank: subspecies
+
+: ONTIE:0003268
+apply template: taxon class
+ label: Influenza A virus (A/chicken/Bangladesh/OP-4/2013(H9N2))
+ parent taxon: H9N2 subtype
+alternative term: A/chicken/Bangladesh/OP-4/2013
+rank: subspecies
+
+: ONTIE:0003269
+apply template: taxon class
+ label: Influenza A virus (A/environment/Bangladesh/OE-09/2013(H9N2))
+ parent taxon: H9N2 subtype
+alternative term: A/environment/Bangladesh/OE-09/2013
+rank: subspecies
+
+: ONTIE:0003270
+apply template: taxon class
+ label: Influenza A virus (A/quail/Bangladesh/337/2013(H9N2))
+ parent taxon: H9N2 subtype
+alternative term: A/quail/Bangladesh/337/2013
+rank: subspecies
+
+: ONTIE:0003271
+apply template: taxon class
+ label: Influenza A virus (A/Hong Kong/308/2014(H9N2))
+ parent taxon: H9N2 subtype
+alternative term: A/Hong Kong/308/2014
+rank: subspecies
+
+: ONTIE:0003272
+apply template: taxon class
+ label: Influenza A virus (A/Ohio/88/2012(H3N2))
+ parent taxon: H3N2 subtype
+alternative term: A/Ohio/88/2012
+rank: subspecies
+
+: ONTIE:0003273
+apply template: taxon class
+ label: Influenza A virus (A/duck/Vietnam/NCVD-0035/2012(H10N7))
+ parent taxon: H10N7 subtype
+alternative term: A/duck/Vietnam/NCVD-0035/2012
+rank: subspecies
+
+: ONTIE:0003274
+apply template: taxon class
+ label: Influenza A virus (A/garganey/Ukraine/05839-NAMRU3/2006(H14N6))
+ parent taxon: H14N6 subtype
+alternative term: A/garganey/Ukraine/05839-NAMRU3/2006
 rank: subspecies
 
 : ONTIE:0002030

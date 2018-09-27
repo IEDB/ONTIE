@@ -35,12 +35,19 @@ SELECT o1.organism_id,
 	o1.organism_name AS label,
 	o1.rank,
 	o1.parent_tax_id,
+	o1.parent_tax_id_string AS parents,
 	o2.organism_name AS parent
 FROM organism o1, organism o2
 WHERE o1.parent_tax_id = o2.organism_id
 	AND o1.organism_id >= 10000000
 	AND o1.iri IS NULL
 ORDER BY o1.organism_id
+"""
+
+parent_name = """
+SELECT organism_id, organism_name
+FROM organism
+WHERE organism_id = {0}
 """
 
 def main():
@@ -56,6 +63,7 @@ def main():
 	conn = cx_Oracle.connect(os.environ['ORACLE_CONN'])
 	print("Connecting: {}".format(os.environ['ORACLE_CONN']))
 	cur = conn.cursor()
+	additional_cur = conn.cursor()
 
 	# Collect alternative terms
 	cur.execute(synonyms)
@@ -72,7 +80,7 @@ def main():
 			with open(organism_map_path, 'a') as orgs:
 				cur.execute(organisms)
 				for row in cur:
-					if add_organism(ontie, index, orgs, row):
+					if add_organism(ontie, index, orgs, row, additional_cur):
 						added += 1
 
 	if added == 0:
@@ -89,7 +97,7 @@ def clean_name(name):
 	"""Return a tab-replaced name."""
 	return name.strip().replace('\t', ' ')
 
-def add_organism(ontie, index, orgs, row):
+def add_organism(ontie, index, orgs, row, cur):
 	"""For each IEDB taxon:
 	- add an new_external (if parent is in NCBI Taxonomy, and not yet in external)
 	- write a row to index.tsv
@@ -97,7 +105,7 @@ def add_organism(ontie, index, orgs, row):
 	- write a Knotation stanza to ontie.kn"""
 	global organism_map, ontie_id, alternative_term, external
 
-	(tax_id, label, rank, parent_tax_id, parent) = row
+	(tax_id, label, rank, parent_tax_id, parents, parent) = row
 	if tax_id in organism_map:
 		return False
 
@@ -120,6 +128,12 @@ def add_organism(ontie, index, orgs, row):
 	ontie.write('apply template: taxon class\n')
 	ontie.write(' label: %s\n' % label)
 	ontie.write(' parent taxon: %s\n' % parent)
+	# Maybe add additional parents
+	if ',' in parents:
+		superclasses = get_superclasses(parent_tax_id_string, parent, cur)
+		for sc in superclasses:
+			ontie.write('subclass of: %s\n' % sc)
+	# Maybe add synonyms
 	for alternative_term in alternative_terms[tax_id]:
 		ontie.write('alternative term: %s\n' % alternative_term)
 	if rank:
@@ -161,6 +175,21 @@ def init_data():
 	else:
 		with open(organism_map_path, 'w') as orgs:
 			orgs.write('TAX_ID	CURIE	LABEL\n')
+
+def get_superclasses(parent_tax_id_string, parent, cur):
+	"""Given a string with multiple parent IDs, the original parent name, 
+	and a cursor to query with, get the labels and return them as a list,
+	excluding the original parent name."""
+	superclasses = []
+	for s in parent_tax_id_string.split(','):
+		query = parent_name.format(s)
+		cur.execute(query)
+		for row in cur:
+			(organism_id, organism_name) = row
+			organism_name = clean_name(organism_name)
+			if organism_name != parent:
+				superclasses.append(organism_name)
+	return superclasses
 
 # Execute
 if __name__ == '__main__':

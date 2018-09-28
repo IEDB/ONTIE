@@ -198,7 +198,7 @@ def add_protein(ontie, index, src, row):
 		synonyms = ''
 	alternative_terms = aliases.split(', ') + synonyms.split(', ')
 	
-	index.write('%s	%s	owl:Class	false	\n' % (curie, label))
+	index.write('%s	%s	owl:Class		\n' % (curie, label))
 	
 	src.write('%d	%s	%s\n' % (source_id, curie, name))
 

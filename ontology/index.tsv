@@ -3385,3 +3385,74 @@ ONTIE:0003345	Porcine epidemic diarrhea virus PEDV USA/Colorado/2013	owl:Class
 ONTIE:0003346	Mus musculus MOG-specific TCR beta-chain Tg	owl:Class		
 ONTIE:0003347	Mus musculus Antibody Transgenic	owl:Class		
 ONTIE:0003348	mus musculus VelocImmune	owl:Class		
+ONTIE:0003349	band 3 anion transport protein (Mus musculus)	owl:Class	false	
+ONTIE:0003350	ubiquitin-associated domain-containing protein 2 (Homo sapiens)	owl:Class	false	
+ONTIE:0003351	CD74/ROS (Homo sapiens)	owl:Class	false	
+ONTIE:0003352	cyclin-dependent kinase 3 (Homo sapiens)	owl:Class	false	
+ONTIE:0003353	Uncharacterized protein KIAA0754 (Homo sapiens)	owl:Class	false	
+ONTIE:0003354	Major Peanut Allergen Ara H 6 (Arachis hypogaea)	owl:Class	false	
+ONTIE:0003355	epsilon toxin (Clostridium perfringens)	owl:Class	false	
+ONTIE:0003356	DNA processivity factor (Human betaherpesvirus 5)	owl:Class	false	
+ONTIE:0003357	synuclein (Homo sapiens)	owl:Class	false	
+ONTIE:0003358	phospholipase A2 inhibitor gamma (Sinonatrix annularis)	owl:Class	false	
+ONTIE:0003359	phospholipase A2 inhibitor gamma (Macropisthodon rudis)	owl:Class	false	
+ONTIE:0003360	phospholipase A2 inhibitor gamma (Elaphe carinata)	owl:Class	false	
+ONTIE:0003361	phospholipase A2 inhibitor gamma (Ptyas dhumnades)	owl:Class	false	
+ONTIE:0003362	phospholipase A2 inhibitor gamma (Elaphe taeniura)	owl:Class	false	
+ONTIE:0003363	phospholipase A2 inhibitor gamma (Lycodon rufozonatus)	owl:Class	false	
+ONTIE:0003364	phospholipase A2 inhibitor gamma (Oocatochus rufodorsatus)	owl:Class	false	
+ONTIE:0003365	carbonate dehydratase (Mycobacterium tuberculosis)	owl:Class	false	
+ONTIE:0003366	glycoprotein G (Human alphaherpesvirus 1)	owl:Class	false	
+ONTIE:0003367	glycoprotein G (Human alphaherpesvirus 2)	owl:Class	false	
+ONTIE:0003368	holin (Salmonella enterica)	owl:Class	false	
+ONTIE:0003369	DNA polymerase III subunit gamma/tau (Salmonella enterica)	owl:Class	false	
+ONTIE:0003370	formate transporter FocA (Salmonella enterica)	owl:Class	false	
+ONTIE:0003371	phage baseplate protein (Salmonella enterica)	owl:Class	false	
+ONTIE:0003372	RNA helicase (Salmonella enterica)	owl:Class	false	
+ONTIE:0003373	valine tRNA ligase (Salmonella enterica)	owl:Class	false	
+ONTIE:0003374	hypothetical protein (Salmonella enterica)	owl:Class	false	
+ONTIE:0003375	PTS system mannitol-specific transporter subunit IIA (Salmonella enterica)	owl:Class	false	
+ONTIE:0003376	Zn-dependent protease (Salmonella enterica)	owl:Class	false	
+ONTIE:0003377	serine/threonine protein kinase (Salmonella enterica)	owl:Class	false	
+ONTIE:0003378	chloramphenicol/florfenicol efflux MFS transporter FloR (Salmonella enterica)	owl:Class	false	
+ONTIE:0003379	AraC family transcriptional regulator (Salmonella enterica)	owl:Class	false	
+ONTIE:0003380	glucosyltransferase (Salmonella enterica)	owl:Class	false	
+ONTIE:0003381	protein RarD (Salmonella enterica)	owl:Class	false	
+ONTIE:0003382	von Willebrand factor-cleaving protease precursor (Homo sapiens)	owl:Class	false	
+ONTIE:0003383	nucleocapsid protein (Canine morbillivirus)	owl:Class	false	
+ONTIE:0003384	Protocadherin-24 Ec1-3 (Mus musculus)	owl:Class	false	
+ONTIE:0003385	collagen alpha-3(VI) chain (Equus przewalskii)	owl:Class	false	
+ONTIE:0003386	Collagen alpha-1(VII) chain (Mus musculus)	owl:Class	false	
+ONTIE:0003387	MF6p ortholog protein (Paragonimus westermani)	owl:Class	false	
+ONTIE:0003388	ATP synthase subunit beta (Plasmodium berghei)	owl:Class	false	
+ONTIE:0003389	ubiquitin carboxyl-terminal hydrolase 47 (Mus musculus)	owl:Class	false	
+ONTIE:0003390	transcription factor 4 (Mus musculus)	owl:Class	false	
+ONTIE:0003391	anaphase-promoting complex (Mus musculus)	owl:Class	false	
+ONTIE:0003392	solute carrier family 2, facilitated glucose transporter member 7 (Mus musculus)	owl:Class	false	
+ONTIE:0003393	transmembrane protein vezatin (Homo sapiens)	owl:Class	false	
+ONTIE:0003394	Werner syndrome ATP-dependent helicase (Homo sapiens)	owl:Class	false	
+ONTIE:0003395	conserved Plasmodium protein (Plasmodium berghei)	owl:Class	false	
+ONTIE:0003396	hypothetical protein, conserved (Leishmania donovani)	owl:Class	false	
+ONTIE:0003397	potassium-transporting ATPase alpha chain 1 (Oryctolagus cuniculus)	owl:Class	false	
+ONTIE:0003398	NACHT and WD repeat domain-containing protein 2 (Rattus norvegicus)	owl:Class	false	
+ONTIE:0003399	collagen alpha-3(VI) chain (Mus musculus)	owl:Class	false	
+ONTIE:0003400	troponin T cardiac (Carassius auratus)	owl:Class	false	
+ONTIE:0003401	troponin T cardiac (Melospiza melodia)	owl:Class	false	
+ONTIE:0003402	Major surface glycoprotein G (Human respiratory syncytial virus A)	owl:Class	false	
+ONTIE:0003403	ORF9 (Porcine circovirus 2)	owl:Class	false	
+ONTIE:0003404	pectate lyase (Bacillus subtilis)	owl:Class	false	
+ONTIE:0003405	triadin (Homo sapiens)	owl:Class	false	
+ONTIE:0003406	melanoma associated antigen (Homo sapiens)	owl:Class	false	
+ONTIE:0003407	Acetyl-coenzyme A synthetase ACSM6 (Homo sapiens)	owl:Class	false	
+ONTIE:0003408	membrane glycoprotein UL40 (Human betaherpesvirus 5)	owl:Class	false	
+ONTIE:0003409	retinoid isomerohydrolase isoform X1 (Bos taurus)	owl:Class	false	
+ONTIE:0003410	non-structural protein 1 (NS1) (Zika virus)	owl:Class	false	
+ONTIE:0003411	urotensin II (Neogobius melanostomus)	owl:Class	false	
+ONTIE:0003412	large hepatitis delta antigen (Hepatitis delta virus)	owl:Class	false	
+ONTIE:0003413	envelope glycoprotein (Crimean-Congo hemorrhagic fever orthonairovirus)	owl:Class	false	
+ONTIE:0003414	non-structural V protein (Avian avulavirus 1)	owl:Class	false	
+ONTIE:0003415	alcohol dehydrogenase (Homo sapiens)	owl:Class	false	
+ONTIE:0003416	arylphorin (Galleria mellonella)	owl:Class	false	
+ONTIE:0003417	endoglucanase (Clostridium beijerinckii)	owl:Class	false	
+ONTIE:0003418	adenosine 5',5''',P1,P4-tetraphosphate receptor (Mus musculus)	owl:Class	false	
+ONTIE:0003419	follitropin subunit beta (Homo sapiens)	owl:Class	false	

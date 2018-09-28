@@ -6,7 +6,13 @@ import cx_Oracle
 out_file = 'test/phony-ontie.kn'
 
 proteins = """
-SELECT source_id, name, aliases, synonyms, organism_id, organism_name
+SELECT iri, 
+	source_id, 
+	name, 
+	aliases, 
+	synonyms, 
+	organism_id, 
+	organism_name
 FROM source
 WHERE database = 'IEDB'
   AND organism_id IS NOT NULL
@@ -44,9 +50,13 @@ WHERE organism_id = {0}
 
 base = "https://ontology.iedb.org/ontology/ONTIE_"
 prefix = "ONTIE:"
+fake_prefix = "TEMP:%d"
 
 # A dictionary from tax_id to a list of synonyms.
 alternative_terms = collections.defaultdict(list)
+
+ontie_map = {}
+fake_id = 9000000
 
 def main():
 	"""Connect to the database to query for IEDB taxon, then create a 'phony'
@@ -63,42 +73,88 @@ def main():
 	for row in cur:
 		(tax_id, name) = row
 		alternative_terms[tax_id].append(name.strip())
+	# Collect organisms
+	cur.execute(organisms)
+	for row in cur:
+		add_organism(row, second_cur)
+	# Collect proteins
+	cur.execute(proteins)
+	for row in cur:
+		add_protein(row)
 
-	with open(out_file, 'w') as ontie:
-		cur.execute(organisms)
-		for row in cur:
-			add_organism(ontie, row, second_cur)
+	# Build ONTIE in CURIE order
+	with open(out_file, 'w') as f:
+		for key in sorted(ontie_map.keys()):
+			f.write(ontie_map[key])
 
-def add_organism(ontie, row, cur):
+def add_organism(row, cur):
 	"""For each IEDB taxon, write a stanza to a phony ONTIE.kn file."""
-	global alternative_term
+	global ontie_map, fake_id
 
 	(iri, tax_id, label, rank, parent_tax_id, parent_tax_id_string, parent) = row
 
 	if iri is not None:
 		curie = iri.replace(base, prefix)
 	else:
-		curie = ""
+		curie = fake_prefix % fake_id
+		fake_id += 1
 	label = clean_name(label)
 	parent = clean_name(parent)
 	if rank:
 		rank = clean_name(rank)
 
-	ontie.write(': %s\n' % curie)
-	ontie.write('apply template: taxon class\n')
-	ontie.write(' label: %s\n' % label)
-	ontie.write(' parent taxon: %s\n' % parent)
+	stanza = ''
+	stanza += (': %s\n' % curie)
+	stanza += ('apply template: taxon class\n')
+	stanza += (' label: %s\n' % label)
+	stanza += (' parent taxon: %s\n' % parent)
 	if ',' in parent_tax_id_string:
 		superclasses = get_superclasses(parent_tax_id_string, parent, cur)
 		for sc in superclasses:
-			ontie.write('subclass of: %s\n' % sc)
+			stanza += ('subclass of: %s\n' % sc)
 	for alternative_term in alternative_terms[tax_id]:
-		ontie.write('alternative term: %s\n' % alternative_term)
+		stanza += ('alternative term: %s\n' % alternative_term)
 	if rank:
-		ontie.write('rank: %s\n' % rank)
-	ontie.write('\n')
+		stanza += ('rank: %s\n' % rank)
+	stanza += ('\n')
 
-	return True
+	ontie_map[curie] = stanza
+
+def add_protein(row):
+	"""For each IEDB SRC protein, write a stanza to a phony ONTIE.kn file."""
+	global ontie_map, fake_id
+
+	(iri, source_id, name, aliases, synonyms, organism_id, organism) = row
+
+	if iri is not None:
+		curie = iri.replace(base, prefix)
+	else: 
+		curie = fake_prefix % fake_id
+		fake_id += 1
+	name = clean_name(name)
+	organism = clean_name(organism)
+
+	label = '%s (%s)' % (name, organism)
+	if not aliases:
+		aliases = ''
+	if synonyms:
+		synonyms = synonyms.read()
+	else:
+		synonyms = ''
+	alternative_terms = aliases.split(', ') + synonyms.split(', ')
+
+	stanza = ''
+	stanza += (': %s\n' % curie)
+	stanza += ('apply template: protein class\n')
+	stanza += (' label: %s\n' % name)
+	stanza += (' taxon: %s\n' % organism)
+	for alternative_term in alternative_terms:
+		alternative_term = alternative_term.strip()
+		if alternative_term != '':
+			stanza += ('alternative term: %s\n' % alternative_term)
+	stanza += ('\n')
+
+	ontie_map[curie] = stanza
 
 def clean_name(name):
 	"""Return a tab-replaced name."""

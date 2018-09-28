@@ -21774,3 +21774,378 @@ apply template: taxon class
 alternative term: VelocImmune
 rank: subspecies
 
+: ONTIE:0003349
+apply template: protein class
+ label: band 3 anion transport protein
+ taxon: Mus musculus
+
+: ONTIE:0003350
+apply template: protein class
+ label: ubiquitin-associated domain-containing protein 2
+ taxon: Homo sapiens
+
+: ONTIE:0003351
+apply template: protein class
+ label: CD74/ROS
+ taxon: Homo sapiens
+alternative term: CD74-TRKA
+
+: ONTIE:0003352
+apply template: protein class
+ label: cyclin-dependent kinase 3
+ taxon: Homo sapiens
+
+: ONTIE:0003353
+apply template: protein class
+ label: Uncharacterized protein KIAA0754
+ taxon: Homo sapiens
+
+: ONTIE:0003354
+apply template: protein class
+ label: Major Peanut Allergen Ara H 6
+ taxon: Arachis hypogaea
+alternative term: Conglutin
+
+: ONTIE:0003355
+apply template: protein class
+ label: epsilon toxin
+ taxon: Clostridium perfringens
+alternative term: epsilon-toxin
+
+: ONTIE:0003356
+apply template: protein class
+ label: DNA processivity factor
+ taxon: Human betaherpesvirus 5
+
+: ONTIE:0003357
+apply template: protein class
+ label: synuclein
+ taxon: Homo sapiens
+
+: ONTIE:0003358
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Sinonatrix annularis
+alternative term: PLIg
+
+: ONTIE:0003359
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Macropisthodon rudis
+
+: ONTIE:0003360
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Elaphe carinata
+
+: ONTIE:0003361
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Ptyas dhumnades
+
+: ONTIE:0003362
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Elaphe taeniura
+
+: ONTIE:0003363
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Lycodon rufozonatus
+alternative term: PLIg
+
+: ONTIE:0003364
+apply template: protein class
+ label: phospholipase A2 inhibitor gamma
+ taxon: Oocatochus rufodorsatus
+alternative term: PLIg
+
+: ONTIE:0003365
+apply template: protein class
+ label: carbonate dehydratase
+ taxon: Mycobacterium tuberculosis
+alternative term: carbonite dehydrogynase
+
+: ONTIE:0003366
+apply template: protein class
+ label: glycoprotein G
+ taxon: Human alphaherpesvirus 1
+
+: ONTIE:0003367
+apply template: protein class
+ label: glycoprotein G
+ taxon: Human alphaherpesvirus 2
+
+: ONTIE:0003368
+apply template: protein class
+ label: holin
+ taxon: Salmonella enterica
+
+: ONTIE:0003369
+apply template: protein class
+ label: DNA polymerase III subunit gamma/tau
+ taxon: Salmonella enterica
+
+: ONTIE:0003370
+apply template: protein class
+ label: formate transporter FocA
+ taxon: Salmonella enterica
+
+: ONTIE:0003371
+apply template: protein class
+ label: phage baseplate protein
+ taxon: Salmonella enterica
+
+: ONTIE:0003372
+apply template: protein class
+ label: RNA helicase
+ taxon: Salmonella enterica
+
+: ONTIE:0003373
+apply template: protein class
+ label: valine tRNA ligase
+ taxon: Salmonella enterica
+
+: ONTIE:0003374
+apply template: protein class
+ label: hypothetical protein
+ taxon: Salmonella enterica
+
+: ONTIE:0003375
+apply template: protein class
+ label: PTS system mannitol-specific transporter subunit IIA
+ taxon: Salmonella enterica
+
+: ONTIE:0003376
+apply template: protein class
+ label: Zn-dependent protease
+ taxon: Salmonella enterica
+
+: ONTIE:0003377
+apply template: protein class
+ label: serine/threonine protein kinase
+ taxon: Salmonella enterica
+
+: ONTIE:0003378
+apply template: protein class
+ label: chloramphenicol/florfenicol efflux MFS transporter FloR
+ taxon: Salmonella enterica
+
+: ONTIE:0003379
+apply template: protein class
+ label: AraC family transcriptional regulator
+ taxon: Salmonella enterica
+
+: ONTIE:0003380
+apply template: protein class
+ label: glucosyltransferase
+ taxon: Salmonella enterica
+
+: ONTIE:0003381
+apply template: protein class
+ label: protein RarD
+ taxon: Salmonella enterica
+
+: ONTIE:0003382
+apply template: protein class
+ label: von Willebrand factor-cleaving protease precursor
+ taxon: Homo sapiens
+
+: ONTIE:0003383
+apply template: protein class
+ label: nucleocapsid protein
+ taxon: Canine morbillivirus
+
+: ONTIE:0003384
+apply template: protein class
+ label: Protocadherin-24 Ec1-3
+ taxon: Mus musculus
+
+: ONTIE:0003385
+apply template: protein class
+ label: collagen alpha-3(VI) chain
+ taxon: Equus przewalskii
+
+: ONTIE:0003386
+apply template: protein class
+ label: Collagen alpha-1(VII) chain
+ taxon: Mus musculus
+
+: ONTIE:0003387
+apply template: protein class
+ label: MF6p ortholog protein
+ taxon: Paragonimus westermani
+
+: ONTIE:0003388
+apply template: protein class
+ label: ATP synthase subunit beta
+ taxon: Plasmodium berghei
+
+: ONTIE:0003389
+apply template: protein class
+ label: ubiquitin carboxyl-terminal hydrolase 47
+ taxon: Mus musculus
+
+: ONTIE:0003390
+apply template: protein class
+ label: transcription factor 4
+ taxon: Mus musculus
+
+: ONTIE:0003391
+apply template: protein class
+ label: anaphase-promoting complex
+ taxon: Mus musculus
+
+: ONTIE:0003392
+apply template: protein class
+ label: solute carrier family 2, facilitated glucose transporter member 7
+ taxon: Mus musculus
+
+: ONTIE:0003393
+apply template: protein class
+ label: transmembrane protein vezatin
+ taxon: Homo sapiens
+
+: ONTIE:0003394
+apply template: protein class
+ label: Werner syndrome ATP-dependent helicase
+ taxon: Homo sapiens
+
+: ONTIE:0003395
+apply template: protein class
+ label: conserved Plasmodium protein
+ taxon: Plasmodium berghei
+
+: ONTIE:0003396
+apply template: protein class
+ label: hypothetical protein, conserved
+ taxon: Leishmania donovani
+
+: ONTIE:0003397
+apply template: protein class
+ label: potassium-transporting ATPase alpha chain 1
+ taxon: Oryctolagus cuniculus
+
+: ONTIE:0003398
+apply template: protein class
+ label: NACHT and WD repeat domain-containing protein 2
+ taxon: Rattus norvegicus
+alternative term: Nwd2
+
+: ONTIE:0003399
+apply template: protein class
+ label: collagen alpha-3(VI) chain
+ taxon: Mus musculus
+
+: ONTIE:0003400
+apply template: protein class
+ label: troponin T cardiac
+ taxon: Carassius auratus
+
+: ONTIE:0003401
+apply template: protein class
+ label: troponin T cardiac
+ taxon: Melospiza melodia
+
+: ONTIE:0003402
+apply template: protein class
+ label: Major surface glycoprotein G
+ taxon: Human respiratory syncytial virus A
+
+: ONTIE:0003403
+apply template: protein class
+ label: ORF9
+ taxon: Porcine circovirus 2
+
+: ONTIE:0003404
+apply template: protein class
+ label: pectate lyase
+ taxon: Bacillus subtilis
+
+: ONTIE:0003405
+apply template: protein class
+ label: triadin
+ taxon: Homo sapiens
+
+: ONTIE:0003406
+apply template: protein class
+ label: melanoma associated antigen
+ taxon: Homo sapiens
+
+: ONTIE:0003407
+apply template: protein class
+ label: Acetyl-coenzyme A synthetase ACSM6
+ taxon: Homo sapiens
+alternative term: acetyl coenzyme A
+alternative term: synthetase
+alternative term: ACSM6
+
+: ONTIE:0003408
+apply template: protein class
+ label: membrane glycoprotein UL40
+ taxon: Human betaherpesvirus 5
+alternative term: UL40
+
+: ONTIE:0003409
+apply template: protein class
+ label: retinoid isomerohydrolase isoform X1
+ taxon: Bos taurus
+
+: ONTIE:0003410
+apply template: protein class
+ label: non-structural protein 1 (NS1)
+ taxon: Zika virus
+alternative term: NS1
+
+: ONTIE:0003411
+apply template: protein class
+ label: urotensin II
+ taxon: Neogobius melanostomus
+
+: ONTIE:0003412
+apply template: protein class
+ label: large hepatitis delta antigen
+ taxon: Hepatitis delta virus
+alternative term: L-HDAg
+
+: ONTIE:0003413
+apply template: protein class
+ label: envelope glycoprotein
+ taxon: Crimean-Congo hemorrhagic fever orthonairovirus
+
+: ONTIE:0003414
+apply template: protein class
+ label: non-structural V protein
+ taxon: Avian avulavirus 1
+
+: ONTIE:0003415
+apply template: protein class
+ label: alcohol dehydrogenase
+ taxon: Homo sapiens
+alternative term: ADH
+
+: ONTIE:0003416
+apply template: protein class
+ label: arylphorin
+ taxon: Galleria mellonella
+alternative term: Gal lysin-1
+
+: ONTIE:0003417
+apply template: protein class
+ label: endoglucanase
+ taxon: Clostridium beijerinckii
+
+: ONTIE:0003418
+apply template: protein class
+ label: adenosine 5',5''',P1,P4-tetraphosphate receptor
+ taxon: Mus musculus
+alternative term: Ap4A
+alternative term: adenosine 5',5"',P1,P4-tetraphosphate receptor
+
+: ONTIE:0003419
+apply template: protein class
+ label: follitropin subunit beta
+ taxon: Homo sapiens
+alternative term: follicle-stimulating hormone beta
+alternative term: FSHB
+

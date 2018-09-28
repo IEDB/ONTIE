@@ -14073,7 +14073,7 @@ alternative term: SEA
 : ONTIE:0002077
 apply template: protein class
  label: pX-rex-orf I
- taxon: Human T-lymphotropic virus 1
+ taxon: Human T-cell leukemia virus type I
 alternative term: Rof
 
 : ONTIE:0002078
@@ -14193,7 +14193,7 @@ alternative term: IA-2
 : ONTIE:0002099
 apply template: protein class
  label: surface glycoprotein gp46; env
- taxon: Human T-lymphotropic virus 1
+ taxon: Human T-cell leukemia virus type I
 
 : ONTIE:0002100
 apply template: protein class
@@ -15395,7 +15395,7 @@ alternative term: ATP-dependent interferon-responsive protein
 
 : ONTIE:0002325
 apply template: protein class
- label: ZAPHIR
+ label: alternatively spliced ZAPHIR
  taxon: Homo sapiens
 alternative term: ZNF419 alternatively spliced polymorphic histocompatibility antigen in RCC
 
@@ -16485,18 +16485,18 @@ apply template: protein class
 : ONTIE:0002501
 apply template: protein class
  label: Accessory protein p30II
- taxon: Human T-lymphotropic virus 1
+ taxon: Human T-cell leukemia virus type I
 
 : ONTIE:0002502
 apply template: protein class
  label: Envelope glycoprotein gp62
- taxon: Human T-lymphotropic virus 1
+ taxon: Human T-cell leukemia virus type I
 alternative term: Env polyprotein
 
 : ONTIE:0002503
 apply template: protein class
  label: Protein Tax-1
- taxon: Human T-lymphotropic virus 1
+ taxon: Human T-cell leukemia virus type I
 alternative term: Protein X-LOR
 alternative term: Trans-activating transcriptional regulatory protein of HTLV-1
 alternative term: Protein PX
@@ -16853,12 +16853,12 @@ alternative term: Protein P8
 : ONTIE:0002561
 apply template: protein class
  label: Genome polyprotein
- taxon: Hepatitis C virus
+ taxon: Hepacivirus C
 
 : ONTIE:0002562
 apply template: protein class
  label: Nucleoprotein
- taxon: Sendai virus
+ taxon: Murine respirovirus
 alternative term: Nucleocapsid protein
 alternative term: NP
 alternative term: Protein N
@@ -16866,7 +16866,7 @@ alternative term: Protein N
 : ONTIE:0002563
 apply template: protein class
  label: gag protein
- taxon: Visna/maedi virus
+ taxon: Visna-maedi virus
 
 : ONTIE:0002564
 apply template: protein class
@@ -16913,7 +16913,7 @@ alternative term: MOMP
 : ONTIE:0002570
 apply template: protein class
  label: Major surface glycoprotein G
- taxon: Human respiratory syncytial virus
+ taxon: Human orthopneumovirus
 alternative term: Attachment glycoprotein G
 alternative term: Membrane-bound glycoprotein
 alternative term: mG
@@ -17126,7 +17126,7 @@ apply template: protein class
 : ONTIE:0002604
 apply template: protein class
  label: Diacylglycerol acyltransferase/mycolyltransferase Ag85A
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 alternative term: DGAT
 alternative term: Acyl-CoA:diacylglycerol acyltransferase
 alternative term: Antigen 85 complex A
@@ -17228,7 +17228,7 @@ apply template: protein class
 : ONTIE:0002619
 apply template: protein class
  label: Nucleoprotein
- taxon: Sabia mammarenavirus
+ taxon: Brazilian mammarenavirus
 alternative term: Nucleocapsid protein
 alternative term: Protein N
 
@@ -17285,7 +17285,7 @@ apply template: protein class
 : ONTIE:0002627
 apply template: protein class
  label: RNA-directed RNA polymerase L
- taxon: Hantaan hantavirus
+ taxon: Hantaan orthohantavirus
 alternative term: Protein L
 alternative term: Large structural protein
 alternative term: Replicase
@@ -17386,7 +17386,7 @@ apply template: protein class
 : ONTIE:0002642
 apply template: protein class
  label: Fusion glycoprotein F0
- taxon: Human respiratory syncytial virus
+ taxon: Human orthopneumovirus
 alternative term: Protein F
 
 : ONTIE:0002643
@@ -17397,7 +17397,7 @@ apply template: protein class
 : ONTIE:0002644
 apply template: protein class
  label: polyprotein
- taxon: St. Louis encephalitis virus
+ taxon: Saint Louis encephalitis virus
 
 : ONTIE:0002645
 apply template: protein class
@@ -17427,7 +17427,7 @@ alternative term: Peplomer protein
 : ONTIE:0002648
 apply template: protein class
  label: 60 kDa chaperonin 2
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 alternative term: 65 kDa antigen
 alternative term: Antigen A
 alternative term: Cell wall protein A
@@ -17545,7 +17545,7 @@ apply template: protein class
 : ONTIE:0002665
 apply template: protein class
  label: Hemagglutinin-neuraminidase
- taxon: Newcastle disease virus
+ taxon: Avian avulavirus 1
 
 : ONTIE:0002666
 apply template: protein class
@@ -17644,7 +17644,7 @@ alternative term: Zinc-binding protein
 : ONTIE:0002680
 apply template: protein class
  label: Protein C
- taxon: Measles virus
+ taxon: Measles morbillivirus
 
 : ONTIE:0002681
 apply template: protein class
@@ -17803,7 +17803,7 @@ alternative term: Fbps A
 : ONTIE:0002702
 apply template: protein class
  label: F protein
- taxon: Hepatitis C virus
+ taxon: Hepacivirus C
 alternative term: Alternate reading frame protein/F-protein
 alternative term: Frameshifted protein
 alternative term: p16
@@ -17901,7 +17901,7 @@ alternative term: Protein Cpn60-2
 : ONTIE:0002715
 apply template: protein class
  label: Hemagglutinin glycoprotein
- taxon: Measles virus
+ taxon: Measles morbillivirus
 
 : ONTIE:0002716
 apply template: protein class
@@ -17994,7 +17994,7 @@ alternative term: SS-A
 
 : ONTIE:0002728
 apply template: protein class
- label: Pre-glycoprotein polyprotein GP complex
+ label: glycoprotein GP
  taxon: Lymphocytic choriomeningitis mammarenavirus
 
 : ONTIE:0002729
@@ -18013,7 +18013,7 @@ alternative term: GAD-65
 : ONTIE:0002731
 apply template: protein class
  label: Diacylglycerol acyltransferase/mycolyltransferase Ag85B
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 alternative term: DGAT
 alternative term: 30 kDa extracellular protein
 alternative term: Acyl-CoA:diacylglycerol acyltransferase
@@ -18115,7 +18115,7 @@ apply template: protein class
 : ONTIE:0002746
 apply template: protein class
  label: Matrix protein
- taxon: Measles virus
+ taxon: Measles morbillivirus
 
 : ONTIE:0002747
 apply template: protein class
@@ -18206,7 +18206,7 @@ alternative term: S-AG
 : ONTIE:0002761
 apply template: protein class
  label: nucleocapsid protein
- taxon: Peste-des-petits-ruminants virus
+ taxon: Small ruminant morbillivirus
 
 : ONTIE:0002762
 apply template: protein class
@@ -18298,7 +18298,7 @@ apply template: protein class
 : ONTIE:0002775
 apply template: protein class
  label: Nucleoprotein
- taxon: Rinderpest virus
+ taxon: Rinderpest morbillivirus
 alternative term: Nucleocapsid protein
 alternative term: NP
 alternative term: Protein N
@@ -18343,7 +18343,7 @@ apply template: protein class
 : ONTIE:0002782
 apply template: protein class
  label: pol polyprotein
- taxon: Visna/maedi virus
+ taxon: Visna-maedi virus
 
 : ONTIE:0002783
 apply template: protein class
@@ -18812,7 +18812,7 @@ alternative term: Melanoma-associated chondroitin sulfate proteoglycan
 : ONTIE:0002853
 apply template: protein class
  label: RNA-directed RNA polymerase L
- taxon: Human respiratory syncytial virus
+ taxon: Human orthopneumovirus
 alternative term: Protein L
 alternative term: Large structural protein
 alternative term: Replicase
@@ -18919,7 +18919,7 @@ alternative term: hnRNP core protein C-like 1
 : ONTIE:0002869
 apply template: protein class
  label: Lipoprotein LpqH
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 alternative term: 19 kDa lipoprotein antigen
 
 : ONTIE:0002870
@@ -19088,7 +19088,7 @@ alternative term: Alpha A-CRYBP1
 
 : ONTIE:0002893
 apply template: protein class
- label: M protein, serotype 5
+ label: M protein
  taxon: Streptococcus pyogenes
 
 : ONTIE:0002894
@@ -19183,8 +19183,9 @@ apply template: protein class
 
 : ONTIE:0002912
 apply template: protein class
- label: rRNA N-glycosidase
+ label: ricin A chain
  taxon: Ricinus communis
+alternative term: rRNA N-glycosidase
 
 : ONTIE:0002913
 apply template: protein class
@@ -19228,7 +19229,7 @@ alternative term: LOC668304
 : ONTIE:0002920
 apply template: protein class
  label: polyprotein
- taxon: Hepatitis C virus
+ taxon: Hepacivirus C
 
 : ONTIE:0002921
 apply template: protein class
@@ -19686,7 +19687,7 @@ apply template: protein class
 : ONTIE:0003002
 apply template: protein class
  label: tropomyosin
- taxon: Fenneropenaeus indicus
+ taxon: Penaeus indicus
 
 : ONTIE:0003003
 apply template: protein class
@@ -21190,48 +21191,48 @@ rank: subspecies
 : ONTIE:0003275
 apply template: protein class
  label: polyketide synthase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003276
 apply template: protein class
  label: 5-oxoprolinase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003277
 apply template: protein class
  label: MerR family transcriptional regulator
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003278
 apply template: protein class
  label: haloalkane dehalogenase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003279
 apply template: protein class
  label: short-chain dehydrogenase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003280
 apply template: protein class
  label: Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 
 : ONTIE:0003281
 apply template: protein class
  label: methionine tRNA ligase
- taxon: Mycobacterium bovis
+ taxon: Mycobacterium tuberculosis variant bovis
 alternative term: methionine-tRNA
 
 : ONTIE:0003282
 apply template: protein class
  label: 50S ribosomal protein L10
- taxon: Mycobacterium smegmatis
+ taxon: Mycolicibacterium smegmatis
 
 : ONTIE:0003283
 apply template: protein class
  label: 30S ribosomal protein S1
- taxon: Mycobacterium smegmatis
+ taxon: Mycolicibacterium smegmatis
 
 : ONTIE:0003284
 apply template: protein class

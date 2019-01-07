@@ -1,18 +1,18 @@
-subclass of	rdfs:subClassOf	rdf:Property
-obsolete	owl:deprecated	owl:DatatypeProperty
-alternative term	obo:IAO_0000118	owl:AnnotationProperty
-IEDB alternative term	obo:OBI_9991118	owl:AnnotationProperty
-replacement	obo:IAO_0100001	owl:AnnotationProperty
-example of usage	obo:IAO_0000112	owl:AnnotationProperty
-definition	obo:IAO_0000115	owl:AnnotationProperty
-curator note	obo:IAO_0000232	owl:AnnotationProperty
-rank	ncbitaxon:has_rank	owl:AnnotationProperty
-in taxon	obo:RO_0002162	owl:ObjectProperty
-process	obo:BFO_0000015	owl:Class
-biological process	obo:GO_0008150	owl:Class
-planned process	obo:OBI_0000011	owl:Class
-information content entity	obo:IAO_0000030	owl:Class
-administering substance in vivo	obo:OBI_0600007	owl:Class
-subspecies	NCBITaxon:subspecies	owl:Class
-no rank	NCBITaxon:no_rank	owl:Class
-protein	obo:PR_000000001	owl:Class
+rdfs:subClassOf	subclass of	rdf:Property
+owl:deprecated	obsolete	owl:DatatypeProperty
+obo:IAO_0000118	alternative term	owl:AnnotationProperty
+obo:OBI_9991118	IEDB alternative term	owl:AnnotationProperty
+obo:IAO_0100001	replacement	owl:AnnotationProperty
+obo:IAO_0000112	example of usage	owl:AnnotationProperty
+obo:IAO_0000115	definition	owl:AnnotationProperty
+obo:IAO_0000232	curator note	owl:AnnotationProperty
+ncbitaxon:has_rank	rank	owl:AnnotationProperty
+obo:RO_0002162	in taxon	owl:ObjectProperty
+obo:BFO_0000015	process	owl:Class
+obo:GO_0008150	biological process	owl:Class
+obo:OBI_0000011	planned process	owl:Class
+obo:IAO_0000030	information content entity	owl:Class
+obo:OBI_0600007	administering substance in vivo	owl:Class
+NCBITaxon:subspecies	subspecies	owl:Class
+NCBITaxon:no_rank	no rank	owl:Class
+obo:PR_000000001	protein	owl:Class

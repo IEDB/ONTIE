@@ -4,8 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 @prefix obo: <http://purl.obolibrary.org/obo/>
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
-@prefix knd: <https://knotation.org/datatype/>
-@prefix knp: <https://knotation.org/predicate/>
+@prefix kn: <https://knotation.org/kn/>
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 @prefix ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon#>
 @prefix MRO: <http://purl.obolibrary.org/obo/MRO_>
@@ -15,10 +14,10 @@
 : rdfs:label
 rdfs:label: label
 
-: knd:link
+: kn:link
 label: link
 
-: knp:default-datatype
+: kn:default-datatype
 label: default datatype
 default datatype; link: link
 
@@ -30,9 +29,11 @@ default datatype: link
 label: subclass of
 default datatype: link
 
-: knp:template-content
+: kn:template-content
 label: template content
 
-: knp:apply-template
+: kn:apply-template
 label: apply template
 
+: kn:cardinality
+label: cardinality

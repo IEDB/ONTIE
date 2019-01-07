@@ -1,4 +1,4 @@
-CURIE	label	type	obsolete	replacement
+:	label	type	obsolete	replacement
 ONTIE:0000001	Mus musculus BALB/c	owl:Class		
 ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	owl:Class		
 ONTIE:0000003	Mus musculus BALB/c beta2m null	owl:Class		

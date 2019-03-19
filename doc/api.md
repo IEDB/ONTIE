@@ -32,57 +32,60 @@ The JSON Linked Data representation of a single term is a standard JSON object w
 - `label` keys are used for the human-readable label associated with an IRI
 - `@value` keys provide the string representations of RDF literals
 
+<!-- GET TEST -->
 In order to capture RDF semantics, IRIs and literal values are represented as objects, using arrays when multiple values are given. For example, [https://ontology.iedb.org/ontology/ONTIE_0000001.json](/ontology/ONTIE_0000001.json) includes the following:
 
 ```
 {"label": {"@value":"Mus musculus BALB/c"},
- "alternative term": [{"@value":"balb"}],
- "parent taxon":
- [{"@id": "NCBITaxon:10090",
-   "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
-   "label": "Mus musculus"}]
- ...}
+ "alternative term": {"@value": "balb"},
+ "subclass of": {
+    "@id": "NCBITaxon:10090",
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+    "label": "Mus musculus"}}
 ```
-
+<!-- END GET TEST -->
 
 ### Tab-Separated Values
-
+<!-- GET TEST -->
 A table of tab-separated values about a term can also be requested. By default, five columns of data are provided, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv](/ontology/ONTIE_0000001.tsv):
 
 ```
 IRI	label	recognized	obsolete	replacement
 https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
 ```
-
+<!-- END GET TEST -->
+<!-- GET TEST -->
 If the query parameter `show-headers` is `false`, then the header row is omitted, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv?show-headers=false](/ontology/ONTIE_0000001.tsv?show-headers=false):
 
 ```
 https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
 ```
-
+<!-- END GET TEST -->
+<!-- GET TEST -->
 The `select` query parameter controls the columns that are returned. Provide a comma-separated list of predicate labels, or one of the special values: `IRI`, `CURIE`, `recognized`. The order of predicates is respected in the returned data. For example, [https://ontology.iedb.org/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term](/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term):
 
 ```
 CURIE	label	alternative term
 ONTIE:0000008	Mus musculus 6.5 TCR Tg	14.3.d|SFERFEIFPKE-specific TCR Tg|Tg(Tcra/Tcrb)1Vbo
 ```
-
+<!-- END GET TEST -->
 Multiple values, such as multiple `alternative term` values, are separated by a single pipe character (`|`).
-
+<!-- GET TEST -->
 When `compact=true` is set, values will be returned as CURIEs instead of IRIs, for example [https://ontology.iedb.org/ontology/ONTIE_0002059.tsv?select=CURIE,replacement&compact=true](/ontology/ONTIE_0002059.tsv?select=CURIE,replacement&compact=true):
 
 ```
 CURIE	replacement
 ONTIE:0002059	ONTIE:0002053
 ```
-
+<!-- END GET TEST -->
+<!-- GET TEST -->
 If the name of a predicate in a `select` is followed by `[IRI]`, `[CURIE]`, or `[label]`, then the system will attempt to return values for the column in the format. For example: [https://ontology.iedb.org/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20\[CURIE\],replacement%20\[label\]](/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20[CURIE],replacement%20[label]):
 
 ```
 CURIE	replacement [CURIE]	replacement [label]
 ONTIE:0002059	ONTIE:0002053	Large structural phosphoprotein (Human betaherpesvirus 5)
 ```
-
+<!-- END GET TEST -->
 
 ## Individual Subjects
 
@@ -137,7 +140,7 @@ The `IRI` and `CURIE` query parameters are used to specify exactly which subject
 
 
 ## POST instead of GET
-
+<!-- POST TEST -->
 When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For this to work, you MUST include `method=GET` in the query string. For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
 
 ```
@@ -153,12 +156,12 @@ CURIE	label	recognized	obsolete	replacement
 ONTIE:0000001	Mus musculus BALB/c	true		
 ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	true		
 ```
-
+<!-- END POST TEST -->
 The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.
 
 
 ## Example: Term Status
-
+<!-- POST TEST -->
 When requesting a TSV table, the default columns provide a summary of each term's status. For example, POST to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
 
 ```
@@ -183,12 +186,12 @@ For example (contains tab characters):
 ```
 CURIE	label	recognized	obsolete	replacement
 ONTIE:0000001	Mus musculus BALB/c	true		
-NCBITaxon:10090	Mus musculus	true		
+NCBITaxon:10090	Mus musculus|mouse	true		
 NCBITaxon:12	obsolete taxon 12	true	true	http://purl.obolibrary.org/obo/NCBITaxon_74109
 NCBITaxon:3	obsolete taxon 3	true	true	
 NCBITaxon:0		false		
 ```
-
+<!-- END POST TEST -->
 
 ## Term Submission
 

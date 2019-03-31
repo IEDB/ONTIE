@@ -1,4 +1,4 @@
-KNODE := java -Xmx10G -jar /Users/tauber/github/knode/target/knode-0.2.0-SNAPSHOT-standalone.jar
+KNODE := java -jar knode.jar
 
 # Fetch ontology files
 build:

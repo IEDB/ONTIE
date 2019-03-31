@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import csv, http.client, json, logging, sys, re
+import csv, http.client, json, logging, os, sys, re, requests
 
-base = 'ontology.iedb.org'
-logging.basicConfig(level=logging.DEBUG)
+base = 'http://127.0.0.1:3210'
+logging.basicConfig(level=logging.INFO)
 
 def main(args):
 	'''Usage: ./http-test.py api.md'''
@@ -44,6 +44,12 @@ def run_tests(get_tests, post_tests):
 def get(path):
 	'''Perform a GET request on a path in ontology.iedb.org. Return the response 
 	as a string.'''
+	if 'localhost' in base or '127.0.0.1' in base:
+		# use requests for local
+		os.environ['NO_PROXY'] = '127.0.0.1'
+		r = requests.get(base + path)
+		return fix_result(r.content)
+	# use http client for HTTPS
 	c = http.client.HTTPSConnection(base, timeout=10)
 	c.request('GET', path)
 	resp = c.getresponse()
@@ -52,6 +58,12 @@ def get(path):
 def post(path, body):
 	'''Perform a POST request on a path in ontology.iedb.org with a body. Return
 	the response as a string.'''
+	if 'localhost' in base or '127.0.0.1' in base:
+		# use requests for local
+		os.environ['NO_PROXY'] = '127.0.0.1'
+		r = requests.post(base + path, body)
+		return fix_result(r.content)
+	# use http client for HTTPS
 	c = http.client.HTTPSConnection(base, timeout=10)
 	c.request('POST', path, body)
 	resp = c.getresponse()

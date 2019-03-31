@@ -1,0 +1,53 @@
+{:project-name "ONTIE",
+ :resources
+ [{:idspace "ONTIE",
+   :label "Ontology for Immune Epitopes",
+   :title "Ontology for Immune Epitopes",
+   :description
+   "ONTIE includes a range of terms to support the Immune Epitope Database.",
+   :homepage "https://ontology.iedb.org",
+   :type :local-file,
+   :paths
+   ["ontology/context.kn"
+    "ontology/external.tsv"
+    "ontology/predicates.tsv"
+    "ontology/index.tsv"
+    "ontology/templates.kn"
+    "ontology/ontie.kn"]}
+  {:idspace "NCBITaxonomy",
+   :label "NCBI Taxonomy",
+   :title "NCBI Taxonomy",
+   :description
+   "The NCBI Taxonomy is a large and widely used resource for scientific classification of organisms.",
+   :homepage "https://www.ncbi.nlm.nih.gov/taxonomy",
+   :type :local-file,
+   :path "build/ncbitaxon.owl"}
+  {:idspace "NCBITaxonomy",
+   :type :local-file,
+   :path "build/ncbitaxon-merged.ttl"}
+  {:idspace "NCBITaxonomy",
+   :type :local-file,
+   :path "build/ncbitaxon-obsolete.ttl"}
+  {:idspace "MRO",
+   :label "MHC Restriction Ontology",
+   :title "MHC Restriction Ontology",
+   :description
+   "MRO is an ontology for representing Major Histocompatibility Complex (MHC) molecules as they relate to immunological experiments.",
+   :homepage "https://github.com/IEDB/MRO",
+   :type :local-file,
+   :path "build/mro.owl"}
+  {:idspace "ChEBI",
+   :label "Chemical Entities of Biological Interest",
+   :title "Chemical Entities of Biological Interest",
+   :description
+   "ChEBI is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds.",
+   :homepage "https://www.ebi.ac.uk/chebi/",
+   :type :local-file,
+   :path "build/chebi.owl"}
+  {:idspace "OBI",
+   :label "Ontology for Biomedical Investigations",
+   :title "Ontology for Biomedical Investigations",
+   :description
+   "The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.",
+   :homepage "http://obi-ontology.org",
+   :type :obo-published-owl}]}

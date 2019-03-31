@@ -1,4 +1,4 @@
-KNODE := java -jar knode.jar
+KNODE := java -Xmx10G -jar /Users/tauber/github/knode/target/knode-0.2.0-SNAPSHOT-standalone.jar
 
 # Fetch ontology files
 build:
@@ -36,6 +36,12 @@ build/ncbitaxon-obsolete.ttl: src/ncbitaxon-obsolete.py build/delnodes.dmp
 
 # Load data into KnoDE
 
+.PHONY: load
+load: knode.edn build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
+	$(KNODE) load-config $<
+
+# Old load methods
+
 .PHONY: load-ontie
 load-ontie: ontology/context.kn ontology/external.tsv ontology/predicates.tsv ontology/index.tsv ontology/templates.kn ontology/ontie.kn
 	$(KNODE) load ONTIE $^
@@ -61,7 +67,7 @@ load-mro: build/mro.owl
 
 # General tasks
 .PHONY: all
-all: load-ontie load-ncbitaxonomy load-chebi load-obi load-mro
+all: load
 
 .PHONY: clean
 clean:

@@ -51,7 +51,6 @@ alternative term: 14.3.d
 alternative term: SFERFEIFPKE-specific TCR Tg
 alternative term: Tg(Tcra/Tcrb)1Vbo
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:2680176
 
 : ONTIE:0000009
 apply template: taxon class
@@ -263,7 +262,6 @@ alternative term: HEL(48-62)-specific TCR Tg
 alternative term: Tg(TcrHEL3A9)1Mmd
 alternative term: DGSTDYGILQINSRWW-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:2385683
 
 : ONTIE:0000039
 apply template: taxon class
@@ -367,7 +365,6 @@ alternative term: NP(366-374)-specific TCR Tg
 alternative term: Tg(CD2-TcraF5,CD2-TcrbF5)1Kio
 alternative term: ASNENMDAM-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3706698
 
 : ONTIE:0000053
 apply template: taxon class
@@ -444,7 +441,6 @@ alternative term: LSPFPFDL-specific TCR Tg
 alternative term: Tg(Tcra2C,Tcrb2C)1Dlo
 alternative term: SIYRYYGL-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3621454
 
 : ONTIE:0000064
 apply template: taxon class
@@ -640,7 +636,6 @@ alternative term: HSV-1 gB(498-505)-specific TCR Tg
 alternative term: SSIEFARL-specific TCR Tg
 alternative term: Tg(TcraHsv2.3,TcrbHsv2.3)L118-1Cbn
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3722258
 
 : ONTIE:0000088
 apply template: taxon class
@@ -745,7 +740,6 @@ alternative term: Vbeta8.2+ TCR Tg
 alternative term: B6.2.16 beta chain Tg
 alternative term: Male antigen H-Y-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3056727
 
 : ONTIE:0000102
 apply template: taxon class
@@ -1051,7 +1045,6 @@ alternative term: Tg(TcraTcrb)1100Mjb
 alternative term: OVA(257-264)-specific TCR Tg
 alternative term: SIINFEKL-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3054907
 
 : ONTIE:0000147
 apply template: taxon class
@@ -1282,11 +1275,10 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus AND TCR Tg
  parent taxon: Mus musculus B10.BR
-alternative term: PCC(88-104)-specific TCR Tg
+alternative term: PCC(88–104)-specific TCR Tg
 alternative term: Tg(TcrAND)53Hed
 alternative term: KAERADLIAYLKQATAK-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3053044
 
 : ONTIE:0000181
 apply template: taxon class
@@ -1438,7 +1430,6 @@ alternative term: LCMV GP33-specific TCR Tg
 alternative term: Tg(TcrLCMV)327Sdz
 alternative term: Tg(TcrLCMV)318Sdz
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3801008
 
 : ONTIE:0000203
 apply template: taxon class
@@ -3633,7 +3624,6 @@ alternative term: LCMV GP(61-80)-specific TCR Tg
 alternative term: LCMV Epitope P1-specific TCR Tg
 alternative term: Tg(TcrLCMV)Aox
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3789674
 
 : ONTIE:0000558
 apply template: taxon class
@@ -6454,7 +6444,6 @@ alternative term: VSV NP (52-59)-specific TCR Tg
 alternative term: VSV8-specific TCR Tg
 alternative term: Tg(TcraN15,TcrbN15)L2Elre
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3777745
 
 : ONTIE:0000986
 apply template: taxon class
@@ -6790,7 +6779,6 @@ alternative term: gp100(25-33)-specific TCR Tg
 alternative term: KVPRNQDWL-specific TCR Tg
 alternative term: Tg(TcraTcrb)8Rest
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3051150
 
 : ONTIE:0001033
 apply template: taxon class
@@ -6819,7 +6807,6 @@ alternative term: OVA(323-339)-specific TCR Tg
 alternative term: Tg(TcraTcrb)425Cbn/J
 alternative term: OT-2
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3046083
 
 : ONTIE:0001036
 apply template: taxon class
@@ -7114,7 +7101,7 @@ rank: subspecies
 
 : ONTIE:0001076
 apply template: taxon class
- label: Mus musculus G9Calpha -/-.NOD
+ label: Mus musculus G9Calpha –/ –.NOD
  parent taxon: Mus musculus NOD
 alternative term: G9C
 rank: subspecies
@@ -7440,7 +7427,6 @@ alternative term: Bovine RNase(42-56)-specific TCR Tg
 alternative term: Bovine RNase(41-61)-specific TCR Tg
 alternative term: Tg(TcraR28,TcrbR28)KRNDim
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3767242
 
 : ONTIE:0001121
 apply template: taxon class
@@ -7597,7 +7583,6 @@ alternative term: MBP Ac1-9-specific TCR Tg
 alternative term: MBP Ac1-11-specific TCR Tg
 alternative term: Tg(CD2-TcraAc1-9,-TcrbAc1-9)4Kio
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4354587
 
 : ONTIE:0001141
 apply template: taxon class
@@ -7853,7 +7838,6 @@ alternative term: MOG(35-55)-specific TCR Tg
 alternative term: Tg(Tcra2D2,Tcrb2D2)1Kuch
 alternative term: MOG(38-49)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3700794
 
 : ONTIE:0001177
 apply template: taxon class
@@ -7989,7 +7973,6 @@ alternative term: Influenza HA(542-550)-specific TCR Tg
 alternative term: Influenza PR8 HA(518-526)-specific TCR Tg
 alternative term: Tg(TcraCl4,TcrbCl4)1Shrm
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3586582
 
 : ONTIE:0001197
 apply template: taxon class
@@ -8000,7 +7983,6 @@ alternative term: MOG(92-106)-specific TCR Tg
 alternative term: DEGGYTCFFRDHSYQ-specific TCR Tg
 alternative term: Tg(H2-Kb-Tcra,-Tcrb)1640Kurs
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:5644514
 
 : ONTIE:0001198
 apply template: taxon class
@@ -8067,7 +8049,6 @@ alternative term: 2E7
 alternative term: P0(1-25)-specific TCR Tg
 alternative term: Myelin protein 0 (1-25)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4453841
 
 : ONTIE:0001207
 apply template: taxon class
@@ -8218,7 +8199,6 @@ alternative term: MBP Ac1-11-specific TCR Tg
 alternative term: Vα2.3/Vβ8.2 TCR Tg
 alternative term: Tg(TCRA)B1Jg x Tg(TCRB)C14Jg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3055333
 
 : ONTIE:0001227
 apply template: taxon class
@@ -8229,7 +8209,6 @@ alternative term: Salmonella typhimurium FliC(431-439)-specific TCR Tg
 alternative term: Tg(TcraCN.B1,TcrbCN.B1)SM1Jen
 alternative term: FNSAITNLG-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4821793
 
 : ONTIE:0001228
 apply template: taxon class
@@ -8257,7 +8236,7 @@ apply template: taxon class
  label: Mus musculus B6.11 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: Torpedo californica AChR TCR Tg
-alternative term: Tα(146-162)-specific TCR Tg
+alternative term: Tα(146–162)-specific TCR Tg
 alternative term: TAChR(146-162)-specific TCR Tg
 alternative term: T. californica AChR(146-162)-specific TCR Tg
 alternative term: LGIWTYDGTKVSISPES-specific TCR Tg
@@ -8617,7 +8596,6 @@ alternative term: Ealpha(52-68)-specific TCR Tg
 alternative term: MHC-II I-E α-chain(52-68)-specific TCR Tg
 alternative term: ASFEAQGALANIAVDKA-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3722813
 
 : ONTIE:0001282
 apply template: taxon class
@@ -8658,9 +8636,9 @@ apply template: taxon class
  label: Mus musculus A23 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: H/K ATPase alpha
-alternative term: H/K ATPase alpha(630-641)-specific TCR Tg
+alternative term: H/K ATPase alpha(630–641)-specific TCR Tg
 alternative term: TXA23
-alternative term: H/K ATPase alpha(633-641)-specific TCR Tg
+alternative term: H/K ATPase alpha(633–641)-specific TCR Tg
 alternative term: PITAKAIAASVG-specific TCR Tg
 rank: subspecies
 
@@ -9164,7 +9142,7 @@ apply template: taxon class
  label: Mus musculus 2B4 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: 2B4 TCR Tg
-alternative term: PCC(88-104)-specific TCR Tg
+alternative term: PCC(88–104)-specific TCR Tg
 alternative term: ADLIAYLKQAT-specific TCR Tg
 rank: subspecies
 
@@ -9309,7 +9287,7 @@ apply template: taxon class
  label: Mus musculus C57BL/6 CMAH null
  parent taxon: Mus musculus C57BL/6
 alternative term: B6 CMAH null
-alternative term: C57BL/6 cytidine monophospho-N-acetylneuraminic acid hydroxylase (CMAH) null
+alternative term: C57BL/6 cytidine monophospho–N-acetylneuraminic acid hydroxylase (CMAH) null
 rank: subspecies
 
 : ONTIE:0001381
@@ -9451,7 +9429,6 @@ alternative term: Smcy(738-746)-specific TCR Tg
 alternative term: H-Y(738-746)-specific TCR Tg
 alternative term: Tg(TcraH-Y,TcrbH-Y)71Vbo
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3044562
 
 : ONTIE:0001402
 apply template: taxon class
@@ -9560,9 +9537,8 @@ alternative term: A1 RAG1null
 alternative term: REEALHQFRSGRKPI-specific TCR Tg
 alternative term: HY-A1 TCR Tg
 alternative term: A1(M) TCR Tg
-alternative term: Dby(479-493)-specific TCR Tg
+alternative term: Dby(479–493)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4354497
 
 : ONTIE:0001417
 apply template: taxon class
@@ -9710,7 +9686,6 @@ alternative term: Tg(Cd4-TcraDN32D3)1Aben
 alternative term: Valpha14-Jalpha18 NKT TCR Tg
 alternative term: NKT Invariant Valpha14 TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3505746
 
 : ONTIE:0001439
 apply template: taxon class
@@ -9869,7 +9844,6 @@ alternative term: HNTNGVTAACSHE-specific TCR Tg
 alternative term: Influenza PR8 HA(126-138)-specific TCR Tg
 alternative term: T2.5-5
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3581980
 
 : ONTIE:0001462
 apply template: taxon class
@@ -9880,9 +9854,9 @@ rank: subspecies
 
 : ONTIE:0001463
 apply template: taxon class
- label: Neisseria meningitidis serogroup B Strain 80-165
+ label: Neisseria meningitidis serogroup B Strain  80–165
  parent taxon: Neisseria meningitidis serogroup B
-alternative term: 80-165
+alternative term: 80–165
 rank: subspecies
 
 : ONTIE:0001464
@@ -10508,6 +10482,7 @@ apply template: taxon class
  label: Mus musculus 6218 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: PAα Rg
+alternative term: PAα Rg
 alternative term: Influenza PA(224-233)-specific TCR Tg
 rank: subspecies
 
@@ -10808,7 +10783,6 @@ alternative term: VYLKTNVFL-specific TCR Tg
 alternative term: 17.4α-8.3β TCR Tg
 alternative term: KYNKANVFL-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3584121
 
 : ONTIE:0001603
 apply template: taxon class
@@ -11919,7 +11893,6 @@ alternative term: DR2 Tg MBP-85-99 TCR Tg
 alternative term: Ob.1A12
 alternative term: HLA-DRB1*1501/Ob.1A12 TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:5429700
 
 : ONTIE:0001778
 apply template: taxon class
@@ -12014,7 +11987,7 @@ apply template: taxon class
 alternative term: OVA23-3
 alternative term: ISQAVHAAHAEINEAGR-specific TCR Tg
 alternative term: OVA(323-339)-specific TCR Tg
-alternative term: Clone 7-3-7
+alternative term: Clone 7–3–7
 rank: subspecies
 
 : ONTIE:0001792
@@ -12028,7 +12001,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus DbGagL TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: FV-TCR Tg
+alternative term: FV-TCR Tg
 alternative term: CCLCLTVFL-specific TCR Tg
 alternative term: GagL(85-93)-specific TCR Tg
 alternative term: FMuLVgag-specific TCR Tg
@@ -12512,9 +12485,9 @@ apply template: taxon class
  label: Mus musculus LLO56 TCR Tg
  parent taxon: Mus musculus C57BL/6 TCR transgenic
 alternative term: LLO56
-alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190–205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190-205)-specific TCR Tg
+alternative term: Listeriolysin-O(190–205)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0001868
@@ -12522,9 +12495,9 @@ apply template: taxon class
  label: Mus musculus LLO118 TCR Tg
  parent taxon: Mus musculus C57BL/6 TCR transgenic
 alternative term: LLO118
-alternative term: L. monocytogenes LLO(190-205)-specific TCR Tg
+alternative term: L. monocytogenes LLO(190–205)-specific TCR Tg
 alternative term: NEKYAQAYPNVSAKID-specific TCR Tg
-alternative term: Listeriolysin-O(190-205)-specific TCR Tg
+alternative term: Listeriolysin-O(190–205)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0001869
@@ -13441,7 +13414,6 @@ alternative term: Insulin B(9-23)-specific TCR beta-chain Tg
 alternative term: SHLVEALYLVCGERG-specific TCR beta-chain  Tg
 alternative term: Tg(TcrbBDC12-4.1)82Gse
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3687034
 
 : ONTIE:0001994
 apply template: taxon class
@@ -13451,7 +13423,6 @@ alternative term: Insulin B(9-23)-specific TCR alpha-chain Tg
 alternative term: SHLVEALYLVCGERG-specific TCR alpha-chain  Tg
 alternative term: Tg(TcraBDC12-4.1)10Jos
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3687036
 
 : ONTIE:0001995
 apply template: taxon class
@@ -13461,7 +13432,6 @@ alternative term: MBP Ac1-11-specific TCR beta-chain Tg
 alternative term: Vβ8.2 TCR Tg
 alternative term: Tg(TCRB)C14Jg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3055339
 
 : ONTIE:0001996
 apply template: taxon class
@@ -13481,7 +13451,6 @@ alternative term: 5C.C7 TCR Tg
 alternative term: MCC(92-103)-specific TCR Tg
 alternative term: ADLIAYLKQATK-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3761187
 
 : ONTIE:0001998
 apply template: taxon class
@@ -13500,14 +13469,13 @@ alternative term: Tg(DO11.10)10Dlo
 alternative term: OVA(323-339)-specific TCR Tg
 alternative term: D0-11.10
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:2664398
 
 : ONTIE:0002000
 apply template: taxon class
  label: Mus musculus qCII24 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: Collagen II(245-270)-specific TCR Tg
-alternative term: CII(245-270)-specific TCR Tg
+alternative term: Collagen II(245–270)-specific TCR Tg
+alternative term: CII(245–270)-specific TCR Tg
 alternative term: ATGPLGPKGQTGEPGIAGFKGEQGPK-specific TCR Tg
 rank: subspecies
 
@@ -13523,7 +13491,7 @@ rank: subspecies
 apply template: taxon class
  label: Mus musculus MBP121-150 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: Rat MBP(121-150)-specific TCR Tg
+alternative term: Rat MBP(121–150)-specific TCR Tg
 alternative term: GFGYGGRASDYKSAHKGFKGAYDAQGTLSK-specific TCR Tg
 rank: subspecies
 
@@ -13548,7 +13516,7 @@ apply template: taxon class
  label: Mus musculus A51 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: TXA51
-alternative term: H/K ATPase alpha(889-901)-specific TCR Tg
+alternative term: H/K ATPase alpha(889–901)-specific TCR Tg
 alternative term: PLLCVGLRPQWE-specific TCR Tg
 rank: subspecies
 
@@ -13560,7 +13528,6 @@ alternative term: DDX3Y(605-619)-specific TCR Tg
 alternative term: NAGFNSNRANSSRSS-specific TCR Tg
 alternative term: Dby(608-622)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:3045612
 
 : ONTIE:0002007
 apply template: taxon class
@@ -13589,7 +13556,6 @@ alternative term: IKB7/5
 alternative term: EQEGPEYWEEQTQRA-specific TCR Tg
 alternative term: QEGPEYWERETQKAK-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4417822
 
 : ONTIE:0002010
 apply template: taxon class
@@ -13599,23 +13565,21 @@ alternative term: IKB3/4
 alternative term: EQEGPEYWEEQTQRA-specific TCR Tg
 alternative term: QEGPEYWERETQKAK-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4417821
 
 : ONTIE:0002011
 apply template: taxon class
  label: Mus musculus P25 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: M. tuberculosis Ag85B(240-254)-specific TCR Tg
+alternative term: M. tuberculosis Ag85B(240–254)-specific TCR Tg
 alternative term: BP-1
 alternative term: FQDAYNAAGGHNAVF-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4454446
 
 : ONTIE:0002012
 apply template: taxon class
  label: Mus musculus L9.6 TCR Tg
  parent taxon: Mus musculus TCR transgenic
-alternative term: L. monocytogenes p60(217-225)-specific TCR Tg
+alternative term: L. monocytogenes p60(217–225)-specific TCR Tg
 alternative term: KYGVSVQDI-specific TCR Tg
 rank: subspecies
 
@@ -13631,7 +13595,7 @@ apply template: taxon class
  label: Mus musculus RSV-M187 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: NAITNAKII-specific TCR Tg
-alternative term: RSV M(187-195)-specific TCR Tg
+alternative term: RSV M(187–195)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002015
@@ -13667,7 +13631,7 @@ apply template: taxon class
  label: Mus musculus TRBV13-1 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82-90)-specific TCR Tg
+alternative term: RSV M2(82–90)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002019
@@ -13675,7 +13639,7 @@ apply template: taxon class
  label: Mus musculus TRBV13-2 TCR Tg
  parent taxon: Mus musculus TCR transgenic
 alternative term: SYIGSINNI-specific TCR Tg
-alternative term: RSV M2(82-90)-specific TCR Tg
+alternative term: RSV M2(82–90)-specific TCR Tg
 rank: subspecies
 
 : ONTIE:0002020
@@ -13694,7 +13658,6 @@ alternative term: LVVKNPAAHHAIS-specific TCR Tg
 alternative term: Clone CW/M 5
 alternative term: B. dermatitis calnexin(103-115)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:5315014
 
 : ONTIE:0002022
 apply template: taxon class
@@ -13713,7 +13676,6 @@ alternative term: DEPLTSLTPRCNTAWNRLKL-specific TCR Tg
 alternative term: 2.5TCR
 alternative term: Chromogranin-A (29-42)-specific TCR Tg
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:2181203
 
 : ONTIE:0002024
 apply template: taxon class
@@ -13723,7 +13685,6 @@ alternative term: 9.1-2 beta chain
 alternative term: LACK(156-173)-specific TCR beta chain
 alternative term: ICFSPSLEHPIVVSGSWD-specific TCR Tg beta chain
 rank: subspecies
-xref: http://www.informatics.jax.org/allele/MGI:4838256
 
 : ONTIE:0002025
 apply template: taxon class
@@ -13963,18 +13924,6 @@ apply template: protein class
  taxon: Fagopyrum esculentum
 alternative term: 13S globulin seed storage protein 3
 alternative term: Legumin-like protein 3
-
-: ONTIE:0002059
-apply template: protein class
- label: obsolete Large structural phosphoprotein
- taxon: Human betaherpesvirus 5
-alternative term: pp150
-alternative term: 150 kDa matrix phosphoprotein
-alternative term: Basic phosphoprotein
-alternative term: BPP
-alternative term: Tegument protein UL32
-obsolete: true
-replacement: ONTIE:0002053
 
 : ONTIE:0002060
 apply template: protein class
@@ -16009,13 +15958,6 @@ apply template: protein class
 apply template: protein class
  label: Major capsid protein L1
  taxon: Human papillomavirus type 16
-
-: ONTIE:0002428
-apply template: protein class
- label: obsolete lactate dehydrogenase
- taxon: Papio cynocephalus
-obsolete: true
-replacement: ONTIE:0002213
 
 : ONTIE:0002429
 apply template: protein class
@@ -19278,14 +19220,6 @@ apply template: protein class
  taxon: Severe acute respiratory syndrome-related coronavirus
 alternative term: BSCRV-672_gp11
 
-: ONTIE:0002929
-apply template: protein class
- label: obsolete US22 family homolog
- taxon: Murid betaherpesvirus 1
-alternative term: MuHV1_gpm141
-obsolete: true
-replacement: ONTIE:0002918
-
 : ONTIE:0002930
 apply template: protein class
  label: hypothetical protein CLJ_B1853
@@ -19939,13 +19873,6 @@ apply template: protein class
 apply template: protein class
  label: proteasome subunit beta type-3
  taxon: Homo sapiens
-
-: ONTIE:0003048
-apply template: protein class
- label: haemagglutinin
- taxon: Influenza A virus
-alternative term: HA
-alternative term: hemagglutinin
 
 : ONTIE:0003049
 apply template: protein class
@@ -21060,26 +20987,6 @@ apply template: protein class
  label: URG11
  taxon: Homo sapiens
 
-: ONTIE:0003256
-type: owl:AnnotationProperty
-label: protein taxon
-definition: An annotation property relating a protein class to the taxon in which that protein is found.
-
-: ONTIE:0003257
-type: owl:AnnotationProperty
-label: protein label
-definition: An annotation property relating a protein class to the label for that protein in the context of its protein taxon.
-
-: ONTIE:0003258
-type: owl:AnnotationProperty
-label: parent taxon
-definition: An annotation property relating a taxon class to its parent taxon class.
-
-: ONTIE:0003259
-type: owl:AnnotationProperty
-label: ONTIE domain
-definition: An annotation property relating a taxon class to its parent taxon class.
-
 : ONTIE:0003260
 apply template: taxon class
  label: Leishmania amazonensis IFLA/BR/67/PH8
@@ -21335,164 +21242,21 @@ apply template: protein class
  label: thiol:disulfide interchange protein
  taxon: Mycobacterium tuberculosis
 
-: ONTIE:0003303
-type: owl:AnnotationProperty
-label: mapping note
-definition: An annotation property for notes about mapping of ONTIE terms to other ontologies.
-
-: ONTIE:0003304
-type: owl:Class
-label: vaccination
-definition: Adminstering a vaccine to an organism with the intention of inducing immunity against antigen components of the vaccine.
-example of usage: Administration of the annual flu vaccine to a human subject.
-subclass of: planned process
-
-: ONTIE:0003305
-type: owl:Class
-label: exposure to substance without evidence for disease
-definition: An unplanned process in which an organism comes into contact with a substance without evidence for a disease caused by that exposure.
-example of usage: Exposure of a human to Timothy grass pollen without any allergic symptoms.
-subclass of: process
-
-: ONTIE:0003306
-type: owl:Class
-label: occurrence of asymptomatic infection
-definition: A process in which an infectious agent is in or on the body of an organism without causing detectable disease.
-example of usage: A restaurant worker tests positive for presence of Norovirus, but experiences no symptoms of illness.
-subclass of: process
-
-: ONTIE:0003307
-type: owl:Class
-label: documented exposure without evidence for disease
-definition: A process in which an organism is exposed to a substance which is evident from that process having been observed or documented.
-example of usage: A restaurant worker tests positive for presence of Norovirus, but experiences no symptoms of illness.
-subclass of: process
-
-: ONTIE:0003308
-type: owl:Class
-label: environmental exposure to endemic/ubiquitous agent without evidence for disease
-definition: A process in which an organism's exposure to a material entity is assumed from that material being commonly present in the environment of the organism.
-example of usage: Exposure of a human to Timothy grass pollen in an area where it is known to be common during pollen season without experiencing any allergic symptoms.
-subclass of: process
-
-: ONTIE:0003309
-type: owl:Class
-label: no exposure
-definition: An organism's lifspan which does not include exposure to a substance of interest.
-example of usage: The information that a human has never lived in nor visted an area where Dengue virus is common.
-subclass of: information content entity
-
-: ONTIE:0003310
-type: owl:Class
-label: unknown
-definition: An organism's lifespan for which there is no available information on an exposure to a material entity of interest.
-example of usage: The lack of information regarding if a human has ever lived in or visted an area where Dengue virus is common.
-subclass of: information content entity
-
-: ONTIE:0003311
-type: owl:Class
-label: solid tissue transplantation
-definition: A planned process in which solid tissue is transferred to an organism
-example of usage: The process of surgically attaching a donor kidney into a recipient patient.
-subclass of: planned process
-
-: ONTIE:0003312
-type: owl:Class
-label: transfusion
-definition: A planned process in which a bodily fluid is transferred into an organism
-example of usage: The process of administering donated blood into a recipient patient.
-subclass of: planned process
-
-: ONTIE:0003313
-type: owl:Class
-label: occurrence of cancer associated with virus
-definition: An occurence of cancer where there is evidence for the presence of a cancer causing oncovirus in the tumor.
-example of usage: The process of human T-lymphotropic virus replicating in a subject prior to their development of adult T-cell leukemia/lymphoma.
-subclass of: occurrence of disease
-
-: ONTIE:0003314
-type: owl:Class
-label: administering substance in vivo
-definition: A planned process by which a material is intentionally given to an organism resulting in exposure of the organism to that substance.
-subclass of: planned process
-mapping note: We intend to map this term to OBI:0600007.
-
-: ONTIE:0003315
-type: owl:Class
-label: infectious challenge
-definition: Administering an infectious agent to an organism in order to test if and how an infection will occur.
-example of usage: Administration of Leishmania major into Balb/c mice after they were immunized with a peptide vaccine in order to test if the vaccine results in less disease symptoms when compared to mice who did not receive the vaccine.
-mapping note: We intend to map this term to OBI:0000712.
-
-: ONTIE:0003316
-type: owl:Class
-label: transplantation or transfusion
-definition: Transfering a solid tissue (transplant) or bodily fluid (transfusion) to an organism.
-example of usage: The process of surgically attaching a donor kidney into a recipient patient.
-subclass of: administering substance in vivo
-mapping note: We intend to map this term to OBI:0000105.
-
-: ONTIE:0003317
-type: owl:Class
-label: occurrence of infectious disease
-definition: The process in which an infectious disease unfolds.
-example of usage: The process of developing fever, chills, and congestion after being infected with influenza A virus.
-subclass of: occurrence of disease
-mapping note: We intend to map this term to OBI:1110008.
-
-: ONTIE:0003318
-type: owl:Class
-label: occurrence of allergy
-definition: The process in which an allergic disease unfolds.
-example of usage: The process of developing hives after eating shrimp.
-mapping note: We intend to map this term to OBI:1110012.
-
-: ONTIE:0003319
-type: owl:Class
-label: occurence of autoimmune disease
-definition: The process in which an autoimmune disease unfolds.
-example of usage: The process of developing increasingly severe joint swelling, pain and disfigurement as rheumatoid arthritis affects a patient.
-subclass of: occurrence of disease
-mapping note: We intend to map this term to OBI:1110054.
-
-: ONTIE:0003320
-type: owl:Class
-label: occurrence of cancer
-definition: The process in which cancer unfolds
-example of usage: The process of developing a cough and difficulty breathing as a tumor grows in the airway of a lung cancer patient.
-subclass of: occurrence of disease
-mapping note: We intend to map this term to OBI:1110053.
-
-: ONTIE:0003321
-type: owl:Class
-label: exposure with existing immune reactivity without evidence for disease
-definition: A process in which an organism is exposed to a material entity which is evident by a detectable immune reactivity against it.
-example of usage: A restaurant worker tests positive for presence of Norovirus, but experiences no symptoms of illness.
-subclass of: process
-mapping note: We intend to map this term to OBI:1110061.
-
-: ONTIE:0003322
-type: owl:Class
-label: occurrence of disease
-definition: The process in which a disease unfolds.
-subclass of: biological process
-mapping note: We intend to map this term to OGMS:0000063.
-
-: ONTIE:0003323
+: TEMP:9000000
 apply template: taxon class
  label: ZIKV/H. sapiens/Martinique/MRS_OPYPaRi/2015
  parent taxon: Zika virus
 alternative term: ZIKV/H. sapiens/MRS_OPY_Martinique_PaRi/2015
 rank: subspecies
 
-: ONTIE:0003324
+: TEMP:9000001
 apply template: taxon class
  label: ZIKV/H. sapiens/Italy/10552/2016
  parent taxon: Zika virus
 alternative term: ZIKV/H. sapiens/10552/Pavia/Italy/2016
 rank: subspecies
 
-: ONTIE:0003325
+: TEMP:9000002
 apply template: taxon class
  label: Peste-des-petits-ruminants virus Ivory Coast 1989
  parent taxon: Small ruminant morbillivirus
@@ -21500,21 +21264,21 @@ alternative term: IC 89
 alternative term: Peste des petits ruminants virus Ivory Coast 1989
 rank: subspecies
 
-: ONTIE:0003326
+: TEMP:9000003
 apply template: taxon class
  label: Mus musculus Kymouse
  parent taxon: Mus musculus Uncategorized
 alternative term: Kymab mouse
 rank: subspecies
 
-: ONTIE:0003327
+: TEMP:9000004
 apply template: taxon class
  label: Mus musculus 2W-OVA
  parent taxon: Mus musculus Uncategorized
 alternative term: Act-2W-OVA
 rank: subspecies
 
-: ONTIE:0003328
+: TEMP:9000005
 apply template: taxon class
  label: Mus musculus V(alpha)19i TCR Transgenic
  parent taxon: Mus musculus TCR transgenic
@@ -21522,21 +21286,21 @@ alternative term: TRAV1/TRAJ33 TCR Transgenic
 alternative term: V(alpha)19i
 rank: subspecies
 
-: ONTIE:0003329
+: TEMP:9000006
 apply template: taxon class
  label: Plasmodium berghei Kyberg 173
  parent taxon: Plasmodium berghei
 alternative term: PbK173
 rank: subspecies
 
-: ONTIE:0003330
+: TEMP:9000007
 apply template: taxon class
  label: Porcine reproductive and respiratory syndrome virus GZ11-G1
  parent taxon: Porcine reproductive and respiratory syndrome virus
 alternative term: GZ11-G1
 rank: subspecies
 
-: ONTIE:0003331
+: TEMP:9000008
 apply template: taxon class
  label: Rattus norvegicus OmniRat5Lew x Rat4
  parent taxon: Rattus norvegicus
@@ -21544,7 +21308,7 @@ alternative term: OmniRat5Lew x Rat4
 alternative term: OmniRat
 rank: subspecies
 
-: ONTIE:0003332
+: TEMP:9000009
 apply template: taxon class
  label: Mus musculus C7 TCR Tg
  parent taxon: Mus musculus TCR transgenic
@@ -21552,69 +21316,69 @@ alternative term: ESAT-6
 alternative term: C7
 rank: subspecies
 
-: ONTIE:0003333
+: TEMP:9000010
 apply template: taxon class
  label: Influenza A virus (A/Kitakyushu/6/2006(H3N2))
  parent taxon: H3N2 subtype
 alternative term: Kitakyushu
 rank: subspecies
 
-: ONTIE:0003334
+: TEMP:9000011
 apply template: taxon class
  label: Streptococcus pneumoniae 3532
  parent taxon: Streptococcus pneumoniae
 alternative term: 3532
 rank: subspecies
 
-: ONTIE:0003335
+: TEMP:9000012
 apply template: taxon class
  label: Streptococcus pneumoniae 2366
  parent taxon: Streptococcus pneumoniae
 alternative term: 2366
 rank: subspecies
 
-: ONTIE:0003336
+: TEMP:9000013
 apply template: taxon class
  label: Streptococcus pneumoniae 2521
  parent taxon: Streptococcus pneumoniae
 alternative term: 2521
 rank: subspecies
 
-: ONTIE:0003337
+: TEMP:9000014
 apply template: taxon class
  label: Mycobacterium avium strain 2447
  parent taxon: Mycobacterium avium
 alternative term: 2447
 rank: subspecies
 
-: ONTIE:0003338
+: TEMP:9000015
 apply template: taxon class
  label: Foot-and-mouth disease virus A/VN/03/2009
  parent taxon: Foot-and-mouth disease virus - type A
 alternative term: A/VN/03/2009
 rank: subspecies
 
-: ONTIE:0003339
+: TEMP:9000016
 apply template: taxon class
  label: Foot-and-mouth disease virus O/Tibet/CHA/99
  parent taxon: Foot-and-mouth disease virus - type O
 alternative term: O/Tibet/CHA/99
 rank: subspecies
 
-: ONTIE:0003340
+: TEMP:9000017
 apply template: taxon class
  label: Porcine circovirus 2 T657
  parent taxon: Porcine circovirus 2
 alternative term: T657
 rank: subspecies
 
-: ONTIE:0003341
+: TEMP:9000018
 apply template: taxon class
  label: Streptococcus pneumoniae 7F
  parent taxon: Streptococcus pneumoniae
 rank: subspecies
 
-: ONTIE:0003342
+: TEMP:9000019
 apply template: taxon class
  label: Influenza A virus (A/Hong Kong/4801/2014(H3N2))
  parent taxon: H3N2 subtype
@@ -21622,14 +21386,14 @@ alternative term: Hong Kong
 alternative term: 4801
 rank: subspecies
 
-: ONTIE:0003343
+: TEMP:9000020
 apply template: taxon class
  label: Mus musculus CD1a
  parent taxon: Mus musculus CD1
 alternative term: CD1a
 rank: subspecies
 
-: ONTIE:0003344
+: TEMP:9000021
 apply template: taxon class
  label: Sus scrofa Duroc X Yorkshire X Hampshire
  parent taxon: Sus scrofa
@@ -21638,21 +21402,21 @@ alternative term: Yorkshire
 alternative term: Hampshire
 rank: subspecies
 
-: ONTIE:0003345
+: TEMP:9000022
 apply template: taxon class
  label: Porcine epidemic diarrhea virus PEDV USA/Colorado/2013
  parent taxon: Porcine epidemic diarrhea virus
 alternative term: CO
 rank: subspecies
 
-: ONTIE:0003346
+: TEMP:9000023
 apply template: taxon class
  label: Mus musculus MOG-specific TCR beta-chain Tg
  parent taxon: Mus musculus C57BL/6 TCR transgenic
 alternative term: Kaa
 rank: subspecies
 
-: ONTIE:0003347
+: TEMP:9000024
 apply template: taxon class
  label: Mus musculus Antibody Transgenic
  parent taxon: Mus musculus
@@ -21660,312 +21424,312 @@ alternative term: Ab
 alternative term: antibody
 rank: subspecies
 
-: ONTIE:0003348
+: TEMP:9000025
 apply template: taxon class
  label: mus musculus VelocImmune
  parent taxon: Mus musculus Antibody Transgenic
 alternative term: VelocImmune
 rank: subspecies
 
-: ONTIE:0003349
+: TEMP:9000026
 apply template: protein class
  label: band 3 anion transport protein
  taxon: Mus musculus
 
-: ONTIE:0003350
+: TEMP:9000027
 apply template: protein class
  label: ubiquitin-associated domain-containing protein 2
  taxon: Homo sapiens
 
-: ONTIE:0003351
+: TEMP:9000028
 apply template: protein class
  label: CD74/ROS
  taxon: Homo sapiens
 alternative term: CD74-TRKA
 
-: ONTIE:0003352
+: TEMP:9000029
 apply template: protein class
  label: cyclin-dependent kinase 3
  taxon: Homo sapiens
 
-: ONTIE:0003353
+: TEMP:9000030
 apply template: protein class
  label: Uncharacterized protein KIAA0754
  taxon: Homo sapiens
 
-: ONTIE:0003354
+: TEMP:9000031
 apply template: protein class
  label: Major Peanut Allergen Ara H 6
  taxon: Arachis hypogaea
 alternative term: Conglutin
 
-: ONTIE:0003355
+: TEMP:9000032
 apply template: protein class
  label: epsilon toxin
  taxon: Clostridium perfringens
 alternative term: epsilon-toxin
 
-: ONTIE:0003356
+: TEMP:9000033
 apply template: protein class
  label: DNA processivity factor
  taxon: Human betaherpesvirus 5
 
-: ONTIE:0003357
+: TEMP:9000034
 apply template: protein class
  label: synuclein
  taxon: Homo sapiens
 
-: ONTIE:0003358
+: TEMP:9000035
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Sinonatrix annularis
 alternative term: PLIg
 
-: ONTIE:0003359
+: TEMP:9000036
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Macropisthodon rudis
 
-: ONTIE:0003360
+: TEMP:9000037
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Elaphe carinata
 
-: ONTIE:0003361
+: TEMP:9000038
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Ptyas dhumnades
 
-: ONTIE:0003362
+: TEMP:9000039
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Elaphe taeniura
 
-: ONTIE:0003363
+: TEMP:9000040
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Lycodon rufozonatus
 alternative term: PLIg
 
-: ONTIE:0003364
+: TEMP:9000041
 apply template: protein class
  label: phospholipase A2 inhibitor gamma
  taxon: Oocatochus rufodorsatus
 alternative term: PLIg
 
-: ONTIE:0003365
+: TEMP:9000042
 apply template: protein class
  label: carbonate dehydratase
  taxon: Mycobacterium tuberculosis
 alternative term: carbonite dehydrogynase
 
-: ONTIE:0003366
+: TEMP:9000043
 apply template: protein class
  label: glycoprotein G
  taxon: Human alphaherpesvirus 1
 
-: ONTIE:0003367
+: TEMP:9000044
 apply template: protein class
  label: glycoprotein G
  taxon: Human alphaherpesvirus 2
 
-: ONTIE:0003368
+: TEMP:9000045
 apply template: protein class
  label: holin
  taxon: Salmonella enterica
 
-: ONTIE:0003369
+: TEMP:9000046
 apply template: protein class
  label: DNA polymerase III subunit gamma/tau
  taxon: Salmonella enterica
 
-: ONTIE:0003370
+: TEMP:9000047
 apply template: protein class
  label: formate transporter FocA
  taxon: Salmonella enterica
 
-: ONTIE:0003371
+: TEMP:9000048
 apply template: protein class
  label: phage baseplate protein
  taxon: Salmonella enterica
 
-: ONTIE:0003372
+: TEMP:9000049
 apply template: protein class
  label: RNA helicase
  taxon: Salmonella enterica
 
-: ONTIE:0003373
+: TEMP:9000050
 apply template: protein class
  label: valine tRNA ligase
  taxon: Salmonella enterica
 
-: ONTIE:0003374
+: TEMP:9000051
 apply template: protein class
  label: hypothetical protein
  taxon: Salmonella enterica
 
-: ONTIE:0003375
+: TEMP:9000052
 apply template: protein class
  label: PTS system mannitol-specific transporter subunit IIA
  taxon: Salmonella enterica
 
-: ONTIE:0003376
+: TEMP:9000053
 apply template: protein class
  label: Zn-dependent protease
  taxon: Salmonella enterica
 
-: ONTIE:0003377
+: TEMP:9000054
 apply template: protein class
  label: serine/threonine protein kinase
  taxon: Salmonella enterica
 
-: ONTIE:0003378
+: TEMP:9000055
 apply template: protein class
  label: chloramphenicol/florfenicol efflux MFS transporter FloR
  taxon: Salmonella enterica
 
-: ONTIE:0003379
+: TEMP:9000056
 apply template: protein class
  label: AraC family transcriptional regulator
  taxon: Salmonella enterica
 
-: ONTIE:0003380
+: TEMP:9000057
 apply template: protein class
  label: glucosyltransferase
  taxon: Salmonella enterica
 
-: ONTIE:0003381
+: TEMP:9000058
 apply template: protein class
  label: protein RarD
  taxon: Salmonella enterica
 
-: ONTIE:0003382
+: TEMP:9000059
 apply template: protein class
  label: von Willebrand factor-cleaving protease precursor
  taxon: Homo sapiens
 
-: ONTIE:0003383
+: TEMP:9000060
 apply template: protein class
  label: nucleocapsid protein
  taxon: Canine morbillivirus
 
-: ONTIE:0003384
+: TEMP:9000061
 apply template: protein class
  label: Protocadherin-24 Ec1-3
  taxon: Mus musculus
 
-: ONTIE:0003385
+: TEMP:9000062
 apply template: protein class
  label: collagen alpha-3(VI) chain
  taxon: Equus przewalskii
 
-: ONTIE:0003386
+: TEMP:9000063
 apply template: protein class
  label: Collagen alpha-1(VII) chain
  taxon: Mus musculus
 
-: ONTIE:0003387
+: TEMP:9000064
 apply template: protein class
  label: MF6p ortholog protein
  taxon: Paragonimus westermani
 
-: ONTIE:0003388
+: TEMP:9000065
 apply template: protein class
  label: ATP synthase subunit beta
  taxon: Plasmodium berghei
 
-: ONTIE:0003389
+: TEMP:9000066
 apply template: protein class
  label: ubiquitin carboxyl-terminal hydrolase 47
  taxon: Mus musculus
 
-: ONTIE:0003390
+: TEMP:9000067
 apply template: protein class
  label: transcription factor 4
  taxon: Mus musculus
 
-: ONTIE:0003391
+: TEMP:9000068
 apply template: protein class
  label: anaphase-promoting complex
  taxon: Mus musculus
 
-: ONTIE:0003392
+: TEMP:9000069
 apply template: protein class
  label: solute carrier family 2, facilitated glucose transporter member 7
  taxon: Mus musculus
 
-: ONTIE:0003393
+: TEMP:9000070
 apply template: protein class
  label: transmembrane protein vezatin
  taxon: Homo sapiens
 
-: ONTIE:0003394
+: TEMP:9000071
 apply template: protein class
  label: Werner syndrome ATP-dependent helicase
  taxon: Homo sapiens
 
-: ONTIE:0003395
+: TEMP:9000072
 apply template: protein class
  label: conserved Plasmodium protein
  taxon: Plasmodium berghei
 
-: ONTIE:0003396
+: TEMP:9000073
 apply template: protein class
  label: hypothetical protein, conserved
  taxon: Leishmania donovani
 
-: ONTIE:0003397
+: TEMP:9000074
 apply template: protein class
  label: potassium-transporting ATPase alpha chain 1
  taxon: Oryctolagus cuniculus
 
-: ONTIE:0003398
+: TEMP:9000075
 apply template: protein class
  label: NACHT and WD repeat domain-containing protein 2
  taxon: Rattus norvegicus
 alternative term: Nwd2
 
-: ONTIE:0003399
+: TEMP:9000076
 apply template: protein class
  label: collagen alpha-3(VI) chain
  taxon: Mus musculus
 
-: ONTIE:0003400
+: TEMP:9000077
 apply template: protein class
  label: troponin T cardiac
  taxon: Carassius auratus
 
-: ONTIE:0003401
+: TEMP:9000078
 apply template: protein class
  label: troponin T cardiac
  taxon: Melospiza melodia
 
-: ONTIE:0003402
+: TEMP:9000079
 apply template: protein class
  label: Major surface glycoprotein G
  taxon: Human respiratory syncytial virus A
 
-: ONTIE:0003403
+: TEMP:9000080
 apply template: protein class
  label: ORF9
  taxon: Porcine circovirus 2
 
-: ONTIE:0003404
+: TEMP:9000081
 apply template: protein class
  label: pectate lyase
  taxon: Bacillus subtilis
 
-: ONTIE:0003405
+: TEMP:9000082
 apply template: protein class
  label: triadin
  taxon: Homo sapiens
 
-: ONTIE:0003406
+: TEMP:9000083
 apply template: protein class
  label: melanoma associated antigen
  taxon: Homo sapiens
 
-: ONTIE:0003407
+: TEMP:9000084
 apply template: protein class
  label: Acetyl-coenzyme A synthetase ACSM6
  taxon: Homo sapiens
@@ -21973,263 +21737,72 @@ alternative term: acetyl coenzyme A
 alternative term: synthetase
 alternative term: ACSM6
 
-: ONTIE:0003408
+: TEMP:9000085
 apply template: protein class
  label: membrane glycoprotein UL40
  taxon: Human betaherpesvirus 5
 alternative term: UL40
 
-: ONTIE:0003409
+: TEMP:9000086
 apply template: protein class
  label: retinoid isomerohydrolase isoform X1
  taxon: Bos taurus
 
-: ONTIE:0003410
+: TEMP:9000087
 apply template: protein class
  label: non-structural protein 1 (NS1)
  taxon: Zika virus
 alternative term: NS1
 
-: ONTIE:0003411
+: TEMP:9000088
 apply template: protein class
  label: urotensin II
  taxon: Neogobius melanostomus
 
-: ONTIE:0003412
+: TEMP:9000089
 apply template: protein class
  label: large hepatitis delta antigen
  taxon: Hepatitis delta virus
 alternative term: L-HDAg
 
-: ONTIE:0003413
+: TEMP:9000090
 apply template: protein class
  label: envelope glycoprotein
  taxon: Crimean-Congo hemorrhagic fever orthonairovirus
 
-: ONTIE:0003414
+: TEMP:9000091
 apply template: protein class
  label: non-structural V protein
  taxon: Avian avulavirus 1
 
-: ONTIE:0003415
+: TEMP:9000092
 apply template: protein class
  label: alcohol dehydrogenase
  taxon: Homo sapiens
 alternative term: ADH
 
-: ONTIE:0003416
+: TEMP:9000093
 apply template: protein class
  label: arylphorin
  taxon: Galleria mellonella
 alternative term: Gal lysin-1
 
-: ONTIE:0003417
+: TEMP:9000094
 apply template: protein class
  label: endoglucanase
  taxon: Clostridium beijerinckii
 
-: ONTIE:0003418
+: TEMP:9000095
 apply template: protein class
  label: adenosine 5',5''',P1,P4-tetraphosphate receptor
  taxon: Mus musculus
 alternative term: Ap4A
 alternative term: adenosine 5',5"',P1,P4-tetraphosphate receptor
 
-: ONTIE:0003419
+: TEMP:9000096
 apply template: protein class
  label: follitropin subunit beta
  taxon: Homo sapiens
 alternative term: follicle-stimulating hormone beta
 alternative term: FSHB
 
-: ONTIE:0003420
-type: owl:ObjectProperty
-label: model of human disease
-
-: ONTIE:0003421
-apply template: disease class
- label: transplant-related disease and allo-reactivity
-subclass of: disease
-definition: A disease that results from transplantation or allo-reactivity.
-
-: ONTIE:0003422
-apply template: disease class
- label: rejection of transplanted organs and tissues
-subclass of: transplant-related disease and allo-reactivity
-definition: A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.
-alternative term: T86
-alternative term: T86.0
-alternative term: T86.1
-alternative term: T86.2
-alternative term: T86.3
-alternative term: T86.8
-
-: ONTIE:0003423
-type: owl:Class
-label: healthy
-definition: The absence of any disease.
-alternative term: U6
-
-: ONTIE:0003424
-apply template: disease class
- label: asymptomatic infection
-definition: The presence of an infection in a host that does not manifest in any pathological processes.
-
-: ONTIE:0003425
-apply template: asymptomatic infection class
- label: asymptomatic HIV infection
- agent: ('Human immunodeficiency virus 1' or 'Human immunodeficiency virus 2')
-definition: An asymptomatic infection with Human immunodeficiency virus 1  OR Human immunodeficiency virus 2.
-alternative term: Z21
-
-: ONTIE:0003426
-apply template: asymptomatic infection class
- label: human T-lymphotropic virus 1 carrier
- agent: 'Human T-cell leukemia virus type I'
-definition: An asymptomatic infection with Human T-cell leukemia virus type I.
-alternative term: HTLV-1 carrier
-alternative term: Z22.6
-
-: ONTIE:0003427
-apply template: disease class
- label: animal model of disease
-subclass of: disease
-definition: An experimental process in which an organism other than human is studied as it undergoes a process that mimics an occurrence of a human disease in order to study that disease. 
-
-: ONTIE:0003428
-apply template: disease class
- label: animal model of autoimmune disease
-subclass of: animal model of disease
-subclass of; kn:omn: 'model of human disease' some 'autoimmune hypersensitivity disease'
-definition: An animal model of disease that serves as a method to study a human autoimmune disease.
-
-: ONTIE:0003429
-apply template: autoimmune model class
- label: experimental arthritis
- human disease: arthritis
-definition: An animal model of autoimmune disease that mimics human arthritis.
-alternative term: U43
-
-: ONTIE:0003430
-apply template: disease class
- label: collagen-induced arthritis (CIA)
-subclass of: experimental arthritis
-definition: An experimental arthritis induced by the administration of collagen. Autoimmune arthritis is induced in this model by immunization with an emulsion of complete Freund's adjuvant and type II collagen (CII).
-definition source: PMID: 17546023
-definition source: PMID: 30244448
-alternative term: CIA
-alternative term: U42
-
-: ONTIE:0003431
-apply template: disease class
- label: adjuvant-induced arthritis (AIA)
-subclass of: experimental arthritis
-definition: An experimental arthritis induced by the administration of adjuvant.
-definition source: PMID: 21959761
-definition source: PMID: 29433367
-alternative term: AIA
-alternative term: U41
-
-: ONTIE:0003432
-apply template: autoimmune model class
- label: experimental autoimmune ovarian disease (oophoritis)
- human disease: oophoritis
-definition: An animal model of autoimmune disease that mimics human oophoritis.
-alternative term: N70
-
-: ONTIE:0003433
-apply template: autoimmune model class
- label: experimental autoimmune uveitis (EAU)
- human disease: 'autoimmune uveitis'
-definition: An animal model of autoimmune disease that mimics human autoimmune uveitis.
-alternative term: EAU
-alternative term: H20
-
-: ONTIE:0003434
-apply template: autoimmune model class
- label: experimental autoimmune neuritis (EAN)
- human disease: 'autoimmune neuropathy'
-definition: An animal model of autoimmune disease that mimics human autoimmune neuropathy.
-alternative term: EAN
-alternative term: G31.8
-
-: ONTIE:0003435
-apply template: autoimmune model class
- label: experimental autoimmune encephalomyelitis (EAE)
- human disease: ('multiple sclerosis' or 'acute disseminated encephalomyelitis')
-definition: An animal model of autoimmune disease that mimics human multiple sclerosis or human acute disseminated encephalomyelitis.
-alternative term: EAE
-alternative term: G35
-
-: ONTIE:0003436
-apply template: autoimmune model class
- label: experimental autoimmune myasthenia gravis (EAMG)
- human disease: 'myasthenia gravis'
-definition: An animal model of autoimmune disease that mimics human myasthenia gravis.
-alternative term: EAMG
-alternative term: G70
-
-: ONTIE:0003437
-apply template: autoimmune model class
- label: experimental autoimmune glomerulonephritis (EAG)
- human disease: 'Goodpasture syndrome'
-definition: An animal model of autoimmune disease that mimics human Goodpasture's syndrome.
-alternative term: EAG
-alternative term: M31.0
-alternative term: N01.2
-
-: ONTIE:0003438
-apply template: autoimmune model class
- label: experimental Graves' disease
- human disease: 'Graves disease'
-definition: An animal model of autoimmune disease that mimics human Graves' disease.
-alternative term: E05
-
-: ONTIE:0003439
-apply template: autoimmune model class
- label: experimental autoimmune myocarditis (EAM)
- human disease: 'autoimmune cardiomyopathy'
-definition: An animal model of autoimmune disease that mimics human autoimmune cardiomyopathy.
-alternative term: EAM
-alternative term: I01.2
-alternative term: I09.0
-
-: ONTIE:0003440
-apply template: autoimmune model class
- label: experimental immune-mediated cholangiopathy
- human disease: cholangitis
-definition: An animal model of autoimmune disease that mimics human cholangitis.
-alternative term: K80.3
-
-: ONTIE:0003441
-apply template: autoimmune model class
- label: experimental autoimmune sensorineural hearing loss
- human disease: 'ensorineural hearing loss'
-definition: An animal model of autoimmune disease that mimics human sensorineural hearing loss.
-alternative term: H90.3
-
-: ONTIE:0003442
-apply template: autoimmune model class
- label: experimental autoimmune thyroiditis (EAT)
- human disease: (hypothyroidism or 'autoimmune thyroiditis')
-definition: An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.
-alternative term: E06.3
-alternative term: EAT
-
-: ONTIE:0003443
-apply template: autoimmune model class
- label: experimental autoimmune prostatitis
- human disease: prostatitis
-definition: An animal model of autoimmune disease that mimics human prostatitis.
-alternative term: N41.1
-alternative term: chronic pelvic pain syndrome
-alternative term: chronic prostatitis
-
-: ONTIE:0003444
-apply template: disease class
- label: habitual abortion
-subclass of: disease
-definition: A disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.
-definition source: PMID:19609401
-alternative term: recurrent miscarriage
-alternative term: recurrent pregnancy loss

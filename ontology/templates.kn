@@ -15,3 +15,27 @@ template content:
  subclass of: {parent taxon}
  ONTIE domain: taxon
 
+: ONTIE:disease-class
+label: disease class
+template content:
+ type: owl:Class
+ label: {label}
+ ONTIE domain: disease
+
+: ONTIE:autoimmune-model-class
+label: autoimmune model class
+template content:
+ type: owl:Class
+ label: {label}
+ subclass of: animal model of autoimmune disease
+ subclass of; kn:omn: 'model of human disease' some {human disease}
+ ONTIE domain: disease
+
+: ONTIE:asymptomatic-infection-class
+label: asymptomatic infection class
+template content:
+ type: owl:Class
+ label: {label}
+ subclass of: asymptomatic infection
+ subclass of; kn:omn: 'has material basis in' some {agent}
+ ONTIE domain: disease

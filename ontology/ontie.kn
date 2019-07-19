@@ -22073,6 +22073,7 @@ alternative term: U6
 : ONTIE:0003424
 apply template: disease class
  label: asymptomatic infection
+subclass of: disease
 definition: The presence of an infection in a host that does not manifest in any pathological processes.
 
 : ONTIE:0003425

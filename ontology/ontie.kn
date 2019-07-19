@@ -21078,7 +21078,7 @@ definition: An annotation property relating a taxon class to its parent taxon cl
 : ONTIE:0003259
 type: owl:AnnotationProperty
 label: ONTIE domain
-definition: An annotation property relating a taxon class to its parent taxon class.
+definition: An annotation property for the scientific domain of a term.
 
 : ONTIE:0003260
 apply template: taxon class

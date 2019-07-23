@@ -22205,7 +22205,7 @@ alternative term: K80.3
 : ONTIE:0003441
 apply template: autoimmune model class
  label: experimental autoimmune sensorineural hearing loss
- human disease: 'ensorineural hearing loss'
+ human disease: 'sensorineural hearing loss'
 definition: An animal model of autoimmune disease that mimics human sensorineural hearing loss.
 alternative term: H90.3
 

@@ -19,9 +19,9 @@ build/mro.owl: | build
 build/doid-non-classified.owl: | build
 	curl -Lk -o $@ https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/doid-non-classified.owl
 
-build/doid-module.owl: build/doid-non-classified.owl | build
+build/doid-module.owl: build/doid-non-classified.owl src/do-terms.txt | build
 	robot extract --input $< --method MIREOT --intermediates minimal\
-	 --lower-terms resources/do-terms.txt --output $@
+	 --lower-terms $(word 2,$^) --output $@
 
 
 # Extra NCBI tasks

@@ -22042,3 +22042,195 @@ apply template: protein class
 alternative term: follicle-stimulating hormone beta
 alternative term: FSHB
 
+: ONTIE:0003420
+type: owl:ObjectProperty
+label: model of human disease
+
+: ONTIE:0003421
+apply template: disease class
+ label: transplant-related disease and allo-reactivity
+subclass of: disease
+definition: A disease that results from transplantation or allo-reactivity.
+
+: ONTIE:0003422
+apply template: disease class
+ label: rejection of transplanted organs and tissues
+subclass of: transplant-related disease and allo-reactivity
+definition: A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.
+alternative term: T86
+alternative term: T86.0
+alternative term: T86.1
+alternative term: T86.2
+alternative term: T86.3
+alternative term: T86.8
+
+: ONTIE:0003423
+type: owl:Class
+label: healthy
+definition: The absence of any disease.
+alternative term: U6
+
+: ONTIE:0003424
+apply template: disease class
+ label: asymptomatic infection
+subclass of: disease
+definition: The presence of an infection in a host that does not manifest in any pathological processes.
+
+: ONTIE:0003425
+apply template: asymptomatic infection class
+ label: asymptomatic HIV infection
+ agent: ('Human immunodeficiency virus 1' or 'Human immunodeficiency virus 2')
+definition: An asymptomatic infection with Human immunodeficiency virus 1  OR Human immunodeficiency virus 2.
+alternative term: Z21
+
+: ONTIE:0003426
+apply template: asymptomatic infection class
+ label: human T-lymphotropic virus 1 carrier
+ agent: 'Human T-cell leukemia virus type I'
+definition: An asymptomatic infection with Human T-cell leukemia virus type I.
+alternative term: HTLV-1 carrier
+alternative term: Z22.6
+
+: ONTIE:0003427
+apply template: disease class
+ label: animal model of disease
+subclass of: disease
+definition: An experimental process in which an organism other than human is studied as it undergoes a process that mimics an occurrence of a human disease in order to study that disease. 
+
+: ONTIE:0003428
+apply template: disease class
+ label: animal model of autoimmune disease
+subclass of: animal model of disease
+subclass of; kn:omn: 'model of human disease' some 'autoimmune hypersensitivity disease'
+definition: An animal model of disease that serves as a method to study a human autoimmune disease.
+
+: ONTIE:0003429
+apply template: autoimmune model class
+ label: experimental arthritis
+ human disease: arthritis
+definition: An animal model of autoimmune disease that mimics human arthritis.
+alternative term: U43
+
+: ONTIE:0003430
+apply template: disease class
+ label: collagen-induced arthritis (CIA)
+subclass of: experimental arthritis
+definition: An experimental arthritis induced by the administration of collagen. Autoimmune arthritis is induced in this model by immunization with an emulsion of complete Freund's adjuvant and type II collagen (CII).
+definition source: PMID: 17546023
+definition source: PMID: 30244448
+alternative term: CIA
+alternative term: U42
+
+: ONTIE:0003431
+apply template: disease class
+ label: adjuvant-induced arthritis (AIA)
+subclass of: experimental arthritis
+definition: An experimental arthritis induced by the administration of adjuvant.
+definition source: PMID: 21959761
+definition source: PMID: 29433367
+alternative term: AIA
+alternative term: U41
+
+: ONTIE:0003432
+apply template: autoimmune model class
+ label: experimental autoimmune ovarian disease (oophoritis)
+ human disease: oophoritis
+definition: An animal model of autoimmune disease that mimics human oophoritis.
+alternative term: N70
+
+: ONTIE:0003433
+apply template: autoimmune model class
+ label: experimental autoimmune uveitis (EAU)
+ human disease: 'autoimmune uveitis'
+definition: An animal model of autoimmune disease that mimics human autoimmune uveitis.
+alternative term: EAU
+alternative term: H20
+
+: ONTIE:0003434
+apply template: autoimmune model class
+ label: experimental autoimmune neuritis (EAN)
+ human disease: 'autoimmune neuropathy'
+definition: An animal model of autoimmune disease that mimics human autoimmune neuropathy.
+alternative term: EAN
+alternative term: G31.8
+
+: ONTIE:0003435
+apply template: autoimmune model class
+ label: experimental autoimmune encephalomyelitis (EAE)
+ human disease: ('multiple sclerosis' or 'acute disseminated encephalomyelitis')
+definition: An animal model of autoimmune disease that mimics human multiple sclerosis or human acute disseminated encephalomyelitis.
+alternative term: EAE
+alternative term: G35
+
+: ONTIE:0003436
+apply template: autoimmune model class
+ label: experimental autoimmune myasthenia gravis (EAMG)
+ human disease: 'myasthenia gravis'
+definition: An animal model of autoimmune disease that mimics human myasthenia gravis.
+alternative term: EAMG
+alternative term: G70
+
+: ONTIE:0003437
+apply template: autoimmune model class
+ label: experimental autoimmune glomerulonephritis (EAG)
+ human disease: 'Goodpasture syndrome'
+definition: An animal model of autoimmune disease that mimics human Goodpasture's syndrome.
+alternative term: EAG
+alternative term: M31.0
+alternative term: N01.2
+
+: ONTIE:0003438
+apply template: autoimmune model class
+ label: experimental Graves' disease
+ human disease: 'Graves disease'
+definition: An animal model of autoimmune disease that mimics human Graves' disease.
+alternative term: E05
+
+: ONTIE:0003439
+apply template: autoimmune model class
+ label: experimental autoimmune myocarditis (EAM)
+ human disease: 'autoimmune cardiomyopathy'
+definition: An animal model of autoimmune disease that mimics human autoimmune cardiomyopathy.
+alternative term: EAM
+alternative term: I01.2
+alternative term: I09.0
+
+: ONTIE:0003440
+apply template: autoimmune model class
+ label: experimental immune-mediated cholangiopathy
+ human disease: cholangitis
+definition: An animal model of autoimmune disease that mimics human cholangitis.
+alternative term: K80.3
+
+: ONTIE:0003441
+apply template: autoimmune model class
+ label: experimental autoimmune sensorineural hearing loss
+ human disease: 'ensorineural hearing loss'
+definition: An animal model of autoimmune disease that mimics human sensorineural hearing loss.
+alternative term: H90.3
+
+: ONTIE:0003442
+apply template: autoimmune model class
+ label: experimental autoimmune thyroiditis (EAT)
+ human disease: (hypothyroidism or 'autoimmune thyroiditis')
+definition: An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.
+alternative term: E06.3
+alternative term: EAT
+
+: ONTIE:0003443
+apply template: autoimmune model class
+ label: experimental autoimmune prostatitis
+ human disease: prostatitis
+definition: An animal model of autoimmune disease that mimics human prostatitis.
+alternative term: N41.1
+alternative term: chronic pelvic pain syndrome
+alternative term: chronic prostatitis
+
+: ONTIE:0003444
+apply template: disease class
+ label: habitual abortion
+subclass of: disease
+definition: A disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.
+definition source: PMID:19609401
+alternative term: recurrent miscarriage
+alternative term: recurrent pregnancy loss

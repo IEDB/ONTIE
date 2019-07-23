@@ -6,9 +6,11 @@ obo:OBI_9991118	IEDB alternative term	owl:AnnotationProperty
 obo:IAO_0100001	replacement	owl:AnnotationProperty
 obo:IAO_0000112	example of usage	owl:AnnotationProperty
 obo:IAO_0000115	definition	owl:AnnotationProperty
+obo:IAO_0000119	definition source	owl:AnnotationProperty
 obo:IAO_0000232	curator note	owl:AnnotationProperty
 ncbitaxon:has_rank	rank	owl:AnnotationProperty
 obo:RO_0002162	in taxon	owl:ObjectProperty
+obo:IDO_0000664	has material basis in	owl:ObjectProperty
 obo:BFO_0000015	process	owl:Class
 obo:GO_0008150	biological process	owl:Class
 obo:OBI_0000011	planned process	owl:Class
@@ -17,6 +19,23 @@ obo:OBI_0600007	administering substance in vivo	owl:Class
 NCBITaxon:subspecies	subspecies	owl:Class
 NCBITaxon:no_rank	no rank	owl:Class
 obo:PR_000000001	protein	owl:Class
+obo:DOID_4	disease	owl:Class
+obo:DOID_0040088	autoimmune uveitis	owl:Class
+obo:DOID_0040095	autoimmune cardiomyopathy	owl:Class
+obo:DOID_0060499	autoimmune neuropathy	owl:Class
+obo:DOID_10003	sensorineural hearing loss	owl:Class
+obo:DOID_10974	oophoritis	owl:Class
+obo:DOID_12361	Graves disease	owl:Class
+obo:DOID_1459	hypothyroidism	owl:Class
+obo:DOID_14654	prostatitis	owl:Class
+obo:DOID_2377	multiple sclerosis	owl:Class
+obo:DOID_417	autoimmune hypersensitivity disease	owl:Class
+obo:DOID_437	myasthenia gravis	owl:Class
+obo:DOID_639	acute disseminated encephalomyelitis	owl:Class
+obo:DOID_7188	autoimmune thyroiditis	owl:Class
+obo:DOID_848	arthritis	owl:Class
+obo:DOID_9446	cholangitis	owl:Class
+obo:DOID_9808	Goodpasture syndrome	owl:Class
 NCBITaxon:29430	Acinetobacter haemolyticus	owl:Class
 NCBITaxon:28090	Acinetobacter lwoffii	owl:Class
 NCBITaxon:715	Actinobacillus pleuropneumoniae	owl:Class
@@ -286,6 +305,7 @@ NCBITaxon:37296	Human gammaherpesvirus 8	owl:Class
 NCBITaxon:208726	Human hepatitis A virus	owl:Class
 NCBITaxon:12098	Human hepatitis A virus Hu/Australia/HM175/1976	owl:Class
 NCBITaxon:11676	Human immunodeficiency virus 1	owl:Class
+NCBITaxon:11709	Human immunodeficiency virus 2	owl:Class
 NCBITaxon:108098	Human mastadenovirus B	owl:Class
 NCBITaxon:162145	Human metapneumovirus	owl:Class
 NCBITaxon:11250	Human orthopneumovirus	owl:Class

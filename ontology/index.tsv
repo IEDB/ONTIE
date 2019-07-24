@@ -3300,45 +3300,7 @@ ONTIE:0003298	Onchocerca volvulus protein (Onchocerca volvulus)	owl:Class
 ONTIE:0003299	type VII secretion protein EsxH (Mycobacterium tuberculosis)	owl:Class		
 ONTIE:0003300	phosphate ABC transporter substrate-binding protein (Mycobacterium tuberculosis)	owl:Class		
 ONTIE:0003301	ribosomal-protein-alanine acetyltransferase rimJ (Mycobacterium tuberculosis)	owl:Class		
-ONTIE:0003302	thiol:disulfide interchange protein (Mycobacterium tuberculosis)	owl:Class		
-ONTIE:0003303	mapping note	owl:AnnotationProperty		
-ONTIE:0003304	vaccination	owl:Class		
-ONTIE:0003305	exposure to substance without evidence for disease	owl:Class		
-ONTIE:0003306	occurrence of asymptomatic infection	owl:Class		
-ONTIE:0003307	documented exposure without evidence for disease	owl:Class		
-ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class		
-ONTIE:0003309	no exposure	owl:Class		
-ONTIE:0003310	unknown	owl:Class		
-ONTIE:0003311	solid tissue transplantation	owl:Class		
-ONTIE:0003312	transfusion	owl:Class		
-ONTIE:0003313	occurrence of cancer associated with virus	owl:Class		
-ONTIE:0003314	administering substance in vivo	owl:Class		
-ONTIE:0003315	infectious challenge	owl:Class		
-ONTIE:0003316	transplantation or transfusion	owl:Class		
-ONTIE:0003317	occurrence of infectious disease	owl:Class		
-ONTIE:0003318	occurrence of allergy	owl:Class		
-ONTIE:0003319	occurence of autoimmune disease	owl:Class		
-ONTIE:0003320	occurrence of cancer	owl:Class		
-ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
-ONTIE:0003303	mapping note	owl:AnnotationProperty		
-ONTIE:0003304	vaccination	owl:Class		
-ONTIE:0003305	exposure to substance without evidence for disease	owl:Class		
-ONTIE:0003306	occurrence of asymptomatic infection	owl:Class		
-ONTIE:0003307	documented exposure without evidence for disease	owl:Class		
-ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class		
-ONTIE:0003309	no exposure	owl:Class		
-ONTIE:0003310	unknown	owl:Class		
-ONTIE:0003311	solid tissue transplantation	owl:Class		
-ONTIE:0003312	transfusion	owl:Class		
-ONTIE:0003313	occurrence of cancer associated with virus	owl:Class		
-ONTIE:0003314	administering substance in vivo	owl:Class		
-ONTIE:0003315	infectious challenge	owl:Class		
-ONTIE:0003316	transplantation or transfusion	owl:Class		
-ONTIE:0003317	occurrence of infectious disease	owl:Class		
-ONTIE:0003318	occurrence of allergy	owl:Class		
-ONTIE:0003319	occurence of autoimmune disease	owl:Class		
-ONTIE:0003320	occurrence of cancer	owl:Class		
-ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
+ONTIE:0003302	thiol:disulfide interchange protein (Mycobacterium tuberculosis)	owl:Class			
 ONTIE:0003303	mapping note	owl:AnnotationProperty		
 ONTIE:0003304	vaccination	owl:Class		
 ONTIE:0003305	exposure to substance without evidence for disease	owl:Class		
@@ -3491,161 +3453,90 @@ ONTIE:0003451	Fowlpox virus FP9	owl:Class
 ONTIE:0003452	Salmonella enterica subsp. enterica serovar Typhi str. Quailes	owl:Class		
 ONTIE:0003453	Salmonella enterica subsp. enterica serovar Paratyphi A str. NVGH308	owl:Class		
 ONTIE:0003454	Enterobacteria phage PRD1	owl:Class		
-ONTIE:0003455	band 3 anion transport protein (Mus musculus)	owl:Class		
-ONTIE:0003456	ubiquitin-associated domain-containing protein 2 (Homo sapiens)	owl:Class		
-ONTIE:0003457	CD74/ROS (Homo sapiens)	owl:Class		
-ONTIE:0003458	cyclin-dependent kinase 3 (Homo sapiens)	owl:Class		
-ONTIE:0003459	Uncharacterized protein KIAA0754 (Homo sapiens)	owl:Class		
-ONTIE:0003460	Major Peanut Allergen Ara H 6 (Arachis hypogaea)	owl:Class		
-ONTIE:0003461	epsilon toxin (Clostridium perfringens)	owl:Class		
-ONTIE:0003462	DNA processivity factor (Human betaherpesvirus 5)	owl:Class		
-ONTIE:0003463	synuclein (Homo sapiens)	owl:Class		
-ONTIE:0003464	phospholipase A2 inhibitor gamma (Sinonatrix annularis)	owl:Class		
-ONTIE:0003465	phospholipase A2 inhibitor gamma (Macropisthodon rudis)	owl:Class		
-ONTIE:0003466	phospholipase A2 inhibitor gamma (Elaphe carinata)	owl:Class		
-ONTIE:0003467	phospholipase A2 inhibitor gamma (Ptyas dhumnades)	owl:Class		
-ONTIE:0003468	phospholipase A2 inhibitor gamma (Elaphe taeniura)	owl:Class		
-ONTIE:0003469	phospholipase A2 inhibitor gamma (Lycodon rufozonatus)	owl:Class		
-ONTIE:0003470	phospholipase A2 inhibitor gamma (Oocatochus rufodorsatus)	owl:Class		
-ONTIE:0003471	carbonate dehydratase (Mycobacterium tuberculosis)	owl:Class		
-ONTIE:0003472	glycoprotein G (Human alphaherpesvirus 1)	owl:Class		
-ONTIE:0003473	glycoprotein G (Human alphaherpesvirus 2)	owl:Class		
-ONTIE:0003474	holin (Salmonella enterica)	owl:Class		
-ONTIE:0003475	DNA polymerase III subunit gamma/tau (Salmonella enterica)	owl:Class		
-ONTIE:0003476	formate transporter FocA (Salmonella enterica)	owl:Class		
-ONTIE:0003477	phage baseplate protein (Salmonella enterica)	owl:Class		
-ONTIE:0003478	RNA helicase (Salmonella enterica)	owl:Class		
-ONTIE:0003479	valine tRNA ligase (Salmonella enterica)	owl:Class		
-ONTIE:0003480	hypothetical protein (Salmonella enterica)	owl:Class		
-ONTIE:0003481	PTS system mannitol-specific transporter subunit IIA (Salmonella enterica)	owl:Class		
-ONTIE:0003482	Zn-dependent protease (Salmonella enterica)	owl:Class		
-ONTIE:0003483	serine/threonine protein kinase (Salmonella enterica)	owl:Class		
-ONTIE:0003484	chloramphenicol/florfenicol efflux MFS transporter FloR (Salmonella enterica)	owl:Class		
-ONTIE:0003485	AraC family transcriptional regulator (Salmonella enterica)	owl:Class		
-ONTIE:0003486	glucosyltransferase (Salmonella enterica)	owl:Class		
-ONTIE:0003487	protein RarD (Salmonella enterica)	owl:Class		
-ONTIE:0003488	von Willebrand factor-cleaving protease precursor (Homo sapiens)	owl:Class		
-ONTIE:0003489	nucleocapsid protein (Canine morbillivirus)	owl:Class		
-ONTIE:0003490	Protocadherin-24 Ec1-3 (Mus musculus)	owl:Class		
-ONTIE:0003491	collagen alpha-3(VI) chain (Equus przewalskii)	owl:Class		
-ONTIE:0003492	Collagen alpha-1(VII) chain (Mus musculus)	owl:Class		
-ONTIE:0003493	MF6p ortholog protein (Paragonimus westermani)	owl:Class		
-ONTIE:0003494	ATP synthase subunit beta (Plasmodium berghei)	owl:Class		
-ONTIE:0003495	ubiquitin carboxyl-terminal hydrolase 47 (Mus musculus)	owl:Class		
-ONTIE:0003496	transcription factor 4 (Mus musculus)	owl:Class		
-ONTIE:0003497	anaphase-promoting complex (Mus musculus)	owl:Class		
-ONTIE:0003498	solute carrier family 2, facilitated glucose transporter member 7 (Mus musculus)	owl:Class		
-ONTIE:0003499	transmembrane protein vezatin (Homo sapiens)	owl:Class		
-ONTIE:0003500	Werner syndrome ATP-dependent helicase (Homo sapiens)	owl:Class		
-ONTIE:0003501	conserved Plasmodium protein (Plasmodium berghei)	owl:Class		
-ONTIE:0003502	hypothetical protein, conserved (Leishmania donovani)	owl:Class		
-ONTIE:0003503	potassium-transporting ATPase alpha chain 1 (Oryctolagus cuniculus)	owl:Class		
-ONTIE:0003504	NACHT and WD repeat domain-containing protein 2 (Rattus norvegicus)	owl:Class		
-ONTIE:0003505	collagen alpha-3(VI) chain (Mus musculus)	owl:Class		
-ONTIE:0003506	troponin T cardiac (Carassius auratus)	owl:Class		
-ONTIE:0003507	troponin T cardiac (Melospiza melodia)	owl:Class		
-ONTIE:0003508	Major surface glycoprotein G (Human respiratory syncytial virus A)	owl:Class		
-ONTIE:0003509	ORF9 (Porcine circovirus 2)	owl:Class		
-ONTIE:0003510	pectate lyase (Bacillus subtilis)	owl:Class		
-ONTIE:0003511	triadin (Homo sapiens)	owl:Class		
-ONTIE:0003512	melanoma associated antigen (Homo sapiens)	owl:Class		
-ONTIE:0003513	Acetyl-coenzyme A synthetase ACSM6 (Homo sapiens)	owl:Class		
-ONTIE:0003514	membrane glycoprotein UL40 (Human betaherpesvirus 5)	owl:Class		
-ONTIE:0003515	retinoid isomerohydrolase isoform X1 (Bos taurus)	owl:Class		
-ONTIE:0003516	non-structural protein 1 (NS1) (Zika virus)	owl:Class		
-ONTIE:0003517	urotensin II (Neogobius melanostomus)	owl:Class		
-ONTIE:0003518	large hepatitis delta antigen (Hepatitis delta virus)	owl:Class		
-ONTIE:0003519	envelope glycoprotein (Crimean-Congo hemorrhagic fever orthonairovirus)	owl:Class		
-ONTIE:0003520	non-structural V protein (Avian avulavirus 1)	owl:Class		
-ONTIE:0003521	alcohol dehydrogenase (Homo sapiens)	owl:Class		
-ONTIE:0003522	arylphorin (Galleria mellonella)	owl:Class		
-ONTIE:0003523	endoglucanase (Clostridium beijerinckii)	owl:Class		
-ONTIE:0003524	adenosine 5',5''',P1,P4-tetraphosphate receptor (Mus musculus)	owl:Class		
-ONTIE:0003525	follitropin subunit beta (Homo sapiens)	owl:Class		
-ONTIE:0003526	Ov-ASP-1 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003527	Ov-CHI-1 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003528	Ov-RBP-1 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003529	Ov-ALT-1 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003530	Ov-B20.16 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003531	Fibrinogen gamma chain (Homo sapiens)	owl:Class		
-ONTIE:0003532	FMRFamide precursor (Macrocallista nimbosa)	owl:Class		
-ONTIE:0003533	ferric reductase (Escherichia coli)	owl:Class		
-ONTIE:0003534	GNAT family N-acetyltransferase (Yersinia enterocolitica)	owl:Class		
-ONTIE:0003535	apolipoprotein E (Homo sapiens)	owl:Class		
-ONTIE:0003536	biglycan (Homo sapiens)	owl:Class		
-ONTIE:0003537	Ov23 (Onchocerca volvulus)	owl:Class		
-ONTIE:0003538	Sec c 1 (Secale cereale)	owl:Class		
-ONTIE:0003539	C-type lectin like protein (African swine fever virus)	owl:Class		
-ONTIE:0003540	permease (Leptospira interrogans)	owl:Class		
-ONTIE:0003541	Pn14TS (Streptococcus pneumoniae)	owl:Class		
-ONTIE:0003542	tissue transglutaminase (Homo sapiens)	owl:Class		
-ONTIE:0003543	beta-conglycinin alpha subunit (Glycine max)	owl:Class		
-ONTIE:0003544	tropomyosin (Crassostrea gigas)	owl:Class		
-ONTIE:0003545	nuclear receptor ROR-gamma isoform X1 (Homo sapiens)	owl:Class		
-ONTIE:0003546	mitochondrial import receptor Tom22 variant (Homo sapiens)	owl:Class		
-ONTIE:0003547	env protein (Homo sapiens)	owl:Class		
-ONTIE:0003548	MMP24 protein (Homo sapiens)	owl:Class		
-ONTIE:0003549	hCG1653259 (Homo sapiens)	owl:Class		
-ONTIE:0003550	arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 2 (Homo sapiens)	owl:Class		
-ONTIE:0003551	cadherin-19 (Homo sapiens)	owl:Class		
-ONTIE:0003552	hCG2038477 (Homo sapiens)	owl:Class		
-ONTIE:0003553	cell division cycle protein 20 homolog B (Homo sapiens)	owl:Class		
-ONTIE:0003554	ephrin type-A receptor 3 (Homo sapiens)	owl:Class		
-ONTIE:0003555	basic helix-loop-helix domain-containing protein USF3 (Homo sapiens)	owl:Class		
-ONTIE:0003556	hCG1980844 (Homo sapiens)	owl:Class		
-ONTIE:0003557	selenoprotein N (Homo sapiens)	owl:Class		
-ONTIE:0003558	reverse transcriptase homolog - human retrotransposon L1 (Homo sapiens)	owl:Class		
-ONTIE:0003559	dermal papilla derived protein 6 (Homo sapiens)	owl:Class		
-ONTIE:0003560	2'-5'-oligoadenylate synthase 2 (Homo sapiens)	owl:Class		
-ONTIE:0003561	butyrophilin subfamily 2 member A2 isoform a (Homo sapiens)	owl:Class		
-ONTIE:0003562	protocadherin Fat 3 (Homo sapiens)	owl:Class		
-ONTIE:0003563	zinc finger protein 638 isoform X5 (Homo sapiens)	owl:Class		
-ONTIE:0003564	Transthyretin (Homo sapiens)	owl:Class		
-ONTIE:0003565	lipoxygenase homology domain-containing protein 1 (Homo sapiens)	owl:Class		
-ONTIE:0003566	fusion glycoprotein (Bovine orthopneumovirus)	owl:Class		
-ONTIE:0003567	orexin (Homo sapiens)	owl:Class		
-ONTIE:0003568	large S protein (Hepatitis B virus)	owl:Class		
-ONTIE:0003569	pilin (Escherichia coli)	owl:Class		
-ONTIE:0003570	S100 calcium binding protein B (Homo sapiens)	owl:Class		
-ONTIE:0003571	Uncharacterized protein (Onchocerca volvulus)	owl:Class		
-ONTIE:0003572	matrix protein (Avian avulavirus 1)	owl:Class		
-ONTIE:0003573	VlsE (Borreliella afzelii)	owl:Class		
-ONTIE:0003574	Talin 1 (Homo sapiens)	owl:Class		
-ONTIE:0003575	platelet derived growth factor receptor alpha (Homo sapiens)	owl:Class		
-ONTIE:0003576	dual specificity protein phosphatase 3 (Homo sapiens)	owl:Class		
-ONTIE:0003577	Serine/threonine-protein kinase STK11 (Homo sapiens)	owl:Class		
-ONTIE:0003578	Cadherin EGF LAG seven-pass G-type receptor 1 (Homo sapiens)	owl:Class		
-ONTIE:0003579	odorant response abnormal 4 (Homo sapiens)	owl:Class		
-ONTIE:0003580	Tyrosine-protein kinase ABL2 (Homo sapiens)	owl:Class		
-ONTIE:0003581	Collagen alpha-1(XVI) chain (Homo sapiens)	owl:Class		
-ONTIE:0003582	guanylate cyclase soluble subunit alpha-3 (Homo sapiens)	owl:Class		
-ONTIE:0003583	dual specificity mitogen-activated protein kinase kinase 4 (Homo sapiens)	owl:Class		
-ONTIE:0003584	Putative methyltransferase NSUN3 (Homo sapiens)	owl:Class		
-ONTIE:0003585	Putative glycosyltransferase ALG1-like (Homo sapiens)	owl:Class		
-ONTIE:0003586	phosphomannomutase 2 (Homo sapiens)	owl:Class		
-ONTIE:0003587	Protein argonaute-2 (Homo sapiens)	owl:Class		
-ONTIE:0003588	meningioma-expressed antigen 5s (Homo sapiens)	owl:Class		
-ONTIE:0003589	FtsJ-like protein 1 (Homo sapiens)	owl:Class		
-ONTIE:0003590	Growth arrest-specific protein 6 (Homo sapiens)	owl:Class		
-ONTIE:0003591	HEAT repeat-containing protein 2 (Homo sapiens)	owl:Class		
-ONTIE:0003592	synaptojanin-2 (Homo sapiens)	owl:Class		
-ONTIE:0003593	sodium channel, nonvoltage-gated 1 (Homo sapiens)	owl:Class		
-ONTIE:0003594	deoxyribonuclease I-like 1 (Homo sapiens)	owl:Class		
-ONTIE:0003595	sec24D protein (Homo sapiens)	owl:Class		
-ONTIE:0003596	THEM6 (Homo sapiens)	owl:Class		
-ONTIE:0003597	MYCBP2 (Homo sapiens)	owl:Class		
-ONTIE:0003598	protein farnesyltransferase subunit beta (Homo sapiens)	owl:Class		
-ONTIE:0003599	Rb-associated protein (Homo sapiens)	owl:Class		
-ONTIE:0003600	splicing factor 3B (Homo sapiens)	owl:Class		
-ONTIE:0003601	GTPase NRas (Homo sapiens)	owl:Class		
-ONTIE:0003602	FAST kinase domain-containing protein 2 (Homo sapiens)	owl:Class		
-ONTIE:0003603	proteasomal ubiquitin receptor ADRM1 (Homo sapiens)	owl:Class		
-ONTIE:0003604	angiotensin-converting enzyme isoform 1 (Homo sapiens)	owl:Class		
-ONTIE:0003605	Chromodomain-helicase-DNA-binding protein 1-like (Homo sapiens)	owl:Class		
-ONTIE:0003606	Splicing regulatory glutamine/lysine-rich protein 1 (Homo sapiens)	owl:Class		
-ONTIE:0003607	Receptor tyrosine protein kinase erbB-2 (Homo sapiens)	owl:Class		
-ONTIE:0003608	adhesion G protein coupled receptor D1 (Homo sapiens)	owl:Class		
-ONTIE:0003609	Lysine tRNA ligase (Homo sapiens)	owl:Class		
-ONTIE:0003610	Quinolinate phosphoribosyltransferase (Homo sapiens)	owl:Class		
-ONTIE:0003611	protein tyrosine sulfotransferase 1 (Homo sapiens)	owl:Class		
-ONTIE:0003612	periodic tryptophan protein 2 homolog (Homo sapiens)	owl:Class		
+ONTIE:0003455	Ov-ASP-1 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003456	Ov-CHI-1 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003457	Ov-RBP-1 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003458	Ov-ALT-1 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003459	Ov-B20.16 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003460	Fibrinogen gamma chain (Homo sapiens)	owl:Class		
+ONTIE:0003461	FMRFamide precursor (Macrocallista nimbosa)	owl:Class		
+ONTIE:0003462	ferric reductase (Escherichia coli)	owl:Class		
+ONTIE:0003463	GNAT family N-acetyltransferase (Yersinia enterocolitica)	owl:Class		
+ONTIE:0003464	apolipoprotein E (Homo sapiens)	owl:Class		
+ONTIE:0003465	biglycan (Homo sapiens)	owl:Class		
+ONTIE:0003466	Ov23 (Onchocerca volvulus)	owl:Class		
+ONTIE:0003467	Sec c 1 (Secale cereale)	owl:Class		
+ONTIE:0003468	C-type lectin like protein (African swine fever virus)	owl:Class		
+ONTIE:0003469	permease (Leptospira interrogans)	owl:Class		
+ONTIE:0003470	Pn14TS (Streptococcus pneumoniae)	owl:Class		
+ONTIE:0003471	tissue transglutaminase (Homo sapiens)	owl:Class		
+ONTIE:0003472	beta-conglycinin alpha subunit (Glycine max)	owl:Class		
+ONTIE:0003473	tropomyosin (Crassostrea gigas)	owl:Class		
+ONTIE:0003474	nuclear receptor ROR-gamma isoform X1 (Homo sapiens)	owl:Class		
+ONTIE:0003475	mitochondrial import receptor Tom22 variant (Homo sapiens)	owl:Class		
+ONTIE:0003476	env protein (Homo sapiens)	owl:Class		
+ONTIE:0003477	MMP24 protein (Homo sapiens)	owl:Class		
+ONTIE:0003478	hCG1653259 (Homo sapiens)	owl:Class		
+ONTIE:0003479	arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 2 (Homo sapiens)	owl:Class		
+ONTIE:0003480	cadherin-19 (Homo sapiens)	owl:Class		
+ONTIE:0003481	hCG2038477 (Homo sapiens)	owl:Class		
+ONTIE:0003482	cell division cycle protein 20 homolog B (Homo sapiens)	owl:Class		
+ONTIE:0003483	ephrin type-A receptor 3 (Homo sapiens)	owl:Class		
+ONTIE:0003484	basic helix-loop-helix domain-containing protein USF3 (Homo sapiens)	owl:Class		
+ONTIE:0003485	hCG1980844 (Homo sapiens)	owl:Class		
+ONTIE:0003486	selenoprotein N (Homo sapiens)	owl:Class		
+ONTIE:0003487	reverse transcriptase homolog - human retrotransposon L1 (Homo sapiens)	owl:Class		
+ONTIE:0003488	dermal papilla derived protein 6 (Homo sapiens)	owl:Class		
+ONTIE:0003489	2'-5'-oligoadenylate synthase 2 (Homo sapiens)	owl:Class		
+ONTIE:0003490	butyrophilin subfamily 2 member A2 isoform a (Homo sapiens)	owl:Class		
+ONTIE:0003491	protocadherin Fat 3 (Homo sapiens)	owl:Class		
+ONTIE:0003492	zinc finger protein 638 isoform X5 (Homo sapiens)	owl:Class		
+ONTIE:0003493	Transthyretin (Homo sapiens)	owl:Class		
+ONTIE:0003494	lipoxygenase homology domain-containing protein 1 (Homo sapiens)	owl:Class		
+ONTIE:0003495	fusion glycoprotein (Bovine orthopneumovirus)	owl:Class		
+ONTIE:0003496	orexin (Homo sapiens)	owl:Class		
+ONTIE:0003497	large S protein (Hepatitis B virus)	owl:Class		
+ONTIE:0003498	pilin (Escherichia coli)	owl:Class		
+ONTIE:0003499	S100 calcium binding protein B (Homo sapiens)	owl:Class		
+ONTIE:0003500	Uncharacterized protein (Onchocerca volvulus)	owl:Class		
+ONTIE:0003501	matrix protein (Avian avulavirus 1)	owl:Class		
+ONTIE:0003502	VlsE (Borreliella afzelii)	owl:Class		
+ONTIE:0003503	Talin 1 (Homo sapiens)	owl:Class		
+ONTIE:0003504	platelet derived growth factor receptor alpha (Homo sapiens)	owl:Class		
+ONTIE:0003505	dual specificity protein phosphatase 3 (Homo sapiens)	owl:Class		
+ONTIE:0003506	Serine/threonine-protein kinase STK11 (Homo sapiens)	owl:Class		
+ONTIE:0003507	Cadherin EGF LAG seven-pass G-type receptor 1 (Homo sapiens)	owl:Class		
+ONTIE:0003508	odorant response abnormal 4 (Homo sapiens)	owl:Class		
+ONTIE:0003509	Tyrosine-protein kinase ABL2 (Homo sapiens)	owl:Class		
+ONTIE:0003510	Collagen alpha-1(XVI) chain (Homo sapiens)	owl:Class		
+ONTIE:0003511	guanylate cyclase soluble subunit alpha-3 (Homo sapiens)	owl:Class		
+ONTIE:0003512	dual specificity mitogen-activated protein kinase kinase 4 (Homo sapiens)	owl:Class		
+ONTIE:0003513	Putative methyltransferase NSUN3 (Homo sapiens)	owl:Class		
+ONTIE:0003514	Putative glycosyltransferase ALG1-like (Homo sapiens)	owl:Class		
+ONTIE:0003515	phosphomannomutase 2 (Homo sapiens)	owl:Class		
+ONTIE:0003516	Protein argonaute-2 (Homo sapiens)	owl:Class		
+ONTIE:0003517	meningioma-expressed antigen 5s (Homo sapiens)	owl:Class		
+ONTIE:0003518	FtsJ-like protein 1 (Homo sapiens)	owl:Class		
+ONTIE:0003519	Growth arrest-specific protein 6 (Homo sapiens)	owl:Class		
+ONTIE:0003520	HEAT repeat-containing protein 2 (Homo sapiens)	owl:Class		
+ONTIE:0003521	synaptojanin-2 (Homo sapiens)	owl:Class		
+ONTIE:0003522	sodium channel, nonvoltage-gated 1 (Homo sapiens)	owl:Class		
+ONTIE:0003523	deoxyribonuclease I-like 1 (Homo sapiens)	owl:Class		
+ONTIE:0003524	sec24D protein (Homo sapiens)	owl:Class		
+ONTIE:0003525	THEM6 (Homo sapiens)	owl:Class		
+ONTIE:0003526	MYCBP2 (Homo sapiens)	owl:Class		
+ONTIE:0003527	protein farnesyltransferase subunit beta (Homo sapiens)	owl:Class		
+ONTIE:0003528	Rb-associated protein (Homo sapiens)	owl:Class		
+ONTIE:0003529	splicing factor 3B (Homo sapiens)	owl:Class		
+ONTIE:0003530	GTPase NRas (Homo sapiens)	owl:Class		
+ONTIE:0003531	FAST kinase domain-containing protein 2 (Homo sapiens)	owl:Class		
+ONTIE:0003532	proteasomal ubiquitin receptor ADRM1 (Homo sapiens)	owl:Class		
+ONTIE:0003533	angiotensin-converting enzyme isoform 1 (Homo sapiens)	owl:Class		
+ONTIE:0003534	Chromodomain-helicase-DNA-binding protein 1-like (Homo sapiens)	owl:Class		
+ONTIE:0003535	Splicing regulatory glutamine/lysine-rich protein 1 (Homo sapiens)	owl:Class		
+ONTIE:0003536	Receptor tyrosine protein kinase erbB-2 (Homo sapiens)	owl:Class		
+ONTIE:0003537	adhesion G protein coupled receptor D1 (Homo sapiens)	owl:Class		
+ONTIE:0003538	Lysine tRNA ligase (Homo sapiens)	owl:Class		
+ONTIE:0003539	Quinolinate phosphoribosyltransferase (Homo sapiens)	owl:Class		
+ONTIE:0003540	protein tyrosine sulfotransferase 1 (Homo sapiens)	owl:Class		
+ONTIE:0003541	periodic tryptophan protein 2 homolog (Homo sapiens)	owl:Class		

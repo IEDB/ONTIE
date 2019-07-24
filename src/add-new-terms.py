@@ -115,11 +115,11 @@ def main():
 		print("{} new proteins added".format(proteins_added))
 
 	# Maybe write new external table
-	with open('ontology/external.tsv', 'a') as ext:
+	with open(external_path, 'a') as ext:
 		ext_added = 0
 		for key in sorted(new_external.keys()):
 			ext_added += 1
-			ext.write('%s	%s	owl:Class\n' % (key, new_external[key]))
+			ext.write('%s	%s	owl:Class\n' % (new_external[key], key))
 	if ext_added > 0:
 		print("{} new external classes added".format(ext_added))
 
@@ -235,7 +235,7 @@ def init_data():
 	if os.path.exists(external_path):
 		with open(external_path, 'r') as ext:
 			for line in ext:
-				(label, curie, rdf_type) = line.split('\t')
+				(curie, label, rdf_type) = line.split('\t')
 				external[label] = curie
 
 	if os.path.exists(organism_map_path):

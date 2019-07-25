@@ -28,6 +28,7 @@ obo:DOID_10974	oophoritis	owl:Class
 obo:DOID_12361	Graves disease	owl:Class
 obo:DOID_1459	hypothyroidism	owl:Class
 obo:DOID_14654	prostatitis	owl:Class
+obo:DOID_229	female reproductive system disease	owl:Class
 obo:DOID_2377	multiple sclerosis	owl:Class
 obo:DOID_417	autoimmune hypersensitivity disease	owl:Class
 obo:DOID_437	myasthenia gravis	owl:Class

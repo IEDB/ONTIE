@@ -3320,44 +3320,6 @@ ONTIE:0003318	occurrence of allergy	owl:Class
 ONTIE:0003319	occurence of autoimmune disease	owl:Class		
 ONTIE:0003320	occurrence of cancer	owl:Class		
 ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
-ONTIE:0003303	mapping note	owl:AnnotationProperty		
-ONTIE:0003304	vaccination	owl:Class		
-ONTIE:0003305	exposure to substance without evidence for disease	owl:Class		
-ONTIE:0003306	occurrence of asymptomatic infection	owl:Class		
-ONTIE:0003307	documented exposure without evidence for disease	owl:Class		
-ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class		
-ONTIE:0003309	no exposure	owl:Class		
-ONTIE:0003310	unknown	owl:Class		
-ONTIE:0003311	solid tissue transplantation	owl:Class		
-ONTIE:0003312	transfusion	owl:Class		
-ONTIE:0003313	occurrence of cancer associated with virus	owl:Class		
-ONTIE:0003314	administering substance in vivo	owl:Class		
-ONTIE:0003315	infectious challenge	owl:Class		
-ONTIE:0003316	transplantation or transfusion	owl:Class		
-ONTIE:0003317	occurrence of infectious disease	owl:Class		
-ONTIE:0003318	occurrence of allergy	owl:Class		
-ONTIE:0003319	occurence of autoimmune disease	owl:Class		
-ONTIE:0003320	occurrence of cancer	owl:Class		
-ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
-ONTIE:0003303	mapping note	owl:AnnotationProperty		
-ONTIE:0003304	vaccination	owl:Class		
-ONTIE:0003305	exposure to substance without evidence for disease	owl:Class		
-ONTIE:0003306	occurrence of asymptomatic infection	owl:Class		
-ONTIE:0003307	documented exposure without evidence for disease	owl:Class		
-ONTIE:0003308	environmental exposure to endemic/ubiquitous agent without evidence for disease	owl:Class		
-ONTIE:0003309	no exposure	owl:Class		
-ONTIE:0003310	unknown	owl:Class		
-ONTIE:0003311	solid tissue transplantation	owl:Class		
-ONTIE:0003312	transfusion	owl:Class		
-ONTIE:0003313	occurrence of cancer associated with virus	owl:Class		
-ONTIE:0003314	administering substance in vivo	owl:Class		
-ONTIE:0003315	infectious challenge	owl:Class		
-ONTIE:0003316	transplantation or transfusion	owl:Class		
-ONTIE:0003317	occurrence of infectious disease	owl:Class		
-ONTIE:0003318	occurrence of allergy	owl:Class		
-ONTIE:0003319	occurence of autoimmune disease	owl:Class		
-ONTIE:0003320	occurrence of cancer	owl:Class		
-ONTIE:0003321	exposure with existing immune reactivity without evidence for disease	owl:Class		
 ONTIE:0003322	occurrence of disease	owl:Class		
 ONTIE:0003323	ZIKV/H. sapiens/Martinique/MRS_OPYPaRi/2015	owl:Class		
 ONTIE:0003324	ZIKV/H. sapiens/Italy/10552/2016	owl:Class		
@@ -3456,3 +3418,30 @@ ONTIE:0003416	arylphorin (Galleria mellonella)	owl:Class
 ONTIE:0003417	endoglucanase (Clostridium beijerinckii)	owl:Class		
 ONTIE:0003418	adenosine 5',5''',P1,P4-tetraphosphate receptor (Mus musculus)	owl:Class		
 ONTIE:0003419	follitropin subunit beta (Homo sapiens)	owl:Class		
+ONTIE:0003420	model of human disease	owl:ObjectProperty		
+ONTIE:0003421	transplant-related disease and allo-reactivity	owl:Class		
+ONTIE:0003422	rejection of transplanted organs and tissues	owl:Class		
+ONTIE:0003423	healthy	owl:Class		
+ONTIE:0003424	infection without disease	owl:Class		
+ONTIE:0003425	asymptomatic HIV infection	owl:Class		
+ONTIE:0003426	human T-lymphotropic virus 1 carrier	owl:Class		
+ONTIE:0003427	animal model of disease	owl:Class		
+ONTIE:0003428	animal model of autoimmune disease	owl:Class		
+ONTIE:0003429	experimental arthritis	owl:Class		
+ONTIE:0003430	collagen-induced arthritis (CIA)	owl:Class		
+ONTIE:0003431	adjuvant-induced arthritis (AIA)	owl:Class		
+ONTIE:0003432	experimental autoimmune ovarian disease (oophoritis)	owl:Class		
+ONTIE:0003433	experimental autoimmune uveitis (EAU)	owl:Class		
+ONTIE:0003434	experimental autoimmune neuritis (EAN)	owl:Class		
+ONTIE:0003435	experimental autoimmune encephalomyelitis (EAE)	owl:Class		
+ONTIE:0003436	experimental autoimmune myasthenia gravis (EAMG)	owl:Class		
+ONTIE:0003437	experimental autoimmune glomerulonephritis (EAG)	owl:Class		
+ONTIE:0003438	experimental Graves' disease	owl:Class		
+ONTIE:0003439	experimental autoimmune myocarditis (EAM)	owl:Class		
+ONTIE:0003440	experimental immune-mediated cholangiopathy	owl:Class		
+ONTIE:0003441	experimental autoimmune sensorineural hearing loss	owl:Class		
+ONTIE:0003442	experimental autoimmune thyroiditis (EAT)	owl:Class		
+ONTIE:0003443	experimental autoimmune prostatitis	owl:Class		
+ONTIE:0003444	habitual abortion	owl:Class		
+ONTIE:0003445	additional diseases by cateogry	owl:Class		
+ONTIE:0003446	host status	owl:Class		

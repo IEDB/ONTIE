@@ -22067,14 +22067,15 @@ alternative term: T86.8
 : ONTIE:0003423
 type: owl:Class
 label: healthy
+subclass of: host status
 definition: The absence of any disease.
 alternative term: U6
 
 : ONTIE:0003424
-apply template: disease class
- label: asymptomatic infection
-subclass of: disease
+label: infection without disease
+subclass of: host status
 definition: The presence of an infection in a host that does not manifest in any pathological processes.
+alternative term: asymptomatic infection
 
 : ONTIE:0003425
 apply template: asymptomatic infection class
@@ -22234,3 +22235,11 @@ definition: A female reproductive system disease characterized by 3 consecutive 
 definition source: PMID:19609401
 alternative term: recurrent miscarriage
 alternative term: recurrent pregnancy loss
+
+: ONTIE:0003445
+label: additional diseases by category
+subclass of: disease
+
+: ONTIE:0003446
+label: host status
+definition: The state of the host at the time the experiment.

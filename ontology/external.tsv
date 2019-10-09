@@ -22,6 +22,7 @@ obo:PR_000000001	protein	owl:Class
 obo:DOID_4	disease	owl:Class
 obo:DOID_0040088	autoimmune uveitis	owl:Class
 obo:DOID_0040095	autoimmune cardiomyopathy	owl:Class
+obo:DOID_0050117	disease by infectious agent	owl:Class
 obo:DOID_0060499	autoimmune neuropathy	owl:Class
 obo:DOID_10003	sensorineural hearing loss	owl:Class
 obo:DOID_10974	oophoritis	owl:Class
@@ -37,6 +38,7 @@ obo:DOID_7188	autoimmune thyroiditis	owl:Class
 obo:DOID_848	arthritis	owl:Class
 obo:DOID_9446	cholangitis	owl:Class
 obo:DOID_9808	Goodpasture syndrome	owl:Class
+ONTIE:01	root	owl:Class
 NCBITaxon:29430	Acinetobacter haemolyticus	owl:Class
 NCBITaxon:28090	Acinetobacter lwoffii	owl:Class
 NCBITaxon:715	Actinobacillus pleuropneumoniae	owl:Class

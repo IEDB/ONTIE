@@ -3444,4 +3444,4 @@ ONTIE:0003442	experimental autoimmune thyroiditis (EAT)	owl:Class
 ONTIE:0003443	experimental autoimmune prostatitis	owl:Class		
 ONTIE:0003444	habitual abortion	owl:Class		
 ONTIE:0003445	additional diseases by cateogry	owl:Class		
-ONTIE:0003446	host status	owl:Class		
+ONTIE:0003446	host health status	owl:Class		

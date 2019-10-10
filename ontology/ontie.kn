@@ -22158,7 +22158,8 @@ alternative term: G31.8
 : ONTIE:0003435
 apply template: autoimmune model class
  label: experimental autoimmune encephalomyelitis (EAE)
- human disease: ('multiple sclerosis' or 'acute disseminated encephalomyelitis')
+ human disease: 'multiple sclerosis'
+subclass of; kn:omn: 'model of human disease' some 'acute disseminated encephalomyelitis'
 definition: An animal model of autoimmune disease that mimics human multiple sclerosis or human acute disseminated encephalomyelitis.
 alternative term: EAE
 alternative term: G35
@@ -22213,7 +22214,8 @@ alternative term: H90.3
 : ONTIE:0003442
 apply template: autoimmune model class
  label: experimental autoimmune thyroiditis (EAT)
- human disease: (hypothyroidism or 'autoimmune thyroiditis')
+ human disease: hypothyroidism
+subclass of; kn:omn: 'model of human disease' some 'autoimmune thyroiditis'
 definition: An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.
 alternative term: E06.3
 alternative term: EAT

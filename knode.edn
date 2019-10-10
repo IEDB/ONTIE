@@ -10,9 +10,9 @@
    :paths
    ["ontology/context.kn"
     "ontology/external.tsv"
-    "ontology/manual.tsv"
     "ontology/predicates.tsv"
     "ontology/index.tsv"
+    "ontology/manual.tsv"
     "ontology/templates.kn"
     "ontology/ontie.kn"]}
   {:idspace "NCBITaxonomy",

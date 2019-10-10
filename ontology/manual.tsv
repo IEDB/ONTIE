@@ -1,14 +1,14 @@
 :	subclass of
-obo:DOID_4	host health status
+obo:DOID_4	ONTIE:0003446
 obo:DOID_0050117	disease
 obo:DOID_417	disease
 obo:DOID_1205	disease
-obo:DOID_7	additional diseases by category
-obo:DOID_14566	additional diseases by category
-obo:DOID_150	additional diseases by category
-obo:DOID_0014667	additional diseases by category
-obo:DOID_630	additional diseases by category
-obo:DOID_225	additional diseases by category
+obo:DOID_7	ONTIE:0003445
+obo:DOID_14566	ONTIE:0003445
+obo:DOID_150	ONTIE:0003445
+obo:DOID_0014667	ONTIE:0003445
+obo:DOID_630	ONTIE:0003445
+obo:DOID_225	ONTIE:0003445
 obo:DOID_863	disease of anatomical entity
 obo:DOID_28	disease of anatomical entity
 obo:DOID_15	disease of anatomical entity

@@ -22102,7 +22102,7 @@ definition: An experimental process in which an organism other than human is stu
 apply template: disease class
  label: animal model of autoimmune disease
 subclass of: animal model of disease
-subclass of; kn:omn: 'model of human disease' some 'autoimmune hypersensitivity disease'
+subclass of; kn:omn: 'model of human disease' some 'autoimmune disease'
 definition: An animal model of disease that serves as a method to study a human autoimmune disease.
 
 : ONTIE:0003429

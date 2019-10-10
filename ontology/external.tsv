@@ -34,7 +34,7 @@ obo:DOID_1459	hypothyroidism	owl:Class
 obo:DOID_14654	prostatitis	owl:Class
 obo:DOID_15	reproductive system disease	owl:Class
 obo:DOID_150	disease of mental health	owl:Class
-obo:DOID_17 musculoskeletal system disease	owl:Class
+obo:DOID_17	musculoskeletal system disease	owl:Class
 obo:DOID_28	endocrine system disease	owl:Class
 obo:DOID_225	syndrome	owl:Class
 obo:DOID_229	female reproductive system disease	owl:Class
@@ -45,9 +45,9 @@ obo:DOID_48	male reproductive system disease	owl:Class
 obo:DOID_630	genetic disease	owl:Class
 obo:DOID_639	acute disseminated encephalomyelitis	owl:Class
 obo:DOID_863	nervous system disease	owl:Class
-obo:DOID_7 		disease of anatomical entity	owl:Class
+obo:DOID_7	disease of anatomical entity	owl:Class
 obo:DOID_7188	autoimmune thyroiditis	owl:Class
-obo:DOID_77 gastrointestinal system disease	owl:Class
+obo:DOID_77	gastrointestinal system disease	owl:Class
 obo:DOID_848	arthritis	owl:Class
 obo:DOID_9446	cholangitis	owl:Class
 obo:DOID_9808	Goodpasture syndrome	owl:Class

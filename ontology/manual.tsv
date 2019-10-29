@@ -1,37 +1,33 @@
 :	subclass of
-obo:DOID_4	ONTIE:0003543
-obo:DOID_0050117	disease
-obo:DOID_417	disease
-obo:DOID_1205	disease
-obo:DOID_7	ONTIE:0003542
-obo:DOID_14566	ONTIE:0003542
-obo:DOID_150	ONTIE:0003542
-obo:DOID_0014667	ONTIE:0003542
-obo:DOID_630	ONTIE:0003542
-obo:DOID_225	ONTIE:0003542
-obo:DOID_863	disease of anatomical entity
-obo:DOID_28	disease of anatomical entity
-obo:DOID_15	disease of anatomical entity
-obo:DOID_17	disease of anatomical entity
-obo:DOID_77	disease of anatomical entity
-obo:DOID_0040088	autoimmune disease
-obo:DOID_0040095	autoimmune disease
-obo:DOID_0060499	autoimmune disease
-obo:DOID_10003	nervous system disease
-obo:DOID_10974	endocrine system disease
-obo:DOID_12361	autoimmune disease
-obo:DOID_12361	endocrine system disease
-obo:DOID_1459	endocrine system disease
-obo:DOID_48	reproductive system disease
-obo:DOID_14654	male reproductive system disease
-obo:DOID_229	reproductive system disease
-obo:DOID_2377	nervous system disease
-obo:DOID_437	autoimmune disease
-obo:DOID_437	nervous system disease
-obo:DOID_639	nervous system disease
-obo:DOID_7188	autoimmune disease
-obo:DOID_7188	endocrine system disease
-obo:DOID_848	autoimmune disease
-obo:DOID_848	musculoskeletal system disease
-obo:DOID_9446	gastrointestinal system disease
-obo:DOID_9808	autoimmune disease
+disease	host health status
+infectious disease	disease
+autoimmune disease	disease
+allergic disease	disease
+disease of anatomical entity	additional diseases by category
+disease of cellular proliferation	additional diseases by category
+disease of mental health	additional diseases by category
+disease of metabolism	additional diseases by category
+genetic disease	additional diseases by category
+syndrome	additional diseases by category
+nervous system disease	disease of anatomical entity
+endocrine system disease	disease of anatomical entity
+reproductive system disease	disease of anatomical entity
+musculoskeletal system disease	disease of anatomical entity
+gastrointestinal system disease	disease of anatomical entity
+autoimmune uveitis	autoimmune disease
+autoimmune cardiomyopathy	autoimmune disease
+autoimmune neuropathy	autoimmune disease
+sensorineural hearing loss	nervous system disease
+oophoritis	endocrine system disease
+Graves disease	autoimmune disease|endocrine system disease
+hypothyroidism	endocrine system disease
+male reproductive system disease	reproductive system disease
+prostatitis	male reproductive system disease
+female reproductive system disease	reproductive system disease
+multiple sclerosis	nervous system disease
+myasthenia gravis	autoimmune disease|nervous system disease
+acute disseminated encephalomyelitis	nervous system disease
+autoimmune thyroiditis	autoimmune disease|endocrine system disease
+arthritis	autoimmune disease|musculoskeletal system disease
+cholangitis	gastrointestinal system disease
+Goodpasture syndrome	autoimmune disease

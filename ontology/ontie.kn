@@ -22067,14 +22067,15 @@ alternative term: T86.8
 : ONTIE:0003423
 type: owl:Class
 label: healthy
+subclass of: host health status
 definition: The absence of any disease.
 alternative term: U6
 
 : ONTIE:0003424
-apply template: disease class
- label: asymptomatic infection
-subclass of: disease
+label: infection without disease
+subclass of: host health status
 definition: The presence of an infection in a host that does not manifest in any pathological processes.
+alternative term: asymptomatic infection
 
 : ONTIE:0003425
 apply template: asymptomatic infection class
@@ -22101,7 +22102,7 @@ definition: An experimental process in which an organism other than human is stu
 apply template: disease class
  label: animal model of autoimmune disease
 subclass of: animal model of disease
-subclass of; kn:omn: 'model of human disease' some 'autoimmune hypersensitivity disease'
+subclass of; kn:omn: 'model of human disease' some 'autoimmune disease'
 definition: An animal model of disease that serves as a method to study a human autoimmune disease.
 
 : ONTIE:0003429
@@ -22157,7 +22158,8 @@ alternative term: G31.8
 : ONTIE:0003435
 apply template: autoimmune model class
  label: experimental autoimmune encephalomyelitis (EAE)
- human disease: ('multiple sclerosis' or 'acute disseminated encephalomyelitis')
+ human disease: 'multiple sclerosis'
+subclass of; kn:omn: 'model of human disease' some 'acute disseminated encephalomyelitis'
 definition: An animal model of autoimmune disease that mimics human multiple sclerosis or human acute disseminated encephalomyelitis.
 alternative term: EAE
 alternative term: G35
@@ -22205,14 +22207,15 @@ alternative term: K80.3
 : ONTIE:0003441
 apply template: autoimmune model class
  label: experimental autoimmune sensorineural hearing loss
- human disease: 'ensorineural hearing loss'
+ human disease: 'sensorineural hearing loss'
 definition: An animal model of autoimmune disease that mimics human sensorineural hearing loss.
 alternative term: H90.3
 
 : ONTIE:0003442
 apply template: autoimmune model class
  label: experimental autoimmune thyroiditis (EAT)
- human disease: (hypothyroidism or 'autoimmune thyroiditis')
+ human disease: hypothyroidism
+subclass of; kn:omn: 'model of human disease' some 'autoimmune thyroiditis'
 definition: An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.
 alternative term: E06.3
 alternative term: EAT
@@ -22229,8 +22232,8 @@ alternative term: chronic prostatitis
 : ONTIE:0003444
 apply template: disease class
  label: habitual abortion
-subclass of: disease
-definition: A disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.
+subclass of: female reproductive system disease
+definition: A female reproductive system disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.
 definition source: PMID:19609401
 alternative term: recurrent miscarriage
 alternative term: recurrent pregnancy loss
@@ -22762,3 +22765,10 @@ apply template: protein class
  label: periodic tryptophan protein 2 homolog
  taxon: Homo sapiens
 
+: ONTIE:0003542
+label: additional diseases by category
+subclass of: disease
+
+: ONTIE:0003543
+label: host health status
+definition: The state of the host at the time the experiment.

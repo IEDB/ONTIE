@@ -5,6 +5,7 @@ template content:
  label: {label} ({taxon})
  IEDB alternative term: {label}
  in taxon: {taxon}
+ subclass of: protein
  ONTIE domain: protein
 
 : ONTIE:taxon-class
@@ -36,6 +37,6 @@ label: asymptomatic infection class
 template content:
  type: owl:Class
  label: {label}
- subclass of: asymptomatic infection
+ subclass of: infection without disease
  subclass of; kn:omn: 'has material basis in' some {agent}
  ONTIE domain: disease

@@ -16,13 +16,6 @@ build/obi.owl: | build
 build/mro.owl: | build
 	curl -L -o $@ "https://github.com/IEDB/MRO/raw/master/iedb/mro-iedb.owl"
 
-build/doid-non-classified.owl: | build
-	curl -Lk -o $@ https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/doid-non-classified.owl
-
-build/doid-module.owl: build/doid-non-classified.owl | build
-	robot extract --input $< --method MIREOT --intermediates minimal\
-	 --lower-terms resources/do-terms.txt --output $@
-
 
 # Extra NCBI tasks
 build/taxdmp.zip: | build
@@ -44,7 +37,7 @@ build/ncbitaxon-obsolete.ttl: src/ncbitaxon-obsolete.py build/delnodes.dmp
 # Load data into KnoDE
 
 .PHONY: load
-load: knode.edn build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl build/doid-module.owl
+load: knode.edn build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
 	$(KNODE) load-config $<
 
 # Old load methods

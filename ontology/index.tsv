@@ -3422,7 +3422,7 @@ ONTIE:0003420	model of human disease	owl:ObjectProperty
 ONTIE:0003421	transplant-related disease and allo-reactivity	owl:Class		
 ONTIE:0003422	rejection of transplanted organs and tissues	owl:Class		
 ONTIE:0003423	healthy	owl:Class		
-ONTIE:0003424	asymptomatic infection	owl:Class		
+ONTIE:0003424	infection without disease	owl:Class		
 ONTIE:0003425	asymptomatic HIV infection	owl:Class		
 ONTIE:0003426	human T-lymphotropic virus 1 carrier	owl:Class		
 ONTIE:0003427	animal model of disease	owl:Class		
@@ -3540,3 +3540,5 @@ ONTIE:0003538	Lysine tRNA ligase (Homo sapiens)	owl:Class
 ONTIE:0003539	Quinolinate phosphoribosyltransferase (Homo sapiens)	owl:Class		
 ONTIE:0003540	protein tyrosine sulfotransferase 1 (Homo sapiens)	owl:Class		
 ONTIE:0003541	periodic tryptophan protein 2 homolog (Homo sapiens)	owl:Class		
+ONTIE:0003542	additional diseases by cateogry	owl:Class		
+ONTIE:0003543	host health status	owl:Class	

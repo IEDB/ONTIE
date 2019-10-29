@@ -20,19 +20,34 @@ NCBITaxon:subspecies	subspecies	owl:Class
 NCBITaxon:no_rank	no rank	owl:Class
 obo:PR_000000001	protein	owl:Class
 obo:DOID_4	disease	owl:Class
+obo:DOID_0014667	disease of metabolism	owl:Class
 obo:DOID_0040088	autoimmune uveitis	owl:Class
 obo:DOID_0040095	autoimmune cardiomyopathy	owl:Class
+obo:DOID_0050117	infectious disease	owl:Class
 obo:DOID_0060499	autoimmune neuropathy	owl:Class
 obo:DOID_10003	sensorineural hearing loss	owl:Class
 obo:DOID_10974	oophoritis	owl:Class
+obo:DOID_1205	allergic disease	owl:Class
 obo:DOID_12361	Graves disease	owl:Class
+obo:DOID_14566	disease of cellular proliferation	owl:Class
 obo:DOID_1459	hypothyroidism	owl:Class
 obo:DOID_14654	prostatitis	owl:Class
+obo:DOID_15	reproductive system disease	owl:Class
+obo:DOID_150	disease of mental health	owl:Class
+obo:DOID_17	musculoskeletal system disease	owl:Class
+obo:DOID_28	endocrine system disease	owl:Class
+obo:DOID_225	syndrome	owl:Class
+obo:DOID_229	female reproductive system disease	owl:Class
 obo:DOID_2377	multiple sclerosis	owl:Class
-obo:DOID_417	autoimmune hypersensitivity disease	owl:Class
+obo:DOID_417	autoimmune disease	owl:Class
 obo:DOID_437	myasthenia gravis	owl:Class
+obo:DOID_48	male reproductive system disease	owl:Class
+obo:DOID_630	genetic disease	owl:Class
 obo:DOID_639	acute disseminated encephalomyelitis	owl:Class
+obo:DOID_863	nervous system disease	owl:Class
+obo:DOID_7	disease of anatomical entity	owl:Class
 obo:DOID_7188	autoimmune thyroiditis	owl:Class
+obo:DOID_77	gastrointestinal system disease	owl:Class
 obo:DOID_848	arthritis	owl:Class
 obo:DOID_9446	cholangitis	owl:Class
 obo:DOID_9808	Goodpasture syndrome	owl:Class

@@ -12,6 +12,7 @@
     "ontology/external.tsv"
     "ontology/predicates.tsv"
     "ontology/index.tsv"
+    "ontology/manual.tsv"
     "ontology/templates.kn"
     "ontology/ontie.kn"]}
   {:idspace "NCBITaxonomy",
@@ -50,11 +51,4 @@
    :description
    "The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.",
    :homepage "http://obi-ontology.org",
-   :type :obo-published-owl}
-  {:idspace "DOID",
-   :label "Human Disease Ontology",
-   :title "Human Disease Ontology",
-   :description
-   "An ontology for describing the classification of human diseases organized by etiology.",
-   :type :local-file,
-   :path "build/doid-module.owl"}]}
+   :type :obo-published-owl}]}

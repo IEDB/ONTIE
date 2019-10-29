@@ -51,7 +51,6 @@ obo:DOID_77	gastrointestinal system disease	owl:Class
 obo:DOID_848	arthritis	owl:Class
 obo:DOID_9446	cholangitis	owl:Class
 obo:DOID_9808	Goodpasture syndrome	owl:Class
-ONTIE:01	root	owl:Class
 NCBITaxon:29430	Acinetobacter haemolyticus	owl:Class
 NCBITaxon:28090	Acinetobacter lwoffii	owl:Class
 NCBITaxon:715	Actinobacillus pleuropneumoniae	owl:Class

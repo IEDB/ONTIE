@@ -656,3 +656,6 @@ NCBITaxon:64320	Zika virus	owl:Class
 NCBITaxon:5478	[Candida] glabrata	owl:Class
 NCBITaxon:730	[Haemophilus] ducreyi	owl:Class
 NCBITaxon:32644	unidentified	owl:Class
+NCBITaxon:42789	Enterovirus D68	owl:Class
+NCBITaxon:10261	Fowlpox virus	owl:Class
+NCBITaxon:2169700	Pseudomonas virus PRD1	owl:Class

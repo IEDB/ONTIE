@@ -13,7 +13,7 @@ label: taxon class
 template content: 
  type: owl:Class
  label: {label}
- subclass of: root
+ subclass of: {parent taxon}
  ONTIE domain: taxon
 
 : ONTIE:disease-class

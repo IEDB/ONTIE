@@ -1,5 +1,4 @@
 KNODE := java -jar knode.jar
-ROBOT := java -jar build/robot.jar
 
 # Fetch ontology files
 build:

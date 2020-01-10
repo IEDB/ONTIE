@@ -3541,4 +3541,6 @@ ONTIE:0003539	Quinolinate phosphoribosyltransferase (Homo sapiens)	owl:Class
 ONTIE:0003540	protein tyrosine sulfotransferase 1 (Homo sapiens)	owl:Class		
 ONTIE:0003541	periodic tryptophan protein 2 homolog (Homo sapiens)	owl:Class		
 ONTIE:0003542	additional diseases by cateogry	owl:Class		
-ONTIE:0003543	host health status	owl:Class	
+ONTIE:0003543	host health status	owl:Class		
+ONTIE:0003544	post disease course	owl:Class		
+ONTIE:0003545	unknown disease course	owl:Class		

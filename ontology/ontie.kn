@@ -22772,3 +22772,11 @@ subclass of: disease
 : ONTIE:0003543
 label: host health status
 definition: The state of the host at the time the experiment.
+
+: ONTIE:0003544
+label: post disease course
+rdfs:comment: Required for immune exposusre model. Needs definition.
+
+: ONTIE:0003545
+label: unknown disease course
+rdfs:comment: Required for immune exposusre model. Needs definition.

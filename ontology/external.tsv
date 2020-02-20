@@ -111,6 +111,7 @@ NCBITaxon:35244	Bovine alphaherpesvirus 5	owl:Class
 NCBITaxon:11128	Bovine coronavirus	owl:Class
 NCBITaxon:11303	Bovine ephemeral fever virus	owl:Class
 NCBITaxon:11901	Bovine leukemia virus	owl:Class
+NCBITaxon:11246	Bovine orthopneumovirus	owl:Class
 NCBITaxon:11099	Bovine viral diarrhea virus 1	owl:Class
 NCBITaxon:3707	Brassica juncea	owl:Class
 NCBITaxon:2169992	Brazilian mammarenavirus	owl:Class
@@ -172,6 +173,7 @@ NCBITaxon:777	Coxiella burnetii	owl:Class
 NCBITaxon:31704	Coxsackievirus A16	owl:Class
 NCBITaxon:12072	Coxsackievirus B3	owl:Class
 NCBITaxon:12073	Coxsackievirus B4	owl:Class
+NCBITaxon:29159	Crassostrea gigas	owl:Class
 NCBITaxon:1980519	Crimean-Congo hemorrhagic fever orthonairovirus	owl:Class
 NCBITaxon:5207	Cryptococcus neoformans	owl:Class
 NCBITaxon:40410	Cryptococcus neoformans var. neoformans	owl:Class
@@ -373,6 +375,7 @@ NCBITaxon:5665	Leishmania mexicana	owl:Class
 NCBITaxon:5679	Leishmania panamensis	owl:Class
 NCBITaxon:5666	Leishmania tropica	owl:Class
 NCBITaxon:11049	Lelystad virus	owl:Class
+NCBITaxon:173	Leptospira interrogans	owl:Class
 NCBITaxon:57678	Leptospira interrogans serovar Lai	owl:Class
 NCBITaxon:94043	Leptospira sp. Akiyami A	owl:Class
 NCBITaxon:1642	Listeria innocua	owl:Class
@@ -386,6 +389,7 @@ NCBITaxon:9541	Macaca fascicularis	owl:Class
 NCBITaxon:1891767	Macaca mulatta polyomavirus 1	owl:Class
 NCBITaxon:11628	Machupo mammarenavirus	owl:Class
 NCBITaxon:46269	Macropisthodon rudis	owl:Class
+NCBITaxon:6594	Macrocallista nimbosa	owl:Class
 NCBITaxon:3750	Malus domestica	owl:Class
 NCBITaxon:75985	Mannheimia haemolytica	owl:Class
 NCBITaxon:11234	Measles morbillivirus	owl:Class

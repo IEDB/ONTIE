@@ -3,8 +3,8 @@ disease	host health status
 infectious disease	disease
 autoimmune disease	disease
 allergic disease	disease
+neoplasm	disease
 disease of anatomical entity	additional diseases by category
-disease of cellular proliferation	additional diseases by category
 disease of mental health	additional diseases by category
 disease of metabolism	additional diseases by category
 genetic disease	additional diseases by category

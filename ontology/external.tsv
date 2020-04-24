@@ -29,7 +29,7 @@ obo:DOID_10003	sensorineural hearing loss	owl:Class
 obo:DOID_10974	oophoritis	owl:Class
 obo:DOID_1205	allergic disease	owl:Class
 obo:DOID_12361	Graves disease	owl:Class
-obo:DOID_14566	disease of cellular proliferation	owl:Class
+obo:DOID_14566	neoplasm	owl:Class
 obo:DOID_1459	hypothyroidism	owl:Class
 obo:DOID_14654	prostatitis	owl:Class
 obo:DOID_15	reproductive system disease	owl:Class

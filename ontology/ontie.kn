@@ -22780,3 +22780,8 @@ rdfs:comment: Required for immune exposusre model. Needs definition.
 : ONTIE:0003545
 label: unknown disease course
 rdfs:comment: Required for immune exposusre model. Needs definition.
+
+: ONTIE:0003546
+apply template: asymptomatic infection class
+ label: asymptomatic COVID-19 infection
+ agent: 'Severe acute respiratory syndrome coronavirus 2'

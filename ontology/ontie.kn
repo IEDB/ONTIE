@@ -22775,13 +22775,18 @@ definition: The state of the host at the time the experiment.
 
 : ONTIE:0003544
 label: post disease course
-rdfs:comment: Required for immune exposusre model. Needs definition.
+definition: A disease course that has ended.
 
 : ONTIE:0003545
 label: unknown disease course
-rdfs:comment: Required for immune exposusre model. Needs definition.
+definition: A disease course whose status is currently unknown.
 
 : ONTIE:0003546
 apply template: asymptomatic infection class
  label: asymptomatic COVID-19 infection
  agent: 'Severe acute respiratory syndrome coronavirus 2'
+
+: ONTIE:0003547
+label: other disease course
+definition: A disease course that cannot be described by existing disease course stages.
+

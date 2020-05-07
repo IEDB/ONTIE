@@ -3545,3 +3545,4 @@ ONTIE:0003543	host health status	owl:Class
 ONTIE:0003544	post disease course	owl:Class		
 ONTIE:0003545	unknown disease course	owl:Class		
 ONTIE:0003546	asymptomatic COVID-19 infection	owl:Class	
+ONTIE:0003547	other disease course	owl:Class	

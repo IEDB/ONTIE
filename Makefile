@@ -1,74 +1,55 @@
 KNODE := java -jar knode.jar
+XLSX := xlsx2csv --delimiter tab --escape --ignoreempty
+ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 
-# Fetch ontology files
+DATE := $(shell date +%Y-%m-%d)
+
 build:
 	mkdir $@
 
-build/ncbitaxon.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+build/robot.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
 
-build/chebi.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/chebi.owl"
+# ROBOT templates from Google sheet
 
-build/obi.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/obi.owl"
+build/ontie.xlsx: | build
+	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
 
-build/mro.owl: | build
-	curl -L -o $@ "https://github.com/IEDB/MRO/raw/master/iedb/mro-iedb.owl"
+TABLES := ontology/predicates.tsv \
+          ontology/index.tsv \
+          ontology/external.tsv \
+          ontology/manual.tsv \
+          ontology/protein.tsv \
+          ontology/disease.tsv \
+          ontology/taxon.tsv \
+          ontology/other.tsv
 
+tables: $(TABLES)
 
-# Extra NCBI tasks
-build/taxdmp.zip: | build
-	curl -L "ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdmp.zip" > $@
+$(TABLES): build/ontie.xlsx
+	$(XLSX) -n $(notdir $(basename $@)) $< > $@
 
-build/merged.dmp: build/taxdmp.zip
-	unzip -qc $< merged.dmp > $@
+# ONTIE from templates
 
-build/delnodes.dmp: build/taxdmp.zip
-	unzip -qc $< delnodes.dmp > $@
+ontie.owl: $(TABLES) | build/robot.jar
+	$(eval TEMPS := $(foreach T,$(filter-out $<,$^),template --template $(T) --merge-before ))
+	$(ROBOT) template \
+	--template $< $(TEMPS) \
+	annotate \
+	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
+	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
+	--output $@
 
-build/ncbitaxon-merged.ttl: src/ncbitaxon-merged.py build/merged.dmp
-	$^ $@
+# Main tasks
 
-build/ncbitaxon-obsolete.ttl: src/ncbitaxon-obsolete.py build/delnodes.dmp
-	$^ $@
-
-
-# Load data into KnoDE
-
-.PHONY: load
-load: knode.edn build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
-	$(KNODE) load-config $<
-
-# Old load methods
-
-.PHONY: load-ontie
-load-ontie: ontology/context.kn ontology/external.tsv ontology/predicates.tsv ontology/index.tsv ontology/templates.kn ontology/ontie.kn
-	$(KNODE) load ONTIE $^
-
-.PHONY: load-ncbitaxonomy
-load-ncbitaxonomy: build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon.owl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon-merged.ttl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon-obsolete.ttl
-
-.PHONY: load-chebi
-load-chebi: build/chebi.owl
-	$(KNODE) load ChEBI $<
-
-.PHONY: load-obi
-load-obi: build/obi.owl
-	$(KNODE) load OBI $<
-
-.PHONY: load-mro
-load-mro: build/mro.owl
-	$(KNODE) load MRO $<
-
-
-# General tasks
-.PHONY: all
-all: load
+.PHONY: refresh
+refresh:
+	rm -rf build/ontie.xlsx
+	rm ontology/*.tsv
+	make tables
 
 .PHONY: clean
 clean:
 	rm -rf build/
+
+all: ontie.owl

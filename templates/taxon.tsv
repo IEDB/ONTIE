@@ -1,13 +1,13 @@
-Label	Parent	Taxonomic Rank	Alternative term	Domain	
-LABEL	SC % SPLIT=|	AI rank	A alternative term SPLIT=|	A ONTIE domain	
+Label	Parent	Taxonomic Rank	Alternative term	Domain	Cross-Ref
+LABEL	SC % SPLIT=|	AI has rank	A alternative term SPLIT=|	A ONTIE domain	AI database_cross_reference
 Acinetobacter haemolyticus strain 57	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter haemolyticus strain 61	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter lwoffii F78	Acinetobacter lwoffii	subspecies	F78	taxon	
 Aggregatibacter actinomycetemcomitans C59A	Aggregatibacter actinomycetemcomitans	subspecies	C59A|nonserotypeable (x)	taxon	
 Aggregatibacter actinomycetemcomitans OMZ 346	Aggregatibacter actinomycetemcomitans	subspecies	Actinobacillus actinomycetemcomitans OMZ 346	taxon	
-Aggregatibacter actinomycetemcomitans serotype a str. CDC A1916	Aggregatibacter actinomycetemcomitans	subspecies	ATCC 29523|Kilian 2006|Klinger 1912|N√∏rskov-Lauritsen	taxon	
+Aggregatibacter actinomycetemcomitans serotype a str. CDC A1916	Aggregatibacter actinomycetemcomitans	subspecies	ATCC 29523|Kilian 2006|Klinger 1912|Nørskov-Lauritsen	taxon	
 Aggregatibacter actinomycetemcomitans serotype b str. Y4	Aggregatibacter actinomycetemcomitans	subspecies	Y4	taxon	
-Aggregatibacter actinomycetemcomitans serotype c str. CDC NCTC 9710	Aggregatibacter actinomycetemcomitans	subspecies	ATCC 33384|Kilian 2006|Klinger 1912|N√∏rskov-Lauritsen	taxon	
+Aggregatibacter actinomycetemcomitans serotype c str. CDC NCTC 9710	Aggregatibacter actinomycetemcomitans	subspecies	ATCC 33384|Kilian 2006|Klinger 1912|Nørskov-Lauritsen	taxon	
 Aggregatibacter actinomycetemcomitans serotype f str. CU1000	Aggregatibacter actinomycetemcomitans	subspecies	CU1000	taxon	
 Agrobacterium tumefaciens (strain Rv3)	Agrobacterium tumefaciens	subspecies	Rhizobium radiobacter strain Rv3|Rv3	taxon	
 Ajellomyces dermatitidis ATCC 60636	Blastomyces dermatitidis	subspecies		taxon	
@@ -776,7 +776,6 @@ Mumps virus genotype G strain Du/CRO05	Mumps virus genotype G	subspecies	CRO05|D
 Murid herpesvirus 1 Isolate G4	Murid betaherpesvirus 1	subspecies		taxon	
 Murid herpesvirus 1 Isolate K6	Murid betaherpesvirus 1	subspecies		taxon	
 Murid herpesvirus 1 Isolate N1	Murid betaherpesvirus 1	subspecies		taxon	
-Murid herpesvirus 1 Mutant Œî m4:m6+m152 MCMV	Murid betaherpesvirus 1	subspecies		taxon	
 Murid herpesvirus 1 RM461	Murid betaherpesvirus 1	subspecies	MCMV RM461|RM 461	taxon	
 Murid herpesvirus 1 delta MC96.24	Murid betaherpesvirus 1	subspecies		taxon	
 Murid herpesvirus 1 delta m152-MW99.05	Murid betaherpesvirus 1	subspecies		taxon	
@@ -804,29 +803,29 @@ Mus musculus 129 GIX+	Mus musculus 129	subspecies		taxon
 Mus musculus 129/Ola Prp null	Mus musculus PrP null	subspecies		taxon	
 Mus musculus 129/SVE GAA-/-	Mus musculus 129	subspecies	Pompe	taxon	
 Mus musculus 129/Sv	Mus musculus 129	subspecies	129Sv	taxon	
-Mus musculus 16.2beta TCR Tg	Mus musculus TCR transgenic	subspecies	9.1-2 beta chain|ICFSPSLEHPIVVSGSWD-specific TCR Tg beta chain|LACK(156-173)-specific TCR beta chain	taxon	
+Mus musculus 16.2beta TCR Tg	Mus musculus TCR transgenic	subspecies	9.1-2 beta chain|ICFSPSLEHPIVVSGSWD-specific TCR Tg beta chain|LACK(156-173)-specific TCR beta chain	taxon	http://www.informatics.jax.org/allele/MGI:4838256
 Mus musculus 17.6Œ±-8.3Œ≤ TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|KYNKANVFL-specific TCR Tg|VYLKTNVFL-specific TCR Tg	taxon	
-Mus musculus 172.10 TCR Tg	Mus musculus TCR transgenic	subspecies	MBP AC1-11|MBP Ac1-11-specific TCR Tg|Tg(TCRA)B1Jg x Tg(TCRB)C14Jg|VŒ±2.3/VŒ≤8.2 TCR Tg	taxon	
-Mus musculus 172.10 beta-chain TCR Tg	Mus musculus TCR transgenic	subspecies	MBP Ac1-11-specific TCR beta-chain Tg|Tg(TCRB)C14Jg|VŒ≤8.2 TCR Tg	taxon	
-Mus musculus 1807 TCR Tg	Mus musculus TCR transgenic	subspecies	B. dermatitis calnexin(103-115)-specific TCR Tg|Clone CW/M 5|LVVKNPAAHHAIS-specific TCR Tg	taxon	
+Mus musculus 172.10 TCR Tg	Mus musculus TCR transgenic	subspecies	MBP AC1-11|MBP Ac1-11-specific TCR Tg|Tg(TCRA)B1Jg x Tg(TCRB)C14Jg|Vα2.3/Vβ8.2 TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3055333
+Mus musculus 172.10 beta-chain TCR Tg	Mus musculus TCR transgenic	subspecies	MBP Ac1-11-specific TCR beta-chain Tg|Tg(TCRB)C14Jg|Vβ8.2 TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3055339
+Mus musculus 1807 TCR Tg	Mus musculus TCR transgenic	subspecies	B. dermatitis calnexin(103-115)-specific TCR Tg|Clone CW/M 5|LVVKNPAAHHAIS-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:5315014
 Mus musculus 1AD2 TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	Der p 1(110-131)-specific TCR Tg|RFGISNYCQIYPPNANKIREAL-specific TCR Tg	taxon	
 Mus musculus 1C6 TCR Tg	Mus musculus TCR transgenic	subspecies	MEVGWYRSPFSRVVHLYRNGK-specific TCR Tg|MOG(35-55)-specific TCR Tg	taxon	
-Mus musculus 1E4 TCR Tg	Mus musculus TCR transgenic	subspecies	1E4|1E4.C1|H/K ATPase beta subunit(253-277)-specific TCR Tg|H/KŒ≤(253‚Äì277)-specific TCR Tg|LLNVPKNMQVSIVCKILADHVTFNN-specific TCR Tg	taxon	
-Mus musculus 1H3.1 TCR Tg	Mus musculus TCR transgenic	subspecies	1H3.1|ASFEAQGALANIAVDKA-specific TCR Tg|Ealpha(52-68)-specific TCR Tg|MHC-II I-E¬†Œ±-chain(52-68)-specific TCR Tg	taxon	
+Mus musculus 1E4 TCR Tg	Mus musculus TCR transgenic	subspecies	1E4|1E4.C1|H/K ATPase beta subunit(253-277)-specific TCR Tg|H/Kβ(253–277)-specific TCR Tg|LLNVPKNMQVSIVCKILADHVTFNN-specific TCR Tg	taxon	
+Mus musculus 1H3.1 TCR Tg	Mus musculus TCR transgenic	subspecies	1H3.1|ASFEAQGALANIAVDKA-specific TCR Tg|Ealpha(52-68)-specific TCR Tg|MHC-II I-E α-chain(52-68)-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3722813
 Mus musculus 2B4 TCR Tg	Mus musculus TCR transgenic	subspecies	2B4 TCR Tg|ADLIAYLKQAT-specific TCR Tg|PCC(88-104)-specific TCR Tg	taxon	
-Mus musculus 2C TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	LSPFPFDL-specific TCR Tg|SIYRYYGL-specific TCR Tg|Tg(Tcra2C,Tcrb2C)1Dlo	taxon	
-Mus musculus 2D2 TCR Tg	Mus musculus TCR transgenic	subspecies	2D2|MOG(35-55)-specific TCR Tg|MOG(38-49)-specific TCR Tg|Tg(Tcra2D2,Tcrb2D2)1Kuch	taxon	
+Mus musculus 2C TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	LSPFPFDL-specific TCR Tg|SIYRYYGL-specific TCR Tg|Tg(Tcra2C,Tcrb2C)1Dlo	taxon	http://www.informatics.jax.org/allele/MGI:3621454
+Mus musculus 2D2 TCR Tg	Mus musculus TCR transgenic	subspecies	2D2|MOG(35-55)-specific TCR Tg|MOG(38-49)-specific TCR Tg|Tg(Tcra2D2,Tcrb2D2)1Kuch	taxon	http://www.informatics.jax.org/allele/MGI:3700794
 Mus musculus 2W-OVA	Mus musculus Uncategorized	subspecies	Act-2W-OVA	taxon	
 Mus musculus 318 TCR Tg	Mus musculus TCR transgenic	subspecies		taxon	
-Mus musculus 3A9 TCR Tg	Mus musculus C3H|Mus musculus TCR transgenic	subspecies	DGSTDYGILQINSRWW-specific TCR Tg|HEL(48-62)-specific TCR Tg|Tg(TcrHEL3A9)1Mmd	taxon	
+Mus musculus 3A9 TCR Tg	Mus musculus C3H|Mus musculus TCR transgenic	subspecies	DGSTDYGILQINSRWW-specific TCR Tg|HEL(48-62)-specific TCR Tg|Tg(TcrHEL3A9)1Mmd	taxon	http://www.informatics.jax.org/allele/MGI:2385683
 Mus musculus 3xTg-AD	Mus musculus Uncategorized	subspecies	3xTg-AD	taxon	
 Mus musculus 5/4E8 TCR Tg	Mus musculus TCR transgenic	subspecies	5/4E8|ATEGRVRVNSAYQDK-specific TCR Tg|Aggrecan(70-84)-specific TCR Tg|hPG P70-5/4E8-specific TCR Tg	taxon	
 Mus musculus 506 TCR Tg	Mus musculus TCR transgenic	subspecies	3K-specific TCR Tg|B3K506 TCR Tg|FEAQKAKANKAVD-specific TCR Tg	taxon	
 Mus musculus 508 TCR Tg	Mus musculus TCR transgenic	subspecies	3K-specific TCR Tg|B3K508 TCR Tg|FEAQKAKANKAVD-specific TCR Tg	taxon	
 Mus musculus 5B6 TCR Tg	Mus musculus TCR transgenic	subspecies	139TCR|5B6|HSLGKWLGHPDKF-speciific TCR Tg|PLP(139-151)-speciific TCR Tg	taxon	
-Mus musculus 5CC7 TCR Tg	Mus musculus TCR transgenic	subspecies	5C.C7 TCR Tg|ADLIAYLKQATK-specific TCR Tg|MCC(92-103)-specific TCR Tg	taxon	
-Mus musculus 6.5 TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	14.3.d|SFERFEIFPKE-specific TCR Tg|Tg(Tcra/Tcrb)1Vbo	taxon	
-Mus musculus 6218 TCR Tg	Mus musculus TCR transgenic	subspecies	Influenza PA(224-233)-specific TCR Tg|PAŒ± Rg	taxon	
+Mus musculus 5CC7 TCR Tg	Mus musculus TCR transgenic	subspecies	5C.C7 TCR Tg|ADLIAYLKQATK-specific TCR Tg|MCC(92-103)-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3761187
+Mus musculus 6.5 TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	14.3.d|SFERFEIFPKE-specific TCR Tg|Tg(Tcra/Tcrb)1Vbo	taxon	http://www.informatics.jax.org/allele/MGI:2680176
+Mus musculus 6218 TCR Tg	Mus musculus TCR transgenic	subspecies	Influenza PA(224-233)-specific TCR Tg|PAα Rg	taxon	
 Mus musculus 8.6 TCR Tg	Mus musculus TCR transgenic	subspecies	DENPVVHFF-specific TCR Tg|MBP(79-87)-specific TCR Tg	taxon	
 Mus musculus 8F10 TCR Tg	Mus musculus TCR transgenic	subspecies	Insulin B(12-20)-specific TCR Tg|VEALYLVCG-specific TCR Tg	taxon	
 Mus musculus A.BY	Mus musculus Uncategorized	subspecies		taxon	
@@ -838,14 +837,14 @@ Mus musculus A.TH	Mus musculus Uncategorized	subspecies	A.TH-H2t2	taxon
 Mus musculus A.TL	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus A/J	Mus musculus	subspecies	AJ	taxon	
 Mus musculus A/Sn	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus A1 TCR Tg	Mus musculus TCR transgenic	subspecies	A1 RAG1null|A1(M) TCR Tg|Dby(479-493)-specific TCR Tg|HY-A1 TCR Tg|REEALHQFRSGRKPI-specific TCR Tg	taxon	
+Mus musculus A1 TCR Tg	Mus musculus TCR transgenic	subspecies	A1 RAG1null|A1(M) TCR Tg|Dby(479-493)-specific TCR Tg|HY-A1 TCR Tg|REEALHQFRSGRKPI-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:4354497
 Mus musculus A23 TCR Tg	Mus musculus TCR transgenic	subspecies	H/K ATPase alpha|H/K ATPase alpha(630-641)-specific TCR Tg|H/K ATPase alpha(633-641)-specific TCR Tg|PITAKAIAASVG-specific TCR Tg|TXA23	taxon	
 Mus musculus A51 TCR Tg	Mus musculus TCR transgenic	subspecies	H/K ATPase alpha(889-901)-specific TCR Tg|PLLCVGLRPQWE-specific TCR Tg|TXA51	taxon	
 Mus musculus ABLE Tg TCR	Mus musculus BALB/c TCR Transgenic	subspecies	9.1-2|BALB/c ABLE TCR-Calpha0|ICFSPSLEHPIVVSGSWD-specific TCR Tg|LACK(156-173)-specific TCR	taxon	
 Mus musculus AG129	Mus musculus Uncategorized	subspecies	DEN AG129|IFN receptor null	taxon	
 Mus musculus AKR	Mus musculus Uncategorized	subspecies	AKR/J|AKR/N	taxon	
 Mus musculus AKR.M	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus AND TCR Tg	Mus musculus B10.BR	subspecies	KAERADLIAYLKQATAK-specific TCR Tg|PCC(88-104)-specific TCR Tg|Tg(TcrAND)53Hed	taxon	
+Mus musculus AND TCR Tg	Mus musculus B10.BR	subspecies	KAERADLIAYLKQATAK-specific TCR Tg|PCC(88-104)-specific TCR Tg|Tg(TcrAND)53Hed	taxon	http://www.informatics.jax.org/allele/MGI:3053044
 Mus musculus APP	Mus musculus	subspecies	APP	taxon	
 Mus musculus APP HLA-DR15 MBP85-99 Tg	Mus musculus APP|Mus musculus HLA-DR15 Tg	subspecies	MBP85-99 HLA-DR15 APP	taxon	
 Mus musculus APP Tg-SwDI	Mus musculus APP	subspecies	Dutch/Iowa mutant|SwDI	taxon	
@@ -924,12 +923,12 @@ Mus musculus B6 TCR Tg 1807	Mus musculus C57BL/6 TCR transgenic	subspecies	1807	
 Mus musculus B6 TNF alpha null	Mus musculus C57BL/6	subspecies	TNF	taxon	
 Mus musculus B6 X bm12	Mus musculus C57BL/6 Crosses	subspecies	bm12 X B6	taxon	
 Mus musculus B6(C)-H2-Ab1bm12	Mus musculus C57BL/6	subspecies	B6(C)-H2-Ab1bm12/KhEgJ|B6.C-H2bm12	taxon	
-Mus musculus B6.11 TCR Tg	Mus musculus TCR transgenic	subspecies	LGIWTYDGTKVSISPES-specific TCR Tg|T. californica AChR(146-162)-specific TCR Tg|TAChR(146-162)-specific TCR Tg|Torpedo californica AChR TCR Tg|TŒ±(146-162)-specific TCR Tg	taxon	
+Mus musculus B6.11 TCR Tg	Mus musculus TCR transgenic	subspecies	LGIWTYDGTKVSISPES-specific TCR Tg|T. californica AChR(146-162)-specific TCR Tg|TAChR(146-162)-specific TCR Tg|Torpedo californica AChR TCR Tg|Tα(146-162)-specific TCR Tg	taxon	
 Mus musculus B6.129 CD8null	Mus musculus C57BL/6	subspecies	B6.129S2-Cd4tm1Mak	taxon	
 Mus musculus B6.129P2-B2m tm1Unc/J	Mus musculus C57BL/6	subspecies		taxon	
 Mus musculus B6.129S2-Cd28tm1Mak	Mus musculus C57BL/6	subspecies	B6.129S2-Cd28tm1Mak/J	taxon	
 Mus musculus B6.129S2-Igh-6tm1Cgn	Mus musculus C57BL/6	subspecies	B6.129S2-Igh-6tm1Cgn/J|Ig-/-|IgM null|muMT	taxon	
-Mus musculus B6.2.16 TCR Tg	Mus musculus TCR transgenic	subspecies	H-Y(738-746)-specific TCR Tg|HY TCR Tg|Smcy(738-746)-specific TCR Tg|Tg(TcraH-Y,TcrbH-Y)71Vbo	taxon	
+Mus musculus B6.2.16 TCR Tg	Mus musculus TCR transgenic	subspecies	H-Y(738-746)-specific TCR Tg|HY TCR Tg|Smcy(738-746)-specific TCR Tg|Tg(TcraH-Y,TcrbH-Y)71Vbo	taxon	http://www.informatics.jax.org/allele/MGI:3044562
 Mus musculus B6.AK-H2k	Mus musculus C57BL/6	subspecies	B6.AK-H2k/FlaEgJ|B6.K|C57BL/6.AK-H2k	taxon	
 Mus musculus B6.C-H-2bm1	Mus musculus C57BL/6	subspecies	B6.C.H-2bm1	taxon	
 Mus musculus B6.C-H60/Dcr	Mus musculus C57BL/6	subspecies	H60 congenic	taxon	
@@ -974,9 +973,9 @@ Mus musculus BALB/cAnN	Mus musculus BALB/c	subspecies	AnN	taxon
 Mus musculus BALB/cByJ	Mus musculus BALB/c	subspecies		taxon	
 Mus musculus BALB/cByJ-Rb5Bnr	Mus musculus BALB/c	subspecies	BALB/cByJ-Rb5Bnr/J	taxon	
 Mus musculus BDC12-4.1 TCR Tg	Mus musculus TCR transgenic	subspecies	12-4.1|BDC12-4.1|Insulin B(9-23)-specific TCR Tg|SHLVEALYLVCGERG-specific TCR Tg	taxon	
-Mus musculus BDC12-4.1 alpha-chain TCR Tg	Mus musculus TCR transgenic	subspecies	Insulin B(9-23)-specific TCR alpha-chain Tg|SHLVEALYLVCGERG-specific TCR alpha-chain Tg|Tg(TcraBDC12-4.1)10Jos	taxon	
-Mus musculus BDC12-4.1 beta-chain TCR Tg	Mus musculus TCR transgenic	subspecies	Insulin B(9-23)-specific TCR beta-chain Tg|SHLVEALYLVCGERG-specific TCR beta-chain Tg|Tg(TcrbBDC12-4.1)82Gse	taxon	
-Mus musculus BDC2.5 TCR Tg	Mus musculus TCR transgenic	subspecies	2.5TCR|Chromogranin-A (29-42)-specific TCR Tg|DEPLTSLTPRCNTAWNRLKL-specific TCR Tg	taxon	
+Mus musculus BDC12-4.1 alpha-chain TCR Tg	Mus musculus TCR transgenic	subspecies	Insulin B(9-23)-specific TCR alpha-chain Tg|SHLVEALYLVCGERG-specific TCR alpha-chain Tg|Tg(TcraBDC12-4.1)10Jos	taxon	http://www.informatics.jax.org/allele/MGI:3687036
+Mus musculus BDC12-4.1 beta-chain TCR Tg	Mus musculus TCR transgenic	subspecies	Insulin B(9-23)-specific TCR beta-chain Tg|SHLVEALYLVCGERG-specific TCR beta-chain Tg|Tg(TcrbBDC12-4.1)82Gse	taxon	http://www.informatics.jax.org/allele/MGI:3687034
+Mus musculus BDC2.5 TCR Tg	Mus musculus TCR transgenic	subspecies	2.5TCR|Chromogranin-A (29-42)-specific TCR Tg|DEPLTSLTPRCNTAWNRLKL-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:2181203
 Mus musculus BDF1	Mus musculus Uncategorized	subspecies	BDF-1	taxon	
 Mus musculus BM3.3 TCR Tg	Mus musculus TCR transgenic	subspecies	INFDFNTI-specific TCR Tg|KCTD20(207-214)-specific TCR Tg|PBM1 alloantigen TCR|PBM1-specific TCR Tg	taxon	
 Mus musculus BP2	Mus musculus Uncategorized	subspecies		taxon	
@@ -1118,8 +1117,8 @@ Mus musculus CFW	Mus musculus Uncategorized	subspecies	Carworth Farm Webster	tax
 Mus musculus CTL-9 TCR Tg	Mus musculus TCR transgenic	subspecies	SSVWNATTAI-specific TCR Tg|WNV NS4B(215-223)-specific TCR Tg	taxon	
 Mus musculus CWB	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus Clone 19 TCR Tg	Mus musculus TCR transgenic	subspecies	ASQKRPSQRSK-specific TCR Tg|MBP Ac1-11-specific TCR Tg|T/R+	taxon	
-Mus musculus Clone 4 TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA 111-119|Influenza HA(542-550)-specific TCR Tg|Influenza PR8 HA(518-526)-specific TCR Tg|Tg(TcraCl4,TcrbCl4)1Shrm	taxon	
-Mus musculus D1C55 TCR Tg	Mus musculus TCR transgenic	subspecies	VŒ≥9-VŒ¥2 TCR Tg	taxon	
+Mus musculus Clone 4 TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA 111-119|Influenza HA(542-550)-specific TCR Tg|Influenza PR8 HA(518-526)-specific TCR Tg|Tg(TcraCl4,TcrbCl4)1Shrm	taxon	http://www.informatics.jax.org/allele/MGI:3586582
+Mus musculus D1C55 TCR Tg	Mus musculus TCR transgenic	subspecies	Vγ9-Vδ2 TCR Tg	taxon	
 Mus musculus D2.GD	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus D7 TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	CN.8|M3/LemA-specific TCR Tg|TCR Tg B6|fMIGWII-specific TCR Tg	taxon	
 Mus musculus DBA	Mus musculus	subspecies	Dilute Brown Aguti	taxon	
@@ -1129,12 +1128,12 @@ Mus musculus DBA/1 X B10.Q	Mus musculus B10 Crosses|Mus musculus DBA Crosses	sub
 Mus musculus DBA/2	Mus musculus DBA	subspecies	DBA2	taxon	
 Mus musculus DBA/2 X NCr	Mus musculus DBA Crosses	subspecies	DBA/2 X NCr|NCr X DBA/2	taxon	
 Mus musculus DDY	Mus musculus Uncategorized	subspecies	DDY|Deutschland, Denken, and Yoken	taxon	
-Mus musculus DO11.10 TCR Tg	Mus musculus TCR transgenic	subspecies	D0-11.10|OVA(323-339)-specific TCR Tg|Tg(DO11.10)10Dlo	taxon	
+Mus musculus DO11.10 TCR Tg	Mus musculus TCR transgenic	subspecies	D0-11.10|OVA(323-339)-specific TCR Tg|Tg(DO11.10)10Dlo	taxon	http://www.informatics.jax.org/allele/MGI:2664398
 Mus musculus DQB1*0602 Tg	Mus musculus HLA-DQ Tg	subspecies	DQB1*0602	taxon	
 Mus musculus DRB1*1502 Tg	Mus musculus HLA-DR15 Tg	subspecies	DRB1*1502	taxon	
 Mus musculus DbGagL TCR Tg	Mus musculus TCR transgenic	subspecies	CCLCLTVFL-specific TCR Tg|FMuLVgag-specific TCR Tg|FV-TCR Tg|GagL(85-93)-specific TCR Tg	taxon	
 Mus musculus F1sc H-2b scid chimera	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus F5 TCR Tg	Mus musculus TCR transgenic	subspecies	ASNENMDAM-specific TCR Tg|NP(366-374)-specific TCR Tg|Tg(CD2-TcraF5,CD2-TcrbF5)1Kio	taxon	
+Mus musculus F5 TCR Tg	Mus musculus TCR transgenic	subspecies	ASNENMDAM-specific TCR Tg|NP(366-374)-specific TCR Tg|Tg(CD2-TcraF5,CD2-TcrbF5)1Kio	taxon	http://www.informatics.jax.org/allele/MGI:3706698
 Mus musculus FLU HA 127-137 TCR Tg	Mus musculus TCR transgenic	subspecies	TS1	taxon	
 Mus musculus FLU HA 127-137 TCR Tg HA Tg	Mus musculus TCR transgenic	subspecies	TS1 X HACII	taxon	
 Mus musculus FVB	Mus musculus	subspecies		taxon	
@@ -1162,7 +1161,7 @@ Mus musculus H2A+E+	Mus musculus Uncategorized	subspecies	C57BL/10 Ealphak	taxon
 Mus musculus HA 518-526 TCR Tg	Mus musculus TCR transgenic	subspecies	HA 518-526	taxon	
 Mus musculus HBV(adr) transgenic BALB/c	Mus musculus BALB/c	subspecies		taxon	
 Mus musculus HEL expression Tg	Mus musculus Uncategorized	subspecies	Hen egg lysozyme expressig	taxon	
-Mus musculus HH8 TCR Tg	Mus musculus TCR transgenic	subspecies	HH8|QLQPFPQPELPYPQPQS-specicif TCR Tg|Œ±-Gliadin(57-73)Q65E-specific TCR Tg	taxon	
+Mus musculus HH8 TCR Tg	Mus musculus TCR transgenic	subspecies	HH8|QLQPFPQPELPYPQPQS-specicif TCR Tg|α-Gliadin(57-73)Q65E-specific TCR Tg	taxon	
 Mus musculus HLA Transgenic	Mus musculus	subspecies	HLA Transgenic	taxon	
 Mus musculus HLA-A Transgenic	Mus musculus HLA Transgenic	subspecies	HLA-A	taxon	
 Mus musculus HLA-A*01/Kb Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A*01|HLA-A*01/Kb Tg	taxon	
@@ -1249,9 +1248,9 @@ Mus musculus HLA-DRB1*1501 Tg	Mus musculus HLA-DR Tg	subspecies		taxon
 Mus musculus HLA-DRB1*1501 x DQB1*0602	Mus musculus HLA-DQ Tg|Mus musculus HLA-DRB1*1501 Tg	subspecies	DQB1*0602 x DRB1*1501|DRB1*1501 x DQB1*0602	taxon	
 Mus musculus HLA-DRB5*0101 MBP null Tg	Mus musculus HLA-DR Tg	subspecies		taxon	
 Mus musculus HLA-DRB5*0101 Tg	Mus musculus HLA-DR Tg	subspecies		taxon	
-Mus musculus HNT TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	BALB/c Thy 1.2|CD4/HNT|HNTNGVTAACSHE-specific TCR Tg|Influenza PR8 HA(126-138)-specific TCR Tg|T2.5-5|Tg(Tcra,Tcrb)1Mcd	taxon	
+Mus musculus HNT TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	BALB/c Thy 1.2|CD4/HNT|HNTNGVTAACSHE-specific TCR Tg|Influenza PR8 HA(126-138)-specific TCR Tg|T2.5-5|Tg(Tcra,Tcrb)1Mcd	taxon	http://www.informatics.jax.org/allele/MGI:3581980
 Mus musculus HPV 16 E7 Tg	Mus musculus Uncategorized	subspecies	HPV 16 E7	taxon	
-Mus musculus HY-A1 TCR beta chain Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	B6.2.16 beta chain Tg|Male antigen H-Y-specific TCR Tg|Vbeta8.2 TCR Tg B6|Vbeta8.2+ TCR Tg	taxon	
+Mus musculus HY-A1 TCR beta chain Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	B6.2.16 beta chain Tg|Male antigen H-Y-specific TCR Tg|Vbeta8.2 TCR Tg B6|Vbeta8.2+ TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3056727
 Mus musculus HuMAb (Medarex)	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus ICOS null	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus ICR	Mus musculus Uncategorized	subspecies	ICR	taxon	
@@ -1265,7 +1264,7 @@ Mus musculus Influenza A HA TCR Tg	Mus musculus TCR transgenic	subspecies	HA TCR
 Mus musculus InsHA	Mus musculus Uncategorized	subspecies	PR8 HA expressing diabetes model	taxon	
 Mus musculus J15 TCR Tg	Mus musculus TCR transgenic	subspecies	H60(39-46)-specific TCR Tg|LTFNYRNL-specific TCR Tg|clone #15	taxon	
 Mus musculus K14E7 X A2.1	Mus musculus HLA-A2 Tg	subspecies	A2.1 X K14E7	taxon	
-Mus musculus KRN TCR Tg	Mus musculus TCR transgenic	subspecies	Bovine RNase(41-61)-specific TCR Tg|Bovine RNase(42-56)-specific TCR Tg|RNAse|Tg(TcraR28,TcrbR28)KRNDim	taxon	
+Mus musculus KRN TCR Tg	Mus musculus TCR transgenic	subspecies	Bovine RNase(41-61)-specific TCR Tg|Bovine RNase(42-56)-specific TCR Tg|RNAse|Tg(TcraR28,TcrbR28)KRNDim	taxon	http://www.informatics.jax.org/allele/MGI:3767242
 Mus musculus Kb null	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus Kunming	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus Kymouse	Mus musculus Uncategorized	subspecies	Kymab mouse	taxon	
@@ -1287,10 +1286,10 @@ Mus musculus MRL	Mus musculus Uncategorized	subspecies		taxon
 Mus musculus MRL X B10.BR	Mus musculus B10 Crosses	subspecies		taxon	
 Mus musculus MRL/MpJ	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus MS2-3C8 TCR Tg	Mus musculus HLA-DRB1*0401 Tg|Mus musculus TCR transgenic	subspecies	LSRFSWGAEGQRPGFGYGG-specific TCR Tg|MBP(111-129)-specific TCR Tg|MS2-3C8	taxon	
-Mus musculus Marilyn TCR Tg	Mus musculus TCR transgenic	subspecies	DDX3Y(605-619)-specific TCR Tg|Dby(608-622)-specific TCR Tg|NAGFNSNRANSSRSS-specific TCR Tg	taxon	
+Mus musculus Marilyn TCR Tg	Mus musculus TCR transgenic	subspecies	DDX3Y(605-619)-specific TCR Tg|Dby(608-622)-specific TCR Tg|NAGFNSNRANSSRSS-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3045612
 Mus musculus Matahari TCR Tg	Mus musculus TCR transgenic	subspecies	CLT-10 TCR Tg|H-Ypb-specific TCR Tg|HYUtyp-specific TCR Tg|Uty(246-254)-specific TCR Tg|WMHHNMDLI-specific TCR Tg	taxon	
 Mus musculus N-acetylgalactosaminyltransferase null	Mus musculus Uncategorized	subspecies	GM1/GD1a null	taxon	
-Mus musculus N15 TCR Tg	Mus musculus TCR transgenic	subspecies	N15tg/RAG-2null|Tg(TcraN15,TcrbN15)L2Elre|VSV NP (52-59)-specific TCR Tg|VSV8-specific TCR Tg	taxon	
+Mus musculus N15 TCR Tg	Mus musculus TCR transgenic	subspecies	N15tg/RAG-2null|Tg(TcraN15,TcrbN15)L2Elre|VSV NP (52-59)-specific TCR Tg|VSV8-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3777745
 Mus musculus ND4 Swiss Webster	Mus musculus Swiss	subspecies		taxon	
 Mus musculus NHI Swiss	Mus musculus Swiss	subspecies	NIH-Swiss	taxon	
 Mus musculus NMRI	Mus musculus Uncategorized	subspecies	NMR1	taxon	
@@ -1320,7 +1319,7 @@ Mus musculus NOD/Lt	Mus musculus NOD	subspecies	NOD/LtJ|NOD/ShiLtJ	taxon
 Mus musculus NOD/Lt Ealphak Tg	Mus musculus NOD	subspecies		taxon	
 Mus musculus NODasp	Mus musculus NOD	subspecies	NOD-Asp	taxon	
 Mus musculus NOR	Mus musculus Uncategorized	subspecies	NOR	taxon	
-Mus musculus NY8.3 TCR Tg	Mus musculus NOD TCR Transgenic	subspecies	17.4Œ±-8.3Œ≤ TCR Tg|IGRP(206-214)-specific TCR Tg|KYNKANVFL-specific TCR Tg|VYLKTNVFL-specific TCR Tg	taxon	
+Mus musculus NY8.3 TCR Tg	Mus musculus NOD TCR Transgenic	subspecies	17.4α-8.3β TCR Tg|IGRP(206-214)-specific TCR Tg|KYNKANVFL-specific TCR Tg|VYLKTNVFL-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3584121
 Mus musculus NZB	Mus musculus Uncategorized	subspecies	NZB/BlNJ|NZB/Icr|New Zealand black	taxon	
 Mus musculus NZB X NZW	Mus musculus Uncategorized	subspecies	NZW X NZB	taxon	
 Mus musculus NZW	Mus musculus Uncategorized	subspecies	NZW/LacJ|New Zealand white	taxon	
@@ -1328,21 +1327,21 @@ Mus musculus NZW X BALB/c	Mus musculus BALB/c crosses	subspecies	BALB/c X NZW	ta
 Mus musculus NZW X BXSB	Mus musculus Uncategorized	subspecies	BXSB X NZW	taxon	
 Mus musculus Nude	Mus musculus Uncategorized	subspecies	nu/nu	taxon	
 Mus musculus OF1	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus OT-1 TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	OT-1 TCR Tg B6|OT-1 TCR Tg C57BL/6|OVA(257-264)-specific TCR Tg|SIINFEKL-specific TCR Tg|Tg(TcraTcrb)1100Mjb	taxon	
+Mus musculus OT-1 TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	OT-1 TCR Tg B6|OT-1 TCR Tg C57BL/6|OVA(257-264)-specific TCR Tg|SIINFEKL-specific TCR Tg|Tg(TcraTcrb)1100Mjb	taxon	http://www.informatics.jax.org/allele/MGI:3054907
 Mus musculus OT-3 TCR Tg	Mus musculus TCR transgenic	subspecies	OT-III|OVA(257-264)-specific TCR Tg|SIINFEKL-specific TCR Tg	taxon	
-Mus musculus OT-II TCR Tg	Mus musculus TCR transgenic	subspecies	DO11.10|OT-2|OVA TCR Tg|OVA(323-339)-specific TCR Tg|Tg(TcraTcrb)425Cbn/J	taxon	
+Mus musculus OT-II TCR Tg	Mus musculus TCR transgenic	subspecies	DO11.10|OT-2|OVA TCR Tg|OVA(323-339)-specific TCR Tg|Tg(TcraTcrb)425Cbn/J	taxon	http://www.informatics.jax.org/allele/MGI:3046083
 Mus musculus OVA23-3 TCR Tg	Mus musculus TCR transgenic	subspecies	Clone 7-3-7|ISQAVHAAHAEINEAGR-specific TCR Tg|OVA(323-339)-specific TCR Tg|OVA23-3	taxon	
-Mus musculus Ob.1A12 TCR Tg	Mus musculus HLA-DRB1*1501 Tg|Mus musculus TCR transgenic	subspecies	DR15 Tg MBP-85-99 TCR Tg|DR2 Tg MBP-85-99 TCR Tg|DR2b|HLA-DRB1*1501/Ob.1A12 TCR Tg|Ob TCR|Ob.1A12	taxon	
+Mus musculus Ob.1A12 TCR Tg	Mus musculus HLA-DRB1*1501 Tg|Mus musculus TCR transgenic	subspecies	DR15 Tg MBP-85-99 TCR Tg|DR2 Tg MBP-85-99 TCR Tg|DR2b|HLA-DRB1*1501/Ob.1A12 TCR Tg|Ob TCR|Ob.1A12	taxon	http://www.informatics.jax.org/allele/MGI:5429700
 Mus musculus Outbred	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus P/J	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus P14 TCR Tg	Mus musculus C57BL/6 TCR transgenic|Mus musculus TCR transgenic	subspecies	(C57BL/6 X DBA/2) P14 TCR Tg|LCMV GP33-specific TCR Tg|P14 TCR Tg B6.D2|Tg(TcrLCMV)318Sdz|Tg(TcrLCMV)327Sdz	taxon	
-Mus musculus P25 TCR Tg	Mus musculus TCR transgenic	subspecies	BP-1|FQDAYNAAGGHNAVF-specific TCR Tg|M. tuberculosis Ag85B(240-254)-specific TCR Tg	taxon	
+Mus musculus P14 TCR Tg	Mus musculus C57BL/6 TCR transgenic|Mus musculus TCR transgenic	subspecies	(C57BL/6 X DBA/2) P14 TCR Tg|LCMV GP33-specific TCR Tg|P14 TCR Tg B6.D2|Tg(TcrLCMV)318Sdz|Tg(TcrLCMV)327Sdz	taxon	http://www.informatics.jax.org/allele/MGI:3801008
+Mus musculus P25 TCR Tg	Mus musculus TCR transgenic	subspecies	BP-1|FQDAYNAAGGHNAVF-specific TCR Tg|M. tuberculosis Ag85B(240-254)-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:4454446
 Mus musculus PBL-SCID-bo	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus PL	Mus musculus	subspecies	PL	taxon	
 Mus musculus PL/J X B10.PL	Mus musculus B10 Crosses|Mus musculus PL	subspecies	PB10.PL X PL/J	taxon	
 Mus musculus PL/J X SJL	Mus musculus PL|Mus musculus SJL	subspecies	SJL X PL/J	taxon	
 Mus musculus PLP TCR Tg	Mus musculus TCR transgenic	subspecies	PLP	taxon	
-Mus musculus POT TCR Tg	Mus musculus TCR transgenic	subspecies	2E7|Myelin protein 0 (1-25)-specific TCR Tg|P0(1-25)-specific TCR Tg|POT	taxon	
+Mus musculus POT TCR Tg	Mus musculus TCR transgenic	subspecies	2E7|Myelin protein 0 (1-25)-specific TCR Tg|P0(1-25)-specific TCR Tg|POT	taxon	http://www.informatics.jax.org/allele/MGI:4453841
 Mus musculus Porton	Mus musculus Uncategorized	subspecies	Porton	taxon	
 Mus musculus PrP null	Mus musculus	subspecies		taxon	
 Mus musculus Pten fl/fl GBC	Mus musculus Uncategorized	subspecies	Pten flox/flox GBC	taxon	
@@ -1368,8 +1367,8 @@ Mus musculus SJL X B10.PL	Mus musculus B10 Crosses|Mus musculus SJL	subspecies	B
 Mus musculus SJL X BALB/c	Mus musculus BALB/c crosses|Mus musculus SJL	subspecies	BALB/c X SJL	taxon	
 Mus musculus SJL X SWR	Mus musculus SJL	subspecies	SWR X SJL	taxon	
 Mus musculus SKH-1	Mus musculus Uncategorized	subspecies	SKH-1 hairless|SKH1 Hrhr	taxon	
-Mus musculus SM1 TCR Tg	Mus musculus TCR transgenic	subspecies	FNSAITNLG-specific TCR Tg|SM1|Salmonella typhimurium FliC(431-439)-specific TCR Tg|Tg(TcraCN.B1,TcrbCN.B1)SM1Jen	taxon	
-Mus musculus SMARTA TCR Tg	Mus musculus TCR transgenic	subspecies	LCMV Epitope P1-specific TCR Tg|LCMV GP(61-80)-specific TCR Tg|Tg(TcrLCMV)Aox	taxon	
+Mus musculus SM1 TCR Tg	Mus musculus TCR transgenic	subspecies	FNSAITNLG-specific TCR Tg|SM1|Salmonella typhimurium FliC(431-439)-specific TCR Tg|Tg(TcraCN.B1,TcrbCN.B1)SM1Jen	taxon	http://www.informatics.jax.org/allele/MGI:4821793
+Mus musculus SMARTA TCR Tg	Mus musculus TCR transgenic	subspecies	LCMV Epitope P1-specific TCR Tg|LCMV GP(61-80)-specific TCR Tg|Tg(TcrLCMV)Aox	taxon	http://www.informatics.jax.org/allele/MGI:3789674
 Mus musculus SNF1	Mus musculus Uncategorized	subspecies	NZB x SWR|SWR x NZB	taxon	
 Mus musculus STU	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus SV11	Mus musculus Uncategorized	subspecies	SV11	taxon	
@@ -1382,10 +1381,10 @@ Mus musculus TBR-3	Mus musculus Uncategorized	subspecies	TBR3	taxon
 Mus musculus TCR Tg for VSV NP	Mus musculus TCR transgenic	subspecies	N30.7	taxon	
 Mus musculus TCR transgenic	Mus musculus	subspecies	TCR transgenic	taxon	
 Mus musculus TCR-I TCR Tg	Mus musculus TCR transgenic	subspecies	SAINNYAQKL-specific TCR Tg|SV40 LT(206-215)-specific TCR Tg|TCR-I|Y-1	taxon	
-Mus musculus TCR1640 Tg	Mus musculus TCR transgenic	subspecies	DEGGYTCFFRDHSYQ-specific TCR Tg|MOG 92-106|MOG(92-106)-specific TCR Tg|Tg(H2-Kb-Tcra,-Tcrb)1640Kurs	taxon	
+Mus musculus TCR1640 Tg	Mus musculus TCR transgenic	subspecies	DEGGYTCFFRDHSYQ-specific TCR Tg|MOG 92-106|MOG(92-106)-specific TCR Tg|Tg(H2-Kb-Tcra,-Tcrb)1640Kurs	taxon	http://www.informatics.jax.org/allele/MGI:5644514
 Mus musculus TCR3 Rg	Mus musculus TCR transgenic	subspecies	EsxH(4-11)-specific TCR Rg|IMYNYPAM-specific TCR Rg|Rv0288(4-11)-specific TCR Rg|TB10.4(4-11)-specific TCR Rg	taxon	
-Mus musculus TCR34 TCR Tg	Mus musculus TCR transgenic	subspecies	EQEGPEYWEEQTQRA-specific TCR Tg|IKB3/4|QEGPEYWERETQKAK-specific TCR Tg	taxon	
-Mus musculus TCR75 TCR Tg	Mus musculus TCR transgenic	subspecies	EQEGPEYWEEQTQRA-specific TCR Tg|IKB7/5|QEGPEYWERETQKAK-specific TCR Tg	taxon	
+Mus musculus TCR34 TCR Tg	Mus musculus TCR transgenic	subspecies	EQEGPEYWEEQTQRA-specific TCR Tg|IKB3/4|QEGPEYWERETQKAK-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:4417821
+Mus musculus TCR75 TCR Tg	Mus musculus TCR transgenic	subspecies	EQEGPEYWEEQTQRA-specific TCR Tg|IKB7/5|QEGPEYWERETQKAK-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:4417822
 Mus musculus TGF-beta1	Mus musculus Uncategorized	subspecies	TGF-beta1	taxon	
 Mus musculus TL3A6/HLA-DR2a Tg RAG-1 null	Mus musculus HLA-DR2 Tg	subspecies		taxon	
 Mus musculus TO	Mus musculus Uncategorized	subspecies		taxon	
@@ -1395,14 +1394,14 @@ Mus musculus TRBV13-2 TCR Tg	Mus musculus TCR transgenic	subspecies	RSV M2(82-90
 Mus musculus TSC	Mus musculus Uncategorized	subspecies	TSC	taxon	
 Mus musculus Tapasin null	Mus musculus Uncategorized	subspecies	Tpn null	taxon	
 Mus musculus Tg AI4-NOD.Rag1-/-	Mus musculus NOD	subspecies	Tg AI4-NOD.Rag1-/-	taxon	
-Mus musculus Tg4 TCR Tg	Mus musculus TCR transgenic	subspecies	MBP Ac1-11-specific TCR Tg|MBP Ac1-9-specific TCR Tg|Tg(CD2-TcraAc1-9,-TcrbAc1-9)4Kio|Tg4	taxon	
+Mus musculus Tg4 TCR Tg	Mus musculus TCR transgenic	subspecies	MBP Ac1-11-specific TCR Tg|MBP Ac1-9-specific TCR Tg|Tg(CD2-TcraAc1-9,-TcrbAc1-9)4Kio|Tg4	taxon	http://www.informatics.jax.org/allele/MGI:4354587
 Mus musculus TgBRI-Abeta40	Mus musculus Uncategorized	subspecies	Abeta40	taxon	
 Mus musculus TgBRI-Abeta42	Mus musculus Uncategorized	subspecies	Abeta42	taxon	
 Mus musculus Thy1.1+Bg1	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus Uncategorized	Mus musculus	subspecies	Uncategorized	taxon	
 Mus musculus V(alpha)19i TCR Transgenic	Mus musculus TCR transgenic	subspecies	TRAV1/TRAJ33 TCR Transgenic|V(alpha)19i	taxon	
 Mus musculus VM X DBA/2	Mus musculus DBA Crosses	subspecies		taxon	
-Mus musculus Va14i TCR Tg	Mus musculus TCR transgenic	subspecies	NKT Invariant Valpha14 TCR Tg|Tg(Cd4-TcraDN32D3)1Aben|Va14i|Valpha14-Jalpha18 NKT TCR Tg	taxon	
+Mus musculus Va14i TCR Tg	Mus musculus TCR transgenic	subspecies	NKT Invariant Valpha14 TCR Tg|Tg(Cd4-TcraDN32D3)1Aben|Va14i|Valpha14-Jalpha18 NKT TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3505746
 Mus musculus Xenomouse	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus YA26 TCR Tg	Mus musculus TCR transgenic	subspecies	CSP|PyCSP (280-288)-specific TCR Tg|SYVPSAEQI-specific TCR Tg|circumsporozoite	taxon	
 Mus musculus alpha-galactosyl transferase null	Mus musculus Uncategorized	subspecies	GGTA1 null|GT null|a1,3 galactosyltransferase null	taxon	
@@ -1411,15 +1410,15 @@ Mus musculus alphaGal IgM H Tg	Mus musculus Uncategorized	subspecies	aGal antibo
 Mus musculus beta2m null	Mus musculus Uncategorized	subspecies	b2m|beta2 microglobulin null	taxon	
 Mus musculus class II null	Mus musculus Uncategorized	subspecies		taxon	
 Mus musculus duffy Fy null	Mus musculus Uncategorized	subspecies		taxon	
-Mus musculus gBT-I TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	HSV-1 gB(498-505)-specific TCR Tg|SSIEFARL-specific TCR Tg|Tg(TcraHsv2.3,TcrbHsv2.3)L118-1Cbn	taxon	
-Mus musculus gp150 TCR	Mus musculus TCR transgenic	subspecies	4211|LSNNNPTTIMRPPVAQN-specific TCR Tg|Œ≥-herpesvirus-68 gp150(67-83)-specific TCR Tg	taxon	
+Mus musculus gBT-I TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	HSV-1 gB(498-505)-specific TCR Tg|SSIEFARL-specific TCR Tg|Tg(TcraHsv2.3,TcrbHsv2.3)L118-1Cbn	taxon	http://www.informatics.jax.org/allele/MGI:3722258
+Mus musculus gp150 TCR	Mus musculus TCR transgenic	subspecies	4211|LSNNNPTTIMRPPVAQN-specific TCR Tg|γ-herpesvirus-68 gp150(67-83)-specific TCR Tg	taxon	
 Mus musculus hCD4.DR3-DQ2.MHCII	Mus musculus HLA-DQ Tg|Mus musculus HLA-DR3 Tg	subspecies	hCD4.DR3-DQ2.MHCII	taxon	
 Mus musculus hTNF Tg	Mus musculus Uncategorized	subspecies	Tg197, TNF	taxon	
 Mus musculus human IgE M1' Tg	Mus musculus Uncategorized	subspecies	IgE	taxon	
 Mus musculus human duffy Fyb protein Tg	Mus musculus Uncategorized	subspecies	duffy Fyb	taxon	
 Mus musculus insulin 2 null	Mus musculus Uncategorized	subspecies	insulin KO	taxon	
 Mus musculus mB29b TCR Tg	Mus musculus TCR transgenic	subspecies	HSP(169-183)-specific TCR Tg|Heat shock protein A (169-183)-specific TCR Tg|Mycobacterial HSP70 B29-specific TCR Tg|VLRIINEPTAAAIAY-specific TCR Tg	taxon	
-Mus musculus pmel-1 TCR Tg	Mus musculus TCR transgenic	subspecies	KVPRNQDWL-specific TCR Tg|Tg(TcraTcrb)8Rest|gp100|gp100(25-33)-specific TCR Tg|pmel-1	taxon	
+Mus musculus pmel-1 TCR Tg	Mus musculus TCR transgenic	subspecies	KVPRNQDWL-specific TCR Tg|Tg(TcraTcrb)8Rest|gp100|gp100(25-33)-specific TCR Tg|pmel-1	taxon	http://www.informatics.jax.org/allele/MGI:3051150
 Mus musculus qCII24 TCR Tg	Mus musculus TCR transgenic	subspecies	ATGPLGPKGQTGEPGIAGFKGEQGPK-specific TCR Tg|CII(245-270)-specific TCR Tg|Collagen II(245-270)-specific TCR Tg	taxon	
 Mus musculus qCII85.33 TCR Tg	Mus musculus TCR transgenic	subspecies	CII(260-270)-specific TCR Tg|Collagen II|Collagen II (260-270)-specific TCR Tg|IAGFKGEQGPK-specific TCR Tg	taxon	
 Mus musculus rho-Beta-gal	Mus musculus Uncategorized	subspecies	E. coli Beta galactosidase expressing	taxon	
@@ -1917,7 +1916,7 @@ Streptococcus pneumoniae type 11A	Streptococcus pneumoniae	subspecies	American t
 Streptococcus pneumoniae type 11B	Streptococcus pneumoniae	subspecies	American type 76	taxon	
 Streptococcus pneumoniae type 11C	Streptococcus pneumoniae	subspecies	American type 53	taxon	
 Streptococcus pneumoniae type 11D	Streptococcus pneumoniae	subspecies		taxon	
-Streptococcus pneumoniae type 11E	Streptococcus pneumoniae	subspecies	Type 11AŒ≤	taxon	
+Streptococcus pneumoniae type 11E	Streptococcus pneumoniae	subspecies	Type 11Aβ	taxon	
 Streptococcus pneumoniae type 11F	Streptococcus pneumoniae	subspecies	American type 11	taxon	
 Streptococcus pneumoniae type 14	Streptococcus pneumoniae	subspecies		taxon	
 Streptococcus pneumoniae type 18C	Streptococcus pneumoniae	subspecies		taxon	
@@ -2080,19 +2079,19 @@ ZIKV/H. sapiens/Senegal/41519/1982	Zika virus	subspecies	Dakar 41519	taxon
 ZIKV/H. sapiens/Senegal/HD78788/1991	Zika virus	subspecies	HD78788	taxon	
 ZIKV/H. sapiens/Uganda/MR-766/1947	Zika virus	subspecies	MR-766	taxon	
 mus musculus VelocImmune	Mus musculus Antibody Transgenic	subspecies	VelocImmune	taxon	
-Foot-and-mouth disease virus - type A  (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon	
-Foot-and-mouth disease virus - type A  (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	strain A32 Venezuela|Venezuela/70|A32/VEN/1/70	taxon	
+Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon	
+Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	strain A32 Venezuela|Venezuela/70|A32/VEN/1/70	taxon	
 Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV	Murid betaherpesvirus 1	subspecies		taxon	
 Mus musculus 17.6α-8.3β TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|VYLKTNVFL-specific TCR Tg|KYNKANVFL-specific TCR Tg	taxon	
-Mus musculus B10.BR-SCID  bone marrow chimera	Mus musculus B10.BR	subspecies		taxon	
-Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu  HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg| HA(110-120) Tg	taxon	
+Mus musculus B10.BR-SCID bone marrow chimera	Mus musculus B10.BR	subspecies		taxon	
+Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg| HA(110-120) Tg	taxon	
 Mus musculus µMT	Mus musculus Uncategorized	subspecies	mMt|uMt|μMT|muMt|µMt	taxon	
-Neisseria meningitidis serogroup B  H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon	
-Simian immunodeficiency virus - mac  - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon	
-Simian immunodeficiency virus - mac  - mac 32H	Simian immunodeficiency virus - mac	subspecies		taxon	
-Simian immunodeficiency virus - mac  - mac BK28	Simian immunodeficiency virus - mac	subspecies		taxon	
-Simian immunodeficiency virus - mac  - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon	
-Simian immunodeficiency virus - sm  - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon	
-Simian immunodeficiency virus - sm  - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon	
-Tick-borne encephalitis virus (WESTERN SUBTYPE)  - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon	
-Trypanosoma cruzi  strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon	
+Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon	
+Simian immunodeficiency virus - mac - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon	
+Simian immunodeficiency virus - mac - mac 32H	Simian immunodeficiency virus - mac	subspecies		taxon	
+Simian immunodeficiency virus - mac - mac BK28	Simian immunodeficiency virus - mac	subspecies		taxon	
+Simian immunodeficiency virus - mac - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon	
+Simian immunodeficiency virus - sm - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon	
+Simian immunodeficiency virus - sm - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon	
+Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon	
+Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon	

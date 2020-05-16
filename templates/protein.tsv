@@ -1,5 +1,5 @@
 Label	Parent	Alternative Term	IEDB Term	Domain	In Taxon
-LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE domain	SC 'in taxon' only %
+LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE domain	SC 'in taxon' some %
 1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase beta-2 (Homo sapiens)	protein	PLC-beta-2|phospholipase C-beta-2	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase beta-2	protein	Homo sapiens
 10 kDa chaperonin (Mycobacterium leprae)	protein	GroES protein|Protein Cpn10	10 kDa chaperonin	protein	Mycobacterium leprae
 10 kDa chaperonin (Mycobacterium tuberculosis)	protein	10 kDa antigen|BCG-A heat shock protein|GroES protein|Protein Cpn10	10 kDa chaperonin	protein	Mycobacterium tuberculosis

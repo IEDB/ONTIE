@@ -357,7 +357,7 @@ ONTIE:0000354	Japanese encephalitis virus JaOH0566	owl:Class
 ONTIE:0000355	Japanese encephalitis virus JaGAr-01	owl:Class
 ONTIE:0000356	West Nile virus 3000.0259	owl:Class
 ONTIE:0000357	West Nile virus E101	owl:Class
-ONTIE:0000358	Tick-borne encephalitis virus (WESTERN SUBTYPE)  - Neudoerfl	owl:Class
+ONTIE:0000358	Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	owl:Class
 ONTIE:0000359	Plasmodium yoelii killicki 194ZZ	owl:Class
 ONTIE:0000360	Classical swine fever virus Shimen	owl:Class
 ONTIE:0000361	Classical swine fever virus Thiverval	owl:Class
@@ -409,12 +409,12 @@ ONTIE:0000406	Lymphocytic choriomeningitis virus (strain Armstrong) (clone 5)	ow
 ONTIE:0000407	Equine infectious anemia virus D9	owl:Class
 ONTIE:0000408	Equine infectious anemia virus PV	owl:Class
 ONTIE:0000409	Human immunodeficiency virus 1 IIIB	owl:Class
-ONTIE:0000410	Simian immunodeficiency virus - mac  - mac 239	owl:Class
-ONTIE:0000411	Simian immunodeficiency virus - mac  - mac 32H	owl:Class
-ONTIE:0000412	Simian immunodeficiency virus - mac  - mac BK28	owl:Class
-ONTIE:0000413	Simian immunodeficiency virus - mac  - mac F965	owl:Class
-ONTIE:0000414	Simian immunodeficiency virus - sm  - sm E543	owl:Class
-ONTIE:0000415	Simian immunodeficiency virus - sm  - sm PT573	owl:Class
+ONTIE:0000410	Simian immunodeficiency virus - mac - mac 239	owl:Class
+ONTIE:0000411	Simian immunodeficiency virus - mac - mac 32H	owl:Class
+ONTIE:0000412	Simian immunodeficiency virus - mac - mac BK28	owl:Class
+ONTIE:0000413	Simian immunodeficiency virus - mac - mac F965	owl:Class
+ONTIE:0000414	Simian immunodeficiency virus - sm - sm E543	owl:Class
+ONTIE:0000415	Simian immunodeficiency virus - sm - sm PT573	owl:Class
 ONTIE:0000416	Rabbit hemorrhagic disease virus Olot/89	owl:Class
 ONTIE:0000417	Human coxsackievirus B3 variant H3	owl:Class
 ONTIE:0000418	Human coxsackievirus B3 variant H3-49	owl:Class
@@ -577,7 +577,7 @@ ONTIE:0000574	Cavia porcellus Duncan-Hartley	owl:Class
 ONTIE:0000575	Cavia porcellus Hartley	owl:Class
 ONTIE:0000576	Cavia porcellus Ssc:AL	owl:Class
 ONTIE:0000577	Mus musculus (BALB/c x B10.G)F1-B10.G bone marrow chimera	owl:Class
-ONTIE:0000578	Mus musculus B10.BR-SCID  bone marrow chimera	owl:Class
+ONTIE:0000578	Mus musculus B10.BR-SCID bone marrow chimera	owl:Class
 ONTIE:0000579	Mus musculus F1sc H-2b scid chimera	owl:Class
 ONTIE:0000580	Mus musculus CB6F1 H-2d chimeric scid	owl:Class
 ONTIE:0000581	Borrelia burgdorferi CA12	owl:Class
@@ -743,7 +743,7 @@ ONTIE:0000740	Foot-and-mouth disease virus C1 CS35	owl:Class
 ONTIE:0000741	Foot-and-mouth disease virus C1 Brescia It/64	owl:Class
 ONTIE:0000742	H3N1 subtype Influenza A virus (A/Hong Kong/68HA-A/Puerto Rico/8/34NA)	owl:Class
 ONTIE:0000743	Swine vesicular disease virus NET/1/92	owl:Class
-ONTIE:0000744	Neisseria meningitidis serogroup B  H44/76	owl:Class
+ONTIE:0000744	Neisseria meningitidis serogroup B H44/76	owl:Class
 ONTIE:0000745	Porcine transmissible gastroenteritis coronavirus strain Purdue Isolate PUR46-MAD	owl:Class
 ONTIE:0000746	Chlamydia trachomatis Serovar F	owl:Class
 ONTIE:0000747	Chlamydia trachomatis Serovar F strain NI1	owl:Class
@@ -876,8 +876,8 @@ ONTIE:0000873	Chlamydia trachomatis Serovar J	owl:Class
 ONTIE:0000874	Swine vesicular disease virus Italy/92	owl:Class
 ONTIE:0000875	Borrelia burgdorferi CA287	owl:Class
 ONTIE:0000876	Foot-and-mouth disease virus (strain O1) (O1/Switzerland/65)	owl:Class
-ONTIE:0000877	Foot-and-mouth disease virus - type A  (strain A27 Cundinamarca Colombia)	owl:Class
-ONTIE:0000878	Foot-and-mouth disease virus - type A  (strain A32 Venezuela)	owl:Class
+ONTIE:0000877	Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	owl:Class
+ONTIE:0000878	Foot-and-mouth disease virus - type A (strain A32 Venezuela)	owl:Class
 ONTIE:0000879	Foot-and-mouth disease virus (strain A5) Portugal 1983	owl:Class
 ONTIE:0000880	Vaccinia virus Elstree (LS)	owl:Class
 ONTIE:0000881	Monkeypox virus (strain Copenhagen)	owl:Class
@@ -958,7 +958,7 @@ ONTIE:0000955	Sus scrofa Yorkshire	owl:Class
 ONTIE:0000956	Mus musculus RAG-1 null	owl:Class
 ONTIE:0000957	Mus musculus CF-1	owl:Class
 ONTIE:0000958	Plum pox virus (strain W)	owl:Class
-ONTIE:0000959	Trypanosoma cruzi  strain Brazil	owl:Class
+ONTIE:0000959	Trypanosoma cruzi strain Brazil	owl:Class
 ONTIE:0000960	Foot-and-mouth disease virus (strain O1) O/UKG/11/2001	owl:Class
 ONTIE:0000961	Mus musculus SV40 Tg	owl:Class
 ONTIE:0000962	Mus musculus B6 TNF alpha null	owl:Class
@@ -1430,7 +1430,7 @@ ONTIE:0001427	Dengue virus 1 strain TVP-5175	owl:Class
 ONTIE:0001428	Dengue virus 1 Sri Lanka 3146	owl:Class
 ONTIE:0001429	Mus musculus AG129	owl:Class
 ONTIE:0001430	Feline infectious peritonitis virus (strain KU-2)	owl:Class
-ONTIE:0001431	Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu  HA Tg	owl:Class
+ONTIE:0001431	Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	owl:Class
 ONTIE:0001432	Mus musculus beta2m null	owl:Class
 ONTIE:0001433	Human herpesvirus 5 (strain RV798)	owl:Class
 ONTIE:0001434	Aggregatibacter actinomycetemcomitans serotype b str. Y4	owl:Class

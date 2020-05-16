@@ -15,14 +15,14 @@ build/robot.jar: | build
 build/ontie.xlsx: | build
 	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
 
-TABLES := ontology/predicates.tsv \
-          ontology/index.tsv \
-          ontology/external.tsv \
-          ontology/manual.tsv \
-          ontology/protein.tsv \
-          ontology/disease.tsv \
-          ontology/taxon.tsv \
-          ontology/other.tsv
+TABLES := templates/predicates.tsv \
+          templates/index.tsv \
+          templates/external.tsv \
+          templates/manual.tsv \
+          templates/protein.tsv \
+          templates/disease.tsv \
+          templates/taxon.tsv \
+          templates/other.tsv
 
 tables: $(TABLES)
 
@@ -45,7 +45,7 @@ ontie.owl: $(TABLES) | build/robot.jar
 .PHONY: refresh
 refresh:
 	rm -rf build/ontie.xlsx
-	rm ontology/*.tsv
+	rm -rf templates/*.tsv
 	make tables
 
 .PHONY: clean

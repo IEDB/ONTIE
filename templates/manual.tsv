@@ -2,7 +2,7 @@ Label	Parent	Equivalent
 LABEL	SC % SPLIT=|	EC %
 acute disseminated encephalomyelitis	nervous system disease
 allergic disease	disease
-arthritis	autoimmune disease|musculoskeletal system disease
+arthritis	musculoskeletal system disease
 autoimmune cardiomyopathy	autoimmune disease
 autoimmune disease	disease
 autoimmune neuropathy	autoimmune disease

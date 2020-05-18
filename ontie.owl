@@ -11,7 +11,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="ncbitaxon:">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-16/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-18/ontie.owl"/>
     </owl:Ontology>
     
 
@@ -488,7 +488,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_848">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthritis</rdfs:label>
     </owl:Class>
     

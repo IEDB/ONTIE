@@ -15,13 +15,13 @@ build/robot.jar: | build
 build/ontie.xlsx: | build
 	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
 
-TABLES := templates/predicates.tsv \
-          templates/index.tsv \
-          templates/external.tsv \
-          templates/protein.tsv \
-          templates/disease.tsv \
-          templates/taxon.tsv \
-          templates/other.tsv
+TABLES := src/ontology/templates/predicates.tsv \
+          src/ontology/templates/index.tsv \
+          src/ontology/templates/external.tsv \
+          src/ontology/templates/protein.tsv \
+          src/ontology/templates/disease.tsv \
+          src/ontology/templates/taxon.tsv \
+          src/ontology/templates/other.tsv
 
 tables: $(TABLES)
 
@@ -31,24 +31,31 @@ $(TABLES): build/ontie.xlsx
 # ONTIE from templates
 
 ontie.owl: $(TABLES) | build/robot.jar
-	$(eval TEMPS := $(foreach T,$(filter-out $<,$^),template --template $(T) --merge-before ))
 	$(ROBOT) template \
-	--template $< $(TEMPS) \
+	$(foreach T,$^,--template $(T)) \
 	annotate \
 	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
+
+build/report.tsv: ontie.owl
+	$(ROBOT) report --input $< --output $@ --print 20
+
 
 # Main tasks
 
 .PHONY: refresh
 refresh:
 	rm -rf build/ontie.xlsx
-	rm -rf templates/*.tsv
+	rm -rf src/ontology/templates/*.tsv
 	make tables
 
 .PHONY: clean
 clean:
 	rm -rf build/
 
-all: ontie.owl
+.PHONY: test
+test: build/report.tsv
+
+.PHONY: all
+all: test

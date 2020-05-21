@@ -2076,7 +2076,7 @@ ONTIE:0002073	Concholepas concholepas hemocyanin (Concholepas concholepas)	owl:C
 ONTIE:0002074	Glutathione S-transferase (Escherichia coli)	owl:Class
 ONTIE:0002075	gag protein (Caprine arthritis encephalitis virus)	owl:Class
 ONTIE:0002076	Soluble egg antigen (Schistosoma japonicum)	owl:Class
-ONTIE:0002077	pX-rex-orf I (Human T-lymphotropic virus 1)	owl:Class
+ONTIE:0002077	pX-rex-orf I (Human T-cell leukemia virus type I)	owl:Class
 ONTIE:0002078	major structural glycoprotein GP5 (Lactate dehydrogenase-elevating virus)	owl:Class
 ONTIE:0002079	salmon-type gonadotropin-releasing hormone (GnRH) (Salmo salar)	owl:Class
 ONTIE:0002080	Ig heavy chain CDR3 region (Homo sapiens)	owl:Class
@@ -2098,7 +2098,7 @@ ONTIE:0002095	gp51 (Bovine leukemia virus)	owl:Class
 ONTIE:0002096	MA16 (Eimeria acervulina)	owl:Class
 ONTIE:0002097	islet-specific glucose-6-phosphatase-related protein (Homo sapiens)	owl:Class
 ONTIE:0002098	protein tyrosine phosphatase-like autoantigen (Homo sapiens)	owl:Class
-ONTIE:0002099	surface glycoprotein gp46; env (Human T-lymphotropic virus 1)	owl:Class
+ONTIE:0002099	surface glycoprotein gp46; env (Human T-cell leukemia virus type I)	owl:Class
 ONTIE:0002100	ribonucleotide reductase large (Murid gammaherpesvirus 4)	owl:Class
 ONTIE:0002101	advanced glycosylation end product-specific receptor (Homo sapiens)	owl:Class
 ONTIE:0002102	prediabetic NOD sera-reactive autoantigen (Mus musculus)	owl:Class
@@ -2249,7 +2249,7 @@ ONTIE:0002246	LIM domain-binding protein (Mus musculus)	owl:Class
 ONTIE:0002247	histocompatibility 47 (Mus musculus)	owl:Class
 ONTIE:0002248	interleukin-17A (Macaca fascicularis)	owl:Class
 ONTIE:0002249	MHC class I RT1.Au (Rattus norvegicus)	owl:Class
-ONTIE:0002250	MHC Class II  RT1.Du (Rattus norvegicus)	owl:Class
+ONTIE:0002250	MHC Class II RT1.Du (Rattus norvegicus)	owl:Class
 ONTIE:0002251	monocarboxylate transporter 1 (Mus musculus)	owl:Class
 ONTIE:0002252	Alpha-1-antitrypsin (Mus musculus)	owl:Class
 ONTIE:0002253	fetuin (Mus musculus)	owl:Class
@@ -2500,9 +2500,9 @@ ONTIE:0002497	Major capsid protein L1 (Human papillomavirus type 6b)	owl:Class
 ONTIE:0002498	Major capsid protein L1 (Human papillomavirus type 18)	owl:Class
 ONTIE:0002499	L1 protein (Human papillomavirus)	owl:Class
 ONTIE:0002500	L2 protein (Human papillomavirus type 16)	owl:Class
-ONTIE:0002501	Accessory protein p30II (Human T-lymphotropic virus 1)	owl:Class
-ONTIE:0002502	Envelope glycoprotein gp62 (Human T-lymphotropic virus 1)	owl:Class
-ONTIE:0002503	Protein Tax-1 (Human T-lymphotropic virus 1)	owl:Class
+ONTIE:0002501	Accessory protein p30II (Human T-cell leukemia virus type I)	owl:Class
+ONTIE:0002502	Envelope glycoprotein gp62 (Human T-cell leukemia virus type I)	owl:Class
+ONTIE:0002503	Protein Tax-1 (Human T-cell leukemia virus type I)	owl:Class
 ONTIE:0002504	Envelope glycoprotein gp63 (Human T-lymphotropic virus 2)	owl:Class
 ONTIE:0002505	Gag polyprotein (Moloney murine leukemia virus)	owl:Class
 ONTIE:0002506	pol polyprotein (Feline immunodeficiency virus)	owl:Class
@@ -2560,16 +2560,16 @@ ONTIE:0002557	Spike glycoprotein (SARS coronavirus)	owl:Class
 ONTIE:0002558	Tyrosinase (Homo sapiens)	owl:Class
 ONTIE:0002559	Gag-Pol polyprotein (Human immunodeficiency virus 1)	owl:Class
 ONTIE:0002560	Virion membrane protein A13 (Vaccinia virus)	owl:Class
-ONTIE:0002561	Genome polyprotein (Hepatitis C virus)	owl:Class
-ONTIE:0002562	Nucleoprotein (Sendai virus)	owl:Class
-ONTIE:0002563	gag protein (Visna/maedi virus)	owl:Class
+ONTIE:0002561	Genome polyprotein (Hepacivirus C)	owl:Class
+ONTIE:0002562	Nucleoprotein (Murine respirovirus)	owl:Class
+ONTIE:0002563	gag protein (Visna-maedi virus)	owl:Class
 ONTIE:0002564	Matrix protein 1 (Influenza A virus)	owl:Class
 ONTIE:0002565	Gag polyprotein (Human immunodeficiency virus 1)	owl:Class
 ONTIE:0002566	Large envelope protein (Hepatitis B virus)	owl:Class
 ONTIE:0002567	Phosphoprotein (Rabies lyssavirus)	owl:Class
 ONTIE:0002568	Myelin basic protein (Rattus norvegicus)	owl:Class
 ONTIE:0002569	Major outer membrane porin, serovar D (Chlamydia trachomatis)	owl:Class
-ONTIE:0002570	Major surface glycoprotein G (Human respiratory syncytial virus)	owl:Class
+ONTIE:0002570	Major surface glycoprotein G (Human orthopneumovirus)	owl:Class
 ONTIE:0002571	Env polyprotein (Feline leukemia virus)	owl:Class
 ONTIE:0002572	Protein A56 (Vaccinia virus)	owl:Class
 ONTIE:0002573	Merozoite surface protein 1 (Plasmodium falciparum)	owl:Class
@@ -2603,7 +2603,7 @@ ONTIE:0002600	Telomere-binding protein I6 (Vaccinia virus)	owl:Class
 ONTIE:0002601	Diacylglycerol acyltransferase/mycolyltransferase Ag85B (Mycobacterium tuberculosis)	owl:Class
 ONTIE:0002602	Envelope glycoprotein gp160 (Human immunodeficiency virus 1)	owl:Class
 ONTIE:0002603	Core phosphoprotein F17 (Vaccinia virus)	owl:Class
-ONTIE:0002604	Diacylglycerol acyltransferase/mycolyltransferase Ag85A (Mycobacterium bovis)	owl:Class
+ONTIE:0002604	Diacylglycerol acyltransferase/mycolyltransferase Ag85A (Mycobacterium tuberculosis variant bovis)	owl:Class
 ONTIE:0002605	Protein A26 (Vaccinia virus)	owl:Class
 ONTIE:0002606	Carcinoembryonic antigen-related cell adhesion molecule 5 (Homo sapiens)	owl:Class
 ONTIE:0002607	polyprotein (Equine rhinitis A virus)	owl:Class
@@ -2618,7 +2618,7 @@ ONTIE:0002615	Envelope glycoprotein B (Human alphaherpesvirus 1)	owl:Class
 ONTIE:0002616	Capsid protein (Tobacco mosaic virus)	owl:Class
 ONTIE:0002617	Uncharacterized protein 14 (SARS coronavirus)	owl:Class
 ONTIE:0002618	Genome polyprotein (Kunjin virus)	owl:Class
-ONTIE:0002619	Nucleoprotein (Sabia mammarenavirus)	owl:Class
+ONTIE:0002619	Nucleoprotein (Brazilian mammarenavirus)	owl:Class
 ONTIE:0002620	Capsid protein (Porcine circovirus)	owl:Class
 ONTIE:0002621	RNA helicase NPH-II (Vaccinia virus)	owl:Class
 ONTIE:0002622	Ankyrin repeat protein 14 (Vaccinia virus)	owl:Class
@@ -2626,7 +2626,7 @@ ONTIE:0002623	Major fimbrial subunit protein type-1 (Porphyromonas gingivalis)	o
 ONTIE:0002624	RNA-directed RNA polymerase catalytic subunit (Influenza A virus)	owl:Class
 ONTIE:0002625	Ubiquitin carboxyl-terminal hydrolase 8 (Mus musculus)	owl:Class
 ONTIE:0002626	Neuraminidase (Influenza A virus)	owl:Class
-ONTIE:0002627	RNA-directed RNA polymerase L (Hantaan hantavirus)	owl:Class
+ONTIE:0002627	RNA-directed RNA polymerase L (Hantaan orthohantavirus)	owl:Class
 ONTIE:0002628	Cholera enterotoxin subunit B (Vibrio cholerae)	owl:Class
 ONTIE:0002629	Protein L1 (Vaccinia virus)	owl:Class
 ONTIE:0002630	Uncharacterized PPE family protein PPE19 (Mycobacterium tuberculosis)	owl:Class
@@ -2641,13 +2641,13 @@ ONTIE:0002638	Beta-2-glycoprotein 1 (Homo sapiens)	owl:Class
 ONTIE:0002639	Viral transcription factor IE2 (Human betaherpesvirus 5)	owl:Class
 ONTIE:0002640	Viral late gene transcription factor 2 (Vaccinia virus)	owl:Class
 ONTIE:0002641	DNA polymerase (Vaccinia virus)	owl:Class
-ONTIE:0002642	Fusion glycoprotein F0 (Human respiratory syncytial virus)	owl:Class
+ONTIE:0002642	Fusion glycoprotein F0 (Human orthopneumovirus)	owl:Class
 ONTIE:0002643	Envelope glycoprotein H (Human alphaherpesvirus 2)	owl:Class
-ONTIE:0002644	polyprotein (St. Louis encephalitis virus)	owl:Class
+ONTIE:0002644	polyprotein (Saint Louis encephalitis virus)	owl:Class
 ONTIE:0002645	Coagulation factor VIII (Homo sapiens)	owl:Class
 ONTIE:0002646	S-arrestin (Bos taurus)	owl:Class
 ONTIE:0002647	Spike glycoprotein (Porcine epidemic diarrhea virus)	owl:Class
-ONTIE:0002648	60 kDa chaperonin 2 (Mycobacterium bovis)	owl:Class
+ONTIE:0002648	60 kDa chaperonin 2 (Mycobacterium tuberculosis variant bovis)	owl:Class
 ONTIE:0002649	Nucleoprotein (Guanarito mammarenavirus)	owl:Class
 ONTIE:0002650	Protein O1 (Vaccinia virus)	owl:Class
 ONTIE:0002651	Nucleoprotein (Lassa virus Josiah)	owl:Class
@@ -2658,13 +2658,13 @@ ONTIE:0002655	Knob associated histidine-rich protein (Plasmodium falciparum)	owl
 ONTIE:0002656	60 kDa chaperonin (Chlamydia trachomatis)	owl:Class
 ONTIE:0002657	Serine/threonine-protein kinase 1 (Vaccinia virus)	owl:Class
 ONTIE:0002658	Band 3 anion transport protein (Homo sapiens)	owl:Class
-ONTIE:0002659	Nucleoprotein (Puumala hantavirus)	owl:Class
+ONTIE:0002659	Nucleoprotein (Puumala orthohantavirus)	owl:Class
 ONTIE:0002660	Melanoma-associated antigen 3 (Homo sapiens)	owl:Class
 ONTIE:0002661	Early transcription factor 82 kDa subunit (Vaccinia virus)	owl:Class
 ONTIE:0002662	Low-density lipoprotein receptor (Homo sapiens)	owl:Class
 ONTIE:0002663	Insulin (Bos taurus)	owl:Class
 ONTIE:0002664	Membrane protein, putative (Coxiella burnetii)	owl:Class
-ONTIE:0002665	Hemagglutinin-neuraminidase (Newcastle disease virus)	owl:Class
+ONTIE:0002665	Hemagglutinin-neuraminidase (Avian avulavirus 1)	owl:Class
 ONTIE:0002666	Pertussis toxin subunit 1 (Bordetella pertussis)	owl:Class
 ONTIE:0002667	Chaperone protein ClpB (Escherichia coli)	owl:Class
 ONTIE:0002668	Secretion protein (Francisella tularensis)	owl:Class
@@ -2679,7 +2679,7 @@ ONTIE:0002676	envelope polyprotein (Caprine arthritis encephalitis virus)	owl:Cl
 ONTIE:0002677	Matrix protein VP40 (Ebola virus)	owl:Class
 ONTIE:0002678	Glycoprotein H (Human gammaherpesvirus 8)	owl:Class
 ONTIE:0002679	RING finger protein Z (Machupo mammarenavirus)	owl:Class
-ONTIE:0002680	Protein C (Measles virus)	owl:Class
+ONTIE:0002680	Protein C (Measles morbillivirus)	owl:Class
 ONTIE:0002681	Alpha-S1-casein (Bos taurus)	owl:Class
 ONTIE:0002682	Major capsid protein L1 (Human papillomavirus)	owl:Class
 ONTIE:0002683	Histone H1.0 (Homo sapiens)	owl:Class
@@ -2701,7 +2701,7 @@ ONTIE:0002698	Histone H2B type 2-E (Homo sapiens)	owl:Class
 ONTIE:0002699	DNA-binding protein, putative (Coxiella burnetii)	owl:Class
 ONTIE:0002700	Soluble interferon gamma receptor B8 (Vaccinia virus)	owl:Class
 ONTIE:0002701	Diacylglycerol acyltransferase/mycolyltransferase Ag85A (Mycobacterium tuberculosis)	owl:Class
-ONTIE:0002702	F protein (Hepatitis C virus)	owl:Class
+ONTIE:0002702	F protein (Hepacivirus C)	owl:Class
 ONTIE:0002703	Butyrophilin subfamily 1 member A1 (Bos taurus)	owl:Class
 ONTIE:0002704	Epidermal growth factor receptor (Homo sapiens)	owl:Class
 ONTIE:0002705	Beta-2-microglobulin (Homo sapiens)	owl:Class
@@ -2714,7 +2714,7 @@ ONTIE:0002711	Alpha-crystallin B chain (Homo sapiens)	owl:Class
 ONTIE:0002712	Virion membrane protein A17 precursor (Vaccinia virus)	owl:Class
 ONTIE:0002713	Muscarinic acetylcholine receptor M3 (Homo sapiens)	owl:Class
 ONTIE:0002714	60 kDa chaperonin 2 (Mycobacterium tuberculosis)	owl:Class
-ONTIE:0002715	Hemagglutinin glycoprotein (Measles virus)	owl:Class
+ONTIE:0002715	Hemagglutinin glycoprotein (Measles morbillivirus)	owl:Class
 ONTIE:0002716	Histone-lysine N-methyltransferase ASH1L (Mus musculus)	owl:Class
 ONTIE:0002717	Myosin-binding protein C, fast-type (Homo sapiens)	owl:Class
 ONTIE:0002718	Plaque-size/host range protein (Vaccinia virus)	owl:Class
@@ -2730,7 +2730,7 @@ ONTIE:0002727	60 kDa SS-A/Ro ribonucleoprotein (Homo sapiens)	owl:Class
 ONTIE:0002728	Pre-glycoprotein polyprotein GP complex (Lymphocytic choriomeningitis mammarenavirus)	owl:Class
 ONTIE:0002729	Protein E8 (Vaccinia virus)	owl:Class
 ONTIE:0002730	Glutamate decarboxylase 2 (Rattus norvegicus)	owl:Class
-ONTIE:0002731	Diacylglycerol acyltransferase/mycolyltransferase Ag85B (Mycobacterium bovis)	owl:Class
+ONTIE:0002731	Diacylglycerol acyltransferase/mycolyltransferase Ag85B (Mycobacterium tuberculosis variant bovis)	owl:Class
 ONTIE:0002732	65 kDa phosphoprotein (Human betaherpesvirus 5)	owl:Class
 ONTIE:0002733	Protein A46 (Vaccinia virus)	owl:Class
 ONTIE:0002734	Lysozyme C-2 (Mus musculus)	owl:Class
@@ -2745,7 +2745,7 @@ ONTIE:0002742	60S ribosomal protein L13 (Homo sapiens)	owl:Class
 ONTIE:0002743	Structural polyprotein (Semliki Forest virus)	owl:Class
 ONTIE:0002744	Deneddylase (Human betaherpesvirus 5)	owl:Class
 ONTIE:0002745	gag protein (Feline immunodeficiency virus)	owl:Class
-ONTIE:0002746	Matrix protein (Measles virus)	owl:Class
+ONTIE:0002746	Matrix protein (Measles morbillivirus)	owl:Class
 ONTIE:0002747	Protein A34 (Vaccinia virus)	owl:Class
 ONTIE:0002748	Apical membrane antigen 1 (Plasmodium falciparum)	owl:Class
 ONTIE:0002749	Ribonucleoside-diphosphate reductase large subunit (Vaccinia virus)	owl:Class
@@ -2760,7 +2760,7 @@ ONTIE:0002757	Semaphorin-like protein A39 (Vaccinia virus)	owl:Class
 ONTIE:0002758	Integral membrane protein GPR180 (Mus musculus)	owl:Class
 ONTIE:0002759	Viral late gene transcription factor 3 (Vaccinia virus)	owl:Class
 ONTIE:0002760	S-arrestin (Homo sapiens)	owl:Class
-ONTIE:0002761	nucleocapsid protein (Peste-des-petits-ruminants virus)	owl:Class
+ONTIE:0002761	nucleocapsid protein (Small ruminant morbillivirus)	owl:Class
 ONTIE:0002762	10 kDa chaperonin (Mycobacterium tuberculosis)	owl:Class
 ONTIE:0002763	Large T antigen (Macaca mulatta polyomavirus 1)	owl:Class
 ONTIE:0002764	Outer membrane protein B (Rickettsia conorii)	owl:Class
@@ -2781,7 +2781,7 @@ ONTIE:0002778	Follicle-stimulating hormone receptor (Homo sapiens)	owl:Class
 ONTIE:0002779	Choriogonadotropin subunit beta (Homo sapiens)	owl:Class
 ONTIE:0002780	Pleckstrin (Homo sapiens)	owl:Class
 ONTIE:0002781	Histone H5 (Gallus gallus)	owl:Class
-ONTIE:0002782	pol polyprotein (Visna/maedi virus)	owl:Class
+ONTIE:0002782	pol polyprotein (Visna-maedi virus)	owl:Class
 ONTIE:0002783	25 kDa core protein A12L (Vaccinia virus)	owl:Class
 ONTIE:0002784	Fms-related tyrosine kinase 3 ligand (Homo sapiens)	owl:Class
 ONTIE:0002785	CD99 antigen (Homo sapiens)	owl:Class
@@ -2852,7 +2852,7 @@ ONTIE:0002849	Glutamate decarboxylase 1 (Mus musculus)	owl:Class
 ONTIE:0002850	Major capsid protein (Human gammaherpesvirus 8)	owl:Class
 ONTIE:0002851	Glucose-6-phosphatase 2 (Mus musculus)	owl:Class
 ONTIE:0002852	Chondroitin sulfate proteoglycan 4 (Homo sapiens)	owl:Class
-ONTIE:0002853	RNA-directed RNA polymerase L (Human respiratory syncytial virus)	owl:Class
+ONTIE:0002853	RNA-directed RNA polymerase L (Human orthopneumovirus)	owl:Class
 ONTIE:0002854	Protein B9 (Vaccinia virus)	owl:Class
 ONTIE:0002855	U1 small nuclear ribonucleoprotein 70 kDa (Homo sapiens)	owl:Class
 ONTIE:0002856	Lysosome membrane protein 2 (Mus musculus)	owl:Class
@@ -2868,7 +2868,7 @@ ONTIE:0002865	Peptide ABC transporter, permease protein, putative (Coxiella burn
 ONTIE:0002866	Late transcription factor 1 (Vaccinia virus)	owl:Class
 ONTIE:0002867	Protein A30 (Vaccinia virus)	owl:Class
 ONTIE:0002868	Heterogeneous nuclear ribonucleoprotein C-like 1 (Homo sapiens)	owl:Class
-ONTIE:0002869	Lipoprotein LpqH (Mycobacterium bovis)	owl:Class
+ONTIE:0002869	Lipoprotein LpqH (Mycobacterium tuberculosis variant bovis)	owl:Class
 ONTIE:0002870	Muscarinic acetylcholine receptor M2 (Homo sapiens)	owl:Class
 ONTIE:0002871	Conserved domain protein (Coxiella burnetii)	owl:Class
 ONTIE:0002872	Melanocortin receptor 3 (Homo sapiens)	owl:Class
@@ -2892,7 +2892,7 @@ ONTIE:0002889	Diphtheria toxin (Corynebacterium diphtheriae)	owl:Class
 ONTIE:0002890	DNA polymerase lambda (Homo sapiens)	owl:Class
 ONTIE:0002891	Recoverin (Bos taurus)	owl:Class
 ONTIE:0002892	Zinc finger protein 40 (Mus musculus)	owl:Class
-ONTIE:0002893	M protein, serotype 5 (Streptococcus pyogenes)	owl:Class
+ONTIE:0002893	M protein (Streptococcus pyogenes)	owl:Class
 ONTIE:0002894	Tpr protein K (Treponema pallidum)	owl:Class
 ONTIE:0002895	GP63, leishmanolysin (Leishmania infantum)	owl:Class
 ONTIE:0002896	60 kDa chaperonin (Yersinia enterocolitica)	owl:Class
@@ -2911,7 +2911,7 @@ ONTIE:0002908	Probable lipoprotein aminopeptidase LpqL (Mycobacterium tuberculos
 ONTIE:0002909	Glucosyltransferase-I (Streptococcus mutans)	owl:Class
 ONTIE:0002910	Fatty acid binding protein (Schistosoma mansoni)	owl:Class
 ONTIE:0002911	Merozoite surface protein 3 alpha (MSP3a) (Plasmodium vivax)	owl:Class
-ONTIE:0002912	rRNA N-glycosidase (Ricinus communis)	owl:Class
+ONTIE:0002912	ricin A chain (Ricinus communis)	owl:Class
 ONTIE:0002913	Cell surface antigen SpaP (Streptococcus mutans)	owl:Class
 ONTIE:0002914	Hemolysin activator protein (Two-partner secretion system accessory protein) (Proteus mirabilis)	owl:Class
 ONTIE:0002915	Mycobacterium tuberculosis proteins (reference genome GI: 135) (Mycobacterium tuberculosis)	owl:Class
@@ -2919,7 +2919,7 @@ ONTIE:0002916	GCR homolog (Murid betaherpesvirus 1)	owl:Class
 ONTIE:0002917	Structural protein (Murid betaherpesvirus 1)	owl:Class
 ONTIE:0002918	US22 family homolog (Murid betaherpesvirus 1)	owl:Class
 ONTIE:0002919	PREDICTED: similar to filaggrin (Mus musculus)	owl:Class
-ONTIE:0002920	polyprotein (Hepatitis C virus)	owl:Class
+ONTIE:0002920	polyprotein (Hepacivirus C)	owl:Class
 ONTIE:0002921	Early nuclear nonstructural protein (Murid betaherpesvirus 1)	owl:Class
 ONTIE:0002922	glutamate receptor-interacting protein 1 isoform 1 (Homo sapiens)	owl:Class
 ONTIE:0002923	hypothetical protein BURPS668_0137 (Burkholderia pseudomallei)	owl:Class
@@ -3001,7 +3001,7 @@ ONTIE:0002998	Pb-reticulocyte binding protein (Plasmodium berghei)	owl:Class
 ONTIE:0002999	zinc finger transcription factor (Plasmodium berghei)	owl:Class
 ONTIE:0003000	ABC transporter (Plasmodium berghei)	owl:Class
 ONTIE:0003001	metacaspase 1 (Plasmodium berghei)	owl:Class
-ONTIE:0003002	tropomyosin (Fenneropenaeus indicus)	owl:Class
+ONTIE:0003002	tropomyosin (Penaeus indicus)	owl:Class
 ONTIE:0003003	L1 protein (Human papillomavirus type 33)	owl:Class
 ONTIE:0003004	Myeloperoxidase (Homo sapiens)	owl:Class
 ONTIE:0003005	steroid 21-hydroxylase (Homo sapiens)	owl:Class
@@ -3270,15 +3270,15 @@ ONTIE:0003271	Influenza A virus (A/Hong Kong/308/2014(H9N2))	owl:Class
 ONTIE:0003272	Influenza A virus (A/Ohio/88/2012(H3N2))	owl:Class
 ONTIE:0003273	Influenza A virus (A/duck/Vietnam/NCVD-0035/2012(H10N7))	owl:Class
 ONTIE:0003274	Influenza A virus (A/garganey/Ukraine/05839-NAMRU3/2006(H14N6))	owl:Class
-ONTIE:0003275	polyketide synthase (Mycobacterium bovis)	owl:Class
-ONTIE:0003276	5-oxoprolinase (Mycobacterium bovis)	owl:Class
-ONTIE:0003277	MerR family transcriptional regulator (Mycobacterium bovis)	owl:Class
-ONTIE:0003278	haloalkane dehalogenase (Mycobacterium bovis)	owl:Class
-ONTIE:0003279	short-chain dehydrogenase (Mycobacterium bovis)	owl:Class
-ONTIE:0003280	Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase (Mycobacterium bovis)	owl:Class
-ONTIE:0003281	methionine tRNA ligase (Mycobacterium bovis)	owl:Class
-ONTIE:0003282	50S ribosomal protein L10 (Mycobacterium smegmatis)	owl:Class
-ONTIE:0003283	30S ribosomal protein S1 (Mycobacterium smegmatis)	owl:Class
+ONTIE:0003275	polyketide synthase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003276	5-oxoprolinase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003277	MerR family transcriptional regulator (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003278	haloalkane dehalogenase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003279	short-chain dehydrogenase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003280	Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003281	methionine tRNA ligase (Mycobacterium tuberculosis variant bovis)	owl:Class
+ONTIE:0003282	50S ribosomal protein L10 (Mycolicibacterium smegmatis)	owl:Class
+ONTIE:0003283	30S ribosomal protein S1 (Mycolicibacterium smegmatis)	owl:Class
 ONTIE:0003284	outer surface protein C (Borreliella afzelii)	owl:Class
 ONTIE:0003285	androgen receptor (Homo sapiens)	owl:Class
 ONTIE:0003286	transcription initiation factor TFIID (Homo sapiens)	owl:Class

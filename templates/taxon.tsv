@@ -804,7 +804,7 @@ Mus musculus 129/Ola Prp null	Mus musculus PrP null	subspecies		taxon
 Mus musculus 129/SVE GAA-/-	Mus musculus 129	subspecies	Pompe	taxon	
 Mus musculus 129/Sv	Mus musculus 129	subspecies	129Sv	taxon	
 Mus musculus 16.2beta TCR Tg	Mus musculus TCR transgenic	subspecies	9.1-2 beta chain|ICFSPSLEHPIVVSGSWD-specific TCR Tg beta chain|LACK(156-173)-specific TCR beta chain	taxon	http://www.informatics.jax.org/allele/MGI:4838256
-Mus musculus 17.6Œ±-8.3Œ≤ TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|KYNKANVFL-specific TCR Tg|VYLKTNVFL-specific TCR Tg	taxon	
+Mus musculus 17.6α-8.3β TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|KYNKANVFL-specific TCR Tg|VYLKTNVFL-specific TCR Tg	taxon	
 Mus musculus 172.10 TCR Tg	Mus musculus TCR transgenic	subspecies	MBP AC1-11|MBP Ac1-11-specific TCR Tg|Tg(TCRA)B1Jg x Tg(TCRB)C14Jg|Vα2.3/Vβ8.2 TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3055333
 Mus musculus 172.10 beta-chain TCR Tg	Mus musculus TCR transgenic	subspecies	MBP Ac1-11-specific TCR beta-chain Tg|Tg(TCRB)C14Jg|Vβ8.2 TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3055339
 Mus musculus 1807 TCR Tg	Mus musculus TCR transgenic	subspecies	B. dermatitis calnexin(103-115)-specific TCR Tg|Clone CW/M 5|LVVKNPAAHHAIS-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:5315014
@@ -1424,7 +1424,7 @@ Mus musculus qCII85.33 TCR Tg	Mus musculus TCR transgenic	subspecies	CII(260-270
 Mus musculus rho-Beta-gal	Mus musculus Uncategorized	subspecies	E. coli Beta galactosidase expressing	taxon	
 Mus musculus shiverer (MBP null)	Mus musculus Uncategorized	subspecies	MBP null|shi/shi	taxon	
 Mus musculus viable motheaten	Mus musculus Uncategorized	subspecies	mev	taxon	
-Mus musculus ¬µMT	Mus musculus Uncategorized	subspecies	&#956MT|mMt|muMt|uMt|¬µMt	taxon	
+Mus musculus µMT	Mus musculus Uncategorized	subspecies	µMT|mMt|muMt|uMt|µMt	taxon	
 Muscovy duck reovirus S12	Muscovy duck reovirus	subspecies		taxon	
 Mustela vison Black	Neovison vison	subspecies		taxon	
 Mycobacterium avium serovar 1	Mycobacterium avium	subspecies		taxon	

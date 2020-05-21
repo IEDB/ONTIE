@@ -18,7 +18,6 @@ build/ontie.xlsx: | build
 TABLES := templates/predicates.tsv \
           templates/index.tsv \
           templates/external.tsv \
-          templates/manual.tsv \
           templates/protein.tsv \
           templates/disease.tsv \
           templates/taxon.tsv \

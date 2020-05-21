@@ -1,2 +1,2 @@
 language: java
-script: touch src/ontology/templates/* && make test
+script: mkdir build && touch build/ontie.xlsx src/ontology/templates/* && make test

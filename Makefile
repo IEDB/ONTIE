@@ -15,13 +15,8 @@ build/robot.jar: | build
 build/ontie.xlsx: | build
 	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
 
-TABLES := src/ontology/templates/predicates.tsv \
-          src/ontology/templates/index.tsv \
-          src/ontology/templates/external.tsv \
-          src/ontology/templates/protein.tsv \
-          src/ontology/templates/disease.tsv \
-          src/ontology/templates/taxon.tsv \
-          src/ontology/templates/other.tsv
+SHEETS := predicates index external protein disease taxon other
+TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
 tables: $(TABLES)
 
@@ -46,8 +41,7 @@ build/report.tsv: ontie.owl
 
 .PHONY: refresh
 refresh:
-	rm -rf build/ontie.xlsx
-	rm -rf src/ontology/templates/*.tsv
+	rm -rf build/ontie.xlsx $(TABLES)
 	make tables
 
 .PHONY: clean

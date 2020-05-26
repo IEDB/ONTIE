@@ -8,7 +8,7 @@ IAO:0000119	definition source	owl:AnnotationProperty
 IAO:0000232	curator note	owl:AnnotationProperty		zero or more
 IAO:0000232	curator note	owl:AnnotationProperty
 IAO:0100001	replacement	owl:AnnotationProperty	link	zero or one
-ncbitaxon:has_rank	has rank	owl:AnnotationProperty	link	zero or one
+http://purl.obolibrary.org/obo/ncbitaxon#has_rank	has rank	owl:AnnotationProperty	link	zero or one
 OBI:9991118	IEDB alternative term	owl:AnnotationProperty		zero or one
 obo:IDO_0000664	has material basis in	owl:ObjectProperty
 obo:RO_0002162	in taxon	owl:AnnotationProperty	link	zero or one

@@ -1,5 +1,5 @@
-Label	Parent	Taxonomic Rank	Alternative term	Domain	Cross-Ref
-LABEL	SC % SPLIT=|	AI has rank	A alternative term SPLIT=|	A ONTIE domain	AI database_cross_reference
+Label	Parent	Taxonomic Rank	Alternative term	Domain	Cross-Ref	Comment
+LABEL	SC % SPLIT=|	AI has rank	A alternative term SPLIT=|	A ONTIE domain	AI database_cross_reference	A rdfs:comment
 Acinetobacter haemolyticus strain 57	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter haemolyticus strain 61	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter lwoffii F78	Acinetobacter lwoffii	subspecies	F78	taxon	
@@ -1844,6 +1844,7 @@ Salmonella typhimurium SL5928	Salmonella enterica subsp. enterica serovar Typhim
 Salmonella typhimurium SL7207	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
 Salmonella typhimurium TV119	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
 Salmonella typhimurium chi3987(pYALTB-D) V	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
+SARS-CoV1	SARS coronavirus	species	SARS-1	taxon		Sarbecoviruses that circulated in the human population as part of the 2003 SARS outbreak
 Schistosoma japonicum strain Chinese	Schistosoma japonicum	subspecies		taxon	
 Schistosoma japonicum strain Philippine	Schistosoma japonicum	subspecies		taxon	
 Schistosoma mansoni Puerto Rico	Schistosoma mansoni	subspecies	NMRI	taxon	

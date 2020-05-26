@@ -11,7 +11,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="ncbitaxon:">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-18/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-19/ontie.owl"/>
     </owl:Ontology>
     
 
@@ -6083,7 +6083,13 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600007">
-        <owl:equivalentClass rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">administering substance in vivo</rdfs:label>
     </owl:Class>
     
@@ -17406,6 +17412,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mMt</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muMt</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uMt</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">µMT</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">µMt</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μMT</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus µMT</rdfs:label>
@@ -30374,6 +30381,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">γDPGA</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly-γ-D-glutamic-acid</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly-γ-D-glutamic-acid (Bacillus anthracis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -30900,7 +30908,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rof</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pX-rex-orf I</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pX-rex-orf I (Human T-lymphotropic virus 1)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pX-rex-orf I (Human T-cell leukemia virus type I)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -31282,7 +31291,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface glycoprotein gp46; env</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface glycoprotein gp46; env (Human T-lymphotropic virus 1)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface glycoprotein gp46; env (Human T-cell leukemia virus type I)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -33896,7 +33906,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RT1-Du</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC Class II RT1.Du</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC Class II  RT1.Du (Rattus norvegicus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC Class II RT1.Du (Rattus norvegicus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -37326,6 +37337,7 @@
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gamma-gliadin</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gamma-gliadin (Triticum aestivum)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -38394,7 +38406,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory protein p30II</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory protein p30II (Human T-lymphotropic virus 1)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory protein p30II (Human T-cell leukemia virus type I)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -38411,7 +38424,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Env polyprotein</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope glycoprotein gp62</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope glycoprotein gp62 (Human T-lymphotropic virus 1)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope glycoprotein gp62 (Human T-cell leukemia virus type I)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -38430,7 +38444,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein X-LOR</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trans-activating transcriptional regulatory protein of HTLV-1</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Tax-1</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Tax-1 (Human T-lymphotropic virus 1)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Tax-1 (Human T-cell leukemia virus type I)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -39479,7 +39494,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome polyprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome polyprotein (Hepatitis C virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome polyprotein (Hepacivirus C)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -39499,7 +39514,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleocapsid protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein N</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Sendai virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Murine respirovirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -39516,7 +39531,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gag protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gag protein (Visna/maedi virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gag protein (Visna-maedi virus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -39650,7 +39665,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane-bound glycoprotein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mG</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major surface glycoprotein G</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major surface glycoprotein G (Human respiratory syncytial virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major surface glycoprotein G (Human orthopneumovirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -40275,7 +40290,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fbps A</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibronectin-binding protein A</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85A</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85A (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85A (Mycobacterium tuberculosis variant bovis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -40551,7 +40567,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleocapsid protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein N</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Sabia mammarenavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Brazilian mammarenavirus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -40705,7 +40722,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcriptase</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L (Hantaan hantavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L (Hantaan orthohantavirus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -40982,7 +41000,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein F</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusion glycoprotein F0</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusion glycoprotein F0 (Human respiratory syncytial virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusion glycoprotein F0 (Human orthopneumovirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -41016,7 +41034,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein (St. Louis encephalitis virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein (Saint Louis encephalitis virus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -41099,7 +41118,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heat shock protein 65</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Cpn60-2</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 kDa chaperonin 2</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 kDa chaperonin 2 (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 kDa chaperonin 2 (Mycobacterium tuberculosis variant bovis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -41303,7 +41323,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleocapsid protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein N</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Puumala hantavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Puumala orthohantavirus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -41413,7 +41434,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin-neuraminidase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin-neuraminidase (Newcastle disease virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin-neuraminidase (Avian avulavirus 1)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -41691,7 +41713,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein C</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein C (Measles virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein C (Measles morbillivirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -42119,7 +42141,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p16</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p17</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F protein (Hepatitis C virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F protein (Hepacivirus C)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -42367,7 +42390,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin glycoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin glycoprotein (Measles virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemagglutinin glycoprotein (Measles morbillivirus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -42615,6 +42639,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein GP</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein GP</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-glycoprotein polyprotein GP complex (Lymphocytic choriomeningitis mammarenavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
@@ -42679,7 +42704,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fbps B</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibronectin-binding protein B</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85B</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85B (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diacylglycerol acyltransferase/mycolyltransferase Ag85B (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -42952,7 +42977,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix protein (Measles virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix protein (Measles morbillivirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -43223,7 +43248,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleocapsid protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleocapsid protein (Peste-des-petits-ruminants virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleocapsid protein (Small ruminant morbillivirus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -43611,7 +43637,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pol polyprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pol polyprotein (Visna/maedi virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pol polyprotein (Visna-maedi virus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -44935,7 +44962,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcriptase</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L (Human respiratory syncytial virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase L (Human orthopneumovirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -45231,7 +45258,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 kDa lipoprotein antigen</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein LpqH</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein LpqH (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein LpqH (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -45687,8 +45714,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M protein, serotype 5</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M protein, serotype 5 (Streptococcus pyogenes)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M protein (Streptococcus pyogenes)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -46012,7 +46040,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA N-glycosidase</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ricin A chain</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA N-glycosidase (Ricinus communis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ricin A chain (Ricinus communis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -46151,7 +46180,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein (Hepatitis C virus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyprotein (Hepacivirus C)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -47592,7 +47622,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropomyosin</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropomyosin (Fenneropenaeus indicus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropomyosin (Penaeus indicus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -51432,6 +51463,7 @@
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isomerase</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isomerase (Dermatophagoides)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52196,7 +52228,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyketide synthase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyketide synthase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyketide synthase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52212,7 +52245,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxoprolinase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxoprolinase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxoprolinase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52228,7 +52262,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MerR family transcriptional regulator</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MerR family transcriptional regulator (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MerR family transcriptional regulator (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -52245,7 +52279,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haloalkane dehalogenase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haloalkane dehalogenase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haloalkane dehalogenase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52261,7 +52296,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-chain dehydrogenase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-chain dehydrogenase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-chain dehydrogenase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -52278,7 +52313,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaminohydroxyphosphoribosylaminopyrimidine deaminase uracil reductase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -52296,7 +52331,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine-tRNA</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine tRNA ligase</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine tRNA ligase (Mycobacterium bovis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine tRNA ligase (Mycobacterium tuberculosis variant bovis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -52313,7 +52348,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50S ribosomal protein L10</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50S ribosomal protein L10 (Mycobacterium smegmatis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50S ribosomal protein L10 (Mycolicibacterium smegmatis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52329,7 +52365,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30S ribosomal protein S1</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30S ribosomal protein S1 (Mycobacterium smegmatis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30S ribosomal protein S1 (Mycolicibacterium smegmatis)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 

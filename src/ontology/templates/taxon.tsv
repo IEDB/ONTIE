@@ -1844,7 +1844,7 @@ Salmonella typhimurium SL5928	Salmonella enterica subsp. enterica serovar Typhim
 Salmonella typhimurium SL7207	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
 Salmonella typhimurium TV119	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
 Salmonella typhimurium chi3987(pYALTB-D) V	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon	
-SARS-CoV1	SARS coronavirus	species	SARS-1	taxon		Sarbecoviruses that circulated in the human population as part of the 2003 SARS outbreak
+SARS-CoV1	Severe acute respiratory syndrome-related coronavirus	species	SARS-1	taxon		Sarbecoviruses that circulated in the human population as part of the 2003 SARS outbreak
 Schistosoma japonicum strain Chinese	Schistosoma japonicum	subspecies		taxon	
 Schistosoma japonicum strain Philippine	Schistosoma japonicum	subspecies		taxon	
 Schistosoma mansoni Puerto Rico	Schistosoma mansoni	subspecies	NMRI	taxon	
@@ -2085,7 +2085,7 @@ Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth dise
 Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV	Murid betaherpesvirus 1	subspecies		taxon	
 Mus musculus 17.6α-8.3β TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|VYLKTNVFL-specific TCR Tg|KYNKANVFL-specific TCR Tg	taxon	
 Mus musculus B10.BR-SCID bone marrow chimera	Mus musculus B10.BR	subspecies		taxon	
-Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg| HA(110-120) Tg	taxon	
+Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg|HA(110-120) Tg	taxon	
 Mus musculus µMT	Mus musculus Uncategorized	subspecies	mMt|uMt|μMT|muMt|µMt	taxon	
 Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon	
 Simian immunodeficiency virus - mac - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon	

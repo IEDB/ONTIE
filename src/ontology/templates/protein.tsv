@@ -401,7 +401,7 @@ envelope glycoprotein Q (Human betaherpesvirus 7)	protein		envelope glycoprotein
 envelope glycoprotein UL4 (Human betaherpesvirus 5)	protein	HHV5wtgp010,UL4	envelope glycoprotein UL4	protein	Human betaherpesvirus 5
 envelope polyprotein (Caprine arthritis encephalitis virus)	protein		envelope polyprotein	protein	Caprine arthritis encephalitis virus
 envelope polyprotein [Feline immunodeficiency virus] (Feline immunodeficiency virus)	protein		envelope polyprotein [Feline immunodeficiency virus]	protein	Feline immunodeficiency virus
-Envelope small membrane protein (SARS coronavirus)	protein	E protein|sM protein	Envelope small membrane protein	protein	SARS coronavirus
+Envelope small membrane protein (Severe acute respiratory syndrome-related coronavirus)	protein	E protein|sM protein	Envelope small membrane protein	protein	Severe acute respiratory syndrome-related coronavirus
 ephrin type-A receptor 3 (Homo sapiens)	protein	EPH receptor A3	ephrin type-A receptor 3	protein	Homo sapiens
 Epidermal growth factor receptor (Homo sapiens)	protein	Proto-oncogene c-ErbB-1|Receptor tyrosine-protein kinase erbB-1	Epidermal growth factor receptor	protein	Homo sapiens
 epoxide hydrolase 1, microsomal (Homo sapiens)	protein		epoxide hydrolase 1, microsomal	protein	Homo sapiens
@@ -783,7 +783,7 @@ melanoma associated antigen (Homo sapiens)	protein		melanoma associated antigen	
 Melanoma-associated antigen 3 (Homo sapiens)	protein	Antigen MZ2-D|CT1.3|Cancer/testis antigen 1.3|MAGE-3 antigen	Melanoma-associated antigen 3	protein	Homo sapiens
 Melatonin receptor type 1A (Mesocricetus auratus)	protein	Mel-1A-R|Mel1a receptor	Melatonin receptor type 1A	protein	Mesocricetus auratus
 membrane glycoprotein UL40 (Human betaherpesvirus 5)	protein	UL40	membrane glycoprotein UL40	protein	Human betaherpesvirus 5
-Membrane protein (SARS coronavirus)	protein	E1 glycoprotein|M protein|Matrix glycoprotein|Membrane glycoprotein	Membrane protein	protein	SARS coronavirus
+Membrane protein (Severe acute respiratory syndrome-related coronavirus)	protein	E1 glycoprotein|M protein|Matrix glycoprotein|Membrane glycoprotein	Membrane protein	protein	Severe acute respiratory syndrome-related coronavirus
 membrane protein A (Borreliella burgdorferi)	protein		membrane protein A	protein	Borreliella burgdorferi
 Membrane protein, putative (Coxiella burnetii)	protein		Membrane protein, putative	protein	Coxiella burnetii
 membrane-spanning 4-domains, subfamily A, member 1 (Homo sapiens)	protein	CD20	membrane-spanning 4-domains, subfamily A, member 1	protein	Homo sapiens
@@ -919,7 +919,7 @@ Nucleoprotein (Murine hepatitis virus)	protein	NC|Nucleocapsid protein|Protein N
 Nucleoprotein (Puumala orthohantavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Puumala orthohantavirus
 Nucleoprotein (Rabies lyssavirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Rabies lyssavirus
 Nucleoprotein (Rinderpest virus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Rinderpest morbillivirus
-Nucleoprotein (SARS coronavirus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	SARS coronavirus
+Nucleoprotein (Severe acute respiratory syndrome-related coronavirus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Severe acute respiratory syndrome-related coronavirus
 Nucleoprotein (Murine respirovirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Murine respirovirus
 obsolete lactate dehydrogenase (Papio cynocephalus)	protein		obsolete lactate dehydrogenase	protein	Papio cynocephalus
 obsolete Large structural phosphoprotein (Human betaherpesvirus 5)	protein	150 kDa matrix phosphoprotein|BPP|Basic phosphoprotein|Tegument protein UL32|pp150	obsolete Large structural phosphoprotein	protein	Human betaherpesvirus 5
@@ -1123,7 +1123,7 @@ Receptor-type tyrosine-protein phosphatase N2 (Rattus norvegicus)	protein	PTP NE
 Recoverin (Bos taurus)	protein	p26	Recoverin	protein	Bos taurus
 regulatory protein IE1 (Human betaherpesvirus 5)	protein	IE1	regulatory protein IE1	protein	Human betaherpesvirus 5
 Replicase polyprotein 1ab (Lelystad virus)	protein	ORF1ab polyprotein	Replicase polyprotein 1ab	protein	Lelystad virus
-Replicase polyprotein 1ab (SARS coronavirus)	protein	ORF1ab polyprotein|pp1ab	Replicase polyprotein 1ab	protein	SARS coronavirus
+Replicase polyprotein 1ab (Severe acute respiratory syndrome-related coronavirus)	protein	ORF1ab polyprotein|pp1ab	Replicase polyprotein 1ab	protein	Severe acute respiratory syndrome-related coronavirus
 Replication protein E1 (Kappapapillomavirus 2)	protein	ATP-dependent helicase E1	Replication protein E1	protein	Kappapapillomavirus 2
 replication protein E1 (Mupapillomavirus 1)	protein	E1	replication protein E1	protein	Mupapillomavirus 1
 repressor protein for FtsI (Escherichia coli)	protein	G2583_3740,sufI	repressor protein for FtsI	protein	Escherichia coli
@@ -1138,7 +1138,7 @@ Rho GDP dissociation inhibitor (Homo sapiens)	protein	GDI	Rho GDP dissociation i
 rho GTPase-activating protein 15 (Homo sapiens)	protein		rho GTPase-activating protein 15	protein	Homo sapiens
 rho GTPase-activating protein 25 (Homo sapiens)	protein		rho GTPase-activating protein 25	protein	Homo sapiens
 rho GTPase-activating protein 4 (Homo sapiens)	protein		rho GTPase-activating protein 4	protein	Homo sapiens
-rho-related GTP-binding protein RhoB (Gallus gallus)	protein		rho-related GTP-binding protein RhoB		Gallus gallus																						
+rho-related GTP-binding protein RhoB (Gallus gallus)	protein		rho-related GTP-binding protein RhoB	protein	Gallus gallus																						
 Rhodopsin (Bos taurus)	protein		Rhodopsin	protein	Bos taurus
 Rhoptry-associated protein 1 (Plasmodium falciparum)	protein		Rhoptry-associated protein 1	protein	Plasmodium falciparum
 Ribonuclease mitogillin (Aspergillus fumigatus)	protein	Allergen Asp f I|Allergen I/a|IgE-binding ribotoxin|Major allergen Asp f 1	Ribonuclease mitogillin	protein	Aspergillus fumigatus
@@ -1236,7 +1236,7 @@ sperm autoantigen (Oryctolagus cuniculus)	protein	RSA	sperm autoantigen	protein	
 spike glycoprotein (Infectious bronchitis virus)	protein	S1 protein	spike glycoprotein	protein	Infectious bronchitis virus
 Spike glycoprotein (Murine hepatitis virus)	protein	E2|Peplomer protein|S glycoprotein	Spike glycoprotein	protein	Murine hepatitis virus
 Spike glycoprotein (Porcine epidemic diarrhea virus)	protein	E2|Peplomer protein|S glycoprotein	Spike glycoprotein	protein	Porcine epidemic diarrhea virus
-Spike glycoprotein (SARS coronavirus)	protein	E2|Peplomer protein|S glycoprotein	Spike glycoprotein	protein	SARS coronavirus
+Spike glycoprotein (Severe acute respiratory syndrome-related coronavirus)	protein	E2|Peplomer protein|S glycoprotein	Spike glycoprotein	protein	Severe acute respiratory syndrome-related coronavirus
 splicing factor 1 isoform 6 (Homo sapiens)	protein		splicing factor 1 isoform 6	protein	Homo sapiens
 splicing factor 3B (Homo sapiens)	protein		splicing factor 3B	protein	Homo sapiens
 Splicing regulatory glutamine/lysine-rich protein 1 (Homo sapiens)	protein		Splicing regulatory glutamine/lysine-rich protein 1	protein	Homo sapiens
@@ -1345,7 +1345,7 @@ two component system histidine kinase (Coxiella burnetii)	protein		two component
 type I restriction enzyme restriction subunit (Nitrococcus mobilis)	protein		type I restriction enzyme restriction subunit	protein	Nitrococcus mobilis
 type VII secretion protein EsxH (Mycobacterium tuberculosis)	protein		type VII secretion protein EsxH	protein	Mycobacterium tuberculosis
 Tyrosinase (Homo sapiens)	protein	LB24-AB|Monophenol monooxygenase|SK29-AB|Tumor rejection antigen AB	Tyrosinase	protein	Homo sapiens
-Tyrosine-protein kinase ABL1 (Homo sapiens)	protein	Abelson murine leukemia viral oncogene homolog 1|Abelson tyrosine-protein kinase 1|Proto-oncogene c-Abl|p150	Tyrosine-protein kinase ABL1		Homo sapiens																						
+Tyrosine-protein kinase ABL1 (Homo sapiens)	protein	Abelson murine leukemia viral oncogene homolog 1|Abelson tyrosine-protein kinase 1|Proto-oncogene c-Abl|p150	Tyrosine-protein kinase ABL1	protein	Homo sapiens																						
 Tyrosine-protein kinase ABL2 (Homo sapiens)	protein		Tyrosine-protein kinase ABL2	protein	Homo sapiens
 tyrosine-protein kinase Lyn isoform B (Homo sapiens)	protein		tyrosine-protein kinase Lyn isoform B	protein	Homo sapiens
 Tyrosine-protein phosphatase non-receptor type 11 (Homo sapiens)	protein	PTP-1D|PTP-2C|Protein-tyrosine phosphatase 1D|Protein-tyrosine phosphatase 2C|SH-PTP2|SH-PTP3|SHP-2|Shp2	Tyrosine-protein phosphatase non-receptor type 11	protein	Homo sapiens
@@ -1363,7 +1363,7 @@ UL40 (Human alphaherpesvirus 1)	protein		UL40	protein	Human alphaherpesvirus 1
 UL40 (Human alphaherpesvirus 2)	protein		UL40	protein	Human alphaherpesvirus 2
 Uncharacterized PPE family protein PPE19 (Mycobacterium tuberculosis)	protein		Uncharacterized PPE family protein PPE19	protein	Mycobacterium tuberculosis
 Uncharacterized protein (Onchocerca volvulus)	protein		Uncharacterized protein	protein	Onchocerca volvulus
-Uncharacterized protein 14 (SARS coronavirus)	protein		Uncharacterized protein 14	protein	SARS coronavirus
+Uncharacterized protein 14 (Severe acute respiratory syndrome-related coronavirus)	protein		Uncharacterized protein 14	protein	Severe acute respiratory syndrome-related coronavirus
 Uncharacterized protein G6 (Vaccinia virus)	protein		Uncharacterized protein G6	protein	Vaccinia virus
 Uncharacterized protein KIAA0754 (Homo sapiens)	protein		Uncharacterized protein KIAA0754	protein	Homo sapiens
 uncharacterized protein LOC285556 isoform X1 (Homo sapiens)	protein		uncharacterized protein LOC285556 isoform X1	protein	Homo sapiens

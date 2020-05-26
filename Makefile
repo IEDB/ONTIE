@@ -25,9 +25,12 @@ $(TABLES): build/ontie.xlsx
 
 # ONTIE from templates
 
-ontie.owl: $(TABLES) | build/robot.jar
+ontie.owl: $(TABLES) src/ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) template \
-	$(foreach T,$^,--template $(T)) \
+	$(foreach T,$(TABLES),--template $(T)) \
+	merge \
+	--input $(lastword $^) \
+	--include-annotations true \
 	annotate \
 	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \

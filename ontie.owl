@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://ontology.iebd.org/ontology/ontie.owl#"
      xml:base="https://ontology.iebd.org/ontology/ontie.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
         <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-26/ontie.owl"/>
+        <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
+        <dc:title>Ontology for Immune Epitopes</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     </owl:Ontology>
     
 
@@ -94,6 +99,24 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has rank</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -1099,6 +1122,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St. Louis encephalitis virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Louis encephalitis virus</rdfs:label>
     </owl:Class>
     
@@ -1162,6 +1186,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis C virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepacivirus C</rdfs:label>
     </owl:Class>
     
@@ -1225,6 +1250,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newcastle disease virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avian avulavirus 1</rdfs:label>
     </owl:Class>
     
@@ -1234,6 +1260,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sendai virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murine respirovirus</rdfs:label>
     </owl:Class>
     
@@ -1252,6 +1279,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measles virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measles morbillivirus</rdfs:label>
     </owl:Class>
     
@@ -1270,6 +1298,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rinderpest virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rinderpest morbillivirus</rdfs:label>
     </owl:Class>
     
@@ -1288,6 +1317,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11250">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human respiratory syncytial virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human orthopneumovirus</rdfs:label>
     </owl:Class>
     
@@ -1603,6 +1633,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11908">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human T-lymphotropic virus 1</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human T-cell leukemia virus type I</rdfs:label>
     </owl:Class>
     
@@ -2647,6 +2678,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1765">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium bovis</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium tuberculosis variant bovis</rdfs:label>
     </owl:Class>
     
@@ -2683,6 +2715,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1772">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium smegmatis</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycolicibacterium smegmatis</rdfs:label>
     </owl:Class>
     
@@ -2800,6 +2833,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1980471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hantaan hantavirus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hantaan orthohantavirus</rdfs:label>
     </owl:Class>
     
@@ -2809,6 +2843,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1980486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puumala hantavirus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puumala orthohantavirus</rdfs:label>
     </owl:Class>
     
@@ -2944,6 +2979,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2169992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sabia mammarenavirus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian mammarenavirus</rdfs:label>
     </owl:Class>
     
@@ -3277,6 +3313,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29960">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenneropenaeus indicus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penaeus indicus</rdfs:label>
     </owl:Class>
     
@@ -3358,6 +3395,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31604">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peste-des-petits-ruminants virus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small ruminant morbillivirus</rdfs:label>
     </owl:Class>
     
@@ -5275,7 +5313,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</rdfs:label>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome-related coronavirus</rdfs:label>
     </owl:Class>
     
@@ -6082,10 +6120,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process by which a material is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">administering substance in vivo</rdfs:label>
-        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We intend to map this term to OBI:0600007</ontology:ONTIE_0003303>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">administering substance in vivo [OBI:0600007]</rdfs:label>
     </owl:Class>
     
 
@@ -22906,7 +22941,6 @@
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0001431">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0001348"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> HA(110-120) Tg</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HA Tg</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HA(110-120) Tg</obo:IAO_0000118>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
@@ -30588,7 +30622,7 @@
         <obo:IAO_0100001 rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0002053"/>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Large structural phosphoprotein</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Large structural phosphoprotein (Human betaherpesvirus 5)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRUE</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -35998,6 +36032,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p150</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyrosine-protein kinase ABL1</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyrosine-protein kinase ABL1 (Homo sapiens)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -36074,7 +36109,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF1ab polyprotein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pp1ab</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase polyprotein 1ab</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase polyprotein 1ab (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase polyprotein 1ab (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -37056,7 +37091,7 @@
         <obo:IAO_0100001 rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0002213"/>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete lactate dehydrogenase</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete lactate dehydrogenase (Papio cynocephalus)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRUE</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -39415,7 +39450,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peplomer protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S glycoprotein</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike glycoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike glycoprotein (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike glycoprotein (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -40526,7 +40561,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncharacterized protein 14</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncharacterized protein 14 (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncharacterized protein 14 (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -41506,7 +41541,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix glycoprotein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane glycoprotein</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane protein (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane protein (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -45343,7 +45378,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleocapsid protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein N</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleoprotein (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -45564,7 +45599,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E protein</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sM protein</obo:IAO_0000118>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope small membrane protein</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope small membrane protein (SARS coronavirus)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Envelope small membrane protein (Severe acute respiratory syndrome-related coronavirus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -46339,7 +46374,7 @@
         <obo:IAO_0100001 rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0002918"/>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete US22 family homolog</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete US22 family homolog (Murid betaherpesvirus 1)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRUE</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -49228,6 +49263,7 @@
         </rdfs:subClassOf>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rho-related GTP-binding protein RhoB</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rho-related GTP-binding protein RhoB (Gallus gallus)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -52809,7 +52845,10 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003314 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process by which a material is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">administering substance in vivo</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We intend to map this term to OBI:0600007</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -52817,7 +52856,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003315 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003315">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600007"/>
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administration of Leishmania major into Balb/c mice after they were immunized with a peptide vaccine in order to test if the vaccine results in less disease symptoms when compared to mice who did not receive the vaccine.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administering an infectious agent to an organism in order to test if and how an infection will occurr</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectious challenge</rdfs:label>
@@ -52829,7 +52868,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003316 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600007"/>
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of surgically attaching a donor kidney into a recipient patient.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transfering a solid tissue (transplant) or bodily fluid (transfusion) to an organism.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transplantation or transfusion</rdfs:label>

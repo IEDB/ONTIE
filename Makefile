@@ -1,3 +1,11 @@
+### Workflow
+#
+# 1. Edit the [ONTIE Google Sheet](https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/edit)
+# 2. Run [Update](update)
+# 3. View the results:
+#     - [ROBOT report](build/report.tsv)
+#     - [Tree](build/ontie-tree.html)
+
 KNODE := java -jar knode.jar
 XLSX := xlsx2csv --delimiter tab --escape --ignoreempty
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
@@ -40,12 +48,22 @@ build/report.tsv: ontie.owl
 	$(ROBOT) report --input $< --output $@ --print 20
 
 
+# Tree Building
+
+build/robot-tree.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
+
+build/ontie-tree.html: ontie.owl | build/robot-tree.jar
+	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
+	tree --input $< --tree $@
+
+
 # Main tasks
 
-.PHONY: refresh
-refresh:
+.PHONY: update
+update:
 	rm -rf build/ontie.xlsx $(TABLES)
-	make tables
+	make build/ontie-tree.html test
 
 .PHONY: clean
 clean:
@@ -53,9 +71,6 @@ clean:
 
 .PHONY: test
 test: build/report.tsv
-
-.PHONY: update
-update: refresh test
 
 .PHONY: all
 all: test

@@ -1,0 +1,26 @@
+ID	Label	Type	default datatype	cardinality
+ID	LABEL	TYPE		
+IAO:0000112	example of usage	owl:AnnotationProperty
+IAO:0000115	definition	owl:AnnotationProperty		zero or one
+IAO:0000115	definition	owl:AnnotationProperty
+IAO:0000118	alternative term	owl:AnnotationProperty		zero or more
+IAO:0000119	definition source	owl:AnnotationProperty
+IAO:0000232	curator note	owl:AnnotationProperty		zero or more
+IAO:0000232	curator note	owl:AnnotationProperty
+IAO:0100001	replacement	owl:AnnotationProperty	link	zero or one
+http://purl.obolibrary.org/obo/ncbitaxon#has_rank	has rank	owl:AnnotationProperty	link	zero or one
+OBI:9991118	IEDB alternative term	owl:AnnotationProperty		zero or one
+obo:IDO_0000664	has material basis in	owl:ObjectProperty
+obo:RO_0002162	in taxon	owl:AnnotationProperty	link	zero or one
+obo:RO_0002162	in taxon	owl:ObjectProperty
+oboInOwl:hasDbXref	database_cross_reference	owl:AnnotationProperty		zero or more
+ONTIE:0003256	protein taxon	owl:AnnotationProperty	link	zero or one
+ONTIE:0003257	protein label	owl:AnnotationProperty		zero or one
+ONTIE:0003258	parent taxon	owl:AnnotationProperty	link	zero or more
+ONTIE:0003259	ONTIE domain	owl:AnnotationProperty		zero or one
+ONTIE:0003303	mapping note	owl:AnnotationProperty
+ONTIE:0003420	model of human disease	owl:ObjectProperty
+owl:deprecated	obsolete	owl:AnnotationProperty	xsd:boolean	zero or one
+rdf:type	type	owl:AnnotationProperty	link	one or more
+rdfs:label	label	owl:AnnotationProperty		one
+rdfs:subClassOf	subclass of	owl:AnnotationProperty	link	zero or more

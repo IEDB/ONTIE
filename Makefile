@@ -1,74 +1,76 @@
-KNODE := java -jar knode.jar
+### Workflow
+#
+# 1. Edit the [ONTIE Google Sheet](https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/edit)
+# 2. Run [Update](update)
+# 3. View the results:
+#     - [ROBOT report](build/report.tsv)
+#     - [Tree](build/ontie-tree.html)
 
-# Fetch ontology files
+KNODE := java -jar knode.jar
+XLSX := xlsx2csv --delimiter tab --escape --ignoreempty
+ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
+
+DATE := $(shell date +%Y-%m-%d)
+
 build:
 	mkdir $@
 
-build/ncbitaxon.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+build/robot.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
 
-build/chebi.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/chebi.owl"
+# ROBOT templates from Google sheet
 
-build/obi.owl: | build
-	curl -L -o $@ "http://purl.obolibrary.org/obo/obi.owl"
+build/ontie.xlsx: | build
+	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
 
-build/mro.owl: | build
-	curl -L -o $@ "https://github.com/IEDB/MRO/raw/master/iedb/mro-iedb.owl"
+SHEETS := predicates index external protein disease taxon other
+TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
+tables: $(TABLES)
 
-# Extra NCBI tasks
-build/taxdmp.zip: | build
-	curl -L "ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdmp.zip" > $@
+$(TABLES): build/ontie.xlsx
+	$(XLSX) -n $(notdir $(basename $@)) $< > $@
 
-build/merged.dmp: build/taxdmp.zip
-	unzip -qc $< merged.dmp > $@
+# ONTIE from templates
 
-build/delnodes.dmp: build/taxdmp.zip
-	unzip -qc $< delnodes.dmp > $@
+ontie.owl: $(TABLES) src/ontology/metadata.ttl | build/robot.jar
+	$(ROBOT) template \
+	$(foreach T,$(TABLES),--template $(T)) \
+	merge \
+	--input $(lastword $^) \
+	--include-annotations true \
+	annotate \
+	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
+	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
+	--output $@
 
-build/ncbitaxon-merged.ttl: src/ncbitaxon-merged.py build/merged.dmp
-	$^ $@
-
-build/ncbitaxon-obsolete.ttl: src/ncbitaxon-obsolete.py build/delnodes.dmp
-	$^ $@
-
-
-# Load data into KnoDE
-
-.PHONY: load
-load: knode.edn build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
-	$(KNODE) load-config $<
-
-# Old load methods
-
-.PHONY: load-ontie
-load-ontie: ontology/context.kn ontology/external.tsv ontology/predicates.tsv ontology/index.tsv ontology/templates.kn ontology/ontie.kn
-	$(KNODE) load ONTIE $^
-
-.PHONY: load-ncbitaxonomy
-load-ncbitaxonomy: build/ncbitaxon.owl build/ncbitaxon-merged.ttl build/ncbitaxon-obsolete.ttl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon.owl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon-merged.ttl
-	$(KNODE) load NCBITaxonomy build/ncbitaxon-obsolete.ttl
-
-.PHONY: load-chebi
-load-chebi: build/chebi.owl
-	$(KNODE) load ChEBI $<
-
-.PHONY: load-obi
-load-obi: build/obi.owl
-	$(KNODE) load OBI $<
-
-.PHONY: load-mro
-load-mro: build/mro.owl
-	$(KNODE) load MRO $<
+build/report.tsv: ontie.owl
+	$(ROBOT) report --input $< --output $@ --print 20
 
 
-# General tasks
-.PHONY: all
-all: load
+# Tree Building
+
+build/robot-tree.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
+
+build/ontie-tree.html: ontie.owl | build/robot-tree.jar
+	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
+	tree --input $< --tree $@
+
+
+# Main tasks
+
+.PHONY: update
+update:
+	rm -rf build/ontie.xlsx $(TABLES)
+	make build/ontie-tree.html test
 
 .PHONY: clean
 clean:
 	rm -rf build/
+
+.PHONY: test
+test: build/report.tsv
+
+.PHONY: all
+all: test

@@ -1,0 +1,2 @@
+language: java
+script: mkdir build && touch build/ontie.xlsx src/ontology/templates/* && make test

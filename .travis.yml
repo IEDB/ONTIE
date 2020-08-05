@@ -1,2 +1,5 @@
-language: java
-script: mkdir build && touch build/ontie.xlsx src/ontology/templates/* && make test
+language: python
+python:
+  - 3.6
+script:
+  - mkdir build && touch build/ontie.xlsx src/ontology/templates/* && make test

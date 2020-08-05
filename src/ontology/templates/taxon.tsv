@@ -1,4 +1,4 @@
-Label	Parent	Taxonomic Rank	Alternative term	Domain	Cross-Ref	Comment
+Label	Parent	Taxonomic Rank	Alternative Term	Domain	Cross-Ref	Comment
 LABEL	SC % SPLIT=|	AI has rank	A alternative term SPLIT=|	A ONTIE domain	AI database_cross_reference	A rdfs:comment
 Acinetobacter haemolyticus strain 57	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter haemolyticus strain 61	Acinetobacter haemolyticus	subspecies		taxon	

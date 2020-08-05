@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-05-26/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-08-05/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -52920,6 +52920,7 @@
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of developing a cough and difficulty breathing as a tumor grows in the airway of a lung cancer patient.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process in which cancer unfolds</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrence of cancer</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We intend to map this term to OBI:1110053.</ontology:ONTIE_0003303>
     </owl:Class>
     
 

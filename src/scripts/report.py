@@ -1,7 +1,6 @@
 import csv
 import re
 import sys
-import logging
 
 from argparse import ArgumentParser
 
@@ -19,8 +18,6 @@ def idx_to_a1(row, col):
         column_label = chr(mod + 64) + column_label
 
     label = f"{column_label}{row}"
-
-    logging.error(f"{row}, {col} = {label}")
     return label
 
 

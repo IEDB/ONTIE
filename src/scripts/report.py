@@ -219,6 +219,7 @@ def main():
             # Optional: Definition, Alternative Term
             reader = csv.DictReader(f, delimiter=delim)
             headers = reader.fieldnames
+
             # Skip template string row
             next(reader)
             row_idx = 3
@@ -271,9 +272,6 @@ def main():
                             }
                         )
                         problem_id += 1
-                else:
-                    # TODO - how do we want to handle missing Parent column?
-                    pass
 
                 if "Definition" in headers:
                     definition = row["Definition"]
@@ -326,10 +324,6 @@ def main():
                             locs = []
                         locs.append(loc)
                         definition_to_locs[definition] = locs
-
-                else:
-                    # TODO - no definition column, how do we want to handle this?
-                    pass
 
                 if "Alternative Term" in headers:
                     alt_terms = row["Alternative Term"]

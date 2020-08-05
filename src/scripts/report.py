@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 
 
 def idx_to_a1(row, col):
-    """Adapted from gspread.utils."""
+    """Convert a row & column to A1 notation. Adapted from gspread.utils."""
     div = col
     column_label = ""
 

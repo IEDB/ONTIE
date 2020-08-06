@@ -67,6 +67,7 @@ def main():
                         "rule name": "missing label",
                         "value": "",
                         "fix": "",
+                        "instructions": "add a label",
                     }
                 )
                 problem_id += 1
@@ -84,6 +85,7 @@ def main():
                         "rule name": "label whitespace",
                         "value": label,
                         "fix": label.strip(),
+                        "instructions": "remove leading and trailing whitespace from label",
                     }
                 )
                 problem_id += 1
@@ -100,6 +102,7 @@ def main():
                         "rule name": "label formatting",
                         "value": label,
                         "fix": label.replace("\n", " ").replace("\t", " "),
+                        "instructions": "remove new lines and tabs from label",
                     }
                 )
                 problem_id += 1
@@ -135,6 +138,7 @@ def main():
                             "rule name": "missing obsolete label",
                             "value": label,
                             "fix": f"obsolete {label}",
+                            "instructions": "add obsolete to beginning of label",
                         }
                     )
                     problem_id += 1
@@ -150,6 +154,7 @@ def main():
                         "rule name": "misused obsolete label",
                         "value": label,
                         "fix": label.split(" ", 1)[1],
+                        "instructions": "remove obsolete from label or mark term as obsolete",
                     }
                 )
                 problem_id += 1
@@ -158,7 +163,9 @@ def main():
     # Check for multiple labels
     for curie, labels in curie_to_labels.items():
         if len(labels) > 1:
+            all_locs = labels.keys()
             for loc, label in labels.items():
+                other_locs = ", ".join([x for x in all_locs if x != loc])
                 problems.append(
                     {
                         "ID": problem_id,
@@ -169,6 +176,7 @@ def main():
                         "rule name": "multiple labels",
                         "value": label,
                         "fix": "",
+                        "instructions": f"select one label from this & {other_locs}",
                     }
                 )
                 problem_id += 1
@@ -176,7 +184,9 @@ def main():
     # Check for duplicate labels
     for label, curies in label_to_curies.items():
         if len(curies) > 1:
+            all_locs = curies.keys()
             for loc, curie in curies.items():
+                other_locs = ", ".join([x for x in all_locs if x != loc])
                 problems.append(
                     {
                         "ID": problem_id,
@@ -187,6 +197,7 @@ def main():
                         "rule name": "duplicate label",
                         "value": label,
                         "fix": f"",
+                        "instructions": f"assign unique labels to this * {other_locs}",
                     }
                 )
                 problem_id += 1
@@ -248,6 +259,7 @@ def main():
                                 "rule name": "annotation whitespace",
                                 "value": value,
                                 "fix": value.strip(),
+                                "instructions": "remove leading and trailing whitespace",
                             }
                         )
                         problem_id += 1
@@ -265,6 +277,7 @@ def main():
                                 "rule name": "missing superclass",
                                 "value": "",
                                 "fix": "",
+                                "instructions": "add a superclass or ignore this message",
                             }
                         )
                         problem_id += 1
@@ -284,6 +297,7 @@ def main():
                                 "rule name": "missing definition",
                                 "value": "",
                                 "fix": "",
+                                "instructions": "add a definition",
                             }
                         )
                         problem_id += 1
@@ -299,6 +313,7 @@ def main():
                                     "rule name": "lowercase definition",
                                     "value": definition,
                                     "fix": definition.capitalize(),
+                                    "instructions": "capitalize the first letter of the definition",
                                 }
                             )
                             problem_id += 1
@@ -341,7 +356,9 @@ def main():
         # Check for multiple definitions
         for curie, definitions in curie_to_definitions.items():
             if len(definitions) > 1:
+                all_locs = definitions.keys()
                 for loc, definition in definitions.items():
+                    other_locs = ", ".join([x for x in all_locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -352,6 +369,7 @@ def main():
                             "rule name": "multiple definitions",
                             "value": definition,
                             "fix": "",
+                            "instructions": f"select one definition from this & {other_locs}",
                         }
                     )
                     problem_id += 1
@@ -360,6 +378,7 @@ def main():
         for definition, locs in definition_to_locs.items():
             if len(locs) > 1:
                 for loc in locs:
+                    other_locs = ", ".join([x for x in locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -370,6 +389,7 @@ def main():
                             "rule name": "duplicate definitions",
                             "value": definition,
                             "fix": "",
+                            "instructions": f"write unique definitions for this & {other_locs}",
                         }
                     )
                     problem_id += 1
@@ -378,6 +398,7 @@ def main():
         for alt_term, locs in alt_term_to_locs.items():
             if len(locs) > 1:
                 for loc in locs:
+                    other_locs = ", ".join([x for x in locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -388,6 +409,7 @@ def main():
                             "rule name": f"duplicate exact synonym '{alt_term}'",
                             "value": alt_term,
                             "fix": "",
+                            "instructions": f"assign unique synonyms to this & {other_locs}",
                         }
                     )
                     problem_id += 1

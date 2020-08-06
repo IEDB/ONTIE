@@ -66,7 +66,7 @@ def main():
                         "rule ID": "ROBOT:report_queries/missing_label",
                         "rule name": "missing label",
                         "value": "",
-                        "fix": "add a label",
+                        "fix": "",
                     }
                 )
                 problem_id += 1
@@ -83,7 +83,7 @@ def main():
                         "rule ID": "ROBOT:report_queries/label_whitespace",
                         "rule name": "label whitespace",
                         "value": label,
-                        "fix": "remove leading or trailing whitespace",
+                        "fix": label.strip(),
                     }
                 )
                 problem_id += 1
@@ -99,7 +99,7 @@ def main():
                         "rule ID": "ROBOT:report_queries/label_formatting",
                         "rule name": "label formatting",
                         "value": label,
-                        "fix": "remove any newline or tab characters from label",
+                        "fix": label.replace("\n", " ").replace("\t", " "),
                     }
                 )
                 problem_id += 1
@@ -134,7 +134,7 @@ def main():
                             "rule ID": "ROBOT:report_queries/missing_obsolete_label",
                             "rule name": "missing obsolete label",
                             "value": label,
-                            "fix": "add 'obsolete' to beginning of label",
+                            "fix": f"obsolete {label}",
                         }
                     )
                     problem_id += 1
@@ -149,7 +149,7 @@ def main():
                         "rule ID": "ROBOT:report_queries/misused_obsolete_label",
                         "rule name": "misused obsolete label",
                         "value": label,
-                        "fix": "remove 'obsolete' from label OR annotate with obsolete = true",
+                        "fix": label.split(" ", 1)[1],
                     }
                 )
                 problem_id += 1
@@ -158,19 +158,17 @@ def main():
     # Check for multiple labels
     for curie, labels in curie_to_labels.items():
         if len(labels) > 1:
-            all_locs = labels.keys()
             for loc, label in labels.items():
-                other_locs = ", ".join([x for x in all_locs if x != loc])
                 problems.append(
                     {
                         "ID": problem_id,
                         "table": args.index,
-                        "cell": idx_to_a1(row_idx, headers.index("Label") + 1),
+                        "cell": loc,
                         "level": "error",
                         "rule ID": "ROBOT:report_queries/multiple_labels",
                         "rule name": "multiple labels",
                         "value": label,
-                        "fix": f"select one label from this cell & {other_locs}",
+                        "fix": "",
                     }
                 )
                 problem_id += 1
@@ -178,19 +176,17 @@ def main():
     # Check for duplicate labels
     for label, curies in label_to_curies.items():
         if len(curies) > 1:
-            all_locs = curies.keys()
             for loc, curie in curies.items():
-                other_locs = ", ".join([x for x in all_locs if x != loc])
                 problems.append(
                     {
                         "ID": problem_id,
                         "table": args.index,
-                        "cell": idx_to_a1(row_idx, headers.index("Label") + 1),
+                        "cell": loc,
                         "level": "error",
                         "rule ID": "ROBOT:report_queries/duplicate_label",
                         "rule name": "duplicate label",
                         "value": label,
-                        "fix": f"rename this term or term(s) at {other_locs}",
+                        "fix": f"",
                     }
                 )
                 problem_id += 1
@@ -251,7 +247,7 @@ def main():
                                 "rule ID": "ROBOT:report_queries/annotation_whitespace",
                                 "rule name": "annotation whitespace",
                                 "value": value,
-                                "fix": "remove leading or trailing whitespace",
+                                "fix": value.strip(),
                             }
                         )
                         problem_id += 1
@@ -268,32 +264,30 @@ def main():
                                 "rule ID": "ROBOT:report_queries/missing_superclass",
                                 "rule name": "missing superclass",
                                 "value": "",
-                                "fix": "maybe add a parent, or ignore if valid",
+                                "fix": "",
                             }
                         )
                         problem_id += 1
 
                 if "Definition" in headers:
                     definition = row["Definition"]
+                    loc = idx_to_a1(row_idx, headers.index("Definition") + 1)
                     if not definition or definition.strip() == "":
                         # No definition
                         problems.append(
                             {
                                 "ID": problem_id,
                                 "table": template,
-                                "cell": idx_to_a1(
-                                    row_idx, headers.index("Definition") + 1
-                                ),
+                                "cell": loc,
                                 "level": "warn",
                                 "rule ID": "ROBOT:report_queries/missing_definition",
                                 "rule name": "missing definition",
                                 "value": "",
-                                "fix": "add a definition",
+                                "fix": "",
                             }
                         )
                         problem_id += 1
                     else:
-                        loc = idx_to_a1(row_idx, headers.index("Definition") + 1)
                         if not re.match(r"^[A-Z]", definition.strip()):
                             problems.append(
                                 {
@@ -304,7 +298,7 @@ def main():
                                     "rule ID": "ROBOT:report_queries/lowercase_definition",
                                     "rule name": "lowercase definition",
                                     "value": definition,
-                                    "fix": "capitalize the first letter, or ignore",
+                                    "fix": definition.capitalize(),
                                 }
                             )
                             problem_id += 1
@@ -331,6 +325,8 @@ def main():
                         continue
                     alt_terms = alt_terms.split("|")
                     for at in alt_terms:
+                        if at.strip == "":
+                            continue
                         loc = idx_to_a1(row_idx, headers.index("Alternative Term") + 1)
                         at = at.strip()
                         if at in alt_term_to_locs:
@@ -345,9 +341,7 @@ def main():
         # Check for multiple definitions
         for curie, definitions in curie_to_definitions.items():
             if len(definitions) > 1:
-                all_locs = definitions.keys()
                 for loc, definition in definitions.items():
-                    other_locs = ", ".join([x for x in all_locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -357,7 +351,7 @@ def main():
                             "rule ID": "ROBOT:report_queries/multiple_definitions",
                             "rule name": "multiple definitions",
                             "value": definition,
-                            "fix": f"select one definition from this cell & {other_locs}",
+                            "fix": "",
                         }
                     )
                     problem_id += 1
@@ -366,7 +360,6 @@ def main():
         for definition, locs in definition_to_locs.items():
             if len(locs) > 1:
                 for loc in locs:
-                    other_locs = ", ".join([x for x in locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -376,7 +369,7 @@ def main():
                             "rule ID": "ROBOT:report_queries/duplicate_definition",
                             "rule name": "duplicate definitions",
                             "value": definition,
-                            "fix": f"rewrite this definition or the definition(s) at {other_locs}",
+                            "fix": "",
                         }
                     )
                     problem_id += 1
@@ -385,7 +378,6 @@ def main():
         for alt_term, locs in alt_term_to_locs.items():
             if len(locs) > 1:
                 for loc in locs:
-                    other_locs = ", ".join([x for x in locs if x != loc])
                     problems.append(
                         {
                             "ID": problem_id,
@@ -395,7 +387,7 @@ def main():
                             "rule ID": "ROBOT:report_queries/duplicate_exact_synonym",
                             "rule name": f"duplicate exact synonym '{alt_term}'",
                             "value": alt_term,
-                            "fix": f"assign unique synonyms to this cell & {other_locs}",
+                            "fix": "",
                         }
                     )
                     problem_id += 1

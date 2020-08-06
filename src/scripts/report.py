@@ -2,6 +2,8 @@ import csv
 import re
 import sys
 
+import logging
+
 from argparse import ArgumentParser
 
 
@@ -246,23 +248,22 @@ def main():
                     if not h:
                         break
                     # Check for whitespace
-                    if not value or value.strip() == "":
-                        continue
-                    if value.strip() != value:
-                        problems.append(
-                            {
-                                "ID": problem_id,
-                                "table": template,
-                                "cell": idx_to_a1(row_idx, headers.index(h) + 1),
-                                "level": "warn",
-                                "rule ID": "ROBOT:report_queries/annotation_whitespace",
-                                "rule name": "annotation whitespace",
-                                "value": value,
-                                "fix": value.strip(),
-                                "instructions": "remove leading and trailing whitespace",
-                            }
-                        )
-                        problem_id += 1
+                    if value and value.strip() != "":
+                        if value.strip() != value:
+                            problems.append(
+                                {
+                                    "ID": problem_id,
+                                    "table": template,
+                                    "cell": idx_to_a1(row_idx, headers.index(h) + 1),
+                                    "level": "warn",
+                                    "rule ID": "ROBOT:report_queries/annotation_whitespace",
+                                    "rule name": "annotation whitespace",
+                                    "value": value,
+                                    "fix": value.strip(),
+                                    "instructions": "remove leading and trailing whitespace",
+                                }
+                            )
+                            problem_id += 1
 
                 if "Parent" in headers:
                     if not row["Parent"] or row["Parent"].strip() == "":
@@ -335,21 +336,19 @@ def main():
                         definition_to_locs[definition] = locs
 
                 if "Alternative Term" in headers:
+                    loc = idx_to_a1(row_idx, headers.index("Alternative Term") + 1)
                     alt_terms = row["Alternative Term"]
-                    if not alt_terms or alt_terms.strip() == "":
-                        continue
-                    alt_terms = alt_terms.split("|")
-                    for at in alt_terms:
-                        if at.strip == "":
-                            continue
-                        loc = idx_to_a1(row_idx, headers.index("Alternative Term") + 1)
-                        at = at.strip()
-                        if at in alt_term_to_locs:
-                            locs = alt_term_to_locs[at]
-                        else:
-                            locs = []
-                        locs.append(loc)
-                        alt_term_to_locs[at] = locs
+                    if alt_terms and alt_terms.strip() != "":
+                        alt_terms = alt_terms.split("|")
+                        for at in alt_terms:
+                            if at.strip != "":
+                                at = at.strip()
+                                if at in alt_term_to_locs:
+                                    locs = alt_term_to_locs[at]
+                                else:
+                                    locs = []
+                                locs.append(loc)
+                                alt_term_to_locs[at] = locs
 
                 row_idx += 1
 
@@ -426,6 +425,7 @@ def main():
             "rule name",
             "value",
             "fix",
+            "instructions",
         ],
         delimiter="\t",
         lineterminator="\n",

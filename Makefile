@@ -47,6 +47,10 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl | build/robot.jar
 build/report.tsv: ontie.owl
 	$(ROBOT) report --input $< --output $@ --print 20
 
+INDEX := src/ontology/templates/index.tsv
+build/problems.tsv: src/scripts/report.py $(TABLES)
+	python3 $< --index $(INDEX) --templates $(filter-out $(INDEX), $(TABLES)) > $@
+
 
 # Tree Building
 
@@ -63,14 +67,14 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 .PHONY: update
 update:
 	rm -rf build/ontie.xlsx $(TABLES)
-	make build/ontie-tree.html test
+	make build/ontie-tree.html
 
 .PHONY: clean
 clean:
 	rm -rf build/
 
 .PHONY: test
-test: build/report.tsv
+test: build/problems.tsv build/report.tsv
 
 .PHONY: all
 all: test

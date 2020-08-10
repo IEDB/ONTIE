@@ -12,11 +12,22 @@ ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/on
 
 DATE := $(shell date +%Y-%m-%d)
 
-build:
+build resources:
 	mkdir $@
 
 build/robot.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+
+UNAME := $(shell uname)
+ifeq ($(UNAME), Darwin)
+	RDFTAB_URL := https://github.com/ontodev/rdftab.rs/releases/download/v0.1.1/rdftab-x86_64-apple-darwin
+else
+	RDFTAB_URL := https://github.com/ontodev/rdftab.rs/releases/download/v0.1.1/rdftab-x86_64-unknown-linux-musl
+endif
+
+build/rdftab: | build
+	curl -L -o $@ $(RDFTAB_URL)
+	chmod +x $@
 
 # ROBOT templates from Google sheet
 
@@ -33,11 +44,12 @@ $(TABLES): build/ontie.xlsx
 
 # ONTIE from templates
 
-ontie.owl: $(TABLES) src/ontology/metadata.ttl | build/robot.jar
+ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.jar
 	$(ROBOT) template \
 	$(foreach T,$(TABLES),--template $(T)) \
 	merge \
-	--input $(lastword $^) \
+	--input src/ontology/metadata.ttl \
+	--input build/imports.ttl \
 	--include-annotations true \
 	annotate \
 	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
@@ -45,11 +57,54 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl | build/robot.jar
 	--output $@
 
 build/report.tsv: ontie.owl
-	$(ROBOT) report --input $< --output $@ --print 20
+	$(ROBOT) remove \
+	--input $< \
+	--base-iri ONTIE \
+	--axioms external \
+	report \
+	--output $@ \
+	--print 20
 
 INDEX := src/ontology/templates/index.tsv
 build/problems.tsv: src/scripts/report.py $(TABLES)
-	python3 $< --index $(INDEX) --templates $(filter-out $(INDEX), $(TABLES)) > $@
+	python3 $< \
+	--index $(INDEX) \
+	--templates $(filter-out $(INDEX), $(TABLES)) > $@
+
+
+# Imports
+
+IMPORTS := doid obi
+OWL_IMPORTS := $(foreach I,$(IMPORTS),resources/$(I).owl)
+DBS := $(foreach I,$(IMPORTS),resources/$(I).db)
+MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)
+
+$(OWL_IMPORTS): | resources
+	curl -Lk -o $@ http://purl.obolibrary.org/obo/$(notdir $@)
+
+resources/%.db: src/scripts/prefixes.sql resources/%.owl | build/rdftab
+	rm -rf $@
+	sqlite3 $@ < $<
+	./build/rdftab $@ < $(word 2,$^)
+
+build/terms.txt: src/ontology/templates/external.tsv
+	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed '/NCBITaxon:/d' > $@
+
+ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119
+
+build/%-import.ttl: src/scripts/mireot.py resources/%.db build/terms.txt
+	$(eval ANNS := $(foreach A,$(ANN_PROPS), -a $(A)))
+	python3 $< -d $(word 2,$^) -t $(word 3,$^) $(ANNS) -n -o $@
+
+build/imports.ttl: $(MODULES) | build/robot.jar
+	$(eval INS := $(foreach M,$(MODULES), --input $(M)))
+	$(ROBOT) merge $(INS) --output $@
+
+.PHONY: clean-imports
+clean-imports:
+	rm -rf $(OWL_IMPORTS)
+
+refresh-imports: clean-imports build/imports.ttl
 
 
 # Tree Building

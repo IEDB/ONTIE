@@ -130,7 +130,7 @@ clean:
 	rm -rf build/
 
 .PHONY: test
-test: build/problems.tsv build/report.tsv
+test: build/report.tsv
 
 .PHONY: all
 all: test

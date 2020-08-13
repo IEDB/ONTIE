@@ -3,3 +3,7 @@ config
 tmp/
 build/
 resources/
+
+# COGS files
+credentials.json
+.cogs/

@@ -1,5 +1,6 @@
 ID	Label	Type	obsolete	replacement
 ID	LABEL	TYPE	AT obsolete^^xsd:boolean	AI replacement
+			
 ONTIE:0000001	Mus musculus BALB/c	owl:Class	
 ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	owl:Class	
 ONTIE:0000003	Mus musculus BALB/c beta2m null	owl:Class	
@@ -3543,3 +3544,21 @@ ONTIE:0003546	asymptomatic COVID-19 infection	owl:Class
 ONTIE:0003547	other disease course	owl:Class	
 ONTIE:0003548	disease course	owl:Class	
 ONTIE:0003549	SARS-CoV1	owl:Class	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

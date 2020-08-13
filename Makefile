@@ -7,16 +7,23 @@
 #     - [Tree](build/ontie-tree.html)
 
 KNODE := java -jar knode.jar
-XLSX := xlsx2csv --delimiter tab --escape --ignoreempty
+XLSX := xlsx2csv --delimiter tab --escape
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
+ROBOT_VALIDATE := java -jar build/robot-validate.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 
 DATE := $(shell date +%Y-%m-%d)
 
 build resources:
 	mkdir $@
 
+build/validate: | build
+	mkdir $@
+
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/error-tables/lastSuccessfulBuild/artifact/bin/robot.jar
+
+build/robot-validate.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -64,12 +71,6 @@ build/report.tsv: ontie.owl
 	report \
 	--output $@ \
 	--print 20
-
-INDEX := src/ontology/templates/index.tsv
-build/problems.tsv: src/scripts/report.py $(TABLES)
-	python3 $< \
-	--index $(INDEX) \
-	--templates $(filter-out $(INDEX), $(TABLES)) > $@
 
 
 # Imports
@@ -133,3 +134,69 @@ test: build/problems.tsv build/report.tsv
 
 .PHONY: all
 all: test
+
+
+# COGS Tasks
+
+# Create a new Google sheet with branch name & share it with provided email
+
+init: .cogs load push show
+.cogs: | credentials.json
+	$(eval TITLE := ONTIE $(shell git branch --show-current))
+	cogs init -c credentials.json -t "$(TITLE)" -u $(EMAIL) -r writer
+
+COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
+
+load: $(COGS_SHEETS)
+.cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
+	cogs add $<
+
+.PHONY: push
+push:
+	cogs push
+
+.PHONY: show
+show:
+	cogs open
+
+# Tasks after editing Google Sheets
+
+update-cogs: update-sheets apply push
+
+.PHONY: update-sheets
+update-sheets:
+	cogs fetch && cogs pull
+
+INDEX := src/ontology/templates/index.tsv
+build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
+	rm -f $@ && touch $@
+	python3 $< \
+	--index $(INDEX) \
+	--templates $(filter-out $(INDEX), $(TABLES)) > $@
+
+build/ontie.owl:
+	cp ontie.owl $@
+
+build/template-problems.tsv: $(TABLES) | build
+	rm -f $@ && touch $@
+	$(ROBOT) template \
+	$(foreach T,$(TABLES),--template $(T)) \
+	--force true \
+	--errors $@
+
+# TODO - only do this if there are no template issues?
+build/validate-problems.tsv: build/ontie.owl $(TABLES) | build/validate build/robot-validate.jar
+	rm -f $@ && touch $@
+	$(ROBOT_VALIDATE) validate \
+	--input $< \
+	$(foreach i,$(TABLES),--table $(i)) \
+	--reasoner hermit \
+	--skip-row 2 \
+	--format txt \
+	--errors $@ \
+	--no-fail true \
+	--output-dir build/validate
+
+apply: build/report-problems.tsv build/validate-problems.tsv build/template-problems.tsv
+	cogs apply $^
+

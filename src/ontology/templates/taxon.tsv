@@ -1,5 +1,6 @@
 Label	Parent	Taxonomic Rank	Alternative Term	Domain	Cross-Ref	Comment
 LABEL	SC % SPLIT=|	AI has rank	A alternative term SPLIT=|	A ONTIE domain	AI database_cross_reference	A rdfs:comment
+	is-required; subclass-of organism;				
 Acinetobacter haemolyticus strain 57	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter haemolyticus strain 61	Acinetobacter haemolyticus	subspecies		taxon	
 Acinetobacter lwoffii F78	Acinetobacter lwoffii	subspecies	F78	taxon	
@@ -2096,3 +2097,37 @@ Simian immunodeficiency virus - sm - sm E543	Simian immunodeficiency virus - sm	
 Simian immunodeficiency virus - sm - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon	
 Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon	
 Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon	
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

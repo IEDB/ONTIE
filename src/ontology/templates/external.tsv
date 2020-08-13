@@ -1,5 +1,6 @@
 ID	Label	Type	Class Type	Parent	Synonyms
 ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|
+
 BFO:0000015	process	owl:Class
 DOID:0014667	disease of metabolism	owl:Class		additional diseases by category
 DOID:0040088	autoimmune uveitis	owl:Class		autoimmune disease

@@ -1,5 +1,6 @@
 ID	Label	Type	default datatype	cardinality
 ID	LABEL	TYPE		
+
 IAO:0000112	example of usage	owl:AnnotationProperty
 IAO:0000115	definition	owl:AnnotationProperty		zero or one
 IAO:0000115	definition	owl:AnnotationProperty

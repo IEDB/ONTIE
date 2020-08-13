@@ -53,8 +53,8 @@ def main():
         headers = reader.fieldnames
         # Skip template string row
         next(reader)
-        # Start at row idx 3; row 1 is headers, row 2 is template strings
-        row_idx = 3
+        # Start at row idx 3; 1=headers, 2=template, 3=validate
+        row_idx = 4
         for row in reader:
             curie = row["ID"]
             label = row["Label"]
@@ -231,7 +231,7 @@ def main():
 
             # Skip template string row
             next(reader)
-            row_idx = 3
+            row_idx = 4
 
             for row in reader:
                 label = row["Label"]

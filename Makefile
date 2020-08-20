@@ -1,6 +1,6 @@
 ### Workflow
 #
-# 1. [Edit](./cogs.sh) the Google Sheet
+# 1. [Edit](./src/scripts/cogs.sh) the Google Sheet
 # 2. [Validate](validate) sheet
 # 2. [Update](update) ontology files
 # 3. View the results:

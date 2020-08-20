@@ -1,5 +1,6 @@
 Label	Parent	Definition	Alternative Term	Domain	Carrier	Human Disease
 LABEL	SC %	A definition	A alternative term SPLIT=|	A ONTIE domain	SC 'has material basis in' some %	SC 'model of human disease' some % SPLIT=|
+	is-required when (%1 not-equivalent-to 'host health status');				is-excluded when (%1 equivalent-to|subclass-of healthy);	is-excluded when (%1 equivalent-to|subclass-of healthy);
 adjuvant-induced arthritis (AIA)	experimental arthritis	An experimental arthritis induced by the administration of adjuvant.	AIA|U41	disease		
 animal model of autoimmune disease	animal model of disease	An animal model of disease that serves as a method to study a human autoimmune disease.		disease		autoimmune disease
 animal model of disease	disease	An experimental process in which an organism other than human is studied as it undergoes a process that mimics an occurrence of a human disease in order to study that disease.¬†		disease		

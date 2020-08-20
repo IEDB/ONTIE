@@ -1,5 +1,6 @@
-Label	Parent	Alternative Term	IEDB Term	Domain	In Taxon																						
-LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE domain	SC 'in taxon' some %																						
+Label	Parent	Alternative Term	IEDB Term	Domain	In Taxon
+LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE domain	SC 'in taxon' some %
+	is-required; subclass-of|equivalent-to protein;				is-required; subclass-of organism;
 1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase beta-2 (Homo sapiens)	protein	PLC-beta-2|phospholipase C-beta-2	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase beta-2	protein	Homo sapiens
 10 kDa chaperonin (Mycobacterium leprae)	protein	GroES protein|Protein Cpn10	10 kDa chaperonin	protein	Mycobacterium leprae
 10 kDa chaperonin (Mycobacterium tuberculosis)	protein	10 kDa antigen|BCG-A heat shock protein|GroES protein|Protein Cpn10	10 kDa chaperonin	protein	Mycobacterium tuberculosis
@@ -1138,7 +1139,7 @@ Rho GDP dissociation inhibitor (Homo sapiens)	protein	GDI	Rho GDP dissociation i
 rho GTPase-activating protein 15 (Homo sapiens)	protein		rho GTPase-activating protein 15	protein	Homo sapiens
 rho GTPase-activating protein 25 (Homo sapiens)	protein		rho GTPase-activating protein 25	protein	Homo sapiens
 rho GTPase-activating protein 4 (Homo sapiens)	protein		rho GTPase-activating protein 4	protein	Homo sapiens
-rho-related GTP-binding protein RhoB (Gallus gallus)	protein		rho-related GTP-binding protein RhoB	protein	Gallus gallus																						
+rho-related GTP-binding protein RhoB (Gallus gallus)	protein		rho-related GTP-binding protein RhoB	protein	Gallus gallus
 Rhodopsin (Bos taurus)	protein		Rhodopsin	protein	Bos taurus
 Rhoptry-associated protein 1 (Plasmodium falciparum)	protein		Rhoptry-associated protein 1	protein	Plasmodium falciparum
 Ribonuclease mitogillin (Aspergillus fumigatus)	protein	Allergen Asp f I|Allergen I/a|IgE-binding ribotoxin|Major allergen Asp f 1	Ribonuclease mitogillin	protein	Aspergillus fumigatus
@@ -1345,7 +1346,7 @@ two component system histidine kinase (Coxiella burnetii)	protein		two component
 type I restriction enzyme restriction subunit (Nitrococcus mobilis)	protein		type I restriction enzyme restriction subunit	protein	Nitrococcus mobilis
 type VII secretion protein EsxH (Mycobacterium tuberculosis)	protein		type VII secretion protein EsxH	protein	Mycobacterium tuberculosis
 Tyrosinase (Homo sapiens)	protein	LB24-AB|Monophenol monooxygenase|SK29-AB|Tumor rejection antigen AB	Tyrosinase	protein	Homo sapiens
-Tyrosine-protein kinase ABL1 (Homo sapiens)	protein	Abelson murine leukemia viral oncogene homolog 1|Abelson tyrosine-protein kinase 1|Proto-oncogene c-Abl|p150	Tyrosine-protein kinase ABL1	protein	Homo sapiens																						
+Tyrosine-protein kinase ABL1 (Homo sapiens)	protein	Abelson murine leukemia viral oncogene homolog 1|Abelson tyrosine-protein kinase 1|Proto-oncogene c-Abl|p150	Tyrosine-protein kinase ABL1	protein	Homo sapiens
 Tyrosine-protein kinase ABL2 (Homo sapiens)	protein		Tyrosine-protein kinase ABL2	protein	Homo sapiens
 tyrosine-protein kinase Lyn isoform B (Homo sapiens)	protein		tyrosine-protein kinase Lyn isoform B	protein	Homo sapiens
 Tyrosine-protein phosphatase non-receptor type 11 (Homo sapiens)	protein	PTP-1D|PTP-2C|Protein-tyrosine phosphatase 1D|Protein-tyrosine phosphatase 2C|SH-PTP2|SH-PTP3|SHP-2|Shp2	Tyrosine-protein phosphatase non-receptor type 11	protein	Homo sapiens

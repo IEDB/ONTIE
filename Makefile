@@ -5,7 +5,11 @@
 # 2. [Update](update) ontology files
 # 3. View the results:
 #     - [ROBOT report](build/report.html)
+#     - [ROBOT diff](build/diff.html)
+#       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
+#       to this branch [ontie.owl](ontie.owl)
 #     - [Tree](build/ontie-tree.html)
+#     - [ontie.owl](ontie.owl)
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
@@ -70,6 +74,9 @@ build/report.%: ontie.owl | build/robot-report.jar
 	--standalone true \
 	--print 20
 
+build/diff.html: ontie.owl | build/robot.jar
+	git show master:ontie.owl > build/ontie.master.owl
+	$(ROBOT) diff -l build/ontie.master.owl -r $^ -f html -o $@
 
 # Imports
 

@@ -134,7 +134,13 @@ all: test
 
 
 build/report.tsv: ontie.owl
-	$(ROBOT) report --input $< --output $@ --print 20
+	$(ROBOT_REPORT) remove \
+	--input $< \
+	--base-iri ONTIE \
+	--axioms external \
+	report \
+	--output $@ \
+	--print 20
 
 
 # COGS Tasks

@@ -8,19 +8,18 @@ echo ""
 
 cd ../..
 
-COGS=".venv/bin/cogs"
 URL="http://example.com?${QUERY_STRING}" 
 EMAIL=$(urlp --query --query_field=email "${URL}")
 
 if [[ ${EMAIL} ]]; then
   echo "<p>Creating a Google Sheet and sharing it with ${EMAIL} ...</p>"
-  TITLE="ONTIE $(shell git branch --show-current)"
-  ${COGS} init -t "${TITLE}" -u ${EMAIL} -r writer
+  TITLE="ONTIE $(git branch --show-current)"
+  cogs init -t "${TITLE}" -u ${EMAIL} -r writer
   make load push
 fi
 
 if [ -d .cogs ]; then
-  LINK=$(${COGS} open)
+  LINK=$(cogs open)
   echo "<a href='${LINK}'>Open Google Sheet</a>"
   echo "<meta http-equiv='refresh' content='0; URL=${LINK}'/>"
   exit 0

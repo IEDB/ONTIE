@@ -60,7 +60,7 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/report.html: ontie.owl | build/robot-report.jar
+build/report.%: ontie.owl | build/robot-report.jar
 	$(ROBOT_REPORT) remove \
 	--input $< \
 	--base-iri ONTIE \
@@ -131,16 +131,6 @@ test: build/report.tsv
 
 .PHONY: all
 all: test
-
-
-build/report.tsv: ontie.owl
-	$(ROBOT_REPORT) remove \
-	--input $< \
-	--base-iri ONTIE \
-	--axioms external \
-	report \
-	--output $@ \
-	--print 20
 
 
 # COGS Tasks

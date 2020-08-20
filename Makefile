@@ -23,7 +23,7 @@ KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 ROBOT_VALIDATE := java -jar build/robot-validate.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 ROBOT_REPORT := java -jar build/robot-report.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
-COGS := .venv/bin/cogs
+COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
@@ -31,7 +31,7 @@ build resources build/validate build/diff build/master:
 	mkdir -p $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/error-tables/4/artifact/bin/robot.jar
 
 build/robot-validate.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
@@ -162,6 +162,9 @@ COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
 
 .PHONY: load
 load: $(COGS_SHEETS)
+	mv .cogs/sheet.tsv sheet.tsv
+	sed s/0/3/ sheet.tsv > .cogs/sheet.tsv
+	rm sheet.tsv
 
 .cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
 	$(COGS) add $<

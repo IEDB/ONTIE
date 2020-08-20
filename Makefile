@@ -133,6 +133,10 @@ test: build/report.tsv
 all: test
 
 
+build/report.tsv: ontie.owl
+	$(ROBOT) report --input $< --output $@ --print 20
+
+
 # COGS Tasks
 
 # Create a new Google sheet with branch name & share it with provided email

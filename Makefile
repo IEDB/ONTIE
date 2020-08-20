@@ -2,8 +2,16 @@
 #
 # 1. [Edit](./src/scripts/cogs.sh) the Google Sheet
 # 2. [Validate](validate) sheet
-# 2. [Update](update) ontology files
-# 3. View the results:
+# 3. Compare `master` branch to current tables:
+#     - [predicates](build/diff/predicates.html)
+#     - [index](build/diff/index.html)
+#     - [external](build/diff/external.html)
+#     - [protein](build/diff/protein.html)
+#     - [disease](build/diff/disease.html)
+#     - [taxon](build/diff/taxon.html)
+#     - [other](build/diff/other.html)
+# 4. [Update](update) ontology files
+# 5. View the results:
 #     - [ROBOT report](build/report.html)
 #     - [ROBOT diff](build/diff.html)
 #       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
@@ -19,11 +27,8 @@ COGS := .venv/bin/cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
-build resources:
-	mkdir $@
-
-build/validate: | build
-	mkdir $@
+build resources build/validate build/diff build/master:
+	mkdir -p $@
 
 build/robot.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
@@ -76,7 +81,16 @@ build/report.%: ontie.owl | build/robot-report.jar
 
 build/diff.html: ontie.owl | build/robot.jar
 	git show master:ontie.owl > build/ontie.master.owl
-	$(ROBOT) diff -l build/ontie.master.owl -r $^ -f html -o $@
+	$(ROBOT) diff -l build/ontie.master.owl -r $< -f html -o $@
+
+DIFF_TABLES := $(foreach S,$(SHEETS),build/diff/$(S).html)
+
+build/diff/%.html: src/ontology/templates/%.tsv | build/master build/diff
+	git show master:$^ > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@
+
+diffs: $(DIFF_TABLES)
+
 
 # Imports
 

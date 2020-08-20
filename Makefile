@@ -1,15 +1,17 @@
 ### Workflow
 #
-# 1. Edit the [ONTIE Google Sheet](https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/edit)
-# 2. Run [Update](update)
+# 1. [Edit](./cogs.sh) the Google Sheet
+# 2. [Validate](validate) sheet
+# 2. [Update](update) ontology files
 # 3. View the results:
-#     - [ROBOT report](build/report.tsv)
+#     - [ROBOT report](build/report.html)
 #     - [Tree](build/ontie-tree.html)
 
 KNODE := java -jar knode.jar
-XLSX := xlsx2csv --delimiter tab --escape
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 ROBOT_VALIDATE := java -jar build/robot-validate.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
+ROBOT_REPORT := java -jar build/robot-report.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
+COGS := .venv/bin/cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
@@ -20,10 +22,13 @@ build/validate: | build
 	mkdir $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/error-tables/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
 
 build/robot-validate.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
+
+build/robot-report.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -38,16 +43,8 @@ build/rdftab: | build
 
 # ROBOT templates from Google sheet
 
-build/ontie.xlsx: | build
-	curl -L -o $@ "https://docs.google.com/spreadsheets/d/1DFij_uxMH74KR8bM-wjJYa9qITJ81MvFIKUSpZRPelw/export?format=xlsx"
-
 SHEETS := predicates index external protein disease taxon other
 TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
-
-tables: $(TABLES)
-
-$(TABLES): build/ontie.xlsx
-	$(XLSX) -n $(notdir $(basename $@)) $< > $@
 
 # ONTIE from templates
 
@@ -63,13 +60,14 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/report.tsv: ontie.owl
-	$(ROBOT) remove \
+build/report.html: ontie.owl | build/robot-report.jar
+	$(ROBOT_REPORT) remove \
 	--input $< \
 	--base-iri ONTIE \
 	--axioms external \
 	report \
 	--output $@ \
+	--standalone true \
 	--print 20
 
 
@@ -122,8 +120,7 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 
 .PHONY: update
 update:
-	rm -rf build/ontie.xlsx $(TABLES)
-	make build/ontie-tree.html
+	make validate build/ontie-tree.html
 
 .PHONY: clean
 clean:
@@ -140,32 +137,30 @@ all: test
 
 # Create a new Google sheet with branch name & share it with provided email
 
-init: .cogs load push show
-.cogs: | credentials.json
-	$(eval TITLE := ONTIE $(shell git branch --show-current))
-	cogs init -c credentials.json -t "$(TITLE)" -u $(EMAIL) -r writer
-
 COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
 
+.PHONY: load
 load: $(COGS_SHEETS)
+
 .cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
-	cogs add $<
+	$(COGS) add $<
 
 .PHONY: push
 push:
-	cogs push
+	$(COGS) push
 
 .PHONY: show
 show:
-	cogs open
+	$(COGS) open
 
 # Tasks after editing Google Sheets
 
-update-cogs: update-sheets apply push
+.PHONY: validate
+validate: update-sheets apply push
 
 .PHONY: update-sheets
 update-sheets:
-	cogs fetch && cogs pull
+	$(COGS) fetch && $(COGS) pull
 
 INDEX := src/ontology/templates/index.tsv
 build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
@@ -177,7 +172,7 @@ build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
 build/ontie.owl:
 	cp ontie.owl $@
 
-build/template-problems.tsv: $(TABLES) | build
+build/template-problems.tsv: $(TABLES) | build/robot.jar
 	rm -f $@ && touch $@
 	$(ROBOT) template \
 	$(foreach T,$(TABLES),--template $(T)) \
@@ -197,6 +192,7 @@ build/validate-problems.tsv: build/ontie.owl $(TABLES) | build/validate build/ro
 	--no-fail true \
 	--output-dir build/validate
 
-apply: build/report-problems.tsv build/validate-problems.tsv build/template-problems.tsv
-	cogs apply $^
+.PHONY: apply
+apply: build/report-problems.tsv build/template-problems.tsv
+	$(COGS) apply $^
 

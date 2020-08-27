@@ -1,5 +1,5 @@
-ID	Label	Type	Class Type	Parent	Synonyms
-ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|
+ID	Label	Type	Class Type	Parent	Synonyms	Additional Axiom
+ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|	C % SPLIT=|
 					
 BFO:0000015	process	owl:Class			
 CHEBI:60004	mixture	owl:Class			
@@ -318,6 +318,7 @@ NCBITaxon:246618	Bifidobacterium thermacidophilum	owl:Class		organism
 NCBITaxon:246878	Canine parvovirus 2	owl:Class		organism	
 NCBITaxon:251654	Pseudomonas syringae pv. helianthi	owl:Class		organism	
 NCBITaxon:254355	Small ruminant lentivirus	owl:Class		organism	
+NCBITaxon:257313	Bordetella pertussis Tohama I	owl:Class		Bordetella pertussis
 NCBITaxon:260799	Bacillus anthracis str. Sterne	owl:Class		organism	
 NCBITaxon:263	Francisella tularensis	owl:Class		organism	
 NCBITaxon:265872	Cowpox virus (Brighton Red)	owl:Class		organism	
@@ -655,10 +656,10 @@ OBI:0000011	planned process	owl:Class		process
 OBI:0100026	organism	owl:Class			
 OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class	equivalent	ONTIE:0003314	
 PR:000000001	protein	owl:Class			
-PR:A0A171JW18	Fimbrial protein Fim3	owl:Class		protein	Fim3
-PR:P04977	Pertussis toxin subunit 1	owl:Class		protein	
-PR:P04978	Pertussis toxin subunit 2	owl:Class		protein	
-PR:P04979	Pertussis toxin subunit 3	owl:Class		protein	
-PR:P04981	Pertussis toxin subunit 5	owl:Class		protein	
-PR:P0A3R5	Pertussis toxin subunit 4	owl:Class		protein	
-PR:Q5I8X0	Fimbrial protein	owl:Class		protein	Fim2
+PR:A0A171JW18	Fimbrial protein Fim3	owl:Class		protein	Fim3	'in taxon' some 'Bordetella pertussis'
+PR:P04977	Pertussis toxin subunit 1	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
+PR:P04978	Pertussis toxin subunit 2	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
+PR:P04979	Pertussis toxin subunit 3	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
+PR:P04981	Pertussis toxin subunit 5	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
+PR:P0A3R5	Pertussis toxin subunit 4	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
+PR:Q5I8X0	Fimbrial protein	owl:Class		protein	Fim2	'in taxon' some 'Bordetella pertussis'

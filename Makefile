@@ -107,7 +107,7 @@ resources/%.db: src/scripts/prefixes.sql resources/%.owl | build/rdftab
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
 
-build/terms.txt: src/ontology/templates/external.tsv
+build/terms.txt: src/ontology/templates/external.tsv | build
 	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed '/NCBITaxon:/d' > $@
 
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119

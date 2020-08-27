@@ -3151,6 +3151,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_257313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_257313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bordetella pertussis Tohama I</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_260799 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_260799">
@@ -6210,6 +6219,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_A0A171JW18">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fim3</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fimbrial protein Fim3</rdfs:label>
     </owl:Class>
@@ -6220,6 +6235,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P04977">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_257313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 1</rdfs:label>
     </owl:Class>
     
@@ -6229,6 +6250,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P04978">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_257313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 2</rdfs:label>
     </owl:Class>
     
@@ -6238,6 +6265,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P04979">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_257313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 3</rdfs:label>
     </owl:Class>
     
@@ -6247,6 +6280,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P04981">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_257313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 5</rdfs:label>
     </owl:Class>
     
@@ -6256,6 +6295,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0A3R5">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_257313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 4</rdfs:label>
     </owl:Class>
     
@@ -6265,6 +6310,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q5I8X0">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fim2</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fimbrial protein</rdfs:label>
     </owl:Class>
@@ -56765,7 +56816,14 @@
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin complex</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -56774,7 +56832,14 @@
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003551">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin complex, inactivated by PFA</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -56783,7 +56848,14 @@
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003552">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin complex, inactivated mutant</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</ontology:ONTIE_0003259>
     </owl:Class>
     
 
@@ -56792,6 +56864,12 @@
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003553">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixture of Fim2 and Fim3</rdfs:label>
     </owl:Class>
     

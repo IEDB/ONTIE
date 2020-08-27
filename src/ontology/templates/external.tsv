@@ -2,6 +2,7 @@ ID	Label	Type	Class Type	Parent	Synonyms
 ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|
 					
 BFO:0000015	process	owl:Class			
+CHEBI:60004	mixture	owl:Class			
 DOID:0014667	disease of metabolism	owl:Class		additional diseases by category	
 DOID:0040088	autoimmune uveitis	owl:Class		autoimmune disease	
 DOID:0040095	autoimmune cardiomyopathy	owl:Class		autoimmune disease	
@@ -35,8 +36,8 @@ DOID:863	nervous system disease	owl:Class		disease of anatomical entity
 DOID:9446	cholangitis	owl:Class		gastrointestinal system disease	
 DOID:9808	Goodpasture syndrome	owl:Class		autoimmune disease	
 GO:0008150	biological process	owl:Class		process	
+GO:0043234	protein complex	owl:Class			
 IAO:0000030	information content entity	owl:Class			
-OBI:0100026	organism	owl:Class			
 NCBITaxon:10009	Tamiasciurus hudsonicus	owl:Class		organism	
 NCBITaxon:10036	Mesocricetus auratus	owl:Class		organism	
 NCBITaxon:1006061	Duck hepatitis A virus 1	owl:Class		organism	
@@ -651,5 +652,13 @@ NCBITaxon:99875	Leishmania donovani donovani	owl:Class		organism
 NCBITaxon:no_rank	no rank	owl:Class		information content entity	
 NCBITaxon:subspecies	subspecies	owl:Class		information content entity	
 OBI:0000011	planned process	owl:Class		process	
+OBI:0100026	organism	owl:Class			
 OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class	equivalent	ONTIE:0003314	
 PR:000000001	protein	owl:Class			
+PR:A0A171JW18	Fimbrial protein Fim3	owl:Class		protein	Fim3
+PR:P04977	Pertussis toxin subunit 1	owl:Class		protein	
+PR:P04978	Pertussis toxin subunit 2	owl:Class		protein	
+PR:P04979	Pertussis toxin subunit 3	owl:Class		protein	
+PR:P04981	Pertussis toxin subunit 5	owl:Class		protein	
+PR:P0A3R5	Pertussis toxin subunit 4	owl:Class		protein	
+PR:Q5I8X0	Fimbrial protein	owl:Class		protein	Fim2

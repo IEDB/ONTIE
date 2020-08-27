@@ -1,0 +1,7 @@
+Label	Parent	Alternative Term	IEDB Term	Domain	In Taxon
+LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE domain	SC 'in taxon' some %
+	is-required; subclass-of|equivalent-to ('protein complex' or mixture)				
+Pertussis toxin complex	protein complex				
+Pertussis toxin complex, inactivated by PFA	Pertussis toxin complex				
+Pertussis toxin complex, inactivated mutant	Pertussis toxin complex				
+mixture of Fim2 and Fim3	mixture				

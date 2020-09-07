@@ -2666,7 +2666,7 @@ ONTIE:0002662	Low-density lipoprotein receptor (Homo sapiens)	owl:Class
 ONTIE:0002663	Insulin (Bos taurus)	owl:Class		
 ONTIE:0002664	Membrane protein, putative (Coxiella burnetii)	owl:Class		
 ONTIE:0002665	Hemagglutinin-neuraminidase (Avian avulavirus 1)	owl:Class		
-ONTIE:0002666	Pertussis toxin subunit 1 (Bordetella pertussis)	owl:Class		
+ONTIE:0002666	Pertussis toxin subunit 1 (Bordetella pertussis)	owl:Class	true	PR:P04977
 ONTIE:0002667	Chaperone protein ClpB (Escherichia coli)	owl:Class		
 ONTIE:0002668	Secretion protein (Francisella tularensis)	owl:Class		
 ONTIE:0002669	Membrane protein (Severe acute respiratory syndrome-related coronavirus)	owl:Class		
@@ -2950,7 +2950,7 @@ ONTIE:0002946	DNA helicase INO80 (Mus musculus)	owl:Class
 ONTIE:0002947	progesterone receptor (Mus musculus)	owl:Class		
 ONTIE:0002948	SET binding factor 1 (Homo sapiens)	owl:Class		
 ONTIE:0002949	bullous pemphigoid antigen (Homo sapiens)	owl:Class		
-ONTIE:0002950	pertussis toxin subunit 4 (Bordetella pertussis)	owl:Class		
+ONTIE:0002950	pertussis toxin subunit 4 (Bordetella pertussis)	owl:Class	true	PR:P0A3R5
 ONTIE:0002951	E1A 26 kDa protein (Human adenovirus 5)	owl:Class		
 ONTIE:0002952	Clostridium Neurotoxin Type B (Clostridium botulinum)	owl:Class		
 ONTIE:0002953	Major Peanut Allergen Ara H 1 (Arachis hypogaea)	owl:Class		
@@ -3544,7 +3544,7 @@ ONTIE:0003546	asymptomatic COVID-19 infection	owl:Class
 ONTIE:0003547	other disease course	owl:Class		
 ONTIE:0003548	disease course	owl:Class		
 ONTIE:0003549	SARS-CoV1	owl:Class		
-ONTIE:0003550	Pertussis toxin complex	owl:Class
-ONTIE:0003551	Pertussis toxin complex, inactivated by PFA	owl:Class
-ONTIE:0003552	Pertussis toxin complex, inactivated mutant	owl:Class
-ONTIE:0003553	mixture of Fim2 and Fim3	owl:Class
+ONTIE:0003550	Pertussis toxin complex	owl:Class		
+ONTIE:0003551	Pertussis toxin complex, inactivated by PFA	owl:Class		
+ONTIE:0003552	Pertussis toxin complex, inactivated mutant	owl:Class		
+ONTIE:0003553	mixture of Fim2 and Fim3	owl:Class		

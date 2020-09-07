@@ -52,7 +52,7 @@ build/rdftab: | build
 
 # ROBOT templates from Google sheet
 
-SHEETS := predicates index external protein disease taxon other
+SHEETS := predicates index external protein complex disease taxon other
 TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
 # ONTIE from templates
@@ -107,7 +107,7 @@ resources/%.db: src/scripts/prefixes.sql resources/%.owl | build/rdftab
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
 
-build/terms.txt: src/ontology/templates/external.tsv
+build/terms.txt: src/ontology/templates/external.tsv | build
 	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed '/NCBITaxon:/d' > $@
 
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119

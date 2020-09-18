@@ -20,8 +20,8 @@ fi
 
 if [ -d .cogs ]; then
   LINK=$(cogs open)
-  echo "<a href='${LINK}'>Open Google Sheet</a>"
-  echo "<meta http-equiv='refresh' content='0; URL=${LINK}'/>"
+  echo "<a href='${LINK}' target='_blank'>Open Google Sheet</a>"
+  echo "<meta http-equiv='refresh' content='5; URL=URL=javascript:window.open(${LINK})'/>"
   exit 0
 fi
 

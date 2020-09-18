@@ -6,4 +6,5 @@ resources/
 
 # COGS files
 credentials.json
-.cogs/.git-credentials
+.cogs
+.git-credentials

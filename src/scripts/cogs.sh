@@ -10,18 +10,21 @@ cd ../..
 
 URL="http://example.com?${QUERY_STRING}" 
 EMAIL=$(urlp --query --query_field=email "${URL}")
+BRANCH=$(git branch --show-current)
 
 if [[ ${EMAIL} ]]; then
   echo "<p>Creating a Google Sheet and sharing it with ${EMAIL} ...</p>"
-  TITLE="ONTIE $(git branch --show-current)"
+  TITLE="ONTIE ${BRANCH}"
   cogs init -t "${TITLE}" -u ${EMAIL} -r writer
   make load push
 fi
 
 if [ -d .cogs ]; then
   LINK=$(cogs open)
-  echo "<a href='${LINK}'>Open Google Sheet</a>"
-  echo "<meta http-equiv='refresh' content='0; URL=${LINK}'/>"
+  echo "<ul><li><a href='${LINK}' target='_blank'>Open Google Sheet</a><br></li>"
+  echo "<li><a href='/ONTIE/branches/${BRANCH}'>Return to ${BRANCH}</a></li></ul>"
+  echo "<script type='text/javascript'>window.open('${LINK}');</script>"
+  echo "<meta http-equiv='refresh' content='0; /ONTIE/branches/${BRANCH}'/>"
   exit 0
 fi
 

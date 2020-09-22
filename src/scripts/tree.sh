@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #
-# This simple CGI script helps create a new Google Sheet
-# and share it with the user.
+# This simple CGI script helps create a tree browser for ONTIE
 
 cd ../..
 

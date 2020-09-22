@@ -16,7 +16,7 @@
 #     - [ROBOT diff](build/diff.html)
 #       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
 #       to this branch [ontie.owl](ontie.owl)
-#     - [Tree](build/ontie-tree.html)
+#     - [Tree](./src/scripts/tree.sh)
 #     - [ontie.owl](ontie.owl)
 
 KNODE := java -jar knode.jar
@@ -135,6 +135,11 @@ build/robot-tree.jar: | build
 build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
 	tree --input $< --tree $@
+
+build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
+	rm -rf $@
+	sqlite3 $@ < $<
+	./build/rdftab $@ < ontie.owl
 
 
 # Main tasks

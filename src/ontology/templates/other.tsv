@@ -17,7 +17,7 @@ occurrence of cancer	occurrence of disease	The process in which cancer unfolds	T
 occurrence of cancer associated with virus	occurrence of disease	An occurence of cancer where there is evidence for the presence of a cancer causing oncovirus in the tumor.	The process of human T-lymphotropic virus replicating in a subject prior to their development of adult T-cell leukemia/lymphoma.	
 occurrence of disease	biological process	The process in which a disease unfolds.		We intend to map this term to OGMS:0000063.
 occurrence of infectious disease	occurrence of disease	The process in which an infectious disease unfolds.	The process of developing fever, chills, and congestion after being infected with influenza A virus.	We intend to map this term to OBI:1110008.
-disease course				
+disease course	owl:Thing			
 post disease course	disease course	A disease course that has ended.		
 unknown disease course	disease course	A disease course whose status is currently unknown.		
 other disease course	disease course	A disease course that cannot be described by existing disease course stages.		

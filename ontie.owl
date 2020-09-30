@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-09-22/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-09-30/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -247,6 +247,7 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000112 xml:lang="en">a process of cell-division, \ a beating of the heart</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">a process of meiosis</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">a process of sleeping</obo:IAO_0000112>
@@ -620,6 +621,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
@@ -6201,6 +6203,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600007">
         <owl:equivalentClass rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balb/c mice received an intracameral or subconjunctival injection of trinitrophenylated spleen cells</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">injecting mice with 10 ug morphine intranasally, a patient taking two pills of 1 mg aspirin orally</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
@@ -56755,6 +56758,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003543 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003543">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The state of the host at the time of the experiment</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host health status</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</ontology:ONTIE_0003259>
@@ -56812,6 +56816,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003548 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003548">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease course</rdfs:label>
     </owl:Class>
     

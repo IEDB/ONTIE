@@ -136,7 +136,7 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
 	tree --input $< --tree $@
 
-build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
+resources/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < ontie.owl

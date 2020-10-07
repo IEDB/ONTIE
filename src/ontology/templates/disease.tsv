@@ -24,7 +24,7 @@ habitual abortion	female reproductive system disease	A female reproductive syste
 human T-lymphotropic virus 1 carrier	infection without disease	An asymptomatic infection with Human T-cell leukemia virus type I.	HTLV-1 carrier|Z22.6	disease	Human T-cell leukemia virus type I	
 rejection of transplanted organs and tissues	transplant-related disease and allo-reactivity	A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.	T86|T86.0|T86.1|T86.2|T86.3|T86.8	disease		
 transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease		
-host health status		The state of the host at the time of the experiment		disease		
+host health status	owl:Thing	The state of the host at the time of the experiment		disease		
 healthy	host health status	The absence of any disease	U6	disease		
 infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease		
 additional diseases by category	disease			disease		

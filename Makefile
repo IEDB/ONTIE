@@ -16,8 +16,9 @@
 #     - [ROBOT diff](build/diff.html)
 #       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
 #       to this branch [ontie.owl](ontie.owl)
-#     - [Tree](build/ontie-tree.html)
+#     - [Tree](./src/scripts/tree.sh)
 #     - [ontie.owl](ontie.owl)
+# 6. [Destroy](destroy) the Google Sheet
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
@@ -96,8 +97,10 @@ diffs: $(DIFF_TABLES)
 
 IMPORTS := doid obi
 OWL_IMPORTS := $(foreach I,$(IMPORTS),resources/$(I).owl)
-DBS := $(foreach I,$(IMPORTS),resources/$(I).db)
+DBS := resources/ontie.db $(foreach I,$(IMPORTS),resources/$(I).db)
 MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)
+
+dbs: $(DBS)
 
 $(OWL_IMPORTS): | resources
 	curl -Lk -o $@ http://purl.obolibrary.org/obo/$(notdir $@)
@@ -112,9 +115,9 @@ build/terms.txt: src/ontology/templates/external.tsv | build
 
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119
 
-build/%-import.ttl: src/scripts/mireot.py resources/%.db build/terms.txt
+build/%-import.ttl: resources/%.db build/terms.txt
 	$(eval ANNS := $(foreach A,$(ANN_PROPS), -a $(A)))
-	python3 $< -d $(word 2,$^) -t $(word 3,$^) $(ANNS) -n -o $@
+	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(ANNS) -n > $@
 
 build/imports.ttl: $(MODULES) | build/robot.jar
 	$(eval INS := $(foreach M,$(MODULES), --input $(M)))
@@ -136,12 +139,17 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
 	tree --input $< --tree $@
 
+resources/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
+	rm -rf $@
+	sqlite3 $@ < $<
+	./build/rdftab $@ < ontie.owl
+
 
 # Main tasks
 
 .PHONY: update
 update:
-	make validate build/ontie-tree.html
+	make validate build/ontie-tree.html dbs
 
 .PHONY: clean
 clean:
@@ -177,6 +185,10 @@ push:
 show:
 	$(COGS) open
 
+.PHONY: destroy
+destroy:
+	$(COGS) delete -f
+
 # Tasks after editing Google Sheets
 
 .PHONY: validate
@@ -192,16 +204,17 @@ build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
 	python3 $< \
 	--index $(INDEX) \
 	--templates $(filter-out $(INDEX), $(TABLES)) > $@
+	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
 
 build/ontie.owl:
 	cp ontie.owl $@
 
 build/template-problems.tsv: $(TABLES) | build/robot.jar
-	rm -f $@ && touch $@
 	$(ROBOT) template \
 	$(foreach T,$(TABLES),--template $(T)) \
 	--force true \
 	--errors $@
+	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
 
 # TODO - only do this if there are no template issues?
 build/validate-problems.tsv: build/ontie.owl $(TABLES) | build/validate build/robot-validate.jar
@@ -215,6 +228,7 @@ build/validate-problems.tsv: build/ontie.owl $(TABLES) | build/validate build/ro
 	--errors $@ \
 	--no-fail true \
 	--output-dir build/validate
+	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
 
 .PHONY: apply
 apply: build/report-problems.tsv build/template-problems.tsv

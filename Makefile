@@ -2,23 +2,21 @@
 #
 # 1. [Edit](./src/scripts/cogs.sh) the Google Sheet
 # 2. [Validate](validate) sheet
-# 3. Compare `master` branch to current tables:
-#     - [predicates](build/diff/predicates.html)
-#     - [index](build/diff/index.html)
-#     - [external](build/diff/external.html)
-#     - [protein](build/diff/protein.html)
-#     - [disease](build/diff/disease.html)
-#     - [taxon](build/diff/taxon.html)
-#     - [other](build/diff/other.html)
+# 3. [View table diffs](build/diff/diff.html)
 # 4. [Update](update) ontology files
 # 5. View the results:
-#     - [ROBOT report](build/report.html)
-#     - [ROBOT diff](build/diff.html)
-#       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
-#       to this branch [ontie.owl](ontie.owl)
-#     - [Tree](./src/scripts/tree.sh)
-#     - [ontie.owl](ontie.owl)
-# 6. [Destroy](destroy) the Google Sheet
+#     - [View ROBOT report](build/report.html)
+#     - [Browse Trees](./src/scripts/tree.sh)
+#     - [Download ontie.owl](ontie.owl)
+#
+# ### Commit Changes
+#
+# 1. Run `Status` to see changes
+# 2. Run `Commit` and enter message
+# 3. Run `Push` and create a new Pull Request
+#
+# ### Before you go...
+# [Clean Build Directory](clean) [Destroy Google Sheet](destroy)
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
@@ -28,7 +26,7 @@ COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
-build resources build/validate build/diff build/master:
+build build/validate build/diff build/master:
 	mkdir -p $@
 
 build/robot.jar: | build
@@ -86,9 +84,16 @@ build/diff.html: ontie.owl | build/robot.jar
 
 DIFF_TABLES := $(foreach S,$(SHEETS),build/diff/$(S).html)
 
-build/diff/%.html: src/ontology/templates/%.tsv | build/master build/diff
-	git show master:$^ > build/master/$(notdir $<)
-	daff build/master/$(notdir $<) $< --output $@
+# Workaround to make sure master branch exists
+build/fetched.txt:
+	git fetch origin master:master && date > $@
+
+build/diff/%.html: src/ontology/templates/%.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/diff.html: src/scripts/diff.py src/scripts/diff.html.jinja2 $(DIFF_TABLES)
+	python3 $< src/scripts/diff.html.jinja2 $(SHEETS) > $@
 
 diffs: $(DIFF_TABLES)
 
@@ -96,16 +101,16 @@ diffs: $(DIFF_TABLES)
 # Imports
 
 IMPORTS := doid obi
-OWL_IMPORTS := $(foreach I,$(IMPORTS),resources/$(I).owl)
-DBS := resources/ontie.db $(foreach I,$(IMPORTS),resources/$(I).db)
+OWL_IMPORTS := $(foreach I,$(IMPORTS),build/$(I).owl)
+DBS := build/ontie.db $(foreach I,$(IMPORTS),build/$(I).db)
 MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)
 
 dbs: $(DBS)
 
-$(OWL_IMPORTS): | resources
+$(OWL_IMPORTS): | build
 	curl -Lk -o $@ http://purl.obolibrary.org/obo/$(notdir $@)
 
-resources/%.db: src/scripts/prefixes.sql resources/%.owl | build/rdftab
+build/%.db: src/scripts/prefixes.sql build/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
@@ -115,7 +120,7 @@ build/terms.txt: src/ontology/templates/external.tsv | build
 
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119
 
-build/%-import.ttl: resources/%.db build/terms.txt
+build/%-import.ttl: build/%.db build/terms.txt
 	$(eval ANNS := $(foreach A,$(ANN_PROPS), -a $(A)))
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(ANNS) -n > $@
 
@@ -139,7 +144,7 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
 	tree --input $< --tree $@
 
-resources/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
+build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < ontie.owl

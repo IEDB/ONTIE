@@ -84,12 +84,16 @@ build/diff.html: ontie.owl | build/robot.jar
 
 DIFF_TABLES := $(foreach S,$(SHEETS),build/diff/$(S).html)
 
+# Workaround to make sure master branch exists
+build/fetched.txt:
+	git fetch origin master:master && date > $@
+
+build/diff/%.html: src/ontology/templates/%.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
 build/diff/diff.html: src/scripts/diff.py src/scripts/diff.html.jinja2 $(DIFF_TABLES)
 	python3 $< src/scripts/diff.html.jinja2 $(SHEETS) > $@
-
-build/diff/%.html: src/ontology/templates/%.tsv | build/master build/diff
-	git show master:$^ > build/master/$(notdir $<)
-	daff build/master/$(notdir $<) $< --output $@ --fragment
 
 diffs: $(DIFF_TABLES)
 

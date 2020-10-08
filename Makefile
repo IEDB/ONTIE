@@ -26,7 +26,7 @@ COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
-build resources build/validate build/diff build/master:
+build build/validate build/diff build/master:
 	mkdir -p $@
 
 build/robot.jar: | build
@@ -101,16 +101,16 @@ diffs: $(DIFF_TABLES)
 # Imports
 
 IMPORTS := doid obi
-OWL_IMPORTS := $(foreach I,$(IMPORTS),resources/$(I).owl)
-DBS := resources/ontie.db $(foreach I,$(IMPORTS),resources/$(I).db)
+OWL_IMPORTS := $(foreach I,$(IMPORTS),build/$(I).owl)
+DBS := build/ontie.db $(foreach I,$(IMPORTS),build/$(I).db)
 MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)
 
 dbs: $(DBS)
 
-$(OWL_IMPORTS): | resources
+$(OWL_IMPORTS): | build
 	curl -Lk -o $@ http://purl.obolibrary.org/obo/$(notdir $@)
 
-resources/%.db: src/scripts/prefixes.sql resources/%.owl | build/rdftab
+build/%.db: src/scripts/prefixes.sql build/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
@@ -120,7 +120,7 @@ build/terms.txt: src/ontology/templates/external.tsv | build
 
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119
 
-build/%-import.ttl: resources/%.db build/terms.txt
+build/%-import.ttl: build/%.db build/terms.txt
 	$(eval ANNS := $(foreach A,$(ANN_PROPS), -a $(A)))
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(ANNS) -n > $@
 
@@ -144,7 +144,7 @@ build/ontie-tree.html: ontie.owl | build/robot-tree.jar
 	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
 	tree --input $< --tree $@
 
-resources/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
+build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < ontie.owl

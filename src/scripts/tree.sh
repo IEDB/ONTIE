@@ -11,15 +11,15 @@ BRANCH=$(git branch --show-current)
 
 if [[ ${DB} ]]; then
 	# Check that the sqlite database exists
-	if ! [[ -s resources/${DB}.db ]]; then
-		make resources/${DB}.db > /dev/null 2>&1
+	if ! [[ -s build/${DB}.db ]]; then
+		make build/${DB}.db > /dev/null 2>&1
 	fi
 
 	# Generate the tree view
 	if [[ ${ID} ]]; then
-		python3 -m gizmos.tree resources/${DB}.db ${ID} -i
+		python3 -m gizmos.tree build/${DB}.db ${ID} -i
 	else
-		python3 -m gizmos.tree resources/${DB}.db -i
+		python3 -m gizmos.tree build/${DB}.db -i
 	fi
 
 	echo "<a href=\"./tree.sh\"><b>Select a new tree</b></a><br>"
@@ -36,5 +36,6 @@ else
 	echo "<li><a href=\"?db=obi\">Ontology for Biomedical Investigations (OBI)</a></li>"
 	echo "</ul>"
 	echo "</ul>"
+	echo "<p>If you are selecting a tree for the first time, it may take some time to build the database!</p>"
 	echo "<a href=\"/ONTIE/branches/${BRANCH}\"><b>Return Home</b></a>"
 fi

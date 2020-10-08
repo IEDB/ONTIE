@@ -18,13 +18,7 @@ def main():
     pages = []
     for n in args.names:
         with open(f"build/diff/{n}.html", "r") as f:
-            html_search = re.search(r"<body>(.+)<\/body>", f.read(), re.DOTALL)
-            if html_search:
-                contents = html_search.group(1)
-            else:
-                logging.error("Unable to extract contents from " + n)
-                continue
-            pages.append({"name": n, "contents": contents})
+            pages.append({"name": n, "contents": f.read()})
 
     first = pages.pop(0)
 

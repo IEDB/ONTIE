@@ -89,7 +89,7 @@ build/diff/diff.html: src/scripts/diff.py src/scripts/diff.html.jinja2 $(DIFF_TA
 
 build/diff/%.html: src/ontology/templates/%.tsv | build/master build/diff
 	git show master:$^ > build/master/$(notdir $<)
-	daff build/master/$(notdir $<) $< --output $@
+	daff build/master/$(notdir $<) $< --output $@ --fragment
 
 diffs: $(DIFF_TABLES)
 

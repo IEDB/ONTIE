@@ -2,23 +2,21 @@
 #
 # 1. [Edit](./src/scripts/cogs.sh) the Google Sheet
 # 2. [Validate](validate) sheet
-# 3. Compare `master` branch to current tables:
-#     - [predicates](build/diff/predicates.html)
-#     - [index](build/diff/index.html)
-#     - [external](build/diff/external.html)
-#     - [protein](build/diff/protein.html)
-#     - [disease](build/diff/disease.html)
-#     - [taxon](build/diff/taxon.html)
-#     - [other](build/diff/other.html)
+# 3. [View table diffs](build/diff/diff.html)
 # 4. [Update](update) ontology files
 # 5. View the results:
-#     - [ROBOT report](build/report.html)
-#     - [ROBOT diff](build/diff.html)
-#       comparing master branch [ontie.owl](https://github.com/IEDB/ONTIE/blob/master/ontie.owl)
-#       to this branch [ontie.owl](ontie.owl)
-#     - [Tree](./src/scripts/tree.sh)
-#     - [ontie.owl](ontie.owl)
-# 6. [Destroy](destroy) the Google Sheet
+#     - [View ROBOT report](build/report.html)
+#     - [Browse Trees](./src/scripts/tree.sh)
+#     - [Download ontie.owl](ontie.owl)
+#
+# ### Commit Changes
+#
+# 1. Run `Status` to see changes
+# 2. Run `Commit` and enter message
+# 3. Run `Push` and create a new Pull Request
+#
+# ### Before you go...
+# [Clean Build Directory](clean) [Destroy Google Sheet](destroy)
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
@@ -85,6 +83,9 @@ build/diff.html: ontie.owl | build/robot.jar
 	$(ROBOT) diff -l build/ontie.master.owl -r $< -f html -o $@
 
 DIFF_TABLES := $(foreach S,$(SHEETS),build/diff/$(S).html)
+
+build/diff/diff.html: src/scripts/diff.py src/scripts/diff.html.jinja2 $(DIFF_TABLES)
+	python3 $< src/scripts/diff.html.jinja2 $(SHEETS) > $@
 
 build/diff/%.html: src/ontology/templates/%.tsv | build/master build/diff
 	git show master:$^ > build/master/$(notdir $<)

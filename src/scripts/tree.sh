@@ -10,11 +10,18 @@ DB=$(urlp --query --query_field=db "${URL}")
 BRANCH=$(git branch --show-current)
 
 if [[ ${DB} ]]; then
+	# Check that the sqlite database exists
+	if ! [[ -s resources/${DB}.db ]]; then
+		make resources/${DB}.db > /dev/null 2>&1
+	fi
+
+	# Generate the tree view
 	if [[ ${ID} ]]; then
 		python3 -m gizmos.tree resources/${DB}.db ${ID} -i
 	else
 		python3 -m gizmos.tree resources/${DB}.db -i
 	fi
+
 	echo "<a href=\"./tree.sh\"><b>Select a new tree</b></a><br>"
 	echo "<a href=\"/ONTIE/branches/${BRANCH}\"><b>Return Home</b></a>"
 else
@@ -22,7 +29,7 @@ else
 	echo ""
 	echo "<h3>Select a tree:</h3>"
 	echo "<ul>"
-	echo "<li><a href=\"?db=ontie\">IEDB Source of Truth (ONTIE)</a></li>"
+	echo "<li><a href=\"?db=ontie\">Ontology for Immune Epitopes (ONTIE)</a></li>"
 	echo "<li><b>Imports:</b></li>"
 	echo "<ul>"
 	echo "<li><a href=\"?db=doid&id=DOID:4\">Human Disease Ontology (DOID)</a></li>"

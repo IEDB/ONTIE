@@ -1,5 +1,5 @@
-import lxml.html.soupparser
-import lxml.html
+import logging
+import re
 import sys
 
 from argparse import ArgumentParser
@@ -18,13 +18,13 @@ def main():
     pages = []
     for n in args.names:
         with open(f"build/diff/{n}.html", "r") as f:
-            html = f.read()
-            root = lxml.html.soupparser.fromstring(html)
-
-            contents = []
-            for elem in root.xpath("//div[@class='highlighter']"):
-                contents.append(lxml.html.tostring(elem, pretty_print=True).decode("utf-8"))
-            pages.append({"name": n, "contents": "\n".join(contents)})
+            html_search = re.search(r"<body>(.+)<\/body>", f.read(), re.DOTALL)
+            if html_search:
+                contents = html_search.group(1)
+            else:
+                logging.error("Unable to extract contents from " + n)
+                continue
+            pages.append({"name": n, "contents": contents})
 
     first = pages.pop(0)
 

@@ -17,9 +17,9 @@ if [[ ${DB} ]]; then
 
 	# Generate the tree view
 	if [[ ${ID} ]]; then
-		python3 -m gizmos.tree build/${DB}.db ${ID} -i
+		python3 -m gizmos.tree build/${DB}.db ${ID} -d
 	else
-		python3 -m gizmos.tree build/${DB}.db -i
+		python3 -m gizmos.tree build/${DB}.db -d
 	fi
 
 	echo "<a href=\"./tree.sh\"><b>Select a new tree</b></a><br>"

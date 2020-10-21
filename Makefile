@@ -21,7 +21,6 @@
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 ROBOT_VALIDATE := java -jar build/robot-validate.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
-ROBOT_REPORT := java -jar build/robot-report.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
@@ -30,13 +29,10 @@ build build/validate build/diff build/master:
 	mkdir -p $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/error-tables/4/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
 
 build/robot-validate.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
-
-build/robot-report.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -51,7 +47,7 @@ build/rdftab: | build
 
 # ROBOT templates from Google sheet
 
-SHEETS := predicates index external protein complex disease taxon other
+SHEETS := predicates index external protein complex disease taxon assays other
 TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
 # ONTIE from templates
@@ -69,7 +65,7 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--output $@
 
 build/report.%: ontie.owl | build/robot-report.jar
-	$(ROBOT_REPORT) remove \
+	$(ROBOT) remove \
 	--input $< \
 	--base-iri ONTIE \
 	--axioms external \
@@ -140,10 +136,6 @@ refresh-imports: clean-imports build/imports.ttl
 build/robot-tree.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
 
-build/ontie-tree.html: ontie.owl | build/robot-tree.jar
-	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
-	tree --input $< --tree $@
-
 build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
@@ -154,7 +146,7 @@ build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 
 .PHONY: update
 update:
-	make validate build/ontie-tree.html dbs
+	make all dbs
 
 .PHONY: clean
 clean:

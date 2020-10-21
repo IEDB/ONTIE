@@ -4,4 +4,4 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - mkdir build && touch build/ontie.xlsx src/ontology/templates/* && make test
+  - mkdir build && touch src/ontology/templates/* && make test

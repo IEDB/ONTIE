@@ -21,10 +21,7 @@ fi
 
 if [ -d .cogs ]; then
   LINK=$(cogs open)
-  echo "<ul><li><a href='${LINK}' target='_blank'>Open Google Sheet</a><br></li>"
-  echo "<li><a href='/ONTIE/branches/${BRANCH}'>Return to ${BRANCH}</a></li></ul>"
-  echo "<script type='text/javascript'>window.open('${LINK}');</script>"
-  echo "<meta http-equiv='refresh' content='0; /ONTIE/branches/${BRANCH}'/>"
+  echo "<meta http-equiv='refresh' content='0; ${LINK}'/>"
   exit 0
 fi
 

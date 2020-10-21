@@ -64,7 +64,7 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/report.%: ontie.owl | build/robot-report.jar
+build/report.%: ontie.owl | build/robot.jar
 	$(ROBOT) remove \
 	--input $< \
 	--base-iri ONTIE \
@@ -72,7 +72,7 @@ build/report.%: ontie.owl | build/robot-report.jar
 	report \
 	--output $@ \
 	--standalone true \
-	--print 20
+	--print 10
 
 build/diff.html: ontie.owl | build/robot.jar
 	git show master:ontie.owl > build/ontie.master.owl

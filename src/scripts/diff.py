@@ -18,9 +18,13 @@ def main():
     pages = []
     for n in args.names:
         with open(f"build/diff/{n}.html", "r") as f:
-            pages.append({"name": n, "contents": f.read()})
-
-    first = pages.pop(0)
+            contents = f.readlines()
+            if len(contents) > 5:
+                pages.append({"name": n, "contents": "".join(contents)})
+    
+    first = None
+    if pages:
+        first = pages.pop(0)
 
     # sys.stdout.write("Content-Type: text/html\n\n")
     sys.stdout.write(template.render(first=first, pages=pages))

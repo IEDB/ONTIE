@@ -78,27 +78,35 @@
 </style>
 </head>
 <body>
-<div class="nav-window">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a href="#{{ first.name }}" class="nav-link active" data-toggle="tab">{{ first.name }}</a>
-        </li>
-    {% for page in pages %}
-        <li class="nav-item">
-            <a href="#{{ page.name }}" class="nav-link" data-toggle="tab">{{ page.name }}</a>
-        </li>
-    {% endfor %}
-    </ul>
-    <div class="tab-content">
-        <div class="tab-pane fade show active" id="{{ first.name }}">
-            {{ first.contents }}
-        </div>
-    {% for page in pages %}
-        <div class="tab-pane fade" id="{{ page.name }}">
-            {{ page.contents }}
-        </div>
-    {% endfor %}
-    </div>
+<div class="container">
+{% if not first %}
+  <div class="alert alert-primary" role="alert" style="margin-top: 20px;">
+    <h4 class="alert-heading">No changes have been made to the tables!</h4>
+  </div>
+{% else %}
+  <div class="nav-window">
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a href="#{{ first.name }}" class="nav-link active" data-toggle="tab">{{ first.name }}</a>
+          </li>
+      {% for page in pages %}
+          <li class="nav-item">
+              <a href="#{{ page.name }}" class="nav-link" data-toggle="tab">{{ page.name }}</a>
+          </li>
+      {% endfor %}
+      </ul>
+      <div class="tab-content">
+          <div class="tab-pane fade show active" id="{{ first.name }}">
+              {{ first.contents }}
+          </div>
+      {% for page in pages %}
+          <div class="tab-pane fade" id="{{ page.name }}">
+              {{ page.contents }}
+          </div>
+      {% endfor %}
+      </div>
+  </div>
+{% endif %}
 </div>
 </body>
 </html>

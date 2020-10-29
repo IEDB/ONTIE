@@ -1,6 +1,5 @@
 Label	Parent	Definition	Example of Usage	Mapping Note
 LABEL	SC %	A definition	A example of usage	A mapping note
-				
 administering substance in vivo	planned process	A planned process by which a material is intentionally given to an organism resulting in exposure of the organism to that substance.		We intend to map this term to OBI:0600007
 solid tissue transplantation	planned process	A planned process in which solid tissue is transferred to an organism.	The process of surgically attaching a donor kidney into a recipient patient.	
 transfusion	planned process	A planned process in which a bodily fluid is transferred into an organism.	The process of administering donated blood into a recipient patient.	

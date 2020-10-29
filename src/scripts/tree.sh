@@ -7,6 +7,8 @@ cd ../..
 URL="http://example.com?${QUERY_STRING}"
 ID=$(urlp --query --query_field=id "${URL}")
 DB=$(urlp --query --query_field=db "${URL}")
+FORMAT=$(urlp --query --query_field=format "${URL}")
+TEXT=$(urlp --query --query_field=text "${URL}")
 BRANCH=$(git branch --show-current)
 
 if [[ ${DB} ]]; then
@@ -16,14 +18,26 @@ if [[ ${DB} ]]; then
 	fi
 
 	# Generate the tree view
-	if [[ ${ID} ]]; then
-		python3 -m gizmos.tree build/${DB}.db ${ID} -i
+	if [ ${FORMAT} == "json" ]; then
+		echo "Content-Type: application/json"
+		echo ""
+		if [[ ${TEXT} ]]; then
+			python3 -m gizmos.search build/${DB}.db ${TEXT}
+		else
+			python3 -m gizmos.search build/${DB}.db
+		fi
 	else
-		python3 -m gizmos.tree build/${DB}.db -i
+		echo "Content-Type: text/html"
+		echo ""
+		if [[ ${ID} ]]; then
+			python3 -m gizmos.tree build/${DB}.db ${ID} -d -s
+		else
+			python3 -m gizmos.tree build/${DB}.db -d -s
+		fi
+		echo "<a href=\"./tree.sh\"><b>Select a new tree</b></a><br>"
+		echo "<a href=\"/ONTIE/branches/${BRANCH}\"><b>Return Home</b></a>"
 	fi
 
-	echo "<a href=\"./tree.sh\"><b>Select a new tree</b></a><br>"
-	echo "<a href=\"/ONTIE/branches/${BRANCH}\"><b>Return Home</b></a>"
 else
 	echo "Content-Type: text/html"
 	echo ""

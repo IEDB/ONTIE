@@ -1,6 +1,5 @@
 ID	Label	Type	Class Type	Parent	Synonyms	Additional Axiom
 ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|	C % SPLIT=|
-						
 BFO:0000015	process	owl:Class		owl:Thing		
 CHEBI:60004	mixture	owl:Class		material entity		
 DOID:0014667	disease of metabolism	owl:Class		additional diseases by category		

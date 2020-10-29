@@ -3547,3 +3547,4 @@ ONTIE:0003550	Pertussis toxin complex	owl:Class
 ONTIE:0003551	Pertussis toxin complex, inactivated by PFA	owl:Class		
 ONTIE:0003552	Pertussis toxin complex, inactivated mutant	owl:Class		
 ONTIE:0003553	mixture of Fim2 and Fim3	owl:Class		
+ONTIE:0003554	Protein Foo (Ambystoma silvense)	owl:Class		

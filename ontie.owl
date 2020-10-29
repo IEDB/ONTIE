@@ -3199,6 +3199,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2683671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2683671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambystoma silvense</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
@@ -56894,6 +56903,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixture of Fim2 and Fim3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003554 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2683671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOO</obo:IAO_0000118>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Foo</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Foo (Ambystoma silvense)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
 

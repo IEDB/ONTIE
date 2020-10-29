@@ -649,6 +649,7 @@ NCBITaxon:9925	Capra hircus	owl:Class		organism
 NCBITaxon:9940	Ovis aries	owl:Class		organism		
 NCBITaxon:9986	Oryctolagus cuniculus	owl:Class		organism		
 NCBITaxon:99875	Leishmania donovani donovani	owl:Class		organism		
+NCBITaxon:2683671	Ambystoma silvense	owl:Class		organism		
 NCBITaxon:no_rank	no rank	owl:Class		information content entity		
 NCBITaxon:subspecies	subspecies	owl:Class		information content entity		
 obo:COB_0000006	material entity	owl:Class				

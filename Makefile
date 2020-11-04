@@ -20,6 +20,7 @@
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
+ROBOT_REPORT := java -jar build/robot-report.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
@@ -29,6 +30,9 @@ build build/validate build/diff build/master:
 
 build/robot.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+
+build/robot-report.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -60,8 +64,8 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/report.%: ontie.owl | build/robot.jar
-	$(ROBOT) remove \
+build/report.%: ontie.owl | build/robot-report.jar
+	$(ROBOT_REPORT) remove \
 	--input $< \
 	--base-iri ONTIE \
 	--axioms external \

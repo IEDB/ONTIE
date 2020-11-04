@@ -11,16 +11,15 @@
 #
 # ### Commit Changes
 #
-# 1. Run `Status` to see changes
-# 2. Run `Commit` and enter message
-# 3. Run `Push` and create a new Pull Request
+# 1. Run [Status](git status) to see changes
+# 2. Run [Commit](git commit) and enter message
+# 3. Run [Push](git push) and create a new Pull Request
 #
 # ### Before you go...
 # [Clean Build Directory](clean) [Destroy Google Sheet](destroy)
 
 KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
-ROBOT_VALIDATE := java -jar build/robot-validate.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
@@ -30,9 +29,6 @@ build build/validate build/diff build/master:
 
 build/robot.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
-
-build/robot-validate.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -117,7 +113,7 @@ build/terms.txt: src/ontology/templates/external.tsv | build
 ANN_PROPS := IAO:0000112 IAO:0000115 IAO:0000118 IAO:0000119
 
 build/%-import.ttl: build/%.db build/terms.txt
-	$(eval ANNS := $(foreach A,$(ANN_PROPS), -a $(A)))
+	$(eval ANNS := $(foreach A,$(ANN_PROPS), -p $(A)))
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(ANNS) -n > $@
 
 build/imports.ttl: $(MODULES) | build/robot.jar
@@ -168,7 +164,7 @@ COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
 .PHONY: load
 load: $(COGS_SHEETS)
 	mv .cogs/sheet.tsv sheet.tsv
-	sed s/0/3/ sheet.tsv > .cogs/sheet.tsv
+	sed s/0/2/ sheet.tsv > .cogs/sheet.tsv
 	rm sheet.tsv
 
 .cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
@@ -201,7 +197,7 @@ build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
 	python3 $< \
 	--index $(INDEX) \
 	--templates $(filter-out $(INDEX), $(TABLES)) > $@
-	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
+	[ -s $@ ] || echo "table    cell" > $@
 
 build/ontie.owl:
 	cp ontie.owl $@
@@ -211,21 +207,7 @@ build/template-problems.tsv: $(TABLES) | build/robot.jar
 	$(foreach T,$(TABLES),--template $(T)) \
 	--force true \
 	--errors $@
-	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
-
-# TODO - only do this if there are no template issues?
-build/validate-problems.tsv: build/ontie.owl $(TABLES) | build/validate build/robot-validate.jar
-	rm -f $@ && touch $@
-	$(ROBOT_VALIDATE) validate \
-	--input $< \
-	$(foreach i,$(TABLES),--table $(i)) \
-	--reasoner hermit \
-	--skip-row 2 \
-	--format txt \
-	--errors $@ \
-	--no-fail true \
-	--output-dir build/validate
-	[ -s $@ ] || echo "ID	table	cell	level	rule ID	rule name	value	fix	instructions" > $@
+	[ -s $@ ] || echo "table	cell" > $@
 
 .PHONY: apply
 apply: build/report-problems.tsv build/template-problems.tsv

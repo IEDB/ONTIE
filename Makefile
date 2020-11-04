@@ -218,7 +218,7 @@ build/validation/%.tsv: src/ontology/templates/%.tsv | build/validation
 	sed '2d' $< > $@
 
 build/valve-problems.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
-	valve -D build/validation -o $@
+	valve -D build/validation -r 3 -o $@
 
 build/ontie.owl:
 	cp ontie.owl $@
@@ -232,5 +232,6 @@ build/template-problems.tsv: $(TABLES) | build/robot.jar
 
 .PHONY: apply
 apply: build/report-problems.tsv build/template-problems.tsv build/valve-problems.tsv
+	$(COGS) clear all
 	$(COGS) apply $^
 

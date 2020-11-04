@@ -11,9 +11,9 @@
 #
 # ### Commit Changes
 #
-# 1. Run `Status` to see changes
-# 2. Run `Commit` and enter message
-# 3. Run `Push` and create a new Pull Request
+# 1. Run [Status](git status) to see changes
+# 2. Run [Commit](git commit) and enter message
+# 3. Run [Push](git push) and create a new Pull Request
 #
 # ### Before you go...
 # [Clean Build Directory](clean) [Destroy Google Sheet](destroy)

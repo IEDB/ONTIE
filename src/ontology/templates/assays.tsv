@@ -1,0 +1,23 @@
+Label	Parent	Definition
+LABEL	SC % SPLIT=|	A definition
+dissociation constant; KD in M	assay	An SPR assay measuring dissociation constant [KD] in M
+ACE 2 response; in nM	assay	A neutralization assay measuring ACE 2 response in nM
+ACE 2 response; percent blocking	assay	A neutralization assay measuring ACE 2 response in percent blocking
+mAb concentration (ug/mL)	assay	An assay that measures the amount of antibody dissolved in the solution being tested, reported in ug/mL
+neutralization IC50 (ug/mL)	assay	A neutralization assay measuring the IC50 of the tested antibody in ug/mL
+neutralization IC80 (ug/mL)	assay	A neutralization assay measuring the IC80 of the tested antibody in ug/mL
+neutralization IC90 (ug/mL)	assay	A neutralization assay measuring the IC90 of the tested antibody in ug/mL
+ADCP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocytosis by binding its Fc domain to a specific receptor on a phagocytic cell using a phagocytic score
+ADNP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocytosis of neutrophils by binding its Fc domain to a specific receptor on neutrophils using a phagocytic score
+ADCD (MFI C3)	assay	An assay to measure complement component C3b on the surface of target cells using MFI
+ADNKA % CD107a+	assay	An assay measuring the percent of NK cells expressing CD107a as a result of antibody binding
+ADNKA % MIP-1b+	assay	An assay measuring the percent of NK cells expressing MIP-1b using a phagocytic score
+mADCP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocytosis by binding its Fc domain to a specific receptor on a mouse cell using a phagocytic score
+FcgR2aR (MFI)	assay	An assay measuring antibody affinity for FcgR2aR receptor on human cells using median fluorescence intensity
+FcgR3aV (MFI)	assay	An assay measuring antibody affinity for FcgR3aV receptor on human cells using median fluorescence intensity
+FcgR2b (MFI)	assay	An assay measuring antibody affinity for FcgR2b receptor on human cells using median fluorescence intensity
+FcgR3b (MFI)	assay	An assay measuring antibody affinity for FcgR3b receptor on human cells using median fluorescence intensity
+FcRn (MFI)	assay	An assay measuring antibody affinity for FcRn receptor on human cells using median fluorescence intensity
+mFcR2 (MFI)	assay	An assay measuring antibody affinity for FcR2 receptor on mouse cells using median fluorescence intensity
+mFcR3 (MFI)	assay	An assay measuring antibody affinity for mFcR3 receptor on mouse cells using median fluorescence intensity
+mFcR4 (MFI)	assay	An assay measuring antibody affinity for mFcR receptor on mouse cells using median fluorescence intensity

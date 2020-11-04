@@ -1,6 +1,5 @@
 Label	Parent	Definition
 LABEL	SC % SPLIT=|	A definition
-		
 dissociation constant; KD in M	assay	An SPR assay measuring dissociation constant [KD] in M
 ACE 2 response; in nM	assay	A neutralization assay measuring ACE 2 response in nM
 ACE 2 response; percent blocking	assay	A neutralization assay measuring ACE 2 response in percent blocking

@@ -1,0 +1,13 @@
+table	column	type	note
+index	ID	CURIE(prefix.prefix)
+external	ID	CURIE(prefix.prefix)
+external	Parent	tree(external.Label, split="|")	Extend the index tree with external terms
+complex	Parent	tree(complex.Label, external.Parent, split="|")	Extend the external tree with complex terms
+complex	Parent	under(complex.Parent, "protein complex") or under(complex.Parent, "mixture")
+disease	Parent	tree(disease.Label, external.Parent, split="|")	Extend the external tree with disease terms
+taxon	Parent	tree(taxon.Label, external.Parent, split="|")	Extend the external tree with taxon terms
+taxon	Parent	list("|", under(taxon.Parent, "organism"))	
+protein	Label	from(index.Label)	
+protein	Parent	in("protein")	
+protein	In Taxon	from(external.ID) or list("|", under(taxon.Parent, "organism"))	
+other	Label	from(index.Label) or in("administering substance in vivo [OBI:0600007]")	

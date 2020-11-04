@@ -1,0 +1,12 @@
+prefix	base
+BFO
+CHEBI
+DOID	http://purl.obolibrary.org/obo/DOID_
+GO
+IAO
+NCBITaxon	http://purl.obolibrary.org/obo/NCBITaxon_
+OBI
+obo
+ONTIE	https://ontology.iedb.org/ontology/
+owl
+PR

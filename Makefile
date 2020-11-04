@@ -25,11 +25,11 @@ COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
 
-build build/validate build/diff build/master:
+build build/validate build/diff build/master build/validation:
 	mkdir -p $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar	
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/template-labels/lastSuccessfulBuild/artifact/bin/robot.jar	
 
 build/robot-report.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
@@ -207,6 +207,19 @@ build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
 	--templates $(filter-out $(INDEX), $(TABLES)) > $@
 	[ -s $@ ] || echo "table    cell" > $@
 
+VALVE_CONFIG_MASTER := $(foreach f,$(shell ls src/ontology/validation),src/ontology/validation/$(f))
+VALVE_CONFIG := $(foreach f,$(shell ls src/ontology/validation),build/validation/$(f))
+VALVE_TABLES := $(foreach f,$(shell ls src/ontology/templates),build/validation/$(f))
+
+$(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/validation
+	cp src/ontology/validation/* build/validation
+
+build/validation/%.tsv: src/ontology/templates/%.tsv | build/validation
+	sed '2d' $< > $@
+
+build/valve-problems.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
+	valve -D build/validation -o $@
+
 build/ontie.owl:
 	cp ontie.owl $@
 
@@ -218,6 +231,6 @@ build/template-problems.tsv: $(TABLES) | build/robot.jar
 	[ -s $@ ] || echo "table	cell" > $@
 
 .PHONY: apply
-apply: build/report-problems.tsv build/template-problems.tsv
+apply: build/report-problems.tsv build/template-problems.tsv build/valve-problems.tsv
 	$(COGS) apply $^
 

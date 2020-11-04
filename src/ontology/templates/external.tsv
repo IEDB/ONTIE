@@ -653,6 +653,7 @@ NCBITaxon:no_rank	no rank	owl:Class		information content entity
 NCBITaxon:subspecies	subspecies	owl:Class		information content entity		
 obo:COB_0000006	material entity	owl:Class				
 OBI:0000011	planned process	owl:Class		process		
+OBI:0000070	assay	owl:Class		planned process		
 OBI:0100026	organism	owl:Class		material entity		
 OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class	equivalent	ONTIE:0003314		
 OBI:0600007				owl:Thing		

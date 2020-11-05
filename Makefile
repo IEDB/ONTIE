@@ -11,9 +11,9 @@
 #
 # ### Commit Changes
 #
-# 1. Run `Status` to see changes
-# 2. Run `Commit` and enter message
-# 3. Run `Push` and create a new Pull Request
+# 1. Run [Status](git status) to see changes
+# 2. Run [Commit](git commit) and enter message
+# 3. Run [Push](git push) and create a new Pull Request
 #
 # ### Before you go...
 # [Clean Build Directory](clean) [Destroy Google Sheet](destroy)
@@ -47,7 +47,7 @@ build/rdftab: | build
 
 # ROBOT templates from Google sheet
 
-SHEETS := predicates index external protein complex disease taxon other
+SHEETS := predicates index external protein complex disease taxon assays other
 TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
 # ONTIE from templates
@@ -72,7 +72,7 @@ build/report.%: ontie.owl | build/robot-report.jar
 	report \
 	--output $@ \
 	--standalone true \
-	--print 20
+	--print 10
 
 build/diff.html: ontie.owl | build/robot.jar
 	git show master:ontie.owl > build/ontie.master.owl
@@ -136,10 +136,6 @@ refresh-imports: clean-imports build/imports.ttl
 build/robot-tree.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
 
-build/ontie-tree.html: ontie.owl | build/robot-tree.jar
-	java -jar build/robot-tree.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_" \
-	tree --input $< --tree $@
-
 build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
@@ -150,7 +146,7 @@ build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 
 .PHONY: update
 update:
-	make validate build/ontie-tree.html dbs
+	make all dbs
 
 .PHONY: clean
 clean:
@@ -218,7 +214,7 @@ build/validation/%.tsv: src/ontology/templates/%.tsv | build/validation
 	cp $< $@
 
 build/valve-problems.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
-	valve -D build/validation -o $@ -r 3
+	valve -D build/validation -r 3 -o $@
 
 build/ontie.owl:
 	cp ontie.owl $@
@@ -232,5 +228,6 @@ build/template-problems.tsv: $(TABLES) | build/robot.jar
 
 .PHONY: apply
 apply: build/report-problems.tsv build/template-problems.tsv build/valve-problems.tsv
+	$(COGS) clear all
 	$(COGS) apply $^
 

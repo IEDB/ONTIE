@@ -3547,3 +3547,24 @@ ONTIE:0003550	Pertussis toxin complex	owl:Class
 ONTIE:0003551	Pertussis toxin complex, inactivated by PFA	owl:Class		
 ONTIE:0003552	Pertussis toxin complex, inactivated mutant	owl:Class		
 ONTIE:0003553	mixture of Fim2 and Fim3	owl:Class		
+ONTIE:0003554	dissociation constant; KD in M	owl:Class		
+ONTIE:0003555	ACE 2 response; in nM	owl:Class		
+ONTIE:0003556	ACE 2 response; percent blocking	owl:Class		
+ONTIE:0003557	mAb concentration (ug/mL)	owl:Class		
+ONTIE:0003558	neutralization IC50 (ug/mL)	owl:Class		
+ONTIE:0003559	neutralization IC80 (ug/mL)	owl:Class		
+ONTIE:0003560	neutralization IC90 (ug/mL)	owl:Class		
+ONTIE:0003561	ADCP (Phagocytic Score)	owl:Class		
+ONTIE:0003562	ADNP (Phagocytic Score)	owl:Class		
+ONTIE:0003563	ADCD (MFI C3)	owl:Class		
+ONTIE:0003564	ADNKA % CD107a+	owl:Class		
+ONTIE:0003565	ADNKA % MIP-1b+	owl:Class		
+ONTIE:0003566	mADCP (Phagocytic Score)	owl:Class		
+ONTIE:0003567	FcgR2aR (MFI)	owl:Class		
+ONTIE:0003568	FcgR3aV (MFI)	owl:Class		
+ONTIE:0003569	FcgR2b (MFI)	owl:Class		
+ONTIE:0003570	FcgR3b (MFI)	owl:Class		
+ONTIE:0003571	FcRn (MFI)	owl:Class		
+ONTIE:0003572	mFcR2 (MFI)	owl:Class		
+ONTIE:0003573	mFcR3 (MFI)	owl:Class		
+ONTIE:0003574	mFcR4 (MFI)	owl:Class		

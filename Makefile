@@ -215,10 +215,10 @@ $(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/validation
 	cp src/ontology/validation/* build/validation
 
 build/validation/%.tsv: src/ontology/templates/%.tsv | build/validation
-	sed '2d' $< > $@
+	cp $< $@
 
 build/valve-problems.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
-	valve -D build/validation -o $@
+	valve -D build/validation -o $@ -r 3
 
 build/ontie.owl:
 	cp ontie.owl $@

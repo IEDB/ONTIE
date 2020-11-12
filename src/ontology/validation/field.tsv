@@ -3,7 +3,7 @@ index	ID	"distinct(CURIE(""ONTIE""))"
 external	ID	distinct(CURIE(prefix.prefix), index.ID)	
 external	Parent	"tree(Label, split=""|"")"	Extend the index tree with external terms
 complex	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with complex terms
-complex	Parent	"under(complex.Parent, ""protein complex"") or under(complex.Parent, ""mixture"")"
+complex	Parent	"under(complex.Parent, ""protein complex"") or under(complex.Parent, ""mixture"")"	
 disease	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with disease terms
 taxon	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with taxon terms
 taxon	Parent	"list(""|"", under(taxon.Parent, ""organism""))"	

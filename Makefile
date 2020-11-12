@@ -203,18 +203,10 @@ build/report-problems.tsv: src/scripts/report.py $(TABLES) | build
 	--templates $(filter-out $(INDEX), $(TABLES)) > $@
 	[ -s $@ ] || echo "table    cell" > $@
 
-VALVE_CONFIG_MASTER := $(foreach f,$(shell ls src/ontology/validation),src/ontology/validation/$(f))
-VALVE_CONFIG := $(foreach f,$(shell ls src/ontology/validation),build/validation/$(f))
-VALVE_TABLES := $(foreach f,$(shell ls src/ontology/templates),build/validation/$(f))
+VALVE_CONFIG := $(foreach f,$(shell ls src/ontology/validation),src/ontology/validation/$(f))
 
-$(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/validation
-	cp src/ontology/validation/* build/validation
-
-build/validation/%.tsv: src/ontology/templates/%.tsv | build/validation
-	cp $< $@
-
-build/valve-problems.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
-	valve -D build/validation -r 3 -o $@
+build/valve-problems.tsv: $(VALVE_CONFIG) $(TABLES)
+	valve src/ontology/validation src/ontology/templates -r 3 -o $@
 
 build/ontie.owl:
 	cp ontie.owl $@

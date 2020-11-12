@@ -1,12 +1,13 @@
 prefix	base
-BFO
-CHEBI
+		
+BFO	http://purl.obolibrary.org/obo/BFO_
+CHEBI	http://purl.obolibrary.org/obo/CHEBI_
 DOID	http://purl.obolibrary.org/obo/DOID_
-GO
-IAO
+GO	http://purl.obolibrary.org/obo/GO_
+IAO	http://purl.obolibrary.org/obo/IAO_
 NCBITaxon	http://purl.obolibrary.org/obo/NCBITaxon_
-OBI
-obo
+OBI	http://purl.obolibrary.org/obo/OBI_
+obo	http://purl.obolibrary.org/obo/
 ONTIE	https://ontology.iedb.org/ontology/
-owl
-PR
+owl	http://www.w3.org/2002/07/owl#
+PR	http://purl.obolibrary.org/obo/PR_

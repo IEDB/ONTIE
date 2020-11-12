@@ -1,5 +1,5 @@
-when table	when column	when condition	then table	then column	then condition	level	description	note
-disease	Label	not in("host health status")	disease	Parent	under(disease.Parent, "host health status")	ERROR	A parent must be specified from the 'host health status' node
-disease	Label	under(disease.Parent, "healthy")	disease	Carrier	blank	ERROR	A carrier should not be specified for a non-disease term	
-disease	Label	under(disease.Parent, "healthy")	disease	Human Disease	blank	ERROR	A human disease should not be specified for a non-disease term	
-other	Label	from(index.Label)	other	Parent	not blank	ERROR	A parent should be specified for all ONTIE terms
+table	when column	when condition	then column	then condition	level	description	note
+disease	Label	not in("host health status")	Parent	under(disease.Parent, "host health status")	ERROR	A parent must be specified from the 'host health status' node
+disease	Label	under(disease.Parent, "healthy")	Carrier	blank	ERROR	A carrier should not be specified for a non-disease term	
+disease	Label	under(disease.Parent, "healthy")	Human Disease	blank	ERROR	A human disease should not be specified for a non-disease term	
+other	Label	in(index.Label)	Parent	not blank	ERROR	A parent should be specified for all ONTIE terms

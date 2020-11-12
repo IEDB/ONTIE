@@ -1,13 +1,13 @@
 table	column	condition	note
-index	ID	distinct(CURIE("ONTIE"))
+index	ID	"distinct(CURIE(""ONTIE""))"
 external	ID	distinct(CURIE(prefix.prefix), index.ID)
-external	Parent	tree(Label, split="|")	Extend the index tree with external terms
-complex	Parent	tree(Label, external.Parent, split="|")	Extend the external tree with complex terms
-complex	Parent	under(complex.Parent, "protein complex") or under(complex.Parent, "mixture")
-disease	Parent	tree(Label, external.Parent, split="|")	Extend the external tree with disease terms
-taxon	Parent	tree(Label, external.Parent, split="|")	Extend the external tree with taxon terms
-taxon	Parent	list("|", under(taxon.Parent, "organism"))	
+external	Parent	"tree(Label, split=""|"")"	Extend the index tree with external terms
+complex	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with complex terms
+complex	Parent	"under(complex.Parent, ""protein complex"") or under(complex.Parent, ""mixture"")"
+disease	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with disease terms
+taxon	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with taxon terms
+taxon	Parent	"list(""|"", under(taxon.Parent, ""organism""))"	
 protein	Label	distinct(in(index.Label))	
-protein	Parent	in("protein")	
-protein	In Taxon	in(external.ID) or list("|", under(taxon.Parent, "organism"))	
-other	Label	in(index.Label, "administering substance in vivo [OBI:0600007]")	
+protein	Parent	"in(""protein"")"	
+protein	In Taxon	"in(external.ID) or list(""|"", under(taxon.Parent, ""organism""))"	
+other	Label	"in(index.Label, ""administering substance in vivo [OBI:0600007]"")"	

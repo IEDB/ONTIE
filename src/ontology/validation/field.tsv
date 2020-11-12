@@ -1,6 +1,6 @@
 table	column	condition	note
-index	ID	"distinct(CURIE(""ONTIE""))"
-external	ID	distinct(CURIE(prefix.prefix), index.ID)
+index	ID	"distinct(CURIE(""ONTIE""))"	
+external	ID	distinct(CURIE(prefix.prefix), index.ID)	
 external	Parent	"tree(Label, split=""|"")"	Extend the index tree with external terms
 complex	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with complex terms
 complex	Parent	"under(complex.Parent, ""protein complex"") or under(complex.Parent, ""mixture"")"

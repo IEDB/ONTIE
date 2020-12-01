@@ -96,7 +96,7 @@ diffs: $(DIFF_TABLES)
 
 # Imports
 
-IMPORTS := doid obi
+IMPORTS := doid obi mro
 OWL_IMPORTS := $(foreach I,$(IMPORTS),build/$(I).owl)
 DBS := build/ontie.db $(foreach I,$(IMPORTS),build/$(I).db)
 MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)
@@ -105,6 +105,12 @@ dbs: $(DBS)
 
 $(OWL_IMPORTS): | build
 	curl -Lk -o $@ http://purl.obolibrary.org/obo/$(notdir $@)
+
+build/all.db:  src/scripts/prefixes.sql ontie.owl $(OWL_IMPORTS) | build/rdftab
+	rm -rf $@
+	sqlite3 $@ < $<
+	./build/rdftab $@ < ontie.owl \
+	$(foreach I,$(OWL_IMPORTS), && ./build/rdftab $@ < $(I))
 
 build/%.db: src/scripts/prefixes.sql build/%.owl | build/rdftab
 	rm -rf $@

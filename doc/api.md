@@ -33,32 +33,34 @@ The JSON Linked Data representation of a single term is a standard JSON object w
 - `@value` keys provide the string representations of RDF literals
 
 <!-- GET TEST -->
-In order to capture RDF semantics, IRIs and literal values are represented as objects, using arrays when multiple values are given. For example, [https://ontology.iedb.org/ontology/ONTIE_0000001.json](/ontology/ONTIE_0000001.json) includes the following:
+In order to capture RDF semantics, IRIs and literal values are represented as objects, using arrays when multiple values are given. For example, [https://ontology.iedb.org/ontology/ONTIE_0000001.json?select=label,alternative%20term,subclass%20of](/ontology/ONTIE_0000001.json?select=label,alternative%20term,subclass%20of) includes the following plus JSON-LD context:
 
 ```
-{"label": {"@value":"Mus musculus BALB/c"},
- "alternative term": {"@value": "balb"},
- "subclass of": {
-    "@id": "NCBITaxon:10090",
-    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
-    "label": "Mus musculus"}}
+{"@id": "https://ontology.iedb.org/ontology/ONTIE_0000001",
+ "@type": "owl:Class",
+ "obo:IAO_0000118": "balb",
+ "rdfs:label": "Mus musculus BALB/c",
+ "rdfs:subClassOf": {
+    "@id": "obo:NCBITaxon_10090"
+ }
+}
 ```
 <!-- END GET TEST -->
 
 ### Tab-Separated Values
 <!-- GET TEST -->
-A table of tab-separated values about a term can also be requested. By default, five columns of data are provided, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv](/ontology/ONTIE_0000001.tsv):
+A table of tab-separated values about a term can also be requested. By default, the properties included are `IRI`, `label`, `obsolete`, and `replacement`. For example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv](/ontology/ONTIE_0000001.tsv):
 
 ```
-IRI	label	recognized	obsolete	replacement
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
+IRI	label	obsolete	replacement
+https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c		
 ```
 <!-- END GET TEST -->
 <!-- GET TEST -->
 If the query parameter `show-headers` is `false`, then the header row is omitted, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv?show-headers=false](/ontology/ONTIE_0000001.tsv?show-headers=false):
 
 ```
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
+https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c		
 ```
 <!-- END GET TEST -->
 <!-- GET TEST -->

@@ -2,22 +2,22 @@
 
 import csv, http.client, json, logging, os, sys, re, requests
 
-base = 'http://127.0.0.1:3210'
 logging.basicConfig(level=logging.INFO)
 
 def main(args):
-	'''Usage: ./http-test.py api.md'''
-	api_doc = args[1]
+	'''Usage: ./http-test.py base_url api.md'''
+	base = args[1]
+	api_doc = args[2]
 	get_tests = parse_get_test_strings(get_test_strings(api_doc))
 	post_tests = parse_post_test_strings(post_test_strings(api_doc))
-	success = run_tests(get_tests, post_tests)
+	success = run_tests(base, get_tests, post_tests)
 	if not success:
 		logging.error(' http-test failed')
 		sys.exit(1)
 	else:
 		logging.info(' http-test passed')
 
-def run_tests(get_tests, post_tests):
+def run_tests(base, get_tests, post_tests):
 	'''Given a set of get tests and a set of post tests, run the tests by 
 	comparing the actual response to the expected repsonse. Return true if all 
 	tests pass.'''
@@ -26,22 +26,22 @@ def run_tests(get_tests, post_tests):
 	for pair in get_tests:
 		path = pair[0]
 		expected = pair[1]
-		result = get(path)
+		result = get(base, path)
 		success = compare(path, expected, result, 'GET')
 	# run the POST tests
-	for tpl in post_tests:
+	"""for tpl in post_tests:
 		path = tpl[0]
 		body = tpl[1]
 		expected = tpl[2]
-		result = post(path, body)
+		result = post(base, path, body)
 		success = compare(
 			path, 
 			expected, 
 			result, 
-			'POST (%s)' % body.replace('\n', '\\n'))
+			'POST (%s)' % body.replace('\n', '\\n'))"""
 	return success
 
-def get(path):
+def get(base, path):
 	'''Perform a GET request on a path in ontology.iedb.org. Return the response 
 	as a string.'''
 	if 'localhost' in base or '127.0.0.1' in base:
@@ -55,7 +55,7 @@ def get(path):
 	resp = c.getresponse()
 	return fix_result(resp.read())
 
-def post(path, body):
+def post(base, path, body):
 	'''Perform a POST request on a path in ontology.iedb.org with a body. Return
 	the response as a string.'''
 	if 'localhost' in base or '127.0.0.1' in base:
@@ -92,7 +92,7 @@ def compare(path, expected, result, method):
 	elif re.search(r'[^\t]+\t', result):
 		ok = compare_tsv(path, expected, result, method)
 	else:
-		logging.error(' %s unknown result format')
+		logging.error(' %s unknown result format' % path)
 		return False
 	return ok
 
@@ -104,11 +104,17 @@ def compare_tsv(path, expected, result, method):
 	reader = csv.reader(expected.splitlines(), delimiter='\t')
 	for row in reader:
 		for item in row:
+			if "|" in item:
+				item = item.split("|")
+				item = "|".join(sorted(item))
 			expected_tsv.append(item)
 	result_tsv = []
 	reader = csv.reader(result.splitlines(), delimiter='\t')
 	for row in reader:
 		for item in row:
+			if "|" in item:
+				item = item.split("|")
+				item = "|".join(sorted(item))
 			result_tsv.append(item)
 	diff = [x for x in expected_tsv if x not in result_tsv]
 	if not diff:
@@ -131,7 +137,9 @@ def compare_json(path, expected, result, method):
 	in JSON, determine if the result contains the expected output. If not, 
 	return false.'''
 	j_expected = json.loads(expected)
-	j_result = json.loads(result)
+	j_result = json.loads(result.replace("\\n", "\n"))
+	if "@context" in j_result:
+		del j_result["@context"]
 	diff = [x for x in j_expected.items() if x not in j_result.items()]
 
 	if not diff:

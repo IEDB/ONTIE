@@ -33,20 +33,20 @@ def get_term(term_id, fmt):
     db = get_database("ontie")
     term_id = term_id.replace("_", ":", 1)
 
-    select = request.args.get("select", "")
+    select = request.args.get("select")
     show_headers = request.args.get("show-headers", "true")
     compact = request.args.get("compact", "false")
+    values = "IRI"
+    if compact == "true":
+        values = "CURIE"
 
-    predicates = None
     if select:
         predicates = select.split(",")
-
-    default_value_format = "IRI"
-    if compact == "true":
-        default_value_format = "CURIE"
+    else:
+        predicates = [values, "label", "obsolete", "replacement"]
 
     if fmt == "json":
-        export = gizmos.extract.extract_terms(db, [term_id], predicates, fmt="json-ld")
+        export = gizmos.extract.extract_terms(db, [term_id], predicates, fmt="json-ld", no_hierarchy=True)
         mt = "application/json"
     else:
         if fmt == "tsv":
@@ -54,7 +54,7 @@ def get_term(term_id, fmt):
         elif fmt == "csv":
             mt = "text/comma-separated-values"
         else:
-            return "Unknown output format"
+            abort(400, "Unknown format requested (must be html or tsv): " + fmt)
 
         no_headers = False
         if show_headers != "true":
@@ -66,7 +66,7 @@ def get_term(term_id, fmt):
             predicates,
             fmt,
             no_headers=no_headers,
-            default_value_format=default_value_format,
+            default_value_format=values,
         )
 
     if not export:
@@ -131,8 +131,7 @@ def show_resource_terms(resource, entity_type):
     fmt = request.args.get("format", "html")
     if fmt not in ["html", "tsv"]:
         abort(400, "Unknown format requested (must be html or tsv): " + fmt)
-    # A list of predicates
-    select = request.args.get("select", "label,obsolete,replacement")
+
     # Show TSV headers
     show_headers_str = request.args.get("show-headers", "true")
     show_headers = True
@@ -145,7 +144,12 @@ def show_resource_terms(resource, entity_type):
     if compact == "true":
         values = "CURIE"
 
-    predicates = [values] + select.split(",")
+    # A list of predicates
+    select = request.args.get("select")
+    if select:
+        predicates = select.split(",")
+    else:
+        predicates = [values, "label", "obsolete", "replacement"]
 
     # Constraints
     label_query = request.args.get("label")

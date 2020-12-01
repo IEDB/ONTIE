@@ -96,7 +96,7 @@ diffs: $(DIFF_TABLES)
 
 # Imports
 
-IMPORTS := doid obi mro
+IMPORTS := doid obi
 OWL_IMPORTS := $(foreach I,$(IMPORTS),build/$(I).owl)
 DBS := build/ontie.db $(foreach I,$(IMPORTS),build/$(I).db)
 MODULES := $(foreach I,$(IMPORTS),build/$(I)-import.ttl)

@@ -217,3 +217,6 @@ build/template-problems.tsv: $(TABLES) | build/robot.jar
 apply: build/report-problems.tsv build/template-problems.tsv
 	$(COGS) apply $^
 
+.PHONY: sort
+sort: src/ontology/templates/
+	src/scripts/sort-templates.py

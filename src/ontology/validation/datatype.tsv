@@ -2,8 +2,9 @@ datatype	parent	match	level	instructions	replace
 string			ERROR		
 blank	string	/^$/	ERROR		
 line	string	/^[^\n]+$/	ERROR	remove line breaks	s/\n/ /g
-trimmed line	line	/^\w.*\w$/	ERROR	remove leading and trailing whitespace	s/\s+(.*)\s+/\1/
+trimmed line	line	/^\S$|^\S.*\S$/	ERROR	remove leading and trailing whitespace	s/\s+(.*)\s+/\1/
 label	trimmed line		ERROR		
 IRI	trimmed line	/^\S+$/	ERROR	remove whitespace characters	
 prefix	trimmed line	/^\w+$/	ERROR	remove non-word characters	
+suffix	trimmed line	/^\w+$/	ERROR	remove non-word characters	
 number	trimmed line	/^[0-9]+$/	ERROR	replace alpha characters with digits	

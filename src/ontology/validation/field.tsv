@@ -1,6 +1,6 @@
 table	column	condition	message
 index	ID	"concat(""ONTIE:"", number)"	'{value}' must be a CURIE in the ONTIE namespace with a numeric local ID
-external	ID	distinct(concat(in(prefix.prefix), number), index.ID)	'{value}' must have a prefix from 'prefix' (other than ONTIE) with a numeric local ID
+external	ID	distinct(concat(in(prefix.prefix), ":", suffix), index.ID)	'{value}' must have a prefix from 'prefix' (other than ONTIE) with a numeric local ID
 external	Parent	"tree(Label, split=""|"")"	'{value}' must be a term defined in this sheet
 complex	Parent	"tree(Label, external.Parent, split=""|"")"	The parent '{value}' must be a term defined in 'external' or this sheet
 complex	Parent	"any(under(complex.Parent, ""protein complex""), under(complex.Parent, ""mixture""))"	'{value}' must be a descendant of 'protein complex' or 'mixture'

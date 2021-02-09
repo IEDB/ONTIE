@@ -1,11 +1,16 @@
 Label	Parent	Definition	Alternative Term	Domain	Carrier	Human Disease
 LABEL	SC %	A definition	A alternative term SPLIT=|	A ONTIE domain	SC 'has material basis in' some %	SC 'model of human disease' some % SPLIT=|
+additional diseases by category	disease			disease		
 adjuvant-induced arthritis (AIA)	experimental arthritis	An experimental arthritis induced by the administration of adjuvant.	AIA|U41	disease		
 animal model of autoimmune disease	animal model of disease	An animal model of disease that serves as a method to study a human autoimmune disease.		disease		autoimmune disease
 animal model of disease	disease	An experimental process in which an organism other than human is studied as it undergoes a process that mimics an occurrence of a human disease in order to study that disease.¬†		disease		
 asymptomatic COVID-19 infection	infection without disease	An asymptomatic infection with Severe acute respiratory syndrome coronavirus 2		disease	Severe acute respiratory syndrome coronavirus 2	
 asymptomatic HIV infection	infection without disease	An asymptomatic infection with Human immunodeficiency virus 1 OR Human immunodeficiency virus 2.	Z21	disease	('Human immunodeficiency virus 1' or 'Human immunodeficiency virus 2')	
 collagen-induced arthritis (CIA)	experimental arthritis	An experimental arthritis induced by the administration of collagen. Autoimmune arthritis is induced in this model by immunization with an emulsion of complete Freund's adjuvant and type II collagen (CII).	CIA|U42	disease		
+disease	host health status					
+disease of anatomical entity	additional diseases by category					
+disease of mental health	additional diseases by category					
+disease of metabolism	additional diseases by category					
 experimental Graves' disease	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human Graves' disease.	E05	disease		Graves disease
 experimental arthritis	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human arthritis.	U43	disease		arthritis
 experimental autoimmune encephalomyelitis (EAE)	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human multiple sclerosis or human acute disseminated encephalomyelitis.	EAE|G35	disease		multiple sclerosis|acute disseminated encephalomyelitis
@@ -19,11 +24,12 @@ experimental autoimmune sensorineural hearing loss	animal model of autoimmune di
 experimental autoimmune thyroiditis (EAT)	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.	E06.3|EAT	disease		hypothyroidism|autoimmune thyroiditis
 experimental autoimmune uveitis (EAU)	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human autoimmune uveitis.	EAU|H20	disease		autoimmune uveitis
 experimental immune-mediated cholangiopathy	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human cholangitis.	K80.3	disease		cholangitis
+genetic disease	additional diseases by category					
 habitual abortion	female reproductive system disease	A female reproductive system disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.	recurrent miscarriage|recurrent pregnancy loss	disease		
-human T-lymphotropic virus 1 carrier	infection without disease	An asymptomatic infection with Human T-cell leukemia virus type I.	HTLV-1 carrier|Z22.6	disease	Human T-cell leukemia virus type I	
-rejection of transplanted organs and tissues	transplant-related disease and allo-reactivity	A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.	T86|T86.0|T86.1|T86.2|T86.3|T86.8	disease		
-transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease		
-host health status	owl:Thing	The state of the host at the time of the experiment		disease		
 healthy	host health status	The absence of any disease	U6	disease		
-infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease		
-additional diseases by category	disease			disease		
+host health status	owl:Thing	The state of the host at the time of the experiment		disease		
+human T-lymphotropic virus 1 carrier	infection without disease	An asymptomatic infection with Human T-cell leukemia virus type I.	HTLV-1 carrier|Z22.6	disease	Human T-cell leukemia virus type I	
+infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease	
+rejection of transplanted organs and tissues	transplant-related disease and allo-reactivity	A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.	T86|T86.0|T86.1|T86.2|T86.3|T86.8	disease		
+transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease			
+syndrome	additional diseases by category					

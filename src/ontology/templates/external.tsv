@@ -2,7 +2,7 @@ ID	Label	Type	Class Type	Parent	Synonyms	Additional Axiom
 ID	LABEL	TYPE	CLASS_TYPE	C % SPLIT=|	A alternative term SPLIT=|	C % SPLIT=|
 BFO:0000015	process	owl:Class		owl:Thing		
 CHEBI:60004	mixture	owl:Class		material entity		
-DOID:0014667	disease of metabolism	owl:Class		additional diseases by category		
+DOID:0014667	disease of metabolism	owl:Class				
 DOID:0040088	autoimmune uveitis	owl:Class		autoimmune disease		
 DOID:0040095	autoimmune cardiomyopathy	owl:Class		autoimmune disease		
 DOID:0050117	infectious disease	owl:Class		disease		
@@ -15,19 +15,19 @@ DOID:14566	neoplasm	owl:Class		disease
 DOID:1459	hypothyroidism	owl:Class		endocrine system disease		
 DOID:14654	prostatitis	owl:Class		male reproductive system disease		
 DOID:15	reproductive system disease	owl:Class		disease of anatomical entity		
-DOID:150	disease of mental health	owl:Class		additional diseases by category		
+DOID:150	disease of mental health	owl:Class				
 DOID:17	musculoskeletal system disease	owl:Class		disease of anatomical entity		
-DOID:225	syndrome	owl:Class		additional diseases by category		
+DOID:225	syndrome	owl:Class				
 DOID:229	female reproductive system disease	owl:Class		reproductive system disease		
 DOID:2377	multiple sclerosis	owl:Class		nervous system disease		
 DOID:28	endocrine system disease	owl:Class		disease of anatomical entity		
-DOID:4	disease	owl:Class		host health status		
+DOID:4	disease	owl:Class				
 DOID:417	autoimmune disease	owl:Class		disease		
 DOID:437	myasthenia gravis	owl:Class		autoimmune disease|nervous system disease		
 DOID:48	male reproductive system disease	owl:Class		reproductive system disease		
-DOID:630	genetic disease	owl:Class		additional diseases by category		
+DOID:630	genetic disease	owl:Class				
 DOID:639	acute disseminated encephalomyelitis	owl:Class		nervous system disease		
-DOID:7	disease of anatomical entity	owl:Class		additional diseases by category		
+DOID:7	disease of anatomical entity	owl:Class				
 DOID:7188	autoimmune thyroiditis	owl:Class		autoimmune disease|endocrine system disease		
 DOID:77	gastrointestinal system disease	owl:Class		disease of anatomical entity		
 DOID:848	arthritis	owl:Class		musculoskeletal system disease		
@@ -655,8 +655,8 @@ obo:COB_0000006	material entity	owl:Class
 OBI:0000011	planned process	owl:Class		process		
 OBI:0000070	assay	owl:Class		planned process		
 OBI:0100026	organism	owl:Class		material entity		
-OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class	equivalent	ONTIE:0003314		
-OBI:0600007				owl:Thing		
+OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class				
+owl:Thing	owl:Thing						
 PR:000000001	protein	owl:Class		material entity		
 PR:A0A171JW18	Fimbrial protein Fim3	owl:Class		protein	Fim3	'in taxon' some 'Bordetella pertussis'
 PR:P04977	Pertussis toxin subunit 1	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'

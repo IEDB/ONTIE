@@ -14,9 +14,11 @@ INSERT OR IGNORE INTO prefix VALUES
 ("foaf", "http://xmlns.com/foaf/0.1/"),
 
 ("BFO",       "http://purl.obolibrary.org/obo/BFO_"),
+("COB",       "http://purl.obolibrary.org/obo/COB_"),
 ("DOID",      "http://purl.obolibrary.org/obo/DOID_"),
 ("IAO",       "http://purl.obolibrary.org/obo/IAO_"),
 ("NCBITaxon", "http://purl.obolibrary.org/obo/NCBITaxon_"),
+("ncbi",      "http://purl.obolibrary.org/obo/ncbitaxon#"),
 ("OBI",       "http://purl.obolibrary.org/obo/OBI_"),
 ("PR",        "http://purl.obolibrary.org/obo/PR_"),
 

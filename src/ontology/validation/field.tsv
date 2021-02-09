@@ -1,13 +1,13 @@
-table	column	condition	note
-index	ID	"distinct(CURIE(""ONTIE""))"	
-external	ID	distinct(CURIE(prefix.prefix), index.ID)	
-external	Parent	"tree(Label, split=""|"")"	Extend the index tree with external terms
-complex	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with complex terms
-complex	Parent	"under(complex.Parent, ""protein complex"") or under(complex.Parent, ""mixture"")"	
-disease	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with disease terms
-taxon	Parent	"tree(Label, external.Parent, split=""|"")"	Extend the external tree with taxon terms
-taxon	Parent	"list(""|"", under(taxon.Parent, ""organism""))"	
-protein	Label	distinct(in(index.Label))	
-protein	Parent	"in(""protein"")"	
-protein	In Taxon	"in(external.ID) or list(""|"", under(taxon.Parent, ""organism""))"	
-other	Label	"in(index.Label, ""administering substance in vivo [OBI:0600007]"")"	
+table	column	condition	message
+index	ID	"concat(""ONTIE:"", number)"	'{value}' must be a CURIE in the ONTIE namespace with a numeric local ID
+external	ID	distinct(concat(in(prefix.prefix), number), index.ID)	'{value}' must have a prefix from 'prefix' (other than ONTIE) with a numeric local ID
+external	Parent	"tree(Label, split=""|"")"	'{value}' must be a term defined in this sheet
+complex	Parent	"tree(Label, external.Parent, split=""|"")"	The parent '{value}' must be a term defined in 'external' or this sheet
+complex	Parent	"any(under(complex.Parent, ""protein complex""), under(complex.Parent, ""mixture""))"	'{value}' must be a descendant of 'protein complex' or 'mixture'
+disease	Parent	"tree(Label, external.Parent, split=""|"")"	The parent '{value}' must be a term defined in 'external' or this sheet
+taxon	Parent	"tree(Label, external.Parent, split=""|"")"	The parent '{value}' must be a term defiend in 'external' or this sheet
+taxon	Parent	"list(""|"", under(taxon.Parent, ""organism""))"	The parent '{value}' must be a descendant of 'organism'
+protein	Label	distinct(in(index.Label))	The term '{value}' must be defined in 'index'
+protein	Parent	"in(""protein"")"	The parent '{value}' must be defined in this sheet
+protein	In Taxon	"any(in(external.ID), list(""|"", under(taxon.Parent, ""organism"")))"	The taxon '{value}' must be a descendant of 'organism'
+other	Label	"in(index.Label, ""administering substance in vivo [OBI:0600007]"")"	The term '{value}' must be defined in 'index'

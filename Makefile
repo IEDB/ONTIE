@@ -29,7 +29,7 @@ build build/validate build/diff build/master build/validation:
 	mkdir -p $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/template-labels/lastSuccessfulBuild/artifact/bin/robot.jar	
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
 
 build/robot-report.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
@@ -65,7 +65,7 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--output $@
 
 build/report.%: ontie.owl | build/robot-report.jar
-	$(ROBOT_REPORT) remove \
+	$(ROBOT) remove \
 	--input $< \
 	--base-iri ONTIE \
 	--axioms external \

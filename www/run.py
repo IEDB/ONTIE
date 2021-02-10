@@ -118,7 +118,7 @@ def show_resource(resource):
     return template.render(content=content)
 
 
-@app.route("/resources/<resource>/<entity_type>", methods=["GET"])
+@app.route("/resources/<resource>/<entity_type>", methods=["GET", "POST"])
 def show_resource_terms(resource, entity_type):
     if resource not in resources:
         abort(404, "Resource not found: " + resource)
@@ -139,10 +139,60 @@ def show_resource_terms(resource, entity_type):
         show_headers = False
     # Use CURIEs instead of IRIs
     compact = request.args.get("compact", "false")
-    logging.error(compact)
     values = "IRI"
     if compact == "true":
         values = "CURIE"
+
+    if request.method == "POST":
+        # If request was sent via PURL it may show up in form
+        data = request.form.to_dict(flat=False)
+        if not data:
+            # If request was sent as body, check data
+            data = request.data.decode("utf-8")
+        else:
+            data = list(data.keys())[0]
+        subset = []
+        for line in data.split("\n"):
+            if not line.strip():
+                continue
+            if line.strip() == "CURIE":
+                values = "CURIE"
+                continue
+            elif line.strip() == "IRI":
+                values = "IRI"
+                continue
+            subset.append(line.strip())
+        if values == "IRI":
+            with sqlite3.connect(db) as conn:
+                cur = conn.cursor()
+                subset = get_curies(cur, subset)
+    else:
+        # Constraints
+        label_query = request.args.get("label")
+        curie_query = request.args.get("curie")
+
+        # Display results
+        offset = int(request.args.get("offset", "1")) - 1
+        limit = int(request.args.get("limit", "100"))
+        next_set = offset + limit + 1
+        previous_set = offset - limit
+        if previous_set < 0:
+            previous_set = 0
+
+        term_ids = []
+        with sqlite3.connect(db) as conn:
+            cur = conn.cursor()
+            if entity_type == "subjects":
+                term_ids = get_term_ids(resource, cur, "subject", label_query, curie_query)
+                if isinstance(term_ids, str):
+                    # Error message
+                    return term_ids
+            else:
+                term_ids = get_term_ids(resource, cur, "predicate", label_query, curie_query)
+                if isinstance(term_ids, str):
+                    # Error message
+                    return term_ids
+        subset = term_ids[offset:next_set - 1]
 
     # A list of predicates
     select = request.args.get("select")
@@ -150,33 +200,6 @@ def show_resource_terms(resource, entity_type):
         predicates = select.split(",")
     else:
         predicates = [values, "label", "obsolete", "replacement"]
-
-    # Constraints
-    label_query = request.args.get("label")
-    curie_query = request.args.get("curie")
-
-    # Display results
-    offset = int(request.args.get("offset", "1")) - 1
-    limit = int(request.args.get("limit", "100"))
-    next_set = offset + limit + 1
-    previous_set = offset - limit
-    if previous_set < 0:
-        previous_set = 0
-
-    term_ids = []
-    with sqlite3.connect(db) as conn:
-        cur = conn.cursor()
-        if entity_type == "subjects":
-            term_ids = get_term_ids(resource, cur, "subject", label_query, curie_query)
-            if isinstance(term_ids, str):
-                # Error message
-                return term_ids
-        else:
-            term_ids = get_term_ids(resource, cur, "predicate", label_query, curie_query)
-            if isinstance(term_ids, str):
-                # Error message
-                return term_ids
-    subset = term_ids[offset:next_set - 1]
 
     if fmt == "html":
         content = gizmos.export.export_terms(
@@ -189,6 +212,7 @@ def show_resource_terms(resource, entity_type):
         with open("templates/resource_page.html.jinja2", "r") as f:
             template = Template(f.read())
         return template.render(content=content, previous_set=previous_set, next_set=next_set)
+
     tsv = gizmos.export.export_terms(
             db,
             subset,
@@ -333,6 +357,24 @@ def get_term_ids(resource, cur, entity_type, label_query, curie_query):
     for row in cur.fetchall():
         term_ids.append(row[0])
     return term_ids
+
+
+def get_curies(cur, iris):
+    prefixes = {}
+    cur.execute("SELECT * FROM prefix")
+    for row in cur.fetchall():
+        prefixes[row[1]] = row[0]
+
+    prefixes_sorted = {}
+    for k in sorted(prefixes, key=len, reverse=True):
+        prefixes_sorted[k] = prefixes[k]
+
+    curies = []
+    for iri in iris:
+        for p, namespace in prefixes_sorted.items():
+            if iri.startswith(p):
+                curies.append(iri.replace(p, namespace))
+    return curies
 
 
 def get_tree(term_id):

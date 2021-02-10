@@ -143,7 +143,7 @@ The `IRI` and `CURIE` query parameters are used to specify exactly which subject
 
 ## POST instead of GET
 <!-- POST TEST -->
-When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For this to work, you MUST include `method=GET` in the query string. For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
+When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?format=tsv) with this body:
 
 ```
 CURIE
@@ -154,79 +154,37 @@ ONTIE:0000002
 will return a table:
 
 ```
-CURIE	label	recognized	obsolete	replacement
-ONTIE:0000001	Mus musculus BALB/c	true		
-ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	true		
+CURIE	label	obsolete	replacement
+ONTIE:0000001	Mus musculus BALB/c		
+ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg		
 ```
 <!-- END POST TEST -->
 The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.
 
+The response will be a table of tab-separated values with four columns and a row for each submitted CURIE/IRI. If a term does not exist, no row will be returned for that term. The columns are:
 
-## Example: Term Status
+1. IRI or CURIE (corresponding to the request)
+2. label
+4. obsolete: true if the term is obsolete, blank or false if the term is not obsolete
+5. replacement: if the term is recognized and obsolete and has been replaced by another term, this column will contain the replacement term IRI; otherwise it will be blank
+
+You can use the following query parameters in a POST request:
+* `show-headers`
+* `select` (for predicates)
+
 <!-- POST TEST -->
-When requesting a TSV table, the default columns provide a summary of each term's status. For example, POST to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
+For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv&select=CURIE,label&show-headers=false](/resources/all/subjects?format=tsv&select=CURIE,label&show-headers=false) with this body:
 
 ```
 CURIE
 ONTIE:0000001
-NCBITaxon:10090
-NCBITaxon:12
-NCBITaxon:3
-NCBITaxon:0
+ONTIE:0000002
 ```
 
-The response will be a table of tab-separated values with four columns and a row for each submitted IRI. The columns are:
-
-1. IRI or CURIE (corresponding to the request)
-2. label
-3. recognized: true if the term is available anywhere in SoT, false otherwise
-4. obsolete: true if the term is obsolete, blank or false if the term is not obsolete
-5. replacement: if the term is recognized and obsolete and has been replaced by another term, this column will contain the replacement term IRI; otherwise it will be blank
-
-For example (contains tab characters):
+will return a table:
 
 ```
-CURIE	label	recognized	obsolete	replacement
-ONTIE:0000001	Mus musculus BALB/c	true		
-NCBITaxon:10090	Mus musculus|mouse	true		
-NCBITaxon:12	obsolete taxon 12	true	true	http://purl.obolibrary.org/obo/NCBITaxon_74109
-NCBITaxon:3	obsolete taxon 3	true	true	
-NCBITaxon:0		false		
+ONTIE:0000001	Mus musculus BALB/c
+ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg
 ```
 <!-- END POST TEST -->
-
-## Term Submission
-
-SoT can accept new term submissions from authorized developers. The system current works via a REST API. An HTML form is in development.
-
-Terms can be submitted to [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE) using HTTP `PUT` request. You must include an `X-API-Key` HTTP header containing a valid developer API key. The body of the request must be a valid [Knotation](http://knotation.org) block. It should not include a subject -- if the request is valid then a new subject IRI will be assigned. Ideally the new term should use a previously defined template. The [ontie.kn](https://github.com/IEDB/ONTIE/blob/master/ontology/ontie.kn) source file contains a number of examples.
-
-
-#### Example: New Taxon
-
-```
-apply template: taxon class
- label: Mus musculus BALB/c
- parent taxon: Mus musculus
-alternative term: balb
-rank: subspecies
-```
-
-#### Example: New Protein
-
-```
-apply template: protein class
- label: Polymerase acidic protein
- taxon: Influenza A virus
-alternative term: RNA-directed RNA polymerase subunit P2
-alternative term: PA
-```
-
-#### Example: No Template
-
-```
-type: owl:Class
-label: occurrence of disease
-definition: The process in which a disease unfolds.
-subclass of: biological process
-```

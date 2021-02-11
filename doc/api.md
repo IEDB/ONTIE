@@ -167,8 +167,9 @@ The response will be a table of tab-separated values with four columns and a row
 
 1. IRI or CURIE (corresponding to the request)
 2. label
-4. obsolete: true if the term is obsolete, blank or false if the term is not obsolete
-5. replacement: if the term is recognized and obsolete and has been replaced by another term, this column will contain the replacement term IRI; otherwise it will be blank
+3. obsolete: true if the term is obsolete, blank or false if the term is not obsolete
+4. replacement: if the term is recognized and obsolete and has been replaced by another term, this column will contain the replacement term IRI; otherwise it will be blank
+5. recognized: true if the the term exists in the resource, false if it does not
 
 You can use the following query parameters in a POST request:
 * `show-headers`

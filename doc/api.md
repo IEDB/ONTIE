@@ -52,15 +52,15 @@ In order to capture RDF semantics, IRIs and literal values are represented as ob
 A table of tab-separated values about a term can also be requested. By default, the properties included are `IRI`, `label`, `obsolete`, and `replacement`. For example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv](/ontology/ONTIE_0000001.tsv):
 
 ```
-IRI	label	obsolete	replacement
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c		
+IRI	label	obsolete	replacement	recognized
+https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c			true
 ```
 <!-- END GET TEST -->
 <!-- GET TEST -->
 If the query parameter `show-headers` is `false`, then the header row is omitted, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv?show-headers=false](/ontology/ONTIE_0000001.tsv?show-headers=false):
 
 ```
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c		
+https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c			true
 ```
 <!-- END GET TEST -->
 <!-- GET TEST -->
@@ -148,15 +148,17 @@ When requesting a large number of terms, you can use HTTP POST instead of HTTP G
 ```
 CURIE
 ONTIE:0000001
-ONTIE:0000002
+NCBITaxon:10090
+NCBITaxon:0
 ```
 
 will return a table:
 
 ```
-CURIE	label	obsolete	replacement
-ONTIE:0000001	Mus musculus BALB/c		
-ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg		
+CURIE	label	obsolete	replacement	recognized
+ONTIE:0000001	Mus musculus BALB/c			true
+NCBITaxon:10090	Mus musculus			true
+NCBITaxon:0				false	
 ```
 <!-- END POST TEST -->
 The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.

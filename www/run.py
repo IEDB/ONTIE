@@ -1,7 +1,9 @@
+import csv
 import gizmos.export
 import gizmos.extract
 import gizmos.search
 import gizmos.tree
+import io
 import logging
 import os
 import sqlite3
@@ -32,6 +34,7 @@ def index():
 def get_term(term_id, fmt):
     db = get_database("ontie")
     term_id = term_id.replace("_", ":", 1)
+    prefixes = get_prefixes(db)
 
     select = request.args.get("select")
     show_headers = request.args.get("show-headers", "true")
@@ -46,7 +49,9 @@ def get_term(term_id, fmt):
         predicates = [values, "label", "obsolete", "replacement"]
 
     if fmt == "json":
-        export = gizmos.extract.extract_terms(db, [term_id], predicates, fmt="json-ld", no_hierarchy=True)
+        export = gizmos.extract.extract_terms(
+            db, [term_id], predicates, fmt="json-ld", no_hierarchy=True
+        )
         mt = "application/json"
     else:
         if fmt == "tsv":
@@ -60,14 +65,14 @@ def get_term(term_id, fmt):
         if show_headers != "true":
             no_headers = True
 
-        export = gizmos.export.export_terms(
-            db,
-            [term_id],
-            predicates,
-            fmt,
-            no_headers=no_headers,
-            default_value_format=values,
-        )
+        if (fmt == "tsv" and not select) or (select and "recognized" in predicates):
+            export = export_tsv(
+                db, prefixes, values, [term_id], predicates, show_headers=show_headers
+            )
+        else:
+            export = gizmos.export.export_terms(
+                db, [term_id], predicates, fmt, no_headers=no_headers, default_value_format=values,
+            )
 
     if not export:
         return "Term not found in database"
@@ -127,6 +132,9 @@ def show_resource_terms(resource, entity_type):
 
     db = get_database(resource)
 
+    # Get prefixes
+    prefixes = get_prefixes(db)
+
     # Format
     fmt = request.args.get("format", "html")
     if fmt not in ["html", "tsv"]:
@@ -163,9 +171,7 @@ def show_resource_terms(resource, entity_type):
                 continue
             subset.append(line.strip())
         if values == "IRI":
-            with sqlite3.connect(db) as conn:
-                cur = conn.cursor()
-                subset = get_curies(cur, subset)
+            subset = get_curies(prefixes, subset)
     else:
         # Constraints
         label_query = request.args.get("label")
@@ -192,7 +198,7 @@ def show_resource_terms(resource, entity_type):
                 if isinstance(term_ids, str):
                     # Error message
                     return term_ids
-        subset = term_ids[offset:next_set - 1]
+        subset = term_ids[offset : next_set - 1]
 
     # A list of predicates
     select = request.args.get("select")
@@ -203,24 +209,20 @@ def show_resource_terms(resource, entity_type):
 
     if fmt == "html":
         content = gizmos.export.export_terms(
-            db,
-            subset,
-            predicates,
-            "html",
-            default_value_format=values,
+            db, subset, predicates, "html", default_value_format=values,
         )
         with open("templates/resource_page.html.jinja2", "r") as f:
             template = Template(f.read())
         return template.render(content=content, previous_set=previous_set, next_set=next_set)
 
-    tsv = gizmos.export.export_terms(
-            db,
-            subset,
-            predicates,
-            "tsv",
-            no_headers=not show_headers,
-            default_value_format=values,
+    if select and "recognized" not in predicates:
+        # Custom predicates defined
+        tsv = gizmos.export.export_terms(
+            db, subset, predicates, "tsv", no_headers=not show_headers, default_value_format=values,
         )
+    else:
+        # No predicates defined, add "recognized"
+        tsv = export_tsv(db, prefixes, values, subset, predicates, show_headers=show_headers)
     return Response(tsv, mimetype="text/tab-separated-values")
 
 
@@ -252,13 +254,7 @@ def get_term_from_resource(resource):
 
     if fmt == "html":
         # TODO - do we want table or tree here?
-        return gizmos.export.export_terms(
-            db,
-            [curie],
-            None,
-            "html",
-            default_value_format="IRI",
-        )
+        return gizmos.export.export_terms(db, [curie], None, "html", default_value_format="IRI",)
 
     if fmt == "json":
         mt = "application/json"
@@ -270,6 +266,56 @@ def get_term_from_resource(resource):
         mt == "text/tab-separated-values"
         export = gizmos.export.export_terms(db, [curie], None, "tsv", default_value_format="IRI")
     return Response(export, mimetype=mt)
+
+
+def export_tsv(db, prefixes, value_format, subset, predicates, show_headers=True):
+    res = gizmos.export.export_terms(
+        db, subset, predicates, "tsv", default_value_format=value_format,
+    )
+    if "CURIE" in predicates:
+        identifier = "CURIE"
+    elif "IRI" in predicates:
+        identifier = "IRI"
+    else:
+        return res
+    reader = csv.DictReader(res.splitlines(), delimiter="\t")
+    rows = {}
+    for row in reader:
+        term = row[identifier]
+        if identifier == "IRI":
+            term = get_curie(prefixes, term)
+            print(term)
+        rows[term] = row
+    rows_new = []
+    for s in subset:
+        row = rows.get(s)
+        if not row:
+            rows_new.append({identifier: s, "recognized": "false"})
+        else:
+            row["recognized"] = "true"
+            rows_new.append(row)
+    if "recognized" not in predicates:
+        predicates.append("recognized")
+    output = io.StringIO()
+    writer = csv.DictWriter(output, delimiter="\t", lineterminator="\n", fieldnames=predicates)
+    if show_headers:
+        writer.writeheader()
+    writer.writerows(rows_new)
+    return output.getvalue()
+
+
+def get_curie(prefixes, iri):
+    for p, namespace in prefixes.items():
+        if iri.startswith(p):
+            return iri.replace(p, namespace + ":")
+    return f"<{iri}>"
+
+
+def get_curies(prefixes, iris):
+    curies = []
+    for iri in iris:
+        curies.append(get_curie(prefixes, iri))
+    return curies
 
 
 def get_database(resource):
@@ -284,6 +330,19 @@ def get_database(resource):
         if rc != 0:
             return abort(500, description="Unable to create database for " + resource)
     return db
+
+
+def get_prefixes(db):
+    with sqlite3.connect(db) as conn:
+        cur = conn.cursor()
+        prefixes = {}
+        cur.execute("SELECT * FROM prefix")
+        for row in cur.fetchall():
+            prefixes[row[1]] = row[0]
+    prefixes_sorted = {}
+    for k in sorted(prefixes, key=len, reverse=True):
+        prefixes_sorted[k] = prefixes[k]
+    return prefixes_sorted
 
 
 def get_term_ids(resource, cur, entity_type, label_query, curie_query):
@@ -357,24 +416,6 @@ def get_term_ids(resource, cur, entity_type, label_query, curie_query):
     for row in cur.fetchall():
         term_ids.append(row[0])
     return term_ids
-
-
-def get_curies(cur, iris):
-    prefixes = {}
-    cur.execute("SELECT * FROM prefix")
-    for row in cur.fetchall():
-        prefixes[row[1]] = row[0]
-
-    prefixes_sorted = {}
-    for k in sorted(prefixes, key=len, reverse=True):
-        prefixes_sorted[k] = prefixes[k]
-
-    curies = []
-    for iri in iris:
-        for p, namespace in prefixes_sorted.items():
-            if iri.startswith(p):
-                curies.append(iri.replace(p, namespace))
-    return curies
 
 
 def get_tree(term_id):

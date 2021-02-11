@@ -1,7 +1,3 @@
----
-title: IEDB Source of Truth
----
-
 # IEDB Source of Truth
 
 SoT is a system for dynamically creating, maintaining, and sharing an application ontology that builds on multiple reference resources. A reference resource could be a reference ontology such as OBI, or a similar non-ontological resource such as UniProt. We intend for the SoT system to be general, but the primary goal is to serve projects at LJI, including IEDB, LabKey database for HIPC and DORAS, TopCat, and Bioinformatics Core.

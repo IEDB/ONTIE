@@ -5,6 +5,7 @@ import gizmos.search
 import gizmos.tree
 import io
 import logging
+import markdown
 import os
 import sqlite3
 import subprocess
@@ -27,7 +28,18 @@ resources = {
 def index():
     with open("templates/main.html.jinja2", "r") as f:
         template = Template(f.read())
-    return template.render(content="Hello, world!")
+    with open("../README.md", "r") as f:
+        content = markdown.markdown(f.read())
+    return template.render(content=content)
+
+
+@app.route("/documentation")
+def documentation():
+    with open("../doc/api.md", "r") as f:
+        content = markdown.markdown(f.read())
+    with open("templates/main.html.jinja2", "r") as f:
+        template = Template(f.read())
+    return template.render(content=content)
 
 
 @app.route("/ontology/<term_id>.<fmt>", methods=["GET"])
@@ -38,6 +50,10 @@ def get_term(term_id, fmt):
 
     select = request.args.get("select")
     show_headers = request.args.get("show-headers", "true")
+    if show_headers == "true":
+        show_headers = True
+    else:
+        show_headers = False
     compact = request.args.get("compact", "false")
     values = "IRI"
     if compact == "true":
@@ -61,17 +77,13 @@ def get_term(term_id, fmt):
         else:
             abort(400, "Unknown format requested (must be html or tsv): " + fmt)
 
-        no_headers = False
-        if show_headers != "true":
-            no_headers = True
-
         if (fmt == "tsv" and not select) or (select and "recognized" in predicates):
             export = export_tsv(
                 db, prefixes, values, [term_id], predicates, show_headers=show_headers
             )
         else:
             export = gizmos.export.export_terms(
-                db, [term_id], predicates, fmt, no_headers=no_headers, default_value_format=values,
+                db, [term_id], predicates, fmt, no_headers=not show_headers, default_value_format=values,
             )
 
     if not export:
@@ -284,7 +296,6 @@ def export_tsv(db, prefixes, value_format, subset, predicates, show_headers=True
         term = row[identifier]
         if identifier == "IRI":
             term = get_curie(prefixes, term)
-            print(term)
         rows[term] = row
     rows_new = []
     for s in subset:
@@ -428,6 +439,6 @@ def get_tree(term_id):
     if not term_id:
         href = "ontology/{curie}"
     content = gizmos.tree.tree(db, term_id, title="ONTIE Browser", href=href, include_search=True)
-    with open("templates/tree.html.jinja2", "r") as f:
+    with open("templates/main.html.jinja2", "r") as f:
         template = Template(f.read())
     return template.render(content=content)

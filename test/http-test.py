@@ -138,9 +138,9 @@ def compare_tsv(path, expected, result, method):
         err_string = ''' {0} unknown {1} results: {2}
         --- EXPECTED ---\n{3}
         --- ACTUAL ---\n{4}'''.format(
-            path, 
-            method, 
-            ', '.join(diff), 
+            path,
+            method,
+            ', '.join(diff),
             expected,
             result)
         logging.error(err_string)
@@ -164,10 +164,10 @@ def compare_json(path, expected, result, method):
         err_string = ''' {0} unknown {1} results: {2}
         --- EXPECTED ---\n{3}
         --- ACTUAL ---\n{4}'''.format(
-            path, 
-            method, 
-            str(diff), 
-            json.dumps(j_expected, indent=4, sort_keys=True), 
+            path,
+            method,
+            str(diff),
+            json.dumps(j_expected, indent=4, sort_keys=True),
             json.dumps(j_result, indent=4, sort_keys=True))
         logging.error(err_string)
         return False
@@ -185,7 +185,11 @@ def parse_get_test_strings(test_strings):
     tests = []
     for t in test_strings:
         path = re.findall(r'\[.*\]\((.*)\)', t)[0]
-        result = re.findall(r'```\n([^`]+)\n```', t)[0]
+        result = []
+        for line in t.splitlines():
+            if line.startswith("\t"):
+                result.append(line.lstrip())
+        result = "\n".join(result)
         tests.append((path, result))
     return tests
 
@@ -203,8 +207,18 @@ def parse_post_test_strings(test_strings):
     tests = []
     for t in test_strings:
         path = re.findall(r'\[.*\]\((.*)\)', t)[0]
-        body_and_expected = re.findall(r'```\n([^`]+)\n```', t)[:2]
-        tests.append((path, body_and_expected[0], body_and_expected[1]))
+        body = []
+        expected = []
+        in_body = True
+        for line in t.splitlines():
+            if line.startswith("\t"):
+                if in_body:
+                    body.append(line.lstrip())
+                else:
+                    expected.append(line.lstrip())
+            if body and not line.startswith("\t"):
+                stop_body = False
+        tests.append((path, "\n".join(body), "\n".join(expected)))
     return tests
 
 

@@ -138,7 +138,7 @@
 		</nav>
 		<div id="content" style="margin-top:15px;">
 			{% block content %}
-			{{ content }}
+			{{ content|safe }}
 			{% endblock %}
 		</div>
 </body>

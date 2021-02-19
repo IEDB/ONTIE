@@ -10,7 +10,7 @@ import os
 import sqlite3
 import subprocess
 
-from flask import abort, Flask, request, Response
+from flask import abort, Flask, render_template, request, Response
 from jinja2 import Template
 
 
@@ -26,20 +26,16 @@ resources = {
 
 @app.route("/")
 def index():
-    with open("templates/main.html.jinja2", "r") as f:
-        template = Template(f.read())
     with open("../README.md", "r") as f:
         content = markdown.markdown(f.read())
-    return template.render(content=content)
+    return render_template("main.html", content=content)
 
 
 @app.route("/documentation")
 def documentation():
     with open("../doc/api.md", "r") as f:
         content = markdown.markdown(f.read())
-    with open("templates/main.html.jinja2", "r") as f:
-        template = Template(f.read())
-    return template.render(content=content)
+    return render_template("main.html", content=content)
 
 
 @app.route("/ontology/<term_id>.<fmt>", methods=["GET"])
@@ -83,7 +79,12 @@ def get_term(term_id, fmt):
             )
         else:
             export = gizmos.export.export_terms(
-                db, [term_id], predicates, fmt, no_headers=not show_headers, default_value_format=values,
+                db,
+                [term_id],
+                predicates,
+                fmt,
+                no_headers=not show_headers,
+                default_value_format=values,
             )
 
     if not export:
@@ -116,9 +117,7 @@ def show_all_resources():
     for ns, name in resources.items():
         content += f'<li><a href="resources/{ns}">{name}</a></li>'
     content += "</ul></div></div>"
-    with open("templates/main.html.jinja2", "r") as f:
-        template = Template(f.read())
-    return template.render(content=content)
+    return render_template("main.html", content=content)
 
 
 @app.route("/resources/<resource>")
@@ -130,9 +129,7 @@ def show_resource(resource):
     <li><a href="{resource}/subjects">Subjects</a></li>
     <li><a href="{resource}/predicates">Predicates</a></li>
     </ul>"""
-    with open("templates/main.html.jinja2", "r") as f:
-        template = Template(f.read())
-    return template.render(content=content)
+    return render_template("main.html", content=content)
 
 
 @app.route("/resources/<resource>/<entity_type>", methods=["GET", "POST"])
@@ -223,9 +220,9 @@ def show_resource_terms(resource, entity_type):
         content = gizmos.export.export_terms(
             db, subset, predicates, "html", default_value_format=values,
         )
-        with open("templates/resource_page.html.jinja2", "r") as f:
-            template = Template(f.read())
-        return template.render(content=content, previous_set=previous_set, next_set=next_set)
+        return render_template(
+            "resources.html", content=content, previous_set=previous_set, next_set=next_set
+        )
 
     if select and "recognized" not in predicates:
         # Custom predicates defined
@@ -439,6 +436,4 @@ def get_tree(term_id):
     if not term_id:
         href = "ontology/{curie}"
     content = gizmos.tree.tree(db, term_id, title="ONTIE Browser", href=href, include_search=True)
-    with open("templates/main.html.jinja2", "r") as f:
-        template = Template(f.read())
-    return template.render(content=content)
+    return render_template("main.html", content=content)

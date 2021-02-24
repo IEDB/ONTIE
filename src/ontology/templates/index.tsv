@@ -3568,3 +3568,8 @@ ONTIE:0003571	FcRn (MFI)	owl:Class
 ONTIE:0003572	mFcR2 (MFI)	owl:Class		
 ONTIE:0003573	mFcR3 (MFI)	owl:Class		
 ONTIE:0003574	mFcR4 (MFI)	owl:Class		
+ONTIE:0003598	prior pregnancy	owl:Class		
+ONTIE:0003599	family medical history	owl:Class		
+ONTIE:0003600	prenatal maternal abnormality	owl:Class		
+ONTIE:0003601	congenital disease	owl:Class		
+ONTIE:0003602	congenital urogenital anomaly	owl:Class		

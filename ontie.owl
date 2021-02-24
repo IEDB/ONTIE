@@ -57120,9 +57120,9 @@
     
 
 
-    <!-- https://ontology.iedb.org/ontology/ONTIE_0003598 -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003604 -->
 
-    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003598">
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003604">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003543"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The state or condition of previously having a developing embryo or fetus in the body.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prior pregnancy</rdfs:label>
@@ -57130,9 +57130,9 @@
     
 
 
-    <!-- https://ontology.iedb.org/ontology/ONTIE_0003599 -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003605 -->
 
-    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003599">
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003605">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical history of blood relatives.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</rdfs:label>
@@ -57140,19 +57140,19 @@
     
 
 
-    <!-- https://ontology.iedb.org/ontology/ONTIE_0003600 -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003606 -->
 
-    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003600">
-        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003599"/>
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003606">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003605"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of one&apos;s mother during one&apos;s gestation.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal maternal abnormality</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.iedb.org/ontology/ONTIE_0003601 -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003607 -->
 
-    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003601">
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003607">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that originates from a genetic abnormality, an error, infection, or exposure during embryonic development, or a compromised intrauterine environment.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital disease</rdfs:label>
@@ -57160,10 +57160,10 @@
     
 
 
-    <!-- https://ontology.iedb.org/ontology/ONTIE_0003602 -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003608 -->
 
-    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003602">
-        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003601"/>
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003608">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003607"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly of the urinary or reproductive system that is congenital.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital urogenital anomaly</rdfs:label>
     </owl:Class>

@@ -1,7 +1,0 @@
-language: python
-python:
-  - 3.6
-install:
-  - pip install -r requirements.txt
-script:
-  - mkdir build && touch src/ontology/templates/* && make test

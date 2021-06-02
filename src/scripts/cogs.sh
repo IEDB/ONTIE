@@ -17,7 +17,7 @@ INVALID=$(urlp --query --query_field=invalid "${URL}")
 if [[ ${EMAIL} ]]; then
   TITLE="ONTIE ${BRANCH}"
   if [[ ${EMAIL} =~ ${EMAIL_PAT} ]]; then
-	echo "<div class='alert alert-primary'>Creating a Google Sheet and sharing it with ${EMAIL}...</div>"
+    echo "<div class='alert alert-primary'>Creating a Google Sheet and sharing it with ${EMAIL}...</div>"
     cogs init -t "${TITLE}" -u ${EMAIL} -r writer
     make load push
   else

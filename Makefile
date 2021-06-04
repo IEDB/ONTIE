@@ -174,7 +174,7 @@ all: test
 
 # Create a new Google sheet with branch name & share it with provided email
 
-COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
+COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/tracked/$(S).tsv)
 
 .PHONY: load
 load: $(COGS_SHEETS)
@@ -182,7 +182,7 @@ load: $(COGS_SHEETS)
 	sed s/0/2/ sheet.tsv > .cogs/sheet.tsv
 	rm sheet.tsv
 
-.cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
+.cogs/tracked/%.tsv: src/ontology/templates/%.tsv | .cogs
 	$(COGS) add $<
 
 .PHONY: push

@@ -121,6 +121,12 @@ build/%.db: src/scripts/prefixes.sql build/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
+	sqlite3 $@ "CREATE INDEX idx_stanza ON statements (stanza);"
+	sqlite3 $@ "CREATE INDEX idx_subject ON statements (subject);"
+	sqlite3 $@ "CREATE INDEX idx_predicate ON statements (predicate);"
+	sqlite3 $@ "CREATE INDEX idx_object ON statements (object);"
+	sqlite3 $@ "CREATE INDEX idx_value ON statements (value);"
+	sqlite3 $@ "ANALYZE;"
 
 build/terms.txt: src/ontology/templates/external.tsv | build
 	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed '/NCBITaxon:/d' > $@

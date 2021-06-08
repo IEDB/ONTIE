@@ -11,7 +11,6 @@ import sqlite3
 import subprocess
 
 from flask import abort, Flask, render_template, request, Response
-from jinja2 import Template
 
 
 app = Flask(__name__)
@@ -42,7 +41,6 @@ def documentation():
 def get_term(term_id, fmt):
     db = get_database("ontie")
     term_id = term_id.replace("_", ":", 1)
-    prefixes = get_prefixes(db)
 
     select = request.args.get("select")
     show_headers = request.args.get("show-headers", "true")
@@ -60,32 +58,34 @@ def get_term(term_id, fmt):
     else:
         predicates = [values, "label", "obsolete", "replacement"]
 
-    if fmt == "json":
-        export = gizmos.extract.extract_terms(
-            db, [term_id], predicates, fmt="json-ld", no_hierarchy=True
-        )
-        mt = "application/json"
-    else:
-        if fmt == "tsv":
-            mt = "text/tab-separated-values"
-        elif fmt == "csv":
-            mt = "text/comma-separated-values"
+    with sqlite3.connect(db) as conn:
+        prefixes = get_prefixes(conn)
+        if fmt == "json":
+            export = gizmos.extract.extract_terms(
+                conn, [term_id], predicates, fmt="json-ld", no_hierarchy=True
+            )
+            mt = "application/json"
         else:
-            abort(400, "Unknown format requested (must be html or tsv): " + fmt)
+            if fmt == "tsv":
+                mt = "text/tab-separated-values"
+            elif fmt == "csv":
+                mt = "text/comma-separated-values"
+            else:
+                abort(400, "Unknown format requested (must be html or tsv): " + fmt)
 
-        if (fmt == "tsv" and not select) or (select and "recognized" in predicates):
-            export = export_tsv(
-                db, prefixes, values, [term_id], predicates, show_headers=show_headers
-            )
-        else:
-            export = gizmos.export.export_terms(
-                db,
-                [term_id],
-                predicates,
-                fmt,
-                no_headers=not show_headers,
-                default_value_format=values,
-            )
+            if (fmt == "tsv" and not select) or (select and "recognized" in predicates):
+                export = export_tsv(
+                    conn, prefixes, values, [term_id], predicates, show_headers=show_headers
+                )
+            else:
+                export = gizmos.export.export_terms(
+                    conn,
+                    [term_id],
+                    predicates,
+                    fmt,
+                    no_headers=not show_headers,
+                    default_value_format=values,
+                )
 
     if not export:
         return "Term not found in database"
@@ -141,9 +141,6 @@ def show_resource_terms(resource, entity_type):
 
     db = get_database(resource)
 
-    # Get prefixes
-    prefixes = get_prefixes(db)
-
     # Format
     fmt = request.args.get("format", "html")
     if fmt not in ["html", "tsv"]:
@@ -160,42 +157,42 @@ def show_resource_terms(resource, entity_type):
     if compact == "true":
         values = "CURIE"
 
-    if request.method == "POST":
-        # If request was sent via PURL it may show up in form
-        data = request.form.to_dict(flat=False)
-        if not data:
-            # If request was sent as body, check data
-            data = request.data.decode("utf-8")
+    with sqlite3.connect(db) as conn:
+        prefixes = get_prefixes(conn)
+        if request.method == "POST":
+            # If request was sent via PURL it may show up in form
+            data = request.form.to_dict(flat=False)
+            if not data:
+                # If request was sent as body, check data
+                data = request.data.decode("utf-8")
+            else:
+                data = list(data.keys())[0]
+            subset = []
+            for line in data.split("\n"):
+                if not line.strip():
+                    continue
+                if line.strip() == "CURIE":
+                    values = "CURIE"
+                    continue
+                elif line.strip() == "IRI":
+                    values = "IRI"
+                    continue
+                subset.append(line.strip())
+            if values == "IRI":
+                subset = get_curies(prefixes, subset)
         else:
-            data = list(data.keys())[0]
-        subset = []
-        for line in data.split("\n"):
-            if not line.strip():
-                continue
-            if line.strip() == "CURIE":
-                values = "CURIE"
-                continue
-            elif line.strip() == "IRI":
-                values = "IRI"
-                continue
-            subset.append(line.strip())
-        if values == "IRI":
-            subset = get_curies(prefixes, subset)
-    else:
-        # Constraints
-        label_query = request.args.get("label")
-        curie_query = request.args.get("curie")
+            # Constraints
+            label_query = request.args.get("label")
+            curie_query = request.args.get("curie")
 
-        # Display results
-        offset = int(request.args.get("offset", "1")) - 1
-        limit = int(request.args.get("limit", "100"))
-        next_set = offset + limit + 1
-        previous_set = offset - limit
-        if previous_set < 0:
-            previous_set = 0
+            # Display results
+            offset = int(request.args.get("offset", "1")) - 1
+            limit = int(request.args.get("limit", "100"))
+            next_set = offset + limit + 1
+            previous_set = offset - limit
+            if previous_set < 0:
+                previous_set = 0
 
-        term_ids = []
-        with sqlite3.connect(db) as conn:
             cur = conn.cursor()
             if entity_type == "subjects":
                 term_ids = get_term_ids(resource, cur, "subject", label_query, curie_query)
@@ -207,31 +204,32 @@ def show_resource_terms(resource, entity_type):
                 if isinstance(term_ids, str):
                     # Error message
                     return term_ids
-        subset = term_ids[offset : next_set - 1]
+            subset = term_ids[offset: next_set - 1]
 
-    # A list of predicates
-    select = request.args.get("select")
-    if select:
-        predicates = select.split(",")
-    else:
-        predicates = [values, "label", "obsolete", "replacement"]
+        # A list of predicates
+        select = request.args.get("select")
+        if select:
+            predicates = select.split(",")
+        else:
+            predicates = [values, "label", "owl:deprecated", "IAO:0100001"]
 
-    if fmt == "html":
-        content = gizmos.export.export_terms(
-            db, subset, predicates, "html", default_value_format=values,
-        )
-        return render_template(
-            "resources.html", content=content, previous_set=previous_set, next_set=next_set
-        )
+        if fmt == "html":
+            logging.error(predicates)
+            content = gizmos.export.export_terms(
+                conn, subset, predicates, "html", default_value_format=values,
+            ).replace("owl:deprecated", "obsolete").replace("IAO:0100001", "replacement")
+            return render_template(
+                "resources.html", content=content, previous_set=previous_set, next_set=next_set
+            )
 
-    if select and "recognized" not in predicates:
-        # Custom predicates defined
-        tsv = gizmos.export.export_terms(
-            db, subset, predicates, "tsv", no_headers=not show_headers, default_value_format=values,
-        )
-    else:
-        # No predicates defined, add "recognized"
-        tsv = export_tsv(db, prefixes, values, subset, predicates, show_headers=show_headers)
+        if select and "recognized" not in predicates:
+            # Custom predicates defined
+            tsv = gizmos.export.export_terms(
+                conn, subset, predicates, "tsv", no_headers=not show_headers, default_value_format=values,
+            )
+        else:
+            # No predicates defined, add "recognized"
+            tsv = export_tsv(conn, prefixes, values, subset, predicates, show_headers=show_headers)
     return Response(tsv, mimetype="text/tab-separated-values")
 
 
@@ -247,39 +245,39 @@ def get_term_from_resource(resource):
     if not curie and not iri:
         abort(400, "A CURIE or IRI is required in URL query parameters")
 
-    if iri:
-        with sqlite3.connect(db) as conn:
+    with sqlite3.connect(db) as conn:
+        if iri:
             cur = conn.cursor()
             cur.execute("SELECT DISTINCT prefix, base FROM prefix")
             for row in cur.fetchall():
                 if iri.startswith(row[1]):
                     curie = iri.replace(row[1], row[0] + ":")
-        if not curie:
-            abort(422, "Cannot process IRI due to unknown namespace: " + iri)
+            if not curie:
+                abort(422, "Cannot process IRI due to unknown namespace: " + iri)
 
-    fmt = request.args.get("format", "html")
-    if fmt not in ["html", "json", "tsv", "ttl"]:
-        abort(400, "Unknown format requested (must be html, json, tsv): " + fmt)
+        fmt = request.args.get("format", "html")
+        if fmt not in ["html", "json", "tsv", "ttl"]:
+            abort(400, "Unknown format requested (must be html, json, tsv): " + fmt)
 
-    if fmt == "html":
-        # TODO - do we want table or tree here?
-        return gizmos.export.export_terms(db, [curie], None, "html", default_value_format="IRI",)
+        if fmt == "html":
+            # TODO - do we want table or tree here?
+            return gizmos.export.export_terms(conn, [curie], None, "html", default_value_format="IRI",)
 
-    if fmt == "json":
-        mt = "application/json"
-        export = gizmos.extract.extract_terms(db, [curie], None, fmt="json-ld")
-    elif fmt == "ttl":
-        mt = "text/turtle"
-        export = gizmos.extract.extract_terms(db, [curie], None)
-    else:
-        mt == "text/tab-separated-values"
-        export = gizmos.export.export_terms(db, [curie], None, "tsv", default_value_format="IRI")
+        if fmt == "json":
+            mt = "application/json"
+            export = gizmos.extract.extract_terms(conn, [curie], None, fmt="json-ld")
+        elif fmt == "ttl":
+            mt = "text/turtle"
+            export = gizmos.extract.extract_terms(conn, [curie], None)
+        else:
+            mt = "text/tab-separated-values"
+            export = gizmos.export.export_terms(conn, [curie], None, "tsv", default_value_format="IRI")
     return Response(export, mimetype=mt)
 
 
-def export_tsv(db, prefixes, value_format, subset, predicates, show_headers=True):
+def export_tsv(conn, prefixes, value_format, subset, predicates, show_headers=True):
     res = gizmos.export.export_terms(
-        db, subset, predicates, "tsv", default_value_format=value_format,
+        conn, subset, predicates, "tsv", default_value_format=value_format,
     )
     if "CURIE" in predicates:
         identifier = "CURIE"
@@ -332,7 +330,6 @@ def get_database(resource):
     if not os.path.exists("../build"):
         os.mkdir("../build")
     if not os.path.exists(db):
-        # TODO - make database
         logging.info("Building database for " + resource)
         rc = subprocess.call(f"cd .. && make build/{db_name}.db", shell=True)
         if rc != 0:
@@ -340,13 +337,12 @@ def get_database(resource):
     return db
 
 
-def get_prefixes(db):
-    with sqlite3.connect(db) as conn:
-        cur = conn.cursor()
-        prefixes = {}
-        cur.execute("SELECT * FROM prefix")
-        for row in cur.fetchall():
-            prefixes[row[1]] = row[0]
+def get_prefixes(conn):
+    cur = conn.cursor()
+    prefixes = {}
+    cur.execute("SELECT * FROM prefix")
+    for row in cur.fetchall():
+        prefixes[row[1]] = row[0]
     prefixes_sorted = {}
     for k in sorted(prefixes, key=len, reverse=True):
         prefixes_sorted[k] = prefixes[k]
@@ -429,11 +425,12 @@ def get_term_ids(resource, cur, entity_type, label_query, curie_query):
 def get_tree(term_id):
     db = get_database("ontie")
     fmt = request.args.get("format", "")
-    if fmt == "json":
-        label = request.args.get("text", "")
-        return gizmos.search.search(db, label, limit=30)
-    href = "./{curie}"
-    if not term_id:
-        href = "ontology/{curie}"
-    content = gizmos.tree.tree(db, term_id, title="ONTIE Browser", href=href, include_search=True)
+    with sqlite3.connect(db) as conn:
+        if fmt == "json":
+            label = request.args.get("text", "")
+            return gizmos.search.search(conn, label, limit=30)
+        href = "./{curie}"
+        if not term_id:
+            href = "ontology/{curie}"
+        content = gizmos.tree.tree(conn, "ONTIE Browser", term_id, href=href, include_search=True)
     return render_template("main.html", content=content)

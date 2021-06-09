@@ -1,7 +1,18 @@
 ### Workflow
 #
-# 1. [Edit](./src/scripts/cogs.sh) the Google Sheet
+# #### Edit existing terms
+# 1. [Edit all templates](./src/scripts/cogs.sh) the Google Sheet
 # 2. [Validate](validate) sheet
+#
+# #### Add a new term
+# - [assays](./src/scripts/generate-form.sh?template=assays)
+# - [complex](./src/scripts/generate-form.sh?template=complex)
+# - [disease](./src/scripts/generate-form.sh?template=disease)
+# - [other](./src/scripts/generate-form.sh?template=other)
+# - [protein](./src/scripts/generate-form.sh?template=protein)
+# - [taxon](./src/scripts/generate-form.sh?template=taxon)
+#
+# #### Review changes
 # 3. [View table diffs](build/diff/diff.html)
 # 4. [Update](update) ontology files
 # 5. View the results:
@@ -9,7 +20,7 @@
 #     - [Browse Trees](./src/scripts/tree.sh)
 #     - [Download ontie.owl](ontie.owl)
 #
-# ### Commit Changes
+# #### Commit Changes
 #
 # 1. Run [Status](git status) to see changes
 # 2. Run [Commit](git commit) and enter message
@@ -110,6 +121,12 @@ build/%.db: src/scripts/prefixes.sql build/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
+	sqlite3 $@ "CREATE INDEX idx_stanza ON statements (stanza);"
+	sqlite3 $@ "CREATE INDEX idx_subject ON statements (subject);"
+	sqlite3 $@ "CREATE INDEX idx_predicate ON statements (predicate);"
+	sqlite3 $@ "CREATE INDEX idx_object ON statements (object);"
+	sqlite3 $@ "CREATE INDEX idx_value ON statements (value);"
+	sqlite3 $@ "ANALYZE;"
 
 build/terms.txt: src/ontology/templates/external.tsv | build
 	awk -F '\t' '{print $$1}' $< | tail -n +3 | sed '/NCBITaxon:/d' > $@
@@ -163,7 +180,7 @@ all: test
 
 # Create a new Google sheet with branch name & share it with provided email
 
-COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/$(S).tsv)
+COGS_SHEETS := $(foreach S,$(SHEETS),.cogs/tracked/$(S).tsv)
 
 .PHONY: load
 load: $(COGS_SHEETS)
@@ -171,7 +188,7 @@ load: $(COGS_SHEETS)
 	sed s/0/2/ sheet.tsv > .cogs/sheet.tsv
 	rm sheet.tsv
 
-.cogs/%.tsv: src/ontology/templates/%.tsv | .cogs
+.cogs/tracked/%.tsv: src/ontology/templates/%.tsv | .cogs
 	$(COGS) add $<
 
 .PHONY: push

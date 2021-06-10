@@ -432,5 +432,5 @@ def get_tree(term_id):
         href = "./{curie}"
         if not term_id:
             href = "ontology/{curie}"
-        content = gizmos.tree.tree(conn, "ONTIE Browser", term_id, href=href, include_search=True)
+        content = gizmos.tree.tree(conn, "ONTIE", term_id, href=href, include_search=True)
     return render_template("main.html", content=content)

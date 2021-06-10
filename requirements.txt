@@ -2,3 +2,4 @@ git+https://github.com/ontodev/gizmos.git
 flask
 jinja2
 markdown
+psycopg2

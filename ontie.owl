@@ -240,6 +240,78 @@
     
 
 
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003620 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has sort name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003621 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003621">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has taxonomic level</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003622 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003622">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003623 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003623">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has accession</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003624 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003624">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has accession IRI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003625 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003625">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has source database</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003626 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003626">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has source ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003627 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003627">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start position</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003628 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003628">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end position</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

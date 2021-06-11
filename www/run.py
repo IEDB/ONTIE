@@ -62,7 +62,7 @@ def get_term(term_id, fmt):
         prefixes = get_prefixes(conn)
         if fmt == "json":
             export = gizmos.extract.extract_terms(
-                conn, [term_id], predicates, fmt="json-ld", no_hierarchy=True
+                conn, {term_id: {}}, predicates, fmt="json-ld", no_hierarchy=True
             )
             mt = "application/json"
         else:
@@ -266,13 +266,13 @@ def get_term_from_resource(resource):
 
         if fmt == "json":
             mt = "application/json"
-            export = gizmos.extract.extract_terms(conn, [curie], None, fmt="json-ld")
+            export = gizmos.extract.extract_terms(conn, {curie: {}}, None, fmt="json-ld")
         elif fmt == "ttl":
             mt = "text/turtle"
-            export = gizmos.extract.extract_terms(conn, [curie], None)
+            export = gizmos.extract.extract_terms(conn, {curie: {}}, None)
         else:
             mt = "text/tab-separated-values"
-            export = gizmos.export.export_terms(conn, [curie], None, "tsv", default_value_format="IRI")
+            export = gizmos.export.export_terms(conn, {curie: {}}, None, "tsv", default_value_format="IRI")
     return Response(export, mimetype=mt)
 
 

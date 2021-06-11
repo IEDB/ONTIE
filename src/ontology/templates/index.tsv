@@ -3597,13 +3597,13 @@ ONTIE:0003600	CR3022	owl:Class
 ONTIE:0003601	convalescent plasma 1	owl:Class		
 ONTIE:0003602	convalescent plasma 2	owl:Class		
 ONTIE:0003603	negative plasma	owl:Class			
-ONTIE:0003611	ULOD (ng/mL)	owl:Class		
-ONTIE:0003612	LLOD (ng/mL)	owl:Class		
-ONTIE:0003613	MPI (%)	owl:Class		
-ONTIE:0003614	untreated uninfected control	owl:Class		
 ONTIE:0003604	prior pregnancy	owl:Class		
 ONTIE:0003605	family medical history	owl:Class		
 ONTIE:0003606	prenatal maternal abnormality	owl:Class		
 ONTIE:0003607	congenital disease	owl:Class		
 ONTIE:0003608	congenital urogenital anomaly	owl:Class		
 ONTIE:0003609	death status	owl:Class
+ONTIE:0003611	ULOD (ng/mL)	owl:Class		
+ONTIE:0003612	LLOD (ng/mL)	owl:Class		
+ONTIE:0003613	MPI (%)	owl:Class		
+ONTIE:0003614	untreated uninfected control	owl:Class		

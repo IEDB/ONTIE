@@ -57161,6 +57161,285 @@
     
 
 
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003575 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003576 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003576">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fold change from the starting concentration of a solution being diluted.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starting dilution fold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003577 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003577">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The initial amount of antibody dissolved in the solution being diluted, reported in ug/mL.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starting concentration (ug/mL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003578 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003578">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The minimum value that can be obtained.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-PL curve parameter A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003579 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003579">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hill&apos;s slope of the curve.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-PL curve parameter B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003580 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003580">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The inflection point.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-PL curve parameter C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003581 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003581">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The maximum value that can be obtained.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-PL curve parameter D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003582 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003582">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical measure of fit that indicates how much variation of a dependent variable is explained by the independent variable(s).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-PL curve R2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003583 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on inflammation score of 0-5.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003584 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on edema score of 0-5.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003585 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on vasculitis score of 0-5.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vasculitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003586 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on necrosis score of 0-5.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003587 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on hemorrhage score of 0-5.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemorrhage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003588 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on weight of organism in grams.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003589 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on viral titer in nasal turbinates measured in PFU/ml.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral titer nasal turbinates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003590 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An in vivo protection assay based on viral titer in lung tissue measured in PFU/ml.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral titer lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003591 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003591">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethical euthanization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003592 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003592">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euthanized as planned</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003593 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003593">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unplanned death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003594 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003594">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survived until end</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003595 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003595">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0001036"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6.Cg-Tg(K18-ACE2)2Prlmn/J</obo:IAO_0000118>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K18 hACE2 transgenic mouse</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon</ontology:ONTIE_0003259>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003596 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isotype control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003597 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mock-treated PBS-control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003598 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003599 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KZ52</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003600 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CR3022</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003601 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convalescent plasma 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003602 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convalescent plasma 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003603 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative plasma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003604 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003604">
@@ -57207,6 +57486,53 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003607"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly of the urinary or reproductive system that is congenital.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital urogenital anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003609 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003609">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">death status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003611 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003611">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The upper limit of detection in ng/ml.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULOD (ng/mL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003612 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003612">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lower limit of detection in ng/ml.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLOD (ng/mL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003613 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003613">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The maximum percent inhibition.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPI (%)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003614 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">untreated uninfected control</rdfs:label>
     </owl:Class>
     
 

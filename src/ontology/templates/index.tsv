@@ -3568,8 +3568,42 @@ ONTIE:0003571	FcRn (MFI)	owl:Class
 ONTIE:0003572	mFcR2 (MFI)	owl:Class		
 ONTIE:0003573	mFcR3 (MFI)	owl:Class		
 ONTIE:0003574	mFcR4 (MFI)	owl:Class		
+ONTIE:0003575	parameter	owl:Class		
+ONTIE:0003576	Starting dilution fold	owl:Class		
+ONTIE:0003577	Starting concentration (ug/mL)	owl:Class		
+ONTIE:0003578	4-PL curve parameter A	owl:Class		
+ONTIE:0003579	4-PL curve parameter B	owl:Class		
+ONTIE:0003580	4-PL curve parameter C	owl:Class		
+ONTIE:0003581	4-PL curve parameter D	owl:Class		
+ONTIE:0003582	4-PL curve R2	owl:Class		
+ONTIE:0003583	inflammation	owl:Class		
+ONTIE:0003584	edema	owl:Class		
+ONTIE:0003585	vasculitis	owl:Class		
+ONTIE:0003586	necrosis	owl:Class		
+ONTIE:0003587	hemorrhage	owl:Class		
+ONTIE:0003588	weight	owl:Class		
+ONTIE:0003589	viral titer nasal turbinates	owl:Class		
+ONTIE:0003590	viral titer lung	owl:Class		
+ONTIE:0003591	ethical euthanization	owl:Class		
+ONTIE:0003592	euthanized as planned	owl:Class		
+ONTIE:0003593	unplanned death	owl:Class		
+ONTIE:0003594	survived until end	owl:Class		
+ONTIE:0003595	K18 hACE2 transgenic mouse	owl:Class		
+ONTIE:0003596	isotype control	owl:Class		
+ONTIE:0003597	mock-treated PBS-control	owl:Class		
+ONTIE:0003598	PBS	owl:Class		
+ONTIE:0003599	KZ52	owl:Class		
+ONTIE:0003600	CR3022	owl:Class		
+ONTIE:0003601	convalescent plasma 1	owl:Class		
+ONTIE:0003602	convalescent plasma 2	owl:Class		
+ONTIE:0003603	negative plasma	owl:Class			
+ONTIE:0003611	ULOD (ng/mL)	owl:Class		
+ONTIE:0003612	LLOD (ng/mL)	owl:Class		
+ONTIE:0003613	MPI (%)	owl:Class		
+ONTIE:0003614	untreated uninfected control	owl:Class		
 ONTIE:0003604	prior pregnancy	owl:Class		
 ONTIE:0003605	family medical history	owl:Class		
 ONTIE:0003606	prenatal maternal abnormality	owl:Class		
 ONTIE:0003607	congenital disease	owl:Class		
 ONTIE:0003608	congenital urogenital anomaly	owl:Class		
+ONTIE:0003609	death status	owl:Class

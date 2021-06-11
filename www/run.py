@@ -100,6 +100,7 @@ def tree():
 
 @app.route("/ontology/<term_id>", methods=["GET"])
 def tree_at(term_id):
+    term_id = term_id.replace("_", ":")
     return get_tree(term_id)
 
 

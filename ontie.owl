@@ -88,12 +88,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
@@ -261,7 +255,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -57208,20 +57204,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly of the urinary or reproductive system that is congenital.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital urogenital anomaly</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 

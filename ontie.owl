@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-06-11/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-06-16/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -308,6 +308,54 @@
 
     <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003628">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end position</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003629 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003629">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB assay ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003630 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003630">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB assay measurement of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003631 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003631">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB assay synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003632 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003632">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB assay technique</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003633 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003633">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB assay units</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003634 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003634">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB tree view name</rdfs:label>
     </owl:AnnotationProperty>
     
 

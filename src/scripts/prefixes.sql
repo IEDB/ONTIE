@@ -24,5 +24,11 @@ INSERT OR IGNORE INTO prefix VALUES
 
 ("obo",       "http://purl.obolibrary.org/obo/"),
 
-("ONTIE", "https://ontology.iedb.org/ontology/ONTIE_"),
-("IEDB", "http://iedb.org/");
+("ONTIE",         "https://ontology.iedb.org/ontology/ONTIE_"),
+("taxon",         "https://ontology.iedb.org/taxon/"),
+("taxon_protein", "https://ontology.iedb.org/taxon-protein/"),
+("protein",       "https://ontology.iedb.org/protein/"),
+("by_role",       "https://ontology.iedb.org/by-role/"),
+("other",         "https://ontology.iedb.org/other/"),
+("nonpeptide",    "https://ontology.iedb.org/nonpeptide/"),
+("IEDB",          "http://iedb.org/");

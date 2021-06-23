@@ -10,7 +10,7 @@ import os
 import sqlite3
 import subprocess
 
-from flask import abort, Flask, render_template, request, Response
+from flask import abort, Flask, redirect, render_template, request, Response
 
 
 app = Flask(__name__)
@@ -95,13 +95,13 @@ def get_term(term_id, fmt):
 
 @app.route("/ontology", methods=["GET"])
 def tree():
-    return get_tree(None)
+    return get_tree("ontie", None)
 
 
 @app.route("/ontology/<term_id>", methods=["GET"])
 def tree_at(term_id):
     term_id = term_id.replace("_", ":")
-    return get_tree(term_id)
+    return get_tree("ontie", term_id)
 
 
 @app.route("/resources")
@@ -205,7 +205,7 @@ def show_resource_terms(resource, entity_type):
                 if isinstance(term_ids, str):
                     # Error message
                     return term_ids
-            subset = term_ids[offset: next_set - 1]
+            subset = term_ids[offset : next_set - 1]
 
         # A list of predicates
         select = request.args.get("select")
@@ -216,9 +216,13 @@ def show_resource_terms(resource, entity_type):
 
         if fmt == "html":
             logging.error(predicates)
-            content = gizmos.export.export_terms(
-                conn, subset, predicates, "html", default_value_format=values,
-            ).replace("owl:deprecated", "obsolete").replace("IAO:0100001", "replacement")
+            content = (
+                gizmos.export.export_terms(
+                    conn, subset, predicates, "html", default_value_format=values,
+                )
+                .replace("owl:deprecated", "obsolete")
+                .replace("IAO:0100001", "replacement")
+            )
             return render_template(
                 "resources.html", content=content, previous_set=previous_set, next_set=next_set
             )
@@ -226,7 +230,12 @@ def show_resource_terms(resource, entity_type):
         if select and "recognized" not in predicates:
             # Custom predicates defined
             tsv = gizmos.export.export_terms(
-                conn, subset, predicates, "tsv", no_headers=not show_headers, default_value_format=values,
+                conn,
+                subset,
+                predicates,
+                "tsv",
+                no_headers=not show_headers,
+                default_value_format=values,
             )
         else:
             # No predicates defined, add "recognized"
@@ -262,7 +271,9 @@ def get_term_from_resource(resource):
 
         if fmt == "html":
             # TODO - do we want table or tree here?
-            return gizmos.export.export_terms(conn, [curie], None, "html", default_value_format="IRI",)
+            return gizmos.export.export_terms(
+                conn, [curie], None, "html", default_value_format="IRI",
+            )
 
         if fmt == "json":
             mt = "application/json"
@@ -272,8 +283,56 @@ def get_term_from_resource(resource):
             export = gizmos.extract.extract_terms(conn, {curie: {}}, None)
         else:
             mt = "text/tab-separated-values"
-            export = gizmos.export.export_terms(conn, {curie: {}}, None, "tsv", default_value_format="IRI")
+            export = gizmos.export.export_terms(
+                conn, {curie: {}}, None, "tsv", default_value_format="IRI"
+            )
     return Response(export, mimetype=mt)
+
+
+### ---------- IEDB TERM PAGES ---------- ###
+
+
+@app.route("/molecule/<term_id>")
+def molecule_tree(term_id):
+    return get_tree("molecule-tree", term_id)
+
+
+@app.route("/subspecies/<term_id>")
+def subspecies_tree(term_id):
+    return get_tree("subspecies-tree", term_id)
+
+
+@app.route("/taxon/<short_id>")
+def iedb_taxon(short_id):
+    return redirect(f"/subspecies/taxon:{short_id}")
+
+
+@app.route("/taxon-protein/<short_id>")
+def iedb_taxon_protein(short_id):
+    return redirect(f"/molecule/taxon_protein:{short_id}")
+
+
+@app.route("/protein/<short_id>")
+def iedb_protein(short_id):
+    return redirect(f"/molecule/protein:{short_id}")
+
+
+@app.route("/by-role/<short_id>")
+def iedb_by_role(short_id):
+    return redirect(f"/molecule/by_role:{short_id}")
+
+
+@app.route("/other/<short_id>")
+def iedb_other_nonpeptide(short_id):
+    return redirect(f"/molecule/other:{short_id}")
+
+
+@app.route("/nonpeptide/<short_id>")
+def iedb_nonpeptide(short_id):
+    return redirect(f"/molecule/nonpeptide:{short_id}")
+
+
+### ---------- HELPER METHODS ---------- ###
 
 
 def export_tsv(conn, prefixes, value_format, subset, predicates, show_headers=True):
@@ -423,8 +482,8 @@ def get_term_ids(resource, cur, entity_type, label_query, curie_query):
     return term_ids
 
 
-def get_tree(term_id):
-    db = get_database("ontie")
+def get_tree(database, term_id):
+    db = get_database(database)
     fmt = request.args.get("format", "")
     with sqlite3.connect(db) as conn:
         if fmt == "json":

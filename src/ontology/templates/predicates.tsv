@@ -11,7 +11,6 @@ IAO:0100001	replacement	owl:AnnotationProperty	link	zero or one
 http://purl.obolibrary.org/obo/ncbitaxon#has_rank	has rank	owl:AnnotationProperty	link	zero or one
 OBI:9991118	IEDB alternative term	owl:AnnotationProperty		zero or one
 obo:IDO_0000664	has material basis in	owl:ObjectProperty		
-obo:RO_0002162	in taxon	owl:AnnotationProperty	link	zero or one
 obo:RO_0002162	in taxon	owl:ObjectProperty		
 oboInOwl:hasDbXref	database_cross_reference	owl:AnnotationProperty		zero or more
 ONTIE:0003256	protein taxon	owl:AnnotationProperty	link	zero or one
@@ -20,6 +19,11 @@ ONTIE:0003258	parent taxon	owl:AnnotationProperty	link	zero or more
 ONTIE:0003259	ONTIE domain	owl:AnnotationProperty		zero or one
 ONTIE:0003303	mapping note	owl:AnnotationProperty		
 ONTIE:0003420	model of human disease	owl:ObjectProperty		
+ONTIE:0003615	has taxon ID	owl:AnnotationProperty		
+ONTIE:0003616	NCBI Taxonomy browser	owl:AnnotationProperty		
+ONTIE:0003617	has taxonomic rank	owl:AnnotationProperty		
+ONTIE:0003618	used in IEDB	owl:AnnotationProperty		
+ONTIE:0003619	has species	owl:AnnotationProperty		
 owl:deprecated	obsolete	owl:AnnotationProperty	xsd:boolean	zero or one
 rdf:type	type	owl:AnnotationProperty	link	one or more
 rdfs:label	label	owl:AnnotationProperty		one

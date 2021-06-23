@@ -1,5 +1,7 @@
 git+https://github.com/ontodev/gizmos.git
+git+https://github.com/ontodev/valve.py.git
 flask
 jinja2
 markdown
 psycopg2
+urlp

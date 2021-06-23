@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2020-11-12/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-06-11/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -85,12 +85,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB alternative term</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
     
 
 
@@ -200,6 +194,46 @@
     
 
 
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003615 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003615">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has taxon ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003616 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003616">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI Taxonomy browser</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003617 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003617">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has taxonomic rank</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003618 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003618">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">used in IEDB</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003619 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003619">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has species</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -221,7 +255,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -333,6 +369,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inner ear disease that is characterized by hearing loss resulting from damage to the cochlea, auditory nerve and/or brainstem.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensorineural hearing loss</rdfs:label>
     </owl:Class>
     
@@ -493,7 +530,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_437">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of the nervous system that has_material_basis_in antibodies to acetylcholine receptors at the neuromuscular junction, has_symptom ptosis, has_symptom diplopia, has_symptom dysphagia, has_symptom dysarthria, has_symptom muscle weakness and has_symptom dyspnea.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of the nervous system that has_material_basis_in antibodies to acetylcholine receptors at the neuromuscular junction, has_symptom ptosis, has_symptom diplopia, has_symptom dysphagia, has_symptom dysarthria, has_symptom muscle weakness and has_symptom shortness of breath.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myasthenia gravis</rdfs:label>
     </owl:Class>
     
@@ -57120,17 +57157,53 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003604 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
-    </rdf:Description>
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003604">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003543"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The state or condition of previously having a developing embryo or fetus in the body.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prior pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003605 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical history of blood relatives.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003606 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003606">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003605"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of one&apos;s mother during one&apos;s gestation.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal maternal abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003607 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003607">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that originates from a genetic abnormality, an error, infection, or exposure during embryonic development, or a compromised intrauterine environment.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003608 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003608">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003607"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly of the urinary or reproductive system that is congenital.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital urogenital anomaly</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

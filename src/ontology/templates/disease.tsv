@@ -7,6 +7,8 @@ animal model of disease	disease	An experimental process in which an organism oth
 asymptomatic COVID-19 infection	infection without disease	An asymptomatic infection with Severe acute respiratory syndrome coronavirus 2		disease	Severe acute respiratory syndrome coronavirus 2	
 asymptomatic HIV infection	infection without disease	An asymptomatic infection with Human immunodeficiency virus 1 OR Human immunodeficiency virus 2.	Z21	disease	('Human immunodeficiency virus 1' or 'Human immunodeficiency virus 2')	
 collagen-induced arthritis (CIA)	experimental arthritis	An experimental arthritis induced by the administration of collagen. Autoimmune arthritis is induced in this model by immunization with an emulsion of complete Freund's adjuvant and type II collagen (CII).	CIA|U42	disease		
+congenital disease	additional diseases by category	A disease that originates from a genetic abnormality, an error, infection, or exposure during embryonic development, or a compromised intrauterine environment.				
+congenital urogenital anomaly	congenital disease	An anomaly of the urinary or reproductive system that is congenital.				
 disease	host health status					
 disease of anatomical entity	additional diseases by category					
 disease of mental health	additional diseases by category					
@@ -29,7 +31,7 @@ habitual abortion	female reproductive system disease	A female reproductive syste
 healthy	host health status	The absence of any disease	U6	disease		
 host health status	owl:Thing	The state of the host at the time of the experiment		disease		
 human T-lymphotropic virus 1 carrier	infection without disease	An asymptomatic infection with Human T-cell leukemia virus type I.	HTLV-1 carrier|Z22.6	disease	Human T-cell leukemia virus type I	
-infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease	
+infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease		
 rejection of transplanted organs and tissues	transplant-related disease and allo-reactivity	A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.	T86|T86.0|T86.1|T86.2|T86.3|T86.8	disease		
-transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease			
+transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease		
 syndrome	additional diseases by category					

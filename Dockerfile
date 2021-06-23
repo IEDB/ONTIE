@@ -1,7 +1,10 @@
-FROM python:3
+FROM obolibrary/odkfull
 
-WORKDIR /usr/src/app
+COPY requirements.txt /tools/ontie-requirements.txt
+RUN pip install -r /tools/ontie-requirements.txt
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN add-apt-repository ppa:git-core/ppa
+RUN apt-get update
+RUN apt-get install -y git
 
+RUN apt-get install -y aha

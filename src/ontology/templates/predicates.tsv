@@ -24,6 +24,21 @@ ONTIE:0003616	NCBI Taxonomy browser	owl:AnnotationProperty
 ONTIE:0003617	has taxonomic rank	owl:AnnotationProperty		
 ONTIE:0003618	used in IEDB	owl:AnnotationProperty		
 ONTIE:0003619	has species	owl:AnnotationProperty		
+ONTIE:0003620	has sort name	owl:AnnotationProperty		
+ONTIE:0003621	has taxonomic level	owl:AnnotationProperty		
+ONTIE:0003622	protein synonym	owl:AnnotationProperty		
+ONTIE:0003623	has accession	owl:AnnotationProperty		
+ONTIE:0003624	has accession IRI	owl:AnnotationProperty		
+ONTIE:0003625	has source database	owl:AnnotationProperty		
+ONTIE:0003626	has source ID	owl:AnnotationProperty		
+ONTIE:0003627	has start position	owl:AnnotationProperty		
+ONTIE:0003628	has end position	owl:AnnotationProperty		
+ONTIE:0003629	IEDB assay ID	owl:AnnotationProperty		
+ONTIE:0003630	IEDB assay measurement of	owl:AnnotationProperty		
+ONTIE:0003631	IEDB assay synonym	owl:AnnotationProperty		
+ONTIE:0003632	IEDB assay technique	owl:AnnotationProperty		
+ONTIE:0003633	IEDB assay units	owl:AnnotationProperty		
+ONTIE:0003634	IEDB tree view name	owl:AnnotationProperty		
 owl:deprecated	obsolete	owl:AnnotationProperty	xsd:boolean	zero or one
 rdf:type	type	owl:AnnotationProperty	link	one or more
 rdfs:label	label	owl:AnnotationProperty		one

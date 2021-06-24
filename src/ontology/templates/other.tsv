@@ -27,3 +27,27 @@ no exposure	information content entity		An organism's lifspan which does not inc
 family medical history	information content entity		A medical history of blood relatives.		
 prenatal maternal abnormality	family medical history		An abnormality of one's mother during one's gestation.		
 prior pregnancy	host health status		The state or condition of previously having a developing embryo or fetus in the body.		
+parameter	information content entity				
+Starting dilution fold	parameter		The fold change from the starting concentration of a solution being diluted.		
+Starting concentration (ug/mL)	parameter		The initial amount of antibody dissolved in the solution being diluted, reported in ug/mL.		
+4-PL curve parameter A	parameter		The minimum value that can be obtained.		
+4-PL curve parameter B	parameter		Hill's slope of the curve.		
+4-PL curve parameter C	parameter		The inflection point.		
+4-PL curve parameter D	parameter		The maximum value that can be obtained.		
+4-PL curve R2	parameter		A statistical measure of fit that indicates how much variation of a dependent variable is explained by the independent variable(s).		
+ethical euthanization	death status				
+euthanized as planned	death status				
+unplanned death	death status				
+survived until end	death status				
+isotype control	material entity				
+mock-treated PBS-control	material entity				
+PBS	material entity				
+KZ52	material entity				
+CR3022	material entity				
+convalescent plasma 1	material entity				
+convalescent plasma 2	material entity				
+negative plasma	material entity				
+ULOD (ng/mL)	parameter		The upper limit of detection in ng/ml.		
+LLOD (ng/mL)	parameter		The lower limit of detection in ng/ml.		
+MPI (%)	parameter		The maximum percent inhibition.		
+untreated uninfected control	material entity				

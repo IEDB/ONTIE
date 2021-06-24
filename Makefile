@@ -19,6 +19,7 @@
 #     - [View ROBOT report](build/report.html)
 #     - [Browse Trees](./src/scripts/tree.sh)
 #     - [Download ontie.owl](ontie.owl)
+#     - [build/ directory](build/)
 #
 # #### Commit Changes
 #

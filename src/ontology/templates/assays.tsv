@@ -21,3 +21,11 @@ FcRn (MFI)	assay	An assay measuring antibody affinity for FcRn receptor on human
 mFcR2 (MFI)	assay	An assay measuring antibody affinity for FcR2 receptor on mouse cells using median fluorescence intensity
 mFcR3 (MFI)	assay	An assay measuring antibody affinity for mFcR3 receptor on mouse cells using median fluorescence intensity
 mFcR4 (MFI)	assay	An assay measuring antibody affinity for mFcR receptor on mouse cells using median fluorescence intensity
+inflammation	assay	An in vivo protection assay based on inflammation score of 0-5.
+edema	assay	An in vivo protection assay based on edema score of 0-5.
+vasculitis	assay	An in vivo protection assay based on vasculitis score of 0-5.
+necrosis	assay	An in vivo protection assay based on necrosis score of 0-5.
+hemorrhage	assay	An in vivo protection assay based on hemorrhage score of 0-5.
+weight	assay	An in vivo protection assay based on weight of organism in grams.
+viral titer lung	assay	An in vivo protection assay based on viral titer in lung tissue measured in PFU/ml.
+viral titer nasal turbinates	assay	An in vivo protection assay based on viral titer in nasal turbinates measured in PFU/ml.

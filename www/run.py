@@ -40,7 +40,8 @@ def documentation():
 @app.route("/ontology/<term_id>.<fmt>", methods=["GET"])
 def get_term(term_id, fmt):
     db = get_database("ontie")
-    term_id = term_id.replace("_", ":", 1)
+    if term_id.startswith("ONTIE_"):
+        term_id = term_id.replace("_", ":", 1)
 
     select = request.args.get("select")
     show_headers = request.args.get("show-headers", "true")
@@ -100,7 +101,8 @@ def tree():
 
 @app.route("/ontology/<term_id>", methods=["GET"])
 def tree_at(term_id):
-    term_id = term_id.replace("_", ":")
+    if term_id.startswith("ONTIE_"):
+        term_id = term_id.replace("_", ":")
     return get_tree("ontie", term_id)
 
 

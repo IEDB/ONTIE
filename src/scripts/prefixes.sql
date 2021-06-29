@@ -28,7 +28,13 @@ INSERT OR IGNORE INTO prefix VALUES
 ("taxon",         "https://ontology.iedb.org/taxon/"),
 ("taxon_protein", "https://ontology.iedb.org/taxon-protein/"),
 ("protein",       "https://ontology.iedb.org/protein/"),
+("role",          "https://ontology.iedb.org/role/"),
 ("by_role",       "https://ontology.iedb.org/by-role/"),
 ("other",         "https://ontology.iedb.org/other/"),
 ("nonpeptide",    "https://ontology.iedb.org/nonpeptide/"),
-("IEDB",          "http://iedb.org/");
+("IEDB",          "http://iedb.org/"),
+
+("IUIS",          "http://www.allergen.org/viewallergen.php?aid="),
+("uniprot",       "http://www.uniprot.org/uniprot/"),
+("annotation",    "http://purl.uniprot.org/annotation/"),
+("NCBI",          "https://www.ncbi.nlm.nih.gov/protein/");

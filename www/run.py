@@ -10,7 +10,7 @@ import os
 import sqlite3
 import subprocess
 
-from flask import abort, Flask, redirect, render_template, request, Response, url_for
+from flask import abort, Flask, redirect, render_template, request, Response
 
 
 app = Flask(__name__)
@@ -306,32 +306,32 @@ def subspecies_tree(term_id):
 
 @app.route("/taxon/<short_id>")
 def iedb_taxon(short_id):
-    return redirect(url_for("subspecies_tree", term_id="taxon:" + short_id))
+    return redirect(f"/subspecies/taxon:{short_id}")
 
 
 @app.route("/taxon-protein/<short_id>")
 def iedb_taxon_protein(short_id):
-    return redirect(url_for("molecule_tree", term_id="taxon_protein:" + short_id))
+    return redirect(f"/molecule/taxon_protein:{short_id}")
 
 
 @app.route("/protein/<short_id>")
 def iedb_protein(short_id):
-    return redirect(url_for("molecule_tree", term_id="protein:" + short_id))
+    return redirect(f"/molecule/protein:{short_id}")
 
 
 @app.route("/by-role/<short_id>")
 def iedb_by_role(short_id):
-    return redirect(url_for("molecule_tree", term_id="by_role:" + short_id))
+    return redirect(f"/molecule/by_role:{short_id}")
 
 
 @app.route("/other/<short_id>")
 def iedb_other_nonpeptide(short_id):
-    return redirect(url_for("molecule_tree", term_id="other:" + short_id))
+    return redirect(f"/molecule/other:{short_id}")
 
 
 @app.route("/nonpeptide/<short_id>")
 def iedb_nonpeptide(short_id):
-    return redirect(url_for("molecule_tree", term_id="nonpeptide:" + short_id))
+    return redirect(f"/molecule/nonpeptide:{short_id}")
 
 
 ### ---------- HELPER METHODS ---------- ###

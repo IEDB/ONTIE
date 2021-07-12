@@ -28,7 +28,7 @@ fi
 if [[ ${EMAIL} ]]; then
   TITLE="ONTIE ${BRANCH}"
   if [[ ${EMAIL} =~ ${EMAIL_PAT} ]]; then
-    cogs init -c credentials.json -t "${TITLE}" -u ${EMAIL} -r writer || exit 1
+    cogs init -t "${TITLE}" -u ${EMAIL} -r writer || exit 1
     make load push || exit 1
   else
     echo '<meta http-equiv="refresh" content="0; ?invalid=true"/>'

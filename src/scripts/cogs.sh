@@ -30,6 +30,9 @@ if [[ ${EMAIL} ]]; then
   if [[ ${EMAIL} =~ ${EMAIL_PAT} ]]; then
     cogs init -t "${TITLE}" -u ${EMAIL} -r writer || exit 1
     make load push || exit 1
+    LINK=$(cogs open)
+    echo "<meta http-equiv='refresh' content='0; ${LINK}'/>"
+    exit 0
   else
     echo '<meta http-equiv="refresh" content="0; ?invalid=true"/>'
   fi

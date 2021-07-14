@@ -1,4 +1,5 @@
 import csv
+import sys
 
 from argparse import ArgumentParser
 from urllib.parse import parse_qs
@@ -30,13 +31,13 @@ def main():
 
 	if not template:
 		print("Unable to add term; missing template name")
-		return
+		sys.exit(1)
 	if not term_id:
 		print("Unable to add term; an ID is required")
-		return
+		sys.exit(1)
 	if not fields.get("Label"):
 		print("Unable to add term; a Label is required")
-		return
+		sys.exit(1)
 
 	template_path = f"src/ontology/templates/{template}.tsv"
 
@@ -49,12 +50,12 @@ def main():
 			if this_id == term_id:
 				this_label = row["Label"]
 				print(f"Unable to add term; a term already exists with ID {term_id} ({this_label})")
-				return
+				sys.exit(1)
 			rows.append(row)
 	rows.append({"ID": term_id, "Label": fields.get("Label"), "Type": "owl:Class"})
 
 	with open("src/ontology/templates/index.tsv", "w") as fw:
-		writer = csv.DictWriter(fw, delimiter="\t", fieldnames=header, lineterminator="\n")
+		writer = csv.DictWriter(fw, delimiter="\t", fieldnames=header, lineterminator="\n", extrasaction="ignore")
 		writer.writeheader()
 		writer.writerows(rows)
 
@@ -67,11 +68,11 @@ def main():
 	rows.append(fields)
 
 	with open(template_path, "w") as fw:
-		writer = csv.DictWriter(fw, delimiter="\t", fieldnames=header, lineterminator="\n")
+		writer = csv.DictWriter(fw, delimiter="\t", fieldnames=header, lineterminator="\n", extrasaction="ignore")
 		writer.writeheader()
 		writer.writerows(rows)
 
-	print(f"{term_id} added to ONITE!")
+	print(f"{term_id} successfully added to ONITE!")
 
 
 if __name__ == '__main__':

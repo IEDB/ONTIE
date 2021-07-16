@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-06-16/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-07-16/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -57649,6 +57649,26 @@
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003614">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">untreated uninfected control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003635 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neutralization assay measuring the IC90 of the tested antibody in ng/mL</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutralization IC90 (ng/mL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003636 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003636">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjusted R-squared</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R^2adj</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

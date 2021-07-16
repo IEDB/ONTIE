@@ -51,3 +51,4 @@ ULOD (ng/mL)	parameter		The upper limit of detection in ng/ml.
 LLOD (ng/mL)	parameter		The lower limit of detection in ng/ml.		
 MPI (%)	parameter		The maximum percent inhibition.		
 untreated uninfected control	material entity				
+R^2adj	parameter		Adjusted R-squared		

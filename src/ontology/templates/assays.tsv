@@ -29,3 +29,4 @@ hemorrhage	assay	An in vivo protection assay based on hemorrhage score of 0-5.
 weight	assay	An in vivo protection assay based on weight of organism in grams.
 viral titer lung	assay	An in vivo protection assay based on viral titer in lung tissue measured in PFU/ml.
 viral titer nasal turbinates	assay	An in vivo protection assay based on viral titer in nasal turbinates measured in PFU/ml.
+neutralization IC90 (ng/mL)	assay	A neutralization assay measuring the IC90 of the tested antibody in ng/mL

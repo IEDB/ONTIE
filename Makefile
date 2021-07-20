@@ -75,15 +75,22 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/report.%: ontie.owl | build/robot-report.jar
+build/ontie-base.owl: ontie.owl | build/robot-report.jar
 	$(ROBOT) remove \
 	--input $< \
 	--base-iri ONTIE \
 	--axioms external \
-	report \
-	--output $@ \
+	--output $@
+
+build/report.html: build/ontie-base.owl | build/robot-report.jar
+	$(ROBOT) report \
+	--input $< \
 	--standalone true \
-	--print 10
+	--fail-on none \
+	--output $@
+
+build/report.tsv: build/ontie-base.owl | build/robot-report.jar
+	$(ROBOT) report --input $< --print 10 --output $@
 
 build/diff.html: ontie.owl | build/robot.jar
 	git show master:ontie.owl > build/ontie.master.owl
@@ -169,7 +176,7 @@ build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 
 .PHONY: update
 update:
-	make all dbs
+	make all dbs build/diff.html build/report.html
 
 .PHONY: clean
 clean:

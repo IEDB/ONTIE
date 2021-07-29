@@ -3607,3 +3607,5 @@ ONTIE:0003611	ULOD (ng/mL)	owl:Class
 ONTIE:0003612	LLOD (ng/mL)	owl:Class		
 ONTIE:0003613	MPI (%)	owl:Class		
 ONTIE:0003614	untreated uninfected control	owl:Class		
+ONTIE:0003635	neutralization IC90 (ng/mL)	owl:Class		
+ONTIE:0003636	R^2adj	owl:Class		

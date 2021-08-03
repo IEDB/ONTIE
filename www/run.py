@@ -119,6 +119,9 @@ def show_all_resources():
         <ul>"""
     for ns, name in resources.items():
         content += f'<li><a href="resources/{ns}">{name}</a></li>'
+    # Add IEDB molecule and subspecies trees
+    content += '<li><a href="molecule">IEDB Molecule Tree</a></li>'
+    content += '<li><a href="subspecies">IEDB Subspecies Tree</a></li>'
     content += "</ul></div></div>"
     return render_template("main.html", content=content)
 
@@ -294,13 +297,23 @@ def get_term_from_resource(resource):
 ### ---------- IEDB TERM PAGES ---------- ###
 
 
+@app.route("/molecule")
+def molecule_tree():
+    return get_tree("molecule-tree", None)
+
+
 @app.route("/molecule/<term_id>")
-def molecule_tree(term_id):
+def molecule_tree_term(term_id):
     return get_tree("molecule-tree", term_id)
 
 
+@app.route("/subspecies")
+def subspecies_tree():
+    return get_tree("subspecies-tree", None)
+
+
 @app.route("/subspecies/<term_id>")
-def subspecies_tree(term_id):
+def subspecies_tree_term(term_id):
     return get_tree("subspecies-tree", term_id)
 
 
@@ -493,6 +506,11 @@ def get_tree(database, term_id):
             return gizmos.search.search(conn, label, limit=30)
         href = "./{curie}"
         if not term_id:
-            href = "ontology/{curie}"
+            if database == "molecule-tree":
+                href = "molecule/{curie}"
+            elif database == "subspecies-tree":
+                href = "subspecies/{curie}"
+            else:
+                href = "ontology/{curie}"
         content = gizmos.tree.tree(conn, "ONTIE", term_id, href=href, include_search=True)
     return render_template("main.html", content=content)

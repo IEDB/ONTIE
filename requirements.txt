@@ -1,4 +1,4 @@
 git+https://github.com/ontodev/valve.py.git
-git+https://github.com/ontodev/gizmos.git
+git+https://github.com/ontodev/gizmos.git@html-table
 urlp
 psycopg2-binary

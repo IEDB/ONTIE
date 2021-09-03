@@ -9,6 +9,7 @@ ID=$(urlp --query --query_field=id "${URL}")
 DB=$(urlp --query --query_field=db "${URL}")
 FORMAT=$(urlp --query --query_field=format "${URL}")
 TEXT=$(urlp --query --query_field=text "${URL}")
+SEARCH_TEXT=$(urlp --query --query_field=search_text "${URL}")
 BRANCH=$(git branch --show-current)
 
 if [[ ${DB} ]]; then
@@ -18,7 +19,11 @@ if [[ ${DB} ]]; then
 	fi
 
 	# Generate the tree view
-	if [ ${FORMAT} == "json" ]; then
+	if [[ ${SEARCH_TEXT} ]]; then
+		echo "Content-Type: text/html"
+		echo ""
+		python3 -m gizmos.search build/${DB}.db "${SEARCH_TEXT}" -r -d ${DB} -f html -l none
+	elif [ ${FORMAT} == "json" ]; then
 		echo "Content-Type: application/json"
 		echo ""
 		if [[ ${TEXT} ]]; then

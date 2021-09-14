@@ -218,21 +218,6 @@ destroy:
 
 # Tasks after editing Google Sheets
 
-# Frictionless validation
-
-build/frictionless: | build
-	mkdir -p $@
-
-build/frictionless/%.tsv: src/ontology/templates/%.tsv | build/frictionless
-	cp $< $@
-
-build/frictionless/%.yml: src/ontology/schemas/%.yml | build/frictionless
-	cp $< $@
-
-.PHONY: validate_index
-validate_index: build/frictionless/index.yml build/frictionless/index.tsv
-	frictionless validate $< --skip-rows 2
-
 .PHONY: validate
 validate: update-sheets apply push
 

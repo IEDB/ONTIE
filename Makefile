@@ -71,8 +71,8 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--input build/imports.ttl \
 	--include-annotations true \
 	annotate \
-	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
-	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
+	--ontology-iri "https://ontology.iedb.org/ontology/$@" \
+	--version-iri "https://ontology.iedb.org/ontology/$(DATE)/$@" \
 	--output $@
 
 build/ontie-base.owl: ontie.owl | build/robot-report.jar

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://ontology.iebd.org/ontology/ontie.owl#"
-     xml:base="https://ontology.iebd.org/ontology/ontie.owl"
+<rdf:RDF xmlns="https://ontology.iedb.org/ontology/ontie.owl#"
+     xml:base="https://ontology.iedb.org/ontology/ontie.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,8 +12,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
-    <owl:Ontology rdf:about="https://ontology.iebd.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iebd.org/ontology/2021-07-16/ontie.owl"/>
+    <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2021-07-16/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>

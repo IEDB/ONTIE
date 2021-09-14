@@ -71,8 +71,8 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--input build/imports.ttl \
 	--include-annotations true \
 	annotate \
-	--ontology-iri "https://ontology.iebd.org/ontology/$@" \
-	--version-iri "https://ontology.iebd.org/ontology/$(DATE)/$@" \
+	--ontology-iri "https://ontology.iedb.org/ontology/$@" \
+	--version-iri "https://ontology.iedb.org/ontology/$(DATE)/$@" \
 	--output $@
 
 build/ontie-base.owl: ontie.owl | build/robot-report.jar
@@ -217,6 +217,21 @@ destroy:
 	$(COGS) delete -f
 
 # Tasks after editing Google Sheets
+
+# Frictionless validation
+
+build/frictionless: | build
+	mkdir -p $@
+
+build/frictionless/%.tsv: src/ontology/templates/%.tsv | build/frictionless
+	cp $< $@
+
+build/frictionless/%.yml: src/ontology/schemas/%.yml | build/frictionless
+	cp $< $@
+
+.PHONY: validate_index
+validate_index: build/frictionless/index.yml build/frictionless/index.tsv
+	frictionless validate $< --skip-rows 2
 
 .PHONY: validate
 validate: update-sheets apply push

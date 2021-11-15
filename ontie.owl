@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2021-07-16/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2021-10-19/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -783,6 +783,16 @@
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A settings datum is a datum that denotes some configuration of an instrument.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -53118,6 +53128,7 @@
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administeration of the annual flu vacccine to a human subject.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administering a vaccine to an organism with the intention of inducing immunity against antigen components of the vaccine.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccination</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO:0000002</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -53195,6 +53206,7 @@
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of surgically attaching a donor kidney into a recipient patient.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process in which solid tissue is transferred to an organism.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid tissue transplantation</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS:0000144</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -53206,6 +53218,7 @@
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of administering donated blood into a recipient patient.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process in which a bodily fluid is transferred into an organism.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfusion</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS:0000145</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -53251,7 +53264,7 @@
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of surgically attaching a donor kidney into a recipient patient.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transfering a solid tissue (transplant) or bodily fluid (transfusion) to an organism.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transplantation or transfusion</rdfs:label>
-        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We intend to map this term to OBI:0000105.</ontology:ONTIE_0003303>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS:0000143</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -56941,6 +56954,7 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease course that has ended.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post disease course</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -56951,6 +56965,7 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease course whose status is currently unknown.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown disease course</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -56978,6 +56993,7 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease course that cannot be described by existing disease course stages.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other disease course</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -56987,6 +57003,7 @@
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003548">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease course</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS:0000063</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57441,6 +57458,7 @@
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003591">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethical euthanization</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000919</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57450,6 +57468,7 @@
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003592">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003609"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euthanized as planned</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000919</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57507,6 +57526,7 @@
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003598">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBS</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0100046</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57562,6 +57582,7 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003543"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The state or condition of previously having a developing embryo or fetus in the body.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prior pregnancy</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57572,6 +57593,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical history of blood relatives.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57582,6 +57604,7 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003605"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of one&apos;s mother during one&apos;s gestation.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal maternal abnormality</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGMS</ontology:ONTIE_0003303>
     </owl:Class>
     
 
@@ -57669,6 +57692,141 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003575"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjusted R-squared</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R^2adj</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003637 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The debris in a sample of cells being studied by flow cyometry, observable at the bottom left corner of flow cytometry density plot.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead cells and fragments of dead cell material</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry debris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003638 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell:cell doublets pairing a T cell and a monocyte isolated from circulating in the peripheral blood that distinguishes individuals with latent TB infection from uninfected individuals (PMID: 29602771).</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complex composed of more than one cell.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell-cell complex</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reactome R-HSA-198933: Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell</ontology:ONTIE_0003303>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003639 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003639">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one monocyte and one NK cell.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte-NK cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003640 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003640">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one B cell and one neutrophil.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell-neutrophil complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003641 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003641">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one monocyte and one neutrophil.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte-neutrophil complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003642 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003642">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one neutrophil and one NK cell.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrophil-NK cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003643 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003643">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one neutrophil and one T cell.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrophil-T cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003644 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setting the gate for x as forward scatter y and side scatter z (TBD)</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A setting datum consisting of one or more ranges for a given event in a flow cytometry assay, and is used to represent a cell population of interest.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry gate</rdfs:label>
+        <ontology:ONTIE_0003303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gating OBI:0200077</ontology:ONTIE_0003303>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003645 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A setting datum that is used as part of a flow cytometry gate to define level at which a specific marker is detected for events that fall within the gate.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry gate marker range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003646 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003646">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003645"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A marker range that defines a high signal level.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry high marker range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003647 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003647">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003645"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A marker range that defines a low signal level.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry low marker range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003648 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003648">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003645"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A marker range that defines a positive signal level.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry positive marker range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003649 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003649">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003645"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A marker range that defines a negative signal level.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry negative marker range</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

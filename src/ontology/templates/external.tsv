@@ -665,3 +665,4 @@ PR:P04979	Pertussis toxin subunit 3	owl:Class		protein		'in taxon' some 'Bordete
 PR:P04981	Pertussis toxin subunit 5	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
 PR:P0A3R5	Pertussis toxin subunit 4	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
 PR:Q5I8X0	Fimbrial protein	owl:Class		protein	Fim2	'in taxon' some 'Bordetella pertussis'
+IAO:0000140	setting datum	owl:Class		information content entity		

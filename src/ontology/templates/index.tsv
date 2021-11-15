@@ -3609,3 +3609,16 @@ ONTIE:0003613	MPI (%)	owl:Class
 ONTIE:0003614	untreated uninfected control	owl:Class		
 ONTIE:0003635	neutralization IC90 (ng/mL)	owl:Class		
 ONTIE:0003636	R^2adj	owl:Class		
+ONTIE:0003637	flow cytometry debris	owl:Class		
+ONTIE:0003638	cell-cell complex	owl:Class		
+ONTIE:0003639	monocyte-NK cell complex	owl:Class		
+ONTIE:0003640	B cell-neutrophil complex	owl:Class		
+ONTIE:0003641	monocyte-neutrophil complex	owl:Class		
+ONTIE:0003642	neutrophil-NK cell complex	owl:Class		
+ONTIE:0003643	neutrophil-T cell complex	owl:Class		
+ONTIE:0003644	flow cytometry gate	owl:Class		
+ONTIE:0003645	flow cytometry gate marker range	owl:Class		
+ONTIE:0003646	flow cytometry high marker range	owl:Class		
+ONTIE:0003647	flow cytometry low marker range	owl:Class		
+ONTIE:0003648	flow cytometry positive marker range	owl:Class		
+ONTIE:0003649	flow cytometry negative marker range	owl:Class		

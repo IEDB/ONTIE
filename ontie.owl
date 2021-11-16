@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2021-10-19/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2021-11-15/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -57827,6 +57827,16 @@
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003645"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A marker range that defines a negative signal level.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry negative marker range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003650 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay measuring the mean percentage of infected cells undergoing phagocytosis</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mean Phagocytosis (% infected cells)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

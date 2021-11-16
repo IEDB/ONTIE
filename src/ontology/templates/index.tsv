@@ -3622,3 +3622,4 @@ ONTIE:0003646	flow cytometry high marker range	owl:Class
 ONTIE:0003647	flow cytometry low marker range	owl:Class		
 ONTIE:0003648	flow cytometry positive marker range	owl:Class		
 ONTIE:0003649	flow cytometry negative marker range	owl:Class		
+ONTIE:0003650	Mean Phagocytosis (% infected cells)	owl:Class		

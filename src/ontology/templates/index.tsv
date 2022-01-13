@@ -2058,7 +2058,7 @@ ONTIE:0002055	35-KDa protein (Plasmodium falciparum)	owl:Class			IEDB
 ONTIE:0002056	55-KDa protein (Plasmodium falciparum)	owl:Class			IEDB
 ONTIE:0002057	hepatocyte erythrocyte protein 17 kDa (Plasmodium yoelii)	owl:Class			IEDB
 ONTIE:0002058	Fag e 1 (Fagopyrum esculentum)	owl:Class			IEDB
-ONTIE:0002059	obsolete Large structural phosphoprotein (Human betaherpesvirus 5)	owl:Class	TRUE	https://ontology.iedb.org/ontology/ONTIE_0002053	IEDB
+ONTIE:0002059	obsolete Large structural phosphoprotein (Human betaherpesvirus 5)	owl:Class	true	https://ontology.iedb.org/ontology/ONTIE_0002053	IEDB
 ONTIE:0002060	HLA class II histocompatibility antigen, DRB1 beta chain (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002061	surface protein 9B (Schistosoma mansoni)	owl:Class			IEDB
 ONTIE:0002062	170 kDa surface lectin (Entamoeba histolytica)	owl:Class			IEDB
@@ -2427,7 +2427,7 @@ ONTIE:0002424	RNA-directed RNA polymerase L (Human metapneumovirus)	owl:Class			
 ONTIE:0002425	Protein E6 (Human papillomavirus type 16)	owl:Class			IEDB
 ONTIE:0002426	Protein E7 (Human papillomavirus type 16)	owl:Class			IEDB
 ONTIE:0002427	Major capsid protein L1 (Human papillomavirus type 16)	owl:Class			IEDB
-ONTIE:0002428	obsolete lactate dehydrogenase (Papio cynocephalus)	owl:Class	TRUE	https://ontology.iedb.org/ontology/ONTIE_0002213	IEDB
+ONTIE:0002428	obsolete lactate dehydrogenase (Papio cynocephalus)	owl:Class	true	https://ontology.iedb.org/ontology/ONTIE_0002213	IEDB
 ONTIE:0002429	RNA polymerase (Rabies lyssavirus)	owl:Class			IEDB
 ONTIE:0002430	non-structural protein (Muscovy duck parvovirus)	owl:Class			IEDB
 ONTIE:0002431	Proteinase-activated receptor 4 (Homo sapiens)	owl:Class			IEDB
@@ -2928,7 +2928,7 @@ ONTIE:0002925	DNA helicase (Murid betaherpesvirus 1)	owl:Class			IEDB
 ONTIE:0002926	apolipoprotein B-100 precursor (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002927	apolipoprotein(a) precursor (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002928	hypothetical protein (Severe acute respiratory syndrome-related coronavirus)	owl:Class			IEDB
-ONTIE:0002929	obsolete US22 family homolog (Murid betaherpesvirus 1)	owl:Class	TRUE	https://ontology.iedb.org/ontology/ONTIE_0002918	IEDB
+ONTIE:0002929	obsolete US22 family homolog (Murid betaherpesvirus 1)	owl:Class	true	https://ontology.iedb.org/ontology/ONTIE_0002918	IEDB
 ONTIE:0002930	hypothetical protein CLJ_B1853 (Clostridium botulinum)	owl:Class			IEDB
 ONTIE:0002931	integrin alpha-1 precursor (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002932	cytochrome b-c1 complex subunit 6, mitochondrial (Homo sapiens)	owl:Class			IEDB

@@ -521,10 +521,10 @@ Hepatitis C virus subtype 3a (isolate Gla)	Hepatitis C virus subtype 3a	subspeci
 Hepatitis C virus subtype 3a UNK3a1.28	Hepatitis C virus subtype 3a	subspecies	U.N.K3a1.28	taxon		
 Hepatitis C virus subtype 3a UNK3a1.9	Hepatitis C virus subtype 3a	subspecies	U.N.K3a1.9	taxon		
 Hepatitis C virus subtype 6a HK6a	Hepatitis C virus subtype 6a	subspecies		taxon		
-Hepatitis E virus China Xinjiang	Hepatitis E virus	subspecies		taxon		
-Hepatitis E virus SAR-55	Hepatitis E virus	subspecies		taxon		
-Hepatitis E virus strain Chinese	Hepatitis E virus	subspecies		taxon		
-Hepatitis E virus type 2	Hepatitis E virus	subspecies	genotype 2	taxon		
+Hepatitis E virus China Xinjiang	Orthohepevirus A	subspecies		taxon		
+Hepatitis E virus SAR-55	Orthohepevirus A	subspecies		taxon		
+Hepatitis E virus strain Chinese	Orthohepevirus A	subspecies		taxon		
+Hepatitis E virus type 2	Orthohepevirus A	subspecies	genotype 2	taxon		
 Hepatitis E virus type 3 Kernow-C1	Hepatitis E virus type 3	subspecies	Kernow C1	taxon		
 Hepatitis E virus type 4 JAK-Sai	Hepatitis E virus type 4	subspecies	JAK Sai	taxon		
 Hepatitis delta virus (isolate TW2667)	Hepatitis delta virus	subspecies		taxon		
@@ -1517,12 +1517,12 @@ Neisseria meningitidis serogroup Y strain S3790	Neisseria meningitidis serogroup
 Neisseria meningitidis serogroup Z strain C65	Neisseria meningitidis serogroup Z	subspecies		taxon		
 Neisseria meningitidis strain 3006	Neisseria meningitidis	subspecies	3006	taxon		
 Neisseria meningitidis strain 6155	Neisseria meningitidis	subspecies		taxon		
-Newcastle disease virus (strain Eaves)	Avian avulavirus 1	subspecies	Eaves, Grimes	taxon		
-Newcastle disease virus (strain KBNP-4152)	Avian avulavirus 1	subspecies	4152|KBNP|KBNP 4152|KBNP-4152	taxon		
-Newcastle disease virus (strain La Sota)	Avian avulavirus 1	subspecies	La Sota	taxon		
-Newcastle disease virus (strain MC110)	Avian avulavirus 1	subspecies	MC110	taxon		
-Newcastle disease virus (strain WA2116)	Avian avulavirus 1	subspecies	WA2116	taxon		
-Newcastle disease virus Kr-005/00	Avian avulavirus 1	subspecies		taxon		
+Newcastle disease virus (strain Eaves)	Avian orthoavulavirus 1	subspecies	Eaves, Grimes	taxon		
+Newcastle disease virus (strain KBNP-4152)	Avian orthoavulavirus 1	subspecies	4152|KBNP|KBNP 4152|KBNP-4152	taxon		
+Newcastle disease virus (strain La Sota)	Avian orthoavulavirus 1	subspecies	La Sota	taxon		
+Newcastle disease virus (strain MC110)	Avian orthoavulavirus 1	subspecies	MC110	taxon		
+Newcastle disease virus (strain WA2116)	Avian orthoavulavirus 1	subspecies	WA2116	taxon		
+Newcastle disease virus Kr-005/00	Avian orthoavulavirus 1	subspecies		taxon		
 Norovirus genogroup 1 GI.12	Norovirus GI	subspecies		taxon		
 Norovirus genogroup 1 isolates 96-908	Norovirus genogroup 1 isolates	subspecies	96-908	taxon		
 Norovirus genogroup 2 Camberwell 1890	Norovirus GII	subspecies		taxon		
@@ -1881,8 +1881,8 @@ Staphylococcus aureus Newbould 305	Staphylococcus aureus	subspecies	ATCC 29740	t
 Staphylococcus aureus RN4850	Staphylococcus aureus	subspecies	MN-KG|NRS153|methicillin-sensitive	taxon		
 Staphylococcus aureus RN6390B	Staphylococcus aureus	subspecies		taxon		
 Staphylococcus aureus Reynolds	Staphylococcus aureus	subspecies	Reynolds	taxon		
-Staphylococcus aureus subsp. aureus MRSA1115	Staphylococcus aureus subsp. aureus	subspecies	MRSA1115	taxon		
-Staphylococcus aureus subsp. aureus Rosenbach	Staphylococcus aureus subsp. aureus	subspecies	ATCC 10832|Wood 46|Wood46	taxon		
+Staphylococcus aureus subsp. aureus MRSA1115	Staphylococcus aureus	subspecies	MRSA1115	taxon		
+Staphylococcus aureus subsp. aureus Rosenbach	Staphylococcus aureus	subspecies	ATCC 10832|Wood 46|Wood46	taxon		
 Streptococcus agalactiae 090R	Streptococcus agalactiae	subspecies	NCTC 11360	taxon		
 Streptococcus agalactiae 545.5	Streptococcus agalactiae	subspecies		taxon		
 Streptococcus agalactiae F968	Streptococcus agalactiae	subspecies		taxon		

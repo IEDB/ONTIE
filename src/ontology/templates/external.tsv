@@ -113,7 +113,6 @@ NCBITaxon:11135	Feline infectious peritonitis virus	owl:Class		organism
 NCBITaxon:11138	Murine hepatitis virus	owl:Class		organism		
 NCBITaxon:11149	Transmissible gastroenteritis virus	owl:Class		organism		
 NCBITaxon:11151	Porcine transmissible gastroenteritis coronavirus strain Purdue	owl:Class		organism		
-NCBITaxon:11176	Avian avulavirus 1	owl:Class		organism	Newcastle disease virus	
 NCBITaxon:11191	Murine respirovirus	owl:Class		organism	Sendai virus	
 NCBITaxon:11232	Canine morbillivirus	owl:Class		organism		
 NCBITaxon:11234	Measles morbillivirus	owl:Class		organism	Measles virus	
@@ -200,7 +199,6 @@ NCBITaxon:122928	Norovirus GI	owl:Class		organism
 NCBITaxon:122929	Norovirus GII	owl:Class		organism		
 NCBITaxon:12305	Cucumber mosaic virus	owl:Class		organism		
 NCBITaxon:12455	Borna disease virus	owl:Class		organism		
-NCBITaxon:12461	Hepatitis E virus	owl:Class		organism		
 NCBITaxon:12475	Hepatitis delta virus	owl:Class		organism		
 NCBITaxon:12639	Duck hepatitis B virus	owl:Class		organism		
 NCBITaxon:12643	Ectromelia virus	owl:Class		organism		
@@ -264,6 +262,7 @@ NCBITaxon:162145	Human metapneumovirus	owl:Class		organism
 NCBITaxon:1639	Listeria monocytogenes	owl:Class		organism		
 NCBITaxon:1642	Listeria innocua	owl:Class		organism		
 NCBITaxon:1661	Trueperella pyogenes	owl:Class		organism		
+NCBITaxon:1678143	Orthohepevirus A	owl:Class		organism	Hepatitis E virus	
 NCBITaxon:168014	Equine rhinitis B virus 2	owl:Class		organism		
 NCBITaxon:1685	Bifidobacterium breve	owl:Class		organism		
 NCBITaxon:1717	Corynebacterium diphtheriae	owl:Class		organism		
@@ -317,6 +316,7 @@ NCBITaxon:246618	Bifidobacterium thermacidophilum	owl:Class		organism
 NCBITaxon:246878	Canine parvovirus 2	owl:Class		organism		
 NCBITaxon:251654	Pseudomonas syringae pv. helianthi	owl:Class		organism		
 NCBITaxon:254355	Small ruminant lentivirus	owl:Class		organism		
+NCBITaxon:2560319	Avian orthoavulavirus 1	owl:Class		organism	Newcastle disease virus|Avian avulavirus 1	
 NCBITaxon:257313	Bordetella pertussis Tohama I	owl:Class		Bordetella pertussis		
 NCBITaxon:260799	Bacillus anthracis str. Sterne	owl:Class		organism		
 NCBITaxon:263	Francisella tularensis	owl:Class		organism		
@@ -460,8 +460,7 @@ NCBITaxon:4550	Secale cereale	owl:Class		organism
 NCBITaxon:4565	Triticum aestivum	owl:Class		organism		
 NCBITaxon:4571	Triticum turgidum	owl:Class		organism		
 NCBITaxon:4573	Aegilops speltoides	owl:Class		organism		
-NCBITaxon:45888	Vibrio cholerae O139	owl:Class		organism		
-NCBITaxon:46170	Staphylococcus aureus subsp. aureus	owl:Class		organism		
+NCBITaxon:45888	Vibrio cholerae O139	owl:Class		organism				
 NCBITaxon:46221	Porcine circovirus	owl:Class		organism		
 NCBITaxon:46257	Pseudomonas avellanae	owl:Class		organism		
 NCBITaxon:46269	Macropisthodon rudis	owl:Class		organism		

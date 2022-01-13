@@ -566,7 +566,7 @@ Heat-labile enterotoxin B chain (Escherichia coli)	protein		Heat-labile enteroto
 Hemagglutinin (Influenza B virus)	protein		Hemagglutinin	protein	Influenza B virus
 Hemagglutinin glycoprotein (Measles morbillivirus)	protein		Hemagglutinin glycoprotein	protein	Measles morbillivirus
 Hemagglutinin precursor (Influenza A virus)	protein	HA	Hemagglutinin precursor	protein	Influenza A virus
-Hemagglutinin-neuraminidase (Avian avulavirus 1)	protein		Hemagglutinin-neuraminidase	protein	Avian avulavirus 1
+Hemagglutinin-neuraminidase (Avian orthoavulavirus 1)	protein		Hemagglutinin-neuraminidase	protein	Avian orthoavulavirus 1
 Hemoglobin (Equus caballus)	protein		Hemoglobin	protein	Equus caballus
 Hemolysin activator protein (Two-partner secretion system accessory protein) (Proteus mirabilis)	protein		Hemolysin activator protein (Two-partner secretion system accessory protein)	protein	Proteus mirabilis
 hepatocyte erythrocyte protein 17 kDa (Plasmodium yoelii)	protein	PyHEP17	hepatocyte erythrocyte protein 17 kDa	protein	Plasmodium yoelii
@@ -769,7 +769,7 @@ Major surface glycoprotein G (Human orthopneumovirus)	protein	Attachment glycopr
 Major surface protein 2 (MSP2) (Anaplasma marginale)	protein		Major surface protein 2 (MSP2)	protein	Anaplasma marginale
 Major vault protein (Homo sapiens)	protein	Lung resistance-related protein	Major vault protein	protein	Homo sapiens
 Major viral transcription factor ICP4 homolog (Human alphaherpesvirus 3)	protein	IE62|Immediate-early protein 62	Major viral transcription factor ICP4 homolog	protein	Human alphaherpesvirus 3
-matrix protein (Avian avulavirus 1)	protein		matrix protein	protein	Avian avulavirus 1
+matrix protein (Avian orthoavulavirus 1)	protein		matrix protein	protein	Avian orthoavulavirus 1
 Matrix protein (Measles morbillivirus)	protein		Matrix protein	protein	Measles morbillivirus
 Matrix protein 1 (Influenza A virus)	protein	M1	Matrix protein 1	protein	Influenza A virus
 Matrix protein 2 (Influenza A virus)	protein	Proton channel protein M2	Matrix protein 2	protein	Influenza A virus
@@ -897,7 +897,7 @@ non-protein coding region (Homo sapiens)	protein	cryptic source|non-protein codi
 Non-receptor tyrosine-protein kinase TYK2 (Homo sapiens)	protein		Non-receptor tyrosine-protein kinase TYK2	protein	Homo sapiens
 non-structural protein (Muscovy duck parvovirus)	protein	NS1	non-structural protein	protein	Muscovy duck parvovirus
 non-structural protein 1 (NS1) (Zika virus)	protein	NS1	non-structural protein 1 (NS1)	protein	Zika virus
-non-structural V protein (Avian avulavirus 1)	protein		non-structural V protein	protein	Avian avulavirus 1
+non-structural V protein (Avian orthoavulavirus 1)	protein		non-structural V protein	protein	Avian orthoavulavirus 1
 nonstructural protein NS4 (African horse sickness virus)	protein	NS4	nonstructural protein NS4	protein	African horse sickness virus
 nuclear cap-binding protein (Plasmodium berghei)	protein		nuclear cap-binding protein	protein	Plasmodium berghei
 nuclear pore membrane glycoprotein 210 (Homo sapiens)	protein	nuclear pore protein gp210	nuclear pore membrane glycoprotein 210	protein	Homo sapiens
@@ -920,9 +920,6 @@ Nucleoprotein (Rabies lyssavirus)	protein	NP|Nucleocapsid protein|Protein N	Nucl
 Nucleoprotein (Rinderpest virus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Rinderpest morbillivirus
 Nucleoprotein (Severe acute respiratory syndrome-related coronavirus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Severe acute respiratory syndrome-related coronavirus
 Nucleoprotein (Murine respirovirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Murine respirovirus
-obsolete lactate dehydrogenase (Papio cynocephalus)	protein		obsolete lactate dehydrogenase	protein	Papio cynocephalus
-obsolete Large structural phosphoprotein (Human betaherpesvirus 5)	protein	150 kDa matrix phosphoprotein|BPP|Basic phosphoprotein|Tegument protein UL32|pp150	obsolete Large structural phosphoprotein	protein	Human betaherpesvirus 5
-obsolete US22 family homolog (Murid betaherpesvirus 1)	protein	MuHV1_gpm141	obsolete US22 family homolog	protein	Murid betaherpesvirus 1
 odorant response abnormal 4 (Homo sapiens)	protein	protein odr-4 homolog	odorant response abnormal 4	protein	Homo sapiens
 olfactory receptor 10J4olfactory receptor 10J4 (Homo sapiens)	protein	10J4	olfactory receptor 10J4olfactory receptor 10J4	protein	Homo sapiens
 olfactory receptor 628 (Mus musculus)	protein		olfactory receptor 628	protein	Mus musculus

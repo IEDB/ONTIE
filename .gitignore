@@ -4,6 +4,9 @@ config
 tmp/
 build/
 resources/
+__pycache__
+_venv
+.idea
 
 # COGS files
 credentials.json

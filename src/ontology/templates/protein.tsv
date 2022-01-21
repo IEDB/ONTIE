@@ -619,7 +619,7 @@ IFN alpha 2 (Homo sapiens)	protein	interferon alpha 2	IFN alpha 2	protein	Homo s
 Ig G anti-DNA autoantibody (Mus musculus)	protein		Ig G anti-DNA autoantibody	protein	Mus musculus
 Ig gamma-1 chain C region (Rattus norvegicus)	protein		Ig gamma-1 chain C region	protein	Rattus norvegicus
 Ig heavy chain CDR3 region (Homo sapiens)	protein		Ig heavy chain CDR3 region	protein	Homo sapiens
-IgM heavy chain (Dasyatis americana)	protein		IgM heavy chain	protein	Dasyatis americana
+IgM heavy chain (Hypanus americanus)	protein		IgM heavy chain	protein	Hypanus americanus (southern stingray)
 IgM lambda light chain (Homo sapiens)	protein	Frymac	IgM lambda light chain	protein	Homo sapiens
 Immunoglobulin (Canis lupus familiaris)	protein	Ig|gammaglobulin	Immunoglobulin	protein	Canis lupus familiaris
 Immunoglobulin chain (Homo sapiens)	protein		Immunoglobulin chain	protein	Homo sapiens
@@ -986,10 +986,10 @@ phosphohydrolase family protein (Coxiella burnetii)	protein	phosphohydrolase	pho
 phospholipase A2 inhibitor gamma (Elaphe carinata)	protein		phospholipase A2 inhibitor gamma	protein	Elaphe carinata
 phospholipase A2 inhibitor gamma (Elaphe taeniura)	protein		phospholipase A2 inhibitor gamma	protein	Elaphe taeniura
 phospholipase A2 inhibitor gamma (Lycodon rufozonatus)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Lycodon rufozonatus
-phospholipase A2 inhibitor gamma (Macropisthodon rudis)	protein		phospholipase A2 inhibitor gamma	protein	Macropisthodon rudis
+phospholipase A2 inhibitor gamma (Pseudagkistrodon rudis)	protein		phospholipase A2 inhibitor gamma	protein	Pseudagkistrodon rudis (Red keelback)
 phospholipase A2 inhibitor gamma (Oocatochus rufodorsatus)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Oocatochus rufodorsatus
 phospholipase A2 inhibitor gamma (Ptyas dhumnades)	protein		phospholipase A2 inhibitor gamma	protein	Ptyas dhumnades
-phospholipase A2 inhibitor gamma (Sinonatrix annularis)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Sinonatrix annularis
+phospholipase A2 inhibitor gamma (Trimerodytes annularis)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Trimerodytes annularis (Red-bellied annulate keelback)
 phospholysine phosphohistidine inorganic pyrophosphate phosphatase (Homo sapiens)	protein		phospholysine phosphohistidine inorganic pyrophosphate phosphatase	protein	Homo sapiens
 phosphomannomutase 2 (Homo sapiens)	protein		phosphomannomutase 2	protein	Homo sapiens
 Phosphoprotein (Rabies lyssavirus)	protein	Protein M1|Protein P	Phosphoprotein	protein	Rabies lyssavirus

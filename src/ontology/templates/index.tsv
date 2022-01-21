@@ -2108,7 +2108,7 @@ ONTIE:0002105	allergen (Pinus pinaster)	owl:Class			IEDB
 ONTIE:0002106	Lyc e 2.0101 (Solanum lycopersicum)	owl:Class			IEDB
 ONTIE:0002107	allergen (Cupressus torulosa)	owl:Class			IEDB
 ONTIE:0002108	Follistatin-related protein 1 (Homo sapiens)	owl:Class			IEDB
-ONTIE:0002109	IgM heavy chain (Dasyatis americana)	owl:Class			IEDB
+ONTIE:0002109	IgM heavy chain (Hypanus americanus)	owl:Class			IEDB
 ONTIE:0002110	Immunoglobulin domain variable region (v) (Mus musculus)	owl:Class			IEDB
 ONTIE:0002111	VkIII myeloma protein Gun (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002112	T cell receptor beta chain (Mus musculus)	owl:Class			IEDB
@@ -3352,8 +3352,8 @@ ONTIE:0003354	Major Peanut Allergen Ara H 6 (Arachis hypogaea)	owl:Class			IEDB
 ONTIE:0003355	epsilon toxin (Clostridium perfringens)	owl:Class			IEDB
 ONTIE:0003356	DNA processivity factor (Human betaherpesvirus 5)	owl:Class			IEDB
 ONTIE:0003357	synuclein (Homo sapiens)	owl:Class			IEDB
-ONTIE:0003358	phospholipase A2 inhibitor gamma (Sinonatrix annularis)	owl:Class			IEDB
-ONTIE:0003359	phospholipase A2 inhibitor gamma (Macropisthodon rudis)	owl:Class			IEDB
+ONTIE:0003358	phospholipase A2 inhibitor gamma (Trimerodytes annularis)	owl:Class			IEDB
+ONTIE:0003359	phospholipase A2 inhibitor gamma (Pseudagkistrodon rudis)	owl:Class			IEDB
 ONTIE:0003360	phospholipase A2 inhibitor gamma (Elaphe carinata)	owl:Class			IEDB
 ONTIE:0003361	phospholipase A2 inhibitor gamma (Ptyas dhumnades)	owl:Class			IEDB
 ONTIE:0003362	phospholipase A2 inhibitor gamma (Elaphe taeniura)	owl:Class			IEDB

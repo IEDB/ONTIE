@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-01-13/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-01-21/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -3311,6 +3311,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2484686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2484686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypanus americanus (southern stingray)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_251654 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_251654">
@@ -3376,6 +3385,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2678873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2678873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trimerodytes annularis (Red-bellied annulate keelback)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
@@ -3390,6 +3408,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_272636">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adeno-associated virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudagkistrodon rudis (Red keelback)</rdfs:label>
     </owl:Class>
     
 
@@ -4656,15 +4683,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macropisthodon rudis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_46290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46290">
@@ -4805,15 +4823,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blastomyces dermatitidis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50411 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dasyatis americana</rdfs:label>
     </owl:Class>
     
 
@@ -5733,15 +5742,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_74364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elaphe carinata</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_74368 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_74368">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinonatrix annularis</rdfs:label>
     </owl:Class>
     
 
@@ -33970,12 +33970,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50411"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2484686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM heavy chain</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM heavy chain (Dasyatis americana)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM heavy chain (Hypanus americanus)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -57142,13 +57142,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_74368"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2678873"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLIg</obo:IAO_0000118>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma (Sinonatrix annularis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma (Trimerodytes annularis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     
@@ -57161,12 +57161,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_46269"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759634"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma (Macropisthodon rudis)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase A2 inhibitor gamma (Pseudagkistrodon rudis)</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
     </owl:Class>
     

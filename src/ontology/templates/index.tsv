@@ -3623,3 +3623,4 @@ ONTIE:0003647	flow cytometry low marker range	owl:Class			CMI-PB
 ONTIE:0003648	flow cytometry positive marker range	owl:Class			CMI-PB
 ONTIE:0003649	flow cytometry negative marker range	owl:Class			CMI-PB
 ONTIE:0003650	Mean Phagocytosis (% infected cells)	owl:Class			CoVIC-DB
+ONTIE:0003651	exposure information entity	owl:Class			IEDB

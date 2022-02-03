@@ -22,8 +22,8 @@ post disease course	disease course		A disease course that has ended.		OGMS
 unknown disease course	disease course		A disease course whose status is currently unknown.		OGMS	
 other disease course	disease course		A disease course that cannot be described by existing disease course stages.		OGMS	
 transplantation or transfusion	administering substance in vivo		Transfering a solid tissue (transplant) or bodily fluid (transfusion) to an organism.	The process of surgically attaching a donor kidney into a recipient patient.	OGMS:0000143	transplantation
-unknown	information content entity		An organism's lifespan for which there is no available information on an exposure to a material entity of interest.	The lack of information regarding if a human has ever lived in or visted an area where Dengue virus is common.		
-no exposure	information content entity		An organism's lifspan which does not include exposure to a substance of interest.	The information that a human has never lived in nor visted an area where Dengue virus is common.		
+unknown	exposure information entity		An organism's lifespan for which there is no available information on an exposure to a material entity of interest.	The lack of information regarding if a human has ever lived in or visted an area where Dengue virus is common.		
+no exposure	exposure information entity		An organism's lifspan which does not include exposure to a substance of interest.	The information that a human has never lived in nor visted an area where Dengue virus is common.		
 family medical history	information content entity		A medical history of blood relatives.		OGMS	
 prenatal maternal abnormality	family medical history		An abnormality of one's mother during one's gestation.		OGMS	
 prior pregnancy	host health status		The state or condition of previously having a developing embryo or fetus in the body.		OGMS	
@@ -65,3 +65,4 @@ flow cytometry high marker range	flow cytometry gate marker range		A marker rang
 flow cytometry low marker range	flow cytometry gate marker range		A marker range that defines a low signal level.			
 flow cytometry positive marker range	flow cytometry gate marker range		A marker range that defines a positive signal level.			
 flow cytometry negative marker range	flow cytometry gate marker range		A marker range that defines a negative signal level.			
+exposure information entity	information content entity		An information content entity that is about an exposure to a substance of interest.			

@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-01-21/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-01-26/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -56451,7 +56451,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003309 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003651"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The information that a human has never lived in nor visted an area where Dengue virus is common.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism&apos;s lifspan which does not include exposure to a substance of interest.</obo:IAO_0000115>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
@@ -56463,7 +56463,7 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0003310 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003651"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lack of information regarding if a human has ever lived in or visted an area where Dengue virus is common.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism&apos;s lifespan for which there is no available information on an exposure to a material entity of interest.</obo:IAO_0000115>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
@@ -61428,6 +61428,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay measuring the mean percentage of infected cells undergoing phagocytosis</obo:IAO_0000115>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoVIC-DB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mean Phagocytosis (% infected cells)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003651 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that is about an exposure to a substance of interest.</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure information entity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

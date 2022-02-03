@@ -31,3 +31,6 @@ viral titer lung	assay	An in vivo protection assay based on viral titer in lung 
 viral titer nasal turbinates	assay	An in vivo protection assay based on viral titer in nasal turbinates measured in PFU/ml.
 neutralization IC90 (ng/mL)	assay	A neutralization assay measuring the IC90 of the tested antibody in ng/mL
 Mean Phagocytosis (% infected cells)	assay	assay measuring the mean percentage of infected cells undergoing phagocytosis
+ELISA measuring geometric mean concentration	assay	An ELISA measuring the geometric mean concentration of an antibody.
+GMC for Pre-Spike IgG ELISA (ELU/mL)	ELISA measuring geometric mean concentration	An ELISA measuring geometric mean concentration of an IgG antibody against Pre-Spike in ELU/mL.
+GMC for RBD IgG ELISA (ELU/mL)	ELISA measuring geometric mean concentration	An ELISA measuring geometric mean concentration of an IgG antibody against RBD in ELU/mL.

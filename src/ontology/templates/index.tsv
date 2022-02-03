@@ -3624,3 +3624,9 @@ ONTIE:0003648	flow cytometry positive marker range	owl:Class			CMI-PB
 ONTIE:0003649	flow cytometry negative marker range	owl:Class			CMI-PB
 ONTIE:0003650	Mean Phagocytosis (% infected cells)	owl:Class			CoVIC-DB
 ONTIE:0003651	exposure information entity	owl:Class			IEDB
+ONTIE:0003652	ELISA measuring geometric mean concentration	owl:Class			CoVIC-DB
+ONTIE:0003653	GMC for Pre-Spike IgG ELISA (ELU/mL)	owl:Class			CoVIC-DB
+ONTIE:0003654	GMC for RBD IgG ELISA (ELU/mL)	owl:Class			CoVIC-DB
+ONTIE:0003655	infected mock-treated PBS-control	owl:Class			CoVIC-DB
+ONTIE:0003656	non infected mock-treated PBS-control	owl:Class			CoVIC-DB
+ONTIE:0003657	geometric mean concentration (ELU/mL)	owl:Class			CoVIC-DB

@@ -66,3 +66,6 @@ flow cytometry low marker range	flow cytometry gate marker range		A marker range
 flow cytometry positive marker range	flow cytometry gate marker range		A marker range that defines a positive signal level.			
 flow cytometry negative marker range	flow cytometry gate marker range		A marker range that defines a negative signal level.			
 exposure information entity	information content entity		An information content entity that is about an exposure to a substance of interest.			
+infected mock-treated PBS-control	material entity					
+non infected mock-treated PBS-control	material entity					
+geometric mean concentration (ELU/mL)	parameter		The average antibody concentration for a group of subjects calculated by multiplying all values and taking the nth root of this number, where n is the number of subjects with available data.(GMC)			

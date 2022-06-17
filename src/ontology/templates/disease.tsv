@@ -3,6 +3,7 @@ LABEL	SC %	A definition	A alternative term SPLIT=|	A ONTIE domain	SC 'has materi
 additional diseases by category	disease			disease		
 adjuvant-induced arthritis (AIA)	experimental arthritis	An experimental arthritis induced by the administration of adjuvant.	AIA|U41	disease		
 animal model of autoimmune disease	animal model of disease	An animal model of disease that serves as a method to study a human autoimmune disease.		disease		autoimmune disease
+animal model of cancer	animal model of disease	An animal model of disease that serves as a method to study cancer.		disease		cancer
 animal model of disease	disease	An experimental process in which an organism other than human is studied as it undergoes a process that mimics an occurrence of a human disease in order to study that disease.¬†		disease		
 asymptomatic COVID-19 infection	infection without disease	An asymptomatic infection with Severe acute respiratory syndrome coronavirus 2		disease	Severe acute respiratory syndrome coronavirus 2	
 asymptomatic HIV infection	infection without disease	An asymptomatic infection with Human immunodeficiency virus 1 OR Human immunodeficiency virus 2.	Z21	disease	('Human immunodeficiency virus 1' or 'Human immunodeficiency virus 2')	
@@ -25,7 +26,12 @@ experimental autoimmune prostatitis	animal model of autoimmune disease	An animal
 experimental autoimmune sensorineural hearing loss	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human sensorineural hearing loss.	H90.3	disease		sensorineural hearing loss
 experimental autoimmune thyroiditis (EAT)	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human autoimmune thyroiditis or human hypothyroidism.	E06.3|EAT	disease		hypothyroidism|autoimmune thyroiditis
 experimental autoimmune uveitis (EAU)	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human autoimmune uveitis.	EAU|H20	disease		autoimmune uveitis
+experimental breast cancer	animal model of cancer	An animal model of cancer that mimics human breast cancer.		disease		breast cancer
+experimental colon cancer	animal model of cancer	An animal model of cancer that mimics human colon cancer.		disease		colon cancer
+experimental fibrosarcoma	animal model of cancer	An animal model of cancer that mimics human fibrosarcoma.		disease		fibrosarcoma
 experimental immune-mediated cholangiopathy	animal model of autoimmune disease	An animal model of autoimmune disease that mimics human cholangitis.	K80.3	disease		cholangitis
+experimental melanoma	animal model of cancer	An animal model of cancer that mimics human melanoma.		disease		melanoma
+experimental prostate cancer	animal model of cancer	An animal model of cancer that mimics human prostate cancer.	TRAMP	disease		prostate cancer
 genetic disease	additional diseases by category					
 habitual abortion	female reproductive system disease	A female reproductive system disease characterized by 3 consecutive pregnancy losses prior to 20 weeks from the last menstural period.	recurrent miscarriage|recurrent pregnancy loss	disease		
 healthy	host health status	The absence of any disease	U6	disease		
@@ -33,5 +39,5 @@ host health status	owl:Thing	The state of the host at the time of the experiment
 human T-lymphotropic virus 1 carrier	infection without disease	An asymptomatic infection with Human T-cell leukemia virus type I.	HTLV-1 carrier|Z22.6	disease	Human T-cell leukemia virus type I	
 infection without disease	host health status	The presence of an infection in a host that does not manifest in any pathological processes.	asymptomatic infection	disease		
 rejection of transplanted organs and tissues	transplant-related disease and allo-reactivity	A transplant-related disease and allo-reactivity that results in rejection of the transplanted tissue or blood.	T86|T86.0|T86.1|T86.2|T86.3|T86.8	disease		
-transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease		
 syndrome	additional diseases by category					
+transplant-related disease and allo-reactivity	disease	A disease that results from transplantation or allo-reactivity.		disease		

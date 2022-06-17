@@ -3630,3 +3630,9 @@ ONTIE:0003654	GMC for RBD IgG ELISA (ELU/mL)	owl:Class			CoVIC-DB
 ONTIE:0003655	infected mock-treated PBS-control	owl:Class			CoVIC-DB
 ONTIE:0003656	non infected mock-treated PBS-control	owl:Class			CoVIC-DB
 ONTIE:0003657	geometric mean concentration (ELU/mL)	owl:Class			CoVIC-DB
+ONTIE:0003658	animal model of cancer	owl:Class			IEDB
+ONTIE:0003659	experimental breast cancer	owl:Class			IEDB
+ONTIE:0003660	experimental colon cancer	owl:Class			IEDB
+ONTIE:0003661	experimental fibrosarcoma	owl:Class			IEDB
+ONTIE:0003662	experimental prostate cancer	owl:Class			IEDB
+ONTIE:0003663	experimental melanoma	owl:Class			IEDB

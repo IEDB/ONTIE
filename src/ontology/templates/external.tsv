@@ -8,6 +8,7 @@ DOID:0040095	autoimmune cardiomyopathy	owl:Class		autoimmune disease
 DOID:0050117	infectious disease	owl:Class		disease		
 DOID:0060499	autoimmune neuropathy	owl:Class		autoimmune disease		
 DOID:10003	sensorineural hearing loss	owl:Class		nervous system disease		
+DOID:10283	prostate cancer	owl:Class		cancer
 DOID:10974	oophoritis	owl:Class		endocrine system disease		
 DOID:1205	allergic disease	owl:Class		disease		
 DOID:12361	Graves disease	owl:Class		autoimmune disease|endocrine system disease		
@@ -16,11 +17,16 @@ DOID:1459	hypothyroidism	owl:Class		endocrine system disease
 DOID:14654	prostatitis	owl:Class		male reproductive system disease		
 DOID:15	reproductive system disease	owl:Class		disease of anatomical entity		
 DOID:150	disease of mental health	owl:Class				
+DOID:1612	breast cancer	owl:Class		cancer
+DOID:162	cancer	owl:Class		disease
 DOID:17	musculoskeletal system disease	owl:Class		disease of anatomical entity		
+DOID:1909	melanoma	owl:Class		cancer
+DOID:219	fibrosarcoma	owl:Class		cancer
 DOID:225	syndrome	owl:Class				
 DOID:229	female reproductive system disease	owl:Class		reproductive system disease		
 DOID:2377	multiple sclerosis	owl:Class		nervous system disease		
 DOID:28	endocrine system disease	owl:Class		disease of anatomical entity		
+DOID:3355	colon cancer	owl:Class		cancer
 DOID:4	disease	owl:Class				
 DOID:417	autoimmune disease	owl:Class		disease		
 DOID:437	myasthenia gravis	owl:Class		autoimmune disease|nervous system disease		
@@ -37,6 +43,7 @@ DOID:9808	Goodpasture syndrome	owl:Class		autoimmune disease
 GO:0008150	biological process	owl:Class		process		
 GO:0043234	protein complex	owl:Class		material entity		
 IAO:0000030	information content entity	owl:Class		owl:Thing		
+IAO:0000140	setting datum	owl:Class		information content entity		
 NCBITaxon:10009	Tamiasciurus hudsonicus	owl:Class		organism		
 NCBITaxon:10036	Mesocricetus auratus	owl:Class		organism		
 NCBITaxon:1006061	Duck hepatitis A virus 1	owl:Class		organism		
@@ -650,12 +657,10 @@ NCBITaxon:9986	Oryctolagus cuniculus	owl:Class		organism
 NCBITaxon:99875	Leishmania donovani donovani	owl:Class		organism		
 NCBITaxon:no_rank	no rank	owl:Class		information content entity		
 NCBITaxon:subspecies	subspecies	owl:Class		information content entity		
-obo:COB_0000006	material entity	owl:Class				
 OBI:0000011	planned process	owl:Class		process		
 OBI:0000070	assay	owl:Class		planned process		
 OBI:0100026	organism	owl:Class		material entity		
 OBI:0600007	administering substance in vivo [OBI:0600007]	owl:Class				
-owl:Thing	owl:Thing					
 PR:000000001	protein	owl:Class		material entity		
 PR:A0A171JW18	Fimbrial protein Fim3	owl:Class		protein	Fim3	'in taxon' some 'Bordetella pertussis'
 PR:P04977	Pertussis toxin subunit 1	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
@@ -664,4 +669,5 @@ PR:P04979	Pertussis toxin subunit 3	owl:Class		protein		'in taxon' some 'Bordete
 PR:P04981	Pertussis toxin subunit 5	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
 PR:P0A3R5	Pertussis toxin subunit 4	owl:Class		protein		'in taxon' some 'Bordetella pertussis Tohama I'
 PR:Q5I8X0	Fimbrial protein	owl:Class		protein	Fim2	'in taxon' some 'Bordetella pertussis'
-IAO:0000140	setting datum	owl:Class		information content entity		
+obo:COB_0000006	material entity	owl:Class				
+owl:Thing	owl:Thing					

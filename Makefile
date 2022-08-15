@@ -29,9 +29,7 @@
 # ### Before you go...
 # [Clean Build Directory](clean) [Destroy Google Sheet](destroy)
 
-KNODE := java -jar knode.jar
 ROBOT := java -jar build/robot.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
-ROBOT_REPORT := java -jar build/robot-report.jar --prefix "ONTIE: https://ontology.iedb.org/ontology/ONTIE_"
 COGS := cogs
 
 DATE := $(shell date +%Y-%m-%d)
@@ -40,10 +38,7 @@ build build/validate build/diff build/master build/validation:
 	mkdir -p $@
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
-
-build/robot-report.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/html-report/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.9.0/robot.jar
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
@@ -75,7 +70,7 @@ ontie.owl: $(TABLES) src/ontology/metadata.ttl build/imports.ttl | build/robot.j
 	--version-iri "https://ontology.iedb.org/ontology/$(DATE)/$@" \
 	--output $@
 
-build/ontie-base.owl: ontie.owl | build/robot-report.jar
+build/ontie-base.owl: ontie.owl | build/robot.jar
 	$(ROBOT) remove \
 	--input $< \
 	--base-iri ONTIE \
@@ -156,9 +151,6 @@ refresh-imports: clean-imports build/imports.ttl
 
 
 # Tree Building
-
-build/robot-tree.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/tree-view/lastSuccessfulBuild/artifact/bin/robot.jar
 
 build/ontie.db: src/scripts/prefixes.sql ontie.owl | build/rdftab
 	rm -rf $@

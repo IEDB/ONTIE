@@ -53,7 +53,7 @@ build/rdftab: | build
 
 # ROBOT templates from Google sheet
 
-SHEETS := predicates index external protein complex disease taxon assays other
+SHEETS := predicates index external protein complex disease taxon assays other obsolete
 TABLES := $(foreach S,$(SHEETS),src/ontology/templates/$(S).tsv)
 
 # ONTIE from templates

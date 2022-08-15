@@ -61657,6 +61657,28 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental melanoma</rdfs:label>
         <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</ontology:ONTIE_0003259>
     </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003664 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay measuring the percent of NK cells expressing IFNg using a phagocytic score</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoVIC-DB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADNKA % IFNg+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003665 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay measuring the percent of NK cells expressing TNFa using a phagocytic score</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoVIC-DB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADNKA % TNFa+</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

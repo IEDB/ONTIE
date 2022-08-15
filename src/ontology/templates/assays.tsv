@@ -11,7 +11,9 @@ ADCP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocyt
 ADNP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocytosis of neutrophils by binding its Fc domain to a specific receptor on neutrophils using a phagocytic score
 ADCD (MFI C3)	assay	An assay to measure complement component C3b on the surface of target cells using MFI
 ADNKA % CD107a+	assay	An assay measuring the percent of NK cells expressing CD107a as a result of antibody binding
+ADNKA % IFNg+	assay	An assay measuring the percent of NK cells expressing IFNg using a phagocytic score
 ADNKA % MIP-1b+	assay	An assay measuring the percent of NK cells expressing MIP-1b using a phagocytic score
+ADNKA % TNFa+	assay	An assay measuring the percent of NK cells expressing TNFa using a phagocytic score
 mADCP (Phagocytic Score)	assay	An assay that measures antibody initiated phagocytosis by binding its Fc domain to a specific receptor on a mouse cell using a phagocytic score
 FcgR2aR (MFI)	assay	An assay measuring antibody affinity for FcgR2aR receptor on human cells using median fluorescence intensity
 FcgR3aV (MFI)	assay	An assay measuring antibody affinity for FcgR3aV receptor on human cells using median fluorescence intensity

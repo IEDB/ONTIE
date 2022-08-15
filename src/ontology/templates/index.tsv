@@ -2665,7 +2665,7 @@ ONTIE:0002662	Low-density lipoprotein receptor (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002663	Insulin (Bos taurus)	owl:Class			IEDB
 ONTIE:0002664	Membrane protein, putative (Coxiella burnetii)	owl:Class			IEDB
 ONTIE:0002665	Hemagglutinin-neuraminidase (Avian orthoavulavirus 1)	owl:Class			IEDB
-ONTIE:0002666	Pertussis toxin subunit 1 (Bordetella pertussis)	owl:Class	TRUE	PR:P04977	IEDB
+ONTIE:0002666	obsolete pertussis toxin subunit 1 (Bordetella pertussis)	owl:Class	true	PR:P04977	IEDB
 ONTIE:0002667	Chaperone protein ClpB (Escherichia coli)	owl:Class			IEDB
 ONTIE:0002668	Secretion protein (Francisella tularensis)	owl:Class			IEDB
 ONTIE:0002669	Membrane protein (Severe acute respiratory syndrome-related coronavirus)	owl:Class			IEDB
@@ -2949,7 +2949,7 @@ ONTIE:0002946	DNA helicase INO80 (Mus musculus)	owl:Class			IEDB
 ONTIE:0002947	progesterone receptor (Mus musculus)	owl:Class			IEDB
 ONTIE:0002948	SET binding factor 1 (Homo sapiens)	owl:Class			IEDB
 ONTIE:0002949	bullous pemphigoid antigen (Homo sapiens)	owl:Class			IEDB
-ONTIE:0002950	pertussis toxin subunit 4 (Bordetella pertussis)	owl:Class	TRUE	PR:P0A3R5	IEDB
+ONTIE:0002950	obsolete pertussis toxin subunit 4 (Bordetella pertussis)	owl:Class	true	PR:P0A3R5	IEDB
 ONTIE:0002951	E1A 26 kDa protein (Human adenovirus 5)	owl:Class			IEDB
 ONTIE:0002952	Clostridium Neurotoxin Type B (Clostridium botulinum)	owl:Class			IEDB
 ONTIE:0002953	Major Peanut Allergen Ara H 1 (Arachis hypogaea)	owl:Class			IEDB

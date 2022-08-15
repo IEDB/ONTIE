@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-06-28/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-08-15/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -44561,13 +44561,6 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0002666 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0002666">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAP S1</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet-activating protein S1</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD-dependent ADP-ribosyltransferase</obo:IAO_0000118>
@@ -44575,9 +44568,8 @@
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PR_P04977"/>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 1</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertussis toxin subunit 1 (Bordetella pertussis)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
-        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pertussis toxin subunit 1 (Bordetella pertussis)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -50100,19 +50092,11 @@
     <!-- https://ontology.iedb.org/ontology/ONTIE_0002950 -->
 
     <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0002950">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000234>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PR_P0A3R5"/>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pertussis toxin subunit 4</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pertussis toxin subunit 4 (Bordetella pertussis)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
-        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</ontology:ONTIE_0003259>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pertussis toxin subunit 4 (Bordetella pertussis)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 

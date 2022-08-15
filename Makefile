@@ -77,14 +77,14 @@ build/ontie-base.owl: ontie.owl | build/robot.jar
 	--axioms external \
 	--output $@
 
-build/report.html: build/ontie-base.owl | build/robot-report.jar
+build/report.html: build/ontie-base.owl | build/robot.jar
 	$(ROBOT) report \
 	--input $< \
 	--standalone true \
 	--fail-on none \
 	--output $@
 
-build/report.tsv: build/ontie-base.owl | build/robot-report.jar
+build/report.tsv: build/ontie-base.owl | build/robot.jar
 	$(ROBOT) report --input $< --print 10 --output $@
 
 build/diff.html: ontie.owl | build/robot.jar

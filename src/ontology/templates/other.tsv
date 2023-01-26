@@ -69,3 +69,7 @@ exposure information entity	information content entity		An information content e
 infected mock-treated PBS-control	material entity					
 non infected mock-treated PBS-control	material entity					
 geometric mean concentration (ELU/mL)	parameter		The average antibody concentration for a group of subjects calculated by multiplying all values and taking the nth root of this number, where n is the number of subjects with available data.(GMC)			
+T cell-B cell complex	cell-cell complex		A cell-cell complex made up of at least one T cell and one B cell.			T:B doublets 
+monocyte-B cell complex	cell-cell complex		A cell-cell complex made up of at least one monocyte and one B cell.			M:B doublets (CD19+CD14+) 
+B cell-NK cell complex	cell-cell complex		A cell-cell complex made up of at least one B cell and one NK cell.			B:NK doublets (CD19+CD3-CD14-CD56+) 
+T cell-monocyte complex	cell-cell complex		A cell-cell complex made up of at least one T cell and one monocyte.			T:M doublets (CD19-CD3+CD14+) 

@@ -8,7 +8,7 @@ DOID:0040095	autoimmune cardiomyopathy	owl:Class		autoimmune disease
 DOID:0050117	infectious disease	owl:Class		disease		
 DOID:0060499	autoimmune neuropathy	owl:Class		autoimmune disease		
 DOID:10003	sensorineural hearing loss	owl:Class		nervous system disease		
-DOID:10283	prostate cancer	owl:Class		cancer
+DOID:10283	prostate cancer	owl:Class		cancer		
 DOID:10974	oophoritis	owl:Class		endocrine system disease		
 DOID:1205	allergic disease	owl:Class		disease		
 DOID:12361	Graves disease	owl:Class		autoimmune disease|endocrine system disease		
@@ -17,16 +17,16 @@ DOID:1459	hypothyroidism	owl:Class		endocrine system disease
 DOID:14654	prostatitis	owl:Class		male reproductive system disease		
 DOID:15	reproductive system disease	owl:Class		disease of anatomical entity		
 DOID:150	disease of mental health	owl:Class				
-DOID:1612	breast cancer	owl:Class		cancer
-DOID:162	cancer	owl:Class		disease
+DOID:1612	breast cancer	owl:Class		cancer		
+DOID:162	cancer	owl:Class		disease		
 DOID:17	musculoskeletal system disease	owl:Class		disease of anatomical entity		
-DOID:1909	melanoma	owl:Class		cancer
-DOID:219	colon cancer	owl:Class		cancer
+DOID:1909	melanoma	owl:Class		cancer		
+DOID:219	colon cancer	owl:Class		cancer		
 DOID:225	syndrome	owl:Class				
 DOID:229	female reproductive system disease	owl:Class		reproductive system disease		
 DOID:2377	multiple sclerosis	owl:Class		nervous system disease		
 DOID:28	endocrine system disease	owl:Class		disease of anatomical entity		
-DOID:3355	fibrosarcoma	owl:Class		cancer
+DOID:3355	fibrosarcoma	owl:Class		cancer		
 DOID:4	disease	owl:Class				
 DOID:417	autoimmune disease	owl:Class		disease		
 DOID:437	myasthenia gravis	owl:Class		autoimmune disease|nervous system disease		
@@ -470,7 +470,7 @@ NCBITaxon:4550	Secale cereale	owl:Class		organism
 NCBITaxon:4565	Triticum aestivum	owl:Class		organism		
 NCBITaxon:4571	Triticum turgidum	owl:Class		organism		
 NCBITaxon:4573	Aegilops speltoides	owl:Class		organism		
-NCBITaxon:45888	Vibrio cholerae O139	owl:Class		organism				
+NCBITaxon:45888	Vibrio cholerae O139	owl:Class		organism		
 NCBITaxon:46221	Porcine circovirus	owl:Class		organism		
 NCBITaxon:46257	Pseudomonas avellanae	owl:Class		organism		
 NCBITaxon:46290	Foot-and-mouth disease virus C3	owl:Class		organism		

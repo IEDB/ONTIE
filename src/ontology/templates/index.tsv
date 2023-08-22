@@ -3638,3 +3638,6 @@ ONTIE:0003662	experimental prostate cancer	owl:Class			IEDB
 ONTIE:0003663	experimental melanoma	owl:Class			IEDB
 ONTIE:0003664	ADNKA % IFNg+	owl:Class			CoVIC-DB
 ONTIE:0003665	ADNKA % TNFa+	owl:Class			CoVIC-DB
+ONTIE:0003666	Influenza A virus (A/Perth/19/2009 (H3N2))	owl:Class			HCC
+ONTIE:0003667	Influenza A virus (A/Switzerland/9715293/2013(H3N2))	owl:Class			HCC
+ONTIE:0003668	Influenza B virus (B/Phuket/3073/2013)	owl:Class			HCC

@@ -1,0 +1,44 @@
+table	column	label	nulltype	datatype	structure	description
+table	table			label	unique	name of this table
+table	path			line		path to the TSV file for this table, relative to the table.tsv file
+table	type		empty	table_type		type of this table, used for tables with special meanings
+table	description		empty	text		a description of this table
+column	table			label	from(table.table)	the table that this column belongs to
+column	column			label		the name of this column
+column	label		empty	label		the label for this column
+column	nulltype		empty	word	from(datatype.datatype)	the datatype for NULL values in this column
+column	datatype			word	from(datatype.datatype)	the datatype for this column
+column	structure		empty	label		schema information for this column
+column	description		empty	text		a description of this column
+datatype	datatype			word	primary	the name of this datatype
+datatype	parent		empty	word	tree(datatype)	the parent datatype
+datatype	condition		empty	line		the method for testing the datatype
+datatype	description		empty	text		a description of this datatype
+datatype	SQL type		empty	sql_type		the SQLite type for representing this data
+datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data
+prefix	prefix			word		
+prefix	base			ID		
+ontology	assertion			non_negative_integer		
+ontology	retraction			non_negative_integer		
+ontology	graph			ID		
+ontology	subject			ID		
+ontology	predicate			ID		
+ontology	object			line		
+ontology	datatype			ID		
+ontology	annotation			line		
+ontie	assertion			non_negative_integer		
+ontie	retraction			non_negative_integer		
+ontie	graph			ID		
+ontie	subject			ID		
+ontie	predicate			ID		
+ontie	object			line		
+ontie	datatype			ID		
+ontie	annotation			line		
+disease_tree	assertion			non_negative_integer		
+disease_tree	retraction			non_negative_integer		
+disease_tree	graph			ID		
+disease_tree	subject			ID		
+disease_tree	predicate			ID		
+disease_tree	object			line		
+disease_tree	datatype			ID		
+disease_tree	annotation			line		

@@ -1,4 +1,4 @@
-git+https://github.com/ontodev/valve.py.git
-git+https://github.com/ontodev/gizmos.git
-urlp
-psycopg2-binary
+bottle
+jinja2
+markdown
+Pygments

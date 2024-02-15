@@ -1,0 +1,11 @@
+datatype	parent	condition	description	SQL type	HTML type
+text			any text	TEXT	textarea
+empty	text	equals('')	the empty string	NULL	
+line	text	exclude(/\\\\\\\n/)	one line of text		text
+label	line	match(/[^\s]+.+[^\s]/)	text that does not begin or end with whitespace		
+word	label	match(/\w+/)	a single word: letters, numbers, underscore		
+ID	label	match(/\S+/)	an identifier: IRI, CURIE, blank node, or keyword		
+non_negative_integer	word	match(/\d+/)	an non-negative integer	INTEGER	
+table_type	word	in('table', 'column', 'datatype')	a VALVE table type		search
+sql_type	word	in('NULL', 'TEXT', 'INT')	a SQL type		search
+html_type	word	in('text', 'textarea', 'search', 'radio', 'number', 'select')	an HTML form type		search

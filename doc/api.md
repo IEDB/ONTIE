@@ -1,230 +1,66 @@
----
-title: IEDB SoT API
----
-
 # API
 
-The IEDB SoT is designed to be used by both humans and software. For humans, we provide HTML pages connected by hyperlinks. For machines, we provide a consistent API to access data in several machine-readable formats.
+The IEDB SoT is designed to be used by both humans and software. For humans, we provide HTML pages connected by hyperlinks. For machines, we provide a consistent API to access data in machine-readable formats.
 
+SoT provides access to the ONTIE application ontology and a number of other resources used by ONTIE and IEDB. You can browse the resources, fetch them with the REST API described below, or download them as OWL files or TSV.
 
-## ONTIE and Other Resources
+Individual terms can be accessed at their term IRI, for example [https://ontology.iedb.org/ontology/ONTIE_0000001](/ontology/ONTIE_0000001). An HTTP GET request to the term IRI will return HTML or JSON-LD representations.
 
-SoT provides access to the ONTIE application ontology and a number of other resources used by ONTIE and IEDB, including the NCBI Taxonomy, Chemical Entities of Biological Interest, the MHC Restriction Ontology, and more. The full list of resources (including ONTIE) is available at [https://ontology.iedb.org/resources](/resources). You can query for a specific resource or across all resources.
+## JSON-LD
 
-- ONTIE: [https://ontology.iedb.org/resources/ONTIE](/resources/ONTIE)
-- NCBI Taxonomy: [https://ontology.iedb.org/resources/NCBITaxonomy](/resources/NCBITaxonomy)
-- all resources: [https://ontology.iedb.org/resources/all](/resources/all)
-- ONTIE (alternative): [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE)
+The [JSON Linked Data](https://json-ld.org) representation of a single term is a standard JSON object with a few special conventions. For example, [https://ontology.iedb.org/ontology/ONTIE_0000001.json](/ontology/ONTIE_0000001.json) returns this result:
 
-
-## Individual ONTIE Terms
-
-Individual ONTIE terms can be accessed at their term IRI, for example [https://ontology.iedb.org/ontology/ONTIE_0000001](/ontology/ONTIE_0000001). An HTTP GET request to the term IRI will return an HTML document with embedded [RDFa](https://rdfa.info) data. Alternative representations are available in [Turtle](https://www.w3.org/TeamSubmission/turtle/), [JSON-LD](https://json-ld.org), and TSV formats.
-
-
-### JSON-LD
-
-The JSON Linked Data representation of a single term is a standard JSON object with a few special conventions:
-
-- the `@context` helps map values to an RDF representation, but can be ignored for many use cases
-- `@id` keys are used for CURIE values
-- `iri` keys are used for full IRI values
-- `label` keys are used for the human-readable label associated with an IRI
-- `@value` keys provide the string representations of RDF literals
-
-<!-- GET TEST -->
-In order to capture RDF semantics, IRIs and literal values are represented as objects, using arrays when multiple values are given. For example, [https://ontology.iedb.org/ontology/ONTIE_0000001.json](/ontology/ONTIE_0000001.json) includes the following:
-
-```
-{"label": {"@value":"Mus musculus BALB/c"},
- "alternative term": {"@value": "balb"},
- "subclass of": {
-    "@id": "NCBITaxon:10090",
-    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
-    "label": "Mus musculus"}}
-```
-<!-- END GET TEST -->
-
-### Tab-Separated Values
-<!-- GET TEST -->
-A table of tab-separated values about a term can also be requested. By default, five columns of data are provided, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv](/ontology/ONTIE_0000001.tsv):
-
-```
-IRI	label	recognized	obsolete	replacement
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
-```
-<!-- END GET TEST -->
-<!-- GET TEST -->
-If the query parameter `show-headers` is `false`, then the header row is omitted, for example [https://ontology.iedb.org/ontology/ONTIE_0000001.tsv?show-headers=false](/ontology/ONTIE_0000001.tsv?show-headers=false):
-
-```
-https://ontology.iedb.org/ontology/ONTIE_0000001	Mus musculus BALB/c	true		
-```
-<!-- END GET TEST -->
-<!-- GET TEST -->
-The `select` query parameter controls the columns that are returned. Provide a comma-separated list of predicate labels, or one of the special values: `IRI`, `CURIE`, `recognized`. The order of predicates is respected in the returned data. For example, [https://ontology.iedb.org/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term](/ontology/ONTIE_0000008.tsv?select=CURIE,label,alternative%20term):
-
-```
-CURIE	label	alternative term
-ONTIE:0000008	Mus musculus 6.5 TCR Tg	14.3.d|SFERFEIFPKE-specific TCR Tg|Tg(Tcra/Tcrb)1Vbo
-```
-<!-- END GET TEST -->
-Multiple values, such as multiple `alternative term` values, are separated by a single pipe character (`|`).
-<!-- GET TEST -->
-When `compact=true` is set, values will be returned as CURIEs instead of IRIs, for example [https://ontology.iedb.org/ontology/ONTIE_0002059.tsv?select=CURIE,replacement&compact=true](/ontology/ONTIE_0002059.tsv?select=CURIE,replacement&compact=true):
-
-```
-CURIE	replacement
-ONTIE:0002059	ONTIE:0002053
-```
-<!-- END GET TEST -->
-<!-- GET TEST -->
-If the name of a predicate in a `select` is followed by `[IRI]`, `[CURIE]`, or `[label]`, then the system will attempt to return values for the column in the format. For example: [https://ontology.iedb.org/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20\[CURIE\],replacement%20\[label\]](/ontology/ONTIE_0002059.tsv?select=CURIE,replacement%20[CURIE],replacement%20[label]):
-
-```
-CURIE	replacement [CURIE]	replacement [label]
-ONTIE:0002059	ONTIE:0002053	Large structural phosphoprotein (Human betaherpesvirus 5)
-```
-<!-- END GET TEST -->
-
-## Individual Subjects
-
-You can query for individual subjects within a resource or across all resources using the subject CURIE or IRI. Special characters in IRIs should be escaped:
-
-- [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001](/resources/ONTIE/subject?curie=ONTIE:0000001)
-- [https://ontology.iedb.org/resources/all/subject?curie=ONTIE:0000001](/resources/all/subject?curie=ONTIE:0000001)
-- [https://ontology.iedb.org/resources/ONTIE/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001](/resources/ONTIE/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001)
-- [https://ontology.iedb.org/resources/all/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001](/resources/all/subject?iri=https%3A%2F%2Fontology.iedb.org%2Fontology%2FONTIE_0000001)
-
-Subject pages are also available in other formats:
-
-- Turtle [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=ttl](/resources/ONTIE/subject?curie=ONTIE:0000001&format=ttl)
-- JSON-LD [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=json](/resources/ONTIE/subject?curie=ONTIE:0000001&format=json)
-- TSV [https://ontology.iedb.org/resources/ONTIE/subject?curie=ONTIE:0000001&format=tsv](/resources/ONTIE/subject?curie=ONTIE:0000001&format=tsv)
-
-
-## Predicates
-
-You can get the list of all predicates used within a resource or across all resources:
-
-- [https://ontology.iedb.org/resources/ONTIE/predicates](/resources/ONTIE/predicates)
-- [https://ontology.iedb.org/resources/all/predicates](/resources/all/predicates)
-
-
-## Multiple Subjects
-
-You can also query for multiple subjects within a resource or across resources:
-
-- [https://ontology.iedb.org/resources/ONTIE/subjects](/resources/ONTIE/subjects)
-- [https://ontology.iedb.org/resources/all/subjects](/resources/all/subjects)
-
-The HTML form lets you build a query and return results in HTML or TSV formats. The query is controlled by the query parameters in the URL.
-
-- `format` can be `html` (default) or `tsv`
-- `select` a comma-separated list of predicates to be used as columns in the resulting table; the default is `IRI,label,obsolete,replacement`
-- `limit` the number of results to return, defaults to 100, maximum 10000
-- `offset` the index of the first result to return
-- `show-headers` when `false`, headers will not be included in TSV output
-- `compact` when `true` CURIEs will be used instead of IRIs whenever possible
-
-You can specify a constraint on the query as the combination of a predicate, an operator, and an object. The predicate should be a label such as `type` or `alternative term`. The operator should be one of:
-
-- `eq.` for string equality of the object literal
-- `like.` for wildcard matching to the literal object, where `*` is the wildcard characters
-- `iri.eq.` for string equality of the object IRI
-- `iri.like.` for wildcard matching to the object IRI
-
-The object is the value to match. For example, to match any `rdfs:label` starting with 'Mus' the query parameter would be `label=like.Mus*`: [https://ontology.iedb.org/resources/ONTIE/subjects?label=like.Mus*](/resources/ONTIE/subjects?label=like.Mus*)
-
-The `IRI` and `CURIE` query parameters are used to specify exactly which subjects to search for. A row is returned for each requested subject, in order, whether or not the requested subject is found in the resource. This is useful for checking term status. Use the `in.(*)` operator, like so: [https://ontology.iedb.org/resources/ONTIE/subjects?CURIE=in.(ONTIE:0000001,ONTIE:0000002)](/resources/ONTIE/subjects?CURIE=in.%28ONTIE:0000001,ONTIE:0000002%29). Also see "POST instead of GET" below.
-
-
-## POST instead of GET
-<!-- POST TEST -->
-When requesting a large number of terms, you can use HTTP POST instead of HTTP GET, and provide a list of the requested CURIEs or IRIs in the body of the request. For this to work, you MUST include `method=GET` in the query string. For example, POSTing to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
-
-```
-CURIE
-ONTIE:0000001
-ONTIE:0000002
+```json
+{
+  "@context": {
+    "IAO": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_",
+      "@prefix": true
+    },
+    "NCBITaxon": {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_",
+      "@prefix": true
+    },
+    "ONTIE": {
+      "@id": "https://ontology.iedb.org/ontology/ONTIE_",
+      "@prefix": true
+    },
+    "ncbi": {
+      "@id": "http://purl.obolibrary.org/obo/ncbitaxon#",
+      "@prefix": true
+    },
+    "owl": {
+      "@id": "http://www.w3.org/2002/07/owl#",
+      "@prefix": true
+    },
+    "rdf": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@prefix": true
+    },
+    "rdfs": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#",
+      "@prefix": true
+    },
+    "rdf:type": {
+      "@type": "@id"
+    },
+    "rdfs:subClassOf": {
+      "@type": "@id"
+    }
+  },
+  "@id": "ONTIE:0000001",
+  "ONTIE:0003259": "taxon",
+  "rdfs:label": "Mus musculus BALB/c",
+  "ncbi:has_rank": {
+    "@id": "NCBITaxon:subspecies"
+  },
+  "IAO:0000234": "IEDB",
+  "IAO:0000118": "balb",
+  "rdfs:subClassOf": "NCBITaxon:10090",
+  "rdf:type": "owl:Class"
+}
 ```
 
-will return a table:
+## Tables
 
-```
-CURIE	label	recognized	obsolete	replacement
-ONTIE:0000001	Mus musculus BALB/c	true		
-ONTIE:0000002	Mus musculus BALB/c A2/Kb Tg	true		
-```
-<!-- END POST TEST -->
-The body of the POST request is a list of CURIEs or IRIs. The first row should be `CURIE` or `IRI`. The HTTP `Content-Type` should be `text/plain` or `text/tab-separated-values`, not `application/x-www-form-urlencoded` which is the default for some tools.
-
-
-## Example: Term Status
-<!-- POST TEST -->
-When requesting a TSV table, the default columns provide a summary of each term's status. For example, POST to [https://ontology.iedb.org/resources/all/subjects?method=GET&format=tsv](/resources/all/subjects?method=GET&format=tsv) with this body:
-
-```
-CURIE
-ONTIE:0000001
-NCBITaxon:10090
-NCBITaxon:12
-NCBITaxon:3
-NCBITaxon:0
-```
-
-The response will be a table of tab-separated values with four columns and a row for each submitted IRI. The columns are:
-
-1. IRI or CURIE (corresponding to the request)
-2. label
-3. recognized: true if the term is available anywhere in SoT, false otherwise
-4. obsolete: true if the term is obsolete, blank or false if the term is not obsolete
-5. replacement: if the term is recognized and obsolete and has been replaced by another term, this column will contain the replacement term IRI; otherwise it will be blank
-
-For example (contains tab characters):
-
-```
-CURIE	label	recognized	obsolete	replacement
-ONTIE:0000001	Mus musculus BALB/c	true		
-NCBITaxon:10090	Mus musculus|mouse	true		
-NCBITaxon:12	obsolete taxon 12	true	true	http://purl.obolibrary.org/obo/NCBITaxon_74109
-NCBITaxon:3	obsolete taxon 3	true	true	
-NCBITaxon:0		false		
-```
-<!-- END POST TEST -->
-
-## Term Submission
-
-SoT can accept new term submissions from authorized developers. The system current works via a REST API. An HTML form is in development.
-
-Terms can be submitted to [https://ontology.iedb.org/ontology/ONTIE](/ontology/ONTIE) using HTTP `PUT` request. You must include an `X-API-Key` HTTP header containing a valid developer API key. The body of the request must be a valid [Knotation](http://knotation.org) block. It should not include a subject -- if the request is valid then a new subject IRI will be assigned. Ideally the new term should use a previously defined template. The [ontie.kn](https://github.com/IEDB/ONTIE/blob/master/ontology/ontie.kn) source file contains a number of examples.
-
-
-#### Example: New Taxon
-
-```
-apply template: taxon class
- label: Mus musculus BALB/c
- parent taxon: Mus musculus
-alternative term: balb
-rank: subspecies
-```
-
-#### Example: New Protein
-
-```
-apply template: protein class
- label: Polymerase acidic protein
- taxon: Influenza A virus
-alternative term: RNA-directed RNA polymerase subunit P2
-alternative term: PA
-```
-
-#### Example: No Template
-
-```
-type: owl:Class
-label: occurrence of disease
-definition: The process in which a disease unfolds.
-subclass of: biological process
-```
+You can also view and search the resources as tables, using [LDTab](https://github.com/ontodev/ldtab) format. Pages can be downloaded in TSV, CSV, and JSON formats.

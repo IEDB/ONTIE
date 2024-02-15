@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>IEDB SoT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- TODO: Verify that all of these style elements are really needed -->
+  <style>
+    a:link,
+    a:visited {
+      text-decoration: none !important;
+    }
+
+    span.twitter-typeahead .tt-menu {
+      cursor: pointer;
+    }
+
+    .dropdown-menu,
+    span.twitter-typeahead .tt-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      font-size: 1rem;
+      color: #373a3c;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 0.25rem;
+    }
+
+    span.twitter-typeahead .tt-suggestion {
+      display: block;
+      width: 100%;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: 1.5;
+      color: #373a3c;
+      text-align: inherit;
+      white-space: nowrap;
+      background: none;
+      border: 0;
+    }
+
+    span.twitter-typeahead .tt-suggestion:focus,
+    .dropdown-item:hover,
+    span.twitter-typeahead .tt-suggestion:hover {
+      color: #2b2d2f;
+      text-decoration: none;
+      background-color: #f5f5f5;
+    }
+
+    span.twitter-typeahead .active.tt-suggestion,
+    span.twitter-typeahead .tt-suggestion.tt-cursor,
+    span.twitter-typeahead .active.tt-suggestion:focus,
+    span.twitter-typeahead .tt-suggestion.tt-cursor:focus,
+    span.twitter-typeahead .active.tt-suggestion:hover,
+    span.twitter-typeahead .tt-suggestion.tt-cursor:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #0275d8;
+      outline: 0;
+    }
+
+    span.twitter-typeahead .disabled.tt-suggestion,
+    span.twitter-typeahead .disabled.tt-suggestion:focus,
+    span.twitter-typeahead .disabled.tt-suggestion:hover {
+      color: #818a91;
+    }
+
+    span.twitter-typeahead .disabled.tt-suggestion:focus,
+    span.twitter-typeahead .disabled.tt-suggestion:hover {
+      text-decoration: none;
+      cursor: not-allowed;
+      background-color: transparent;
+      background-image: none;
+      filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)";
+    }
+
+    span.twitter-typeahead {
+      width: 100%;
+    }
+
+    .input-group span.twitter-typeahead {
+      display: block !important;
+    }
+
+    .input-group span.twitter-typeahead .tt-menu {
+      top: 2.375rem !important;
+    }
+
+    pre {
+      line-height: 125%;
+    }
+
+    td.linenos .normal {
+      color: inherit;
+      background-color: transparent;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    span.linenos {
+      color: inherit;
+      background-color: transparent;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    td.linenos .special {
+      color: #000000;
+      background-color: #ffffc0;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    span.linenos.special {
+      color: #000000;
+      background-color: #ffffc0;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .codehilite .hll {
+      background-color: #ffffcc
+    }
+
+    .codehilite {
+      background: #f8f8f8;
+    }
+
+    .codehilite .c {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment */
+    .codehilite .err {
+      border: 1px solid #FF0000
+    }
+
+    /* Error */
+    .codehilite .k {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Keyword */
+    .codehilite .o {
+      color: #666666
+    }
+
+    /* Operator */
+    .codehilite .ch {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment.Hashbang */
+    .codehilite .cm {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment.Multiline */
+    .codehilite .cp {
+      color: #9C6500
+    }
+
+    /* Comment.Preproc */
+    .codehilite .cpf {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment.PreprocFile */
+    .codehilite .c1 {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment.Single */
+    .codehilite .cs {
+      color: #3D7B7B;
+      font-style: italic
+    }
+
+    /* Comment.Special */
+    .codehilite .gd {
+      color: #A00000
+    }
+
+    /* Generic.Deleted */
+    .codehilite .ge {
+      font-style: italic
+    }
+
+    /* Generic.Emph */
+    .codehilite .ges {
+      font-weight: bold;
+      font-style: italic
+    }
+
+    /* Generic.EmphStrong */
+    .codehilite .gr {
+      color: #E40000
+    }
+
+    /* Generic.Error */
+    .codehilite .gh {
+      color: #000080;
+      font-weight: bold
+    }
+
+    /* Generic.Heading */
+    .codehilite .gi {
+      color: #008400
+    }
+
+    /* Generic.Inserted */
+    .codehilite .go {
+      color: #717171
+    }
+
+    /* Generic.Output */
+    .codehilite .gp {
+      color: #000080;
+      font-weight: bold
+    }
+
+    /* Generic.Prompt */
+    .codehilite .gs {
+      font-weight: bold
+    }
+
+    /* Generic.Strong */
+    .codehilite .gu {
+      color: #800080;
+      font-weight: bold
+    }
+
+    /* Generic.Subheading */
+    .codehilite .gt {
+      color: #0044DD
+    }
+
+    /* Generic.Traceback */
+    .codehilite .kc {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Keyword.Constant */
+    .codehilite .kd {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Keyword.Declaration */
+    .codehilite .kn {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Keyword.Namespace */
+    .codehilite .kp {
+      color: #008000
+    }
+
+    /* Keyword.Pseudo */
+    .codehilite .kr {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Keyword.Reserved */
+    .codehilite .kt {
+      color: #B00040
+    }
+
+    /* Keyword.Type */
+    .codehilite .m {
+      color: #666666
+    }
+
+    /* Literal.Number */
+    .codehilite .s {
+      color: #BA2121
+    }
+
+    /* Literal.String */
+    .codehilite .na {
+      color: #687822
+    }
+
+    /* Name.Attribute */
+    .codehilite .nb {
+      color: #008000
+    }
+
+    /* Name.Builtin */
+    .codehilite .nc {
+      color: #0000FF;
+      font-weight: bold
+    }
+
+    /* Name.Class */
+    .codehilite .no {
+      color: #880000
+    }
+
+    /* Name.Constant */
+    .codehilite .nd {
+      color: #AA22FF
+    }
+
+    /* Name.Decorator */
+    .codehilite .ni {
+      color: #717171;
+      font-weight: bold
+    }
+
+    /* Name.Entity */
+    .codehilite .ne {
+      color: #CB3F38;
+      font-weight: bold
+    }
+
+    /* Name.Exception */
+    .codehilite .nf {
+      color: #0000FF
+    }
+
+    /* Name.Function */
+    .codehilite .nl {
+      color: #767600
+    }
+
+    /* Name.Label */
+    .codehilite .nn {
+      color: #0000FF;
+      font-weight: bold
+    }
+
+    /* Name.Namespace */
+    .codehilite .nt {
+      color: #008000;
+      font-weight: bold
+    }
+
+    /* Name.Tag */
+    .codehilite .nv {
+      color: #19177C
+    }
+
+    /* Name.Variable */
+    .codehilite .ow {
+      color: #AA22FF;
+      font-weight: bold
+    }
+
+    /* Operator.Word */
+    .codehilite .w {
+      color: #bbbbbb
+    }
+
+    /* Text.Whitespace */
+    .codehilite .mb {
+      color: #666666
+    }
+
+    /* Literal.Number.Bin */
+    .codehilite .mf {
+      color: #666666
+    }
+
+    /* Literal.Number.Float */
+    .codehilite .mh {
+      color: #666666
+    }
+
+    /* Literal.Number.Hex */
+    .codehilite .mi {
+      color: #666666
+    }
+
+    /* Literal.Number.Integer */
+    .codehilite .mo {
+      color: #666666
+    }
+
+    /* Literal.Number.Oct */
+    .codehilite .sa {
+      color: #BA2121
+    }
+
+    /* Literal.String.Affix */
+    .codehilite .sb {
+      color: #BA2121
+    }
+
+    /* Literal.String.Backtick */
+    .codehilite .sc {
+      color: #BA2121
+    }
+
+    /* Literal.String.Char */
+    .codehilite .dl {
+      color: #BA2121
+    }
+
+    /* Literal.String.Delimiter */
+    .codehilite .sd {
+      color: #BA2121;
+      font-style: italic
+    }
+
+    /* Literal.String.Doc */
+    .codehilite .s2 {
+      color: #BA2121
+    }
+
+    /* Literal.String.Double */
+    .codehilite .se {
+      color: #AA5D1F;
+      font-weight: bold
+    }
+
+    /* Literal.String.Escape */
+    .codehilite .sh {
+      color: #BA2121
+    }
+
+    /* Literal.String.Heredoc */
+    .codehilite .si {
+      color: #A45A77;
+      font-weight: bold
+    }
+
+    /* Literal.String.Interpol */
+    .codehilite .sx {
+      color: #008000
+    }
+
+    /* Literal.String.Other */
+    .codehilite .sr {
+      color: #A45A77
+    }
+
+    /* Literal.String.Regex */
+    .codehilite .s1 {
+      color: #BA2121
+    }
+
+    /* Literal.String.Single */
+    .codehilite .ss {
+      color: #19177C
+    }
+
+    /* Literal.String.Symbol */
+    .codehilite .bp {
+      color: #008000
+    }
+
+    /* Name.Builtin.Pseudo */
+    .codehilite .fm {
+      color: #0000FF
+    }
+
+    /* Name.Function.Magic */
+    .codehilite .vc {
+      color: #19177C
+    }
+
+    /* Name.Variable.Class */
+    .codehilite .vg {
+      color: #19177C
+    }
+
+    /* Name.Variable.Global */
+    .codehilite .vi {
+      color: #19177C
+    }
+
+    /* Name.Variable.Instance */
+    .codehilite .vm {
+      color: #19177C
+    }
+
+    /* Name.Variable.Magic */
+    .codehilite .il {
+      color: #666666
+    }
+
+    /* Literal.Number.Integer.Long */
+  </style>
+  {% block head_end %}{% endblock %}
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">IEDB SoT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/ontology/owl:Class">Ontology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/documentation">Documentation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="content" class="container-fluid">
+    {% block content %}{% endblock %}
+  </div>
+  {% block script_start %}{% endblock %}
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script type="application/javascript">
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js">
+    </script>
+  <script>
+
+    // Replace GMT dates with local dates, and replace GMT dates with friendly time
+    // period. We declare a function since we will need to use it again later during
+    // auto-refresh:
+    function friendlifyMoments() {
+      $('.date').each(function () {
+        $(this).text(moment($(this).text()).format('YYYY-MM-DD hh:mm:ss'));
+      });
+      $('.since').each(function () {
+        $(this).text(moment($(this).text()).fromNow());
+      });
+    }
+    friendlifyMoments();
+
+    function configure_typeahead_form(node, table) {
+      if (!node.id || !node.id.endsWith("-typeahead-form")) {
+        return;
+      }
+      var col = node.id.split("-")[0];
+      // alert(`{{ page.root|safe }}${table}?text=%QUERY&column=${col}&format=json`);
+      var bloodhound = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.nonword('label'),
+        queryTokenizer: Bloodhound.tokenizers.nonword,
+        sorter: function (a, b) {
+          return a.order - b.order;
+        },
+        remote: {
+          url: `{{ page.root|safe }}${table}/owl:Class?text=%QUERY&column=${col}&format=json`,
+          wildcard: '%QUERY',
+          transform: function (response) {
+            // console.log("RES", response);
+            return bloodhound.sorter(response);
+          }
+        }
+      });
+      url = `{{ page.root|safe }}${table}/owl:Class?text=%QUERY&column=${col}&format=json`
+      $(node).typeahead({
+        minLength: 0,
+        hint: false,
+        highlight: true
+      }, {
+        name: `${table}`,
+        source: bloodhound,
+        display: function (item) {
+          return item.label;
+        },
+        limit: 40
+      });
+      $(node).bind('click', function (e) {
+        $(node).select();
+      });
+      var cls = node.className;
+      if (cls.includes("is-invalid")) {
+        var parent = node.parentElement;
+        var parentCls = parent.className;
+        parent.className = parentCls + " is-invalid";
+      }
+    }
+
+    {% if table_name %}
+    $('.typeahead').each(function () {configure_typeahead_form(this, "{{ table_name }}");});
+    $('#tree-typeahead-form').bind('typeahead:selected', function (evt, item) {
+      window.location = `{{ page.root|safe }}{{ table_name }}/${item.id}`;
+    })
+    {% elif table.table %}
+    $('.typeahead').each(function () {configure_typeahead_form(this, "{{ table.table }}");});
+    $('#tree-typeahead-form').bind('typeahead:selected', function (evt, item) {
+      window.location = `{{ page.root|safe }}{{ table.table }}/${item.id}`;
+    })
+    {% endif %}
+
+    {% if subject %}
+    $('[resource="{{ subject }}"]').css('font-weight', 'bold');
+    {% endif %}
+  </script>
+  {% block body_end %}{% endblock %}
+</body>
+
+</html>

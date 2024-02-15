@@ -1,0 +1,44 @@
+{% extends "page.html" %}
+{% block content %}
+
+<div class="row pt-4">
+  <div class="col-md-auto">
+    <span class="h2">{{ table_name }}</span>
+    <a href="/{{ table_name }}">View as table</a>
+  </div>
+  <div class="col mt-1">
+    <form class="form">
+      <input id="tree-typeahead-form" class="search typeahead w-100" type="input" placeholder="Search..." />
+    </form>
+  </div>
+</div>
+
+<div class="row" style="padding-bottom:5px; padding-top:20px;">
+  <div class="col">
+    <h3>{{ subject }}</h3>
+  </div>
+  <div class="col">
+    <span>
+      <a class="btn btn-outline-secondary dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">
+        Format
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../{{ table_name }}?subject=eq.&quot;{{ subject }}&quot;">Table</a></li>
+        {% for name, href in formats|items %}
+        <li><a class="dropdown-item" href="{{ href }}">{{ name }}</a></li>
+        {% endfor %}
+      </ul>
+    </span>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    {{ tree|safe }}
+  </div>
+  <div class="col">
+    {{ predicate_map|safe }}
+  </div>
+</div>
+
+{% endblock %}

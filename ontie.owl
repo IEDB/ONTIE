@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2023-01-26/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2024-10-01/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -130,10 +130,26 @@
     
 
 
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclass of</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -431,7 +447,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0014667">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involving errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that involving errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of metabolism</rdfs:label>
     </owl:Class>
     
@@ -441,7 +457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of eyes, ear, nose and throat that is located_in the uvea.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of eyes, ear, nose and throat that is located_in the uvea.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune uveitis</rdfs:label>
     </owl:Class>
     
@@ -451,7 +467,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of cardiovascular system that is characterized by deterioration of the function of the heart muscle.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by deterioration of the function of the heart muscle.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune cardiomyopathy</rdfs:label>
     </owl:Class>
     
@@ -461,7 +477,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that is the consequence of the presence of pathogenic microbial agents, including pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and aberrant proteins known as prions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that is the consequence of the presence of pathogenic microbial agents, including pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and aberrant proteins known as prions.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectious disease</rdfs:label>
     </owl:Class>
     
@@ -471,7 +487,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of central nervous system caused by an autoimmune response.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of central nervous system caused by an autoimmune response.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune neuropathy</rdfs:label>
     </owl:Class>
     
@@ -481,7 +497,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inner ear disease that is characterized by hearing loss resulting from damage to the cochlea, auditory nerve and/or brainstem.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An inner ear disease that is characterized by hearing loss resulting from damage to the cochlea, auditory nerve and/or brainstem.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensorineural hearing loss</rdfs:label>
     </owl:Class>
     
@@ -491,7 +507,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</rdfs:label>
     </owl:Class>
     
@@ -501,7 +517,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10974">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian disease that is characterized by inflammation of the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An ovarian disease that is characterized by inflammation of the ovary.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oophoritis</rdfs:label>
     </owl:Class>
     
@@ -511,7 +527,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immune system disease that is an exaggerated immune response to allergens, such as insect venom, dust mites, pollen, pet dander, drugs or some foods.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immune system disease that is an exaggerated immune response to allergens, such as insect venom, dust mites, pollen, pet dander, drugs or some foods.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergic disease</rdfs:label>
     </owl:Class>
     
@@ -522,7 +538,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of endocrine system that involves production of excessive amount of thyroid hormones, located_in thyroid gland.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of endocrine system that involves production of excessive amount of thyroid hormones, located_in thyroid gland.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graves disease</rdfs:label>
     </owl:Class>
     
@@ -532,7 +548,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14566">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that is characterized by abnormally rapid cell division.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that is characterized by abnormally rapid cell division.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
     </owl:Class>
     
@@ -542,7 +558,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1459">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thyroid gland disease which involves an underproduction of thyroid hormone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A thyroid gland disease which involves an underproduction of thyroid hormone.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypothyroidism</rdfs:label>
     </owl:Class>
     
@@ -561,7 +577,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_15">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that is located_in reproductive system organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in reproductive system organs.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive system disease</rdfs:label>
     </owl:Class>
     
@@ -571,7 +587,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_150">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of mental health</rdfs:label>
     </owl:Class>
     
@@ -581,7 +597,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1612">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thoracic cancer that originates in the mammary gland.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organ system cancer that originates in the mammary gland.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer</rdfs:label>
     </owl:Class>
     
@@ -591,7 +607,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
     </owl:Class>
     
@@ -601,7 +617,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_17">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that occurs in the muscular and/or skeletal system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that occurs in the muscular and/or skeletal system.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculoskeletal system disease</rdfs:label>
     </owl:Class>
     
@@ -611,7 +627,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1909">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from melanocytes which are found in skin, the bowel and the eye.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from melanocytes which are found in skin, the bowel and the eye.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma</rdfs:label>
     </owl:Class>
     
@@ -621,7 +637,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colorectal cancer that is located_in the colon.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A colorectal cancer that is located_in the colon.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon cancer</rdfs:label>
     </owl:Class>
     
@@ -631,7 +647,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_225">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease characterized by a group of signs and symptoms that occur together and characterize a particular abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease characterized by a group of signs and symptoms that occur together and characterize a particular abnormality.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syndrome</rdfs:label>
     </owl:Class>
     
@@ -641,7 +657,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system disease that impairs the ability to reproduce and is located in the uterus, vagina, cervix, ovaries or fallopian tubes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A reproductive system disease that impairs the ability to reproduce and is located in the uterus, vagina, cervix, ovaries or fallopian tubes.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female reproductive system disease</rdfs:label>
     </owl:Class>
     
@@ -651,7 +667,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A demyelinating disease that involves damage to the fatty myelin sheaths around the axons of the brain and spinal cord resulting in demyelination and scarring.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A demyelinating disease that involves damage to the fatty myelin sheaths around the axons of the brain and spinal cord resulting in demyelination and scarring.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple sclerosis</rdfs:label>
     </owl:Class>
     
@@ -661,7 +677,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_28">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine system disease</rdfs:label>
     </owl:Class>
     
@@ -671,7 +687,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A connective tissue cancer that has_material_basis_in fibrous connective tissue and characterized by the presence of immature proliferating fibroblasts or undifferentiated anaplastic spindle cells in a storiform pattern.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A connective tissue cancer that has_material_basis_in fibrous connective tissue and characterized by the presence of immature proliferating fibroblasts or undifferentiated anaplastic spindle cells in a storiform pattern.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibrosarcoma</rdfs:label>
     </owl:Class>
     
@@ -681,7 +697,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003543"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
     </owl:Class>
     
@@ -691,7 +707,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune disease</rdfs:label>
     </owl:Class>
     
@@ -702,7 +718,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_437">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of the nervous system that has_material_basis_in antibodies to acetylcholine receptors at the neuromuscular junction, has_symptom ptosis, has_symptom diplopia, has_symptom dysphagia, has_symptom dysarthria, has_symptom muscle weakness and has_symptom shortness of breath.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of the nervous system that has_material_basis_in antibodies to acetylcholine receptors at the neuromuscular junction, has_symptom ptosis, has_symptom diplopia, has_symptom dysphagia, has_symptom dysarthria, has_symptom muscle weakness and has_symptom shortness of breath.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myasthenia gravis</rdfs:label>
     </owl:Class>
     
@@ -712,7 +728,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_48">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system disease that affects male reproductive organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A reproductive system disease that affects male reproductive organs.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male reproductive system disease</rdfs:label>
     </owl:Class>
     
@@ -722,7 +738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_630">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that has_material_basis_in genetic variations in the human genome.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that has_material_basis_in genetic variations in the human genome.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</rdfs:label>
     </owl:Class>
     
@@ -732,7 +748,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalomyelitis characterized by inflammation located in brain and located in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An encephalomyelitis characterized by inflammation located in brain and located in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
     </owl:Class>
     
@@ -742,7 +758,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that manifests in a defined anatomical structure.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that manifests in a defined anatomical structure.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of anatomical entity</rdfs:label>
     </owl:Class>
     
@@ -753,7 +769,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of endocrine system that involves inflammation located_in thyroid gland caused by the immune system reacting against its own tissues.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of endocrine system that involves inflammation located_in thyroid gland caused by the immune system reacting against its own tissues.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune thyroiditis</rdfs:label>
     </owl:Class>
     
@@ -763,7 +779,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_77">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that is located_in the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the gastrointestinal tract.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal system disease</rdfs:label>
     </owl:Class>
     
@@ -773,7 +789,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_848">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone inflammation disease that involves a response to irritation or injury, characterized by joint pain, swelling, stiffness located_in joint.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A bone inflammation disease that involves a response to irritation or injury, characterized by joint pain, swelling, stiffness located_in joint.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthritis</rdfs:label>
     </owl:Class>
     
@@ -783,7 +799,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_863">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system disease</rdfs:label>
     </owl:Class>
     
@@ -793,7 +809,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bile duct disease that is an inflammation of the bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A bile duct disease that is an inflammation of the bile duct.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholangitis</rdfs:label>
     </owl:Class>
     
@@ -803,7 +819,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9808">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease that is characterized by antibody attack of the basement membrane in lungs and kidneys, leading to bleeding from the lungs and kidney failure.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease that is characterized by antibody attack of the basement membrane in lungs and kidneys, leading to bleeding from the lungs and kidney failure.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goodpasture syndrome</rdfs:label>
     </owl:Class>
     
@@ -831,9 +847,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</rdfs:label>
     </owl:Class>
     
@@ -843,7 +857,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A settings datum is a datum that denotes some configuration of an instrument.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setting datum</rdfs:label>
     </owl:Class>
     
@@ -6401,7 +6414,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000112>Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -61706,6 +61719,42 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one T cell and one monocyte.</obo:IAO_0000115>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMI-PB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell-monocyte complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003670 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_119210"/>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCC</obo:IAO_0000234>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza A virus (A/Perth/19/2009 (H3N2))</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon</ontology:ONTIE_0003259>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003671 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_119210"/>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCC</obo:IAO_0000234>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza A virus (A/Switzerland/9715293/2013(H3N2))</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon</ontology:ONTIE_0003259>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003672 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11520"/>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCC</obo:IAO_0000234>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza B virus (B/Phuket/3073/2013)</rdfs:label>
+        <ontology:ONTIE_0003259 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon</ontology:ONTIE_0003259>
     </owl:Class>
 </rdf:RDF>
 

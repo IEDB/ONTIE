@@ -3642,3 +3642,6 @@ ONTIE:0003666	T cell-B cell complex	owl:Class			CMI-PB
 ONTIE:0003667	monocyte-B cell complex	owl:Class			CMI-PB
 ONTIE:0003668	B cell-NK cell complex	owl:Class			CMI-PB
 ONTIE:0003669	T cell-monocyte complex	owl:Class			CMI-PB
+ONTIE:0003670	Influenza A virus (A/Perth/19/2009 (H3N2))	owl:Class			HCC
+ONTIE:0003671	Influenza A virus (A/Switzerland/9715293/2013(H3N2))	owl:Class			HCC
+ONTIE:0003672	Influenza B virus (B/Phuket/3073/2013)	owl:Class			HCC

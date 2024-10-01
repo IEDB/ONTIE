@@ -13,7 +13,7 @@
      xmlns:ontology="https://ontology.iedb.org/ontology/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://ontology.iedb.org/ontology/ontie.owl">
-        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2022-08-15/ontie.owl"/>
+        <owl:versionIRI rdf:resource="https://ontology.iedb.org/ontology/2023-01-26/ontie.owl"/>
         <dc:description>ONTIE is an application ontology for the IEDB Source of Truth that builds on reference resources including NCBI Taxonomy, MRO, OBI, UniProt, and GenPept.</dc:description>
         <dc:title>Ontology for Immune Epitopes</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -130,26 +130,10 @@
     
 
 
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclass of</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -61678,6 +61662,50 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay measuring the percent of NK cells expressing TNFa using a phagocytic score</obo:IAO_0000115>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoVIC-DB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADNKA % TNFa+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003666 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003666">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one T cell and one B cell.</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMI-PB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell-B cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003667 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003667">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one monocyte and one B cell.</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMI-PB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte-B cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003668 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003668">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one B cell and one NK cell.</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMI-PB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell-NK cell complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003669 -->
+
+    <owl:Class rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003669">
+        <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell-cell complex made up of at least one T cell and one monocyte.</obo:IAO_0000115>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMI-PB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell-monocyte complex</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

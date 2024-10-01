@@ -248,3 +248,70 @@ apply: build/report-problems.tsv build/template-problems.tsv build/valve-problem
 .PHONY: sort
 sort: src/ontology/templates/
 	src/scripts/sort-templates.py
+
+
+bin/:
+	mkdir $@
+
+# Install LDTab if not already present
+ifeq ($(shell command -v ldtab),)
+bin/ldtab.jar: | bin/
+	curl -L -o $@ 'https://github.com/ontodev/ldtab.clj/releases/download/v2023-12-21/ldtab.jar'
+bin/ldtab: bin/ldtab.jar
+	echo '#!/bin/sh' > $@
+	echo 'java -jar "$$(dirname $$0)/ldtab.jar" "$$@"' >> $@
+	chmod +x $@
+deps: bin/ldtab
+endif
+
+export PATH := $(shell pwd)/bin:$(PATH)
+
+build/ontology.owl: ontie.owl
+	cp $< $@
+
+build/%.owl: %.owl
+	cp $< $@
+
+build/%.tsv: build/%.owl src/schema/prefix.tsv | build/
+	$(eval DB := build/$(subst -,_,$*).db)
+	rm -f $@ $(DB)
+	ldtab init $(DB)
+	ldtab prefix $(DB) $(word 2,$^)
+	ldtab import $(DB) $<
+	ldtab export $(DB) $@
+	rm $(DB)
+
+.nanobot.db: src/schema/* build/ontology.tsv build/ontie.tsv build/disease-tree.tsv
+	rm -f $@
+	nanobot init
+
+build/%.built: .nanobot.db
+	$(eval TABLE := $(subst -,_,$*))
+	sqlite3 $< "CREATE INDEX IF NOT EXISTS idx_$(TABLE)_subject ON $(TABLE)(subject)"
+	sqlite3 $< "CREATE INDEX IF NOT EXISTS idx_$(TABLE)_predicate ON $(TABLE)(predicate)"
+	sqlite3 $< "CREATE INDEX IF NOT EXISTS idx_$(TABLE)_object ON $(TABLE)(object)"
+	sqlite3 $< "ANALYZE $(TABLE)"
+
+build/download/:
+	mkdir -p $@
+
+build/download/ontie.owl: ontie.owl | build/download/
+	cp $< $@
+
+build/download/disease-tree.owl: disease-tree.owl | build/download/
+	cp $< $@
+
+build/download/%.tsv: build/%.tsv | build/download/
+	cp $< $@
+
+.PHONY: downloads
+downloads: build/download/ontie.owl
+downloads: build/download/ontie.tsv
+downloads: build/download/disease-tree.owl
+downloads: build/download/disease-tree.tsv
+
+.PHONY: build-all
+build-all: build/ontology.built build/ontie.built build/disease-tree.built
+
+.PHONY: foo
+foo: build-all downloads

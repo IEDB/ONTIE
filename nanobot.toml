@@ -1,0 +1,9 @@
+[nanobot]
+config_version = 1
+port = 3000
+
+[logging]
+level = "DEBUG"
+
+[templates]
+path = "src/templates/"

@@ -38,6 +38,7 @@ ONTIE:0003631	IEDB assay synonym	owl:AnnotationProperty
 ONTIE:0003632	IEDB assay technique	owl:AnnotationProperty		
 ONTIE:0003633	IEDB assay units	owl:AnnotationProperty		
 ONTIE:0003634	IEDB tree view name	owl:AnnotationProperty		
+ONTIE:0003673	canonical protein	owl:AnnotationProperty		
 owl:deprecated	obsolete	owl:AnnotationProperty	xsd:boolean	zero or one
 rdf:type	type	owl:AnnotationProperty	link	one or more
 rdfs:label	label	owl:AnnotationProperty		one

@@ -362,6 +362,14 @@
     
 
 
+    <!-- https://ontology.iedb.org/ontology/ONTIE_0003673 -->
+
+    <owl:AnnotationProperty rdf:about="https://ontology.iedb.org/ontology/ONTIE_0003673">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canonical protein</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

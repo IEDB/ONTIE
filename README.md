@@ -2,7 +2,7 @@
 
 The Ontology of Immune Epitopes (ONTIE) is an effort to represent terms in the immunology domain in a formal ontology with the specific goal of representing experiments that identify and characterize immune epitopes.
 
-This is the developer repository for ONTIE. You can learn more about ONTIE through our [documentation](https://ontology.iedb.org/resources/ONTIE).
+This is the developer repository for ONTIE. You can learn more about ONTIE through our [documentation](https://ontology.iedb.org/documentation).
 
 # Editing
 

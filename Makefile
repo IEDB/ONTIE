@@ -292,26 +292,37 @@ build/%.built: .nanobot.db
 	sqlite3 $< "CREATE INDEX IF NOT EXISTS idx_$(TABLE)_object ON $(TABLE)(object)"
 	sqlite3 $< "ANALYZE $(TABLE)"
 
-build/download/:
+site/:
 	mkdir -p $@
 
-build/download/ontie.owl: ontie.owl | build/download/
+site/index.html: src/scripts/static.py | site/
+	python3 $<
+
+site/documentation.html.html: src/scripts/static.py doc/api.md | site/
+	python3 $<
+
+site/file/:
+	mkdir -p $@
+
+site/file/ontie.owl: ontie.owl | site/file/
 	cp $< $@
 
-build/download/disease-tree.owl: disease-tree.owl | build/download/
+site/file/disease-tree.owl: disease-tree.owl | site/file/
 	cp $< $@
 
-build/download/%.tsv: build/%.tsv | build/download/
+site/file/%.tsv: build/%.tsv | site/file/
 	cp $< $@
 
-.PHONY: downloads
-downloads: build/download/ontie.owl
-downloads: build/download/ontie.tsv
-downloads: build/download/disease-tree.owl
-downloads: build/download/disease-tree.tsv
+.PHONY: build-static
+build-static: site/index.html
+build-static: site/documentation.html
+build-static: site/file/ontie.owl
+build-static: site/file/ontie.tsv
+build-static: site/file/disease-tree.owl
+build-static: site/file/disease-tree.tsv
 
 .PHONY: build-all
 build-all: build/ontology.built build/ontie.built build/disease-tree.built
 
 .PHONY: foo
-foo: build-all downloads
+foo: build-all build-static

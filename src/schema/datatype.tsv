@@ -1,8 +1,10 @@
-datatype	parent	condition	description	SQL type	HTML type
+datatype	parent	condition	description	sql_type	html_type
 text			any text	TEXT	textarea
 empty	text	equals('')	the empty string	NULL	
 line	text	exclude(/\\\\\\\n/)	one line of text		text
+trimmed_line	line	match(/\S([^\n]*\S)*/)	a line of text that does not begin or end with whitespace		
 label	line	match(/[^\s]+.+[^\s]/)	text that does not begin or end with whitespace		
+nonspace	label	match(/\S+/)	non-space characters		
 word	label	match(/\w+/)	a single word: letters, numbers, underscore		
 ID	label	match(/\S+/)	an identifier: IRI, CURIE, blank node, or keyword		
 non_negative_integer	word	match(/\d+/)	an non-negative integer	INTEGER	

@@ -14,8 +14,8 @@ datatype	datatype			word	primary	the name of this datatype
 datatype	parent		empty	word	tree(datatype)	the parent datatype
 datatype	condition		empty	line		the method for testing the datatype
 datatype	description		empty	text		a description of this datatype
-datatype	SQL type		empty	sql_type		the SQLite type for representing this data
-datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data
+datatype	sql_type		empty	sql_type		the SQLite type for representing this data
+datatype	html_type		empty	html_type		the HTML type for viewing and editing this data
 prefix	prefix			word		
 prefix	base			ID		
 ontology	assertion			non_negative_integer		

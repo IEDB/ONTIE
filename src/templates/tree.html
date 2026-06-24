@@ -1,10 +1,138 @@
+{% set RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" %}
+{% set OWL_CLASS = "http://www.w3.org/2002/07/owl#Class" %}
+{% set OWL_RESTRICTION = "http://www.w3.org/2002/07/owl#Restriction" %}
+{% set OWL_INTERSECTION_OF = "http://www.w3.org/2002/07/owl#intersectionOf" %}
+{% set OWL_UNION_OF = "http://www.w3.org/2002/07/owl#unionOf" %}
+{% set OWL_ON_PROPERTY = "http://www.w3.org/2002/07/owl#onProperty" %}
+{% set OWL_SOME_VALUES_FROM = "http://www.w3.org/2002/07/owl#someValuesFrom" %}
+{% set OWL_ALL_VALUES_FROM = "http://www.w3.org/2002/07/owl#allValuesFrom" %}
+{% set OWL_HAS_SELF = "http://www.w3.org/2002/07/owl#hasSelf" %}
+{% set OWL_HAS_VALUE = "http://www.w3.org/2002/07/owl#hasValue" %}
+
+{%- macro href(id) -%}
+./{{graph["curies"][id]}}
+{%- endmacro -%}
+
+{%- macro link(id) -%}
+<a href="{{href(id)|safe}}">{{graph["labels"][id]}}</a>
+{%- endmacro -%}
+
+{%- macro render_literal(object) -%}
+<span class="literal">
+  <span class="value">{{object["@value"]}}</span>
+  {%- if "@language" in object -%}
+  <sup> @<span class="language">{{object["@language"]}}</span></sup>
+  {%- elif "@type" in object -%}
+  <sup> <span class="type">{{link(object["@type"])}}</span></sup>
+  {%- endif -%}
+</span>
+{%- endmacro -%}
+
+{% macro render_object(object) -%}
+{%- if object is string -%}
+TODO STRING: {{object}}
+{%- elif "@id" in object -%}
+{{link(object["@id"])}}
+{%- elif "@value" in object -%}
+{{render_literal(object)}}
+{%- elif "@list" in object -%}
+{%- for obj in object["@list"] -%}
+{{render_object(obj)}}
+{%- endfor %}
+{%- elif "@type" in object or RDF_TYPE in object -%}
+{{logic(object)}}
+{%- else -%}
+TODO OTHER: {{object|pprint|safe}}
+{%- endif -%}
+{%- if "@annotations" in object -%}
+<ul>
+  {%- for axiom in object["@annotations"] -%}
+  {%- for predicate in axiom -%}
+  {%- if predicate != RDF_TYPE -%}
+  <li>
+    {{link(predicate)}}
+    <ul>
+      {%- for obj in axiom[predicate] %}
+      <li>{{render_object(obj)}}</li>
+      {%- endfor %}
+    </ul>
+  </li>
+  {%- endif -%}
+  {%- endfor %}
+  {%- endfor %}
+</ul>
+{%- endif -%}
+{%- endmacro %}
+
+{% macro logic(object) -%}
+{%- with type = object["@type"][0] if "@type" in object else object[RDF_TYPE][0]["@id"] -%}
+{%- if type == OWL_RESTRICTION -%}
+{%- if OWL_ON_PROPERTY in object %}
+{{render_object(object[OWL_ON_PROPERTY][0])}}
+{%- endif -%}
+{%- if OWL_SOME_VALUES_FROM in object %}
+some {{render_object(object[OWL_SOME_VALUES_FROM][0])}}
+{%- elif OWL_ALL_VALUES_FROM in object %}
+only {{render_object(object[OWL_ALL_VALUES_FROM][0])}}
+{%- elif OWL_HAS_VALUE in object %}
+value {{render_object(object[OWL_HAS_VALUE][0])}}
+{%- elif OWL_HAS_SELF in object and object[OWL_HAS_SELF][0]["@value"] == "true" %}
+self
+{% else -%}
+UNKNOWN RESTRICTION {{object|pprint|safe}}
+{%- endif -%}
+{%- elif type == OWL_CLASS -%}
+{%- if OWL_INTERSECTION_OF in object %}
+({%- for item in object[OWL_INTERSECTION_OF][0]["@list"] -%}
+{{render_object(item)}}{{ ' and ' if not loop.last }}
+{%- endfor -%})
+{%- elif OWL_UNION_OF in object %}
+({%- for item in object[OWL_UNION_OF][0]["@list"] -%}
+{{render_object(item)}}{{ ' or ' if not loop.last }}
+{%- endfor -%})
+{%- else -%}
+UNKNOWN CLASS {{object|pprint|safe}}
+{%- endif -%}
+{%- else -%}
+UNKNOWN LOGIC {{object|pprint|safe}}
+{%- endif -%}
+{%- endwith -%}
+{%- endmacro %}
+
+{% macro render_node(iri, children) -%}
+<li>
+  <a href="{{href(iri)|safe}}">
+    {%- if iri in graph["deprecated"] -%}
+    <del>{{graph["labels"][iri]}}</del>
+    {%- else -%}
+    {{graph["labels"][iri]}}
+    {%- endif -%}
+  </a>
+  {%- for child_iri, grandchildren in children|items %}
+  <ul>
+    {{render_node(child_iri, grandchildren)}}
+  </ul>
+  {%- endfor -%}
+</li>
+{%- endmacro %}
+
+{% set id = graph["@id"] %}
+
+{% set first_preds = [
+"http://www.w3.org/2000/01/rdf-schema#label"
+] %}
+{% set last_preds = [
+"http://www.w3.org/2002/07/owl#equivalentClass",
+"http://www.w3.org/2000/01/rdf-schema#subClassOf"
+] %}
+{% set middle_preds = graph["predicates"] | reject("in", first_preds) | reject("in", last_preds) %}
+{% set predicates = first_preds | chain(middle_preds) | chain(last_preds) %}
+
 {% extends "page.html" %}
 {% block content %}
-
 <div class="row pt-4">
   <div class="col-md-auto">
-    <span class="h2">{{ table_name }}</span>
-    <a href="/{{ table_name }}">View as table</a>
+    <span class="h2">{{ graph_name }}</span>
   </div>
   <div class="col mt-1">
     <form class="form">
@@ -15,7 +143,9 @@
 
 <div class="row" style="padding-bottom:5px; padding-top:20px;">
   <div class="col">
-    <h3>{{ subject }}</h3>
+    <h3>{{ graph["labels"][id] }}</h3>
+    <h5>{{ graph["curies"][id] }}</h5>
+    <p><a href="{{id}}" target="_new">{{id}} <i class="bi bi-box-arrow-up-right"></i></a></p>
   </div>
   <div class="col">
     <span>
@@ -23,7 +153,6 @@
         Format
       </a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="../{{ table_name }}?subject=eq.&quot;{{ subject }}&quot;">Table</a></li>
         {% for name, href in formats|items %}
         <li><a class="dropdown-item" href="{{ href }}">{{ name }}</a></li>
         {% endfor %}
@@ -34,11 +163,30 @@
 
 <div class="row">
   <div class="col">
-    {{ tree|safe }}
+    <ul>
+      {%- for iri, children in graph["tree"]|items %}
+      {{render_node(iri, children)}}
+      {%- endfor %}
+    </ul>
   </div>
   <div class="col">
-    {{ predicate_map|safe }}
+    <ul>
+      {%- for predicate in predicates %}
+      {% if predicate in graph["predicates"] %}
+      <li>
+        {{link(predicate)}}
+        <ul>
+          {%- for object in graph["predicates"][predicate] %}
+          <li>{{render_object(object)}}</li>
+          {%- endfor %}
+        </ul>
+      </li>
+      {% endif %}
+      {%- endfor %}
+    </ul>
   </div>
 </div>
-
+{#
+<pre>{{graph|pprint|safe}}</pre>
+#}
 {% endblock %}

@@ -74,3 +74,8 @@ T cell-B cell complex	cell-cell complex		A cell-cell complex made up of at least
 monocyte-B cell complex	cell-cell complex		A cell-cell complex made up of at least one monocyte and one B cell.			M:B doublets (CD19+CD14+) 
 B cell-NK cell complex	cell-cell complex		A cell-cell complex made up of at least one B cell and one NK cell.			B:NK doublets (CD19+CD3-CD14-CD56+) 
 T cell-monocyte complex	cell-cell complex		A cell-cell complex made up of at least one T cell and one monocyte.			T:M doublets (CD19-CD3+CD14+) 
+incomplete data item	data entity		A data entity that indicates an inability to provide a determined value in a particular field.
+unknown data item	incomplete data item		An incomplete data item that has not been determined.
+not applicable data item	incomplete data item		An incomplete data item that cannot be determined as it doesn't make sense.	A biological sex datum for E. coli.
+not available data item	incomplete data item		An incomplete data item that may have been determined, but is not available.
+other data item	incomplete data item		An incomplete data item that was determined to have a value outside of a given range of possible options for that value.

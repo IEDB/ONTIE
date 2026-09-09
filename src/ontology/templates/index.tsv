@@ -3647,3 +3647,8 @@ ONTIE:0003671	Influenza A virus (A/Switzerland/9715293/2013(H3N2))	owl:Class			H
 ONTIE:0003672	Influenza B virus (B/Phuket/3073/2013)	owl:Class			HCC
 ONTIE:0003673	canonical protein	owl:AnnotationProperty	IEDB
 ONTIE:0003674	latent	owl:Class	HCC
+ONTIE:0003678	incomplete data item	owl:Class	HCC
+ONTIE:0003679	unknown data item	owl:Class	HCC
+ONTIE:0003675	not applicable data item	owl:Class	HCC
+ONTIE:0003676	not available data item	owl:Class	HCC
+ONTIE:0003677	other data item	owl:Class	HCC

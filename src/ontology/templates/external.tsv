@@ -42,6 +42,7 @@ DOID:9446	cholangitis	owl:Class		gastrointestinal system disease
 DOID:9808	Goodpasture syndrome	owl:Class		autoimmune disease		
 GO:0008150	biological process	owl:Class		process		
 GO:0043234	protein complex	owl:Class		material entity		
+IAO:0000027	data entity	owl:Class		information content entity		
 IAO:0000030	information content entity	owl:Class		owl:Thing		
 IAO:0000140	setting datum	owl:Class		information content entity		
 NCBITaxon:10009	Tamiasciurus hudsonicus	owl:Class		organism		

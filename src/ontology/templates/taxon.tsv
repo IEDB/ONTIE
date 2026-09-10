@@ -368,10 +368,10 @@ Foot-and-mouth disease virus (strain O1) (O1BFS 1860)	Foot-and-mouth disease vir
 Foot-and-mouth disease virus (strain O1) (O1BFS)	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) Kaufbeuren	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) O/UKG/11/2001	Foot-and-mouth disease virus (strain O1)	subspecies	O/UKG/11/2001	taxon		
-Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
-Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
 Foot-and-mouth disease virus - type A (strain A22 Iraq)	Foot-and-mouth disease virus - type A	subspecies	A22 Irak	taxon		
 Foot-and-mouth disease virus - type A (strain A22)	Foot-and-mouth disease virus - type A	subspecies		taxon		
+Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
+Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
 Foot-and-mouth disease virus - type A (strain ARG 2/2001)	Foot-and-mouth disease virus - type A	subspecies	ARG 2/2001	taxon		
 Foot-and-mouth disease virus - type A (strain ARG/87)	Foot-and-mouth disease virus - type A	subspecies	ARG/87	taxon		
 Foot-and-mouth disease virus - type A (strain COL/85)	Foot-and-mouth disease virus - type A	subspecies	COL/85	taxon		
@@ -653,7 +653,9 @@ Influenza A virus (A/Kitakyushu/6/2006(H3N2))	H3N2 subtype	subspecies	Kitakyushu
 Influenza A virus (A/Louisiana/08/2013 (H1N1))	H1N1 subtype	subspecies	A/Louisiana/08/2013	taxon		
 Influenza A virus (A/Niigata/102/1981(H3N2))	H3N2 subtype	subspecies	Nii81	taxon		
 Influenza A virus (A/Ohio/88/2012(H3N2))	H3N2 subtype	subspecies	A/Ohio/88/2012	taxon		
+Influenza A virus (A/Perth/19/2009 (H3N2))	H3N2 subtype	subspecies		taxon		
 Influenza A virus (A/Scotland/20/1974(H3N2))	H3N2 subtype	subspecies	A/Scotland/20/74	taxon		
+Influenza A virus (A/Switzerland/9715293/2013(H3N2))	H3N2 subtype	subspecies		taxon		
 Influenza A virus (A/Taiwan/2/2013(H6N1))	H6N1 subtype	subspecies	A/Taiwan/2/2013	taxon		
 Influenza A virus (A/Thailand/103/2012(H1N1))	H1N1 subtype	subspecies	A/Nakhon Ratchasima/103/2012	taxon		
 Influenza A virus (A/Thailand/19/2011(H1N1))	H1N1 subtype	subspecies	A/Songkhla/19/2011	taxon		
@@ -696,6 +698,7 @@ Influenza A virus H3N2 (A/swine/Shandong/164/06(H3N2))	Influenza A virus H3N2	su
 Influenza A virus H3N2 (A/swine/Shandong/165/06(H3N2))	Influenza A virus H3N2	subspecies		taxon		
 Influenza A virus H3N2 E61-13-H17	Influenza A virus H3N2	subspecies		taxon		
 Influenza B virus (B/Ann Arbor/4/55)	Influenza B virus	subspecies		taxon		
+Influenza B virus (B/Phuket/3073/2013)	Influenza B virus	subspecies		taxon		
 Influenza B virus (B/Shanghi/6001/2006)	Influenza B virus	subspecies		taxon		
 Influenza B virus (B/heilongjianghulan/116/2010)	Influenza B virus	subspecies		taxon		
 Influenza B virus (B/hubeiwujiagang/158/2009)	Influenza B virus	subspecies		taxon		
@@ -777,6 +780,7 @@ Mumps virus genotype G strain Du/CRO05	Mumps virus genotype G	subspecies	CRO05|D
 Murid herpesvirus 1 Isolate G4	Murid betaherpesvirus 1	subspecies		taxon		
 Murid herpesvirus 1 Isolate K6	Murid betaherpesvirus 1	subspecies		taxon		
 Murid herpesvirus 1 Isolate N1	Murid betaherpesvirus 1	subspecies		taxon		
+Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV	Murid betaherpesvirus 1	subspecies		taxon		
 Murid herpesvirus 1 RM461	Murid betaherpesvirus 1	subspecies	MCMV RM461|RM 461	taxon		
 Murid herpesvirus 1 delta MC96.24	Murid betaherpesvirus 1	subspecies		taxon		
 Murid herpesvirus 1 delta m152-MW99.05	Murid betaherpesvirus 1	subspecies		taxon		
@@ -1478,9 +1482,9 @@ Neisseria meningitidis M982B	Neisseria meningitidis	subspecies	M982B	taxon
 Neisseria meningitidis MC58 icsB-lpt3	Neisseria meningitidis MC58	subspecies		taxon		
 Neisseria meningitidis serogroup A C408	Neisseria meningitidis serogroup A	subspecies		taxon		
 Neisseria meningitidis serogroup A Strain 8659	Neisseria meningitidis serogroup A	subspecies	8659	taxon		
-Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	44/76|Serotype 15 / Subtype 16	taxon		
 Neisseria meningitidis serogroup B 8047	Neisseria meningitidis serogroup B	subspecies		taxon		
 Neisseria meningitidis serogroup B CU385	Neisseria meningitidis serogroup B	subspecies	Cuba 385	taxon		
+Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon		
 Neisseria meningitidis serogroup B Strain 188/87	Neisseria meningitidis serogroup B	subspecies	188/87	taxon		
 Neisseria meningitidis serogroup B Strain 2996	Neisseria meningitidis serogroup B	subspecies	2996	taxon		
 Neisseria meningitidis serogroup B Strain 7967	Neisseria meningitidis serogroup B	subspecies	7967	taxon		
@@ -1795,6 +1799,7 @@ Rotavirus G3 strain RV-3	Rotavirus G3	subspecies	RV-3	taxon
 Rubella virus HPV72	Rubella virus	subspecies		taxon		
 Rubella virus HPV77	Rubella virus	subspecies	HPV-77	taxon		
 Rubella virus JR23	Rubella virus	subspecies		taxon		
+SARS-CoV1	Severe acute respiratory syndrome-related coronavirus	species	SARS-1	taxon		Sarbecoviruses that circulated in the human population as part of the 2003 SARS outbreak
 Saccharomyces cerevisiae EBY100	Saccharomyces cerevisiae	subspecies		taxon		
 Salmonella 'group A'	Salmonella	subspecies	serogroup A	taxon		
 Salmonella 'group C'	Salmonella	subspecies	serogroup C	taxon		
@@ -1845,7 +1850,6 @@ Salmonella typhimurium SL5928	Salmonella enterica subsp. enterica serovar Typhim
 Salmonella typhimurium SL7207	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon		
 Salmonella typhimurium TV119	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon		
 Salmonella typhimurium chi3987(pYALTB-D) V	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon		
-SARS-CoV1	Severe acute respiratory syndrome-related coronavirus	species	SARS-1	taxon		Sarbecoviruses that circulated in the human population as part of the 2003 SARS outbreak
 Schistosoma japonicum strain Chinese	Schistosoma japonicum	subspecies		taxon		
 Schistosoma japonicum strain Philippine	Schistosoma japonicum	subspecies		taxon		
 Schistosoma mansoni Puerto Rico	Schistosoma mansoni	subspecies	NMRI	taxon		
@@ -2017,13 +2021,13 @@ Transmissible gastroenteritis virus MAD88	Transmissible gastroenteritis virus	su
 Tree or Shrub	Spermatophyta	subspecies		taxon		
 Treponema pallidum subsp. pallidum (strain Chicago)	Treponema pallidum subsp. pallidum	subspecies	Chicago	taxon		
 Trypanosoma brucei rhodesiense Vitat 1.1	Trypanosoma brucei rhodesiense	subspecies		taxon		
-Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
 Trypanosoma cruzi G	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi MHOM/MX/0000/H1	Trypanosoma cruzi	subspecies	H1	taxon		
 Trypanosoma cruzi MV-13	Trypanosoma cruzi	subspecies	Montalvani 13	taxon		
 Trypanosoma cruzi Silvio X-10/4	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi Tulahuen	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi Y	Trypanosoma cruzi	subspecies		taxon		
+Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
 Vaccinia virus Acambis 2000	Vaccinia virus	subspecies	Acam2000	taxon		
 Vaccinia virus Connaught	Vaccinia virus	subspecies	Connaught	taxon		
 Vaccinia virus Elstree (LS)	Vaccinia virus	subspecies	Elstree|LS	taxon		
@@ -2081,22 +2085,3 @@ ZIKV/H. sapiens/Senegal/41519/1982	Zika virus	subspecies	Dakar 41519	taxon
 ZIKV/H. sapiens/Senegal/HD78788/1991	Zika virus	subspecies	HD78788	taxon		
 ZIKV/H. sapiens/Uganda/MR-766/1947	Zika virus	subspecies	MR-766	taxon		
 mus musculus VelocImmune	Mus musculus Antibody Transgenic	subspecies	VelocImmune	taxon		
-Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
-Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	strain A32 Venezuela|Venezuela/70|A32/VEN/1/70	taxon		
-Murid herpesvirus 1 Mutant Δ m4:m6+m152 MCMV	Murid betaherpesvirus 1	subspecies		taxon		
-Mus musculus 17.6α-8.3β TCR Tg	Mus musculus TCR transgenic	subspecies	17.6 TCR Tg|IGRP(206-214)-specific TCR Tg|VYLKTNVFL-specific TCR Tg|KYNKANVFL-specific TCR Tg	taxon		
-Mus musculus B10.BR-SCID bone marrow chimera	Mus musculus B10.BR	subspecies		taxon		
-Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg|HA(110-120) Tg	taxon		
-Mus musculus µMT	Mus musculus Uncategorized	subspecies	mMt|uMt|μMT|muMt|µMt	taxon		
-Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon		
-Simian immunodeficiency virus - mac - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac 32H	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac BK28	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - sm - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon		
-Simian immunodeficiency virus - sm - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon		
-Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon		
-Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
-Influenza A virus (A/Perth/19/2009 (H3N2))	H3N2 subtype	subspecies		taxon		
-Influenza A virus (A/Switzerland/9715293/2013(H3N2))	H3N2 subtype	subspecies		taxon		
-Influenza B virus (B/Phuket/3073/2013)	Influenza B virus	subspecies		taxon		

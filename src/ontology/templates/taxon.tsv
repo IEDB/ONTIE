@@ -11,11 +11,11 @@ Aggregatibacter actinomycetemcomitans serotype c str. CDC NCTC 9710	Aggregatibac
 Aggregatibacter actinomycetemcomitans serotype f str. CU1000	Aggregatibacter actinomycetemcomitans	subspecies	CU1000	taxon		
 Agrobacterium tumefaciens (strain Rv3)	Agrobacterium tumefaciens	subspecies	Rhizobium radiobacter strain Rv3|Rv3	taxon		
 Ajellomyces dermatitidis ATCC 60636	Blastomyces dermatitidis	subspecies		taxon		
-Aleutian mink disease virus Type IV	Aleutian mink disease virus	subspecies		taxon		
+Aleutian mink disease virus Type IV	Aleutian mink disease parvovirus	subspecies		taxon		
 Anaplasma marginale South Idaho	Anaplasma marginale	subspecies		taxon		
 Anaplasma phagocytophilum Old Sourhope	Anaplasma phagocytophilum	subspecies	AP-OS	taxon		
-Anatid herpesvirus 1 Clone-03	Anatid alphaherpesvirus 1	subspecies	strain 03	taxon		
-Andes virus CHI-7913	Andes orthohantavirus	subspecies		taxon		
+Anatid herpesvirus 1 Clone-03	anatid alphaherpesvirus 1	subspecies	strain 03	taxon		
+Andes virus CHI-7913	Orthohantavirus andesense	subspecies		taxon		
 Arcanobacterium pyogenes Strain 42	Trueperella pyogenes	subspecies	Arcanobacterium pyogenes Strain No.42	taxon		
 Aspergillus flavus ATCC 10124	Aspergillus flavus	subspecies		taxon		
 Aspergillus flavus EV 701	Aspergillus flavus	subspecies		taxon		
@@ -50,13 +50,13 @@ Babesia bovis T3Bo	Babesia bovis	subspecies	T3Bo|USA T3Bo	taxon
 Babesia divergens Rouen 1987	Babesia divergens	subspecies		taxon		
 Bacillus anthracis STI	Bacillus anthracis	subspecies		taxon		
 Bacillus anthracis str. Sterne 34F2	Bacillus anthracis str. Sterne	subspecies		taxon		
-Bacillus subtilis subsp. spizizenii DSM 1087	Bacillus subtilis subsp. spizizenii	subspecies	DSM1087	taxon		
+Bacillus subtilis subsp. spizizenii DSM 1087	Bacillus spizizenii	subspecies	DSM1087	taxon		
 Bacteriophage (DNA)	DNA virus	subspecies		taxon		
 Bacteriophage (RNA)	RNA virus	subspecies		taxon		
 Bacteroides ovatus JCM 5828	Bacteroides ovatus	subspecies	JCM 5828	taxon		
-BK polyomavirus strain Dunlop	Human polyomavirus 1	subspecies		taxon		
-BK polyomavirus strain Gardner	Human polyomavirus 1	subspecies	Gardner	taxon		
-BK polyomavirus strain MM	Human polyomavirus 1	subspecies	strain MM	taxon		
+BK polyomavirus strain Dunlop	Betapolyomavirus hominis	subspecies		taxon		
+BK polyomavirus strain Gardner	Betapolyomavirus hominis	subspecies	Gardner	taxon		
+BK polyomavirus strain MM	Betapolyomavirus hominis	subspecies	strain MM	taxon		
 Bluetongue virus 16 Beatrice Hill/1987	Bluetongue virus 16	subspecies	Australia strain DPP965	taxon		
 Bluetongue virus 16 BN96/16	Bluetongue virus 16	subspecies		taxon		
 Bluetongue virus 16 Kumamoto/1985	Bluetongue virus 16	subspecies	Japan strain 173	taxon		
@@ -84,8 +84,8 @@ Bovine coronavirus 66/H	Bovine coronavirus	subspecies	vaccine strain 66/H	taxon
 Bovine coronavirus Kakegawa	Bovine coronavirus	subspecies		taxon		
 Bovine enterovirus strain M-4	Enterovirus E	subspecies	ATCC VR-756|BEV-165|M4	taxon		
 Bovine ephemeral fever virus BB7721	Bovine ephemeral fever virus	subspecies		taxon		
-Bovine herpesvirus 1 Lam	Bovine alphaherpesvirus 1	subspecies		taxon		
-Bovine herpesvirus 1 TSV-2	Bovine alphaherpesvirus 1	subspecies		taxon		
+Bovine herpesvirus 1 Lam	bovine alphaherpesvirus 1	subspecies		taxon		
+Bovine herpesvirus 1 TSV-2	bovine alphaherpesvirus 1	subspecies		taxon		
 Bovine viral diarrhea virus 1 Pe515ncp	Bovine viral diarrhea virus 1	subspecies		taxon		
 Brucella abortus W99	Brucella abortus	subspecies	W99	taxon		
 Brucella melitensis GR023	Brucella melitensis	subspecies		taxon		
@@ -156,10 +156,10 @@ Candida albicans NIH B-792 (serotype B)	Candida albicans	subspecies	NIH B-792	ta
 Candida albicans NIH J-1012 (serotype J)	Candida albicans	subspecies	NIH J-1012	taxon		
 Candida albicans serotype A	Candida albicans	subspecies		taxon		
 Candida albicans VW32 (serotype A)	Candida albicans serotype A	subspecies		taxon		
-Candida glabrata IFO 0622	[Candida] glabrata	subspecies		taxon		
-Candida parapsilosis M1015	Candida parapsilosis	subspecies		taxon		
+Candida glabrata IFO 0622	Nakaseomyces glabratus	subspecies		taxon		
+Candida parapsilosis M1015	Lodderomyces parapsilosis	subspecies		taxon		
 Candida sojae JCM 1644	Candida sojae	subspecies		taxon		
-Canine distemper virus FXNO	Canine morbillivirus	subspecies		taxon		
+Canine distemper virus FXNO	Morbillivirus canis	subspecies		taxon		
 Canine parvovirus 2 strain A72	Canine parvovirus 2	subspecies		taxon		
 Canine parvovirus strain 780916	Canine parvovirus	subspecies	780916	taxon		
 Canis familiaris beagle	Canis lupus familiaris	subspecies		taxon		
@@ -243,73 +243,73 @@ Cowpox virus (Brighton Red) White-pock	Cowpox virus (Brighton Red)	subspecies		t
 Cowpox virus (strain Brighton KR 2)	Cowpox virus	subspecies	Brighton|KR 2|KR2	taxon		
 Coxsackievirus A16 MAS01/AH/China/2010	Coxsackievirus A16	subspecies	MAS01/AH/CHN/10	taxon		
 Cryptococcus neoformans ATCC 24067	Cryptococcus neoformans	subspecies	ATCC 24067	taxon		
-Cryptococcus neoformans var. neoformans Serotype A	Cryptococcus neoformans var. neoformans	subspecies	Serotype A	taxon		
-Cryptococcus neoformans var. neoformans Serotype B	Cryptococcus neoformans var. neoformans	subspecies		taxon		
-Cryptococcus neoformans var. neoformans Serotype D	Cryptococcus neoformans var. neoformans	subspecies	Serotype D	taxon		
+Cryptococcus neoformans var. neoformans Serotype A	Cryptococcus deneoformans	subspecies	Serotype A	taxon		
+Cryptococcus neoformans var. neoformans Serotype B	Cryptococcus deneoformans	subspecies		taxon		
+Cryptococcus neoformans var. neoformans Serotype D	Cryptococcus deneoformans	subspecies	Serotype D	taxon		
 Cucumber mosaic virus (strain M2)	Cucumber mosaic virus	subspecies	M2	taxon		
 Cucumber mosaic virus (strain MY17)	Cucumber mosaic virus	subspecies	MY17	taxon		
-Dengue subtype 1 strain OBS 7690	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 Mochizuki	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 PVP159	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 Sri Lanka 3146	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 strain 128	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 strain TVP-2130	Dengue virus 1	subspecies		taxon		
-Dengue virus 1 strain TVP-5175	Dengue virus 1	subspecies		taxon		
-Dengue virus 2 Burkina Faso/ArA6894/1986	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 D2/SG/05K4155DK1/2005	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 Guinea/PM33974/1981	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 New Guinea C	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 PL046	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 S-16803	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 S221	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 strain 43	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 Thailand/C0477	Dengue virus 2	subspecies		taxon		
-Dengue virus 2 TR1751/Trinidad/54	Dengue virus 2	subspecies	TR1751	taxon		
-Dengue virus 3 strain 16562	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 strain 16652	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 strain H-78	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 Thailand/PaH881/1988	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3006	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3018	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3043	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3044	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3046	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3049	Dengue virus 3	subspecies		taxon		
-Dengue virus 3 UNC3050	Dengue virus 3	subspecies		taxon		
-Dengue virus 4 1036	Dengue virus 4	subspecies	1036	taxon		
-Dengue virus 4 Burma/63632/1976	Dengue virus 4	subspecies		taxon		
-Dengue virus 4 Mexico/BC287/1997	Dengue virus 4	subspecies	Dengue virus 4 Mexico/1997 (BC287/97)	taxon		
-Dengue virus 4 P75-514	Dengue virus 4	subspecies	514|P75	taxon		
-Dengue virus 4 strain B5	Dengue virus 4	subspecies		taxon		
-Dengue virus 4 strain H-42	Dengue virus 4	subspecies		taxon		
-Dengue virus 4 TVP-376	Dengue virus 4	subspecies	376|TVP	taxon		
-Dengue virus 4 TVP-986	Dengue virus 4	subspecies	986|TVP	taxon		
-Dengue virus type 1 FGA/89	Dengue virus 1	subspecies		taxon		
-Dengue virus type 1 Hawaii	Dengue virus 1	subspecies		taxon		
-Dengue virus type 1 Indonesia/98901518/1998	Dengue virus 1	subspecies	98901518|Indonesia|Indonesia/98901518/1998	taxon		
-Dengue virus type 1 strain 16007	Dengue virus 1	subspecies		taxon		
-Dengue virus type 2 Sri Lanka	Dengue virus 2	subspecies		taxon		
-Dengue virus type 3 CH53489	Dengue virus 3	subspecies		taxon		
-Dengue virus type 4 Thailand/703-4/1994	Dengue virus 4	subspecies	Thailand/703-4/1994	taxon		
+Dengue subtype 1 strain OBS 7690	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 Mochizuki	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 PVP159	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 Sri Lanka 3146	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 strain 128	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 strain TVP-2130	dengue virus type 1	subspecies		taxon		
+Dengue virus 1 strain TVP-5175	dengue virus type 1	subspecies		taxon		
+Dengue virus 2 Burkina Faso/ArA6894/1986	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 D2/SG/05K4155DK1/2005	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 Guinea/PM33974/1981	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 New Guinea C	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 PL046	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 S-16803	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 S221	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 strain 43	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 Thailand/C0477	dengue virus type 2	subspecies		taxon		
+Dengue virus 2 TR1751/Trinidad/54	dengue virus type 2	subspecies	TR1751	taxon		
+Dengue virus 3 strain 16562	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 strain 16652	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 strain H-78	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 Thailand/PaH881/1988	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3006	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3018	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3043	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3044	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3046	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3049	dengue virus type 3	subspecies		taxon		
+Dengue virus 3 UNC3050	dengue virus type 3	subspecies		taxon		
+Dengue virus 4 1036	dengue virus type 4	subspecies	1036	taxon		
+Dengue virus 4 Burma/63632/1976	dengue virus type 4	subspecies		taxon		
+Dengue virus 4 Mexico/BC287/1997	dengue virus type 4	subspecies	Dengue virus 4 Mexico/1997 (BC287/97)	taxon		
+Dengue virus 4 P75-514	dengue virus type 4	subspecies	514|P75	taxon		
+Dengue virus 4 strain B5	dengue virus type 4	subspecies		taxon		
+Dengue virus 4 strain H-42	dengue virus type 4	subspecies		taxon		
+Dengue virus 4 TVP-376	dengue virus type 4	subspecies	376|TVP	taxon		
+Dengue virus 4 TVP-986	dengue virus type 4	subspecies	986|TVP	taxon		
+Dengue virus type 1 FGA/89	dengue virus type 1	subspecies		taxon		
+Dengue virus type 1 Hawaii	dengue virus type 1	subspecies		taxon		
+Dengue virus type 1 Indonesia/98901518/1998	dengue virus type 1	subspecies	98901518|Indonesia|Indonesia/98901518/1998	taxon		
+Dengue virus type 1 strain 16007	dengue virus type 1	subspecies		taxon		
+Dengue virus type 2 Sri Lanka	dengue virus type 2	subspecies		taxon		
+Dengue virus type 3 CH53489	dengue virus type 3	subspecies		taxon		
+Dengue virus type 4 Thailand/703-4/1994	dengue virus type 4	subspecies	Thailand/703-4/1994	taxon		
 Dicot	Spermatophyta	subspecies		taxon		
 Dictyostelium discoideum Raper (ATCC 24697)	Dictyostelium discoideum	subspecies	ATCC 24697|NC-4|NC4	taxon		
 DNA virus	Viruses	subspecies		taxon		
-Duck hepatitis A virus 1 HP-1	Duck hepatitis A virus 1	subspecies	HP 1|HP-1	taxon		
-Duck hepatitis A virus 1 LY0801	Duck hepatitis A virus 1	subspecies	LY0801	taxon		
+Duck hepatitis A virus 1 HP-1	avihepatovirus A1	subspecies	HP 1|HP-1	taxon		
+Duck hepatitis A virus 1 LY0801	avihepatovirus A1	subspecies	LY0801	taxon		
 Duck hepatitis A virus 3 SD1201	Duck hepatitis A virus 3	subspecies	SD1201	taxon		
-Duvenhage virus 6	Duvenhage lyssavirus	subspecies		taxon		
+Duvenhage virus 6	Lyssavirus duvenhage	subspecies		taxon		
 Eastern equine encephalitis virus SV	Eastern equine encephalitis virus	subspecies		taxon		
 Echovirus E6 NJ01/JS/China/2010	Echovirus E6	subspecies	NJ01/JS/CHN/10	taxon		
 Ectromelia virus Munich	Ectromelia virus	subspecies	Munich	taxon		
 Entamoeba histolytica SFL-3	Entamoeba histolytica	subspecies		taxon		
 Entamoeba histolytica YS-27	Entamoeba histolytica	subspecies		taxon		
-Enterobacteria phage PRD1	Pseudomonas virus PRD1	no rank		taxon		
+Enterobacteria phage PRD1	Alphatectivirus PRD1	no rank		taxon		
 Enterovirus A71 MAS01/AH/China/2009	Enterovirus A71	subspecies	MAS01/AH/CHN/09	taxon		
 Enterovirus A71 Subgenogroup C5	Enterovirus A71	subspecies	C5	taxon		
 Enterovirus A71 Tainan/4643/98	Enterovirus A71	subspecies		taxon		
 Enterovirus A71 TW/2086/98	Enterovirus A71	subspecies		taxon		
-Enterovirus D68 Fermon	Enterovirus D68	subspecies		taxon		
-Enterovirus D68 Kunming	Enterovirus D68	subspecies	KM|RVL_KM201703	taxon		
+Enterovirus D68 Fermon	enterovirus D68	subspecies		taxon		
+Enterovirus D68 Kunming	enterovirus D68	subspecies	KM|RVL_KM201703	taxon		
 Equid herpesvirus 1 (strain 89c25)	Equid alphaherpesvirus 1	subspecies		taxon		
 Equid herpesvirus 1 RAC-H	Equid alphaherpesvirus 1	subspecies	RacH	taxon		
 Equid herpesvirus 2 16V	Equid gammaherpesvirus 2	subspecies		taxon		
@@ -353,7 +353,7 @@ Exogenous mouse mammary tumor virus (STRAIN C4)	Exogenous mouse mammary tumor vi
 Feline infectious peritonitis virus (strain KU-2)	Feline infectious peritonitis virus	subspecies	KU-2	taxon		
 Feline Leukemia Virus strain FL74	Feline leukemia virus	subspecies	FL74	taxon		
 Feline leukemia virus subtype A	Feline leukemia virus	subspecies		taxon		
-Fish	Vertebrata	subspecies		taxon		
+Fish	Vertebrata <vertebrates>	subspecies		taxon		
 Foot-and-mouth disease virus (strain A5) Bernbeuren	Foot-and-mouth disease virus (strain A5)	subspecies	A5B	taxon		
 Foot-and-mouth disease virus (strain A5) Portugal 1983	Foot-and-mouth disease virus (strain A5)	subspecies	Portugal/83|strain A5 Portugal	taxon		
 Foot-and-mouth disease virus (strain O1) (O/Taiwan/1/97)	Foot-and-mouth disease virus (strain O1)	subspecies	(O1 Taiwan)	taxon		
@@ -368,37 +368,37 @@ Foot-and-mouth disease virus (strain O1) (O1BFS 1860)	Foot-and-mouth disease vir
 Foot-and-mouth disease virus (strain O1) (O1BFS)	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) Kaufbeuren	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) O/UKG/11/2001	Foot-and-mouth disease virus (strain O1)	subspecies	O/UKG/11/2001	taxon		
-Foot-and-mouth disease virus - type A (strain A22 Iraq)	Foot-and-mouth disease virus - type A	subspecies	A22 Irak	taxon		
-Foot-and-mouth disease virus - type A (strain A22)	Foot-and-mouth disease virus - type A	subspecies		taxon		
-Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus - type A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
-Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus - type A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
-Foot-and-mouth disease virus - type A (strain ARG 2/2001)	Foot-and-mouth disease virus - type A	subspecies	ARG 2/2001	taxon		
-Foot-and-mouth disease virus - type A (strain ARG/87)	Foot-and-mouth disease virus - type A	subspecies	ARG/87	taxon		
-Foot-and-mouth disease virus - type A (strain COL/85)	Foot-and-mouth disease virus - type A	subspecies	COL/85	taxon		
-Foot-and-mouth disease virus - type A (strain IRAN 22/99)	Foot-and-mouth disease virus - type A	subspecies	IRAN 22/99	taxon		
-Foot-and-mouth disease virus - type A (strain IRN 1/96)	Foot-and-mouth disease virus - type A	subspecies	IRN 1/96	taxon		
-Foot-and-mouth disease virus - type Asia 1 IND63/1972	Foot-and-mouth disease virus - type Asia 1	subspecies		taxon		
-Foot-and-mouth disease virus - type Asia 1 Nepal 29/97	Foot-and-mouth disease virus - type Asia 1	subspecies		taxon		
-Foot-and-mouth disease virus - type Asia 1 Pakistan	Foot-and-mouth disease virus - type Asia 1	subspecies	Pak	taxon		
-Foot-and-mouth disease virus - type Asia 1 Shamir	Foot-and-mouth disease virus - type Asia 1	subspecies	A1S	taxon		
-Foot-and-mouth disease virus - type Asia 1 YS/CHA/05	Foot-and-mouth disease virus - type Asia 1	subspecies		taxon		
-Foot-and-mouth disease virus - type C 2.10b	Foot-and-mouth disease virus - type C	subspecies		taxon		
-Foot-and-mouth disease virus - type O (O/SKR/2002)	Foot-and-mouth disease virus - type O	subspecies		taxon		
-Foot-and-mouth disease virus - type O (strain HKN/14/82)	Foot-and-mouth disease virus - type O	subspecies	HKN/14/82	taxon		
-Foot-and-mouth disease virus - type O IND R2/1975	Foot-and-mouth disease virus - type O	subspecies		taxon		
-Foot-and-mouth disease virus - type O isolate O/UKG/35/2001	Foot-and-mouth disease virus - type O	subspecies		taxon		
-Foot-and-mouth disease virus - type O Wuppertal/FRG/82	Foot-and-mouth disease virus - type O	subspecies	Wuppertal/FRG/82	taxon		
-Foot-and-mouth disease virus - type SAT 1 (Strain Bot 1/68)	Foot-and-mouth disease virus - type SAT 1	subspecies	Bot/1/68|Botswana 1/68	taxon		
-Foot-and-mouth disease virus - type SAT 1 (strain KEN 4/98)	Foot-and-mouth disease virus - type SAT 1	subspecies	KEN 4/98	taxon		
-Foot-and-mouth disease virus - type SAT 1 Zimbabwe	Foot-and-mouth disease virus - type SAT 1	subspecies	SAT1Z	taxon		
-Foot-and-mouth disease virus - type SAT 2 (Strain Ken 3/57)	Foot-and-mouth disease virus - type SAT 2	subspecies	Ken/3/57|Kenya 3/57	taxon		
-Foot-and-mouth disease virus - type SAT 2 (strain Rho 1/48)	Foot-and-mouth disease virus - type SAT 2	subspecies	Rho/1/48|Rhodesia 1/48	taxon		
-Foot-and-mouth disease virus - type SAT 2 (strain SAU 1/2000)	Foot-and-mouth disease virus - type SAT 2	subspecies	SAU 1/2000	taxon		
-Foot-and-mouth disease virus - type SAT 3 (Strain Bec 1/65)	Foot-and-mouth disease virus - type SAT 3	subspecies	Bec/1/65|Bechuanaland 1/65	taxon		
-Foot-and-mouth disease virus - type SAT 3 (strain SWA 1/69)	Foot-and-mouth disease virus - type SAT 3	subspecies	SWA 1/69	taxon		
-Foot-and-mouth disease virus - type SAT 3 (strain ZIM 4/81)	Foot-and-mouth disease virus - type SAT 3	subspecies	ZIM 4/81	taxon		
-Foot-and-mouth disease virus A/HuBWH/CHA/2009	Foot-and-mouth disease virus - type A	subspecies	A/HuBWH/CHA/09|A/HuBWH/CHA/2009|HuBWH/CHA/09	taxon		
-Foot-and-mouth disease virus A/VN/03/2009	Foot-and-mouth disease virus - type A	subspecies	A/VN/03/2009	taxon		
+Foot-and-mouth disease virus - type A (strain A22 Iraq)	Foot-and-mouth disease virus A	subspecies	A22 Irak	taxon		
+Foot-and-mouth disease virus - type A (strain A22)	Foot-and-mouth disease virus A	subspecies		taxon		
+Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
+Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
+Foot-and-mouth disease virus - type A (strain ARG 2/2001)	Foot-and-mouth disease virus A	subspecies	ARG 2/2001	taxon		
+Foot-and-mouth disease virus - type A (strain ARG/87)	Foot-and-mouth disease virus A	subspecies	ARG/87	taxon		
+Foot-and-mouth disease virus - type A (strain COL/85)	Foot-and-mouth disease virus A	subspecies	COL/85	taxon		
+Foot-and-mouth disease virus - type A (strain IRAN 22/99)	Foot-and-mouth disease virus A	subspecies	IRAN 22/99	taxon		
+Foot-and-mouth disease virus - type A (strain IRN 1/96)	Foot-and-mouth disease virus A	subspecies	IRN 1/96	taxon		
+Foot-and-mouth disease virus - type Asia 1 IND63/1972	Foot-and-mouth disease virus Asia 1	subspecies		taxon		
+Foot-and-mouth disease virus - type Asia 1 Nepal 29/97	Foot-and-mouth disease virus Asia 1	subspecies		taxon		
+Foot-and-mouth disease virus - type Asia 1 Pakistan	Foot-and-mouth disease virus Asia 1	subspecies	Pak	taxon		
+Foot-and-mouth disease virus - type Asia 1 Shamir	Foot-and-mouth disease virus Asia 1	subspecies	A1S	taxon		
+Foot-and-mouth disease virus - type Asia 1 YS/CHA/05	Foot-and-mouth disease virus Asia 1	subspecies		taxon		
+Foot-and-mouth disease virus - type C 2.10b	Foot and mouth disease virus C	subspecies		taxon		
+Foot-and-mouth disease virus - type O (O/SKR/2002)	Foot-and-mouth disease virus O	subspecies		taxon		
+Foot-and-mouth disease virus - type O (strain HKN/14/82)	Foot-and-mouth disease virus O	subspecies	HKN/14/82	taxon		
+Foot-and-mouth disease virus - type O IND R2/1975	Foot-and-mouth disease virus O	subspecies		taxon		
+Foot-and-mouth disease virus - type O isolate O/UKG/35/2001	Foot-and-mouth disease virus O	subspecies		taxon		
+Foot-and-mouth disease virus - type O Wuppertal/FRG/82	Foot-and-mouth disease virus O	subspecies	Wuppertal/FRG/82	taxon		
+Foot-and-mouth disease virus - type SAT 1 (Strain Bot 1/68)	Foot-and-mouth disease virus SAT 1	subspecies	Bot/1/68|Botswana 1/68	taxon		
+Foot-and-mouth disease virus - type SAT 1 (strain KEN 4/98)	Foot-and-mouth disease virus SAT 1	subspecies	KEN 4/98	taxon		
+Foot-and-mouth disease virus - type SAT 1 Zimbabwe	Foot-and-mouth disease virus SAT 1	subspecies	SAT1Z	taxon		
+Foot-and-mouth disease virus - type SAT 2 (Strain Ken 3/57)	Foot-and-mouth disease virus SAT 2	subspecies	Ken/3/57|Kenya 3/57	taxon		
+Foot-and-mouth disease virus - type SAT 2 (strain Rho 1/48)	Foot-and-mouth disease virus SAT 2	subspecies	Rho/1/48|Rhodesia 1/48	taxon		
+Foot-and-mouth disease virus - type SAT 2 (strain SAU 1/2000)	Foot-and-mouth disease virus SAT 2	subspecies	SAU 1/2000	taxon		
+Foot-and-mouth disease virus - type SAT 3 (Strain Bec 1/65)	Foot-and-mouth disease virus SAT 3	subspecies	Bec/1/65|Bechuanaland 1/65	taxon		
+Foot-and-mouth disease virus - type SAT 3 (strain SWA 1/69)	Foot-and-mouth disease virus SAT 3	subspecies	SWA 1/69	taxon		
+Foot-and-mouth disease virus - type SAT 3 (strain ZIM 4/81)	Foot-and-mouth disease virus SAT 3	subspecies	ZIM 4/81	taxon		
+Foot-and-mouth disease virus A/HuBWH/CHA/2009	Foot-and-mouth disease virus A	subspecies	A/HuBWH/CHA/09|A/HuBWH/CHA/2009|HuBWH/CHA/09	taxon		
+Foot-and-mouth disease virus A/VN/03/2009	Foot-and-mouth disease virus A	subspecies	A/VN/03/2009	taxon		
 Foot-and-mouth disease virus C1 (strain Noville)	Foot-and-mouth disease virus C1	subspecies	Noville	taxon		
 Foot-and-mouth disease virus C1 Brescia It/64	Foot-and-mouth disease virus C1	subspecies		taxon		
 Foot-and-mouth disease virus C1 CS15	Foot-and-mouth disease virus C1	subspecies		taxon		
@@ -408,7 +408,7 @@ Foot-and-mouth disease virus C1 CS35	Foot-and-mouth disease virus C1	subspecies	
 Foot-and-mouth disease virus C1 CS8	Foot-and-mouth disease virus C1	subspecies		taxon		
 Foot-and-mouth disease virus C1 MAR2.1	Foot-and-mouth disease virus C1	subspecies		taxon		
 Foot-and-mouth disease virus C3 (strain Resendne-Br/55)	Foot-and-mouth disease virus C3	subspecies	Br/55|Resendne|Resendne-Br/55	taxon		
-Foot-and-mouth disease virus O/Tibet/CHA/99	Foot-and-mouth disease virus - type O	subspecies	O/Tibet/CHA/99	taxon		
+Foot-and-mouth disease virus O/Tibet/CHA/99	Foot-and-mouth disease virus O	subspecies	O/Tibet/CHA/99	taxon		
 Fowlpox virus FP9	Fowlpox virus	subspecies	FP9	taxon		
 Francisella tularensis subsp. holarctica LVS WbtI G191V	Francisella tularensis subsp. holarctica LVS	subspecies	WbtI G191V	taxon		
 Francisella tularensis subsp. tularensis strain 15	Francisella tularensis subsp. tularensis	subspecies	15	taxon		
@@ -420,7 +420,7 @@ Gallus gallus P2a	Gallus gallus	subspecies	P2a	taxon
 Gallus gallus Prague CB	Gallus gallus	subspecies		taxon		
 Gallus gallus White Leghorn	Gallus gallus	subspecies		taxon		
 Goose parvovirus H1	Goose parvovirus	subspecies	strain H1	taxon		
-Guanarito virus strain INH-95551	Guanarito mammarenavirus	subspecies		taxon		
+Guanarito virus strain INH-95551	Mammarenavirus guanaritoense	subspecies		taxon		
 H10N4 subtype Influenza A/duck/Shantou/1796/2001	H10N4 subtype	subspecies	A/duck/Shantou/1796/2001	taxon		
 H10N5 subtype (A/duck/Singapore/1998(H10N5))	H10N5 subtype	subspecies	Singapore/98	taxon		
 H11N1 subtype Influenza A/duck/Shantou/834/2001	H11N1 subtype	subspecies	A/duck/Shantou/834/2001	taxon		
@@ -500,11 +500,11 @@ Hepatitis C virus genotype 4 UNK4.11.1	Hepatitis C virus genotype 4	subspecies	U
 Hepatitis C virus genotype 4 UNK4.21.16	Hepatitis C virus genotype 4	subspecies	U.N.K4.21.16	taxon		
 Hepatitis C virus genotype 5 UNK5.15.7	Hepatitis C virus genotype 5	subspecies	U.N.K5.15.7	taxon		
 Hepatitis C virus genotype 6 UNK6.5.340	Hepatitis C virus genotype 6	subspecies	U.N.K6.5.340	taxon		
-Hepatitis C virus subtype 1a (isolate Gla)	Hepatitis C virus subtype 1a	subspecies		taxon		
-Hepatitis C virus subtype 1a 1/910	Hepatitis C virus subtype 1a	subspecies		taxon		
-Hepatitis C virus subtype 1a Chiron Corp.	Hepatitis C virus subtype 1a	subspecies		taxon		
-Hepatitis C virus subtype 1a H90	Hepatitis C virus subtype 1a	subspecies		taxon		
-Hepatitis C virus subtype 1a KP-S9	Hepatitis C virus subtype 1a	subspecies		taxon		
+Hepatitis C virus subtype 1a (isolate Gla)	hepatitis C virus genotype 1a	subspecies		taxon		
+Hepatitis C virus subtype 1a 1/910	hepatitis C virus genotype 1a	subspecies		taxon		
+Hepatitis C virus subtype 1a Chiron Corp.	hepatitis C virus genotype 1a	subspecies		taxon		
+Hepatitis C virus subtype 1a H90	hepatitis C virus genotype 1a	subspecies		taxon		
+Hepatitis C virus subtype 1a KP-S9	hepatitis C virus genotype 1a	subspecies		taxon		
 Hepatitis C virus subtype 1b AD78	Hepatitis C virus subtype 1b	subspecies		taxon		
 Hepatitis C virus subtype 1b isolate BE-11	Hepatitis C virus subtype 1b	subspecies		taxon		
 Hepatitis C virus subtype 1b JK	Hepatitis C virus subtype 1b	subspecies		taxon		
@@ -523,10 +523,10 @@ Hepatitis C virus subtype 3a UNK3a1.9	Hepatitis C virus subtype 3a	subspecies	U.
 Hepatitis C virus subtype 6a HK6a	Hepatitis C virus subtype 6a	subspecies		taxon		
 Hepatitis delta virus (isolate TW2667)	Hepatitis delta virus	subspecies		taxon		
 Hepatitis delta virus TW2667	Hepatitis delta virus	subspecies		taxon		
-Hepatitis E virus China Xinjiang	Orthohepevirus A	subspecies		taxon		
-Hepatitis E virus SAR-55	Orthohepevirus A	subspecies		taxon		
-Hepatitis E virus strain Chinese	Orthohepevirus A	subspecies		taxon		
-Hepatitis E virus type 2	Orthohepevirus A	subspecies	genotype 2	taxon		
+Hepatitis E virus China Xinjiang	Paslahepevirus balayani	subspecies		taxon		
+Hepatitis E virus SAR-55	Paslahepevirus balayani	subspecies		taxon		
+Hepatitis E virus strain Chinese	Paslahepevirus balayani	subspecies		taxon		
+Hepatitis E virus type 2	Paslahepevirus balayani	subspecies	genotype 2	taxon		
 Hepatitis E virus type 3 Kernow-C1	Hepatitis E virus type 3	subspecies	Kernow C1	taxon		
 Hepatitis E virus type 4 JAK-Sai	Hepatitis E virus type 4	subspecies	JAK Sai	taxon		
 Homo sapiens Australian Aboriginal	Homo sapiens	subspecies		taxon		
@@ -578,36 +578,36 @@ Human herpesvirus 2 strain MS	Human alphaherpesvirus 2	subspecies		taxon
 Human herpesvirus 2 strain SAVAGE	Human alphaherpesvirus 2	subspecies		taxon		
 Human herpesvirus 3 H-551	Human alphaherpesvirus 3	subspecies		taxon		
 Human herpesvirus 3 strain Kawaguchi	Human alphaherpesvirus 3	subspecies	Kawaguchi	taxon		
-Human herpesvirus 4 Akata	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 BL36	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 BL72	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 BL74	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 CKL	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 d17	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 DH	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 GD1	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 MWI	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 ODHI	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 type A	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 type B	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 WW1	Human gammaherpesvirus 4	subspecies		taxon		
-Human herpesvirus 4 WW2	Human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 Akata	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 BL36	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 BL72	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 BL74	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 CKL	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 d17	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 DH	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 GD1	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 MWI	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 ODHI	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 type A	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 type B	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 WW1	human gammaherpesvirus 4	subspecies		taxon		
+Human herpesvirus 4 WW2	human gammaherpesvirus 4	subspecies		taxon		
 Human herpesvirus 5 (strain RV798)	Human betaherpesvirus 5	subspecies	RV798	taxon		
 Human herpesvirus 5 A8	Human betaherpesvirus 5	subspecies		taxon		
 Human herpesvirus 5 TB40	Human betaherpesvirus 5	subspecies		taxon		
 Human herpesvirus 6B HST	Human betaherpesvirus 6B	subspecies		taxon		
 Human immunodeficiency virus 1 IIIB	Human immunodeficiency virus 1	subspecies		taxon		
-Human metapneumovirus A1 NL/1/00	Human metapneumovirus	subspecies	NL/1/00	taxon		
-Human metapneumovirus A2 NL/00/17	Human metapneumovirus	subspecies		taxon		
-Human metapneumovirus A2 TN/94-49	Human metapneumovirus	subspecies	TN/94-49	taxon		
-Human metapneumovirus B1 NL/1/99	Human metapneumovirus	subspecies	NL/1/99	taxon		
-Human metapneumovirus strain Can83	Human metapneumovirus	subspecies	Can83	taxon		
+Human metapneumovirus A1 NL/1/00	human metapneumovirus	subspecies	NL/1/00	taxon		
+Human metapneumovirus A2 NL/00/17	human metapneumovirus	subspecies		taxon		
+Human metapneumovirus A2 TN/94-49	human metapneumovirus	subspecies	TN/94-49	taxon		
+Human metapneumovirus B1 NL/1/99	human metapneumovirus	subspecies	NL/1/99	taxon		
+Human metapneumovirus strain Can83	human metapneumovirus	subspecies	Can83	taxon		
 Human parvovirus B19 genotype 1	Human parvovirus B19	subspecies		taxon		
-Human poliovirus 2 (strain MEF-1)	Human poliovirus 2	subspecies	MEF-1	taxon		
-Human poliovirus 2 (strain Sabin)	Human poliovirus 2	subspecies	Sabin	taxon		
-Human poliovirus 3 (strain Sabin)	Human poliovirus 3	subspecies	Sabin	taxon		
-Human poliovirus 3 (strain Saukett)	Human poliovirus 3	subspecies	Saukett	taxon		
-Human poliovirus 3 3.370	Human poliovirus 3	subspecies		taxon		
+Human poliovirus 2 (strain MEF-1)	Poliovirus 2	subspecies	MEF-1	taxon		
+Human poliovirus 2 (strain Sabin)	Poliovirus 2	subspecies	Sabin	taxon		
+Human poliovirus 3 (strain Sabin)	Poliovirus 3	subspecies	Sabin	taxon		
+Human poliovirus 3 (strain Saukett)	Poliovirus 3	subspecies	Saukett	taxon		
+Human poliovirus 3 3.370	Poliovirus 3	subspecies		taxon		
 Human respiratory syncytial virus A CH287	Human respiratory syncytial virus A	subspecies	1096	taxon		
 Human respiratory syncytial virus A Mon/3/88	Human respiratory syncytial virus A	subspecies	Montevideo/3/88	taxon		
 Human respiratory syncytial virus A strain RGH	Human respiratory syncytial virus A	subspecies	RGH	taxon		
@@ -617,8 +617,8 @@ Human respiratory syncytial virus B WV1293	Human respiratory syncytial virus B	s
 Human respiratory syncytial virus B WV3212	Human respiratory syncytial virus B	subspecies	1090	taxon		
 Human respiratory syncytial virus B WV4843	Human respiratory syncytial virus B	subspecies	1092	taxon		
 Human respiratory syncytial virus B WV6873	Human respiratory syncytial virus B	subspecies	1100	taxon		
-Human rhinovirus 2 Vienna	Human rhinovirus A2	subspecies		taxon		
-Human rhinovirus 2 Wellcome	Human rhinovirus A2	subspecies		taxon		
+Human rhinovirus 2 Vienna	rhinovirus A2	subspecies		taxon		
+Human rhinovirus 2 Wellcome	rhinovirus A2	subspecies		taxon		
 Human rotavirus 4 strain Hochi	Rotavirus G4	subspecies	Hochi	taxon		
 Human rotavirus A Serotype 3 strain YO	Human rotavirus A	subspecies	YO|human rotavirus 3|serotype 3|strain YO	taxon		
 Human rotavirus G9 WI61	Rotavirus G9	subspecies	WI61	taxon		
@@ -712,7 +712,7 @@ Japanese encephalitis virus K87P39	Japanese encephalitis virus	subspecies		taxon
 Japanese encephalitis virus strain SA-14 -14-2	Japanese encephalitis virus strain SA-14	subspecies	14-2	taxon		
 Japanese encephalitis virus Vellore P20778	Japanese encephalitis virus	subspecies	Vellore P20778	taxon		
 JC polyomavirus strain MAD1	JC polyomavirus	subspecies		taxon		
-Junin virus strain MC2	Argentinian mammarenavirus	subspecies		taxon		
+Junin virus strain MC2	Mammarenavirus juninense	subspecies		taxon		
 K18 hACE2 transgenic mouse	Mus musculus C57BL/6 x SJL	subspecies	B6.Cg-Tg(K18-ACE2)2Prlmn/J	taxon		
 Klebsiella pneumoniae type 21	Klebsiella pneumoniae	subspecies		taxon		
 Klebsiella pneumoniae type 30	Klebsiella pneumoniae	subspecies		taxon		
@@ -753,12 +753,12 @@ Lymphocytic choriomeningitis virus (strain Armstrong) (clone 53b)	Lymphocytic ch
 Lymphocytic choriomeningitis virus (strain Armstrong) (strain CA 1371)	Lymphocytic choriomeningitis virus (strain Armstrong)	subspecies		taxon		
 Lymphocytic choriomeningitis virus (strain WE) variant 8.7	Lymphocytic choriomeningitis virus (strain WE)	subspecies		taxon		
 Lymphocytic choriomeningitis virus (strain WE) WE CL1.2	Lymphocytic choriomeningitis virus (strain WE)	subspecies		taxon		
-Lymphocytic choriomeningitis virus 8.7B23	Lymphocytic choriomeningitis mammarenavirus	subspecies		taxon		
-Lymphocytic choriomeningitis virus A22.2b	Lymphocytic choriomeningitis mammarenavirus	subspecies		taxon		
-Lymphocytic choriomeningitis virus Docile	Lymphocytic choriomeningitis mammarenavirus	subspecies		taxon		
-Lymphocytic choriomeningitis virus ESC	Lymphocytic choriomeningitis mammarenavirus	subspecies		taxon		
-Lymphocytic choriomeningitis virus UBC	Lymphocytic choriomeningitis mammarenavirus	subspecies		taxon		
-Machupo virus strain Carvallo	Machupo mammarenavirus	subspecies		taxon		
+Lymphocytic choriomeningitis virus 8.7B23	Mammarenavirus choriomeningitidis	subspecies		taxon		
+Lymphocytic choriomeningitis virus A22.2b	Mammarenavirus choriomeningitidis	subspecies		taxon		
+Lymphocytic choriomeningitis virus Docile	Mammarenavirus choriomeningitidis	subspecies		taxon		
+Lymphocytic choriomeningitis virus ESC	Mammarenavirus choriomeningitidis	subspecies		taxon		
+Lymphocytic choriomeningitis virus UBC	Mammarenavirus choriomeningitidis	subspecies		taxon		
+Machupo virus strain Carvallo	Mammarenavirus machupoense	subspecies		taxon		
 Mannheimia haemolytica serotype 10	Mannheimia haemolytica	subspecies	serotype 10	taxon		
 Mannheimia haemolytica serotype 3	Mannheimia haemolytica	subspecies	serotype 3	taxon		
 Measles virus CAM/RB	Measles morbillivirus	subspecies	CAM/RBH	taxon		
@@ -1432,7 +1432,7 @@ Mus musculus Xenomouse	Mus musculus Uncategorized	subspecies		taxon
 Mus musculus YA26 TCR Tg	Mus musculus TCR transgenic	subspecies	CSP|PyCSP (280-288)-specific TCR Tg|SYVPSAEQI-specific TCR Tg|circumsporozoite	taxon		
 Mus musculus µMT	Mus musculus Uncategorized	subspecies	µMT|mMt|muMt|uMt|µMt	taxon		
 Muscovy duck reovirus S12	Muscovy duck reovirus	subspecies		taxon		
-Mustela vison Black	Neovison vison	subspecies		taxon		
+Mustela vison Black	Neogale vison	subspecies		taxon		
 Mycobacterium avium serovar 1	Mycobacterium avium	subspecies		taxon		
 Mycobacterium avium serovar 2	Mycobacterium avium	subspecies		taxon		
 Mycobacterium avium serovar 21	Mycobacterium avium	subspecies		taxon		
@@ -1456,7 +1456,7 @@ Mycobacterium kansasii Subspecies IV	Mycobacterium kansasii	subspecies		taxon
 Mycobacterium kansasii Subspecies V	Mycobacterium kansasii	subspecies		taxon		
 Mycobacterium tuberculosis 103	Mycobacterium tuberculosis	subspecies		taxon		
 Mycobacterium tuberculosis Erdman	Mycobacterium tuberculosis	subspecies		taxon		
-Mycoplasma gallisepticum strain IHB1	Mycoplasma gallisepticum	subspecies	IHB1	taxon		
+Mycoplasma gallisepticum strain IHB1	Mycoplasmoides gallisepticum	subspecies	IHB1	taxon		
 Neisseria gonorrhoeae 15253	Neisseria gonorrhoeae	subspecies	15253	taxon		
 Neisseria gonorrhoeae 4505	Neisseria gonorrhoeae	subspecies		taxon		
 Neisseria gonorrhoeae ATCC 33084 / F62 / M-1914	Neisseria gonorrhoeae	subspecies	ATCC33084|F 62	taxon		
@@ -1522,12 +1522,12 @@ Neisseria meningitidis serogroup Y strain S3790	Neisseria meningitidis serogroup
 Neisseria meningitidis serogroup Z strain C65	Neisseria meningitidis serogroup Z	subspecies		taxon		
 Neisseria meningitidis strain 3006	Neisseria meningitidis	subspecies	3006	taxon		
 Neisseria meningitidis strain 6155	Neisseria meningitidis	subspecies		taxon		
-Newcastle disease virus (strain Eaves)	Avian orthoavulavirus 1	subspecies	Eaves, Grimes	taxon		
-Newcastle disease virus (strain KBNP-4152)	Avian orthoavulavirus 1	subspecies	4152|KBNP|KBNP 4152|KBNP-4152	taxon		
-Newcastle disease virus (strain La Sota)	Avian orthoavulavirus 1	subspecies	La Sota	taxon		
-Newcastle disease virus (strain MC110)	Avian orthoavulavirus 1	subspecies	MC110	taxon		
-Newcastle disease virus (strain WA2116)	Avian orthoavulavirus 1	subspecies	WA2116	taxon		
-Newcastle disease virus Kr-005/00	Avian orthoavulavirus 1	subspecies		taxon		
+Newcastle disease virus (strain Eaves)	avian paramyxovirus 1	subspecies	Eaves, Grimes	taxon		
+Newcastle disease virus (strain KBNP-4152)	avian paramyxovirus 1	subspecies	4152|KBNP|KBNP 4152|KBNP-4152	taxon		
+Newcastle disease virus (strain La Sota)	avian paramyxovirus 1	subspecies	La Sota	taxon		
+Newcastle disease virus (strain MC110)	avian paramyxovirus 1	subspecies	MC110	taxon		
+Newcastle disease virus (strain WA2116)	avian paramyxovirus 1	subspecies	WA2116	taxon		
+Newcastle disease virus Kr-005/00	avian paramyxovirus 1	subspecies		taxon		
 Norovirus genogroup 1 GI.12	Norovirus GI	subspecies		taxon		
 Norovirus genogroup 1 isolates 96-908	Norovirus genogroup 1 isolates	subspecies	96-908	taxon		
 Norovirus genogroup 2 Camberwell 1890	Norovirus GII	subspecies		taxon		
@@ -1573,14 +1573,14 @@ Ovis aries Romanov	Ovis aries	subspecies		taxon
 Paracoccidioides brasiliensis B339	Paracoccidioides brasiliensis	subspecies		taxon		
 Pasteurella multocida C51-12	Pasteurella multocida	subspecies	C51-12	taxon		
 Pasteurella multocida X-73	Pasteurella multocida	subspecies	X73	taxon		
-Peste-des-petits-ruminants virus (strain Nigeria 75/1)	Small ruminant morbillivirus	subspecies	Nigeria|Nigeria 75/1	taxon		
-Peste-des-petits-ruminants virus China/Tibet/Geg/07-30	Small ruminant morbillivirus	subspecies	China/Tibet/Geg/07-30	taxon		
-Peste-des-petits-ruminants virus Ivory Coast 1989	Small ruminant morbillivirus	subspecies	IC 89|Peste des petits ruminants virus Ivory Coast 1989	taxon		
-Peste-des-petits-ruminants virus Sungri-96	Small ruminant morbillivirus	subspecies	Sungri/96	taxon		
+Peste-des-petits-ruminants virus (strain Nigeria 75/1)	Morbillivirus caprinae	subspecies	Nigeria|Nigeria 75/1	taxon		
+Peste-des-petits-ruminants virus China/Tibet/Geg/07-30	Morbillivirus caprinae	subspecies	China/Tibet/Geg/07-30	taxon		
+Peste-des-petits-ruminants virus Ivory Coast 1989	Morbillivirus caprinae	subspecies	IC 89|Peste des petits ruminants virus Ivory Coast 1989	taxon		
+Peste-des-petits-ruminants virus Sungri-96	Morbillivirus caprinae	subspecies	Sungri/96	taxon		
 Phocine distemper virus 2558/Han 88	Phocine morbillivirus	subspecies	Han.88	taxon		
 Phocine distemper virus 5804/Han 90	Phocine morbillivirus	subspecies	Han.90	taxon		
-Pichinde virus AN3739	Cali mammarenavirus	subspecies		taxon		
-Pichinde virus strain Munchique	Cali mammarenavirus	subspecies		taxon		
+Pichinde virus AN3739	Mammarenavirus caliense	subspecies		taxon		
+Pichinde virus strain Munchique	Mammarenavirus caliense	subspecies		taxon		
 Plant virus (DNA)	DNA virus	subspecies		taxon		
 Plant virus (RNA)	RNA virus	subspecies		taxon		
 Plasmodium berghei Kyberg 173	Plasmodium berghei	subspecies	PbK173	taxon		
@@ -1731,15 +1731,15 @@ Pseudomonas syringae pv. phaseolicola str. GSPB 1552	Pseudomonas savastanoi pv. 
 Pseudomonas syringae pv. phaseolicola str. IMV 120a	Pseudomonas savastanoi pv. phaseolicola	subspecies		taxon		
 Pseudomonas syringae pv. tagetis str. ICMP 6370	Pseudomonas syringae pv. tagetis	subspecies		taxon		
 Puumala virus (STRAIN HALLNAS B1) Vranica/Hallnas	Puumala virus Hallnas B1	subspecies		taxon		
-Puumala virus (strain Umea/hu)	Puumala orthohantavirus	subspecies	Umea/hu	taxon		
-Puumala virus CG18-20	Puumala orthohantavirus	subspecies		taxon		
-Puumala virus Kazan	Puumala orthohantavirus	subspecies		taxon		
+Puumala virus (strain Umea/hu)	Orthohantavirus puumalaense	subspecies	Umea/hu	taxon		
+Puumala virus CG18-20	Orthohantavirus puumalaense	subspecies		taxon		
+Puumala virus Kazan	Orthohantavirus puumalaense	subspecies		taxon		
 Rabbit hemorrhagic disease virus Olot/89	Rabbit hemorrhagic disease virus	subspecies		taxon		
-Rabies virus CVS	Rabies lyssavirus	subspecies		taxon		
+Rabies virus CVS	Lyssavirus rabies	subspecies		taxon		
 Rabies virus CVS-24	Rabies virus CVS	subspecies		taxon		
 Rabies virus CVS-F3	Rabies virus CVS	subspecies		taxon		
-Rabies virus Flury LEP	Rabies lyssavirus	subspecies		taxon		
-Rabies virus RC-HL	Rabies lyssavirus	subspecies		taxon		
+Rabies virus Flury LEP	Lyssavirus rabies	subspecies		taxon		
+Rabies virus RC-HL	Lyssavirus rabies	subspecies		taxon		
 Rattus norvegicus ACI	Rattus norvegicus	subspecies		taxon		
 Rattus norvegicus Albino Oxford	Rattus norvegicus	subspecies	AO	taxon		
 Rattus norvegicus BioBreeding	Rattus norvegicus	subspecies	BB	taxon		
@@ -1786,7 +1786,7 @@ Rattus norvegicus WKAH	Rattus norvegicus	subspecies	WKA/H	taxon
 Rattus norvegicus WKAH X LEW	Rattus norvegicus	subspecies	Lewis X WKA|WKA X LEW	taxon		
 Reticuloendotheliosis virus strain HLJ07I	Reticuloendotheliosis virus	subspecies		taxon		
 Rhesus rotavirus MMU 18006	Simian rotavirus A strain RRV	subspecies	ATCC VR-1739|mmu 18006	taxon		
-Rhodococcus equi ATCC103+	Rhodococcus hoagii	subspecies		taxon		
+Rhodococcus equi ATCC103+	Prescottella equi	subspecies		taxon		
 Rift Valley fever virus Entebbe	Rift Valley fever virus	subspecies		taxon		
 Rift Valley fever virus ZH501	Rift Valley fever virus	subspecies		taxon		
 Rinderpest virus (strain Egypt)	Rinderpest morbillivirus	subspecies	Egypt	taxon		
@@ -1817,9 +1817,9 @@ Salmonella enterica subsp. enterica serovar Dublin EL23	Salmonella enterica subs
 Salmonella enterica subsp. enterica serovar Enteritidis SH1262	Salmonella enterica subsp. enterica serovar Enteritidis	subspecies		taxon		
 Salmonella enterica subsp. enterica serovar Enteritidis str. SH 2204	Salmonella enterica subsp. enterica serovar Enteritidis	subspecies	SH 2204	taxon		
 Salmonella enterica subsp. enterica serovar Gallinarum Pullorum str. 77	Salmonella enterica subsp. enterica serovar Gallinarum	subspecies	Pullorum	taxon		
-Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 11	Salmonella enterica subsp. enterica serovar Gallinarum/pullorum	subspecies		taxon		
-Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 4	Salmonella enterica subsp. enterica serovar Gallinarum/pullorum	subspecies		taxon		
-Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 77	Salmonella enterica subsp. enterica serovar Gallinarum/pullorum	subspecies		taxon		
+Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 11	Salmonella enterica subsp. enterica serovar Gallinarum/Pullorum	subspecies		taxon		
+Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 4	Salmonella enterica subsp. enterica serovar Gallinarum/Pullorum	subspecies		taxon		
+Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. 77	Salmonella enterica subsp. enterica serovar Gallinarum/Pullorum	subspecies		taxon		
 Salmonella enterica subsp. enterica serovar Heidelberg 01D3969-14	Salmonella enterica subsp. enterica serovar Heidelberg	subspecies		taxon		
 Salmonella enterica subsp. enterica serovar Heidelberg 7736	Salmonella enterica subsp. enterica serovar Heidelberg	subspecies	7736	taxon		
 Salmonella enterica subsp. enterica serovar Heidelberg O1D5997 31-7	Salmonella enterica subsp. enterica serovar Heidelberg	subspecies	Type 8	taxon		
@@ -1839,7 +1839,7 @@ Salmonella enterica subsp. enterica serovar Typhimurium SL1102	Salmonella enteri
 Salmonella enterica subsp. enterica serovar Typhimurium str. 324	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon		
 Salmonella enterica subsp. enterica serovar Typhimurium str. BRD509	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies	BRD509	taxon		
 Salmonella enteritidis Br'203bM (O9,12)	Salmonella enterica subsp. enterica serovar Enteritidis	subspecies		taxon		
-Salmonella thompson C1 strain IS40	Salmonella thompson C1	subspecies	IS40	taxon		
+Salmonella thompson C1 strain IS40	Salmonella enterica subsp. enterica serovar Thompson str. C1	subspecies	IS40	taxon		
 Salmonella typhi 620Ty	Salmonella enterica subsp. enterica serovar Typhi	subspecies		taxon		
 Salmonella typhi Ty21a	Salmonella enterica subsp. enterica serovar Typhi	subspecies		taxon		
 Salmonella typhimurium chi3987(pYALTB-D) V	Salmonella enterica subsp. enterica serovar Typhimurium	subspecies		taxon		
@@ -1854,8 +1854,8 @@ SARS-CoV1	Severe acute respiratory syndrome-related coronavirus	species	SARS-1	t
 Schistosoma japonicum strain Chinese	Schistosoma japonicum	subspecies		taxon		
 Schistosoma japonicum strain Philippine	Schistosoma japonicum	subspecies		taxon		
 Schistosoma mansoni Puerto Rico	Schistosoma mansoni	subspecies	NMRI	taxon		
-Sendai virus (MN)	Murine respirovirus	subspecies	Sendai virus strain MN	taxon		
-Sendai virus strain P3193	Murine respirovirus	subspecies		taxon		
+Sendai virus (MN)	Respirovirus muris	subspecies	Sendai virus strain MN	taxon		
+Sendai virus strain P3193	Respirovirus muris	subspecies		taxon		
 Serratia marcescens 18021	Serratia marcescens	subspecies		taxon		
 Shigella dysenteriae serotype 1	Shigella dysenteriae	subspecies		taxon		
 Shigella dysenteriae serotype 1 114Sd	Shigella dysenteriae serotype 1	subspecies	Shigella dysenteriae 114Sd	taxon		
@@ -1872,9 +1872,9 @@ Simian immunodeficiency virus - mac - mac BK28	Simian immunodeficiency virus - m
 Simian immunodeficiency virus - mac - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon		
 Simian immunodeficiency virus - sm - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon		
 Simian immunodeficiency virus - sm - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon		
-Simian virus 40 strain 776	Macaca mulatta polyomavirus 1	subspecies		taxon		
-Simian virus 40 VA45-54	Macaca mulatta polyomavirus 1	subspecies	VA45-54	taxon		
-Sin Nombre virus NM H10	Sin Nombre orthohantavirus	subspecies	NMH10	taxon		
+Simian virus 40 strain 776	Betapolyomavirus macacae	subspecies		taxon		
+Simian virus 40 VA45-54	Betapolyomavirus macacae	subspecies	VA45-54	taxon		
+Sin Nombre virus NM H10	Orthohantavirus sinnombreense	subspecies	NMH10	taxon		
 Sindbis virus strain AR339	Sindbis virus	subspecies	AR339	taxon		
 Small ruminant lentivirus strain It-561	Small ruminant lentivirus	subspecies	It-561	taxon		
 Small ruminant lentivirus strain It-Pi1	Small ruminant lentivirus	subspecies	It-Pi1	taxon		
@@ -2029,13 +2029,13 @@ Trypanosoma cruzi Silvio X-10/4	Trypanosoma cruzi	subspecies		taxon
 Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
 Trypanosoma cruzi Tulahuen	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi Y	Trypanosoma cruzi	subspecies		taxon		
-Vaccinia virus Acambis 2000	Vaccinia virus	subspecies	Acam2000	taxon		
-Vaccinia virus Connaught	Vaccinia virus	subspecies	Connaught	taxon		
-Vaccinia virus Elstree (LS)	Vaccinia virus	subspecies	Elstree|LS	taxon		
-Vaccinia virus iA17L	Vaccinia virus	subspecies		taxon		
-Vaccinia virus NYCBH - Dryvax	Vaccinia virus	subspecies		taxon		
-Vaccinia virus Praha	Vaccinia virus	subspecies	PRAHA	taxon		
-Vaccinia virus vSC8	Vaccinia virus	subspecies		taxon		
+Vaccinia virus Acambis 2000	Orthopoxvirus vaccinia	subspecies	Acam2000	taxon		
+Vaccinia virus Connaught	Orthopoxvirus vaccinia	subspecies	Connaught	taxon		
+Vaccinia virus Elstree (LS)	Orthopoxvirus vaccinia	subspecies	Elstree|LS	taxon		
+Vaccinia virus iA17L	Orthopoxvirus vaccinia	subspecies		taxon		
+Vaccinia virus NYCBH - Dryvax	Orthopoxvirus vaccinia	subspecies		taxon		
+Vaccinia virus Praha	Orthopoxvirus vaccinia	subspecies	PRAHA	taxon		
+Vaccinia virus vSC8	Orthopoxvirus vaccinia	subspecies		taxon		
 Variola major virus India-1967	Variola major virus	subspecies		taxon		
 Vibrio cholerae O1 serotype Inaba	Vibrio cholerae O1	subspecies		taxon		
 Vibrio cholerae O1 serotype Ogawa	Vibrio cholerae O1	subspecies		taxon		
@@ -2062,7 +2062,7 @@ West Nile virus strain 956	West Nile virus	subspecies	956	taxon
 West Nile virus strain Chin01	West Nile virus	subspecies		taxon		
 West Nile virus strain Goldblum	West Nile virus	subspecies	Goldblum	taxon		
 West Nile virus strain ISR98	West Nile virus	subspecies	ISR98	taxon		
-Whitewater Arroyo virus strain AV9310135	Whitewater Arroyo mammarenavirus	subspecies		taxon		
+Whitewater Arroyo virus strain AV9310135	Mammarenavirus whitewaterense	subspecies		taxon		
 Yellow fever virus CNYF01/2016	Yellow fever virus	subspecies	CNYF01/2016|China	taxon		
 Yersinia enterocolitica (type 0:8) WA-314	Yersinia enterocolitica (type O:8)	subspecies		taxon		
 Yersinia enterocolitica (type 0:8) WA-314 sodA	Yersinia enterocolitica (type 0:8) WA-314	subspecies		taxon		

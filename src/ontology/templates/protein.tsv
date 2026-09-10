@@ -16,7 +16,7 @@ LABEL	SC %	A alternative term SPLIT=|	A IEDB alternative term SPLIT=|	A ONTIE do
 2-dehydro-3-deoxygluconokinase (Coxiella burnetii)	protein		2-dehydro-3-deoxygluconokinase	protein	Coxiella burnetii
 2-dehydro-3-deoxyphosphooctonate aldolase (Coxiella burnetii)	protein	3-deoxy-D-manno-octulosonic acid 8-phosphate synthase|KDO 8-P synthase|KDO-8-phosphate synthase|KDOPS|Phospho-2-dehydro-3-deoxyoctonate aldolase	2-dehydro-3-deoxyphosphooctonate aldolase	protein	Coxiella burnetii
 23K endopeptidase (Human adenovirus 2)	protein		23K endopeptidase	protein	Human adenovirus 2
-25 kDa core protein A12L (Vaccinia virus)	protein		25 kDa core protein A12L	protein	Vaccinia virus
+25 kDa core protein A12L (Vaccinia virus)	protein		25 kDa core protein A12L	protein	Orthopoxvirus vaccinia
 2S seed storage protein 1 (Sesamum indicum)	protein	2S albumin storage protein|Beta-globulin	2S seed storage protein 1	protein	Sesamum indicum
 2S sulfur-rich seed storage protein 1 (Bertholletia excelsa)	protein		2S sulfur-rich seed storage protein 1	protein	Bertholletia excelsa
 30S ribosomal protein S1 (Mycolicibacterium smegmatis)	protein		30S ribosomal protein S1	protein	Mycolicibacterium smegmatis
@@ -98,7 +98,7 @@ alpha/beta gliadin precursor (Triticum aestivum)	protein		alpha/beta gliadin pre
 alpha1A-voltage-dependent calcium channel (Homo sapiens)	protein		alpha1A-voltage-dependent calcium channel	protein	Homo sapiens
 Alternate genetic product (Ehrlichia ruminantium)	protein		Alternate genetic product	protein	Ehrlichia ruminantium
 Alternate genetic product (Human alphaherpesvirus 1)	protein		Alternate genetic product	protein	Human alphaherpesvirus 1
-Alternate genetic product (Human gammaherpesvirus 4)	protein		Alternate genetic product	protein	Human gammaherpesvirus 4
+Alternate genetic product (Human gammaherpesvirus 4)	protein		Alternate genetic product	protein	human gammaherpesvirus 4
 Alternate genetic product (Murine leukemia virus)	protein		Alternate genetic product	protein	Murine leukemia virus
 alternatively spliced Insulin (Homo sapiens)	protein	alternate	alternatively spliced Insulin	protein	Homo sapiens
 Amb p 5 (Ambrosia psilostachya)	protein		Amb p 5	protein	Ambrosia psilostachya
@@ -109,7 +109,7 @@ anaphase-promoting complex (Mus musculus)	protein		anaphase-promoting complex	pr
 androgen receptor (Homo sapiens)	protein		androgen receptor	protein	Homo sapiens
 angiotensin-converting enzyme isoform 1 (Homo sapiens)	protein	angiotensin converting enzyme isoform 1	angiotensin-converting enzyme isoform 1	protein	Homo sapiens
 ankyrin repeat domain 30B (Homo sapiens)	protein		ankyrin repeat domain 30B	protein	Homo sapiens
-Ankyrin repeat protein 14 (Vaccinia virus)	protein		Ankyrin repeat protein 14	protein	Vaccinia virus
+Ankyrin repeat protein 14 (Vaccinia virus)	protein		Ankyrin repeat protein 14	protein	Orthopoxvirus vaccinia
 anoctamin-9 (Homo sapiens)	protein		anoctamin-9	protein	Homo sapiens
 antigen 5 (Glossina morsitans)	protein	Ag5	antigen 5	protein	Glossina morsitans
 Antigen 85-B (Mycobacterium leprae)	protein		Antigen 85-B	protein	Mycobacterium leprae
@@ -149,7 +149,7 @@ band 3 anion transport protein (Mus musculus)	protein		band 3 anion transport pr
 basic helix-loop-helix domain-containing protein USF3 (Homo sapiens)	protein	Upstream transcription factor 3	basic helix-loop-helix domain-containing protein USF3	protein	Homo sapiens
 Basic phospholipase A2 (Micrurus corallinus)	protein	Phosphatidylcholine 2-acylhydrolase|svPLA2	Basic phospholipase A2	protein	Micrurus corallinus
 bcl-2-like neoepitope protein 13 (Homo sapiens)	protein	BCL2L13	bcl-2-like neoepitope protein 13	protein	Homo sapiens
-BcRF1 (Human gammaherpesvirus 4)	protein	HHV4tp2_gp59	BcRF1	protein	Human gammaherpesvirus 4
+BcRF1 (Human gammaherpesvirus 4)	protein	HHV4tp2_gp59	BcRF1	protein	human gammaherpesvirus 4
 beta-1 adrenergic receptor (Meleagris gallopavo)	protein		beta-1 adrenergic receptor	protein	Meleagris gallopavo
 beta-1,3-galactosyltransferase 6 (Homo sapiens)	protein	B3GALT6 protein	beta-1,3-galactosyltransferase 6	protein	Homo sapiens
 Beta-2-glycoprotein 1 (Homo sapiens)	protein	APC inhibitor|Activated protein C-binding protein|Anticardiolipin cofactor|Apo-H|Apolipoprotein H|B2GPI|Beta(2)GPI|Beta-2-glycoprotein I	Beta-2-glycoprotein 1	protein	Homo sapiens
@@ -171,7 +171,7 @@ Bruton agammaglobulinemia tyrosine kinase (Homo sapiens)	protein		Bruton agammag
 bullous pemphigoid antigen (Homo sapiens)	protein	BPA|Dystonia musculorum protein|Dystonin	bullous pemphigoid antigen	protein	Homo sapiens
 Butyrophilin subfamily 1 member A1 (Bos taurus)	protein	BT	Butyrophilin subfamily 1 member A1	protein	Bos taurus
 butyrophilin subfamily 2 member A2 isoform a (Homo sapiens)	protein		butyrophilin subfamily 2 member A2 isoform a	protein	Homo sapiens
-BZLF1 (Human gammaherpesvirus 4)	protein		BZLF1	protein	Human gammaherpesvirus 4
+BZLF1 (Human gammaherpesvirus 4)	protein		BZLF1	protein	human gammaherpesvirus 4
 C-C motif chemokine 3 (Homo sapiens)	protein	G0/G1 switch regulatory protein 19-1|MIP-1-alpha|Macrophage inflammatory protein 1-alpha|PAT 464.1|SIS-beta|Small-inducible cytokine A3|Tonsillar lymphocyte LD78 alpha protein	C-C motif chemokine 3	protein	Homo sapiens
 C-type lectin like protein (African swine fever virus)	protein	Lectin-like protein EP153R|lectin homolog|pEP153R	C-type lectin like protein	protein	African swine fever virus
 C2 (Tobacco leaf curl Zimbabwe virus)	protein	TlcZvgp4,C2	C2	protein	Tobacco leaf curl Zimbabwe virus
@@ -237,7 +237,7 @@ Clostridium Neurotoxin Type B (Clostridium botulinum)	protein	BontB	Clostridium 
 Clusterin (Mus musculus)	protein	Apo-J|Apolipoprotein J|Clustrin|SGP-2|Sulfated glycoprotein 2	Clusterin	protein	Mus musculus
 Coagulation factor IX (Homo sapiens)	protein	Christmas factor|PTC|Plasma thromboplastin component	Coagulation factor IX	protein	Homo sapiens
 Coagulation factor VIII (Homo sapiens)	protein	AHF|Antihemophilic factor|Procoagulant component	Coagulation factor VIII	protein	Homo sapiens
-Coat protein (Escherichia virus MS2)	protein		Coat protein	protein	Escherichia virus MS2
+Coat protein (Escherichia virus MS2)	protein		Coat protein	protein	Emesvirus zinderi
 Collagen alpha 1(II) chain precursor (Homo sapiens)	protein	COL2A1	Collagen alpha 1(II) chain precursor	protein	Homo sapiens
 collagen alpha-1(I) chain precursor (Mus musculus)	protein		collagen alpha-1(I) chain precursor	protein	Mus musculus
 Collagen alpha-1(II) chain (Bos taurus)	protein	Alpha-1 type II collagen	Collagen alpha-1(II) chain	protein	Bos taurus
@@ -263,8 +263,8 @@ Conserved domain protein (Coxiella burnetii)	protein		Conserved domain protein	p
 CONSERVED HYPOTHETICAL PROTEIN (Mycobacterium)	protein		CONSERVED HYPOTHETICAL PROTEIN	protein	Mycobacterium
 conserved Plasmodium protein (Plasmodium berghei)	protein		conserved Plasmodium protein	protein	Plasmodium berghei
 conserved Plasmodium protein, unknown function (Plasmodium falciparum)	protein	PFE0230w	conserved Plasmodium protein, unknown function	protein	Plasmodium falciparum
-Core phosphoprotein F17 (Vaccinia virus)	protein		Core phosphoprotein F17	protein	Vaccinia virus
-Core protein E11 (Vaccinia virus)	protein		Core protein E11	protein	Vaccinia virus
+Core phosphoprotein F17 (Vaccinia virus)	protein		Core phosphoprotein F17	protein	Orthopoxvirus vaccinia
+Core protein E11 (Vaccinia virus)	protein		Core protein E11	protein	Orthopoxvirus vaccinia
 coronin-1A (Homo sapiens)	protein		coronin-1A	protein	Homo sapiens
 Cruzipain (Trypanosoma cruzi)	protein	Cruzaine|Major cysteine proteinase	Cruzipain	protein	Trypanosoma cruzi
 Cry3Aa (Bacillus thuringiensis)	protein	CryIIIAa	Cry3Aa	protein	Bacillus thuringiensis
@@ -319,27 +319,27 @@ Diphtheria toxin (Corynebacterium diphtheriae)	protein		Diphtheria toxin	protein
 disintegrin and metalloproteinase with thrombospondin motifs 13 (Homo sapiens)	protein		disintegrin and metalloproteinase with thrombospondin motifs 13	protein	Homo sapiens
 Disks large-associated protein 5 (Homo sapiens)	protein	DAP-5	Disks large-associated protein 5	protein	Homo sapiens
 DNA helicase (Murid betaherpesvirus 1)	protein	MuHV1_gpM105	DNA helicase	protein	Murid betaherpesvirus 1
-DNA helicase (Vaccinia virus)	protein		DNA helicase	protein	Vaccinia virus
+DNA helicase (Vaccinia virus)	protein		DNA helicase	protein	Orthopoxvirus vaccinia
 DNA helicase INO80 (Mus musculus)	protein	INO80 complex subunit A	DNA helicase INO80	protein	Mus musculus
 DNA packaging tegument protein UL25 (Human alphaherpesvirus 1)	protein		DNA packaging tegument protein UL25	protein	Human alphaherpesvirus 1
 DNA packaging tegument protein UL25 (Human alphaherpesvirus 2)	protein		DNA packaging tegument protein UL25	protein	Human alphaherpesvirus 2
 DNA packaging tegument protein UL25 (Human alphaherpesvirus 3)	protein		DNA packaging tegument protein UL25	protein	Human alphaherpesvirus 3
-DNA polymerase (Vaccinia virus)	protein		DNA polymerase	protein	Vaccinia virus
+DNA polymerase (Vaccinia virus)	protein		DNA polymerase	protein	Orthopoxvirus vaccinia
 DNA polymerase delta (Homo sapiens)	protein		DNA polymerase delta	protein	Homo sapiens
 DNA polymerase III subunit gamma/tau (Salmonella enterica)	protein		DNA polymerase III subunit gamma/tau	protein	Salmonella enterica
 DNA polymerase lambda (Homo sapiens)	protein	DNA polymerase beta-2|DNA polymerase kappa|Pol Lambda|Pol beta2	DNA polymerase lambda	protein	Homo sapiens
-DNA polymerase processivity factor BMRF1 (Human gammaherpesvirus 4)	protein	EA-D|Early antigen protein D|Polymerase accessory subunit	DNA polymerase processivity factor BMRF1	protein	Human gammaherpesvirus 4
-DNA polymerase processivity factor component A20 (Vaccinia virus)	protein		DNA polymerase processivity factor component A20	protein	Vaccinia virus
+DNA polymerase processivity factor BMRF1 (Human gammaherpesvirus 4)	protein	EA-D|Early antigen protein D|Polymerase accessory subunit	DNA polymerase processivity factor BMRF1	protein	human gammaherpesvirus 4
+DNA polymerase processivity factor component A20 (Vaccinia virus)	protein		DNA polymerase processivity factor component A20	protein	Orthopoxvirus vaccinia
 DNA polymerase processivity subunit (Human betaherpesvirus 6A)	protein	PP41|Phosphoprotein P41	DNA polymerase processivity subunit	protein	Human betaherpesvirus 6A
 DNA processivity factor (Human betaherpesvirus 5)	protein		DNA processivity factor	protein	Human betaherpesvirus 5
 DNA repair endonuclease (Plasmodium berghei)	protein		DNA repair endonuclease	protein	Plasmodium berghei
 DNA replication licensing factor MCM5 (Homo sapiens)	protein		DNA replication licensing factor MCM5	protein	Homo sapiens
 DNA topoisomerase I (Coxiella burnetii)	protein		DNA topoisomerase I	protein	Coxiella burnetii
 DNA-binding protein, putative (Coxiella burnetii)	protein		DNA-binding protein, putative	protein	Coxiella burnetii
-DNA-directed RNA polymerase 133 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 133 kDa polypeptide	protein	Vaccinia virus
-DNA-directed RNA polymerase 147 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 147 kDa polypeptide	protein	Vaccinia virus
-DNA-directed RNA polymerase 30 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 30 kDa polypeptide	protein	Vaccinia virus
-DNA-directed RNA polymerase 35 kDa subunit (Vaccinia virus)	protein		DNA-directed RNA polymerase 35 kDa subunit	protein	Vaccinia virus
+DNA-directed RNA polymerase 133 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 133 kDa polypeptide	protein	Orthopoxvirus vaccinia
+DNA-directed RNA polymerase 147 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 147 kDa polypeptide	protein	Orthopoxvirus vaccinia
+DNA-directed RNA polymerase 30 kDa polypeptide (Vaccinia virus)	protein		DNA-directed RNA polymerase 30 kDa polypeptide	protein	Orthopoxvirus vaccinia
+DNA-directed RNA polymerase 35 kDa subunit (Vaccinia virus)	protein		DNA-directed RNA polymerase 35 kDa subunit	protein	Orthopoxvirus vaccinia
 docking protein 2 (Homo sapiens)	protein		docking protein 2	protein	Homo sapiens
 Drosocrystallin (Drosophila melanogaster)	protein		Drosocrystallin	protein	Drosophila melanogaster
 dual specificity mitogen-activated protein kinase kinase 4 (Homo sapiens)	protein		dual specificity mitogen-activated protein kinase kinase 4	protein	Homo sapiens
@@ -351,14 +351,14 @@ E1A 26 kDa protein (Human adenovirus 5)	protein		E1A 26 kDa protein	protein	Huma
 E2 protein (Western equine encephalitis virus)	protein		E2 protein	protein	Western equine encephalitis virus
 E3 ubiquitin-protein ligase (Homo sapiens)	protein		E3 ubiquitin-protein ligase	protein	Homo sapiens
 E4 (Mupapillomavirus 1)	protein		E4	protein	Mupapillomavirus 1
-E4 protein (Human papillomavirus type 16)	protein		E4 protein	protein	Human papillomavirus type 16
+E4 protein (Human papillomavirus type 16)	protein		E4 protein	protein	Human papillomavirus 16
 Early E1A 32 kDa protein (Human adenovirus 2)	protein		Early E1A 32 kDa protein	protein	Human adenovirus 2
 Early nuclear nonstructural protein (Murid betaherpesvirus 1)	protein	MuHV1_gpM84	Early nuclear nonstructural protein	protein	Murid betaherpesvirus 1
-early phosphoprotein P34 (Human gammaherpesvirus 4)	protein		early phosphoprotein P34	protein	Human gammaherpesvirus 4
-Early transcription factor 82 kDa subunit (Vaccinia virus)	protein	ETF large subunit|VETF A7 subunit|VETF large subunit|Vaccinia virus early transcription factor large subunit	Early transcription factor 82 kDa subunit	protein	Vaccinia virus
-EBNA-1 (Human gammaherpesvirus 4)	protein		EBNA-1	protein	Human gammaherpesvirus 4
-EBNA-3B (Human gammaherpesvirus 4)	protein		EBNA-3B	protein	Human gammaherpesvirus 4
-EBNA-LP (Human gammaherpesvirus 4)	protein	HHV4tp2_gp05	EBNA-LP	protein	Human gammaherpesvirus 4
+early phosphoprotein P34 (Human gammaherpesvirus 4)	protein		early phosphoprotein P34	protein	human gammaherpesvirus 4
+Early transcription factor 82 kDa subunit (Vaccinia virus)	protein	ETF large subunit|VETF A7 subunit|VETF large subunit|Vaccinia virus early transcription factor large subunit	Early transcription factor 82 kDa subunit	protein	Orthopoxvirus vaccinia
+EBNA-1 (Human gammaherpesvirus 4)	protein		EBNA-1	protein	human gammaherpesvirus 4
+EBNA-3B (Human gammaherpesvirus 4)	protein		EBNA-3B	protein	human gammaherpesvirus 4
+EBNA-LP (Human gammaherpesvirus 4)	protein	HHV4tp2_gp05	EBNA-LP	protein	human gammaherpesvirus 4
 ecotropic viral integration site 2B (Homo sapiens)	protein		ecotropic viral integration site 2B	protein	Homo sapiens
 Elongation factor 1-alpha 1 (Homo sapiens)	protein	EF-1-alpha-1|EF-Tu|Elongation factor Tu|Eukaryotic elongation factor 1 A-1|Leukocyte receptor cluster member 7|eEF1A-1	Elongation factor 1-alpha 1	protein	Homo sapiens
 elongation factor 1-beta (Mus musculus)	protein		elongation factor 1-beta	protein	Mus musculus
@@ -376,9 +376,9 @@ Enterotoxin type A precursor (Staphylococcus aureus)	protein		Enterotoxin type A
 Env polyprotein (Feline leukemia virus)	protein		Env polyprotein	protein	Feline leukemia virus
 env protein (Homo sapiens)	protein		env protein	protein	Homo sapiens
 Env protein (Human endogenous retrovirus)	protein		Env protein	protein	Human endogenous retrovirus
-envelope glycoprotein (Crimean-Congo hemorrhagic fever orthonairovirus)	protein		envelope glycoprotein	protein	Crimean-Congo hemorrhagic fever orthonairovirus
+envelope glycoprotein (Crimean-Congo hemorrhagic fever orthonairovirus)	protein		envelope glycoprotein	protein	Orthonairovirus haemorrhagiae
 Envelope glycoprotein (Ebola virus)	protein	GP1,2	Envelope glycoprotein	protein	Ebola virus
-envelope glycoprotein (Lymphocytic choriomeningitis mammarenavirus)	protein		envelope glycoprotein	protein	Lymphocytic choriomeningitis mammarenavirus
+envelope glycoprotein (Lymphocytic choriomeningitis mammarenavirus)	protein		envelope glycoprotein	protein	Mammarenavirus choriomeningitidis
 envelope glycoprotein (Porcine reproductive and respiratory syndrome virus)	protein		envelope glycoprotein	protein	Porcine reproductive and respiratory syndrome virus
 Envelope glycoprotein B (Equid alphaherpesvirus 1)	protein	gB	Envelope glycoprotein B	protein	Equid alphaherpesvirus 1
 Envelope glycoprotein B (Human alphaherpesvirus 1)	protein	gB-1|gB1	Envelope glycoprotein B	protein	Human alphaherpesvirus 1
@@ -404,11 +404,11 @@ ephrin type-A receptor 3 (Homo sapiens)	protein	EPH receptor A3	ephrin type-A re
 Epidermal growth factor receptor (Homo sapiens)	protein	Proto-oncogene c-ErbB-1|Receptor tyrosine-protein kinase erbB-1	Epidermal growth factor receptor	protein	Homo sapiens
 epoxide hydrolase 1, microsomal (Homo sapiens)	protein		epoxide hydrolase 1, microsomal	protein	Homo sapiens
 epsilon toxin (Clostridium perfringens)	protein	epsilon-toxin	epsilon toxin	protein	Clostridium perfringens
-Epstein-Barr nuclear antigen 1 (Human gammaherpesvirus 4)	protein	EBNA-1|EBV nuclear antigen 1	Epstein-Barr nuclear antigen 1	protein	Human gammaherpesvirus 4
-Epstein-Barr nuclear antigen 2 (Human gammaherpesvirus 4)	protein	EBNA2	Epstein-Barr nuclear antigen 2	protein	Human gammaherpesvirus 4
-Epstein-Barr nuclear antigen 3 (Human gammaherpesvirus 4)	protein	EBNA-3|EBNA-3A|EBV nuclear antigen 3|EBV nuclear antigen 3A|Epstein-Barr nuclear antigen 3A	Epstein-Barr nuclear antigen 3	protein	Human gammaherpesvirus 4
-Epstein-Barr nuclear antigen 4 (Human gammaherpesvirus 4)	protein	EBNA-3B|EBNA-4|EBV nuclear antigen 3B|EBV nuclear antigen 4|Epstein-Barr nuclear antigen 3B	Epstein-Barr nuclear antigen 4	protein	Human gammaherpesvirus 4
-Epstein-Barr nuclear antigen 6 (Human gammaherpesvirus 4)	protein	EBNA-3C|EBNA-4B|EBNA-6|EBV nuclear antigen 3C|EBV nuclear antigen 4B|EBV nuclear antigen 6|Epstein-Barr nuclear antigen 3C|Epstein-Barr nuclear antigen 4B	Epstein-Barr nuclear antigen 6	protein	Human gammaherpesvirus 4
+Epstein-Barr nuclear antigen 1 (Human gammaherpesvirus 4)	protein	EBNA-1|EBV nuclear antigen 1	Epstein-Barr nuclear antigen 1	protein	human gammaherpesvirus 4
+Epstein-Barr nuclear antigen 2 (Human gammaherpesvirus 4)	protein	EBNA2	Epstein-Barr nuclear antigen 2	protein	human gammaherpesvirus 4
+Epstein-Barr nuclear antigen 3 (Human gammaherpesvirus 4)	protein	EBNA-3|EBNA-3A|EBV nuclear antigen 3|EBV nuclear antigen 3A|Epstein-Barr nuclear antigen 3A	Epstein-Barr nuclear antigen 3	protein	human gammaherpesvirus 4
+Epstein-Barr nuclear antigen 4 (Human gammaherpesvirus 4)	protein	EBNA-3B|EBNA-4|EBV nuclear antigen 3B|EBV nuclear antigen 4|Epstein-Barr nuclear antigen 3B	Epstein-Barr nuclear antigen 4	protein	human gammaherpesvirus 4
+Epstein-Barr nuclear antigen 6 (Human gammaherpesvirus 4)	protein	EBNA-3C|EBNA-4B|EBNA-6|EBV nuclear antigen 3C|EBV nuclear antigen 4B|EBV nuclear antigen 6|Epstein-Barr nuclear antigen 3C|Epstein-Barr nuclear antigen 4B	Epstein-Barr nuclear antigen 6	protein	human gammaherpesvirus 4
 ERAP2 protein (Homo sapiens)	protein		ERAP2 protein	protein	Homo sapiens
 Erythrocyte binding antigen (Plasmodium falciparum)	protein		Erythrocyte binding antigen	protein	Plasmodium falciparum
 Erythrocyte membrane protein 1 (Plasmodium falciparum)	protein		Erythrocyte membrane protein 1	protein	Plasmodium falciparum
@@ -420,7 +420,7 @@ Exopolysaccharide biosynthesis protein (Bifidobacterium breve)	protein		Exopolys
 exotoxin A (Pseudomonas aeruginosa)	protein		exotoxin A	protein	Pseudomonas aeruginosa
 External core antigen (Hepatitis B virus)	protein	HBeAg|Precore protein|p25	External core antigen	protein	Hepatitis B virus
 Extracellular alkaline serine protease (Bacillus amyloliquefaciens)	protein		Extracellular alkaline serine protease	protein	Bacillus amyloliquefaciens
-F protein (Hepacivirus C)	protein	ARFP/F|Alternate reading frame protein/F-protein|Frameshifted protein|p16|p17	F protein	protein	Hepacivirus C
+F protein (Hepacivirus C)	protein	ARFP/F|Alternate reading frame protein/F-protein|Frameshifted protein|p16|p17	F protein	protein	Orthohepacivirus hominis
 F-actin-capping protein (Mus musculus)	protein		F-actin-capping protein	protein	Mus musculus
 Fab heavy chain (Homo sapiens)	protein		Fab heavy chain	protein	Homo sapiens
 Fab light chain (Homo sapiens)	protein		Fab light chain	protein	Homo sapiens
@@ -459,7 +459,7 @@ fructose-1,6-bisphosphate aldolase (Trichomonas vaginalis)	protein		fructose-1,6
 FtsJ-like protein 1 (Homo sapiens)	protein		FtsJ-like protein 1	protein	Homo sapiens
 Full=Disintegrin and metalloproteinase domain-containing protein 22 (Homo sapiens)	protein	ADAM 22	Full=Disintegrin and metalloproteinase domain-containing protein 22	protein	Homo sapiens
 fusion glycoprotein (Bovine orthopneumovirus)	protein		fusion glycoprotein	protein	Bovine orthopneumovirus
-Fusion glycoprotein F0 (Human orthopneumovirus)	protein	Protein F	Fusion glycoprotein F0	protein	Human orthopneumovirus
+Fusion glycoprotein F0 (Human orthopneumovirus)	protein	Protein F	Fusion glycoprotein F0	protein	human respiratory syncytial virus
 Gag polyprotein (Human immunodeficiency virus 1)	protein	Pr55Gag	Gag polyprotein	protein	Human immunodeficiency virus 1
 Gag polyprotein (Human T-lymphotropic virus 2)	protein	Pr53Gag	Gag polyprotein	protein	Human T-lymphotropic virus 2
 Gag polyprotein (Moloney murine leukemia virus)	protein	Core polyprotein|Pr65gag	Gag polyprotein	protein	Moloney murine leukemia virus
@@ -479,14 +479,14 @@ GATA binding protein 2 (Homo sapiens)	protein		GATA binding protein 2	protein	Ho
 GCR homolog (Murid betaherpesvirus 1)	protein	MuHV1_gpM78	GCR homolog	protein	Murid betaherpesvirus 1
 Genome polyprotein (Bovine viral diarrhea virus 1)	protein		Genome polyprotein	protein	Bovine viral diarrhea virus 1
 Genome polyprotein (Coxsackievirus B4)	protein		Genome polyprotein	protein	Coxsackievirus B4
-Genome polyprotein (Dengue virus 1)	protein		Genome polyprotein	protein	Dengue virus 1
-Genome polyprotein (Dengue virus 2)	protein		Genome polyprotein	protein	Dengue virus 2
-Genome polyprotein (Dengue virus 3)	protein		Genome polyprotein	protein	Dengue virus 3
-Genome polyprotein (Dengue virus 4)	protein		Genome polyprotein	protein	Dengue virus 4
+Genome polyprotein (Dengue virus 1)	protein		Genome polyprotein	protein	dengue virus type 1
+Genome polyprotein (Dengue virus 2)	protein		Genome polyprotein	protein	dengue virus type 2
+Genome polyprotein (Dengue virus 3)	protein		Genome polyprotein	protein	dengue virus type 3
+Genome polyprotein (Dengue virus 4)	protein		Genome polyprotein	protein	dengue virus type 4
 Genome polyprotein (Encephalomyocarditis virus)	protein		Genome polyprotein	protein	Encephalomyocarditis virus
-Genome polyprotein (Hepacivirus C)	protein		Genome polyprotein	protein	Hepacivirus C
-Genome polyprotein (Human poliovirus 1)	protein		Genome polyprotein	protein	Human poliovirus 1
-Genome polyprotein (Human rhinovirus A89)	protein		Genome polyprotein	protein	Human rhinovirus A89
+Genome polyprotein (Hepacivirus C)	protein		Genome polyprotein	protein	Orthohepacivirus hominis
+Genome polyprotein (Human poliovirus 1)	protein		Genome polyprotein	protein	Poliovirus 1
+Genome polyprotein (Human rhinovirus A89)	protein		Genome polyprotein	protein	rhinovirus A89
 Genome polyprotein (Japanese encephalitis virus)	protein		Genome polyprotein	protein	Japanese encephalitis virus
 Genome polyprotein (Kunjin virus)	protein		Genome polyprotein	protein	Kunjin virus
 Genome polyprotein (Theiler's encephalomyelitis virus)	protein		Genome polyprotein	protein	NCBITaxon:12124
@@ -517,12 +517,12 @@ glycerophosphoryl diester phosphodiesterase (Coxiella burnetii)	protein		glycero
 glycophorin B MNS blood group (Homo sapiens)	protein		glycophorin B MNS blood group	protein	Homo sapiens
 Glycophorin-A (Homo sapiens)	protein	MN sialoglycoprotein|PAS-2|Sialoglycoprotein alpha	Glycophorin-A	protein	Homo sapiens
 Glycophorin-binding protein (Plasmodium falciparum)	protein	GBP-130	Glycophorin-binding protein	protein	Plasmodium falciparum
-glycoprotein (Duvenhage lyssavirus)	protein		glycoprotein	protein	Duvenhage lyssavirus
+glycoprotein (Duvenhage lyssavirus)	protein		glycoprotein	protein	Lyssavirus duvenhage
 glycoprotein (Variola virus)	protein		glycoprotein	protein	Variola virus
-glycoprotein D (Bovine alphaherpesvirus 1)	protein		glycoprotein D	protein	Bovine alphaherpesvirus 1
+glycoprotein D (Bovine alphaherpesvirus 1)	protein		glycoprotein D	protein	bovine alphaherpesvirus 1
 glycoprotein G (Human alphaherpesvirus 1)	protein		glycoprotein G	protein	Human alphaherpesvirus 1
 glycoprotein G (Human alphaherpesvirus 2)	protein		glycoprotein G	protein	Human alphaherpesvirus 2
-Glycoprotein G (Rabies lyssavirus)	protein		Glycoprotein G	protein	Rabies lyssavirus
+Glycoprotein G (Rabies lyssavirus)	protein		Glycoprotein G	protein	Lyssavirus rabies
 Glycoprotein H (Human gammaherpesvirus 8)	protein		Glycoprotein H	protein	Human gammaherpesvirus 8
 Glycoprotein UL1 (Human betaherpesvirus 5)	protein		Glycoprotein UL1	protein	Human betaherpesvirus 5
 glycosyl transferase (Plasmodium berghei)	protein		glycosyl transferase	protein	Plasmodium berghei
@@ -564,7 +564,7 @@ Heat-labile enterotoxin B chain (Escherichia coli)	protein		Heat-labile enteroto
 Hemagglutinin (Influenza B virus)	protein		Hemagglutinin	protein	Influenza B virus
 Hemagglutinin glycoprotein (Measles morbillivirus)	protein		Hemagglutinin glycoprotein	protein	Measles morbillivirus
 Hemagglutinin precursor (Influenza A virus)	protein	HA	Hemagglutinin precursor	protein	Influenza A virus
-Hemagglutinin-neuraminidase (Avian orthoavulavirus 1)	protein		Hemagglutinin-neuraminidase	protein	Avian orthoavulavirus 1
+Hemagglutinin-neuraminidase (Avian orthoavulavirus 1)	protein		Hemagglutinin-neuraminidase	protein	avian paramyxovirus 1
 Hemoglobin (Equus caballus)	protein		Hemoglobin	protein	Equus caballus
 Hemolysin activator protein (Two-partner secretion system accessory protein) (Proteus mirabilis)	protein		Hemolysin activator protein (Two-partner secretion system accessory protein)	protein	Proteus mirabilis
 hepatocyte erythrocyte protein 17 kDa (Plasmodium yoelii)	protein	PyHEP17	hepatocyte erythrocyte protein 17 kDa	protein	Plasmodium yoelii
@@ -593,7 +593,7 @@ hydrolase (Dermatophagoides)	protein		hydrolase	protein	Dermatophagoides
 Hydrophobic seed protein (Glycine max)	protein	HPS	Hydrophobic seed protein	protein	Glycine max
 hydroxymethylpyrimidine kinase (Coxiella burnetii)	protein		hydroxymethylpyrimidine kinase	protein	Coxiella burnetii
 Hypothetical (Yersinia pestis)	protein		Hypothetical	protein	Yersinia pestis
-Hypothetical 13.6 kDa HINDIII-C protein (Vaccinia virus)	protein		Hypothetical 13.6 kDa HINDIII-C protein	protein	Vaccinia virus
+Hypothetical 13.6 kDa HINDIII-C protein (Vaccinia virus)	protein		Hypothetical 13.6 kDa HINDIII-C protein	protein	Orthopoxvirus vaccinia
 Hypothetical protein (Coxiella burnetii)	protein		Hypothetical protein	protein	Coxiella burnetii
 hypothetical protein (Gallus gallus)	protein		hypothetical protein	protein	Gallus gallus
 hypothetical protein (Homo sapiens)	protein		hypothetical protein	protein	Homo sapiens
@@ -606,7 +606,7 @@ Hypothetical protein BMEII0917 (Brucella melitensis)	protein		Hypothetical prote
 hypothetical protein BURPS668_0137 (Burkholderia pseudomallei)	protein	BURPS668_0137	hypothetical protein BURPS668_0137	protein	Burkholderia pseudomallei
 hypothetical protein CLJ_B1853 (Clostridium botulinum)	protein	CLJ_B1853	hypothetical protein CLJ_B1853	protein	Clostridium botulinum
 hypothetical protein FIVgp4 [Feline immunodeficiency virus] (Feline immunodeficiency virus)	protein		hypothetical protein FIVgp4 [Feline immunodeficiency virus]	protein	Feline immunodeficiency virus
-hypothetical protein Mhp 366 (Mycoplasma hyopneumoniae)	protein		hypothetical protein Mhp 366	protein	Mycoplasma hyopneumoniae
+hypothetical protein Mhp 366 (Mycoplasma hyopneumoniae)	protein		hypothetical protein Mhp 366	protein	Mesomycoplasma hyopneumoniae
 hypothetical protein MOQ_007509 (Trypanosoma cruzi)	protein	MOQ	hypothetical protein MOQ_007509	protein	Trypanosoma cruzi
 Hypothetical protein P0025F03.20 (Oryza sativa)	protein		Hypothetical protein P0025F03.20	protein	Oryza sativa
 hypothetical protein, conserved (Leishmania donovani)	protein		hypothetical protein, conserved	protein	Leishmania donovani
@@ -617,7 +617,7 @@ IFN alpha 2 (Homo sapiens)	protein	interferon alpha 2	IFN alpha 2	protein	Homo s
 Ig G anti-DNA autoantibody (Mus musculus)	protein		Ig G anti-DNA autoantibody	protein	Mus musculus
 Ig gamma-1 chain C region (Rattus norvegicus)	protein		Ig gamma-1 chain C region	protein	Rattus norvegicus
 Ig heavy chain CDR3 region (Homo sapiens)	protein		Ig heavy chain CDR3 region	protein	Homo sapiens
-IgM heavy chain (Hypanus americanus)	protein		IgM heavy chain	protein	Hypanus americanus (southern stingray)
+IgM heavy chain (Hypanus americanus)	protein		IgM heavy chain	protein	Hypanus americanus
 IgM lambda light chain (Homo sapiens)	protein	Frymac	IgM lambda light chain	protein	Homo sapiens
 Immunoglobulin (Canis lupus familiaris)	protein	Ig|gammaglobulin	Immunoglobulin	protein	Canis lupus familiaris
 Immunoglobulin chain (Homo sapiens)	protein		Immunoglobulin chain	protein	Homo sapiens
@@ -653,7 +653,7 @@ intercellular adhesion molecule 3 (Homo sapiens)	protein		intercellular adhesion
 interferon (alpha, beta and omega) receptor 1 (Homo sapiens)	protein	IFNAR	interferon (alpha, beta and omega) receptor 1	protein	Homo sapiens
 interferon, gamma-inducible protein (Homo sapiens)	protein		interferon, gamma-inducible protein	protein	Homo sapiens
 interleukin 2 receptor (Homo sapiens)	protein		interleukin 2 receptor	protein	Homo sapiens
-Interleukin-1-binding protein (Vaccinia virus)	protein	Protein B15	Interleukin-1-binding protein	protein	Vaccinia virus
+Interleukin-1-binding protein (Vaccinia virus)	protein	Protein B15	Interleukin-1-binding protein	protein	Orthopoxvirus vaccinia
 interleukin-10 receptor (Mus musculus)	protein	Cytokine receptor family 2 member 4	interleukin-10 receptor	protein	Mus musculus
 interleukin-17A (Macaca fascicularis)	protein		interleukin-17A	protein	Macaca fascicularis
 Interleukin-6 (Homo sapiens)	protein		Interleukin-6	protein	Homo sapiens
@@ -669,7 +669,7 @@ IST1 homolog (Mus musculus)	protein		IST1 homolog	protein	Mus musculus
 Jade-1 (Homo sapiens)	protein	IPI00399252,IPI00789745	Jade-1	protein	Homo sapiens
 kappa-casein (Bos taurus)	protein	kappa casein	kappa-casein	protein	Bos taurus
 kelch domain (Homo sapiens)	protein		kelch domain	protein	Homo sapiens
-Kelch repeat protein C2 (Vaccinia virus)	protein		Kelch repeat protein C2	protein	Vaccinia virus
+Kelch repeat protein C2 (Vaccinia virus)	protein		Kelch repeat protein C2	protein	Orthopoxvirus vaccinia
 kelch-like protein (Variola virus)	protein		kelch-like protein	protein	Variola virus
 keratin 8 (Homo sapiens)	protein	cytokeratin 8	keratin 8	protein	Homo sapiens
 Keyhole limpet hemocyanin (Megathura crenulata)	protein	KLH	Keyhole limpet hemocyanin	protein	Megathura crenulata
@@ -679,9 +679,9 @@ kininogen-1 isoform 3 (Homo sapiens)	protein		kininogen-1 isoform 3	protein	Homo
 Knob associated histidine-rich protein (Plasmodium falciparum)	protein		Knob associated histidine-rich protein	protein	Plasmodium falciparum
 L-lactate dehydrogenase C chain (Vulpes vulpes)	protein	LDH-C	L-lactate dehydrogenase C chain	protein	Vulpes vulpes
 L-selectin (Homo sapiens)	protein		L-selectin	protein	Homo sapiens
-L1 protein (Human papillomavirus type 33)	protein		L1 protein	protein	Human papillomavirus type 33
+L1 protein (Human papillomavirus type 33)	protein		L1 protein	protein	human papillomavirus 33
 L1 protein (Human papillomavirus)	protein		L1 protein	protein	Human papillomavirus
-L2 protein (Human papillomavirus type 16)	protein		L2 protein	protein	Human papillomavirus type 16
+L2 protein (Human papillomavirus type 16)	protein		L2 protein	protein	Human papillomavirus 16
 lactate dehydrogenase (Papio cynocephalus)	protein		lactate dehydrogenase	protein	Papio cynocephalus
 lactoferrin (Homo sapiens)	protein		lactoferrin	protein	Homo sapiens
 Lactose permease (Escherichia coli)	protein	Lactose-proton symport	Lactose permease	protein	Escherichia coli
@@ -695,10 +695,10 @@ large hepatitis delta antigen (Hepatitis delta virus)	protein	L-HDAg	large hepat
 large S protein (Hepatitis B virus)	protein		large S protein	protein	Hepatitis B virus
 Large structural phosphoprotein (Human betaherpesvirus 5)	protein	150 kDa matrix phosphoprotein|BPP|Basic phosphoprotein|Tegument protein UL32|pp150	Large structural phosphoprotein	protein	Human betaherpesvirus 5
 large subunit ribosomal protein 23 (Plasmodium berghei)	protein		large subunit ribosomal protein 23	protein	Plasmodium berghei
-Large T antigen (Macaca mulatta polyomavirus 1)	protein	LT|LT-AG	Large T antigen	protein	Macaca mulatta polyomavirus 1
-Late transcription factor 1 (Vaccinia virus)	protein	Trans-activator protein GK1|VLTF-1	Late transcription factor 1	protein	Vaccinia virus
-Latent membrane protein 1 (Human gammaherpesvirus 4)	protein	LMP-1|Protein p63	Latent membrane protein 1	protein	Human gammaherpesvirus 4
-Latent membrane protein 2 (Human gammaherpesvirus 4)	protein	Terminal protein	Latent membrane protein 2	protein	Human gammaherpesvirus 4
+Large T antigen (Macaca mulatta polyomavirus 1)	protein	LT|LT-AG	Large T antigen	protein	Betapolyomavirus macacae
+Late transcription factor 1 (Vaccinia virus)	protein	Trans-activator protein GK1|VLTF-1	Late transcription factor 1	protein	Orthopoxvirus vaccinia
+Latent membrane protein 1 (Human gammaherpesvirus 4)	protein	LMP-1|Protein p63	Latent membrane protein 1	protein	human gammaherpesvirus 4
+Latent membrane protein 2 (Human gammaherpesvirus 4)	protein	Terminal protein	Latent membrane protein 2	protein	human gammaherpesvirus 4
 Leishmanolysin (Leishmania major)	protein	Cell surface protease|Major surface glycoprotein|Major surface protease|Promastigote surface endopeptidase|Protein gp63	Leishmanolysin	protein	Leishmania major
 LemA family protein (Coxiella burnetii)	protein	LemA	LemA family protein	protein	Coxiella burnetii
 LIM domain-binding protein (Mus musculus)	protein		LIM domain-binding protein	protein	Mus musculus
@@ -708,7 +708,7 @@ Lipoprotein LpqH (Mycobacterium tuberculosis)	protein	19 kDa lipoprotein antigen
 lipoxygenase homology domain-containing protein 1 (Homo sapiens)	protein		lipoxygenase homology domain-containing protein 1	protein	Homo sapiens
 Listeriolysin O (Listeria monocytogenes)	protein	LLO|Thiol-activated cytolysin	Listeriolysin O	protein	Listeria monocytogenes
 Liver stage associated protein 2 (Plasmodium falciparum)	protein	LSAP2	Liver stage associated protein 2	protein	Plasmodium falciparum
-LMP2 (Human gammaherpesvirus 4)	protein	latent membrane protein 2	LMP2	protein	Human gammaherpesvirus 4
+LMP2 (Human gammaherpesvirus 4)	protein	latent membrane protein 2	LMP2	protein	human gammaherpesvirus 4
 Long-chain-fatty-acid--AMP ligase FadD32 (Mycobacterium tuberculosis)	protein	Acyl-AMP synthetase|FAAL	Long-chain-fatty-acid--AMP ligase FadD32	protein	Mycobacterium tuberculosis
 Low-density lipoprotein receptor (Homo sapiens)	protein	LDL receptor	Low-density lipoprotein receptor	protein	Homo sapiens
 LSA1 (Plasmodium falciparum)	protein	LSA-1; Liver Stage Antigen 1	LSA1	protein	Plasmodium falciparum
@@ -739,15 +739,15 @@ Major allergen I polypeptide chain 2 (Felis catus)	protein	Fel d 1	Major allerge
 Major allergen Mal d 1 (Malus domestica)	protein	Allergen Mal d I	Major allergen Mal d 1	protein	Malus domestica
 Major capsid protein (African swine fever virus)	protein	MCP|p72	Major capsid protein	protein	African swine fever virus
 Major capsid protein (Human gammaherpesvirus 8)	protein	MCP	Major capsid protein	protein	Human gammaherpesvirus 8
-Major capsid protein L1 (Human papillomavirus type 16)	protein		Major capsid protein L1	protein	Human papillomavirus type 16
-Major capsid protein L1 (Human papillomavirus type 18)	protein		Major capsid protein L1	protein	Human papillomavirus type 18
+Major capsid protein L1 (Human papillomavirus type 16)	protein		Major capsid protein L1	protein	Human papillomavirus 16
+Major capsid protein L1 (Human papillomavirus type 18)	protein		Major capsid protein L1	protein	human papillomavirus 18
 Major capsid protein L1 (Human papillomavirus type 6b)	protein		Major capsid protein L1	protein	Human papillomavirus type 6b
 Major capsid protein L1 (Human papillomavirus)	protein		Major capsid protein L1	protein	Human papillomavirus
 Major capsid protein VP1 (JC polyomavirus)	protein	Major structural protein VP1	Major capsid protein VP1	protein	JC polyomavirus
-Major core protein 4a precursor (Vaccinia virus)	protein	Virion core protein 4a precursor|p4a	Major core protein 4a precursor	protein	Vaccinia virus
-major DNA binding protein (Bovine alphaherpesvirus 1)	protein	ICP 8|UL29|ssDNA binding protein	major DNA binding protein	protein	Bovine alphaherpesvirus 1
+Major core protein 4a precursor (Vaccinia virus)	protein	Virion core protein 4a precursor|p4a	Major core protein 4a precursor	protein	Orthopoxvirus vaccinia
+major DNA binding protein (Bovine alphaherpesvirus 1)	protein	ICP 8|UL29|ssDNA binding protein	major DNA binding protein	protein	bovine alphaherpesvirus 1
 Major fimbrial subunit protein type-1 (Porphyromonas gingivalis)	protein	Fimbrilin|Fimbrillin|Major fimbrial subunit protein type I	Major fimbrial subunit protein type-1	protein	Porphyromonas gingivalis
-major outer envelope glycoprotein gp220 (Human gammaherpesvirus 4)	protein		major outer envelope glycoprotein gp220	protein	Human gammaherpesvirus 4
+major outer envelope glycoprotein gp220 (Human gammaherpesvirus 4)	protein		major outer envelope glycoprotein gp220	protein	human gammaherpesvirus 4
 Major outer membrane porin, serovar D (Chlamydia trachomatis)	protein	MOMP	Major outer membrane porin, serovar D	protein	Chlamydia trachomatis
 Major outer membrane protein P.IA (Neisseria meningitidis)	protein	Class 1 protein|PIA|Protein IA	Major outer membrane protein P.IA	protein	Neisseria meningitidis
 Major Peanut Allergen Ara H 1 (Arachis hypogaea)	protein	conarachin|seed storage protein Ara h1	Major Peanut Allergen Ara H 1	protein	Arachis hypogaea
@@ -762,12 +762,12 @@ major prion protein (Mesocricetus auratus)	protein	prion	major prion protein	pro
 Major prion protein (Mus musculus)	protein	PrP|PrP27-30|PrP33-35C	Major prion protein	protein	Mus musculus
 major prion protein precursor (Ovis aries)	protein	Gerstmann-Strausler-Scheinker syndrome|fatal familial insomnia)|major prion protein|prion protein (p27-30) (Creutzfeldt-Jakob disease	major prion protein precursor	protein	Ovis aries
 major structural glycoprotein GP5 (Lactate dehydrogenase-elevating virus)	protein		major structural glycoprotein GP5	protein	Lactate dehydrogenase-elevating virus
-Major surface glycoprotein G (Human orthopneumovirus)	protein	Attachment glycoprotein G|Membrane-bound glycoprotein|mG	Major surface glycoprotein G	protein	Human orthopneumovirus
+Major surface glycoprotein G (Human orthopneumovirus)	protein	Attachment glycoprotein G|Membrane-bound glycoprotein|mG	Major surface glycoprotein G	protein	human respiratory syncytial virus
 Major surface glycoprotein G (Human respiratory syncytial virus A)	protein		Major surface glycoprotein G	protein	Human respiratory syncytial virus A
 Major surface protein 2 (MSP2) (Anaplasma marginale)	protein		Major surface protein 2 (MSP2)	protein	Anaplasma marginale
 Major vault protein (Homo sapiens)	protein	Lung resistance-related protein	Major vault protein	protein	Homo sapiens
 Major viral transcription factor ICP4 homolog (Human alphaherpesvirus 3)	protein	IE62|Immediate-early protein 62	Major viral transcription factor ICP4 homolog	protein	Human alphaherpesvirus 3
-matrix protein (Avian orthoavulavirus 1)	protein		matrix protein	protein	Avian orthoavulavirus 1
+matrix protein (Avian orthoavulavirus 1)	protein		matrix protein	protein	avian paramyxovirus 1
 Matrix protein (Measles morbillivirus)	protein		Matrix protein	protein	Measles morbillivirus
 Matrix protein 1 (Influenza A virus)	protein	M1	Matrix protein 1	protein	Influenza A virus
 Matrix protein 2 (Influenza A virus)	protein	Proton channel protein M2	Matrix protein 2	protein	Influenza A virus
@@ -818,7 +818,7 @@ MMP24 protein (Homo sapiens)	protein		MMP24 protein	protein	Homo sapiens
 monocarboxylate transporter 1 (Mus musculus)	protein		monocarboxylate transporter 1	protein	Mus musculus
 MPT51/MPB51 antigen (Mycobacterium tuberculosis)	protein		MPT51/MPB51 antigen	protein	Mycobacterium tuberculosis
 mRNA export factor ICP27 homolog (Human gammaherpesvirus 8)	protein	EB2 protein homolog	mRNA export factor ICP27 homolog	protein	Human gammaherpesvirus 8
-mRNA-capping enzyme catalytic subunit (Vaccinia virus)	protein	VTF large subunit|Virus termination factor large subunit|mRNA-capping enzyme 97 kDa subunit|mRNA-capping enzyme D1 subunit|mRNA-capping enzyme large subunit	mRNA-capping enzyme catalytic subunit	protein	Vaccinia virus
+mRNA-capping enzyme catalytic subunit (Vaccinia virus)	protein	VTF large subunit|Virus termination factor large subunit|mRNA-capping enzyme 97 kDa subunit|mRNA-capping enzyme D1 subunit|mRNA-capping enzyme large subunit	mRNA-capping enzyme catalytic subunit	protein	Orthopoxvirus vaccinia
 mucin-associated surface protein (Trypanosoma cruzi)	protein	MASP	mucin-associated surface protein	protein	Trypanosoma cruzi
 multidrug resistance protein (Mus musculus)	protein		multidrug resistance protein	protein	Mus musculus
 Muscarinic acetylcholine receptor M2 (Homo sapiens)	protein		Muscarinic acetylcholine receptor M2	protein	Homo sapiens
@@ -835,7 +835,7 @@ Myelin basic protein (Homo sapiens)	protein	Myelin A1 protein|Myelin membrane en
 Myelin basic protein (MBP) (Platyrrhini)	protein	MBP	Myelin basic protein (MBP)	protein	Platyrrhini
 Myelin basic protein (Mus musculus)	protein	MBP|Myelin A1 protein	Myelin basic protein	protein	Mus musculus
 Myelin basic protein (Notamacropus eugenii)	protein	MBP	Myelin basic protein	protein	Notamacropus eugenii
-myelin basic protein (Physeter catodon)	protein	MBP	myelin basic protein	protein	Physeter catodon
+myelin basic protein (Physeter catodon)	protein	MBP	myelin basic protein	protein	Physeter macrocephalus
 Myelin basic protein (Rattus norvegicus)	protein	MBP	Myelin basic protein	protein	Rattus norvegicus
 myelin basic protein (Tamiasciurus hudsonicus)	protein	MBP	myelin basic protein	protein	Tamiasciurus hudsonicus
 Myelin protein P0 (Bos taurus)	protein	MPP|Myelin peripheral protein|Myelin protein zero	Myelin protein P0	protein	Bos taurus
@@ -850,7 +850,7 @@ Myelin-oligodendrocyte glycoprotein (Mus musculus)	protein		Myelin-oligodendrocy
 Myeloperoxidase (Homo sapiens)	protein	MPO	Myeloperoxidase	protein	Homo sapiens
 Myoglobin (Inia geoffrensis)	protein		Myoglobin	protein	Inia geoffrensis
 Myoglobin (Orcinus orca)	protein		Myoglobin	protein	Orcinus orca
-Myoglobin (Physeter catodon)	protein		Myoglobin	protein	Physeter catodon
+Myoglobin (Physeter catodon)	protein		Myoglobin	protein	Physeter macrocephalus
 myosin (Dermatophagoides)	protein		myosin	protein	Dermatophagoides
 myosin IG (Pan troglodytes)	protein		myosin IG	protein	Pan troglodytes
 myosin phosphatase Rho-interacting protein (Mus musculus)	protein		myosin phosphatase Rho-interacting protein	protein	Mus musculus
@@ -859,7 +859,7 @@ Myosin-6 (Rattus norvegicus)	protein	MyHC-alpha|Myosin heavy chain|Myosin heavy 
 myosin-7 (Mus musculus)	protein	myosin 7	myosin-7	protein	Mus musculus
 myosin-9 (Homo sapiens)	protein	myosin 9	myosin-9	protein	Homo sapiens
 Myosin-binding protein C, fast-type (Homo sapiens)	protein	C-protein|Fast MyBP-C|skeletal muscle fast isoform	Myosin-binding protein C, fast-type	protein	Homo sapiens
-Myristoylated protein G9 (Vaccinia virus)	protein	Protein F1	Myristoylated protein G9	protein	Vaccinia virus
+Myristoylated protein G9 (Vaccinia virus)	protein	Protein F1	Myristoylated protein G9	protein	Orthopoxvirus vaccinia
 NACHT and WD repeat domain-containing protein 2 (Rattus norvegicus)	protein	Nwd2	NACHT and WD repeat domain-containing protein 2	protein	Rattus norvegicus
 NAD-glutamate dehydrogenase (Coxiella burnetii)	protein		NAD-glutamate dehydrogenase	protein	Coxiella burnetii
 NADH dehydrogenase 4 (Homo sapiens)	protein		NADH dehydrogenase 4	protein	Homo sapiens
@@ -895,27 +895,27 @@ non-protein coding region (Homo sapiens)	protein	cryptic source|non-protein codi
 Non-receptor tyrosine-protein kinase TYK2 (Homo sapiens)	protein		Non-receptor tyrosine-protein kinase TYK2	protein	Homo sapiens
 non-structural protein (Muscovy duck parvovirus)	protein	NS1	non-structural protein	protein	Muscovy duck parvovirus
 non-structural protein 1 (NS1) (Zika virus)	protein	NS1	non-structural protein 1 (NS1)	protein	Zika virus
-non-structural V protein (Avian orthoavulavirus 1)	protein		non-structural V protein	protein	Avian orthoavulavirus 1
-nonstructural protein NS4 (African horse sickness virus)	protein	NS4	nonstructural protein NS4	protein	African horse sickness virus
+non-structural V protein (Avian orthoavulavirus 1)	protein		non-structural V protein	protein	avian paramyxovirus 1
+nonstructural protein NS4 (African horse sickness virus)	protein	NS4	nonstructural protein NS4	protein	Orbivirus alphaequi
 nuclear cap-binding protein (Plasmodium berghei)	protein		nuclear cap-binding protein	protein	Plasmodium berghei
 nuclear pore membrane glycoprotein 210 (Homo sapiens)	protein	nuclear pore protein gp210	nuclear pore membrane glycoprotein 210	protein	Homo sapiens
 nuclear receptor ROR-gamma isoform X1 (Homo sapiens)	protein		nuclear receptor ROR-gamma isoform X1	protein	Homo sapiens
 nuclear receptor subfamily 1 group D member 1 neoepitope protein (Homo sapiens)	protein	NR1D1	nuclear receptor subfamily 1 group D member 1 neoepitope protein	protein	Homo sapiens
-nucleocapsid protein (Canine morbillivirus)	protein		nucleocapsid protein	protein	Canine morbillivirus
-nucleocapsid protein (Small ruminant morbillivirus)	protein		nucleocapsid protein	protein	Small ruminant morbillivirus
+nucleocapsid protein (Canine morbillivirus)	protein		nucleocapsid protein	protein	Morbillivirus canis
+nucleocapsid protein (Small ruminant morbillivirus)	protein		nucleocapsid protein	protein	Morbillivirus caprinae
 Nucleocapsid protein (Vladivostok virus)	protein		Nucleocapsid protein	protein	Vladivostok virus
-Nucleoprotein (Brazilian mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Brazilian mammarenavirus
-nucleoprotein (Duvenhage lyssavirus)	protein		nucleoprotein	protein	Duvenhage lyssavirus
+Nucleoprotein (Brazilian mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Mammarenavirus brazilense
+nucleoprotein (Duvenhage lyssavirus)	protein		nucleoprotein	protein	Lyssavirus duvenhage
 Nucleoprotein (Feline infectious peritonitis virus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Feline infectious peritonitis virus
-Nucleoprotein (Guanarito mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Guanarito mammarenavirus
+Nucleoprotein (Guanarito mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Mammarenavirus guanaritoense
 Nucleoprotein (Influenza A virus)	protein	NP	Nucleoprotein	protein	Influenza A virus
 Nucleoprotein (Lassa virus Josiah)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Lassa virus Josiah
 Nucleoprotein (Lelystad virus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Lelystad virus
-Nucleoprotein (Lymphocytic choriomeningitis mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Lymphocytic choriomeningitis mammarenavirus
+Nucleoprotein (Lymphocytic choriomeningitis mammarenavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Mammarenavirus choriomeningitidis
 Nucleoprotein (Murine hepatitis virus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Murine hepatitis virus
-Nucleoprotein (Murine respirovirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Murine respirovirus
-Nucleoprotein (Puumala orthohantavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Puumala orthohantavirus
-Nucleoprotein (Rabies lyssavirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Rabies lyssavirus
+Nucleoprotein (Murine respirovirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Respirovirus muris
+Nucleoprotein (Puumala orthohantavirus)	protein	Nucleocapsid protein|Protein N	Nucleoprotein	protein	Orthohantavirus puumalaense
+Nucleoprotein (Rabies lyssavirus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Lyssavirus rabies
 Nucleoprotein (Rinderpest virus)	protein	NP|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Rinderpest morbillivirus
 Nucleoprotein (Severe acute respiratory syndrome-related coronavirus)	protein	NC|Nucleocapsid protein|Protein N	Nucleoprotein	protein	Severe acute respiratory syndrome-related coronavirus
 odorant response abnormal 4 (Homo sapiens)	protein	protein odr-4 homolog	odorant response abnormal 4	protein	Homo sapiens
@@ -954,7 +954,7 @@ oxidoreductase (Dermatophagoides)	protein		oxidoreductase	protein	Dermatophagoid
 P-selectin glycoprotein ligand 1 (Homo sapiens)	protein		P-selectin glycoprotein ligand 1	protein	Homo sapiens
 P0 (Rhipicephalus sanguineus)	protein		P0	protein	Rhipicephalus sanguineus
 P34 probable thiol protease (Glycine max)	protein		P34 probable thiol protease	protein	Glycine max
-P35 lipoprotein (Mycoplasma penetrans)	protein		P35 lipoprotein	protein	Mycoplasma penetrans
+P35 lipoprotein (Mycoplasma penetrans)	protein		P35 lipoprotein	protein	Malacoplasma penetrans
 p60 src (Rous sarcoma virus)	protein	RSVgp4,src	p60 src	protein	Rous sarcoma virus
 PAc protein (Streptococcus oralis)	protein	180 kda immunodominant antigen	PAc protein	protein	Streptococcus oralis
 Par j (Parietaria officinalis)	protein		Par j	protein	Parietaria officinalis
@@ -983,19 +983,19 @@ phospholipase A2 inhibitor gamma (Elaphe carinata)	protein		phospholipase A2 inh
 phospholipase A2 inhibitor gamma (Elaphe taeniura)	protein		phospholipase A2 inhibitor gamma	protein	Elaphe taeniura
 phospholipase A2 inhibitor gamma (Lycodon rufozonatus)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Lycodon rufozonatus
 phospholipase A2 inhibitor gamma (Oocatochus rufodorsatus)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Oocatochus rufodorsatus
-phospholipase A2 inhibitor gamma (Pseudagkistrodon rudis)	protein		phospholipase A2 inhibitor gamma	protein	Pseudagkistrodon rudis (Red keelback)
+phospholipase A2 inhibitor gamma (Pseudagkistrodon rudis)	protein		phospholipase A2 inhibitor gamma	protein	Pseudagkistrodon rudis
 phospholipase A2 inhibitor gamma (Ptyas dhumnades)	protein		phospholipase A2 inhibitor gamma	protein	Ptyas dhumnades
-phospholipase A2 inhibitor gamma (Trimerodytes annularis)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Trimerodytes annularis (Red-bellied annulate keelback)
+phospholipase A2 inhibitor gamma (Trimerodytes annularis)	protein	PLIg	phospholipase A2 inhibitor gamma	protein	Trimerodytes annularis
 phospholysine phosphohistidine inorganic pyrophosphate phosphatase (Homo sapiens)	protein		phospholysine phosphohistidine inorganic pyrophosphate phosphatase	protein	Homo sapiens
 phosphomannomutase 2 (Homo sapiens)	protein		phosphomannomutase 2	protein	Homo sapiens
-Phosphoprotein (Rabies lyssavirus)	protein	Protein M1|Protein P	Phosphoprotein	protein	Rabies lyssavirus
+Phosphoprotein (Rabies lyssavirus)	protein	Protein M1|Protein P	Phosphoprotein	protein	Lyssavirus rabies
 phosphorylated adapter RNA export protein (Homo sapiens)	protein		phosphorylated adapter RNA export protein	protein	Homo sapiens
 phosphorylated matrix protein pp65 (Human betaherpesvirus 5)	protein		phosphorylated matrix protein pp65	protein	Human betaherpesvirus 5
 Phosphoserine aminotransferase (Coxiella burnetii)	protein	PSAT|Phosphohydroxythreonine aminotransferase	Phosphoserine aminotransferase	protein	Coxiella burnetii
 pHS-2 (Shigella flexneri)	protein		pHS-2	protein	Shigella flexneri
 pilin (Escherichia coli)	protein		pilin	protein	Escherichia coli
 Pis v 5 (Pistacia vera)	protein	Pis v 5.0101 allergen 11S globulin precusor	Pis v 5	protein	Pistacia vera
-Plaque-size/host range protein (Vaccinia virus)	protein	Protein B5	Plaque-size/host range protein	protein	Vaccinia virus
+Plaque-size/host range protein (Vaccinia virus)	protein	Protein B5	Plaque-size/host range protein	protein	Orthopoxvirus vaccinia
 plasminogen activator inhibitor 1 isoform 1 precursor (Homo sapiens)	protein		plasminogen activator inhibitor 1 isoform 1 precursor	protein	Homo sapiens
 platelet derived growth factor receptor alpha (Homo sapiens)	protein	PDGFRA	platelet derived growth factor receptor alpha	protein	Homo sapiens
 platelet glycoprotein IIIa (Homo sapiens)	protein	Integrin beta 3; antigen CD61	platelet glycoprotein IIIa	protein	Homo sapiens
@@ -1019,29 +1019,29 @@ polyprotein (Duck Tembusu virus)	protein		polyprotein	protein	Duck Tembusu virus
 polyprotein (Enterovirus A)	protein		polyprotein	protein	Enterovirus A
 polyprotein (Equine rhinitis A virus)	protein		polyprotein	protein	Equine rhinitis A virus
 Polyprotein (Foot-and-mouth disease virus)	protein		Polyprotein	protein	Foot-and-mouth disease virus
-polyprotein (Hepacivirus C)	protein		polyprotein	protein	Hepacivirus C
-polyprotein (Saint Louis encephalitis virus)	protein		polyprotein	protein	Saint Louis encephalitis virus
+polyprotein (Hepacivirus C)	protein		polyprotein	protein	Orthohepacivirus hominis
+polyprotein (Saint Louis encephalitis virus)	protein		polyprotein	protein	St. Louis encephalitis virus
 polyprotein precursor (GB virus C)	protein		polyprotein precursor	protein	GB virus C
 Possible transmembrane cation transporter (Mycobacterium tuberculosis)	protein		Possible transmembrane cation transporter	protein	Mycobacterium tuberculosis
 potassium-transporting ATPase alpha chain 1 (Oryctolagus cuniculus)	protein		potassium-transporting ATPase alpha chain 1	protein	Oryctolagus cuniculus
 PPE family protein (Mycobacterium tuberculosis)	protein		PPE family protein	protein	Mycobacterium tuberculosis
 PR domain zinc finger protein 1 (Homo sapiens)	protein	BLIMP-1|Beta-interferon gene positive regulatory domain I-binding factor|PR domain-containing protein 1|PRDI-BF1|PRDI-binding factor 1|Positive regulatory domain I-binding factor 1	PR domain zinc finger protein 1	protein	Homo sapiens
-Pre-glycoprotein polyprotein GP complex (Guanarito mammarenavirus)	protein		Pre-glycoprotein polyprotein GP complex	protein	Guanarito mammarenavirus
-Pre-glycoprotein polyprotein GP complex (Lassa mammarenavirus)	protein		Pre-glycoprotein polyprotein GP complex	protein	Lassa mammarenavirus
-Pre-glycoprotein polyprotein GP complex (Lymphocytic choriomeningitis mammarenavirus)	protein	glycoprotein GP	glycoprotein GP	protein	Lymphocytic choriomeningitis mammarenavirus
+Pre-glycoprotein polyprotein GP complex (Guanarito mammarenavirus)	protein		Pre-glycoprotein polyprotein GP complex	protein	Mammarenavirus guanaritoense
+Pre-glycoprotein polyprotein GP complex (Lassa mammarenavirus)	protein		Pre-glycoprotein polyprotein GP complex	protein	Mammarenavirus lassaense
+Pre-glycoprotein polyprotein GP complex (Lymphocytic choriomeningitis mammarenavirus)	protein	glycoprotein GP	glycoprotein GP	protein	Mammarenavirus choriomeningitidis
 pre-mRNA-processing-splicing factor 8 (Mus musculus)	protein	Prpf8	pre-mRNA-processing-splicing factor 8	protein	Mus musculus
 prediabetic NOD sera-reactive autoantigen (Mus musculus)	protein		prediabetic NOD sera-reactive autoantigen	protein	Mus musculus
 PREDICTED: similar to filaggrin (Mus musculus)	protein	LOC668304	PREDICTED: similar to filaggrin	protein	Mus musculus
 Prion protein (Homo sapiens)	protein		Prion protein	protein	Homo sapiens
 Prion protein (Mus musculus)	protein	PrP	Prion protein	protein	Mus musculus
 Pro-cathepsin H (Homo sapiens)	protein		Pro-cathepsin H	protein	Homo sapiens
-Pro-vaccinia growth factor (Vaccinia virus)	protein	Pro-VGF	Pro-vaccinia growth factor	protein	Vaccinia virus
+Pro-vaccinia growth factor (Vaccinia virus)	protein	Pro-VGF	Pro-vaccinia growth factor	protein	Orthopoxvirus vaccinia
 Probable ATP-dependent helicase Lhr (Large helicase-related protein) (Mycobacterium tuberculosis)	protein		Probable ATP-dependent helicase Lhr (Large helicase-related protein)	protein	Mycobacterium tuberculosis
 Probable endopeptidase p60 (Listeria monocytogenes)	protein	Invasion-associated protein p60	Probable endopeptidase p60	protein	Listeria monocytogenes
 Probable lipoprotein aminopeptidase LpqL (Mycobacterium tuberculosis)	protein		Probable lipoprotein aminopeptidase LpqL	protein	Mycobacterium tuberculosis
 Probable non-specific lipid-transfer protein (Parietaria judaica)	protein	Allergen Par j I|LTP|Major pollen allergen Par j 1.0101|Protein P5	Probable non-specific lipid-transfer protein	protein	Parietaria judaica
 procollagen, type II, alpha 1 (Mus musculus)	protein	Col2a1	procollagen, type II, alpha 1	protein	Mus musculus
-Profilin (Vaccinia virus)	protein		Profilin	protein	Vaccinia virus
+Profilin (Vaccinia virus)	protein		Profilin	protein	Orthopoxvirus vaccinia
 progesterone receptor (Mus musculus)	protein		progesterone receptor	protein	Mus musculus
 proliferating cell nuclear antigen (Homo sapiens)	protein	PCNA	proliferating cell nuclear antigen	protein	Homo sapiens
 proliferating cell nuclear antigen (Oryctolagus cuniculus)	protein	PCNA	proliferating cell nuclear antigen	protein	Oryctolagus cuniculus
@@ -1053,33 +1053,33 @@ proteasome subunit beta type-8 (Homo sapiens)	protein		proteasome subunit beta t
 proteasome subunit C5 (Homo sapiens)	protein	proteasome subunit-C5	proteasome subunit C5	protein	Homo sapiens
 Protective antigen (Taenia solium)	protein		Protective antigen	protein	Taenia solium
 Protective recombinant antigen (Taenia crassiceps)	protein		Protective recombinant antigen	protein	Taenia crassiceps
-Protein A26 (Vaccinia virus)	protein		Protein A26	protein	Vaccinia virus
-Protein A30 (Vaccinia virus)	protein		Protein A30	protein	Vaccinia virus
-Protein A33 (Vaccinia virus)	protein		Protein A33	protein	Vaccinia virus
-Protein A34 (Vaccinia virus)	protein		Protein A34	protein	Vaccinia virus
-Protein A35 (Vaccinia virus)	protein		Protein A35	protein	Vaccinia virus
-Protein A40 (Vaccinia virus)	protein		Protein A40	protein	Vaccinia virus
-Protein A41 (Vaccinia virus)	protein		Protein A41	protein	Vaccinia virus
-Protein A46 (Vaccinia virus)	protein		Protein A46	protein	Vaccinia virus
-Protein A52 (Vaccinia virus)	protein		Protein A52	protein	Vaccinia virus
-Protein A56 (Vaccinia virus)	protein	Hemagglutinin	Protein A56	protein	Vaccinia virus
+Protein A26 (Vaccinia virus)	protein		Protein A26	protein	Orthopoxvirus vaccinia
+Protein A30 (Vaccinia virus)	protein		Protein A30	protein	Orthopoxvirus vaccinia
+Protein A33 (Vaccinia virus)	protein		Protein A33	protein	Orthopoxvirus vaccinia
+Protein A34 (Vaccinia virus)	protein		Protein A34	protein	Orthopoxvirus vaccinia
+Protein A35 (Vaccinia virus)	protein		Protein A35	protein	Orthopoxvirus vaccinia
+Protein A40 (Vaccinia virus)	protein		Protein A40	protein	Orthopoxvirus vaccinia
+Protein A41 (Vaccinia virus)	protein		Protein A41	protein	Orthopoxvirus vaccinia
+Protein A46 (Vaccinia virus)	protein		Protein A46	protein	Orthopoxvirus vaccinia
+Protein A52 (Vaccinia virus)	protein		Protein A52	protein	Orthopoxvirus vaccinia
+Protein A56 (Vaccinia virus)	protein	Hemagglutinin	Protein A56	protein	Orthopoxvirus vaccinia
 Protein argonaute-2 (Homo sapiens)	protein		Protein argonaute-2	protein	Homo sapiens
-Protein B9 (Vaccinia virus)	protein		Protein B9	protein	Vaccinia virus
+Protein B9 (Vaccinia virus)	protein		Protein B9	protein	Orthopoxvirus vaccinia
 Protein C (Measles morbillivirus)	protein		Protein C	protein	Measles morbillivirus
-Protein E6 (Human papillomavirus type 16)	protein		Protein E6	protein	Human papillomavirus type 16
-Protein E7 (Human papillomavirus type 16)	protein		Protein E7	protein	Human papillomavirus type 16
+Protein E6 (Human papillomavirus type 16)	protein		Protein E6	protein	Human papillomavirus 16
+Protein E7 (Human papillomavirus type 16)	protein		Protein E7	protein	Human papillomavirus 16
 Protein E7 (Human papillomavirus)	protein		Protein E7	protein	Human papillomavirus
-Protein E8 (Vaccinia virus)	protein		Protein E8	protein	Vaccinia virus
+Protein E8 (Vaccinia virus)	protein		Protein E8	protein	Orthopoxvirus vaccinia
 protein farnesyltransferase subunit beta (Homo sapiens)	protein		protein farnesyltransferase subunit beta	protein	Homo sapiens
-Protein G3 (Vaccinia virus)	protein		Protein G3	protein	Vaccinia virus
+Protein G3 (Vaccinia virus)	protein		Protein G3	protein	Orthopoxvirus vaccinia
 Protein H60b (Mus musculus)	protein		Protein H60b	protein	Mus musculus
 Protein K1 (Human gammaherpesvirus 8)	protein		Protein K1	protein	Human gammaherpesvirus 8
 Protein K12 (Human gammaherpesvirus 8)	protein		Protein K12	protein	Human gammaherpesvirus 8
-Protein K2 (Vaccinia virus)	protein	Serine proteinase inhibitor 3	Protein K2	protein	Vaccinia virus
+Protein K2 (Vaccinia virus)	protein	Serine proteinase inhibitor 3	Protein K2	protein	Orthopoxvirus vaccinia
 protein kinase C beta type isoform 2 (Homo sapiens)	protein	PKC-B	protein kinase C beta type isoform 2	protein	Homo sapiens
-Protein L1 (Vaccinia virus)	protein	Virion membrane protein M25	Protein L1	protein	Vaccinia virus
+Protein L1 (Vaccinia virus)	protein	Virion membrane protein M25	Protein L1	protein	Orthopoxvirus vaccinia
 Protein Nef (Human immunodeficiency virus 1)	protein	3'ORF|F-protein|Negative factor	Protein Nef	protein	Human immunodeficiency virus 1
-Protein O1 (Vaccinia virus)	protein		Protein O1	protein	Vaccinia virus
+Protein O1 (Vaccinia virus)	protein		Protein O1	protein	Orthopoxvirus vaccinia
 Protein ORF10 (Human gammaherpesvirus 8)	protein		Protein ORF10	protein	Human gammaherpesvirus 8
 Protein ORF73 (Human gammaherpesvirus 8)	protein		Protein ORF73	protein	Human gammaherpesvirus 8
 Protein P (Hepatitis B virus)	protein		Protein P	protein	Hepatitis B virus
@@ -1135,7 +1135,7 @@ rho-related GTP-binding protein RhoB (Gallus gallus)	protein		rho-related GTP-bi
 Rhodopsin (Bos taurus)	protein		Rhodopsin	protein	Bos taurus
 Rhoptry-associated protein 1 (Plasmodium falciparum)	protein		Rhoptry-associated protein 1	protein	Plasmodium falciparum
 Ribonuclease mitogillin (Aspergillus fumigatus)	protein	Allergen Asp f I|Allergen I/a|IgE-binding ribotoxin|Major allergen Asp f 1	Ribonuclease mitogillin	protein	Aspergillus fumigatus
-Ribonucleoside-diphosphate reductase large subunit (Vaccinia virus)	protein	Ribonucleotide reductase large subunit	Ribonucleoside-diphosphate reductase large subunit	protein	Vaccinia virus
+Ribonucleoside-diphosphate reductase large subunit (Vaccinia virus)	protein	Ribonucleotide reductase large subunit	Ribonucleoside-diphosphate reductase large subunit	protein	Orthopoxvirus vaccinia
 Ribonucleoside-diphosphate reductase, alpha subunit (Coxiella burnetii)	protein		Ribonucleoside-diphosphate reductase, alpha subunit	protein	Coxiella burnetii
 ribonucleotide reductase (Human alphaherpesvirus 2)	protein		ribonucleotide reductase	protein	Human alphaherpesvirus 2
 ribonucleotide reductase large (Murid gammaherpesvirus 4)	protein		ribonucleotide reductase large	protein	Murid gammaherpesvirus 4
@@ -1146,20 +1146,20 @@ ribosomal-protein-alanine acetyltransferase rimJ (Mycobacterium tuberculosis)	pr
 ricin A chain (Ricinus communis)	protein	rRNA N-glycosidase	ricin A chain	protein	Ricinus communis
 RIG-like 5-6 (Homo sapiens)	protein		RIG-like 5-6	protein	Homo sapiens
 RING finger protein Z (Lassa virus Josiah)	protein	Protein Z|Zinc-binding protein	RING finger protein Z	protein	Lassa virus Josiah
-RING finger protein Z (Lymphocytic choriomeningitis mammarenavirus)	protein	Protein Z|Zinc-binding protein	RING finger protein Z	protein	Lymphocytic choriomeningitis mammarenavirus
-RING finger protein Z (Machupo mammarenavirus)	protein	Protein Z|Zinc-binding protein	RING finger protein Z	protein	Machupo mammarenavirus
+RING finger protein Z (Lymphocytic choriomeningitis mammarenavirus)	protein	Protein Z|Zinc-binding protein	RING finger protein Z	protein	Mammarenavirus choriomeningitidis
+RING finger protein Z (Machupo mammarenavirus)	protein	Protein Z|Zinc-binding protein	RING finger protein Z	protein	Mammarenavirus machupoense
 RING12 (Homo sapiens)	protein		RING12	protein	Homo sapiens
 RNA helicase (Salmonella enterica)	protein		RNA helicase	protein	Salmonella enterica
-RNA helicase NPH-II (Vaccinia virus)	protein	NPH II|NTPase II|Nucleoside triphosphatase II|Nucleoside triphosphate phosphohydrolase II|RNA helicase I8	RNA helicase NPH-II	protein	Vaccinia virus
+RNA helicase NPH-II (Vaccinia virus)	protein	NPH II|NTPase II|Nucleoside triphosphatase II|Nucleoside triphosphate phosphohydrolase II|RNA helicase I8	RNA helicase NPH-II	protein	Orthopoxvirus vaccinia
 RNA polymerase (Plasmodium berghei)	protein		RNA polymerase	protein	Plasmodium berghei
-RNA polymerase (Rabies lyssavirus)	protein		RNA polymerase	protein	Rabies lyssavirus
+RNA polymerase (Rabies lyssavirus)	protein		RNA polymerase	protein	Lyssavirus rabies
 RNA polymerase sigma factor SigA (Chlamydia trachomatis)	protein	Sigma-66|Sigma-70|Sigma-A	RNA polymerase sigma factor SigA	protein	Chlamydia trachomatis
 RNA-binding protein 39 (Homo sapiens)	protein	Hepatocellular carcinoma protein 1	RNA-binding protein 39	protein	Homo sapiens
 RNA-directed RNA polymerase catalytic subunit (Influenza A virus)	protein	Polymerase basic protein 1|RNA-directed RNA polymerase subunit P1	RNA-directed RNA polymerase catalytic subunit	protein	Influenza A virus
-RNA-directed RNA polymerase L (Hantaan orthohantavirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Hantaan orthohantavirus
-RNA-directed RNA polymerase L (Human metapneumovirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Human metapneumovirus
-RNA-directed RNA polymerase L (Human orthopneumovirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Human orthopneumovirus
-RNA-directed RNA polymerase L (Lymphocytic choriomeningitis mammarenavirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Lymphocytic choriomeningitis mammarenavirus
+RNA-directed RNA polymerase L (Hantaan orthohantavirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Orthohantavirus hantanense
+RNA-directed RNA polymerase L (Human metapneumovirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	human metapneumovirus
+RNA-directed RNA polymerase L (Human orthopneumovirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	human respiratory syncytial virus
+RNA-directed RNA polymerase L (Lymphocytic choriomeningitis mammarenavirus)	protein	Large structural protein|Protein L|Replicase|Transcriptase	RNA-directed RNA polymerase L	protein	Mammarenavirus choriomeningitidis
 Ro ribonucleoprotein (Homo sapiens)	protein		Ro ribonucleoprotein	protein	Homo sapiens
 RT1 class I histocompatibility antigen, AA alpha chain (Rattus norvegicus)	protein		RT1 class I histocompatibility antigen, AA alpha chain	protein	Rattus norvegicus
 RTX-I toxin determinant A (Actinobacillus pleuropneumoniae)	protein		RTX-I toxin determinant A	protein	Actinobacillus pleuropneumoniae
@@ -1179,15 +1179,15 @@ Secretion protein (Francisella tularensis)	protein		Secretion protein	protein	Fr
 Selenophosphate-dependent tRNA 2-selenouridine synthase (Salmonella enterica)	protein	tRNA 2-selenouridine synthase	Selenophosphate-dependent tRNA 2-selenouridine synthase	protein	Salmonella enterica
 selenoprotein N (Homo sapiens)	protein		selenoprotein N	protein	Homo sapiens
 semaphorin-4D (Homo sapiens)	protein		semaphorin-4D	protein	Homo sapiens
-Semaphorin-like protein A39 (Vaccinia virus)	protein		Semaphorin-like protein A39	protein	Vaccinia virus
+Semaphorin-like protein A39 (Vaccinia virus)	protein		Semaphorin-like protein A39	protein	Orthopoxvirus vaccinia
 Septin-6 (Homo sapiens)	protein		Septin-6	protein	Homo sapiens
 serine protease (Dermatophagoides pteronyssinus)	protein		serine protease	protein	Dermatophagoides pteronyssinus
-Serine proteinase inhibitor 1 (Vaccinia virus)	protein	Serp-1|Serpin-1	Serine proteinase inhibitor 1	protein	Vaccinia virus
+Serine proteinase inhibitor 1 (Vaccinia virus)	protein	Serp-1|Serpin-1	Serine proteinase inhibitor 1	protein	Orthopoxvirus vaccinia
 serine repeat antigen 5 (Plasmodium falciparum)	protein	SERA-5	serine repeat antigen 5	protein	Plasmodium falciparum
 Serine-repeat antigen protein (Plasmodium falciparum)	protein	111 kDa antigen|p126	Serine-repeat antigen protein	protein	Plasmodium falciparum
 Serine-rich antigen (Mycobacterium leprae)	protein		Serine-rich antigen	protein	Mycobacterium leprae
 serine/threonine protein kinase (Salmonella enterica)	protein		serine/threonine protein kinase	protein	Salmonella enterica
-Serine/threonine-protein kinase 1 (Vaccinia virus)	protein	Vaccinia protein kinase 1	Serine/threonine-protein kinase 1	protein	Vaccinia virus
+Serine/threonine-protein kinase 1 (Vaccinia virus)	protein	Vaccinia protein kinase 1	Serine/threonine-protein kinase 1	protein	Orthopoxvirus vaccinia
 Serine/threonine-protein kinase 38-like (Homo sapiens)	protein	NDR2 protein kinase|Nuclear Dbf2-related kinase 2	Serine/threonine-protein kinase 38-like	protein	Homo sapiens
 Serine/threonine-protein kinase STK11 (Homo sapiens)	protein		Serine/threonine-protein kinase STK11	protein	Homo sapiens
 Serotransferrin (Bos taurus)	protein	Beta-1 metal-binding globulin|Siderophilin|Transferrin	Serotransferrin	protein	Bos taurus
@@ -1209,7 +1209,7 @@ Sjogren syndrome antigen B (Mus musculus)	protein	Lupus La protein homolog	Sjogr
 Skeletal muscle myosin heavy chain 1 (Homo sapiens)	protein		Skeletal muscle myosin heavy chain 1	protein	Homo sapiens
 skeletal myosin (Rattus norvegicus)	protein	myosin	skeletal myosin	protein	Rattus norvegicus
 Small heat shock protein (Babesia bovis)	protein		Small heat shock protein	protein	Babesia bovis
-Small hydrophobic protein (Human metapneumovirus)	protein		Small hydrophobic protein	protein	Human metapneumovirus
+Small hydrophobic protein (Human metapneumovirus)	protein		Small hydrophobic protein	protein	human metapneumovirus
 Small nuclear ribonucleoprotein G (Homo sapiens)	protein	Sm protein G|Sm-G|SmG|snRNP-G	Small nuclear ribonucleoprotein G	protein	Homo sapiens
 small nuclear ribonucleoprotein polypeptides B and B1 (Homo sapiens)	protein		small nuclear ribonucleoprotein polypeptides B and B1	protein	Homo sapiens
 Small nuclear ribonucleoprotein Sm D1 (Homo sapiens)	protein	Sm-D autoantigen|Sm-D1|snRNP core protein D1	Small nuclear ribonucleoprotein Sm D1	protein	Homo sapiens
@@ -1217,7 +1217,7 @@ Small nuclear ribonucleoprotein Sm D1 (Mus musculus)	protein	Sm-D autoantigen|Sm
 SmD cross-reacting protein (Mus musculus)	protein		SmD cross-reacting protein	protein	Mus musculus
 sodium channel, nonvoltage-gated 1 (Homo sapiens)	protein		sodium channel, nonvoltage-gated 1	protein	Homo sapiens
 Soluble egg antigen (Schistosoma japonicum)	protein	SEA	Soluble egg antigen	protein	Schistosoma japonicum
-Soluble interferon gamma receptor B8 (Vaccinia virus)	protein	B8	Soluble interferon gamma receptor B8	protein	Vaccinia virus
+Soluble interferon gamma receptor B8 (Vaccinia virus)	protein	B8	Soluble interferon gamma receptor B8	protein	Orthopoxvirus vaccinia
 solute carrier family 2, facilitated glucose transporter member 7 (Mus musculus)	protein		solute carrier family 2, facilitated glucose transporter member 7	protein	Mus musculus
 somatic antigen (Gnathostoma binucleatum)	protein	AgS	somatic antigen	protein	Gnathostoma binucleatum
 Sp110 nuclear body protein (Homo sapiens)	protein		Sp110 nuclear body protein	protein	Homo sapiens
@@ -1277,7 +1277,7 @@ TDP43 (Homo sapiens)	protein		TDP43	protein	Homo sapiens
 tegument protein (Human alphaherpesvirus 2)	protein		tegument protein	protein	Human alphaherpesvirus 2
 Tegument protein UL11 homolog (Human betaherpesvirus 5)	protein	28 kDa structural phosphoprotein|pp28	Tegument protein UL11 homolog	protein	Human betaherpesvirus 5
 tektin-3 (Homo sapiens)	protein		tektin-3	protein	Homo sapiens
-Telomere-binding protein I6 (Vaccinia virus)	protein		Telomere-binding protein I6	protein	Vaccinia virus
+Telomere-binding protein I6 (Vaccinia virus)	protein		Telomere-binding protein I6	protein	Orthopoxvirus vaccinia
 Tetanus toxin (Clostridium tetani)	protein	Tentoxylysin	Tetanus toxin	protein	Clostridium tetani
 tetratricopeptide repeat family protein (Coxiella burnetii)	protein		tetratricopeptide repeat family protein	protein	Coxiella burnetii
 Tetratricopeptide repeat thioredoxin-like 2 (Arabidopsis thaliana)	protein		Tetratricopeptide repeat thioredoxin-like 2	protein	Arabidopsis thaliana
@@ -1288,7 +1288,7 @@ thioredoxin TrxA (Escherichia coli)	protein		thioredoxin TrxA	protein	Escherichi
 thrombin (Homo sapiens)	protein	coagulation factor II|prothrombin	thrombin	protein	Homo sapiens
 Thrombin-like enzyme elegaxobin-1 (Protobothrops elegans)	protein	Elegaxobin I	Thrombin-like enzyme elegaxobin-1	protein	Protobothrops elegans
 thrombopoietin receptor (Homo sapiens)	protein		thrombopoietin receptor	protein	Homo sapiens
-Thymidylate kinase (Vaccinia virus)	protein	dTMP kinase	Thymidylate kinase	protein	Vaccinia virus
+Thymidylate kinase (Vaccinia virus)	protein	dTMP kinase	Thymidylate kinase	protein	Orthopoxvirus vaccinia
 thymosin beta-4, Y-chromosomal (Homo sapiens)	protein		thymosin beta-4, Y-chromosomal	protein	Homo sapiens
 Thyroglobulin (Mus musculus)	protein		Thyroglobulin	protein	Mus musculus
 Thyroglobulin precursor (Homo sapiens)	protein	TG	Thyroglobulin precursor	protein	Homo sapiens
@@ -1303,9 +1303,9 @@ toll-like receptor 2 (Ovis aries)	protein		toll-like receptor 2	protein	Ovis ari
 topoisomerase (DNA) III alpha (Homo sapiens)	protein		topoisomerase (DNA) III alpha	protein	Homo sapiens
 tousled-like kinase 1 (Homo sapiens)	protein	serine/threonine-protein kinase tousled-like 1	tousled-like kinase 1	protein	Homo sapiens
 Tpr protein K (Treponema pallidum)	protein		Tpr protein K	protein	Treponema pallidum
-Trans-activator protein BZLF1 (Human gammaherpesvirus 4)	protein	EB1|Zebra	Trans-activator protein BZLF1	protein	Human gammaherpesvirus 4
+Trans-activator protein BZLF1 (Human gammaherpesvirus 4)	protein	EB1|Zebra	Trans-activator protein BZLF1	protein	human gammaherpesvirus 4
 Trans-sialidase (Trypanosoma cruzi)	protein	TS	Trans-sialidase	protein	Trypanosoma cruzi
-Transcript termination protein A18 (Vaccinia virus)	protein	56 kDa abortive late protein	Transcript termination protein A18	protein	Vaccinia virus
+Transcript termination protein A18 (Vaccinia virus)	protein	56 kDa abortive late protein	Transcript termination protein A18	protein	Orthopoxvirus vaccinia
 transcription factor (Porcine endogenous retrovirus)	protein		transcription factor	protein	Porcine endogenous retrovirus
 transcription factor 4 (Mus musculus)	protein		transcription factor 4	protein	Mus musculus
 Transcription factor 7 (Mus musculus)	protein		Transcription factor 7	protein	Mus musculus
@@ -1325,11 +1325,11 @@ Transthyretin (Homo sapiens)	protein		Transthyretin	protein	Homo sapiens
 triadin (Homo sapiens)	protein		triadin	protein	Homo sapiens
 Trigger factor (Coxiella burnetii)	protein	PPIase|TF	Trigger factor	protein	Coxiella burnetii
 tripeptidyl-peptidase 2 (Gallus gallus)	protein		tripeptidyl-peptidase 2	protein	Gallus gallus
-tropomyosin (Crassostrea gigas)	protein	Cra g 1	tropomyosin	protein	Crassostrea gigas
+tropomyosin (Crassostrea gigas)	protein	Cra g 1	tropomyosin	protein	Magallana gigas
 tropomyosin (Penaeus indicus)	protein		tropomyosin	protein	Penaeus indicus
 troponin T cardiac (Carassius auratus)	protein		troponin T cardiac	protein	Carassius auratus
 troponin T cardiac (Melospiza melodia)	protein		troponin T cardiac	protein	Melospiza melodia
-Truncated secreted TNF-receptor-like protein A53R (Vaccinia virus)	protein		Truncated secreted TNF-receptor-like protein A53R	protein	Vaccinia virus
+Truncated secreted TNF-receptor-like protein A53R (Vaccinia virus)	protein		Truncated secreted TNF-receptor-like protein A53R	protein	Orthopoxvirus vaccinia
 trypomastigote small surface antigen (Trypanosoma cruzi)	protein		trypomastigote small surface antigen	protein	Trypanosoma cruzi
 Ts-32K protein precursor (Theileria sergenti)	protein		Ts-32K protein precursor	protein	Theileria sergenti
 tubulin (Mus musculus)	protein		tubulin	protein	Mus musculus
@@ -1357,7 +1357,7 @@ UL40 (Human alphaherpesvirus 2)	protein		UL40	protein	Human alphaherpesvirus 2
 Uncharacterized PPE family protein PPE19 (Mycobacterium tuberculosis)	protein		Uncharacterized PPE family protein PPE19	protein	Mycobacterium tuberculosis
 Uncharacterized protein (Onchocerca volvulus)	protein		Uncharacterized protein	protein	Onchocerca volvulus
 Uncharacterized protein 14 (Severe acute respiratory syndrome-related coronavirus)	protein		Uncharacterized protein 14	protein	Severe acute respiratory syndrome-related coronavirus
-Uncharacterized protein G6 (Vaccinia virus)	protein		Uncharacterized protein G6	protein	Vaccinia virus
+Uncharacterized protein G6 (Vaccinia virus)	protein		Uncharacterized protein G6	protein	Orthopoxvirus vaccinia
 Uncharacterized protein KIAA0754 (Homo sapiens)	protein		Uncharacterized protein KIAA0754	protein	Homo sapiens
 uncharacterized protein LOC285556 isoform X1 (Homo sapiens)	protein		uncharacterized protein LOC285556 isoform X1	protein	Homo sapiens
 Uncharacterized protein MAL13P1.304 (Plasmodium falciparum)	protein		Uncharacterized protein MAL13P1.304	protein	Plasmodium falciparum
@@ -1381,12 +1381,12 @@ vesicle transport protein (Plasmodium berghei)	protein		vesicle transport protei
 Vicilin-like protein (Anacardium occidentale)	protein		Vicilin-like protein	protein	Anacardium occidentale
 vimentin (Homo sapiens)	protein		vimentin	protein	Homo sapiens
 viral cyclin homolog (Human gammaherpesvirus 8)	protein	v-cyclin	viral cyclin homolog	protein	Human gammaherpesvirus 8
-Viral late gene transcription factor 2 (Vaccinia virus)	protein	Trans-activator protein A1|VLTF-2	Viral late gene transcription factor 2	protein	Vaccinia virus
-Viral late gene transcription factor 3 (Vaccinia virus)	protein	Trans-activator protein A2|VLTF-3	Viral late gene transcription factor 3	protein	Vaccinia virus
+Viral late gene transcription factor 2 (Vaccinia virus)	protein	Trans-activator protein A1|VLTF-2	Viral late gene transcription factor 2	protein	Orthopoxvirus vaccinia
+Viral late gene transcription factor 3 (Vaccinia virus)	protein	Trans-activator protein A2|VLTF-3	Viral late gene transcription factor 3	protein	Orthopoxvirus vaccinia
 Viral transcription factor IE2 (Human betaherpesvirus 5)	protein	IE2|Protein UL122	Viral transcription factor IE2	protein	Human betaherpesvirus 5
-Virion membrane protein A13 (Vaccinia virus)	protein	Protein P8	Virion membrane protein A13	protein	Vaccinia virus
-Virion membrane protein A17 precursor (Vaccinia virus)	protein	23 kDa late protein	Virion membrane protein A17 precursor	protein	Vaccinia virus
-Virion membrane protein A21 (Vaccinia virus)	protein		Virion membrane protein A21	protein	Vaccinia virus
+Virion membrane protein A13 (Vaccinia virus)	protein	Protein P8	Virion membrane protein A13	protein	Orthopoxvirus vaccinia
+Virion membrane protein A17 precursor (Vaccinia virus)	protein	23 kDa late protein	Virion membrane protein A17 precursor	protein	Orthopoxvirus vaccinia
+Virion membrane protein A21 (Vaccinia virus)	protein		Virion membrane protein A21	protein	Orthopoxvirus vaccinia
 vitellogenin (Dermatophagoides)	protein		vitellogenin	protein	Dermatophagoides
 VkIII myeloma protein Gun (Homo sapiens)	protein	Gun	VkIII myeloma protein Gun	protein	Homo sapiens
 VlsE (Borreliella afzelii)	protein		VlsE	protein	Borreliella afzelii

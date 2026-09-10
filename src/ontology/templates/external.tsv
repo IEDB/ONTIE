@@ -47,7 +47,7 @@ IAO:0000030	information content entity	owl:Class		owl:Thing
 IAO:0000140	setting datum	owl:Class		information content entity		
 NCBITaxon:10009	Tamiasciurus hudsonicus	owl:Class		organism		
 NCBITaxon:10036	Mesocricetus auratus	owl:Class		organism		
-NCBITaxon:1006061	Duck hepatitis A virus 1	owl:Class		organism		
+NCBITaxon:1006061	avihepatovirus A1	owl:Class		organism		
 NCBITaxon:1006063	Duck hepatitis A virus 3	owl:Class		organism		
 NCBITaxon:10090	Mus musculus	owl:Class		organism		
 NCBITaxon:10116	Rattus norvegicus	owl:Class		organism		
@@ -55,7 +55,7 @@ NCBITaxon:10141	Cavia porcellus	owl:Class		organism
 NCBITaxon:10239	Viruses	owl:Class		organism		
 NCBITaxon:10243	Cowpox virus	owl:Class		organism		
 NCBITaxon:10244	Monkeypox virus	owl:Class		organism		
-NCBITaxon:10245	Vaccinia virus	owl:Class		organism		
+NCBITaxon:10245	Orthopoxvirus vaccinia	owl:Class		organism		
 NCBITaxon:10255	Variola virus	owl:Class		organism		
 NCBITaxon:10261	Fowlpox virus	owl:Class		organism		
 NCBITaxon:102793	H5N1 subtype	owl:Class		organism		
@@ -65,7 +65,7 @@ NCBITaxon:102862	Proteus penneri	owl:Class		organism
 NCBITaxon:10298	Human alphaherpesvirus 1	owl:Class		organism		
 NCBITaxon:10306	Human alphaherpesvirus 1 strain KOS	owl:Class		organism		
 NCBITaxon:10310	Human alphaherpesvirus 2	owl:Class		organism		
-NCBITaxon:10320	Bovine alphaherpesvirus 1	owl:Class		organism		
+NCBITaxon:10320	bovine alphaherpesvirus 1	owl:Class		organism		
 NCBITaxon:10326	Equid alphaherpesvirus 1	owl:Class		organism		
 NCBITaxon:10331	Equid alphaherpesvirus 4	owl:Class		organism		
 NCBITaxon:10335	Human alphaherpesvirus 3	owl:Class		organism		
@@ -74,14 +74,14 @@ NCBITaxon:10359	Human betaherpesvirus 5	owl:Class		organism
 NCBITaxon:10366	Murid betaherpesvirus 1	owl:Class		organism		
 NCBITaxon:10367	Murine cytomegalovirus (strain Smith)	owl:Class		organism		
 NCBITaxon:10372	Human betaherpesvirus 7	owl:Class		organism		
-NCBITaxon:10376	Human gammaherpesvirus 4	owl:Class		organism		
+NCBITaxon:10376	human gammaherpesvirus 4	owl:Class		organism		
 NCBITaxon:10407	Hepatitis B virus	owl:Class		organism		
 NCBITaxon:10432	Woodchuck hepatitis virus 7	owl:Class		organism		
-NCBITaxon:104388	Anatid alphaherpesvirus 1	owl:Class		organism		
+NCBITaxon:104388	anatid alphaherpesvirus 1	owl:Class		organism		
 NCBITaxon:10497	African swine fever virus	owl:Class		organism		
 NCBITaxon:10515	Human adenovirus 2	owl:Class		organism		
 NCBITaxon:10566	Human papillomavirus	owl:Class		organism		
-NCBITaxon:10586	Human papillomavirus type 33	owl:Class		organism		
+NCBITaxon:10586	human papillomavirus 33	owl:Class		organism		
 NCBITaxon:10600	Human papillomavirus type 6b	owl:Class		organism		
 NCBITaxon:10623	Kappapapillomavirus 2	owl:Class		organism		
 NCBITaxon:10632	JC polyomavirus	owl:Class		organism		
@@ -91,7 +91,7 @@ NCBITaxon:10798	Human parvovirus B19	owl:Class		organism
 NCBITaxon:108098	Human mastadenovirus B	owl:Class		organism		
 NCBITaxon:10941	Human rotavirus A	owl:Class		organism		
 NCBITaxon:10995	Infectious bursal disease virus	owl:Class		organism		
-NCBITaxon:110195	Foot-and-mouth disease virus - type Asia 1	owl:Class		organism		
+NCBITaxon:110195	Foot-and-mouth disease virus Asia 1	owl:Class		organism		
 NCBITaxon:11021	Eastern equine encephalitis virus	owl:Class		organism		
 NCBITaxon:11033	Semliki Forest virus	owl:Class		organism		
 NCBITaxon:11034	Sindbis virus	owl:Class		organism		
@@ -100,35 +100,32 @@ NCBITaxon:11039	Western equine encephalitis virus	owl:Class		organism
 NCBITaxon:11041	Rubella virus	owl:Class		organism		
 NCBITaxon:11048	Lactate dehydrogenase-elevating virus	owl:Class		organism		
 NCBITaxon:11049	Lelystad virus	owl:Class		organism		
-NCBITaxon:11053	Dengue virus 1	owl:Class		organism		
-NCBITaxon:11060	Dengue virus 2	owl:Class		organism		
-NCBITaxon:11069	Dengue virus 3	owl:Class		organism		
-NCBITaxon:11070	Dengue virus 4	owl:Class		organism		
+NCBITaxon:11053	dengue virus type 1	owl:Class		organism		
+NCBITaxon:11060	dengue virus type 2	owl:Class		organism		
+NCBITaxon:11069	dengue virus type 3	owl:Class		organism		
+NCBITaxon:11070	dengue virus type 4	owl:Class		organism		
 NCBITaxon:11072	Japanese encephalitis virus	owl:Class		organism		
 NCBITaxon:11073	Japanese encephalitis virus strain SA-14	owl:Class		organism		
 NCBITaxon:11077	Kunjin virus	owl:Class		organism		
-NCBITaxon:11080	Saint Louis encephalitis virus	owl:Class		organism	St. Louis encephalitis virus	
+NCBITaxon:11080	St. Louis encephalitis virus	owl:Class		organism	St. Louis encephalitis virus	
 NCBITaxon:11082	West Nile virus	owl:Class		organism		
 NCBITaxon:11084	Tick-borne encephalitis virus	owl:Class		organism		
 NCBITaxon:11088	Tick-borne encephalitis virus (WESTERN SUBTYPE)	owl:Class		organism		
 NCBITaxon:11089	Yellow fever virus	owl:Class		organism		
 NCBITaxon:11096	Classical swine fever virus	owl:Class		organism		
 NCBITaxon:11099	Bovine viral diarrhea virus 1	owl:Class		organism		
-NCBITaxon:11103	Hepacivirus C	owl:Class		organism	Hepatitis C virus	
 NCBITaxon:11120	Infectious bronchitis virus	owl:Class		organism		
 NCBITaxon:11128	Bovine coronavirus	owl:Class		organism		
 NCBITaxon:11135	Feline infectious peritonitis virus	owl:Class		organism		
 NCBITaxon:11138	Murine hepatitis virus	owl:Class		organism		
 NCBITaxon:11149	Transmissible gastroenteritis virus	owl:Class		organism		
 NCBITaxon:11151	Porcine transmissible gastroenteritis coronavirus strain Purdue	owl:Class		organism		
-NCBITaxon:11191	Murine respirovirus	owl:Class		organism	Sendai virus	
-NCBITaxon:11232	Canine morbillivirus	owl:Class		organism		
 NCBITaxon:11234	Measles morbillivirus	owl:Class		organism	Measles virus	
 NCBITaxon:11240	Phocine morbillivirus	owl:Class		organism		
 NCBITaxon:11241	Rinderpest morbillivirus	owl:Class		organism	Rinderpest virus	
 NCBITaxon:11246	Bovine orthopneumovirus	owl:Class		organism		
-NCBITaxon:11250	Human orthopneumovirus	owl:Class		organism	Human respiratory syncytial virus	
-NCBITaxon:11292	Rabies lyssavirus	owl:Class		organism		
+NCBITaxon:11250	human respiratory syncytial virus	owl:Class		organism	Human respiratory syncytial virus	
+NCBITaxon:11292	Lyssavirus rabies	owl:Class		organism		
 NCBITaxon:11303	Bovine ephemeral fever virus	owl:Class		organism		
 NCBITaxon:11320	Influenza A virus	owl:Class		organism		
 NCBITaxon:114727	H1N1 subtype	owl:Class		organism		
@@ -139,12 +136,9 @@ NCBITaxon:11520	Influenza B virus	owl:Class		organism
 NCBITaxon:11588	Rift Valley fever virus	owl:Class		organism		
 NCBITaxon:11605	Puumala virus Hallnas B1	owl:Class		organism		
 NCBITaxon:1160947	Norovirus GIV.1	owl:Class		organism		
-NCBITaxon:11620	Lassa mammarenavirus	owl:Class		organism		
 NCBITaxon:11622	Lassa virus Josiah	owl:Class		organism		
-NCBITaxon:11623	Lymphocytic choriomeningitis mammarenavirus	owl:Class		organism		
 NCBITaxon:11624	Lymphocytic choriomeningitis virus (strain Armstrong)	owl:Class		organism		
 NCBITaxon:11627	Lymphocytic choriomeningitis virus (strain WE)	owl:Class		organism		
-NCBITaxon:11628	Machupo mammarenavirus	owl:Class		organism		
 NCBITaxon:11636	Reticuloendotheliosis virus	owl:Class		organism		
 NCBITaxon:11660	Caprine arthritis encephalitis virus	owl:Class		organism		
 NCBITaxon:11665	Equine infectious anemia virus	owl:Class		organism		
@@ -181,23 +175,23 @@ NCBITaxon:12064	Enterovirus E	owl:Class		organism
 NCBITaxon:12072	Coxsackievirus B3	owl:Class		organism		
 NCBITaxon:12073	Coxsackievirus B4	owl:Class		organism		
 NCBITaxon:12075	Swine vesicular disease virus	owl:Class		organism		
-NCBITaxon:12080	Human poliovirus 1	owl:Class		organism		
-NCBITaxon:12083	Human poliovirus 2	owl:Class		organism		
-NCBITaxon:12086	Human poliovirus 3	owl:Class		organism		
+NCBITaxon:12080	Poliovirus 1	owl:Class		organism		
+NCBITaxon:12083	Poliovirus 2	owl:Class		organism		
+NCBITaxon:12086	Poliovirus 3	owl:Class		organism		
 NCBITaxon:12098	Human hepatitis A virus Hu/Australia/HM175/1976	owl:Class		organism		
 NCBITaxon:12104	Encephalomyocarditis virus	owl:Class		organism		
 NCBITaxon:12110	Foot-and-mouth disease virus	owl:Class		organism		
-NCBITaxon:12111	Foot-and-mouth disease virus - type A	owl:Class		organism		
+NCBITaxon:12111	Foot-and-mouth disease virus A	owl:Class		organism		
 NCBITaxon:12113	Foot-and-mouth disease virus (strain A5)	owl:Class		organism		
-NCBITaxon:12116	Foot-and-mouth disease virus - type C	owl:Class		organism		
-NCBITaxon:12118	Foot-and-mouth disease virus - type O	owl:Class		organism		
+NCBITaxon:12116	Foot and mouth disease virus C	owl:Class		organism		
+NCBITaxon:12118	Foot-and-mouth disease virus O	owl:Class		organism		
 NCBITaxon:12121	Foot-and-mouth disease virus C1	owl:Class		organism		
-NCBITaxon:12122	Foot-and-mouth disease virus - type SAT 1	owl:Class		organism		
-NCBITaxon:12123	Foot-and-mouth disease virus - type SAT 3	owl:Class		organism		
+NCBITaxon:12122	Foot-and-mouth disease virus SAT 1	owl:Class		organism		
+NCBITaxon:12123	Foot-and-mouth disease virus SAT 3	owl:Class		organism		
 NCBITaxon:12124	Theiler's encephalomyelitis virus	owl:Class		organism		
 NCBITaxon:12125	Theiler's encephalomyelitis virus (STRAIN BEAN 8386)	owl:Class		organism		
-NCBITaxon:12130	Human rhinovirus A2	owl:Class		organism		
-NCBITaxon:12132	Human rhinovirus A89	owl:Class		organism		
+NCBITaxon:12130	rhinovirus A2	owl:Class		organism		
+NCBITaxon:12132	rhinovirus A89	owl:Class		organism		
 NCBITaxon:121759	Paracoccidioides brasiliensis	owl:Class		organism		
 NCBITaxon:12211	Plum pox virus	owl:Class		organism		
 NCBITaxon:12216	Potato virus Y	owl:Class		organism		
@@ -266,11 +260,11 @@ NCBITaxon:158877	Yokenella regensburgei	owl:Class		organism
 NCBITaxon:15957	Phleum pratense	owl:Class		organism		
 NCBITaxon:160	Treponema pallidum	owl:Class		organism		
 NCBITaxon:161	Treponema pallidum subsp. pallidum	owl:Class		organism		
-NCBITaxon:162145	Human metapneumovirus	owl:Class		organism		
+NCBITaxon:162145	human metapneumovirus	owl:Class		organism		
 NCBITaxon:1639	Listeria monocytogenes	owl:Class		organism		
 NCBITaxon:1642	Listeria innocua	owl:Class		organism		
 NCBITaxon:1661	Trueperella pyogenes	owl:Class		organism		
-NCBITaxon:1678143	Orthohepevirus A	owl:Class		organism	Hepatitis E virus	
+NCBITaxon:1678143	Paslahepevirus balayani	owl:Class		organism	Hepatitis E virus	
 NCBITaxon:168014	Equine rhinitis B virus 2	owl:Class		organism		
 NCBITaxon:1685	Bifidobacterium breve	owl:Class		organism		
 NCBITaxon:1717	Corynebacterium diphtheriae	owl:Class		organism		
@@ -289,30 +283,24 @@ NCBITaxon:1783	Mycobacterium scrofulaceum	owl:Class		organism
 NCBITaxon:183666	H10N5 subtype	owl:Class		organism		
 NCBITaxon:185580	Hepatitis E virus type 4	owl:Class		organism		
 NCBITaxon:187410	Yersinia pestis KIM10+	owl:Class		organism		
-NCBITaxon:1891762	Human polyomavirus 1	owl:Class		organism		
-NCBITaxon:1891767	Macaca mulatta polyomavirus 1	owl:Class		organism		
+NCBITaxon:1891762	Betapolyomavirus hominis	owl:Class		organism		
+NCBITaxon:1891767	Betapolyomavirus macacae	owl:Class		organism		
 NCBITaxon:192087	Pseudomonas syringae pv. atrofaciens	owl:Class		organism		
 NCBITaxon:195316	Narcine timlei	owl:Class		organism		
 NCBITaxon:197	Campylobacter jejuni	owl:Class		organism		
-NCBITaxon:1980456	Andes orthohantavirus	owl:Class		organism		
-NCBITaxon:1980471	Hantaan orthohantavirus	owl:Class		organism	Hantaan hantavirus	
-NCBITaxon:1980486	Puumala orthohantavirus	owl:Class		organism	Puumala hantavirus	
-NCBITaxon:1980491	Sin Nombre orthohantavirus	owl:Class		organism		
-NCBITaxon:1980519	Crimean-Congo hemorrhagic fever orthonairovirus	owl:Class		organism		
+NCBITaxon:1980456	Orthohantavirus andesense	owl:Class		organism		
 NCBITaxon:199306	Coccidioides posadasii	owl:Class		organism		
 NCBITaxon:208726	Human hepatitis A virus	owl:Class		organism		
 NCBITaxon:208893	Human respiratory syncytial virus A	owl:Class		organism		
 NCBITaxon:208895	Human respiratory syncytial virus B	owl:Class		organism		
-NCBITaxon:2096	Mycoplasma gallisepticum	owl:Class		organism		
-NCBITaxon:2099	Mycoplasma hyopneumoniae	owl:Class		organism		
+NCBITaxon:2096	Mycoplasmoides gallisepticum	owl:Class		organism		
+NCBITaxon:2099	Mesomycoplasma hyopneumoniae	owl:Class		organism		
 NCBITaxon:210	Helicobacter pylori	owl:Class		organism		
 NCBITaxon:215851	H3N3 subtype	owl:Class		organism		
 NCBITaxon:216495	Streptococcus agalactiae serogroup III	owl:Class		organism		
-NCBITaxon:2169700	Pseudomonas virus PRD1	owl:Class		organism		
+NCBITaxon:2169700	Alphatectivirus PRD1	owl:Class		organism		
 NCBITaxon:2169971	Visna-maedi virus	owl:Class		organism		
-NCBITaxon:2169991	Argentinian mammarenavirus	owl:Class		organism		
-NCBITaxon:2169992	Brazilian mammarenavirus	owl:Class		organism	Sabia mammarenavirus	
-NCBITaxon:2169993	Cali mammarenavirus	owl:Class		organism		
+NCBITaxon:2169991	Mammarenavirus juninense	owl:Class		organism		
 NCBITaxon:217992	Escherichia coli O6	owl:Class		organism		
 NCBITaxon:222772	H10N4 subtype	owl:Class		organism		
 NCBITaxon:223337	Tobacco leaf curl Zimbabwe virus	owl:Class		organism		
@@ -322,31 +310,32 @@ NCBITaxon:235544	Norovirus genogroup 1 isolates	owl:Class		organism
 NCBITaxon:236	Brucella ovis	owl:Class		organism		
 NCBITaxon:246618	Bifidobacterium thermacidophilum	owl:Class		organism		
 NCBITaxon:246878	Canine parvovirus 2	owl:Class		organism		
-NCBITaxon:2484686	Hypanus americanus (southern stingray)	owl:Class		organism		
+NCBITaxon:2484686	Hypanus americanus	owl:Class		organism		
 NCBITaxon:251654	Pseudomonas syringae pv. helianthi	owl:Class		organism		
 NCBITaxon:254355	Small ruminant lentivirus	owl:Class		organism		
-NCBITaxon:2560319	Avian orthoavulavirus 1	owl:Class		organism	Newcastle disease virus|Avian avulavirus 1	
+NCBITaxon:2560319	avian paramyxovirus 1	owl:Class		organism	Newcastle disease virus|Avian avulavirus 1	
 NCBITaxon:257313	Bordetella pertussis Tohama I	owl:Class		Bordetella pertussis		
 NCBITaxon:260799	Bacillus anthracis str. Sterne	owl:Class		organism		
 NCBITaxon:263	Francisella tularensis	owl:Class		organism		
 NCBITaxon:265872	Cowpox virus (Brighton Red)	owl:Class		organism		
-NCBITaxon:2678873	Trimerodytes annularis (Red-bellied annulate keelback)	owl:Class		organism		
+NCBITaxon:2678873	Trimerodytes annularis	owl:Class		organism		
 NCBITaxon:2697049	Severe acute respiratory syndrome coronavirus 2	owl:Class		organism		
 NCBITaxon:272636	Adeno-associated virus	owl:Class		organism		
-NCBITaxon:2759634	Pseudagkistrodon rudis (Red keelback)	owl:Class		organism		
+NCBITaxon:2759634	Pseudagkistrodon rudis	owl:Class		organism		
 NCBITaxon:28090	Acinetobacter lwoffii	owl:Class		organism		
 NCBITaxon:28116	Bacteroides ovatus	owl:Class		organism		
-NCBITaxon:28227	Mycoplasma penetrans	owl:Class		organism		
+NCBITaxon:28227	Malacoplasma penetrans	owl:Class		organism		
 NCBITaxon:28285	Human adenovirus 5	owl:Class		organism		
 NCBITaxon:28295	Porcine epidemic diarrhea virus	owl:Class		organism		
-NCBITaxon:28314	Aleutian mink disease virus	owl:Class		organism		
+NCBITaxon:28314	Aleutian mink disease parvovirus	owl:Class		organism		
 NCBITaxon:28344	Porcine reproductive and respiratory syndrome virus	owl:Class		organism		
 NCBITaxon:283801	Plasmodium yoelii killicki	owl:Class		organism		
 NCBITaxon:28450	Burkholderia pseudomallei	owl:Class		organism		
+NCBITaxon:2847144	hepatitis C virus genotype 1a	owl:Class		organism		
 NCBITaxon:287	Pseudomonas aeruginosa	owl:Class		organism		
 NCBITaxon:28901	Salmonella enterica	owl:Class		organism		
 NCBITaxon:28909	Cynodon dactylon	owl:Class		organism		
-NCBITaxon:29159	Crassostrea gigas	owl:Class		organism		
+NCBITaxon:29159	Magallana gigas	owl:Class		organism		
 NCBITaxon:29430	Acinetobacter haemolyticus	owl:Class		organism		
 NCBITaxon:29459	Brucella melitensis	owl:Class		organism		
 NCBITaxon:29518	Borreliella afzelii	owl:Class		organism		
@@ -357,13 +346,26 @@ NCBITaxon:29960	Penaeus indicus	owl:Class		organism	Fenneropenaeus indicus
 NCBITaxon:301448	Streptococcus pyogenes serotype M3	owl:Class		organism		
 NCBITaxon:301450	Streptococcus pyogenes serotype M6	owl:Class		organism		
 NCBITaxon:303	Pseudomonas putida	owl:Class		organism		
+NCBITaxon:3052230	Orthohepacivirus hominis	owl:Class		organism	Hepatitis C virus	
+NCBITaxon:3052299	Mammarenavirus brazilense	owl:Class		organism	Sabia mammarenavirus	
+NCBITaxon:3052300	Mammarenavirus caliense	owl:Class		organism		
+NCBITaxon:3052303	Mammarenavirus choriomeningitidis	owl:Class		organism		
+NCBITaxon:3052307	Mammarenavirus guanaritoense	owl:Class		organism		
+NCBITaxon:3052310	Mammarenavirus lassaense	owl:Class		organism		
+NCBITaxon:3052317	Mammarenavirus machupoense	owl:Class		organism		
+NCBITaxon:3052331	Mammarenavirus whitewaterense	owl:Class		organism		
+NCBITaxon:3052342	Morbillivirus canis	owl:Class		organism		
+NCBITaxon:3052343	Morbillivirus caprinae	owl:Class		organism	Peste-des-petits-ruminants virus	
+NCBITaxon:3052480	Orthohantavirus hantanense	owl:Class		organism	Hantaan hantavirus	
+NCBITaxon:3052493	Orthohantavirus puumalaense	owl:Class		organism	Puumala hantavirus	
+NCBITaxon:3052499	Orthohantavirus sinnombreense	owl:Class		organism		
+NCBITaxon:3052518	Orthonairovirus haemorrhagiae	owl:Class		organism		
+NCBITaxon:3052731	Respirovirus muris	owl:Class		organism	Sendai virus	
 NCBITaxon:309405	H14N6 subtype	owl:Class		organism		
 NCBITaxon:310542	Chimpanzee adenovirus	owl:Class		organism		
 NCBITaxon:312185	Erbovirus A	owl:Class		organism		
 NCBITaxon:31286	Trypanosoma brucei rhodesiense	owl:Class		organism		
 NCBITaxon:31560	Infectious bursal disease virus E	owl:Class		organism		
-NCBITaxon:31604	Small ruminant morbillivirus	owl:Class		organism	Peste-des-petits-ruminants virus	
-NCBITaxon:31646	Hepatitis C virus subtype 1a	owl:Class		organism		
 NCBITaxon:31647	Hepatitis C virus subtype 1b	owl:Class		organism		
 NCBITaxon:31649	Hepatitis C virus subtype 2a	owl:Class		organism		
 NCBITaxon:31650	Hepatitis C virus subtype 2b	owl:Class		organism		
@@ -379,13 +381,13 @@ NCBITaxon:32603	Human betaherpesvirus 6A	owl:Class		organism
 NCBITaxon:32604	Human betaherpesvirus 6B	owl:Class		organism		
 NCBITaxon:32644	unidentified	owl:Class		organism		
 NCBITaxon:329091	Cupressus torulosa	owl:Class		organism		
-NCBITaxon:329852	Escherichia virus MS2	owl:Class		organism		
+NCBITaxon:329852	Emesvirus zinderi	owl:Class		organism		
 NCBITaxon:33127	Parietaria judaica	owl:Class		organism		
 NCBITaxon:33178	Aspergillus terreus	owl:Class		organism		
 NCBITaxon:332162	Candidatus Solibacter	owl:Class		organism		
 NCBITaxon:333745	Chaetonerius	owl:Class		organism		
-NCBITaxon:333760	Human papillomavirus type 16	owl:Class		organism		
-NCBITaxon:333761	Human papillomavirus type 18	owl:Class		organism		
+NCBITaxon:333760	Human papillomavirus 16	owl:Class		organism		
+NCBITaxon:333761	human papillomavirus 18	owl:Class		organism		
 NCBITaxon:334203	Mupapillomavirus 1	owl:Class		organism		
 NCBITaxon:3352	Pinus taeda	owl:Class		organism		
 NCBITaxon:3369	Cryptomeria japonica	owl:Class		organism		
@@ -404,7 +406,7 @@ NCBITaxon:3505	Betula pendula	owl:Class		organism
 NCBITaxon:351680	Measles virus genotypes and isolates	owl:Class		organism		
 NCBITaxon:35244	Bovine alphaherpesvirus 5	owl:Class		organism		
 NCBITaxon:352914	Plasmodium yoelii yoelii 17XNL	owl:Class		organism		
-NCBITaxon:35292	Foot-and-mouth disease virus - type SAT 2	owl:Class		organism		
+NCBITaxon:35292	Foot-and-mouth disease virus SAT 2	owl:Class		organism		
 NCBITaxon:35336	Rotavirus G4	owl:Class		organism		
 NCBITaxon:356387	Hepatitis C virus subtype 2i	owl:Class		organism		
 NCBITaxon:356426	Hepatitis C virus subtype 3a	owl:Class		organism		
@@ -439,32 +441,31 @@ NCBITaxon:3818	Arachis hypogaea	owl:Class		organism
 NCBITaxon:38251	Goose parvovirus	owl:Class		organism		
 NCBITaxon:3847	Glycine max	owl:Class		organism		
 NCBITaxon:385576	Influenza A virus (A/Alaska/6/1977(H3N2))	owl:Class		organism		
-NCBITaxon:38767	Duvenhage lyssavirus	owl:Class		organism		
+NCBITaxon:38767	Lyssavirus duvenhage	owl:Class		organism		
 NCBITaxon:39054	Enterovirus A71	owl:Class		organism		
 NCBITaxon:3981	Hevea brasiliensis	owl:Class		organism		
 NCBITaxon:3988	Ricinus communis	owl:Class		organism		
-NCBITaxon:40050	African horse sickness virus	owl:Class		organism		
+NCBITaxon:40050	Orbivirus alphaequi	owl:Class		organism		
 NCBITaxon:40271	Hepatitis C virus genotype 2	owl:Class		organism		
 NCBITaxon:40287	Streptococcus mutans serotype C	owl:Class		organism		
-NCBITaxon:40410	Cryptococcus neoformans var. neoformans	owl:Class		organism		
+NCBITaxon:40410	Cryptococcus deneoformans	owl:Class		organism		
 NCBITaxon:404330	Streptococcus pyogenes serotype M2	owl:Class		organism		
 NCBITaxon:4081	Solanum lycopersicum	owl:Class		organism		
 NCBITaxon:4182	Sesamum indicum	owl:Class		organism		
 NCBITaxon:41857	Influenza A virus H3N2	owl:Class		organism		
 NCBITaxon:42182	Hepatitis C virus genotype 6	owl:Class		organism		
 NCBITaxon:42567	Rotavirus G9	owl:Class		organism		
-NCBITaxon:42789	Enterovirus D68	owl:Class		organism		
+NCBITaxon:42789	enterovirus D68	owl:Class		organism		
 NCBITaxon:43358	Human astrovirus 8	owl:Class		organism		
-NCBITaxon:43767	Rhodococcus hoagii	owl:Class		organism		
+NCBITaxon:43767	Prescottella equi	owl:Class		organism		
 NCBITaxon:441771	Clostridium botulinum A str. Hall	owl:Class		organism		
 NCBITaxon:44397	Melospiza melodia	owl:Class		organism		
 NCBITaxon:444185	Simian rotavirus A strain RRV	owl:Class		organism		
 NCBITaxon:44454	Mycobacterium avium subsp. avium	owl:Class		organism		
 NCBITaxon:44689	Dictyostelium discoideum	owl:Class		organism		
 NCBITaxon:45029	Bluetongue virus 16	owl:Class		organism		
-NCBITaxon:45219	Guanarito mammarenavirus	owl:Class		organism		
 NCBITaxon:4522	Lolium perenne	owl:Class		organism		
-NCBITaxon:452646	Neovison vison	owl:Class		organism		
+NCBITaxon:452646	Neogale vison	owl:Class		organism		
 NCBITaxon:4530	Oryza sativa	owl:Class		organism		
 NCBITaxon:453927	Juniperus formosana	owl:Class		organism		
 NCBITaxon:4550	Secale cereale	owl:Class		organism		
@@ -477,7 +478,6 @@ NCBITaxon:46257	Pseudomonas avellanae	owl:Class		organism
 NCBITaxon:46290	Foot-and-mouth disease virus C3	owl:Class		organism		
 NCBITaxon:46472	Aspergillus versicolor	owl:Class		organism		
 NCBITaxon:46608	Exogenous mouse mammary tumor virus	owl:Class		organism		
-NCBITaxon:46919	Whitewater Arroyo mammarenavirus	owl:Class		organism		
 NCBITaxon:47000	Equine rhinitis A virus	owl:Class		organism		
 NCBITaxon:47308	Neogobius melanostomus	owl:Class		organism		
 NCBITaxon:480	Moraxella catarrhalis	owl:Class		organism		
@@ -504,8 +504,8 @@ NCBITaxon:54390	Micrurus corallinus	owl:Class		organism
 NCBITaxon:544406	Helicobacter pylori B128	owl:Class		organism		
 NCBITaxon:546	Citrobacter freundii	owl:Class		organism		
 NCBITaxon:5476	Candida albicans	owl:Class		organism		
-NCBITaxon:5478	[Candida] glabrata	owl:Class		organism		
-NCBITaxon:5480	Candida parapsilosis	owl:Class		organism		
+NCBITaxon:5478	Nakaseomyces glabratus	owl:Class		organism		
+NCBITaxon:5480	Lodderomyces parapsilosis	owl:Class		organism		
 NCBITaxon:55429	Megathura crenulata	owl:Class		organism		
 NCBITaxon:55513	Pistacia vera	owl:Class		organism		
 NCBITaxon:5599	Alternaria alternata	owl:Class		organism		
@@ -545,7 +545,7 @@ NCBITaxon:588	Providencia stuartii	owl:Class		organism
 NCBITaxon:590	Salmonella	owl:Class		organism		
 NCBITaxon:594	Salmonella enterica subsp. enterica serovar Gallinarum	owl:Class		organism		
 NCBITaxon:60189	Rhipicephalus decoloratus	owl:Class		organism		
-NCBITaxon:604	Salmonella enterica subsp. enterica serovar Gallinarum/pullorum	owl:Class		organism		
+NCBITaxon:604	Salmonella enterica subsp. enterica serovar Gallinarum/Pullorum	owl:Class		organism		
 NCBITaxon:611	Salmonella enterica subsp. enterica serovar Heidelberg	owl:Class		organism		
 NCBITaxon:61466	Gnathostoma binucleatum	owl:Class		organism		
 NCBITaxon:615	Serratia marcescens	owl:Class		organism		
@@ -597,12 +597,12 @@ NCBITaxon:74398	Elaphe taeniura	owl:Class		organism
 NCBITaxon:74537	Vladivostok virus	owl:Class		organism		
 NCBITaxon:746128	Aspergillus fumigatus	owl:Class		organism		
 NCBITaxon:747	Pasteurella multocida	owl:Class		organism		
-NCBITaxon:75555	Salmonella thompson C1	owl:Class		organism		
+NCBITaxon:75555	Salmonella enterica subsp. enterica serovar Thompson str. C1	owl:Class		organism		
 NCBITaxon:75985	Mannheimia haemolytica	owl:Class		organism		
 NCBITaxon:770	Anaplasma marginale	owl:Class		organism		
 NCBITaxon:77153	Muscovy duck reovirus	owl:Class		organism		
 NCBITaxon:7726	Styela plicata	owl:Class		organism		
-NCBITaxon:7742	Vertebrata	owl:Class		organism		
+NCBITaxon:7742	Vertebrata <vertebrates>	owl:Class		organism		
 NCBITaxon:777	Coxiella burnetii	owl:Class		organism		
 NCBITaxon:7787	Tetronarce californica	owl:Class		organism		
 NCBITaxon:779	Ehrlichia ruminantium	owl:Class		organism		
@@ -640,12 +640,12 @@ NCBITaxon:9556	Papio cynocephalus	owl:Class		organism
 NCBITaxon:9598	Pan troglodytes	owl:Class		organism		
 NCBITaxon:9606	Homo sapiens	owl:Class		organism		
 NCBITaxon:9615	Canis lupus familiaris	owl:Class		organism		
-NCBITaxon:96241	Bacillus subtilis subsp. spizizenii	owl:Class		organism		
+NCBITaxon:96241	Bacillus spizizenii	owl:Class		organism		
 NCBITaxon:9627	Vulpes vulpes	owl:Class		organism		
 NCBITaxon:9685	Felis catus	owl:Class		organism		
 NCBITaxon:9725	Inia geoffrensis	owl:Class		organism		
 NCBITaxon:9733	Orcinus orca	owl:Class		organism		
-NCBITaxon:9755	Physeter catodon	owl:Class		organism		
+NCBITaxon:9755	Physeter macrocephalus	owl:Class		organism		
 NCBITaxon:9770	Balaenoptera physalus	owl:Class		organism		
 NCBITaxon:9796	Equus caballus	owl:Class		organism		
 NCBITaxon:9798	Equus przewalskii	owl:Class		organism		

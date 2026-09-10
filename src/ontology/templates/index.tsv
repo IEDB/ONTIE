@@ -3342,7 +3342,7 @@ ONTIE:0003344	Sus scrofa Duroc X Yorkshire X Hampshire	owl:Class			IEDB
 ONTIE:0003345	Porcine epidemic diarrhea virus PEDV USA/Colorado/2013	owl:Class			IEDB
 ONTIE:0003346	Mus musculus MOG-specific TCR beta-chain Tg	owl:Class			IEDB
 ONTIE:0003347	Mus musculus Antibody Transgenic	owl:Class			IEDB
-ONTIE:0003348	mus musculus VelocImmune	owl:Class			IEDB
+ONTIE:0003348	Mus musculus VelocImmune	owl:Class			IEDB
 ONTIE:0003349	band 3 anion transport protein (Mus musculus)	owl:Class			IEDB
 ONTIE:0003350	ubiquitin-associated domain-containing protein 2 (Homo sapiens)	owl:Class			IEDB
 ONTIE:0003351	CD74/ROS (Homo sapiens)	owl:Class			IEDB

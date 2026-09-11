@@ -3652,3 +3652,1483 @@ ONTIE:0003676	not available data item	owl:Class			HCC
 ONTIE:0003677	other data item	owl:Class			HCC
 ONTIE:0003678	incomplete data item	owl:Class			HCC
 ONTIE:0003679	unknown data item	owl:Class			HCC
+ONTIE:0003680	Mus musculus NOD.c3c4	owl:Class			IEDB
+ONTIE:0003681	Mus musculus B1-8i	owl:Class			IEDB
+ONTIE:0003682	Mus musculus BoyJ	owl:Class			IEDB
+ONTIE:0003683	Suid alphaherpesvirus 1 strain JS-2012	owl:Class			IEDB
+ONTIE:0003684	Foot-and-mouth disease virus O/NC/CHA/2010	owl:Class			IEDB
+ONTIE:0003685	Influenza A virus (A/Shaanxi/2014(H1N1))	owl:Class			IEDB
+ONTIE:0003686	Influenza A virus (A/Phalacrocorax carbo/Hubei/HH179/2013 (H7N7))	owl:Class			IEDB
+ONTIE:0003687	Influenza A virus (A/Guangdong/17SF003/2016 (H7N9))	owl:Class			IEDB
+ONTIE:0003688	Influenza A virus (A/reassortant/NIBRG267(Shanghai/2/2013 x Puerto Rico/8/1934)(H7N9))	owl:Class			IEDB
+ONTIE:0003689	Duck astrovirus 1 strain D51	owl:Class			IEDB
+ONTIE:0003690	Leishmania major strain WHOM/IR/173	owl:Class			IEDB
+ONTIE:0003691	ZIKV/H. sapiens/Suriname/Z1106033/2015	owl:Class			IEDB
+ONTIE:0003692	ZIKV/H. sapiens/China/SZ-WIV01/2016	owl:Class			IEDB
+ONTIE:0003693	ZIKV/H. sapiens/Columbia/FLR/2015	owl:Class			IEDB
+ONTIE:0003694	ZIKV/M. mullata/Uganda/MR766/1947	owl:Class			IEDB
+ONTIE:0003695	ZIKV/M. musculus/China/MAV-HQ/2017	owl:Class			IEDB
+ONTIE:0003696	Mus musculus NOD.InsY16A Tg	owl:Class			IEDB
+ONTIE:0003697	Chikungunya virus strain AF15561	owl:Class			IEDB
+ONTIE:0003698	West Nile virus goshawk/Austria/2008	owl:Class			IEDB
+ONTIE:0003699	Andes orthohantavirus CHI-9717869	owl:Class			IEDB
+ONTIE:0003700	Canine Distemper Virus strain PS	owl:Class			IEDB
+ONTIE:0003701	Canine Distemper Virus strain Rockborn	owl:Class			IEDB
+ONTIE:0003702	Canine Distemper Virus strain 3	owl:Class			IEDB
+ONTIE:0003703	Porcine epidemic diarrhea virus strain HeB/TS/2016/325b	owl:Class			IEDB
+ONTIE:0003704	Streptococcus pneumoniae type 10A	owl:Class			IEDB
+ONTIE:0003705	Trichinella spiralis ISS 533 strain	owl:Class			IEDB
+ONTIE:0003706	ZIKV/H. sapiens/Brazil/BEH823339/2015	owl:Class			IEDB
+ONTIE:0003707	ZIKV/H. sapiens/Brazil/BEH815744/2015	owl:Class			IEDB
+ONTIE:0003708	Mycobacterium marinum Aronson ATCC 927	owl:Class			IEDB
+ONTIE:0003709	Severe acute respiratory syndrome coronavirus 2 Shenzhen/SZTH-003/2020	owl:Class			IEDB
+ONTIE:0003710	Severe acute respiratory syndrome coronavirus 2 Wuhan/IVDC-HB-01/2019	owl:Class			IEDB
+ONTIE:0003711	Severe acute respiratory syndrome coronavirus 2 Shenzhen/SZTH-004/2020	owl:Class			IEDB
+ONTIE:0003712	Severe acute respiratory syndrome coronavirus 2 France/IDF0372/2020	owl:Class			IEDB
+ONTIE:0003713	Severe acute respiratory syndrome coronavirus 2 Wuhan/WIV04/2019	owl:Class			IEDB
+ONTIE:0003714	Severe acute respiratory syndrome coronavirus 2 CHN/SH01/2020	owl:Class			IEDB
+ONTIE:0003715	Severe acute respiratory syndrome coronavirus 2 Wuhan/AMMS01/2020	owl:Class			IEDB
+ONTIE:0003716	Severe acute respiratory syndrome coronavirus 2 Wuhan/IVDC-HB-envF13/2020	owl:Class			IEDB
+ONTIE:0003717	Mus musculus TCR<sup>mini</sup>	owl:Class			IEDB
+ONTIE:0003718	Severe acute respiratory syndrome coronavirus 2 USA-WA1/2020	owl:Class			IEDB
+ONTIE:0003719	Severe acute respiratory syndrome coronavirus 2 Australia/VIC01/2020	owl:Class			IEDB
+ONTIE:0003720	Trichinella spiralis ISS 534 strain	owl:Class			IEDB
+ONTIE:0003721	Severe acute respiratory syndrome coronavirus 2 Victoria/01/2020	owl:Class			IEDB
+ONTIE:0003722	Novel goose parvovirus-related virus	owl:Class			IEDB
+ONTIE:0003723	Severe acute respiratory syndrome coronavirus 2 HKG/HKU-001a/2020	owl:Class			IEDB
+ONTIE:0003724	Severe acute respiratory syndrome coronavirus 2 Taiwan/CGMH-CGU-01/2020	owl:Class			IEDB
+ONTIE:0003725	Pseudomonas aeruginosa ATCC 27853	owl:Class			IEDB
+ONTIE:0003726	Anogeissus	owl:Class			IEDB
+ONTIE:0003727	Influenza A virus (A/British Columbia/1/2015(H7N9))	owl:Class			IEDB
+ONTIE:0003728	O'nyong-nyong virus strain MP30 (O'nyong-nyong virus (strain MP30))	owl:Class			IEDB
+ONTIE:0003729	Mayaro virus (strain TR VL-4675)	owl:Class			IEDB
+ONTIE:0003730	Sagiyama virus (strain M6-Mag 132)	owl:Class			IEDB
+ONTIE:0003731	Getah virus (strain MM 2021)	owl:Class			IEDB
+ONTIE:0003732	Severe acute respiratory syndrome coronavirus 2 Belgium/GHB-03021/2020	owl:Class			IEDB
+ONTIE:0003733	Severe acute respiratory syndrome coronavirus 2 China/WH-09/2020	owl:Class			IEDB
+ONTIE:0003734	Influenza B virus (B/New York/PV00094/2017)	owl:Class			IEDB
+ONTIE:0003735	Influenza B virus (B//New York/PV00081/2018)	owl:Class			IEDB
+ONTIE:0003736	Severe acute respiratory syndrome coronavirus 2 Munich isolate 984	owl:Class			IEDB
+ONTIE:0003737	Severe acute respiratory syndrome coronavirus 2 England/02/2020	owl:Class			IEDB
+ONTIE:0003738	Neisseria meningitidis M08-240104	owl:Class			IEDB
+ONTIE:0003739	Neisseria meningitidis M01-0240320 (UK320)	owl:Class			IEDB
+ONTIE:0003740	Sus scrofa Babraham	owl:Class			IEDB
+ONTIE:0003741	ZIKV/Mus musculus/Senegal/Dakar41525/1984	owl:Class			IEDB
+ONTIE:0003742	Leishmania braziliensis MCAN/BR/98/R69	owl:Class			IEDB
+ONTIE:0003743	Bos taurus human immunoglobulin, bIGHMnull, bIGHML1 null, bIGL null	owl:Class			IEDB
+ONTIE:0003744	Influenza B virus (B/New York/PV01181/2018)	owl:Class			IEDB
+ONTIE:0003745	Chikungunya virus UVE/CHIKV/UNK/XX/ROSS	owl:Class			IEDB
+ONTIE:0003746	Pseudomonas aeruginosa PAC1R	owl:Class			IEDB
+ONTIE:0003747	Influenza A virus (A/Serbia/NS-601/2014 (H1N1))	owl:Class			IEDB
+ONTIE:0003748	Influenza A virus (A/chicken/Anhui/BRI99/2016(H9N2))	owl:Class			IEDB
+ONTIE:0003749	Eastern equine encephalitis virus (strain FL93-939)	owl:Class			IEDB
+ONTIE:0003750	Bacillus cereus VKM-B771	owl:Class			IEDB
+ONTIE:0003751	ZIKV/H. sapiens/Panama/PA259459/2015	owl:Class			IEDB
+ONTIE:0003752	ZIKV/H. sapiens/Brazil/ZBRY7/2016	owl:Class			IEDB
+ONTIE:0003753	Nipah henipavirus strain NiV Malaysia	owl:Class			IEDB
+ONTIE:0003754	Nipah henipavirus strain NiV Bangladesh	owl:Class			IEDB
+ONTIE:0003755	Mus musculus C57BL/6 DQ2.5-glia-omega2 TCR transgenic	owl:Class			IEDB
+ONTIE:0003756	Mus musculus C57BL/6 DQ2.5-glia-alpha2 TCR transgenic	owl:Class			IEDB
+ONTIE:0003757	Mus musculus C57BL/6 DQ2.5-glia-gamma1 TCR transgenic	owl:Class			IEDB
+ONTIE:0003758	Severe acute respiratory syndrome coronavirus 2 Wuhan/Hu-1/2019	owl:Class			IEDB
+ONTIE:0003759	Dengue virus 2 East Timor/ET300/2000	owl:Class			IEDB
+ONTIE:0003760	West Nile virus horse/New South Wales/2011	owl:Class			IEDB
+ONTIE:0003761	ZIKV/H. sapiens/Brazil/Natal/2015	owl:Class			IEDB
+ONTIE:0003762	Severe acute respiratory syndrome coronavirus 2 Korea/KCDC03/2020	owl:Class			IEDB
+ONTIE:0003763	Severe acute respiratory syndrome coronavirus 2 South Korea/KUMC17/2020	owl:Class			IEDB
+ONTIE:0003764	Severe acute respiratory syndrome coronavirus 2 South Korea/NMC-nCoV02/2020	owl:Class			IEDB
+ONTIE:0003765	Mus musculus PWK/Ph	owl:Class			IEDB
+ONTIE:0003766	Mus musculus SPRET/Ei	owl:Class			IEDB
+ONTIE:0003767	Mus musculus 129S1/Svlm	owl:Class			IEDB
+ONTIE:0003768	Severe acute respiratory syndrome coronavirus 2 ITA/INMI1/2020	owl:Class			IEDB
+ONTIE:0003769	Severe acute respiratory syndrome coronavirus 2 USA/CA-CZB-1072/2020	owl:Class			IEDB
+ONTIE:0003770	Severe acute respiratory syndrome coronavirus 2 Germany/BavPat1/2020	owl:Class			IEDB
+ONTIE:0003771	Other SARS	owl:Class			IEDB
+ONTIE:0003772	Influenza A virus (A/Duck/Huadong/wx1205/2016 (H5N1))	owl:Class			IEDB
+ONTIE:0003773	Influenza A virus (A/Goose/Huadong/yz1111/2016(H5N6))	owl:Class			IEDB
+ONTIE:0003774	Influenza A virus (A/Chicken/Huadong/JD/2017(H7N9))	owl:Class			IEDB
+ONTIE:0003775	Usutu virus strain UVE/USUV/1959/ZA/SAAR-1776	owl:Class			IEDB
+ONTIE:0003776	Usutu virus strain Vienna/blackbird/939/2001	owl:Class			IEDB
+ONTIE:0003777	Wesselsbron virus UVE/WESSV/UNK/ZA/SAH-177 99871-2	owl:Class			IEDB
+ONTIE:0003778	Severe acute respiratory syndrome coronavirus 2 Germany/Heinsberg-01/2020	owl:Class			IEDB
+ONTIE:0003779	Influenza A virus (A/Hong Kong/125/2017(H7N9))	owl:Class			IEDB
+ONTIE:0003780	Severe acute respiratory syndrome coronavirus 2 Munster/FI110320/1/2020	owl:Class			IEDB
+ONTIE:0003781	Severe acute respiratory syndrome coronavirus 2 England/MIG457/2020	owl:Class			IEDB
+ONTIE:0003782	Severe acute respiratory syndrome coronavirus 2 England/H204661641/2020	owl:Class			IEDB
+ONTIE:0003783	Severe acute respiratory syndrome coronavirus 2 VOC-202101/02	owl:Class			IEDB
+ONTIE:0003784	Influenza A virus (A/Siriraj/ICRC/SI-154/2008 (H3N2))	owl:Class			IEDB
+ONTIE:0003785	Powassan virus strain SPO	owl:Class			IEDB
+ONTIE:0003786	Powassan virus strain MA51240	owl:Class			IEDB
+ONTIE:0003787	Mus musculus HLA-DRB1*15:03 Tg	owl:Class			IEDB
+ONTIE:0003788	Mayaro virus (strain BeH407)	owl:Class			IEDB
+ONTIE:0003789	Severe acute respiratory syndrome coronavirus 2 California/CAL.20C/2020	owl:Class			IEDB
+ONTIE:0003790	Severe acute respiratory syndrome coronavirus 2 Belguim/hCoV105 19/rega-1920/2021	owl:Class			IEDB
+ONTIE:0003791	Severe acute respiratory syndrome coronavirus 2 Beijing/IMEBJ01/2020	owl:Class			IEDB
+ONTIE:0003792	Severe acute respiratory syndrome coronavirus 2 Australia/VIC2089/2020	owl:Class			IEDB
+ONTIE:0003793	Foot-and-mouth disease virus O/Mya/98	owl:Class			IEDB
+ONTIE:0003794	Foot-and-mouth disease virus O/HN/CHA/93	owl:Class			IEDB
+ONTIE:0003795	Foot-and-mouth disease virus A/GDMM/CHA/2013	owl:Class			IEDB
+ONTIE:0003796	Salmonella enterica subsp. enterica serovar Typhimurium str. FDA 1189 Xen33	owl:Class			IEDB
+ONTIE:0003797	Gallid alphaherpesvirus 2 strain CVI988 (Gallid alphaherpesvirus 2 (strain CVI988))	owl:Class			IEDB
+ONTIE:0003798	Gallus gallus SynVH	owl:Class			IEDB
+ONTIE:0003799	Severe acute respiratory syndrome coronavirus 2 Canada/ONON-VIDO-01-2/2020	owl:Class			IEDB
+ONTIE:0003800	Severe acute respiratory syndrome coronavirus 2 Netherlands/1363454NL/2020	owl:Class			IEDB
+ONTIE:0003801	Avian leukosis virus strain HB2018003	owl:Class			IEDB
+ONTIE:0003802	Severe acute respiratory syndrome coronavirus 2 France/IDF0571/2020	owl:Class			IEDB
+ONTIE:0003803	Influenza A virus (A/Hong Kong/2401/2014(H3N2))	owl:Class			IEDB
+ONTIE:0003804	Severe acute respiratory syndrome coronavirus 2 USA/CA_CDC_5574/2020	owl:Class			IEDB
+ONTIE:0003805	Severe acute respiratory syndrome coronavirus 2 South Africa/KRISP-EC-K005321/2020	owl:Class			IEDB
+ONTIE:0003806	Severe acute respiratory syndrome coronavirus 2 Japan/TY7-503/2021	owl:Class			IEDB
+ONTIE:0003807	Common Vole hepatitis E Virus	owl:Class			IEDB
+ONTIE:0003808	Candida albicans BWP17	owl:Class			IEDB
+ONTIE:0003809	Bordetella pertussis 186	owl:Class			IEDB
+ONTIE:0003810	Bordetella pertussis 606	owl:Class			IEDB
+ONTIE:0003811	Severe acute respiratory syndrome coronavirus 2 USA/NY-NP-DOH1/2021	owl:Class			IEDB
+ONTIE:0003812	Severe acute respiratory syndrome coronavirus 2 India/MAR/CNRST-IND2/2021	owl:Class			IEDB
+ONTIE:0003813	Bat SARS-like coronavirus Rs4874	owl:Class			IEDB
+ONTIE:0003814	Bat SARS-like coronavirus Rs4255	owl:Class			IEDB
+ONTIE:0003815	Bat SARS-like coronavirus Rs4231	owl:Class			IEDB
+ONTIE:0003816	Bat SARS-like coronavirus ZXC21	owl:Class			IEDB
+ONTIE:0003817	Bat SARS-like coronavirus ZC45	owl:Class			IEDB
+ONTIE:0003818	Bat SARS-like coronavirus As6526	owl:Class			IEDB
+ONTIE:0003819	Bat coronavirus Anlong-112	owl:Class			IEDB
+ONTIE:0003820	Severe acute respiratory syndrome-related coronavirus BtKY72	owl:Class			IEDB
+ONTIE:0003821	Foot-and-mouth disease virus O/XJ/CHA/2017	owl:Class			IEDB
+ONTIE:0003822	Bat SARS-like coronavirus Rf4092	owl:Class			IEDB
+ONTIE:0003823	Bat SARS-like coronavirus Rs4237	owl:Class			IEDB
+ONTIE:0003824	Bat SARS-like coronavirus Rs4247	owl:Class			IEDB
+ONTIE:0003825	Bat SARS-like coronavirus Longquan-140	owl:Class			IEDB
+ONTIE:0003826	Bat SARS-like coronavirus Rs7327	owl:Class			IEDB
+ONTIE:0003827	Bat SARS-like coronavirus RmYN02	owl:Class			IEDB
+ONTIE:0003828	Severe acute respiratory syndrome coronavirus 2 DEU/VeroE6_210226_P2/2021	owl:Class			IEDB
+ONTIE:0003829	Severe acute respiratory syndrome coronavirus 2 DEU/Vero E6 cells/2021	owl:Class			IEDB
+ONTIE:0003830	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-STM-000017247/2021	owl:Class			IEDB
+ONTIE:0003831	Porcine reproductive and respiratory syndrome virus JXA1-R	owl:Class			IEDB
+ONTIE:0003832	Porcine reproductive and respiratory syndrome virus GD-HD	owl:Class			IEDB
+ONTIE:0003833	Porcine reproductive and respiratory syndrome virus HN07-1	owl:Class			IEDB
+ONTIE:0003834	Porcine reproductive and respiratory syndrome virus SD16	owl:Class			IEDB
+ONTIE:0003835	Mus musculus BALB/cOlaHSD	owl:Class			IEDB
+ONTIE:0003836	Porcine Deltacoronavirus NH/China/2015	owl:Class			IEDB
+ONTIE:0003837	African swine fever virus pig/China/HLJ/18	owl:Class			IEDB
+ONTIE:0003838	Influenza A virus (A/Yokohama/110/2019 (H3N2))	owl:Class			IEDB
+ONTIE:0003839	Influenza A virus (A/Tenessee/3/2019 (H3N2))	owl:Class			IEDB
+ONTIE:0003840	Influenza A virus (A/Darwin/42/2020 (H1N1))	owl:Class			IEDB
+ONTIE:0003841	Pangolin coronavirus Guangdong/1/2019	owl:Class			IEDB
+ONTIE:0003842	Pangolin coronavirus Guangxi/2017	owl:Class			IEDB
+ONTIE:0003843	Severe acute respiratory syndrome coronavirus 2 Denmark/MinkCluster5/2020	owl:Class			IEDB
+ONTIE:0003844	Severe acute respiratory syndrome coronavirus 2 Ohio/667H/2020	owl:Class			IEDB
+ONTIE:0003845	Severe acute respiratory syndrome coronavirus 2 ITA/INMI4/2020	owl:Class			IEDB
+ONTIE:0003846	Sandfly fever Cyprus virus	owl:Class			IEDB
+ONTIE:0003847	Classical swine fever virus strain Baker A	owl:Class			IEDB
+ONTIE:0003848	Classical swine fever virus strain VRI 4167	owl:Class			IEDB
+ONTIE:0003849	Classical swine fever virus strain Guatemala HC	owl:Class			IEDB
+ONTIE:0003850	Classical swine fever virus strain Pinar del Rio	owl:Class			IEDB
+ONTIE:0003851	Classical swine fever virus strain V1240/97	owl:Class			IEDB
+ONTIE:0003852	Classical swine fever virus strain Panevezys	owl:Class			IEDB
+ONTIE:0003853	Classical swine fever virus strain Parma	owl:Class			IEDB
+ONTIE:0003854	Classical swine fever virus strain Bergen	owl:Class			IEDB
+ONTIE:0003855	Classical swine fever virus strain BG/Jambul	owl:Class			IEDB
+ONTIE:0003856	Classical swine fever virus strain Diepholz I	owl:Class			IEDB
+ONTIE:0003857	Classical swine fever virus strain VI 3837/38	owl:Class			IEDB
+ONTIE:0003858	Classical swine fever virus strain M7 19928/60	owl:Class			IEDB
+ONTIE:0003859	Classical swine fever virus strain Roesrath	owl:Class			IEDB
+ONTIE:0003860	Classical swine fever virus strain Congenital Tremor	owl:Class			IEDB
+ONTIE:0003861	Classical swine fever virus strain UK2000/7.1	owl:Class			IEDB
+ONTIE:0003862	Border disease virus strain Aveyron	owl:Class			IEDB
+ONTIE:0003863	Human betaherpesvirus 5 strain PAN23 (Human cytomegalovirus (strain PAN23))	owl:Class			IEDB
+ONTIE:0003864	Human betaherpesvirus 5 strain VR1814 (Human cytomegalovirus (strain VR1814))	owl:Class			IEDB
+ONTIE:0003865	Severe acute respiratory syndrome coronavirus 2 Scotland/CVR2224/2020	owl:Class			IEDB
+ONTIE:0003866	Severe acute respiratory syndrome coronavirus 2 USA/CA-Stanford-15_S02/2021	owl:Class			IEDB
+ONTIE:0003867	Severe acute respiratory syndrome coronavirus 2 USA/PHC658/2021	owl:Class			IEDB
+ONTIE:0003868	Severe acute respiratory syndrome coronavirus 2 Infectious clone/Wash-B.1.351/2021	owl:Class			IEDB
+ONTIE:0003869	Severe acute respiratory syndrome coronavirus 2 Infectious clone/Wash-B.1.1.28/2021	owl:Class			IEDB
+ONTIE:0003870	Sindbis virus strain Toto 1101	owl:Class			IEDB
+ONTIE:0003871	Porcine astrovirus 1 Guangxi/Nanning/PAstV-1/2013	owl:Class			IEDB
+ONTIE:0003872	Severe acute respiratory syndrome coronavirus 2 Columbia/MedellinUdeA1/2020	owl:Class			IEDB
+ONTIE:0003873	Severe acute respiratory syndrome coronavirus 2 Liverpool/REMRQ0001/2020	owl:Class			IEDB
+ONTIE:0003874	Influenza A virus (A/Hunan/02650/2016(H7N9))	owl:Class			IEDB
+ONTIE:0003875	Severe acute respiratory syndrome coronavirus 2 Switzerland/GE9586/2020	owl:Class			IEDB
+ONTIE:0003876	Severe acute respiratory syndrome coronavirus 2 Denmark/MinkVariant16/2020	owl:Class			IEDB
+ONTIE:0003877	Influenza A virus (A/Chicken/Jiangsu/H1/2019(H9N2))	owl:Class			IEDB
+ONTIE:0003878	Severe acute respiratory syndrome coronavirus 2 Jiangsu/JS02/2020	owl:Class			IEDB
+ONTIE:0003879	Severe acute respiratory syndrome coronavirus 2 Beijing/IMEBJ05MASCp6/2020	owl:Class			IEDB
+ONTIE:0003880	Severe acute respiratory syndrome coronavirus 2 USA/IL-CDC-02983522-001/2020	owl:Class			IEDB
+ONTIE:0003881	Severe acute respiratory syndrome coronavirus 2 Egypt/NRC-03/2020	owl:Class			IEDB
+ONTIE:0003882	Bundibugyo ebolavirus - Uganda (2007) (Ebola virus (strain Uganda-07))	owl:Class			IEDB
+ONTIE:0003883	Severe acute respiratory syndrome coronavirus 2 Tokyo/UT-NCGM02/2020	owl:Class			IEDB
+ONTIE:0003884	Severe acute respiratory syndrome coronavirus 2 Japan/QHN001/2020	owl:Class			IEDB
+ONTIE:0003885	Severe acute respiratory syndrome coronavirus 2 Japan/TY7-501/2021	owl:Class			IEDB
+ONTIE:0003886	Severe acute respiratory syndrome coronavirus 2 USA/WI-UW-5250/2021	owl:Class			IEDB
+ONTIE:0003887	Severe acute respiratory syndrome coronavirus 2 England/204820464/2020	owl:Class			IEDB
+ONTIE:0003888	African swine fever virus SY18	owl:Class			IEDB
+ONTIE:0003889	Sus scrofa Duroc X Large White X Landrace	owl:Class			IEDB
+ONTIE:0003890	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP01542/2021	owl:Class			IEDB
+ONTIE:0003891	Severe acute respiratory syndrome coronavirus 2 China/CAS-B001/2020	owl:Class			IEDB
+ONTIE:0003892	Corynebacterium pseudotuberculosis CPNS	owl:Class			IEDB
+ONTIE:0003893	Senecavirus A Guangdong/SVA/GD05/2017	owl:Class			IEDB
+ONTIE:0003894	Foot and mouth disease virus A/AF72	owl:Class			IEDB
+ONTIE:0003895	Severe acute respiratory syndrome coronavirus 2 Uganda/A23.1/2020	owl:Class			IEDB
+ONTIE:0003896	Human coronavirus 229E VR740	owl:Class			IEDB
+ONTIE:0003897	Severe acute respiratory syndrome coronavirus 2 England/BristolplusE484K/2021	owl:Class			IEDB
+ONTIE:0003898	Severe acute respiratory syndrome coronavirus 2 England/UK1188/2020	owl:Class			IEDB
+ONTIE:0003899	Severe acute respiratory syndrome coronavirus 2 India/VUI21APR02/2021	owl:Class			IEDB
+ONTIE:0003900	Severe acute respiratory syndrome coronavirus 2 Recombinant/NR55495/2021	owl:Class			IEDB
+ONTIE:0003901	Severe acute respiratory syndrome coronavirus 2 USA/CA-VRLC012/2021	owl:Class			IEDB
+ONTIE:0003902	Severe acute respiratory syndrome coronavirus 2 USA/CA-Stanford-02_S43/2021	owl:Class			IEDB
+ONTIE:0003903	Severe acute respiratory syndrome coronavirus 2 Recombinant/NR55615/2021	owl:Class			IEDB
+ONTIE:0003904	Influenza A virus (A/Hong Kong/2671/2019(H3N2))	owl:Class			IEDB
+ONTIE:0003905	Influenza A virus (A/Kansas/14/2017(H3N2))	owl:Class			IEDB
+ONTIE:0003906	Severe acute respiratory syndrome coronavirus 2 USA/MDH-0841/2021	owl:Class			IEDB
+ONTIE:0003907	Severe acute respiratory syndrome coronavirus 2 England/20I/501Y.V1.HMPP1/2020	owl:Class			IEDB
+ONTIE:0003908	Severe acute respiratory syndrome coronavirus 2 South Africa/20I/501.V2.HV001/2020	owl:Class			IEDB
+ONTIE:0003909	Severe acute respiratory syndrome coronavirus 2 Taiwan/4/2020	owl:Class			IEDB
+ONTIE:0003910	SARS-CoV2 Alpha	owl:Class			IEDB
+ONTIE:0003911	SARS-CoV2 Beta	owl:Class			IEDB
+ONTIE:0003912	SARS-CoV2 Epsilon	owl:Class			IEDB
+ONTIE:0003913	SARS-CoV2 Eta	owl:Class			IEDB
+ONTIE:0003914	SARS-CoV2 Gamma	owl:Class			IEDB
+ONTIE:0003915	SARS-CoV2 Iota	owl:Class			IEDB
+ONTIE:0003916	SARS-CoV2 Delta	owl:Class			IEDB
+ONTIE:0003917	SARS-CoV2 Lambda	owl:Class			IEDB
+ONTIE:0003918	SARS-CoV2 Mu	owl:Class			IEDB
+ONTIE:0003919	SARS-CoV2 Omicron	owl:Class			IEDB
+ONTIE:0003920	SARS-CoV2 Kappa	owl:Class			IEDB
+ONTIE:0003921	Babesia Bovis Chiapas	owl:Class			IEDB
+ONTIE:0003922	Severe acute respiratory syndrome coronavirus 2 England/205261299/2020	owl:Class			IEDB
+ONTIE:0003923	Severe acute respiratory syndrome coronavirus 2 South Africa/Tygerberg-461/2020	owl:Class			IEDB
+ONTIE:0003924	Severe acute respiratory syndrome coronavirus 2 Brazil/AM-FIOCRUZ-20143138FN-R2/2020	owl:Class			IEDB
+ONTIE:0003925	Severe acute respiratory syndrome coronavirus 2 USA/CA-COLOR-UCSF-CC353/2021	owl:Class			IEDB
+ONTIE:0003926	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-2-4242372/2021	owl:Class			IEDB
+ONTIE:0003927	Severe acute respiratory syndrome coronavirus 2 USA/NY/NYCPHL-004382/2021	owl:Class			IEDB
+ONTIE:0003928	Severe acute respiratory syndrome coronavirus 2 India/KA-NIMH-SEQ-280/2021	owl:Class			IEDB
+ONTIE:0003929	Severe acute respiratory syndrome coronavirus 2 USA/CA-LACPHL-AH01469/2021	owl:Class			IEDB
+ONTIE:0003930	Severe acute respiratory syndrome coronavirus 2 Turkey/HSGM-FS976/2021	owl:Class			IEDB
+ONTIE:0003931	Severe acute respiratory syndrome coronavirus 2 Chile/MA-CADIUMAG-00881/2021	owl:Class			IEDB
+ONTIE:0003932	SARS-CoV2 Other	owl:Class			IEDB
+ONTIE:0003933	Porcine epidemic diarrhea virus Thailand/P70/G2	owl:Class			IEDB
+ONTIE:0003934	Helicobacter pylori Sydney2000	owl:Class			IEDB
+ONTIE:0003935	Severe acute respiratory syndrome coronavirus 2 Slovakia/SK-BMC-P1A/2021	owl:Class			IEDB
+ONTIE:0003936	Severe acute respiratory syndrome coronavirus 2 Slovakia/SKBMC-BA11/2021	owl:Class			IEDB
+ONTIE:0003937	Severe acute respiratory syndrome coronavirus 2 Slovakia/SK-BMC-BA15/2021	owl:Class			IEDB
+ONTIE:0003938	Severe acute respiratory syndrome coronavirus 2 Pseudovirus/USA/MA-JLL-D146/2020	owl:Class			IEDB
+ONTIE:0003939	Severe acute respiratory syndrome coronavirus 2 Pseudovirus/USA/MA-JLL-D152/2020	owl:Class			IEDB
+ONTIE:0003940	Severe acute respiratory syndrome coronavirus 2 Pseudovirus/Wu01/Wuhan-Hu-1/2020	owl:Class			IEDB
+ONTIE:0003941	Severe acute respiratory syndrome coronavirus 2 Slovakia/SK-BMC5/2020	owl:Class			IEDB
+ONTIE:0003942	Severe acute respiratory syndrome coronavirus 2 CzechRepublic/951/2020	owl:Class			IEDB
+ONTIE:0003943	Vibrio vulnificus BO62316	owl:Class			IEDB
+ONTIE:0003944	Plasmodium vivax VK210	owl:Class			IEDB
+ONTIE:0003945	Severe acute respiratory syndrome coronavirus 2 India/GNL-751/2021	owl:Class			IEDB
+ONTIE:0003946	Influenza A virus (A/chicken/Fujian/11/FJ20/2020(H9N2))	owl:Class			IEDB
+ONTIE:0003947	Influenza A virus (A/chicken/Anhui/LH99/AH17/2017(H9N2))	owl:Class			IEDB
+ONTIE:0003948	Severe acute respiratory syndrome coronavirus 2 Sweden/01/2020	owl:Class			IEDB
+ONTIE:0003949	SARS-CoV2 Zeta	owl:Class			IEDB
+ONTIE:0003950	Severe acute respiratory syndrome coronavirus 2 China/CDC-Tan-HB02/2020	owl:Class			IEDB
+ONTIE:0003951	Porcine parvovirus 27a	owl:Class			IEDB
+ONTIE:0003952	Crimean-Congo hemorrhagic fever virus Turkey 200406546	owl:Class			IEDB
+ONTIE:0003953	Crimean-Congo hemorrhagic fever virus Kosova Hoti	owl:Class			IEDB
+ONTIE:0003954	Crimean-Congo hemorrhagic fever virus Oman 199809166	owl:Class			IEDB
+ONTIE:0003955	Severe acute respiratory syndrome coronavirus 2 Hong Kong/Mesocricetus auratus/13_P2/2020	owl:Class			IEDB
+ONTIE:0003956	African swine fever virus China/2018/AnhuiXCGQ	owl:Class			IEDB
+ONTIE:0003957	Severe acute respiratory syndrome coronavirus 2 Taiwan/792/2020	owl:Class			IEDB
+ONTIE:0003958	Severe acute respiratory syndrome coronavirus 2 Taiwan/1013/2021	owl:Class			IEDB
+ONTIE:0003959	Severe acute respiratory syndrome coronavirus 2 Taiwan/906/2021	owl:Class			IEDB
+ONTIE:0003960	Severe acute respiratory syndrome coronavirus 2 Taiwan/1144/2021	owl:Class			IEDB
+ONTIE:0003961	Severe acute respiratory syndrome coronavirus 2 Guangdong/20SF014/2020	owl:Class			IEDB
+ONTIE:0003962	Severe acute respiratory syndrome coronavirus 2 China/20SF18530/2020	owl:Class			IEDB
+ONTIE:0003963	Severe acute respiratory syndrome coronavirus 2 Guangdong/SYSU-IHV/2020	owl:Class			IEDB
+ONTIE:0003964	Severe acute respiratory syndrome coronavirus 2 Guangdong/GDPCC 2.00096/2021	owl:Class			IEDB
+ONTIE:0003965	Senecavirus A China/SSV/LNSY01/2017	owl:Class			IEDB
+ONTIE:0003966	Influenza A virus (A/chicken/Jiangsu/JT157/2016(H7N9))	owl:Class			IEDB
+ONTIE:0003967	Influenza A virus (A/duck/Guizhou/S4184/2017(H5N6))	owl:Class			IEDB
+ONTIE:0003968	Severe acute respiratory syndrome coronavirus 2 England/MILK-9E05B3/2020	owl:Class			IEDB
+ONTIE:0003969	Severe acute respiratory syndrome coronavirus 2 South Africa/NHLS-UCT-GS-0683/2020	owl:Class			IEDB
+ONTIE:0003970	Severe acute respiratory syndrome coronavirus 2 Japan/IC-0562/2021	owl:Class			IEDB
+ONTIE:0003971	Severe acute respiratory syndrome coronavirus 2 India/MH-NCCS-DHW50453/2021	owl:Class			IEDB
+ONTIE:0003972	Severe acute respiratory syndrome coronavirus 2 England/CAMC-14C9C71/2021	owl:Class			IEDB
+ONTIE:0003973	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDPH-3000048336/2021	owl:Class			IEDB
+ONTIE:0003974	Severe acute respiratory syndrome coronavirus 2 France/IDF-CERBAHC-AHF55VBGXJ-S83/2021	owl:Class			IEDB
+ONTIE:0003975	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDPH-3000033435/2021	owl:Class			IEDB
+ONTIE:0003976	Severe acute respiratory syndrome coronavirus 2 Uganda/UG494/2021	owl:Class			IEDB
+ONTIE:0003977	Severe acute respiratory syndrome coronavirus 2 Croatia/ZG-297-20/2020	owl:Class			IEDB
+ONTIE:0003978	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU49/2020	owl:Class			IEDB
+ONTIE:0003979	Severe acute respiratory syndrome coronavirus 2 Taiwan/CGMH-CGU-53/2021	owl:Class			IEDB
+ONTIE:0003980	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU92/2021	owl:Class			IEDB
+ONTIE:0003981	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU56/2021	owl:Class			IEDB
+ONTIE:0003982	Dengue virus 1 Guiana/FGA89/1989	owl:Class			IEDB
+ONTIE:0003983	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-691/2021	owl:Class			IEDB
+ONTIE:0003984	Hu/GII.4/RockvilleD1/US/2012	owl:Class			IEDB
+ONTIE:0003985	Norovirus Hu/GII.4/011617/USA/2017	owl:Class			IEDB
+ONTIE:0003986	Norovirus Hu/GII.4/Arizona/379/96019984/AZ/USA/1996	owl:Class			IEDB
+ONTIE:0003987	Norovirus Hu/GII.4/Grimsby/UK/1995	owl:Class			IEDB
+ONTIE:0003988	Norovirus Hu/GII.4/DenHaag/2013SP0446010412OR/Oregon/USA/2012	owl:Class			IEDB
+ONTIE:0003989	Norovirus Hu/GII.4/NewOrleans/2010SP0168020210VA/Virginia/USA/2010	owl:Class			IEDB
+ONTIE:0003990	Norovirus Hu/GII.4/NLV/Oxford/B6S2/UK/2003	owl:Class			IEDB
+ONTIE:0003991	Norovirus Hu/GII.4/Arg12866/Argentina/2014	owl:Class			IEDB
+ONTIE:0003992	Norovirus Hu/GII.3/Maizuru/010524/JP/2001	owl:Class			IEDB
+ONTIE:0003993	Norovirus Hu/GII.6/BethesdaD1/USA/2012	owl:Class			IEDB
+ONTIE:0003994	Influenza A virus (A/chicken/Guangxi/SD098/2017(H7N9))	owl:Class			IEDB
+ONTIE:0003995	Severe acute respiratory syndrome-related coronavirus strain Rc-0319	owl:Class			IEDB
+ONTIE:0003996	Severe acute respiratory syndrome coronavirus 2 USA/NY-MSHSPSP-PV29995/2021	owl:Class			IEDB
+ONTIE:0003997	Severe acute respiratory syndrome coronavirus 2 USA/EHC_C19_2811C/2021	owl:Class			IEDB
+ONTIE:0003998	Severe acute respiratory syndrome coronavirus 2 France/IDF-APHP-HEGP-20-23-2131905084/2021	owl:Class			IEDB
+ONTIE:0003999	Severe acute respiratory syndrome coronavirus 2 Italy/CAM-INM1-118/2020	owl:Class			IEDB
+ONTIE:0004000	Severe acute respiratory syndrome coronavirus 2 Belgium/rega-20174/2021	owl:Class			IEDB
+ONTIE:0004001	Severe acute respiratory syndrome coronavirus 2 Netherlands/NoordHolland_10159/2021	owl:Class			IEDB
+ONTIE:0004002	Severe acute respiratory syndrome coronavirus 2 Netherlands/NoordHolland_10915/2021	owl:Class			IEDB
+ONTIE:0004003	Severe acute respiratory syndrome coronavirus 2 France/GES-1973/2020	owl:Class			IEDB
+ONTIE:0004004	Severe acute respiratory syndrome coronavirus 2 France/CVL-SC719/2020	owl:Class			IEDB
+ONTIE:0004005	Severe acute respiratory syndrome coronavirus 2 France/IDF-IPP00078/2021	owl:Class			IEDB
+ONTIE:0004006	Severe acute respiratory syndrome coronavirus 2 Japan/TY/WK-521/ 2020	owl:Class			IEDB
+ONTIE:0004007	Severe acute respiratory syndrome coronavirus 2 Japan/QHN002/2020	owl:Class			IEDB
+ONTIE:0004008	Severe acute respiratory syndrome coronavirus 2 Japan/TY8-612-P1/2021	owl:Class			IEDB
+ONTIE:0004009	Severe acute respiratory syndrome coronavirus 2 Japan/TY11-330-P1/2021	owl:Class			IEDB
+ONTIE:0004010	Severe acute respiratory syndrome coronavirus 2 Japan/ TY11-927-P1/2021	owl:Class			IEDB
+ONTIE:0004011	Severe acute respiratory syndrome coronavirus 2 Japan/TY38-873P0/2021	owl:Class			IEDB
+ONTIE:0004012	Severe acute respiratory syndrome coronavirus 2 Australia/QLD02/2020	owl:Class			IEDB
+ONTIE:0004013	Severe acute respiratory syndrome coronavirus 2 Australia/QLDID935/2020	owl:Class			IEDB
+ONTIE:0004014	Severe acute respiratory syndrome coronavirus 2 England/MILK-BEE37D/2020	owl:Class			IEDB
+ONTIE:0004015	Severe acute respiratory syndrome coronavirus 2 South Africa/N00390/2020	owl:Class			IEDB
+ONTIE:0004016	Severe acute respiratory syndrome coronavirus 2 Japan/IC-0561/2021	owl:Class			IEDB
+ONTIE:0004017	Influenza A virus (A/Singapore/INFIMH-016-0019/2014(H3N2))	owl:Class			IEDB
+ONTIE:0004018	Babesia bigemina Argentina S1a	owl:Class			IEDB
+ONTIE:0004019	Human coronavirus OC43 USA/ATCC VR-759/1967	owl:Class			IEDB
+ONTIE:0004020	Human coronavirus OC43 Belgium/34364/2004	owl:Class			IEDB
+ONTIE:0004021	Human coronavirus OC43 Netherlands/2004	owl:Class			IEDB
+ONTIE:0004022	Human coronavirus OC43 Netherlands/2019	owl:Class			IEDB
+ONTIE:0004023	Human coronavirus OC43 USA/901-54/1990	owl:Class			IEDB
+ONTIE:0004024	Human coronavirus OC43 USA/901-41/1990	owl:Class			IEDB
+ONTIE:0004025	Human coronavirus OC43 USA/ACRI_0052/2016	owl:Class			IEDB
+ONTIE:0004026	Hendra virus genotype 2	owl:Class			IEDB
+ONTIE:0004027	Pseudomonas aeruginosa 5937	owl:Class			IEDB
+ONTIE:0004028	Severe acute respiratory syndrome coronavirus 2 Spain/SP-VHIR.02/2020	owl:Class			IEDB
+ONTIE:0004029	Rabies Virus 8743THA	owl:Class			IEDB
+ONTIE:0004030	Severe acute respiratory syndrome coronavirus 2 South Africa/C.1.2/2021	owl:Class			IEDB
+ONTIE:0004031	Dengue virus 4 French Polynesia/PF09/220709-54/2009	owl:Class			IEDB
+ONTIE:0004032	Dengue virus 4 Indonesia/1228/1978	owl:Class			IEDB
+ONTIE:0004033	Dengue virus 4 Cambodia/U0811386/2010	owl:Class			IEDB
+ONTIE:0004034	Human metapneumovirus B2 TN/93-32	owl:Class			IEDB
+ONTIE:0004035	Human metapneumovirus B2 TN/99-419	owl:Class			IEDB
+ONTIE:0004036	Dengue virus 4 Sri Lanka/KJ160504/1992	owl:Class			IEDB
+ONTIE:0004037	Porcine reproductive and respiratory syndrome virus HeB108	owl:Class			IEDB
+ONTIE:0004038	Human metapneumovirus B2 NL/1/94	owl:Class			IEDB
+ONTIE:0004039	Severe acute respiratory syndrome coronavirus 2 Recombinant/40589-V08H26/2022	owl:Class			IEDB
+ONTIE:0004040	Severe acute respiratory syndrome coronavirus 2 South Africa/CERI-KRISP-K032307/2021	owl:Class			IEDB
+ONTIE:0004041	Severe acute respiratory syndrome coronavirus 2 Botswana/R40B60_BHP_3321001247/2021	owl:Class			IEDB
+ONTIE:0004042	Severe acute respiratory syndrome coronavirus 2 Pseudovirus/BA1_R346K/2022	owl:Class			IEDB
+ONTIE:0004043	Influenza A virus (A/chicken/Shandong/LY1/2017(H9N2))	owl:Class			IEDB
+ONTIE:0004044	Severe acute respiratory syndrome coronavirus 2 China/AP100/2021	owl:Class			IEDB
+ONTIE:0004045	Severe acute respiratory syndrome coronavirus 2 USA/FL-CDC-STM-V8T65K8SS/2021	owl:Class			IEDB
+ONTIE:0004046	Severe acute respiratory syndrome coronavirus 2 India/GJ-GBRC619/2021	owl:Class			IEDB
+ONTIE:0004047	Severe acute respiratory syndrome coronavirus 2 Botswana/R40B59_BHP_3321001248/2021	owl:Class			IEDB
+ONTIE:0004048	Severe acute respiratory syndrome coronavirus 2 South Africa/NICD-N21671/2021	owl:Class			IEDB
+ONTIE:0004049	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-352605/2022	owl:Class			IEDB
+ONTIE:0004050	Severe acute respiratory syndrome coronavirus 2 South Africa/NICD-N22239/2021	owl:Class			IEDB
+ONTIE:0004051	Human Coronavirus 229E USA/Seattle/SC1073/2016	owl:Class			IEDB
+ONTIE:0004052	Influenza A virus (A/Hong Kong/4108/2014(H3N2))	owl:Class			IEDB
+ONTIE:0004053	Human enterovirus A71 GD10-12/2010	owl:Class			IEDB
+ONTIE:0004054	Human enterovirus A71 SD07-523	owl:Class			IEDB
+ONTIE:0004055	Human enterovirus A71 SH02-17	owl:Class			IEDB
+ONTIE:0004056	Human enterovirus A71 BJ18-22	owl:Class			IEDB
+ONTIE:0004057	Lassa virus Pinneo (Lassa virus (strain Pinneo))	owl:Class			IEDB
+ONTIE:0004058	Severe acute respiratory syndrome coronavirus 2 England/MILK-2D6B000/2021	owl:Class			IEDB
+ONTIE:0004059	Influenza A virus (A/New York/PV01575/2018(H1N1))	owl:Class			IEDB
+ONTIE:0004060	Influenza A virus (A/Shanghai/11/2013(H7N9))	owl:Class			IEDB
+ONTIE:0004061	Severe acute respiratory syndrome coronavirus 2 USA/VA-CDC-QDX39366594/2022	owl:Class			IEDB
+ONTIE:0004062	Severe acute respiratory syndrome coronavirus 2 USA/NV-CDC-QDX39324276/2022	owl:Class			IEDB
+ONTIE:0004063	Severe acute respiratory syndrome coronavirus 2 USA/VA-CDC-QDX39366627/2022	owl:Class			IEDB
+ONTIE:0004064	Severe acute respiratory syndrome coronavirus 2 USA/NV-CDC-QDX39324200/2022	owl:Class			IEDB
+ONTIE:0004065	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP20874-PIDUYWZOWA/2021	owl:Class			IEDB
+ONTIE:0004066	Severe acute respiratory syndrome coronavirus 2 Belgium/rega-3278/2021	owl:Class			IEDB
+ONTIE:0004067	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP24556-PIDGTQRIGP/2022	owl:Class			IEDB
+ONTIE:0004068	Porcine Deltacoronavirus ZJ17HZ0102/2017	owl:Class			IEDB
+ONTIE:0004069	Guertu virus strain DXM	owl:Class			IEDB
+ONTIE:0004070	Porcine Deltacoronavirus Haiti/0081-4/2014	owl:Class			IEDB
+ONTIE:0004071	Canine coronavirus HuPn-2018	owl:Class			IEDB
+ONTIE:0004072	Human coronavirus OC43 USA/2017	owl:Class			IEDB
+ONTIE:0004073	Human coronavirus NL63 UF-2/2015	owl:Class			IEDB
+ONTIE:0004074	Human coronavirus OC43 Beijing/1783A_10/2010	owl:Class			IEDB
+ONTIE:0004075	Human coronavirus 229E BN1/GER/2015	owl:Class			IEDB
+ONTIE:0004076	Norovirus Fe/GIV.2/JP/2017/M81	owl:Class			IEDB
+ONTIE:0004077	Porcine epidemic diarrhea virus SD2014	owl:Class			IEDB
+ONTIE:0004078	Human coronavirus NL63 Amsterdam 1	owl:Class			IEDB
+ONTIE:0004079	Norovirus GII.17/Hu/NoV/Katrina-17/2005/US	owl:Class			IEDB
+ONTIE:0004080	Chikungunya virus C302F/2016/BR	owl:Class			IEDB
+ONTIE:0004081	Chikungunya virus TR206/H804187	owl:Class			IEDB
+ONTIE:0004082	Chikungunya virus Thailand-2009_CK539	owl:Class			IEDB
+ONTIE:0004083	Severe acute respiratory syndrome coronavirus 2 Hong Kong/VM21044713-1/2021	owl:Class			IEDB
+ONTIE:0004084	Influenza A virus (A/environment/Suzhou/SZ19/2014(H7N9))	owl:Class			IEDB
+ONTIE:0004085	Nocardia seriolae N1	owl:Class			IEDB
+ONTIE:0004086	Influenza A virus (A/Xiamen/N514/2009(H1N1))	owl:Class			IEDB
+ONTIE:0004087	Influenza A virus (A/Hong Kong/134801/1994(H1N1))	owl:Class			IEDB
+ONTIE:0004088	Influenza A virus (A/Hong Kong/MB-1/2010(H1N1))	owl:Class			IEDB
+ONTIE:0004089	Influenza A virus (A/Hong Kong/402618/2011(H1N1))	owl:Class			IEDB
+ONTIE:0004090	Influenza A virus (A/Shantou/104/2005(H1N1))	owl:Class			IEDB
+ONTIE:0004091	Influenza A virus (A/Chicken/Hong Kong/YU22/2002(H5N1))	owl:Class			IEDB
+ONTIE:0004092	Infectious bursal disease virus HLJ0504	owl:Class			IEDB
+ONTIE:0004093	Infectious bursal disease virus Gx	owl:Class			IEDB
+ONTIE:0004094	Infectious bursal disease virus SHG19	owl:Class			IEDB
+ONTIE:0004095	Severe acute respiratory syndrome coronavirus 2 Germany/BY-MVP-0283/2020	owl:Class			IEDB
+ONTIE:0004096	Severe acute respiratory syndrome coronavirus 2 Guangzhou/IQTC01/2020	owl:Class			IEDB
+ONTIE:0004097	Gallus gallus line N	owl:Class			IEDB
+ONTIE:0004098	Severe acute respiratory syndrome coronavirus 2 USA/NY-MSHSPSP-PV56475/2022	owl:Class			IEDB
+ONTIE:0004099	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP30386-PIDNBNVCCQ/2022	owl:Class			IEDB
+ONTIE:0004100	Severe acute respiratory syndrome coronavirus 2 USA/COR-22-063113/2022	owl:Class			IEDB
+ONTIE:0004101	Severe acute respiratory syndrome coronavirus 2 HKU/SZ-005b/2020	owl:Class			IEDB
+ONTIE:0004102	Severe acute respiratory syndrome coronavirus 2 CHN/105/2020	owl:Class			IEDB
+ONTIE:0004103	Severe acute respiratory syndrome coronavirus 2 CHN/233/2020	owl:Class			IEDB
+ONTIE:0004104	Severe acute respiratory syndrome coronavirus 2 Guangzhou/IQTC02/2020	owl:Class			IEDB
+ONTIE:0004105	Severe acute respiratory syndrome coronavirus 2 Guangzhou/IQTC03/2020	owl:Class			IEDB
+ONTIE:0004106	Severe acute respiratory syndrome coronavirus 2 Guangzhou/IQTC04/2020	owl:Class			IEDB
+ONTIE:0004107	Severe acute respiratory syndrome coronavirus 2 CHN/Yunnan-01/2020	owl:Class			IEDB
+ONTIE:0004108	Severe acute respiratory syndrome coronavirus 2 IND/166/2020	owl:Class			IEDB
+ONTIE:0004109	Severe acute respiratory syndrome coronavirus 2 IND/29/2020	owl:Class			IEDB
+ONTIE:0004110	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU02/TWN/2020	owl:Class			IEDB
+ONTIE:0004111	Severe acute respiratory syndrome coronavirus 2 South Korea/SNU01/2020	owl:Class			IEDB
+ONTIE:0004112	Severe acute respiratory syndrome coronavirus 2 Japan/TKYE6182/2020	owl:Class			IEDB
+ONTIE:0004113	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-02993471-001/2020	owl:Class			IEDB
+ONTIE:0004114	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-02993506-001/2020	owl:Class			IEDB
+ONTIE:0004115	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-03037551-001/2020	owl:Class			IEDB
+ONTIE:0004116	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-03039618-001/2020	owl:Class			IEDB
+ONTIE:0004117	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-03040142-001/2020	owl:Class			IEDB
+ONTIE:0004118	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-03046181-001/2020	owl:Class			IEDB
+ONTIE:0004119	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-03056430-001/2020	owl:Class			IEDB
+ONTIE:0004120	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03052605-001/2020	owl:Class			IEDB
+ONTIE:0004121	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03052607-001/2020	owl:Class			IEDB
+ONTIE:0004122	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03052610-001/2020	owl:Class			IEDB
+ONTIE:0004123	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03052614-001/2020	owl:Class			IEDB
+ONTIE:0004124	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03053369-001/2020	owl:Class			IEDB
+ONTIE:0004125	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03056442-001/2020	owl:Class			IEDB
+ONTIE:0004126	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03056916-001/2020	owl:Class			IEDB
+ONTIE:0004127	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-03057008-001/2020	owl:Class			IEDB
+ONTIE:0004128	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-3053685-001/2020	owl:Class			IEDB
+ONTIE:0004129	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-3054886-001/2020	owl:Class			IEDB
+ONTIE:0004130	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-3054899-001/2020	owl:Class			IEDB
+ONTIE:0004131	Severe acute respiratory syndrome coronavirus 2 USA/Cruise-CDC-3057405-001/2020	owl:Class			IEDB
+ONTIE:0004132	Severe acute respiratory syndrome coronavirus 2 USA/IL-CDC-03037667-001/2020	owl:Class			IEDB
+ONTIE:0004133	Severe acute respiratory syndrome coronavirus 2 USA/MA-CDC-03038398-001/2020	owl:Class			IEDB
+ONTIE:0004134	Severe acute respiratory syndrome coronavirus 2 USA/MN1-MDH1/2020	owl:Class			IEDB
+ONTIE:0004135	Severe acute respiratory syndrome coronavirus 2 USA/MN2-MDH2/2020	owl:Class			IEDB
+ONTIE:0004136	Severe acute respiratory syndrome coronavirus 2 USA/MN3-MDH3/2020	owl:Class			IEDB
+ONTIE:0004137	Severe acute respiratory syndrome coronavirus 2 USA/TX-CDC-03050000-001/2020	owl:Class			IEDB
+ONTIE:0004138	Severe acute respiratory syndrome coronavirus 2 USA/WA2/2020	owl:Class			IEDB
+ONTIE:0004139	Severe acute respiratory syndrome coronavirus 2 USA/WA3-UW1/2020	owl:Class			IEDB
+ONTIE:0004140	Severe acute respiratory syndrome coronavirus 2 USA/WA7-UW4/2020	owl:Class			IEDB
+ONTIE:0004141	Severe acute respiratory syndrome coronavirus 2 USA/WA-CDC-WA1-F6/2020	owl:Class			IEDB
+ONTIE:0004142	Severe acute respiratory syndrome coronavirus 2 USA/WI-CDC-03041142-001/2020	owl:Class			IEDB
+ONTIE:0004143	Severe acute respiratory syndrome coronavirus 2 Wuhan/WIV02/2019	owl:Class			IEDB
+ONTIE:0004144	Severe acute respiratory syndrome coronavirus 2 Wuhan/WIV05/2019	owl:Class			IEDB
+ONTIE:0004145	Severe acute respiratory syndrome coronavirus 2 Wuhan/WIV07/2019	owl:Class			IEDB
+ONTIE:0004146	Severe acute respiratory syndrome coronavirus 2 Wuhan/IPBCAMS-WH-05/2020	owl:Class			IEDB
+ONTIE:0004147	Severe acute respiratory syndrome coronavirus 2 Italy/LOM-Milan-UNIMI9615/2021	owl:Class			IEDB
+ONTIE:0004148	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP05647/2021	owl:Class			IEDB
+ONTIE:0004149	Mus musculus HLA-A*11:01 Tg	owl:Class			IEDB
+ONTIE:0004150	Mus musculus HLA-B*44:01 Tg	owl:Class			IEDB
+ONTIE:0004151	Severe acute respiratory syndrome coronavirus 2 Japan/PG-278961/2022	owl:Class			IEDB
+ONTIE:0004152	Severe acute respiratory syndrome coronavirus 2 France/BRE-2107511196/2021	owl:Class			IEDB
+ONTIE:0004153	Severe acute respiratory syndrome coronavirus 2 India/OR-ILSGS08279/2021	owl:Class			IEDB
+ONTIE:0004154	Severe acute respiratory syndrome coronavirus 2 Botswana/R52B94_BHP_AAC32093/2021	owl:Class			IEDB
+ONTIE:0004155	Leptospira interrogans serovar Australis str. Ballico	owl:Class			IEDB
+ONTIE:0004156	Leptospira interrogans serovar Canicola str. Hond Utrecht IV	owl:Class			IEDB
+ONTIE:0004157	Leptospira interrogans serovar Hebdomadis str. Hebdomadis	owl:Class			IEDB
+ONTIE:0004158	Leptospira interrogans serovar Icterohaemorrhadiae str. Ictero I	owl:Class			IEDB
+ONTIE:0004159	Leptrospira borgpetersenii serovar mini str. Sari	owl:Class			IEDB
+ONTIE:0004160	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-LC0471426/2022	owl:Class			IEDB
+ONTIE:0004161	Severe acute respiratory syndrome coronavirus 2 Canada/QC-L00478241001/2022	owl:Class			IEDB
+ONTIE:0004162	Severe acute respiratory syndrome coronavirus 2 Netherlands/GE-RIVM-98966/2022	owl:Class			IEDB
+ONTIE:0004163	Severe acute respiratory syndrome coronavirus 2 England/PHEC-YYGAQIO/2022	owl:Class			IEDB
+ONTIE:0004164	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-515697/2022	owl:Class			IEDB
+ONTIE:0004165	Lassa Virus Soromba-R (Lassa virus (strain Soromba-R))	owl:Class			IEDB
+ONTIE:0004166	Lassa Virus TGO2016 (Lassa virus (strain TGO2016))	owl:Class			IEDB
+ONTIE:0004167	Leptospira biflexa serovar Patoc strain 'Patoc 1'	owl:Class			IEDB
+ONTIE:0004168	Escherichia coli O25b:K- strain PFEEC0068	owl:Class			IEDB
+ONTIE:0004169	Escherichia coli O25b:K5 strain PFEEC0066	owl:Class			IEDB
+ONTIE:0004170	sus scrofa TLRI Black Pig No.1	owl:Class			IEDB
+ONTIE:0004171	Rabbit Hemorrhagic Disease Virus N11	owl:Class			IEDB
+ONTIE:0004172	Severe acute respiratory syndrome coronavirus 2 USA/IL-CDC-STM-G6D8GUH6S/2022	owl:Class			IEDB
+ONTIE:0004173	ZIKV/H. sapiens/China/SMGC-1/2016	owl:Class			IEDB
+ONTIE:0004174	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-220213-322/2021	owl:Class			IEDB
+ONTIE:0004175	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-220712-006/2022	owl:Class			IEDB
+ONTIE:0004176	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-220712-004/2022	owl:Class			IEDB
+ONTIE:0004177	Lassa Virus LP (Lassa virus (strain LP))	owl:Class			IEDB
+ONTIE:0004178	Lassa Virus LASV237-NIG-2010 (Lassa virus (strain LASV237-NIG-2010))	owl:Class			IEDB
+ONTIE:0004179	Lassa Virus Nig08-A19 (Lassa virus (strain Nig08-A19))	owl:Class			IEDB
+ONTIE:0004180	Severe acute respiratory syndrome coronavirus 2 USA/AZ-CDC-LC0521423/2022	owl:Class			IEDB
+ONTIE:0004181	Severe acute respiratory syndrome coronovirus 2 CHN/SV004/2021	owl:Class			IEDB
+ONTIE:0004182	Severe acute respiratory syndrome coronavirus 2 Hong Kong/CCPM-B-V-049-2112-18/2022	owl:Class			IEDB
+ONTIE:0004183	Crimean-Congo hemorrhagic fever virus strain Afg09-2990	owl:Class			IEDB
+ONTIE:0004184	Severe acute respiratory syndrome coronavirus 2 Beijing/Omicron-1/2021	owl:Class			IEDB
+ONTIE:0004185	Severe acute respiratory syndrome coronavirus 2 Japan/UT-NCGM02/2020	owl:Class			IEDB
+ONTIE:0004186	Severe acute respiratory syndrome coronavirus 2 Japan/TY40-158-P2/2022	owl:Class			IEDB
+ONTIE:0004187	Severe acute respiratory syndrome coronavirus 2 Munchen/1.1/929/2020	owl:Class			IEDB
+ONTIE:0004188	Porcine epidemic diarrhea virus AH2012/12	owl:Class			IEDB
+ONTIE:0004189	Severe acute respiratory syndrome coronavirus 2 CMA3p20	owl:Class			IEDB
+ONTIE:0004190	Influenza A virus (A/Shenzhen/TH002/2016(H5N6))	owl:Class			IEDB
+ONTIE:0004191	Influenza A virus (A/Anhui/1/2013(H7N9))	owl:Class			IEDB
+ONTIE:0004192	Avian leukosis virus strain JS11C1	owl:Class			IEDB
+ONTIE:0004193	Porcine deltacoronavirus SD2018/10	owl:Class			IEDB
+ONTIE:0004194	Porcine deltacoronavirus AH2019/H	owl:Class			IEDB
+ONTIE:0004195	Canine distemper virus strain 851	owl:Class			IEDB
+ONTIE:0004196	Canine distemper virus strain NJ(11)2	owl:Class			IEDB
+ONTIE:0004197	Severe acute respiratory syndrome coronavirus 2 Czech Republic/KNL_110119140/2021	owl:Class			IEDB
+ONTIE:0004198	Severe acute respiratory syndrome coronavirus 2 USA/PA-CDC-LC0583069/2022	owl:Class			IEDB
+ONTIE:0004199	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-STM-JZW2JVBAH/2022	owl:Class			IEDB
+ONTIE:0004200	Severe acute respiratory syndrome coronavirus 2 USA/WA-S16116/2022	owl:Class			IEDB
+ONTIE:0004201	Avian orthoreovirus chicken/TX/117816/2017	owl:Class			IEDB
+ONTIE:0004202	Avian orthoreovirus chicken/GA/94826/2012	owl:Class			IEDB
+ONTIE:0004203	Dengue virus 2 D2S20	owl:Class			IEDB
+ONTIE:0004204	Rattus norvegicus HLA Transgenic	owl:Class			IEDB
+ONTIE:0004205	Rattus norvegicus HLA-B27 Tg	owl:Class			IEDB
+ONTIE:0004206	Escherichia coli DAEC 2787	owl:Class			IEDB
+ONTIE:0004207	Human parainfluenza 3 virus (strain JS)	owl:Class			IEDB
+ONTIE:0004208	Influenza A virus (A/duck/Hubei/1115/2019(H2N3))	owl:Class			IEDB
+ONTIE:0004209	Influenza A virus (A/duck/Beijing/BJ7/2014(H5N2))	owl:Class			IEDB
+ONTIE:0004210	Influenza A virus (A/chicken/Yangzhou/YJD/2014(H5N6))	owl:Class			IEDB
+ONTIE:0004211	Influenza A virus (A/swine/Shandong/SG03/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004212	Influenza A virus (A/swine/Jiangsu/JS48/2010(H1N1)	owl:Class			IEDB
+ONTIE:0004213	Influenza A virus (A/swine/Anhui/SZ14/2019(H3N2))	owl:Class			IEDB
+ONTIE:0004214	Influenza A virus (A/Jiangsu/202/2010(H3N2))	owl:Class			IEDB
+ONTIE:0004215	Severe acute respiratory syndrome coronavirus 2 DNK/7023000080/2023	owl:Class			IEDB
+ONTIE:0004216	African swine fever virus pig/HLJ/HRB1/2020	owl:Class			IEDB
+ONTIE:0004217	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-795-P0/2022	owl:Class			IEDB
+ONTIE:0004218	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-716-P0/2022	owl:Class			IEDB
+ONTIE:0004219	Severe acute respiratory syndrome coronavirus 2 Japan/UT-NCD1288-2N/2022	owl:Class			IEDB
+ONTIE:0004220	Severe acute respiratory syndrome coronavirus 2 USA/WI-WSLH-221686/2021	owl:Class			IEDB
+ONTIE:0004221	African swine fever virus China/Sichuan/2019	owl:Class			IEDB
+ONTIE:0004222	Mus musculus HLA-DQ2 Tg	owl:Class			IEDB
+ONTIE:0004223	Mus musculus HLA-DQA1*05:01/DQB1*02:01 Tg	owl:Class			IEDB
+ONTIE:0004224	Mus musculus HLA-B*08:01 Tg	owl:Class			IEDB
+ONTIE:0004225	Mus musculus HLA-B*57:01 Tg	owl:Class			IEDB
+ONTIE:0004226	Mus musculus HLA-B35 Tg	owl:Class			IEDB
+ONTIE:0004227	Mus musculus HLA-B44 Tg	owl:Class			IEDB
+ONTIE:0004228	Mus musculus HLA-A*33:03 Tg	owl:Class			IEDB
+ONTIE:0004229	Mus musculus HLA-DRA*01:01/DRB1*15:01 Tg	owl:Class			IEDB
+ONTIE:0004230	Mus musculus HLA-C Transgenic	owl:Class			IEDB
+ONTIE:0004231	Mus musculus HLA-C*07:01 Tg	owl:Class			IEDB
+ONTIE:0004232	Mus musculus HLA-DP Transgenic	owl:Class			IEDB
+ONTIE:0004233	Mus musculus HLA-DPA1*01:03/DPB1*04:01 Tg	owl:Class			IEDB
+ONTIE:0004234	Mus musculus HLA-DPw4 Tg	owl:Class			IEDB
+ONTIE:0004235	Severe acute respiratory coronavirus 2 Japan/QH-329-037/2020	owl:Class			IEDB
+ONTIE:0004236	Severe acute respiratory coronavirus 2 Yunnan/KMS1/2020	owl:Class			IEDB
+ONTIE:0004237	Mus musculus HLA-B*13:02 Tg	owl:Class			IEDB
+ONTIE:0004238	Mus musculus HLA-A1 Tg	owl:Class			IEDB
+ONTIE:0004239	Senecavirus A China/Fujian/CH-FuJ/SVA/2017	owl:Class			IEDB
+ONTIE:0004240	Severe acute respiratory coronavirus 2 USA/NY-PV09158/2020	owl:Class			IEDB
+ONTIE:0004241	Severe acute respiratory coronavirus 2 USA/CA-CDPH-2000009990/2020	owl:Class			IEDB
+ONTIE:0004242	Severe acute respiratory coronavirus 2 USA/MD-HP43882-PIDNMZZCPV/2021	owl:Class			IEDB
+ONTIE:0004243	Plasmodium yoelii 17XL	owl:Class			IEDB
+ONTIE:0004244	ZIKV/H. sapiens/Brazil/SPH/2015	owl:Class			IEDB
+ONTIE:0004245	Severe acute respiratory coronavirus 2 Japan/46059T/2020	owl:Class			IEDB
+ONTIE:0004246	Severe acute respiratory coronavirus 2 Japan/HiroC77/2021	owl:Class			IEDB
+ONTIE:0004247	Severe acute respiratory coronavirus 2 Japan/FH-229/2021	owl:Class			IEDB
+ONTIE:0004248	Porcine reproductive and respiratory syndrome virus GDQY	owl:Class			IEDB
+ONTIE:0004249	Simian foamy virus BAD468	owl:Class			IEDB
+ONTIE:0004250	Simian foamy virus BAK74	owl:Class			IEDB
+ONTIE:0004251	Eastern chimpanzee simian foamy virus pHSRV13	owl:Class			IEDB
+ONTIE:0004252	Severe acute respiratory coronavirus 2 Chile/TA-136612/2021	owl:Class			IEDB
+ONTIE:0004253	Severe acute respiratory coronavirus 2 Hong Kong/VM22000325/2022	owl:Class			IEDB
+ONTIE:0004254	Severe acute respiratory coronavirus 2 South Africa/CERI-KRISP-K040484/2022	owl:Class			IEDB
+ONTIE:0004255	Severe acute respiratory coronavirus 2 USA/MD-HP38861-PIDNWGWLBA/2022	owl:Class			IEDB
+ONTIE:0004256	African swine fever virus China/GZ201801/2018	owl:Class			IEDB
+ONTIE:0004257	Lassa Virus NIG08-A41 (Lassa virus (strain Nig08-A19))	owl:Class			IEDB
+ONTIE:0004258	Plasmodium falciparum M200101	owl:Class			IEDB
+ONTIE:0004259	Bat coronavirus PRD-0038	owl:Class			IEDB
+ONTIE:0004260	Severe acute respiratory coronavirus 2 China//CHN_CVRI-01/2022	owl:Class			IEDB
+ONTIE:0004261	Severe acute respiratory coronavirus 2 China//CHN_CVRI-04/2022	owl:Class			IEDB
+ONTIE:0004262	Influenza A virus (A/chicken/Guiyang/1153/2016(H5N1))	owl:Class			IEDB
+ONTIE:0004263	Influenza A virus (A/duck/Bangladesh/17D1012/2018(H5N1))	owl:Class			IEDB
+ONTIE:0004264	Influenza A virus (A/Sichuan/26221/2014(H5N8))	owl:Class			IEDB
+ONTIE:0004265	Influenza A virus (A/Hubei/29578/2016(H5N8))	owl:Class			IEDB
+ONTIE:0004266	Influenza A virus (A/Fujian-Sanyuan/21099/2017(H5N8))	owl:Class			IEDB
+ONTIE:0004267	Influenza A virus (A/Astrakhan/3212/2020(H5N8))	owl:Class			IEDB
+ONTIE:0004268	Severe fever with thrombocytopenia syndrome virus strain WCH	owl:Class			IEDB
+ONTIE:0004269	Puumala virus strain Mu/07/1219	owl:Class			IEDB
+ONTIE:0004270	Puumala virus strain Suonenjoki	owl:Class			IEDB
+ONTIE:0004271	Laguna Negra virus strain 510B	owl:Class			IEDB
+ONTIE:0004272	Dobrava virus strain Ano-Poroia/Afl9/1999	owl:Class			IEDB
+ONTIE:0004273	Choclo virus strain 588	owl:Class			IEDB
+ONTIE:0004274	Japanese encephalitis virus strain RP-9	owl:Class			IEDB
+ONTIE:0004275	Western equine encephalitis virus (strain Fleming)	owl:Class			IEDB
+ONTIE:0004276	Western equine encephalitis virus (strain CBA87)	owl:Class			IEDB
+ONTIE:0004277	Eastern equine encephalitis virus (strain PE-6)	owl:Class			IEDB
+ONTIE:0004278	Chikungunya virus strain 181/25	owl:Class			IEDB
+ONTIE:0004279	Severe acute respiratory coronavirus 2 Australia/QLD1517/2021	owl:Class			IEDB
+ONTIE:0004280	Severe acute respiratory coronavirus 2 Australia/QLD1520/2020	owl:Class			IEDB
+ONTIE:0004281	Severe acute respiratory coronavirus 2 Australia/NSW4318/2021	owl:Class			IEDB
+ONTIE:0004282	Severe acute respiratory coronavirus 2 Australia/NSW-RPAH-1933/2021	owl:Class			IEDB
+ONTIE:0004283	Severe acute respiratory coronavirus 2 BF.7/DR-XG-C020/2022	owl:Class			IEDB
+ONTIE:0004284	Bat coronavirus BANAL-20-103/Laos/2020	owl:Class			IEDB
+ONTIE:0004285	Bat coronavirus BANAL-20-247/Laos/2020	owl:Class			IEDB
+ONTIE:0004286	Bat coronavirus Yunnan/RsYN04/2020	owl:Class			IEDB
+ONTIE:0004287	Porcine epidemic diarrhea virus AJ1102	owl:Class			IEDB
+ONTIE:0004288	Porcine epidemic diarrhea virus SP-C	owl:Class			IEDB
+ONTIE:0004289	Duck circovirus SXD1	owl:Class			IEDB
+ONTIE:0004290	Duck circovirus JZ22	owl:Class			IEDB
+ONTIE:0004291	ZIKV virus ZIKV/H. sapiens/Brazil/BeH819015/2015	owl:Class			IEDB
+ONTIE:0004292	Influenza A virus (A/New York City/PV02669/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004293	Influenza A virus (A/Singapore/GP1908/2015(H1N1))	owl:Class			IEDB
+ONTIE:0004294	Herpesviridae	owl:Class			IEDB
+ONTIE:0004295	Human respiratory syncytial virus A 1998/3-2	owl:Class			IEDB
+ONTIE:0004296	Human respiratory syncytial virus B WV/14617/1985	owl:Class			IEDB
+ONTIE:0004297	Human metapneumovirus A2 Japan/03-1/2003/A-GFP	owl:Class			IEDB
+ONTIE:0004298	Human respiratory syncytial virus B Washington/18537/1962	owl:Class			IEDB
+ONTIE:0004299	Human respiratory syncytial virus A 2001/3-12	owl:Class			IEDB
+ONTIE:0004300	Human metapneumovirus B2 TN-83-1211/1963/B	owl:Class			IEDB
+ONTIE:0004301	Influenza A virus (A/Brisbane/02/2018(H1N1))	owl:Class			IEDB
+ONTIE:0004302	Influenza A virus (A/Guangdong-Maonan/SWL1536/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004303	Influenza A virus (A/Singapore/INFIMH-16-0019/2016(H3N2))	owl:Class			IEDB
+ONTIE:0004304	Influenza A virus (A/Laos/JP127/2004(H5N1))	owl:Class			IEDB
+ONTIE:0004305	Bat coronavirus BANAL-20-52/Laos/2020	owl:Class			IEDB
+ONTIE:0004306	Bat coronavirus BANAL-20-236/Laos/2020	owl:Class			IEDB
+ONTIE:0004307	Porcine deltacoronavirus CHN-SC2015	owl:Class			IEDB
+ONTIE:0004308	Human herpesvirus 4 strain M81 (Epstein-Barr virus (strain M81))	owl:Class			IEDB
+ONTIE:0004309	ZIKV/H. sapiens/Thailand/SV0127/2014	owl:Class			IEDB
+ONTIE:0004310	Influenza A virus (A/goose/Jiangyin/JY100405/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004311	Influenza A virus (A/chicken/Jiangyin/JYC090412/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004312	Influenza A virus (A/chicken/Wuxi/W131210/2017(H9N2))	owl:Class			IEDB
+ONTIE:0004313	Influenza A virus (A/chicken/Wuxi/W6323/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004314	Influenza A virus (A/pigeon/Jiangyin/JYP100318/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004315	Influenza A virus (A/chicken/Jiangyin/JY110712/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004316	Influenza A virus (A/duck/Jiangyin/JY110903/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004317	Influenza A virus (A/chicken/Jiangyin/JY040218/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004318	Influenza A virus (A/goose/Jiangyin/JYG110704/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004319	Influenza A virus (A/chicken/Wuxi/WX050801/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004320	Influenza A virus (A/chicken/Jiangyin/JY020616/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004321	Influenza A virus (A/chicken/Wuxi/WX040804/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004322	Influenza A virus (A/chicken/Jiangyin/JY110318/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004323	Influenza A virus (A/chicken/Jiangyin/JY010220/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004324	Influenza A virus (A/chicken/Jiangyin/JY120118/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004325	Influenza A virus (A/chicken/Jiangyin/JYC090408/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004326	Influenza A virus (A/pigeon/Jiangyin/JY030308/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004327	Influenza A virus (A/chicken/Jiangyin/JY120205/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004328	Influenza A virus (A/chicken/Wuxi/WX120920/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004329	Influenza A virus (A/chicken/Wuxi/WXC090312/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004330	Influenza A virus (A/chicken/Wuxi/WX110614/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004331	Influenza A virus (A/pigeon/Jiangyin/JYP090603/2019(H9N2))	owl:Class			IEDB
+ONTIE:0004332	Severe acute respiratory syndrome coronavirus 2 CHN/Beijing_IME-BJ05-MASCp36/2020	owl:Class			IEDB
+ONTIE:0004333	Severe acute respiratory syndrome coronavirus 2 Japan/KUH003/2020	owl:Class			IEDB
+ONTIE:0004334	Bat mastadenovirus G	owl:Class			IEDB
+ONTIE:0004335	Classical swine fever virus JPN/1/2018	owl:Class			IEDB
+ONTIE:0004336	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU03/2020	owl:Class			IEDB
+ONTIE:0004337	Porcine deltacoronavirus GX2021-1	owl:Class			IEDB
+ONTIE:0004338	Porcine deltacoronavirus GX2022-1	owl:Class			IEDB
+ONTIE:0004339	Porcine deltacoronavirus GX2022-2	owl:Class			IEDB
+ONTIE:0004340	MERS-like BtCoV/li/GD/2014-422	owl:Class			IEDB
+ONTIE:0004341	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-211129-001/2021	owl:Class			IEDB
+ONTIE:0004342	Severe acute respiratory syndrome coronavirus 2 Bangladesh/SIRS-3472/2023	owl:Class			IEDB
+ONTIE:0004343	Severe acute respiratory syndrome coronavirus 2 Bangladesh/SIRS-3473/2023	owl:Class			IEDB
+ONTIE:0004344	Severe acute respiratory syndrome coronavirus 2 France/PAC-IHU-102340/2023	owl:Class			IEDB
+ONTIE:0004345	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-210604-002/2021	owl:Class			IEDB
+ONTIE:0004346	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-210604-004/2021	owl:Class			IEDB
+ONTIE:0004347	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-210804-001/2021	owl:Class			IEDB
+ONTIE:0004348	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-344/2021	owl:Class			IEDB
+ONTIE:0004349	Severe acute respiratory syndrome coronavirus 2 BA.1 strain YJ20220223	owl:Class			IEDB
+ONTIE:0004350	Severe acute respiratory syndrome coronavirus 2 BA.2 strain YJ20220310	owl:Class			IEDB
+ONTIE:0004351	Severe acute respiratory syndrome coronavirus 2 B.1.617.2 strain YJ20210707-01	owl:Class			IEDB
+ONTIE:0004352	Severe acute respiratory syndrome coronavirus 2 Switzerland/GE-33115015/2021	owl:Class			IEDB
+ONTIE:0004353	Severe acute respiratory syndrome coronavirus 2 Switzerland/GE-33896105/2021	owl:Class			IEDB
+ONTIE:0004354	Severe acute respiratory syndrome coronavirus 2 Switzerland/VD-HUG-36221084/2021	owl:Class			IEDB
+ONTIE:0004355	Severe acute respiratory syndrome coronavirus 2 Switzerland/GE-33128281/2021	owl:Class			IEDB
+ONTIE:0004356	Tembusu virus TC2B/duck/shandong/2011	owl:Class			IEDB
+ONTIE:0004357	Severe acute respiratory syndrome coronavirus 2 Indonesia/JI-ITD-12202V/2020	owl:Class			IEDB
+ONTIE:0004358	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-088071/2022	owl:Class			IEDB
+ONTIE:0004359	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-089580/2022	owl:Class			IEDB
+ONTIE:0004360	Severe acute respiratory syndrome coronavirus 2 France/IDF-HEGP-77-48-2232847922/2022	owl:Class			IEDB
+ONTIE:0004361	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP40900-PIDYSWHNUB/2022	owl:Class			IEDB
+ONTIE:0004362	Severe acute respiratory syndrome coronavirus 2 USA/CO-CDPHE-30678712/2021	owl:Class			IEDB
+ONTIE:0004363	Severe acute respiratory syndrome coronavirus 2 France/PAC-IHU-102303/2023	owl:Class			IEDB
+ONTIE:0004364	Severe acute respiratory syndrome coronavirus 2 USA/NC-CDC-LC0928151/2022	owl:Class			IEDB
+ONTIE:0004365	Porcine Epidemic Diarrhea Virus CH/Hubei/2016	owl:Class			IEDB
+ONTIE:0004366	Porcine Epidemic Diarrhea Virus CH/HNAY/2015	owl:Class			IEDB
+ONTIE:0004367	Porcine Epidemic Diarrhea Virus CH/HNXX/2016	owl:Class			IEDB
+ONTIE:0004368	Severe acute respiratory syndrome coronavirus 2 NLD/Rotterdam-UK1/2020	owl:Class			IEDB
+ONTIE:0004369	Severe acute respiratory syndrome coronavirus 2 NLD/EMC-Gamma-1/2021	owl:Class			IEDB
+ONTIE:0004370	Severe acute respiratory syndrome coronavirus 2 NLD/EMC-Delta-1/2021	owl:Class			IEDB
+ONTIE:0004371	Severe acute respiratory syndrome coronavirus 2 NLD/EMC-Omicron-1/2021	owl:Class			IEDB
+ONTIE:0004372	Severe acute respiratory syndrome coronavirus 2 NLD/EMC-Beta-1/2021	owl:Class			IEDB
+ONTIE:0004373	Severe acute respiratory syndrome coronavirus 2 D614G virus LSPQ/231457/2020	owl:Class			IEDB
+ONTIE:0004374	Severe acute respiratory syndrome coronavirus 2 FRA/IHUCOVID-095558/2022	owl:Class			IEDB
+ONTIE:0004375	Severe acute respiratory syndrome coronavirus 2 USA/MD-HP47946-PIDOZJUORR/2023	owl:Class			IEDB
+ONTIE:0004376	Severe acute respiratory syndrome coronavirus 2 Belgium/GPE-27/2022	owl:Class			IEDB
+ONTIE:0004377	Severe acute respiratory syndrome coronavirus Singapore/1017/2020	owl:Class			IEDB
+ONTIE:0004378	Severe acute respiratory syndrome coronavirus 2 Singapore/1466/2020	owl:Class			IEDB
+ONTIE:0004379	Severe acute respiratory syndrome coronavirus 2 Singapore/239/2021	owl:Class			IEDB
+ONTIE:0004380	African swine fever virus R7	owl:Class			IEDB
+ONTIE:0004381	Severe acute respiratory syndrome coronavirus 2 India/HR-THSTI_164566/2021	owl:Class			IEDB
+ONTIE:0004382	Severe acute respiratory syndrome coronavirus 2 India/DL-IGIB1210JAN-BAL-03TV/2021	owl:Class			IEDB
+ONTIE:0004383	Severe acute respiratory syndrome coronavirus 2 South Africa/KRISP-K005325/2020	owl:Class			IEDB
+ONTIE:0004384	Severe acute respiratory syndrome coronavirus 2 Mouse-Adapted MA10 Variant	owl:Class			IEDB
+ONTIE:0004385	Severe acute respiratory syndrome coronavirus 2 Japan/TY40-385-P1/2022	owl:Class			IEDB
+ONTIE:0004386	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-702-P1/2022	owl:Class			IEDB
+ONTIE:0004387	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-796-P1/2022	owl:Class			IEDB
+ONTIE:0004388	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-795-P1/2022	owl:Class			IEDB
+ONTIE:0004389	Severe acute respiratory syndrome coronavirus 2 Japan/23-018-P1/2022	owl:Class			IEDB
+ONTIE:0004390	Severe acute respiratory syndrome coronavirus 2 Botswana/R42B90_BHP_000842207/2021	owl:Class			IEDB
+ONTIE:0004391	Bacillus anthracis str. 7702	owl:Class			IEDB
+ONTIE:0004392	Human betaherpesvirus 5 strain HAN8	owl:Class			IEDB
+ONTIE:0004393	Human betaherpesvirus 5 strain VHL/E	owl:Class			IEDB
+ONTIE:0004394	Mus musculus B6.Flu NP311 TCR Tg	owl:Class			IEDB
+ONTIE:0004395	Human betaherpesvirus 5 strain TR	owl:Class			IEDB
+ONTIE:0004396	African swine fever virus Lisbon 61	owl:Class			IEDB
+ONTIE:0004397	Severe acute respiratory syndrome coronavirus 2 USA/MI-UM-10052670540/2023	owl:Class			IEDB
+ONTIE:0004398	Severe acute respiratory syndrome coronavirus 2 Beijing/GD-5/2022	owl:Class			IEDB
+ONTIE:0004399	human metapneumovirus A2 (A/RLBx)	owl:Class			IEDB
+ONTIE:0004400	Human metapneumovirus B2	owl:Class			IEDB
+ONTIE:0004401	Human metapneumovirus A1	owl:Class			IEDB
+ONTIE:0004402	African swine fever virus Lillie SI 85	owl:Class			IEDB
+ONTIE:0004403	African swine fever virus Estonia 2014	owl:Class			IEDB
+ONTIE:0004404	African swine fever virus Ghana Akuse/2020	owl:Class			IEDB
+ONTIE:0004405	African swine fever virus Armenia/07	owl:Class			IEDB
+ONTIE:0004406	Enterovirus D68 US/MO/14-18947	owl:Class			IEDB
+ONTIE:0004407	Porcine circovirus 3 TW16	owl:Class			IEDB
+ONTIE:0004408	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-493190/2022	owl:Class			IEDB
+ONTIE:0004409	Severe acute respiratory syndrome coronavirus 2 Belgium/UZA-UA-CV8412993286/2022	owl:Class			IEDB
+ONTIE:0004410	Severe acute respiratory syndrome coronavirus 2 India/MH-INSACOG-CSIR-NEERI1874/2022	owl:Class			IEDB
+ONTIE:0004411	Severe acute respiratory syndrome coronavirus 2 France/CVL-IPP25260/2022	owl:Class			IEDB
+ONTIE:0004412	Severe acute respiratory syndrome coronavirus 2 Spain/MC-HCUVA-20054722/2022	owl:Class			IEDB
+ONTIE:0004413	Severe acute respiratory syndrome coronavirus 2 USA/CO-CDPHE-2103721049/2022	owl:Class			IEDB
+ONTIE:0004414	Severe acute respiratory syndrome coronavirus 2 Germany/NI-DOB-0322/2022	owl:Class			IEDB
+ONTIE:0004415	Influenza A virus (Eurasian teal/Jiangxi/WB0417/2018(H6N2))	owl:Class			IEDB
+ONTIE:0004416	Influenza A virus (Eurasian wigeon/Jiangxi/WB0158/2018((H6N2))	owl:Class			IEDB
+ONTIE:0004417	Influenza A virus (Eurasian teal/Jiangxi/WB0049/2018(H6N2))	owl:Class			IEDB
+ONTIE:0004418	Avian infectious bronchitis virus (strain QX)	owl:Class			IEDB
+ONTIE:0004419	Gallus gallus Rhode Island Red	owl:Class			IEDB
+ONTIE:0004420	Human metapneumovirus B1 SP/1/15	owl:Class			IEDB
+ONTIE:0004421	Human metapneumovirus A2 SP/2/18	owl:Class			IEDB
+ONTIE:0004422	Getah virus (strain GX201808)	owl:Class			IEDB
+ONTIE:0004423	Tick-borne encephalitis virus (strain Oshima 5.10)	owl:Class			IEDB
+ONTIE:0004424	Tick-borne encephalitis virus (strain K23)	owl:Class			IEDB
+ONTIE:0004425	Lassa Virus 803213 (Lassa virus (strain 803213))	owl:Class			IEDB
+ONTIE:0004426	Lassa Virus CSF (Lassa virus (strain CSF))	owl:Class			IEDB
+ONTIE:0004427	Lassa Virus AV (Lassa virus (strain AV))	owl:Class			IEDB
+ONTIE:0004428	Lassa Virus Kak428 (Lassa virus (strain Kak428))	owl:Class			IEDB
+ONTIE:0004429	Lassa Virus AYM (Lassa virus (strain AYM))	owl:Class			IEDB
+ONTIE:0004430	Influenza A virus (A/Anas platyrhynchos/Korea/W612/2017(H5N6))	owl:Class			IEDB
+ONTIE:0004431	Tick-borne encephalitis virus (strain Vasilchenko)	owl:Class			IEDB
+ONTIE:0004432	Porcine circovirus type 2-B strain SH	owl:Class			IEDB
+ONTIE:0004433	Enterovirus D68 US/KY/14-18953	owl:Class			IEDB
+ONTIE:0004434	Human coxsackievirus A16 strain 190/Taiwan/2007	owl:Class			IEDB
+ONTIE:0004435	Human coxsackievirus A16 strain 213a-A4/China/2010	owl:Class			IEDB
+ONTIE:0004436	Human coxsackievirus A16 strain 4430-A2/China/2009	owl:Class			IEDB
+ONTIE:0004437	Human coxsackievirus A16 strain 4479-B4/China/2009	owl:Class			IEDB
+ONTIE:0004438	Severe acute respiratory syndrome coronavirus 2 Eswatini/N40449/2022	owl:Class			IEDB
+ONTIE:0004439	Severe acute respiratory syndrome coronavirus 2 Costa Rica/INC-11344-794399/2023	owl:Class			IEDB
+ONTIE:0004440	Severe acute respiratory syndrome coronavirus 2 Sweden/9431052587/2021	owl:Class			IEDB
+ONTIE:0004441	Enterovirus D68 US/MO/14-18950	owl:Class			IEDB
+ONTIE:0004442	African swine fever virus China/SD/2019	owl:Class			IEDB
+ONTIE:0004443	Omsk hemorrhagic fever virus (strain Bogoluvovska)	owl:Class			IEDB
+ONTIE:0004444	Kyasanur Forest disease virus (strain W-377)	owl:Class			IEDB
+ONTIE:0004445	Severe acute respiratory syndrome coronavirus 2 Belgium/rega-12211513/2020	owl:Class			IEDB
+ONTIE:0004446	Severe acute respiratory syndrome coronavirus 2 Belgium/rega-7214/2021	owl:Class			IEDB
+ONTIE:0004447	Severe acute respiratory syndrome coronavirus France/PAC-IHU-102170/2022	owl:Class			IEDB
+ONTIE:0004448	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-095845/2022	owl:Class			IEDB
+ONTIE:0004449	Severe acute respiratory syndrome coronavirus 2 France/PAC-IHU-102546/2023	owl:Class			IEDB
+ONTIE:0004450	Crimean-Congo hemorrhagic fever virus YL16070	owl:Class			IEDB
+ONTIE:0004451	Dengue Virus 3 YN02	owl:Class			IEDB
+ONTIE:0004452	Dengue Virus 4 GZB5	owl:Class			IEDB
+ONTIE:0004453	Hepatitis C virus 1b 09	owl:Class			IEDB
+ONTIE:0004454	Heptatitis C virus 2b-4	owl:Class			IEDB
+ONTIE:0004455	Heptatitic C virus 2b-5	owl:Class			IEDB
+ONTIE:0004456	Dengue virus 4 Thailand/1-0093/2004	owl:Class			IEDB
+ONTIE:0004457	Severe acute respiratory syndrome coronavirus 2 USA/OH-ODH-SC3032044/2023	owl:Class			IEDB
+ONTIE:0004458	Severe acute respiratory syndrome coronavirus 2 Slovenia/XBB_1_16_LP3_20_23_3d_4p/2023	owl:Class			IEDB
+ONTIE:0004459	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-647569/2023	owl:Class			IEDB
+ONTIE:0004460	Severe acute respiratory syndrome coronavirus 2 Japan/Hu_DP_Kng_19-020/2020	owl:Class			IEDB
+ONTIE:0004461	Severe acute respiratory syndrome coronavirus 2 Delta strain BKVC-127	owl:Class			IEDB
+ONTIE:0004462	Influenza A virus (A/Darwin/6/2021(H3N2))	owl:Class			IEDB
+ONTIE:0004463	Influenza A virus (A/duck/France/161005/2016(H3N2))	owl:Class			IEDB
+ONTIE:0004464	Influenza A virus (A/swine/Germany/Bak50/2017(H1N2))	owl:Class			IEDB
+ONTIE:0004465	Influenza A virus (A/Guangxi-Xiangshan/11522/2018(H9N2))	owl:Class			IEDB
+ONTIE:0004466	Influenza A virus (A/Darwin/106/2020(H3N2))	owl:Class			IEDB
+ONTIE:0004467	Venezuelan equine encephalitis virus (strain INH9813)	owl:Class			IEDB
+ONTIE:0004468	Venezuelan equine encephalitis virus (strain ZPC738)	owl:Class			IEDB
+ONTIE:0004469	Venezuelan equine encephalitis virus (strain MX01-22)	owl:Class			IEDB
+ONTIE:0004470	Mucambo virus Mucambo BeAn 8	owl:Class			IEDB
+ONTIE:0004471	Influenza A virus (A/Hong Kong/45/2019(H3N2))	owl:Class			IEDB
+ONTIE:0004472	Hepatitis C virus 1a157	owl:Class			IEDB
+ONTIE:0004473	Hepatitis C Virus UKNP5.2.1	owl:Class			IEDB
+ONTIE:0004474	Hepatitis C Virus UKNP1.11.6	owl:Class			IEDB
+ONTIE:0004475	Hepatitis C Virus 1b34	owl:Class			IEDB
+ONTIE:0004476	Hepatitis C Virus 1a138	owl:Class			IEDB
+ONTIE:0004477	Hepatitis C Virus 1a123	owl:Class			IEDB
+ONTIE:0004478	Hepatitis C Virus UKNP1.9.1	owl:Class			IEDB
+ONTIE:0004479	Hepatitis C Virus 1b25	owl:Class			IEDB
+ONTIE:0004480	Hepatitis C Virus UKNP1.16.3	owl:Class			IEDB
+ONTIE:0004481	Hepatitis C Virus UKNP4.2.2	owl:Class			IEDB
+ONTIE:0004482	Hepatitis C Virus 1a72	owl:Class			IEDB
+ONTIE:0004483	Hepatitis C Virus UKNP1.10.1	owl:Class			IEDB
+ONTIE:0004484	Hepatitis C Virus 1b58	owl:Class			IEDB
+ONTIE:0004485	Hepatitis C Virus UKNP1.18.1	owl:Class			IEDB
+ONTIE:0004486	Hepatitis C Virus UKNP3.1.2	owl:Class			IEDB
+ONTIE:0004487	Hepatitis C Virus UKNP2.4.1	owl:Class			IEDB
+ONTIE:0004488	Hepatitis C Virus UKNP6.1.1	owl:Class			IEDB
+ONTIE:0004489	Junin virus strain XJ13	owl:Class			IEDB
+ONTIE:0004490	Borreliella garinii Tlsl	owl:Class			IEDB
+ONTIE:0004491	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-095448/2022	owl:Class			IEDB
+ONTIE:0004492	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-095570/2022	owl:Class			IEDB
+ONTIE:0004493	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-096119/2022	owl:Class			IEDB
+ONTIE:0004494	Severe acute respiratory syndrome coronavirus 2 France/un-IHUMI-083991/2022	owl:Class			IEDB
+ONTIE:0004495	Severe acute respiratory syndrome coronavirus 2 KOR/NCCP 43439/2023	owl:Class			IEDB
+ONTIE:0004496	Severe acute respiratory syndrome coronavirus 2 France/un-IHU-094351/2022	owl:Class			IEDB
+ONTIE:0004497	Severe acute respiratory syndrome coronavirus 2 France/GES-IPP07712/2023	owl:Class			IEDB
+ONTIE:0004498	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-QDX48956285/2023	owl:Class			IEDB
+ONTIE:0004499	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-LC0915918/2022	owl:Class			IEDB
+ONTIE:0004500	Porcine epidemic diarrhea virus MSCH	owl:Class			IEDB
+ONTIE:0004501	Japanese encephalitis virus Bennett	owl:Class			IEDB
+ONTIE:0004502	Japanese encephalitis virus MAR 859	owl:Class			IEDB
+ONTIE:0004503	Japanese encephalitis virus JKT 7887	owl:Class			IEDB
+ONTIE:0004504	Japanese encephalitis virus 2372	owl:Class			IEDB
+ONTIE:0004505	Pangolin coronavirus 2020	owl:Class			IEDB
+ONTIE:0004506	Bat coronavirus LYRa11	owl:Class			IEDB
+ONTIE:0004507	Pangolin coronavirus Guangxi P5L	owl:Class			IEDB
+ONTIE:0004508	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-716-P1/2022	owl:Class			IEDB
+ONTIE:0004509	Severe acute respiratory syndrome coronavirus 2 Japan/TY41-984-P1/2023	owl:Class			IEDB
+ONTIE:0004510	Severe acute respiratory syndrome coronavirus 2 Biken/B-2/2020	owl:Class			IEDB
+ONTIE:0004511	Zaire ebolavirus North Kivu (Ebola virus North Kivu)	owl:Class			IEDB
+ONTIE:0004512	Zaire ebolavirus Mali (Ebola virus Mali)	owl:Class			IEDB
+ONTIE:0004513	Severe acute respiratory syndrome coronavirus 2 Japan/TY38-871P0/2021	owl:Class			IEDB
+ONTIE:0004514	Severe acute respiratory syndrome coronavirus 2 Japan/IC-12434/2022	owl:Class			IEDB
+ONTIE:0004515	Severe acute respiratory syndrome coronavirus 2 Japan/IC-12890/2022	owl:Class			IEDB
+ONTIE:0004516	African swine fever virus pig/Shandong/DY-I/2021	owl:Class			IEDB
+ONTIE:0004517	Canine coronavirus JS1706	owl:Class			IEDB
+ONTIE:0004518	Human respiratory synctial virus A2 strain line 19F	owl:Class			IEDB
+ONTIE:0004519	Mus musculus C57BL/6 FL9.2 TCR Tg transgenic	owl:Class			IEDB
+ONTIE:0004520	Mus musculus C57BL/6 FL9.8 TCR Tg transgenic	owl:Class			IEDB
+ONTIE:0004521	Porcine reproductive and respiratory syndrome virus GXFS20220129	owl:Class			IEDB
+ONTIE:0004522	ZIKV/H.sapiens/Brazil/PE243/2015	owl:Class			IEDB
+ONTIE:0004523	Influenza A virus (A/Darwin/9/2021(H3N2))	owl:Class			IEDB
+ONTIE:0004524	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-683186/2022	owl:Class			IEDB
+ONTIE:0004525	Severe acute respiratory syndrome coronavirus USA/WY-WYPHL-24010663/2024	owl:Class			IEDB
+ONTIE:0004526	Mink enteritis virus strain SD-Z-2020	owl:Class			IEDB
+ONTIE:0004527	Severe acute respiratory syndrome coronoavirus 2 Taiwan/689423/2022	owl:Class			IEDB
+ONTIE:0004528	Severe acute respiratory syndrome coronoavirus 2 Taiwan/CDC-984581/2022	owl:Class			IEDB
+ONTIE:0004529	Severe acute respiratory syndrome coronoavirus 2 Taiwan/TSGH-8189/2022	owl:Class			IEDB
+ONTIE:0004530	Porcine reproductive and respiratory syndrome virus HP	owl:Class			IEDB
+ONTIE:0004531	Porcine reproductive and respiratory syndrome virus strain TA-01	owl:Class			IEDB
+ONTIE:0004532	Porcine reproductive and respiratory syndrome virus strain CH-1R	owl:Class			IEDB
+ONTIE:0004533	Porcine reproductive and respiratory syndrome virus  strain TA-12	owl:Class			IEDB
+ONTIE:0004534	Severe acute respiratory syndrome coronoavirus 2 Morocco/INH_UM6P-10/2022	owl:Class			IEDB
+ONTIE:0004535	Monkeypox virus USA_2022_MA001	owl:Class			IEDB
+ONTIE:0004536	Sus scrofa Landrace	owl:Class			IEDB
+ONTIE:0004537	Staphylococcus aureus ST59	owl:Class			IEDB
+ONTIE:0004538	Severe acute respiratory syndrome coronoavirus 2 USA/IL-CDC-LC0832010/2022	owl:Class			IEDB
+ONTIE:0004539	Severe acute respiratory syndrome coronoavirus 2 USA/GA-CDC-STM-VBFKEGTGS/2022	owl:Class			IEDB
+ONTIE:0004540	Severe acute respiratory syndrome coronoavirus 2 USA/IL-CDC-STM-7WP6GA9GR/2022	owl:Class			IEDB
+ONTIE:0004541	Severe acute respiratory syndrome coronoavirus 2 USA/SC-CDC-QDX41074979/2022	owl:Class			IEDB
+ONTIE:0004542	Severe acute respiratory syndrome coronoavirus 2 USA/NJ-CDC-LC0842372/2022	owl:Class			IEDB
+ONTIE:0004543	Severe acute respiratory syndrome coronoavirus 2 USA/VA-CDC-QDX42511425/2022	owl:Class			IEDB
+ONTIE:0004544	Severe acute respiratory syndrome coronoavirus 2 USA/UT-UPHL-220708231575/2022	owl:Class			IEDB
+ONTIE:0004545	Severe fever with thrombocytopenia syndrome virus strain HBMC5	owl:Class			IEDB
+ONTIE:0004546	Severe fever with thrombocytopenia syndrome virus strain HBGS13	owl:Class			IEDB
+ONTIE:0004547	Neisseria meningitidis serogroup W strain 240,070	owl:Class			IEDB
+ONTIE:0004548	Neisseria meningitidis serogroup Y strain 860,000	owl:Class			IEDB
+ONTIE:0004549	Neisseria meningitidis serogroup C strain C1	owl:Class			IEDB
+ONTIE:0004550	Severe acute respiratory syndrome coronoavirus 2 India/MH_BJCOG_INSACOG_3626/2022	owl:Class			IEDB
+ONTIE:0004551	Severe acute respiratory syndrome coronoavirus 2 India/WB-INSACOG-1931503220900/2022	owl:Class			IEDB
+ONTIE:0004552	Clostridium botulinum B8 str. Maehongson	owl:Class			IEDB
+ONTIE:0004553	Human respirovirus 3 (strain WASH/C243/57)	owl:Class			IEDB
+ONTIE:0004554	Avian leukemia virus J SX-18-01	owl:Class			IEDB
+ONTIE:0004555	Avian leukemia virus A XTM-21-01	owl:Class			IEDB
+ONTIE:0004556	Avian leukemia virus B SZ-19-01	owl:Class			IEDB
+ONTIE:0004557	Avian leukemia virus K SH-20-01	owl:Class			IEDB
+ONTIE:0004558	Influenza A virus (A/chicken/Hunan/HN/2015(H9N2))	owl:Class			IEDB
+ONTIE:0004559	Avian leukosis virus ev/J strain SCAU-HN06	owl:Class			IEDB
+ONTIE:0004560	Ovis aries Kivircik	owl:Class			IEDB
+ONTIE:0004561	Ovis aries Suffolk	owl:Class			IEDB
+ONTIE:0004562	Ovis aries Karacabey merino	owl:Class			IEDB
+ONTIE:0004563	Ovis aries Red Karaman	owl:Class			IEDB
+ONTIE:0004564	Ovis aries Zom	owl:Class			IEDB
+ONTIE:0004565	Severe acute respiratory syndrome coronavirus 2 FRA/IHUCOVID-S0591/2023	owl:Class			IEDB
+ONTIE:0004566	Neisseria meningitidis serogroup W	owl:Class			IEDB
+ONTIE:0004567	Candida auris AR-0389	owl:Class			IEDB
+ONTIE:0004568	BK polyomavirus SB	owl:Class			IEDB
+ONTIE:0004569	BK polyomavirus ITA-4	owl:Class			IEDB
+ONTIE:0004570	Lassa virus LM395 (Lassa virus (strain LM395))	owl:Class			IEDB
+ONTIE:0004571	Lassa virus ISTH1024 (Lassa virus (strain ISTH1024))	owl:Class			IEDB
+ONTIE:0004572	Lassa virus IRR007 (Lassa virus (strain IRR007))	owl:Class			IEDB
+ONTIE:0004573	Severe acute respiratory syndrome coronavirus 2 USA/CA-CDC-VSX-A078855/2023	owl:Class			IEDB
+ONTIE:0004574	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-VSX-A336256/2023	owl:Class			IEDB
+ONTIE:0004575	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-QDX84402876/2023	owl:Class			IEDB
+ONTIE:0004576	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-200723-073/2020	owl:Class			IEDB
+ONTIE:0004577	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-210318-001/2020	owl:Class			IEDB
+ONTIE:0004578	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-220712-005/2022	owl:Class			IEDB
+ONTIE:0004579	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-221025-001/2022	owl:Class			IEDB
+ONTIE:0004580	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-221231-002/2022	owl:Class			IEDB
+ONTIE:0004581	Severe acute respiratory syndrome coronavirus 2 Brazil/AM-992/2020	owl:Class			IEDB
+ONTIE:0004582	Cryptococcus neoformans Mu-1	owl:Class			IEDB
+ONTIE:0004583	Cryptococcus neoformans 24067	owl:Class			IEDB
+ONTIE:0004584	Cryptococcus neoformans 409B	owl:Class			IEDB
+ONTIE:0004585	Cryptococcus neoformans KT24066	owl:Class			IEDB
+ONTIE:0004586	Severe acute respiratory syndrome coronavirus 2 France/GES-HMN-21112100277/2021	owl:Class			IEDB
+ONTIE:0004587	Visna Maedi virus (strain X)	owl:Class			IEDB
+ONTIE:0004588	Caprine arthritis encephalitis virus strain Sichuan	owl:Class			IEDB
+ONTIE:0004589	Visna Maedi virus (strain Xingjiang)	owl:Class			IEDB
+ONTIE:0004590	Visna Maedi virus (strain NM1111)	owl:Class			IEDB
+ONTIE:0004591	Caprine arthritis encephalitis virus strain Ceara	owl:Class			IEDB
+ONTIE:0004592	Small ruminant lentivirus virus strain 199916128	owl:Class			IEDB
+ONTIE:0004593	Small ruminant lentivirus strain Swiss	owl:Class			IEDB
+ONTIE:0004594	Small ruminant lentivirus strain 200117502	owl:Class			IEDB
+ONTIE:0004595	Ovine lentivirus strain SA-OMVV	owl:Class			IEDB
+ONTIE:0004596	Small ruminant lentivirus strain VdA	owl:Class			IEDB
+ONTIE:0004597	Caprine arthritis encephalitis virus strain Shanxi	owl:Class			IEDB
+ONTIE:0004598	Small ruminant lentivirus strain Goat/MX/INIFAP-1	owl:Class			IEDB
+ONTIE:0004599	Small ruminant lentivirus strain 7-36	owl:Class			IEDB
+ONTIE:0004600	Foot and mouth disease virus O/TAI/189/1987	owl:Class			IEDB
+ONTIE:0004601	Foot and mouth disease virus A/TAI/ASIA/Sea97/NP05/2019	owl:Class			IEDB
+ONTIE:0004602	Porcine epidemic diarrhea virus HuN-YZ	owl:Class			IEDB
+ONTIE:0004603	Severe acute respiratory syndrome coronavirus 2 South Africa/NICD-R13515/2023	owl:Class			IEDB
+ONTIE:0004604	Entamoeba nuttalli strain P19-061405	owl:Class			IEDB
+ONTIE:0004605	Severe acute respiratory syndrome coronavirus 2 Russia/Moscow_PMVL-1/2020	owl:Class			IEDB
+ONTIE:0004606	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-32758S/2021	owl:Class			IEDB
+ONTIE:0004607	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-Moscow_PMVL-O16/2021	owl:Class			IEDB
+ONTIE:0004608	Gallus gallus Hy-Line Variety Brown	owl:Class			IEDB
+ONTIE:0004609	Avian hepatitis E virus chicken/China/CaHEV	owl:Class			IEDB
+ONTIE:0004610	African swine fever virus China/Pig/Yanghou/2021	owl:Class			IEDB
+ONTIE:0004611	African swine fever virus Sardinia/Italy/47/Ss/2008	owl:Class			IEDB
+ONTIE:0004612	Fowl aviadenovirus 4 strain ZZ	owl:Class			IEDB
+ONTIE:0004613	Influenza A virus (A/equine/GanSu/2022(H3N8))	owl:Class			IEDB
+ONTIE:0004614	Influenza A virus (A/equine/hulunbeier/1/2023(H3N8))	owl:Class			IEDB
+ONTIE:0004615	Severe acute respiratory syndrome coronavirus 2 France/GES-IPP26388/2023	owl:Class			IEDB
+ONTIE:0004616	Severe acute respiratory syndrome coronavirus 2 USA/MDHP20874/2021	owl:Class			IEDB
+ONTIE:0004617	Severe acute respiratory syndrome coronavirus 2 USA/MDHP24556/2022	owl:Class			IEDB
+ONTIE:0004618	Severe acute respiratory syndrome coronavirus 2 hCoV-19/USA/CA-Stanford-139_S23/2023	owl:Class			IEDB
+ONTIE:0004619	Severe acute respiratory syndrome coronavirus 2 hCoV-19/USA/CA-AK001/2023	owl:Class			IEDB
+ONTIE:0004620	Severe acute respiratory syndrome coronavirus 2 USA/NY-CRIP-PV96109/2023	owl:Class			IEDB
+ONTIE:0004621	Foot-and-mouth disease virus A/TUR/14/98	owl:Class			IEDB
+ONTIE:0004622	Severe acute respiratory syndrome coronavirus 2 Denmark/DCGC-647646/2023	owl:Class			IEDB
+ONTIE:0004623	Severe acute respiratory syndrome coronavirus 2 FRA/IHUCOVID-S0044/2023	owl:Class			IEDB
+ONTIE:0004624	Severe acute respiratory syndrome coronavirus 2 FRA/IHUCOVID-S0085/2023	owl:Class			IEDB
+ONTIE:0004625	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-LC1050334/2023	owl:Class			IEDB
+ONTIE:0004626	Severe acute respiratory syndrome coronavirus 2 USA/NJ-PHEL-V23015320/2023	owl:Class			IEDB
+ONTIE:0004627	Severe acute respiratory syndrome coronavirus 2 USA/IL-RIPHL_21570_G/2023	owl:Class			IEDB
+ONTIE:0004628	Severe acute respiratory syndrome coronavirus 2 USA/AZ-CDC-QDX90730028/2023	owl:Class			IEDB
+ONTIE:0004629	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-LC1071434/2023	owl:Class			IEDB
+ONTIE:0004630	Bat Coronavirus RshSTT182/200	owl:Class			IEDB
+ONTIE:0004631	Bat Coronavirus PDF-2370	owl:Class			IEDB
+ONTIE:0004632	Bat Coronavirus RhGB03	owl:Class			IEDB
+ONTIE:0004633	Bat Coronavirus Rc-kw8	owl:Class			IEDB
+ONTIE:0004634	Bat Coronavirus Rc-os20	owl:Class			IEDB
+ONTIE:0004635	Bat Coronavirus Rc-mk2	owl:Class			IEDB
+ONTIE:0004636	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU13/2020	owl:Class			IEDB
+ONTIE:0004637	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU128/2021	owl:Class			IEDB
+ONTIE:0004638	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU142/2022	owl:Class			IEDB
+ONTIE:0004639	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU293/2023	owl:Class			IEDB
+ONTIE:0004640	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU295/2024	owl:Class			IEDB
+ONTIE:0004641	Severe acute respiratory syndrome coronavirus 2 Taiwan/NTU299/2024	owl:Class			IEDB
+ONTIE:0004642	Porcine deltacoronavirus HKD/JPN/2016	owl:Class			IEDB
+ONTIE:0004643	Porcine deltacoronavirus 110/19/TW-2021	owl:Class			IEDB
+ONTIE:0004644	Porcine deltacoronavirus Swine/Thailand/S5011/2015	owl:Class			IEDB
+ONTIE:0004645	Porcine coronavirus HKU15 SD2018/300	owl:Class			IEDB
+ONTIE:0004646	Infectious bursal disease virus HT	owl:Class			IEDB
+ONTIE:0004647	Norovirus Hu/NLV/Chiba 407/1987/JP	owl:Class			IEDB
+ONTIE:0004648	Norovirus Hu/GI.5/SzUG1/1998	owl:Class			IEDB
+ONTIE:0004649	Norovirus Hu/GI.7/Peru/ONVHH1144/2013	owl:Class			IEDB
+ONTIE:0004650	Norovirus Hu/GI.8/NLV/Boxer/2001/US	owl:Class			IEDB
+ONTIE:0004651	Norovirus Hu/GI.9/Vancouver730/2004/CAN	owl:Class			IEDB
+ONTIE:0004652	Norovirus Hu/JP/2001/GII.P22_GII.5/Saitama/T49	owl:Class			IEDB
+ONTIE:0004653	Norovirus Hu/GII.7/NLV/Leeds/90/UK	owl:Class			IEDB
+ONTIE:0004654	Norovirus Hu/NLV/Amsterdam/98-18/1998/NET	owl:Class			IEDB
+ONTIE:0004655	Norovirus Hu/GII.10/Vietnam026/2000	owl:Class			IEDB
+ONTIE:0004656	Norovirus Hu/GII.13/NLV/Fayetteville/1998/US	owl:Class			IEDB
+ONTIE:0004657	Norovirus Hu/GII.14/NLV/M7/1999/US	owl:Class			IEDB
+ONTIE:0004658	Norovirus Hu/GII.22/Yuri/2003	owl:Class			IEDB
+ONTIE:0004659	Macaca mulatta adeno-associated virus RhAAV4282	owl:Class			IEDB
+ONTIE:0004660	Swine acute diarrhea syndrome coronavirus CN/GDWT/2017	owl:Class			IEDB
+ONTIE:0004661	Foot-and-mouth disease virus - type SAT 2 (strain Zimbabwe/7/83)	owl:Class			IEDB
+ONTIE:0004662	Foot-and-mouth disease virus - type SAT 2 (strain SAU/6/00)	owl:Class			IEDB
+ONTIE:0004663	Foot-and-mouth disease virus - type SAT 2 (strain EGY/4/2012)	owl:Class			IEDB
+ONTIE:0004664	Foot-and-mouth disease virus - type Asia1 IRN/49/2011	owl:Class			IEDB
+ONTIE:0004665	Foot-and-mouth disease virus O/SKR/7/2010	owl:Class			IEDB
+ONTIE:0004666	Foot-and-mouth disease virus O/TUR/5/2006	owl:Class			IEDB
+ONTIE:0004667	Foot-and-mouth disease virus O/TUR/5/2009	owl:Class			IEDB
+ONTIE:0004668	Foot-and-mouth disease virus - type SAT 2 (strain EGY/2/2012)	owl:Class			IEDB
+ONTIE:0004669	Foot-and-mouth disease virus C1 Oberbayern	owl:Class			IEDB
+ONTIE:0004670	Foot-and-mouth disease virus A/MAY/11/97	owl:Class			IEDB
+ONTIE:0004671	Foot-and-mouth disease virus A/SAU/23/86	owl:Class			IEDB
+ONTIE:0004672	Foot-and-mouth disease virus A/TUR/20/2006	owl:Class			IEDB
+ONTIE:0004673	Human astrovirus VA1-P14	owl:Class			IEDB
+ONTIE:0004674	Human astrovirus VA1-PS	owl:Class			IEDB
+ONTIE:0004675	Porcine reproductive and respiratory syndrome virus ZJhz021	owl:Class			IEDB
+ONTIE:0004676	African swine fever virus pig/HLJ/18-7G	owl:Class			IEDB
+ONTIE:0004677	Severe acute respiratory syndrome coronavirus 2 Japan/NGS-IA-1/2020	owl:Class			IEDB
+ONTIE:0004678	Severe acute respiratory syndrome coronavirus 2 Japan/TKYTK1734/2021	owl:Class			IEDB
+ONTIE:0004679	Severe acute respiratory syndrome coronavirus 2 hCoV-19/Japan/TKYX00012/2021	owl:Class			IEDB
+ONTIE:0004680	Severe acute respiratory syndrome coronavirus 2 Japan/TKYS02037/2022	owl:Class			IEDB
+ONTIE:0004681	Severe acute respiratory syndrome coronavirus 2 Japan/TKYS14631/2022	owl:Class			IEDB
+ONTIE:0004682	Foot-and-mouth disease virus A/IRN/02/97	owl:Class			IEDB
+ONTIE:0004683	Pangolin coronavirus China/GX-P2V/2018	owl:Class			IEDB
+ONTIE:0004684	Severe acute respiratory syndrome coronavirus 2 South Africa/NICD-N21606-DX64492/2021	owl:Class			IEDB
+ONTIE:0004685	Severe acute respiratory syndrome coronavirus 2 India/KA-RFNB-10273/2022	owl:Class			IEDB
+ONTIE:0004686	Pangolin coronavirus China/GD_1/2019	owl:Class			IEDB
+ONTIE:0004687	Rattus norvegicus Antibody Transgenic	owl:Class			IEDB
+ONTIE:0004688	Omni Rat	owl:Class			IEDB
+ONTIE:0004689	Avian leukosis virus-J strain CHN06	owl:Class			IEDB
+ONTIE:0004690	Influenza A virus (A/chicken/Yunnan/SD193/2017(H7N9))	owl:Class			IEDB
+ONTIE:0004691	Influenza A virus (A/duck/Fujian/SD001/2018(H7N9))	owl:Class			IEDB
+ONTIE:0004692	Influenza A virus (A/chicken/Guangdong/SD008/2017-PB2/627K(H7N9))	owl:Class			IEDB
+ONTIE:0004693	Influenza A virus (A/duck/Guangdong/383/2008(H5N1))	owl:Class			IEDB
+ONTIE:0004694	Transmissible gastroenteritis virus PUR46.C1	owl:Class			IEDB
+ONTIE:0004695	Influenza A virus (A/Delaware/39/2019(H3N2))	owl:Class			IEDB
+ONTIE:0004696	Mus musculus HLA-A*03:01 Tg	owl:Class			IEDB
+ONTIE:0004697	Schistosoma mansoni LE strain	owl:Class			IEDB
+ONTIE:0004698	Severe fever with thrombocytopenia syndrome virus strain HB2014-26	owl:Class			IEDB
+ONTIE:0004699	Severe fever with thrombocytopenia syndrome virus strain HBMC16_human_2015	owl:Class			IEDB
+ONTIE:0004700	Severe fever with thrombocytopenia syndrome virus strain HNXY2017-50	owl:Class			IEDB
+ONTIE:0004701	Severe fever with thrombocytopenia syndrome virus strain HNXY2017-66	owl:Class			IEDB
+ONTIE:0004702	Severe fever with thrombocytopenia syndrome virus strain China_Henan-90	owl:Class			IEDB
+ONTIE:0004703	Severe acute respiratory syndrome coronavirus 2 Beijing/GD-2/2022	owl:Class			IEDB
+ONTIE:0004704	Severe acute respiratory syndrome coronavirus 2 Beijing/GD-2-12/2022	owl:Class			IEDB
+ONTIE:0004705	Severe acute respiratory syndrome coronavirus 2 Beijing/GD-4/2022	owl:Class			IEDB
+ONTIE:0004706	Rotavirus A Hu/Wa-20-MA/USA/1974/G1P[8]	owl:Class			IEDB
+ONTIE:0004707	Rotavirus A pig/PRoV-13/G3P[7]	owl:Class			IEDB
+ONTIE:0004708	Rotavirus A pig/PRoV-2/G9P[23]	owl:Class			IEDB
+ONTIE:0004709	Rotavirus A pig/GZZY/G3P[13]	owl:Class			IEDB
+ONTIE:0004710	Rotavirus A Hu/WISC2/G2P[6]	owl:Class			IEDB
+ONTIE:0004711	Rotavirus A Hu/HRV408/G3P[8]	owl:Class			IEDB
+ONTIE:0004712	Rotavirus A sheep/LLR/G10P[15]	owl:Class			IEDB
+ONTIE:0004713	Influenza A virus (A/Yunnan/DQ001/2015(H5N6))	owl:Class			IEDB
+ONTIE:0004714	Plesiomonas shigelloides O51:H1a1c	owl:Class			IEDB
+ONTIE:0004715	Influenza A virus (A/duck/Guangdong/04.23 DGQTXC213-O/2015(H5N6))	owl:Class			IEDB
+ONTIE:0004716	Porcine deltacoronavirus SCNC201705	owl:Class			IEDB
+ONTIE:0004717	Porcine deltacoronavirus CHN-SCMY2021-01	owl:Class			IEDB
+ONTIE:0004718	Rotavirus A Hu/13-146/CHN/2013/GxP[4]	owl:Class			IEDB
+ONTIE:0004719	Rotavirus A RVA/Human-wt/CMR/MRC-DPRU3032/XXXX/G3P[6]	owl:Class			IEDB
+ONTIE:0004720	Influenza A virus (A/Guangdong/18SF020/2018(H5N6))	owl:Class			IEDB
+ONTIE:0004721	Human astrovirus 2 Oxford	owl:Class			IEDB
+ONTIE:0004722	Bovine alphaherpesvirus type 1 strain NJ-16-1	owl:Class			IEDB
+ONTIE:0004723	Bovine viral diarrhea virus 1 Singer	owl:Class			IEDB
+ONTIE:0004724	Foot-and-mouth disease virus O/Mya98/HNNY/2022	owl:Class			IEDB
+ONTIE:0004725	Foot-and-mouth disease virus O/18074	owl:Class			IEDB
+ONTIE:0004726	H1N1 subtype Influenza A virus (A/17/California/2009/38(H1N1))	owl:Class			IEDB
+ONTIE:0004727	African swine fever virus pig/China/Yangzhou/202201	owl:Class			IEDB
+ONTIE:0004728	Senecavirus A China/SVA/CH-HuB/2017	owl:Class			IEDB
+ONTIE:0004729	Vibrio mimicus MCCC1A02602	owl:Class			IEDB
+ONTIE:0004730	Vibrio mimicus MCCC1H00078	owl:Class			IEDB
+ONTIE:0004731	Vibrio anguillarum MCCC1H00007	owl:Class			IEDB
+ONTIE:0004732	Vibrio anguillarum MCCC1H00003	owl:Class			IEDB
+ONTIE:0004733	Vibrio alginolyticus MCCC1A11092	owl:Class			IEDB
+ONTIE:0004734	Vibrio alginolyticus MCCC1H00028	owl:Class			IEDB
+ONTIE:0004735	Vibrio alginolyticus ATCC33787	owl:Class			IEDB
+ONTIE:0004736	Vibrio splendidus MCCC1A10925	owl:Class			IEDB
+ONTIE:0004737	Vibrio splendidus MCCC1A04069	owl:Class			IEDB
+ONTIE:0004738	Vibrio parahaemolyticus MCCC1A02609	owl:Class			IEDB
+ONTIE:0004739	Vibrio parahaemolyticus MCCC1H00057	owl:Class			IEDB
+ONTIE:0004740	Vibrio parahaemolyticus NTY-EMS	owl:Class			IEDB
+ONTIE:0004741	Vibrio vulnificus MCCC1H00066	owl:Class			IEDB
+ONTIE:0004742	Vibrio vulnificus MCCC1H00047	owl:Class			IEDB
+ONTIE:0004743	Severe acute respiratory syndrome coronavirus 2 FRA/IHUCOVID-S0089/2023	owl:Class			IEDB
+ONTIE:0004744	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-231103-001/2023	owl:Class			IEDB
+ONTIE:0004745	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-240318-002/2023	owl:Class			IEDB
+ONTIE:0004746	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-240130-001/2023	owl:Class			IEDB
+ONTIE:0004747	Vibrio harveyi MCCC1H00031	owl:Class			IEDB
+ONTIE:0004748	Vibrio harveyi MCCC1A00232	owl:Class			IEDB
+ONTIE:0004749	Influenza A virus (A/Hawaii/07/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004750	Severe acute respiratory syndrome coronavirus 2 Hong Kong/HKU-230314-001/2023	owl:Class			IEDB
+ONTIE:0004751	Senecavirus A China/Henan/SVA/HeNNY-1/2018	owl:Class			IEDB
+ONTIE:0004752	Bovine viral diarrhea virus 1 BJ-11	owl:Class			IEDB
+ONTIE:0004753	Porcine reproductive and respiratory syndrome virus 2 SD17-38	owl:Class			IEDB
+ONTIE:0004754	Porcine reproductive and respiratory syndrome virus 2  CH/2018/NCV-Anheal-1	owl:Class			IEDB
+ONTIE:0004755	Porcine reproductive and respiratory syndrome virus 2 R98	owl:Class			IEDB
+ONTIE:0004756	Porcine reproductive and respiratory syndrome virus 2 CH-1R	owl:Class			IEDB
+ONTIE:0004757	Porcine reproductive and respiratory syndrome virus 2 XJ17-5	owl:Class			IEDB
+ONTIE:0004758	Porcine reproductive and respiratory syndrome virus 2 JSTZ1712-12	owl:Class			IEDB
+ONTIE:0004759	Feline infectious peritonitis virus (strain SH2021)	owl:Class			IEDB
+ONTIE:0004760	Influenza A virus (A/Zhejiang/CNIC-JU01/2023(H10N5))	owl:Class			IEDB
+ONTIE:0004761	Mus musculus BL1.3Coel TCR Tg	owl:Class			IEDB
+ONTIE:0004762	Dengue virus 2 Cambodia/KH/BID-V3803/2008	owl:Class			IEDB
+ONTIE:0004763	Porcine reproductive and respiratory syndrome virus 2 ZJqz21	owl:Class			IEDB
+ONTIE:0004764	Senecavirus A China/SVA/SDta/2018	owl:Class			IEDB
+ONTIE:0004765	Senecavirus A China/CHN/14/2017	owl:Class			IEDB
+ONTIE:0004766	Senecavirus A China/SVA/GX/CH/2018	owl:Class			IEDB
+ONTIE:0004767	Bordetella hinzii LMG 14052	owl:Class			IEDB
+ONTIE:0004768	Measles virus MVi/Gelderland.NLD/45.22	owl:Class			IEDB
+ONTIE:0004769	Senecavirus A China/SVA/HLJ/CHA/2016	owl:Class			IEDB
+ONTIE:0004770	Measles virus Zwolle.NLD/45.22.19	owl:Class			IEDB
+ONTIE:0004771	Human betaherpesvirus 5 strain AB8	owl:Class			IEDB
+ONTIE:0004772	Hepatitis E virus SusScrofa/Japan/Gifu/wbJGF_19-1/2019	owl:Class			IEDB
+ONTIE:0004773	Hepatitis E virus SusScrofa/Japan/pwbJHG_23_P1-GAA	owl:Class			IEDB
+ONTIE:0004774	Goose astrovirus SCG3	owl:Class			IEDB
+ONTIE:0004775	Severe acute respiratory syndrome coronavirus 2 France/702/2020	owl:Class			IEDB
+ONTIE:0004776	Severe acute respiratory syndrome coronavirus 2 Netherlands/NH-RIVM-72291/2021	owl:Class			IEDB
+ONTIE:0004777	Severe acute respiratory syndrome coronavirus 2 Netherlands/VCB-20220303-1/2022	owl:Class			IEDB
+ONTIE:0004778	Severe acute respiratory syndrome coronavirus 2 NL/VCB-20220714-2/2022	owl:Class			IEDB
+ONTIE:0004779	Porcine astrovirus 5 China/HNPDS-01-P10/2021	owl:Class			IEDB
+ONTIE:0004780	Human enterovirus 71 Jiangsu.P.R.C/07.08/10/2008	owl:Class			IEDB
+ONTIE:0004781	Human enterovirus 71 H07/2008	owl:Class			IEDB
+ONTIE:0004782	Human enterovirus A71 FY7VP5/AH/CHN/2008	owl:Class			IEDB
+ONTIE:0004783	Human enterovirus 71 FY23KB/2008	owl:Class			IEDB
+ONTIE:0004784	Severe acute respiratory syndrome coronavirus 2 USA/UT-UPHL-240405461970/2024	owl:Class			IEDB
+ONTIE:0004785	Severe acute respiratory syndrome coronavirus 2 USA/MA-CDC-LC1103680/2024	owl:Class			IEDB
+ONTIE:0004786	Severe acute respiratory syndrome coronavirus 2 USA/FL-CDC-LC1105671/2024	owl:Class			IEDB
+ONTIE:0004787	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-LC1098704/2024	owl:Class			IEDB
+ONTIE:0004788	Severe acute respiratory syndrome coronavirus 2 USA/VA-CDC-LC1111086/2024	owl:Class			IEDB
+ONTIE:0004789	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-QDX95028464/2024	owl:Class			IEDB
+ONTIE:0004790	Severe acute respiratory syndrome coronavirus 2 Omicron KP.3 (EPI_SET_240529sa)	owl:Class			IEDB
+ONTIE:0004791	Mus musculus ABab-A2 TCR Tg	owl:Class			IEDB
+ONTIE:0004792	Bovine coronavirus cow/HLJ-002	owl:Class			IEDB
+ONTIE:0004793	Severe acute respiratory syndrome coronavirus 2 France/PDL-IPP01065i/2021	owl:Class			IEDB
+ONTIE:0004794	Severe acute respiratory syndrome coronavirus 2 Spain/MD-H12O_220936/2022	owl:Class			IEDB
+ONTIE:0004795	Severe acute respiratory syndrome coronavirus 2 Spain/MD-H12O_221562/2022	owl:Class			IEDB
+ONTIE:0004796	Severe acute respiratory syndrome coronavirus 2 Spain/MD-H12O_23180/2023	owl:Class			IEDB
+ONTIE:0004797	Severe acute respiratory syndrome coronavirus 2 Spain/MD-H12O_1620/2021	owl:Class			IEDB
+ONTIE:0004798	Nipah henipavirus strain NiV India	owl:Class			IEDB
+ONTIE:0004799	Nipah henipavirus strain NiV Cambodia	owl:Class			IEDB
+ONTIE:0004800	Hendra virus human/Australia/Cawarral/2009	owl:Class			IEDB
+ONTIE:0004801	Hendra virus horse/Australia/Proserpine/2008	owl:Class			IEDB
+ONTIE:0004802	Hendra virus bat/Australia/Gordonvale/2008	owl:Class			IEDB
+ONTIE:0004803	Hendra virus horse/Australia/Peachester/2007	owl:Class			IEDB
+ONTIE:0004804	Hendra virus bat/Australia/Yeppoon Y47a/2009	owl:Class			IEDB
+ONTIE:0004805	Hendra virus horse/Australia/Murwillumbah/2006	owl:Class			IEDB
+ONTIE:0004806	Porcine epidemic diarrhea virus CH/HLJJS/2022	owl:Class			IEDB
+ONTIE:0004807	Staphylococcus aureus TN-90	owl:Class			IEDB
+ONTIE:0004808	Severe acute respiratory syndrome coronavirus 2 Netherlands/NH-RIVM-20432/2020	owl:Class			IEDB
+ONTIE:0004809	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-27029S/2021	owl:Class			IEDB
+ONTIE:0004810	Severe acute respiratory syndrome coronavirus 2 Netherlands/NH-RIVM-10915/2021	owl:Class			IEDB
+ONTIE:0004811	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-PMVL-ON402/2022	owl:Class			IEDB
+ONTIE:0004812	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-25357S/2022	owl:Class			IEDB
+ONTIE:0004813	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-4422S/2022	owl:Class			IEDB
+ONTIE:0004814	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-PMVL-OM0223O13/2023	owl:Class			IEDB
+ONTIE:0004815	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-PMVL-OM0223O11/2023	owl:Class			IEDB
+ONTIE:0004816	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-PMVL-OM0223O420/2023	owl:Class			IEDB
+ONTIE:0004817	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-21139S/2023	owl:Class			IEDB
+ONTIE:0004818	Severe acute respiratory syndrome coronavirus 2 Russia/MOW-PMVL-LSCV-LD134/2023	owl:Class			IEDB
+ONTIE:0004819	Severe acute respiratory syndrome coronavirus 2 Russia/SPE-RII-MH183935S/2024	owl:Class			IEDB
+ONTIE:0004820	Junin virus strain Romero	owl:Class			IEDB
+ONTIE:0004821	Junin virus strain Candid#1	owl:Class			IEDB
+ONTIE:0004822	Influenza B virus (B/Washington/02/2019)	owl:Class			IEDB
+ONTIE:0004823	Severe acute respiratory syndrome coronavirus 2 USA/MA29189	owl:Class			IEDB
+ONTIE:0004824	Severe acute respiratory syndrome coronavirus 2 USA/FL17829	owl:Class			IEDB
+ONTIE:0004825	Mus musculus HLA-B*15:01 Tg	owl:Class			IEDB
+ONTIE:0004826	Mus musculus HLA-C*04:01 Tg	owl:Class			IEDB
+ONTIE:0004827	Mus musculus HLA-C*07:02 Tg	owl:Class			IEDB
+ONTIE:0004828	Porcine deltacoronavirus CH/XJYN/2016	owl:Class			IEDB
+ONTIE:0004829	Mus musculus ABab-I TCR Tg	owl:Class			IEDB
+ONTIE:0004830	Foot-and-mouth disease virus  O/KEN/4/2018	owl:Class			IEDB
+ONTIE:0004831	Foot-and-mouth disease virus  O/ETH/9/2019	owl:Class			IEDB
+ONTIE:0004832	Foot-and-mouth disease virus  A/UGA/28/2019	owl:Class			IEDB
+ONTIE:0004833	Foot-and-mouth disease virus A/SUD/9/2018	owl:Class			IEDB
+ONTIE:0004834	Foot-and-mouth disease virus  SAT1 TAN/22/2014	owl:Class			IEDB
+ONTIE:0004835	Foot-and-mouth disease virus  SAT1 TAN/22/2013	owl:Class			IEDB
+ONTIE:0004836	Foot-and-mouth disease virus  SAT2 ETH/16/2015	owl:Class			IEDB
+ONTIE:0004837	Foot-and-mouth disease virus  SAT2 KEN/19/2017	owl:Class			IEDB
+ONTIE:0004838	Porcine respiratory coronavirus 1/90‐DK	owl:Class			IEDB
+ONTIE:0004839	Goose astrovirus TZ03	owl:Class			IEDB
+ONTIE:0004840	Canine distemper virus strain 202401	owl:Class			IEDB
+ONTIE:0004841	Influenza A virus (A/Chile/25945/2023(H5N1))	owl:Class			IEDB
+ONTIE:0004842	Influenza A virus (A/Texas/37/2024(H5N1))	owl:Class			IEDB
+ONTIE:0004843	Influenza A virus (A/Victoria/149/2024(H5N1))	owl:Class			IEDB
+ONTIE:0004844	Influenza A virus (A/Cambodia/NPH230032/2023(H5N1))	owl:Class			IEDB
+ONTIE:0004845	Influenza A virus (A/dairy cattle/Texas/24008749001/2024(H5N1))	owl:Class			IEDB
+ONTIE:0004846	Staphylococcus aureus USA300/Eno-Antares2	owl:Class			IEDB
+ONTIE:0004847	African swine fever virus Wuhan 2019-1	owl:Class			IEDB
+ONTIE:0004848	Severe acute respiratory syndrome coronavirus 2 USA/NY-MSHSPSP-PV76648/2022	owl:Class			IEDB
+ONTIE:0004849	BK polyomavirus serotype Ib1	owl:Class			IEDB
+ONTIE:0004850	BK polyomavirus, serotype II	owl:Class			IEDB
+ONTIE:0004851	BK polyomavirus serotype III	owl:Class			IEDB
+ONTIE:0004852	BK polyomavirus serotype IVc2	owl:Class			IEDB
+ONTIE:0004853	Severe acute respiratory syndrome coronavirus 2 Singapore/NUS0001/2023	owl:Class			IEDB
+ONTIE:0004854	Pangolin coronavirus China/cDNA8/2019	owl:Class			IEDB
+ONTIE:0004855	Dengue virus 4 TVP-360	owl:Class			IEDB
+ONTIE:0004856	Porcine reproductive and respiratory syndrome virus 2 JS23	owl:Class			IEDB
+ONTIE:0004857	Porcine reproductive and respiratory syndrome virus 2 MLV	owl:Class			IEDB
+ONTIE:0004858	Porcine deltacoronavirus HNZK-02	owl:Class			IEDB
+ONTIE:0004859	Monkeypox virus USA-2003-044	owl:Class			IEDB
+ONTIE:0004860	Feline coronavirus FCoV-23	owl:Class			IEDB
+ONTIE:0004861	Eastern equine encephalitis virus (strain BeAr436087)	owl:Class			IEDB
+ONTIE:0004862	Madariaga virus (strain Cebus/apella/BRA/BEAN5122/1956)	owl:Class			IEDB
+ONTIE:0004863	Venezuelan equine encephalitis virus (strain Pixuna BeAr 35645)	owl:Class			IEDB
+ONTIE:0004864	Venezuelan equine encephalitis virus (strain Cabassou CaAr 508)	owl:Class			IEDB
+ONTIE:0004865	Western equine encephalitis virus (strain McMillian)	owl:Class			IEDB
+ONTIE:0004866	Western equine encephalitis virus (strain Ag80-646)	owl:Class			IEDB
+ONTIE:0004867	Hepatitis E virus swine/JBOAR135-Shiz09/2009	owl:Class			IEDB
+ONTIE:0004868	Hepatitis E virus swine/wbJOY_06/2006	owl:Class			IEDB
+ONTIE:0004869	Hepatitis E virus camel/180C/2013	owl:Class			IEDB
+ONTIE:0004870	Hepatitis E virus camel/62XJ/2013	owl:Class			IEDB
+ONTIE:0004871	Yellow fever virus Brazil/ES504/2017	owl:Class			IEDB
+ONTIE:0004872	Monkeypox virus WIBP-MPXV-001	owl:Class			IEDB
+ONTIE:0004873	Yellow fever virus 17D-204	owl:Class			IEDB
+ONTIE:0004874	Clostridioides difficile S-0253	owl:Class			IEDB
+ONTIE:0004875	Clostridioides difficile D17MD66	owl:Class			IEDB
+ONTIE:0004876	Clostridioides difficile S-0352	owl:Class			IEDB
+ONTIE:0004877	Clostridioides difficile 11140508	owl:Class			IEDB
+ONTIE:0004878	Clostridioides difficile 55767	owl:Class			IEDB
+ONTIE:0004879	Clostridioides difficile ST62	owl:Class			IEDB
+ONTIE:0004880	Clostridioides difficile R3	owl:Class			IEDB
+ONTIE:0004881	Clostridioides difficile GV364	owl:Class			IEDB
+ONTIE:0004882	Severe acute respiratory syndrome coronavirus 2 USA/NY-PRL-221202_00C08/2022	owl:Class			IEDB
+ONTIE:0004883	Severe acute respiratory syndrome coronavirus 2 USA/NY-CDC-LC1044086/2023	owl:Class			IEDB
+ONTIE:0004884	Severe acute respiratory syndrome coronavirus 2 Hubei/HCDC-WH2206/2023	owl:Class			IEDB
+ONTIE:0004885	Severe acute respiratory syndrome coronavirus 2 France/IDF-IPP19645/2023	owl:Class			IEDB
+ONTIE:0004886	Influenza A virus (A/Hawaii/70/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004887	Influenza A virus (A/mallard/Alberta/362/2017(H3N8))	owl:Class			IEDB
+ONTIE:0004888	Influenza A virus (A/Wisconsin/588/2019(H1N1))	owl:Class			IEDB
+ONTIE:0004889	Influenza A virus (A/mallard/Alberta/566/1985(H6N2))	owl:Class			IEDB
+ONTIE:0004890	Influenza A virus (A/mallard/Alberta/328/2014(H4N6))	owl:Class			IEDB
+ONTIE:0004891	Influenza A virus (A/chicken/Netherlands/14015531/2014(H5N8))	owl:Class			IEDB
+ONTIE:0004892	Influenza A virus (A/bald eagle/Florida/W22-134-OP/202(H5N1))	owl:Class			IEDB
+ONTIE:0004893	Human herpesvirus 4 strain CNE2 (Epstein-Barr virus (strain CNE2))	owl:Class			IEDB
+ONTIE:0004894	Goose parvovirus NP5	owl:Class			IEDB
+ONTIE:0004895	African swine fever virus China/LN/2018/1	owl:Class			IEDB
+ONTIE:0004896	Semliki Forest virus A7(74)	owl:Class			IEDB
+ONTIE:0004897	Plasmodium falciparum India	owl:Class			IEDB
+ONTIE:0004898	Plasmodium falciparum Yaounde	owl:Class			IEDB
+ONTIE:0004899	Plasmodium falciparum W49	owl:Class			IEDB
+ONTIE:0004900	Plasmodium falciparum csp_28	owl:Class			IEDB
+ONTIE:0004901	Middle East respiratory syndrome-related coronavirus KOR/KNIH/002_05_2015	owl:Class			IEDB
+ONTIE:0004902	Middle East respiratory syndrome-related coronavirus Riyadh_2_2012	owl:Class			IEDB
+ONTIE:0004903	Middle East respiratory syndrome-related coronavirus Korea_168-2/2015	owl:Class			IEDB
+ONTIE:0004904	Middle East respiratory syndrome-related coronavirus Hafr-Al-Batin_1_2013	owl:Class			IEDB
+ONTIE:0004905	Middle East respiratory syndrome-related coronavirus Bisha_1_2012	owl:Class			IEDB
+ONTIE:0004906	Neisseria gonorrhoeae strain WHO-N	owl:Class			IEDB
+ONTIE:0004907	Neisseria gonorrhoeae strain WHO-G	owl:Class			IEDB
+ONTIE:0004908	Acinetobacter baumannii LUH5547	owl:Class			IEDB
+ONTIE:0004909	Acinetobacter baumannii MAR5566	owl:Class			IEDB
+ONTIE:0004910	Acinetobacter baumannii BAL204	owl:Class			IEDB
+ONTIE:0004911	Shigella boydii LSPQ3686	owl:Class			IEDB
+ONTIE:0004912	Influenza A vius (A/Cambodia/2302009/2023(H5N1))	owl:Class			IEDB
+ONTIE:0004913	Influenza A vius (A/State of Mexico/INER-INF645/2024(H5N2))	owl:Class			IEDB
+ONTIE:0004914	Influenza A vius (A/Sichuan/26221/2014(H5N6))	owl:Class			IEDB
+ONTIE:0004915	Bluetongue virus (serotype 1 / strain GS/11)	owl:Class			IEDB
+ONTIE:0004916	Mycoplasmopsis bovis PANJS19L1	owl:Class			IEDB
+ONTIE:0004917	Influenza A virus (A/Shenzhen/Th004/2017(H7N9))	owl:Class			IEDB
+ONTIE:0004918	Influenza A virus (A/Guangdong/TH005/2017(H7N9))	owl:Class			IEDB
+ONTIE:0004919	Influenza A virus (A/mallard/Alberta/543/2022(H7N3))	owl:Class			IEDB
+ONTIE:0004920	Influenza A virus (A/eurasian teal/France/25P002461/2025(H7N7))	owl:Class			IEDB
+ONTIE:0004921	ZIKV/H.sapiens/Brazil/KU365771/2015	owl:Class			IEDB
+ONTIE:0004922	Pseudomonas aeruginosa H103	owl:Class			IEDB
+ONTIE:0004923	Chikungunya virus CHIKV/India/119067/2016	owl:Class			IEDB
+ONTIE:0004924	Staphylococcus aureus MRSA252	owl:Class			IEDB
+ONTIE:0004925	Infectious bursal disease virus Lx	owl:Class			IEDB
+ONTIE:0004926	Influenza A virus (A/chicken/Shandong/SDL124/2015(H7N9))	owl:Class			IEDB
+ONTIE:0004927	Histoplasmosis capsulatum G217B	owl:Class			IEDB
+ONTIE:0004928	Goose Astrovirus 2 YC20	owl:Class			IEDB
+ONTIE:0004929	Babesia bovis S2P	owl:Class			IEDB
+ONTIE:0004930	Monkeypox virus SLO 2022/2	owl:Class			IEDB
+ONTIE:0004931	Monkeypox virus PHAS-506/SWE/2024_09_11	owl:Class			IEDB
+ONTIE:0004932	Cowpox virus (strain Taunton)	owl:Class			IEDB
+ONTIE:0004933	Marburg virus Kakbat, Sierra Leone, 2017	owl:Class			IEDB
+ONTIE:0004934	Marburg virus Kasbat, Sierra Leone, 2018	owl:Class			IEDB
+ONTIE:0004935	Marburg virus Sawla, Ghana, 2022	owl:Class			IEDB
+ONTIE:0004936	Monkeypox virus 2022/FR/CMIP	owl:Class			IEDB
+ONTIE:0004937	Vaccinia virus IHD-W	owl:Class			IEDB
+ONTIE:0004938	brucella abortus A19	owl:Class			IEDB
+ONTIE:0004939	Suid herpesvirus 1 (strain HB2000)	owl:Class			IEDB
+ONTIE:0004940	Suid herpesvirus 1 (strain Fa)	owl:Class			IEDB
+ONTIE:0004941	canine distemper virus strain A75/17	owl:Class			IEDB
+ONTIE:0004942	canine distemper virus strain 5804P	owl:Class			IEDB
+ONTIE:0004943	Goose astrovirus 2 NJ2021	owl:Class			IEDB
+ONTIE:0004944	Severe acute respiratory syndrome coronavirus 2 USA/NY-NYCPHL-018847/2024	owl:Class			IEDB
+ONTIE:0004945	Severe acute respiratory syndrome coronavirus 2 Australia/QLD0x011BC3/2022	owl:Class			IEDB
+ONTIE:0004946	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-QDX42300319/2022	owl:Class			IEDB
+ONTIE:0004947	Severe acute respiratory syndrome coronavirus 2 USA/NJ-CDC-QDX42300331/2022	owl:Class			IEDB
+ONTIE:0004948	Severe acute respiratory syndrome coronavirus 2 England/LSPA-325CDF8C/2022	owl:Class			IEDB
+ONTIE:0004949	Severe acute respiratory syndrome coronavirus 2 Singapore/13878/2022	owl:Class			IEDB
+ONTIE:0004950	African swine fever virus NE_P72/India	owl:Class			IEDB
+ONTIE:0004951	Mus musculus Alloy ATX mouse	owl:Class			IEDB
+ONTIE:0004952	Rabies virus NC839	owl:Class			IEDB
+ONTIE:0004953	Rabies virus V224.GFX	owl:Class			IEDB
+ONTIE:0004954	Rabies virus cilb3589	owl:Class			IEDB
+ONTIE:0004955	Rabies virus EF	owl:Class			IEDB
+ONTIE:0004956	Rabies virus A10-3013	owl:Class			IEDB
+ONTIE:0004957	Rabies virus RRV ON-99-2	owl:Class			IEDB
+ONTIE:0004958	Rabies virus 446	owl:Class			IEDB
+ONTIE:0004959	Rabies virus 804	owl:Class			IEDB
+ONTIE:0004960	Rabies virus Tb-07-02	owl:Class			IEDB
+ONTIE:0004961	Rabies virus Eastern TN186	owl:Class			IEDB
+ONTIE:0004962	Human respiratory syncytial virus A NY-Wadsworth-22055417-01/2022	owl:Class			IEDB
+ONTIE:0004963	Human respiratory syncytial virus B NY-Wadsworth-22055413-01/2022	owl:Class			IEDB
+ONTIE:0004964	Human metapneumovirus Seattle/USA/SC3259/2015	owl:Class			IEDB
+ONTIE:0004965	Human adenovirus 41 Tak	owl:Class			IEDB
+ONTIE:0004966	Severe acute respiratory syndrome coronavirus 2 USA/MN-UMGC-17501/2021	owl:Class			IEDB
+ONTIE:0004967	Severe acute respiratory syndrome coronavirus 2 USA/MN-Mayo3176/2020	owl:Class			IEDB
+ONTIE:0004968	Severe acute respiratory syndrome coronavirus 2 USA/WV-WVU-WV085024/2021	owl:Class			IEDB
+ONTIE:0004969	Mycobacterium tuberculosis variant BCG str. Russia	owl:Class			IEDB
+ONTIE:0004970	Foot-and-mouth disease virus A/IND/40/2000	owl:Class			IEDB
+ONTIE:0004971	Porcine reproductive and respiratory syndrome virus HBap4/2018	owl:Class			IEDB
+ONTIE:0004972	Hepatitis C virus 1a154	owl:Class			IEDB
+ONTIE:0004973	Hepatitis C virus 1a116	owl:Class			IEDB
+ONTIE:0004974	Hepatitis C virus 1a80	owl:Class			IEDB
+ONTIE:0004975	Hepatitis C virus 1a142	owl:Class			IEDB
+ONTIE:0004976	Human Coronavirus 229E icUNC/2/2022	owl:Class			IEDB
+ONTIE:0004977	Human Coronavirus 229E Seattle/USA/SC677/2016	owl:Class			IEDB
+ONTIE:0004978	Foot-and-mouth disease virus - type Asia 1 JS/05	owl:Class			IEDB
+ONTIE:0004979	Chimpanzee adenovirus Oxford-1	owl:Class			IEDB
+ONTIE:0004980	Akabane virus TJ2016	owl:Class			IEDB
+ONTIE:0004981	Porcine deltacoronavirus CHN-HN-2016	owl:Class			IEDB
+ONTIE:0004982	Rift valley fever virus KEN07-KLF112	owl:Class			IEDB
+ONTIE:0004983	Rift valley fever virus Smithburn	owl:Class			IEDB
+ONTIE:0004984	Rift valley fever virus Kenya_56_IB8	owl:Class			IEDB
+ONTIE:0004985	Rift valley fever virus SA51	owl:Class			IEDB
+ONTIE:0004986	Severe acute respiratory syndrome coronavirus 2 England/22K457422/2022	owl:Class			IEDB
+ONTIE:0004987	Haemophilus influenzae ATCC 53763	owl:Class			IEDB
+ONTIE:0004988	Micropterus salmoides rhabdovirus NY01	owl:Class			IEDB
+ONTIE:0004989	Streptococcus pneumoniae 22A	owl:Class			IEDB
+ONTIE:0004990	Severe acute respiratory syndrome coronavirus 2 Hungary/mbl_2077/2023	owl:Class			IEDB
+ONTIE:0004991	Influenza B virus (B/Guangdong-Liwan/1168/2019)	owl:Class			IEDB
+ONTIE:0004992	Influenza B virus (B/Guangdong-YX/11677/2021)	owl:Class			IEDB
+ONTIE:0004993	Influenza B virus (B/Guangdong-XZ/37479/2021)	owl:Class			IEDB
+ONTIE:0004994	Influenza B virus (B/Guangdong-YX/120/2022)	owl:Class			IEDB
+ONTIE:0004995	Influenza B virus (B/Guangzhou/63917/2023)	owl:Class			IEDB
+ONTIE:0004996	Influenza B virus (B/Guangzhou/19158/2025)	owl:Class			IEDB
+ONTIE:0004997	Influenza A virus (A/Wisconsin/67/2022(H1N1))	owl:Class			IEDB
+ONTIE:0004998	Influenza A virus (A/chicken/Ghana/AVL-763_21VIR7050-39/2021(H5N1))	owl:Class			IEDB
+ONTIE:0004999	Influenza A virus (A/Anhui-Lujiang/39/2018(H9N2))	owl:Class			IEDB
+ONTIE:0005000	Influenza A virus (A/turkey/Texas/48/1979(H7N2))	owl:Class			IEDB
+ONTIE:0005001	Influenza A virus (A/mallard/Wisconsin/4216/2009(H12N5))	owl:Class			IEDB
+ONTIE:0005002	Reticuloendotheliosis virus strain HLJR0901	owl:Class			IEDB
+ONTIE:0005003	Influenza A virus (A/Guangdong/GLW/2018(H1N1))	owl:Class			IEDB
+ONTIE:0005004	Dengue virus 3 D3/SG/05K863DK1/2005	owl:Class			IEDB
+ONTIE:0005005	Dengue virus 3 EHIE46200Y19	owl:Class			IEDB
+ONTIE:0005006	Foot-and-mouth disease virus O/BY/2010	owl:Class			IEDB
+ONTIE:0005007	Influenza A virus (A/Hong Kong/5738/14(H3N2))	owl:Class			IEDB
+ONTIE:0005008	Influenza A virus (A/Shanghai/1/2013(H7N9))	owl:Class			IEDB
+ONTIE:0005009	Porcine transmissible gastroenteritis virus strain WH01	owl:Class			IEDB
+ONTIE:0005010	Infectious bronchitis virus (SD strain)	owl:Class			IEDB
+ONTIE:0005011	Infectious bronchitis virus (YN strain)	owl:Class			IEDB
+ONTIE:0005012	Infectious bronchitis virus (GD strain)	owl:Class			IEDB
+ONTIE:0005013	Foot-and-mouth disease virus O/Boeun/SKR/2017	owl:Class			IEDB
+ONTIE:0005014	Severe acute respiratory syndrome coronavirus 2 Netherlands/NH-EMC-5667/2023	owl:Class			IEDB
+ONTIE:0005015	Severe fever with thrombocytopenia syndrome virus AHL/China/2011	owl:Class			IEDB
+ONTIE:0005016	Severe fever with thrombocytopenia syndrome virus Gangwon/Korea/2012	owl:Class			IEDB
+ONTIE:0005017	Severe fever with thrombocytopenia syndrome virus SPL030A	owl:Class			IEDB
+ONTIE:0005018	Borreliella bavariensis BgVir	owl:Class			IEDB
+ONTIE:0005019	Borreliella bavariensis FujiP2	owl:Class			IEDB
+ONTIE:0005020	Borreliella garinii DK29	owl:Class			IEDB
+ONTIE:0005021	Borreliella garinii T25	owl:Class			IEDB
+ONTIE:0005022	Borreliella garinii PHei	owl:Class			IEDB
+ONTIE:0005023	Borreliella spielmanii PMew	owl:Class			IEDB
+ONTIE:0005024	Borreliella japonica ATCC51557	owl:Class			IEDB
+ONTIE:0005025	Borreliella mayonii MN14-1539	owl:Class			IEDB
+ONTIE:0005026	Borreliella yangtzensis DSM24625	owl:Class			IEDB
+ONTIE:0005027	Borreliella americana S42	owl:Class			IEDB
+ONTIE:0005028	Borrelia finlandensis SV1	owl:Class			IEDB
+ONTIE:0005029	Borreliella lanei DSM17992	owl:Class			IEDB
+ONTIE:0005030	Borreliella andersonii MOD-5	owl:Class			IEDB
+ONTIE:0005031	Borreliella carolinensis SCW-22	owl:Class			IEDB
+ONTIE:0005032	Borreliella kurtenbachii 25015	owl:Class			IEDB
+ONTIE:0005033	Borrelia tanukii HK501	owl:Class			IEDB
+ONTIE:0005034	Borrelia maritima CA690	owl:Class			IEDB
+ONTIE:0005035	Influenza B virus (B/Austria/1359417/2021)	owl:Class			IEDB
+ONTIE:0005036	Influenza B virus (B/Singapore/1964)	owl:Class			IEDB
+ONTIE:0005037	Pigeon paramyxovirus 1 Pigeon/Shanxi/01	owl:Class			IEDB
+ONTIE:0005038	Pigeon paramyxovirus 1 Pigeon/Jiangxi/812	owl:Class			IEDB
+ONTIE:0005039	Newcastle disease virus (chicken/Shanxi/01)	owl:Class			IEDB
+ONTIE:0005040	Newcastle disease virus (chicken/Hunan/905)	owl:Class			IEDB
+ONTIE:0005041	Newcastle disease virus (duck/Guizhou/664)	owl:Class			IEDB
+ONTIE:0005042	Newcastle disease virus (duck/Guangxi/463)	owl:Class			IEDB
+ONTIE:0005043	Porcine Rotavirus A 05041-27	owl:Class			IEDB
+ONTIE:0005044	Influenza virus strain (A/Canine/Guangxi/CX3-CA/2021(H3N2))	owl:Class			IEDB
+ONTIE:0005045	Rotavirus A Pig/China/HYuR01/22024/G9P	owl:Class			IEDB
+ONTIE:0005046	Coxsackievirus A5 3487R4/CHN XY/2017	owl:Class			IEDB
+ONTIE:0005047	Coxsackievirus A5 3474	owl:Class			IEDB
+ONTIE:0005048	Coxsackievirus A5 3490	owl:Class			IEDB
+ONTIE:0005049	Coxsackievirus A5 Wuxi248	owl:Class			IEDB
+ONTIE:0005050	Coxsackievirus A5 15MSY51-3	owl:Class			IEDB
+ONTIE:0005051	Coxsackievirus A5 P138	owl:Class			IEDB
+ONTIE:0005052	Plasmodium falciparum IND637HDD1	owl:Class			IEDB
+ONTIE:0005053	Influenza A virus (A/Victoria/2570/2019(H1N1))	owl:Class			IEDB
+ONTIE:0005054	Influenza A virus (A/Tasmania/503/2020(H3N2))	owl:Class			IEDB
+ONTIE:0005055	Porcine deltacoronavirus GDSG10-2023	owl:Class			IEDB
+ONTIE:0005056	Porcine deltacoronavirus HZYH-2019	owl:Class			IEDB
+ONTIE:0005057	Porcine deltacoronavirus SCNJ10-2021	owl:Class			IEDB
+ONTIE:0005058	Foot-and-mouth disease virus O/IRN/72/2009	owl:Class			IEDB
+ONTIE:0005059	Foot-and-mouth disease virus O/NEP/17/2016	owl:Class			IEDB
+ONTIE:0005060	Foot-and-mouth disease virus O/OMN/7/2001	owl:Class			IEDB
+ONTIE:0005061	Foot-and-mouth disease virus O/PAT/6/2015	owl:Class			IEDB
+ONTIE:0005062	Foot-and-mouth disease virus O/BAN/5/2009	owl:Class			IEDB
+ONTIE:0005063	Foot-and-mouth disease virus O/BAR/1/2014	owl:Class			IEDB
+ONTIE:0005064	Foot-and-mouth disease virus O/PAK/16/2010	owl:Class			IEDB
+ONTIE:0005065	Foot-and-mouth disease virus O/IRN/29/2013	owl:Class			IEDB
+ONTIE:0005066	Foot-and-mouth disease virus O/IRN/18/2010	owl:Class			IEDB
+ONTIE:0005067	Foot-and-mouth disease virus O/KUW/1/2016	owl:Class			IEDB
+ONTIE:0005068	Foot-and-mouth disease virus O/MAY/3/2014	owl:Class			IEDB
+ONTIE:0005069	Foot-and-mouth disease virus O/NIG/3/2014	owl:Class			IEDB
+ONTIE:0005070	Foot-and-mouth disease virus O/EGY/36/2014	owl:Class			IEDB
+ONTIE:0005071	Foot-and-mouth disease virus O/CIV/3/2018	owl:Class			IEDB
+ONTIE:0005072	Foot-and-mouth disease virus O/GNA/3/2018	owl:Class			IEDB
+ONTIE:0005073	Foot-and-mouth disease virus O/EGY/18/2016	owl:Class			IEDB
+ONTIE:0005074	Foot-and-mouth disease virus O/ERI/8/2017	owl:Class			IEDB
+ONTIE:0005075	Foot-and-mouth disease virus O/ETH/26/2018	owl:Class			IEDB
+ONTIE:0005076	Foot-and-mouth disease virus O/ETH/37/2018	owl:Class			IEDB
+ONTIE:0005077	Foot-and-mouth disease virus O/COD/82/2021	owl:Class			IEDB
+ONTIE:0005078	Foot-and-mouth disease virus O/KEN/8/2021	owl:Class			IEDB
+ONTIE:0005079	Foot-and-mouth disease virus O/TAN/4/2014	owl:Class			IEDB
+ONTIE:0005080	Foot-and-mouth disease virus O/ZAM/11/2021	owl:Class			IEDB
+ONTIE:0005081	Foot-and-mouth disease virus O/ZAM/8/2019	owl:Class			IEDB
+ONTIE:0005082	Foot-and-mouth disease virus O/ETH/14/2019	owl:Class			IEDB
+ONTIE:0005083	Foot-and-mouth disease virus O/HKN/1/2015	owl:Class			IEDB
+ONTIE:0005084	Foot-and-mouth disease virus C KEN/1/2004	owl:Class			IEDB
+ONTIE:0005085	Foot-and-mouth disease virus  C NEP/35/1996	owl:Class			IEDB
+ONTIE:0005086	Foot-and-mouth disease virus C PHI/3/1994	owl:Class			IEDB
+ONTIE:0005087	Foot-and-mouth disease virus A/AFG/6/2007	owl:Class			IEDB
+ONTIE:0005088	Foot-and-mouth disease virus A/IRN/1/2005	owl:Class			IEDB
+ONTIE:0005089	Foot-and-mouth disease virus A/IRN/78/2009	owl:Class			IEDB
+ONTIE:0005090	Foot-and-mouth disease virus A/EGY/31/2014	owl:Class			IEDB
+ONTIE:0005091	Foot-and-mouth disease virus A/PAK/56/2015	owl:Class			IEDB
+ONTIE:0005092	Foot-and-mouth disease virus A/IRN/6/2016	owl:Class			IEDB
+ONTIE:0005093	Foot-and-mouth disease virus A/IRN/1/2016	owl:Class			IEDB
+ONTIE:0005094	Foot-and-mouth disease virus A/SAU/15/2016	owl:Class			IEDB
+ONTIE:0005095	Foot-and-mouth disease virus A/EGY/1/1972	owl:Class			IEDB
+ONTIE:0005096	Foot-and-mouth disease virus A/KEN/3/1964	owl:Class			IEDB
+ONTIE:0005097	Foot-and-mouth disease virus A/ETH/12/2009	owl:Class			IEDB
+ONTIE:0005098	Foot-and-mouth disease virus A/KEN/10/2021	owl:Class			IEDB
+ONTIE:0005099	Foot-and-mouth disease virus A/UGA/42/2019	owl:Class			IEDB
+ONTIE:0005100	Foot-and-mouth disease virus A/ZAM/1/2015	owl:Class			IEDB
+ONTIE:0005101	Foot-and-mouth disease virus A/MAI/16/2006	owl:Class			IEDB
+ONTIE:0005102	Foot-and-mouth disease virus A/EGY/3/2016	owl:Class			IEDB
+ONTIE:0005103	Foot-and-mouth disease virus A/ERI/7/2018	owl:Class			IEDB
+ONTIE:0005104	Foot-and-mouth disease virus A/ETH/37/2018	owl:Class			IEDB
+ONTIE:0005105	Foot-and-mouth disease virus A/ETH/19/2019	owl:Class			IEDB
+ONTIE:0005106	Foot-and-mouth disease virus A/ETH/70/2018	owl:Class			IEDB
+ONTIE:0005107	Foot-and-mouth disease virus - type Asia 1 IRN/10/2004	owl:Class			IEDB
+ONTIE:0005108	Foot-and-mouth disease virus - type Asia 1 MYA/3/2017	owl:Class			IEDB
+ONTIE:0005109	Foot-and-mouth disease virus - type Asia 1 NEP/46/2017	owl:Class			IEDB
+ONTIE:0005110	Foot-and-mouth disease virus - type Asia 1 IND/18/1980	owl:Class			IEDB
+ONTIE:0005111	Foot-and-mouth disease virus - type Asia 1 NKR/2/2007	owl:Class			IEDB
+ONTIE:0005112	Foot-and-mouth disease virus - type Asia 1 AFG/1/2001	owl:Class			IEDB
+ONTIE:0005113	Foot-and-mouth disease virus - type Asia 1 IRN/26/2016	owl:Class			IEDB
+ONTIE:0005114	Foot-and-mouth disease virus - type Asia 1 PAK/75/2019	owl:Class			IEDB
+ONTIE:0005115	Foot-and-mouth disease virus - type SAT3 KNP/48/1991	owl:Class			IEDB
+ONTIE:0005116	Foot-and-mouth disease virus SAT1 ETH/3/2007	owl:Class			IEDB
+ONTIE:0005117	Sus scrofa Large White	owl:Class			IEDB
+ONTIE:0005118	Human enterovirus 71 TW/96015/2012	owl:Class			IEDB
+ONTIE:0005119	Human enterovirus 71 TW/5041/2019	owl:Class			IEDB
+ONTIE:0005120	Human enterovirus 71 TW/5005/2020	owl:Class			IEDB
+ONTIE:0005121	Human enterovirus 71 TW/12350/2023	owl:Class			IEDB
+ONTIE:0005122	Human enterovirus 71 96017/2011	owl:Class			IEDB
+ONTIE:0005123	Human enterovirus 71 50929/2012	owl:Class			IEDB
+ONTIE:0005124	Human enterovirus 71 TW/73/2012	owl:Class			IEDB
+ONTIE:0005125	Human enterovirus 71 TW/50144/2013	owl:Class			IEDB
+ONTIE:0005126	Human enterovirus 71 TW/4215/1998	owl:Class			IEDB
+ONTIE:0005127	Human enterovirus 71 3351/1999	owl:Class			IEDB
+ONTIE:0005128	Human enterovirus 71 2278/2000	owl:Class			IEDB
+ONTIE:0005129	Human enterovirus 71 1437/2001	owl:Class			IEDB
+ONTIE:0005130	Human enterovirus 71 Feb/92/2002	owl:Class			IEDB
+ONTIE:0005131	Human enterovirus 71 70576/2003	owl:Class			IEDB
+ONTIE:0005132	Human enterovirus 71 72232/2004	owl:Class			IEDB
+ONTIE:0005133	Human enterovirus 71 May/56/2005	owl:Class			IEDB
+ONTIE:0005134	Human enterovirus 71 72043/2007	owl:Class			IEDB
+ONTIE:0005135	Human enterovirus 71 96016/2008	owl:Class			IEDB
+ONTIE:0005136	Human enterovirus 71 96018/2010	owl:Class			IEDB
+ONTIE:0005137	Human enterovirus 71 TW/96023/2011	owl:Class			IEDB
+ONTIE:0005138	Human enterovirus 71 51389/2014	owl:Class			IEDB
+ONTIE:0005139	Human enterovirus 71 921/2015	owl:Class			IEDB
+ONTIE:0005140	Human enterovirus 71 50444/2016	owl:Class			IEDB
+ONTIE:0005141	Human enterovirus 71 50555/2016	owl:Class			IEDB
+ONTIE:0005142	Porcine reproductive and respiratory syndrome virus 1 SD1291	owl:Class			IEDB
+ONTIE:0005143	Porcine reproductive and respiratory syndrome virus 1 AHEU2024-2671	owl:Class			IEDB
+ONTIE:0005144	Porcine reproductive and respiratory syndrome virus 2 BJ1805-2	owl:Class			IEDB
+ONTIE:0005145	Porcine reproductive and respiratory syndrome virus 1 HLJB1	owl:Class			IEDB
+ONTIE:0005146	Measles virus KS-Venus(3)	owl:Class			IEDB
+ONTIE:0005147	Getah virus SC202009	owl:Class			IEDB
+ONTIE:0005148	Influenza A virus (A/swine/Jiangsu/J004/2018(H1N1))	owl:Class			IEDB
+ONTIE:0005149	Dengue virus 1 strain 45AZ5	owl:Class			IEDB
+ONTIE:0005150	Monkeypox virus China/SZ-SZTH42/2023	owl:Class			IEDB
+ONTIE:0005151	Senecavirus A China/SVA/CHhb17/2017	owl:Class			IEDB
+ONTIE:0005152	Enterovirus D68 US/WI/2009-23230	owl:Class			IEDB
+ONTIE:0005153	Enterovirus D68 US/IL/14-18952	owl:Class			IEDB
+ONTIE:0005154	Enterovirus D68 US/2018-23087	owl:Class			IEDB
+ONTIE:0005155	Enterovirus D68 US/2003-23226	owl:Class			IEDB
+ONTIE:0005156	Enterovirus D68 US/MO/14-18949	owl:Class			IEDB
+ONTIE:0005157	Porcine circovirus 3 strain US/MN2016	owl:Class			IEDB
+ONTIE:0005158	Borreliella afzelii BO23	owl:Class			IEDB
+ONTIE:0005159	Bovine coronavirus cow/China/B298/2021	owl:Class			IEDB

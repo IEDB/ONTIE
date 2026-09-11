@@ -147,12 +147,12 @@ ONTIE:0000144	Mus musculus C57BL/6N	owl:Class			IEDB
 ONTIE:0000145	Mus musculus C57BL/6-Tg(HLA-A2.1)1Enge	owl:Class			IEDB
 ONTIE:0000146	Mus musculus OT-1 TCR Tg	owl:Class			IEDB
 ONTIE:0000147	Mus musculus CBA	owl:Class			IEDB
-ONTIE:0000148	Mus musculus CBA /J HLA-B*2705 Tg	owl:Class			IEDB
+ONTIE:0000148	Mus musculus HLA-B*27:05 Tg	owl:Class			IEDB
 ONTIE:0000149	Mus musculus CBA X AKR	owl:Class			IEDB
 ONTIE:0000150	Mus musculus CBA X BALB/c	owl:Class			IEDB
 ONTIE:0000151	Mus musculus CBA.M523	owl:Class			IEDB
 ONTIE:0000152	Mus musculus CBA/Ca	owl:Class			IEDB
-ONTIE:0000153	Mus musculus CBA/Ca 2Kb/HLA-G Tg human beta2m Tg human CD8alpha Tg	owl:Class			IEDB
+ONTIE:0000153	Mus musculus HLA-G Transgenic	owl:Class			IEDB
 ONTIE:0000154	Mus musculus CBA/CaHN-Btkxid/J	owl:Class			IEDB
 ONTIE:0000155	Mus musculus CBA/J	owl:Class			IEDB
 ONTIE:0000156	Mus musculus CD1d null	owl:Class			IEDB
@@ -357,7 +357,7 @@ ONTIE:0000354	Japanese encephalitis virus JaOH0566	owl:Class			IEDB
 ONTIE:0000355	Japanese encephalitis virus JaGAr-01	owl:Class			IEDB
 ONTIE:0000356	West Nile virus 3000.0259	owl:Class			IEDB
 ONTIE:0000357	West Nile virus E101	owl:Class			IEDB
-ONTIE:0000358	Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	owl:Class			IEDB
+ONTIE:0000358	Tick-borne encephalitis virus (WESTERN SUBTYPE)  - Neudoerfl	owl:Class			IEDB
 ONTIE:0000359	Plasmodium yoelii killicki 194ZZ	owl:Class			IEDB
 ONTIE:0000360	Classical swine fever virus Shimen	owl:Class			IEDB
 ONTIE:0000361	Classical swine fever virus Thiverval	owl:Class			IEDB
@@ -409,12 +409,12 @@ ONTIE:0000406	Lymphocytic choriomeningitis virus (strain Armstrong) (clone 5)	ow
 ONTIE:0000407	Equine infectious anemia virus D9	owl:Class			IEDB
 ONTIE:0000408	Equine infectious anemia virus PV	owl:Class			IEDB
 ONTIE:0000409	Human immunodeficiency virus 1 IIIB	owl:Class			IEDB
-ONTIE:0000410	Simian immunodeficiency virus - mac - mac 239	owl:Class			IEDB
-ONTIE:0000411	Simian immunodeficiency virus - mac - mac 32H	owl:Class			IEDB
-ONTIE:0000412	Simian immunodeficiency virus - mac - mac BK28	owl:Class			IEDB
-ONTIE:0000413	Simian immunodeficiency virus - mac - mac F965	owl:Class			IEDB
-ONTIE:0000414	Simian immunodeficiency virus - sm - sm E543	owl:Class			IEDB
-ONTIE:0000415	Simian immunodeficiency virus - sm - sm PT573	owl:Class			IEDB
+ONTIE:0000410	Simian immunodeficiency virus - mac  - mac 239	owl:Class			IEDB
+ONTIE:0000411	Simian immunodeficiency virus - mac  - mac 32H	owl:Class			IEDB
+ONTIE:0000412	Simian immunodeficiency virus - mac  - mac BK28	owl:Class			IEDB
+ONTIE:0000413	Simian immunodeficiency virus - mac  - mac F965	owl:Class			IEDB
+ONTIE:0000414	Simian immunodeficiency virus - sm  - sm E543	owl:Class			IEDB
+ONTIE:0000415	Simian immunodeficiency virus - sm  - sm PT573	owl:Class			IEDB
 ONTIE:0000416	Rabbit hemorrhagic disease virus Olot/89	owl:Class			IEDB
 ONTIE:0000417	Human coxsackievirus B3 variant H3	owl:Class			IEDB
 ONTIE:0000418	Human coxsackievirus B3 variant H3-49	owl:Class			IEDB
@@ -483,12 +483,12 @@ ONTIE:0000480	Mus musculus FVB/N HLA-DR1 Tg	owl:Class			IEDB
 ONTIE:0000481	Mus musculus FVB/N HLA-DRB1*0101 Tg	owl:Class			IEDB
 ONTIE:0000482	Mus musculus FVB/N Prp null	owl:Class			IEDB
 ONTIE:0000483	Mus musculus HBV(adr) transgenic BALB/c	owl:Class			IEDB
-ONTIE:0000484	Mus musculus HLA-A*0201 Tg	owl:Class			IEDB
+ONTIE:0000484	Mus musculus HLA-A*02:01 Tg	owl:Class			IEDB
 ONTIE:0000485	Mus musculus HLA-A*0201/Db-human b2m Tg (HHD)	owl:Class			IEDB
 ONTIE:0000486	Mus musculus HLA-A*0201/Db-human b2m Tg Db null b2m null (HHD-2)	owl:Class			IEDB
 ONTIE:0000487	Mus musculus HLA-A*0201/Kb Tg	owl:Class			IEDB
 ONTIE:0000488	Mus musculus HLA-A*020101 Tg	owl:Class			IEDB
-ONTIE:0000489	Mus musculus HLA-A11/Kb transgenic	owl:Class			IEDB
+ONTIE:0000489	Mus musculus HLA-A11 Tg	owl:Class			IEDB
 ONTIE:0000490	Mus musculus HLA-A2 Tg	owl:Class			IEDB
 ONTIE:0000491	Mus musculus HLA-A2 Tg HBsAg Tg	owl:Class			IEDB
 ONTIE:0000492	Mus musculus HLA-A2 Tg human CD8 Tg	owl:Class			IEDB
@@ -503,11 +503,11 @@ ONTIE:0000500	Mus musculus HLA-A2/Kb Tg	owl:Class			IEDB
 ONTIE:0000501	Mus musculus HLA-B*0702 Tg H2-I null	owl:Class			IEDB
 ONTIE:0000502	Mus musculus HLA-B27 Tg	owl:Class			IEDB
 ONTIE:0000503	Mus musculus HLA-B7 Tg	owl:Class			IEDB
-ONTIE:0000504	Mus musculus HLA-DQ Tg	owl:Class			IEDB
+ONTIE:0000504	Mus musculus HLA-DQ Transgenic	owl:Class			IEDB
 ONTIE:0000505	Mus musculus HLA-DQ6 Tg	owl:Class			IEDB
 ONTIE:0000506	Mus musculus HLA-DQ8 Tg	owl:Class			IEDB
 ONTIE:0000507	Mus musculus HLA-DQ8 Tg IAbeta null	owl:Class			IEDB
-ONTIE:0000508	Mus musculus HLA-DR Tg	owl:Class			IEDB
+ONTIE:0000508	Mus musculus HLA-DR Transgenic	owl:Class			IEDB
 ONTIE:0000509	Mus musculus HLA-DR1 Tg	owl:Class			IEDB
 ONTIE:0000510	Mus musculus HLA-DR1 Tg H2-II null	owl:Class			IEDB
 ONTIE:0000511	Mus musculus HLA-DR15 Tg IAbeta null	owl:Class			IEDB
@@ -522,8 +522,8 @@ ONTIE:0000519	Mus musculus HLA-DR4 Tg human CD4 Tg	owl:Class			IEDB
 ONTIE:0000520	Mus musculus HLA-DR4 Tg IAbeta null	owl:Class			IEDB
 ONTIE:0000521	Mus musculus HLA-DR4/IE Tg H2-II null	owl:Class			IEDB
 ONTIE:0000522	Mus musculus HLA-DR51 Tg	owl:Class			IEDB
-ONTIE:0000523	Mus musculus HLA-DRB1*0101 Tg	owl:Class			IEDB
-ONTIE:0000524	Mus musculus HLA-DRB1*0401 Tg	owl:Class			IEDB
+ONTIE:0000523	Mus musculus HLA-DRB1*01:01 Tg	owl:Class			IEDB
+ONTIE:0000524	Mus musculus HLA-DRB1*04:01 Tg	owl:Class			IEDB
 ONTIE:0000525	Mus musculus HuMAb (Medarex)	owl:Class			IEDB
 ONTIE:0000526	Mus musculus ICR	owl:Class			IEDB
 ONTIE:0000527	Mus musculus ICR X Swiss	owl:Class			IEDB
@@ -577,7 +577,7 @@ ONTIE:0000574	Cavia porcellus Duncan-Hartley	owl:Class			IEDB
 ONTIE:0000575	Cavia porcellus Hartley	owl:Class			IEDB
 ONTIE:0000576	Cavia porcellus Ssc:AL	owl:Class			IEDB
 ONTIE:0000577	Mus musculus (BALB/c x B10.G)F1-B10.G bone marrow chimera	owl:Class			IEDB
-ONTIE:0000578	Mus musculus B10.BR-SCID bone marrow chimera	owl:Class			IEDB
+ONTIE:0000578	Mus musculus B10.BR-SCID  bone marrow chimera	owl:Class			IEDB
 ONTIE:0000579	Mus musculus F1sc H-2b scid chimera	owl:Class			IEDB
 ONTIE:0000580	Mus musculus CB6F1 H-2d chimeric scid	owl:Class			IEDB
 ONTIE:0000581	Borrelia burgdorferi CA12	owl:Class			IEDB
@@ -743,7 +743,7 @@ ONTIE:0000740	Foot-and-mouth disease virus C1 CS35	owl:Class			IEDB
 ONTIE:0000741	Foot-and-mouth disease virus C1 Brescia It/64	owl:Class			IEDB
 ONTIE:0000742	H3N1 subtype Influenza A virus (A/Hong Kong/68HA-A/Puerto Rico/8/34NA)	owl:Class			IEDB
 ONTIE:0000743	Swine vesicular disease virus NET/1/92	owl:Class			IEDB
-ONTIE:0000744	Neisseria meningitidis serogroup B H44/76	owl:Class			IEDB
+ONTIE:0000744	Neisseria meningitidis serogroup B  H44/76	owl:Class			IEDB
 ONTIE:0000745	Porcine transmissible gastroenteritis coronavirus strain Purdue Isolate PUR46-MAD	owl:Class			IEDB
 ONTIE:0000746	Chlamydia trachomatis Serovar F	owl:Class			IEDB
 ONTIE:0000747	Chlamydia trachomatis Serovar F strain NI1	owl:Class			IEDB
@@ -876,8 +876,8 @@ ONTIE:0000873	Chlamydia trachomatis Serovar J	owl:Class			IEDB
 ONTIE:0000874	Swine vesicular disease virus Italy/92	owl:Class			IEDB
 ONTIE:0000875	Borrelia burgdorferi CA287	owl:Class			IEDB
 ONTIE:0000876	Foot-and-mouth disease virus (strain O1) (O1/Switzerland/65)	owl:Class			IEDB
-ONTIE:0000877	Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	owl:Class			IEDB
-ONTIE:0000878	Foot-and-mouth disease virus - type A (strain A32 Venezuela)	owl:Class			IEDB
+ONTIE:0000877	Foot-and-mouth disease virus - type A  (strain A27 Cundinamarca Colombia)	owl:Class			IEDB
+ONTIE:0000878	Foot-and-mouth disease virus - type A  (strain A32 Venezuela)	owl:Class			IEDB
 ONTIE:0000879	Foot-and-mouth disease virus (strain A5) Portugal 1983	owl:Class			IEDB
 ONTIE:0000880	Vaccinia virus Elstree (LS)	owl:Class			IEDB
 ONTIE:0000881	Monkeypox virus (strain Copenhagen)	owl:Class			IEDB
@@ -924,7 +924,7 @@ ONTIE:0000921	Pseudomonas aeruginosa K122-4	owl:Class			IEDB
 ONTIE:0000922	Chlamydophila pneumoniae FB/96	owl:Class			IEDB
 ONTIE:0000923	Mus musculus HLA-A*1101/Kb Tg	owl:Class			IEDB
 ONTIE:0000924	Mus musculus HLA-B*0702/Kb Tg	owl:Class			IEDB
-ONTIE:0000925	Mus musculus HLA-A*2402/Kb Tg	owl:Class			IEDB
+ONTIE:0000925	Mus musculus HLA-A*24:02 Tg	owl:Class			IEDB
 ONTIE:0000926	Mus musculus HLA-A*01/Kb Tg	owl:Class			IEDB
 ONTIE:0000927	Rinderpest virus (strain Kudu)	owl:Class			IEDB
 ONTIE:0000928	Rinderpest virus (strain Egypt)	owl:Class			IEDB
@@ -958,7 +958,7 @@ ONTIE:0000955	Sus scrofa Yorkshire	owl:Class			IEDB
 ONTIE:0000956	Mus musculus RAG-1 null	owl:Class			IEDB
 ONTIE:0000957	Mus musculus CF-1	owl:Class			IEDB
 ONTIE:0000958	Plum pox virus (strain W)	owl:Class			IEDB
-ONTIE:0000959	Trypanosoma cruzi strain Brazil	owl:Class			IEDB
+ONTIE:0000959	Trypanosoma cruzi  strain Brazil	owl:Class			IEDB
 ONTIE:0000960	Foot-and-mouth disease virus (strain O1) O/UKG/11/2001	owl:Class			IEDB
 ONTIE:0000961	Mus musculus SV40 Tg	owl:Class			IEDB
 ONTIE:0000962	Mus musculus B6 TNF alpha null	owl:Class			IEDB
@@ -1051,7 +1051,7 @@ ONTIE:0001048	H12N5 subtype Influenza A/duck/Hong Kong/838/1980	owl:Class			IEDB
 ONTIE:0001049	Mus musculus C57BL/6 OX40 null	owl:Class			IEDB
 ONTIE:0001050	Human metapneumovirus A1 NL/1/00	owl:Class			IEDB
 ONTIE:0001051	Human metapneumovirus B1 NL/1/99	owl:Class			IEDB
-ONTIE:0001052	Mus musculus C3H/He HLA-B*3501 Tg	owl:Class			IEDB
+ONTIE:0001052	Mus musculus HLA-B*35:01 Tg	owl:Class			IEDB
 ONTIE:0001053	Puumala virus (strain Umea/hu)	owl:Class			IEDB
 ONTIE:0001054	Porcine circovirus strain ISU31	owl:Class			IEDB
 ONTIE:0001055	Mus musculus APPsw	owl:Class			IEDB
@@ -1067,7 +1067,7 @@ ONTIE:0001064	Mus musculus B10.A x BALB/c	owl:Class			IEDB
 ONTIE:0001065	Porcine parvovirus (strain 893)	owl:Class			IEDB
 ONTIE:0001066	Mus musculus RIP-B7	owl:Class			IEDB
 ONTIE:0001067	Mus musculus RIP-B7/DRB1*0401	owl:Class			IEDB
-ONTIE:0001068	Mus musculus RIP-B7/DRB1*0404	owl:Class			IEDB
+ONTIE:0001068	Mus musculus HLA-DRB1*04:04 Tg	owl:Class			IEDB
 ONTIE:0001069	Mus musculus RIP-B7 X BALB/c	owl:Class			IEDB
 ONTIE:0001070	Mus musculus RIP-B7 H2d/d	owl:Class			IEDB
 ONTIE:0001071	Mus musculus GAD286 TCR Tg	owl:Class			IEDB
@@ -1075,7 +1075,7 @@ ONTIE:0001072	Mus musculus NOD.H-2h4	owl:Class			IEDB
 ONTIE:0001073	Mus musculus C57BL/6-H-2g7	owl:Class			IEDB
 ONTIE:0001074	Mus musculus NOD.PD	owl:Class			IEDB
 ONTIE:0001075	Mus musculus Tg AI4-NOD.Rag1-/-	owl:Class			IEDB
-ONTIE:0001076	Mus musculus G9Calpha -/-.NOD	owl:Class			IEDB
+ONTIE:0001076	Mus musculus G9Calpha –/ –.NOD	owl:Class			IEDB
 ONTIE:0001077	Mus musculus NOD.Calpha-/-	owl:Class			IEDB
 ONTIE:0001078	Mus musculus NOD.Calpha-/-RIP-B7-1	owl:Class			IEDB
 ONTIE:0001079	Mus musculus G9Calpha-/-.RIP-B7.1 NOD	owl:Class			IEDB
@@ -1110,9 +1110,9 @@ ONTIE:0001107	Mus musculus TgBRI-Abeta42	owl:Class			IEDB
 ONTIE:0001108	Mus musculus HLA-DRB1*0402 Tg CD4Tg I-Abeta null	owl:Class			IEDB
 ONTIE:0001109	Mus musculus HLA-DRB1*0401 Tg CD4Tg I-Abeta null	owl:Class			IEDB
 ONTIE:0001110	Mus musculus A.SW/SN	owl:Class			IEDB
-ONTIE:0001111	Mus musculus HLA-DRA*0101/HLA-DRB*0401	owl:Class			IEDB
+ONTIE:0001111	Mus musculus HLA-DRA*01:01/DRB1*04:04 Tg	owl:Class			IEDB
 ONTIE:0001112	Mus musculus insulin 2 null	owl:Class			IEDB
-ONTIE:0001113	Mus musculus HLA-DRB1*0402 Tg	owl:Class			IEDB
+ONTIE:0001113	Mus musculus HLA-DRB1*04:02 Tg	owl:Class			IEDB
 ONTIE:0001114	Rattus norvegicus WA/KIR/kcl	owl:Class			IEDB
 ONTIE:0001115	Mus musculus HLA-DR15 Tg	owl:Class			IEDB
 ONTIE:0001116	Mus musculus qCII85.33 TCR Tg	owl:Class			IEDB
@@ -1188,12 +1188,12 @@ ONTIE:0001185	Mus musculus C3H.OL	owl:Class			IEDB
 ONTIE:0001186	Mus musculus B10.GD	owl:Class			IEDB
 ONTIE:0001187	Mus musculus ICOS null	owl:Class			IEDB
 ONTIE:0001188	Mus musculus NOD X NOR	owl:Class			IEDB
-ONTIE:0001189	Mus musculus HLA-DQB1*0604 Tg	owl:Class			IEDB
-ONTIE:0001190	Mus musculus HLA-DQB1*0601 Tg	owl:Class			IEDB
-ONTIE:0001191	Mus musculus HLA-DRB5*0101 Tg	owl:Class			IEDB
+ONTIE:0001189	Mus musculus HLA-DQB1*06:04 Tg	owl:Class			IEDB
+ONTIE:0001190	Mus musculus HLA-DQB1*06:01 Tg	owl:Class			IEDB
+ONTIE:0001191	Mus musculus HLA-DRB5*01:01 Tg	owl:Class			IEDB
 ONTIE:0001192	Mus musculus HLA-DRB5*0101 MBP null Tg	owl:Class			IEDB
 ONTIE:0001193	Mus musculus HLA-DRB1*1501 MBP null Tg	owl:Class			IEDB
-ONTIE:0001194	Mus musculus HLA-DRB1*1501 Tg	owl:Class			IEDB
+ONTIE:0001194	Mus musculus HLA-DRB1*15:01 Tg	owl:Class			IEDB
 ONTIE:0001195	Mus musculus HLA-DRB1*0401 MBP null Tg	owl:Class			IEDB
 ONTIE:0001196	Mus musculus Clone 4 TCR Tg	owl:Class			IEDB
 ONTIE:0001197	Mus musculus TCR1640 Tg	owl:Class			IEDB
@@ -1210,8 +1210,8 @@ ONTIE:0001207	Mus musculus BUB/Bn	owl:Class			IEDB
 ONTIE:0001208	Murine cytomegalovirus (strain Smith) MW97.01	owl:Class			IEDB
 ONTIE:0001209	Mus musculus MOG null	owl:Class			IEDB
 ONTIE:0001210	BK polyomavirus strain Gardner	owl:Class			IEDB
-ONTIE:0001211	Mus musculus DQB1*0602 Tg	owl:Class			IEDB
-ONTIE:0001212	Mus musculus DRB1*1502 Tg	owl:Class			IEDB
+ONTIE:0001211	Mus musculus HLA-DQB1*06:02 Tg	owl:Class			IEDB
+ONTIE:0001212	Mus musculus HLA-DRB1*15:02 Tg	owl:Class			IEDB
 ONTIE:0001213	Mus musculus HLA-DRB1*1501 x DQB1*0602	owl:Class			IEDB
 ONTIE:0001214	Porcine reproductive and respiratory syndrome virus Porcilis	owl:Class			IEDB
 ONTIE:0001215	Lelystad virus L-450	owl:Class			IEDB
@@ -1430,7 +1430,7 @@ ONTIE:0001427	Dengue virus 1 strain TVP-5175	owl:Class			IEDB
 ONTIE:0001428	Dengue virus 1 Sri Lanka 3146	owl:Class			IEDB
 ONTIE:0001429	Mus musculus AG129	owl:Class			IEDB
 ONTIE:0001430	Feline infectious peritonitis virus (strain KU-2)	owl:Class			IEDB
-ONTIE:0001431	Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	owl:Class			IEDB
+ONTIE:0001431	Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu  HA Tg	owl:Class			IEDB
 ONTIE:0001432	Mus musculus beta2m null	owl:Class			IEDB
 ONTIE:0001433	Human herpesvirus 5 (strain RV798)	owl:Class			IEDB
 ONTIE:0001434	Aggregatibacter actinomycetemcomitans serotype b str. Y4	owl:Class			IEDB
@@ -1462,7 +1462,7 @@ ONTIE:0001459	Candida albicans NIH A-207 (serotype A)	owl:Class			IEDB
 ONTIE:0001460	Mus musculus BALB/c Thy 1.1	owl:Class			IEDB
 ONTIE:0001461	Mus musculus HNT TCR Tg	owl:Class			IEDB
 ONTIE:0001462	Mus musculus NZW X BALB/c	owl:Class			IEDB
-ONTIE:0001463	Neisseria meningitidis serogroup B Strain 80-165	owl:Class			IEDB
+ONTIE:0001463	Neisseria meningitidis serogroup B Strain  80–165	owl:Class			IEDB
 ONTIE:0001464	Escherichia coli O125	owl:Class			IEDB
 ONTIE:0001465	Campylobacter jejuni subsp. jejuni ATCC 43431	owl:Class			IEDB
 ONTIE:0001466	Mus musculus alphaGal IgM H Tg	owl:Class			IEDB
@@ -1581,7 +1581,7 @@ ONTIE:0001578	Salmonella enterica subsp. enterica serovar Heidelberg 7736	owl:Cl
 ONTIE:0001579	Mus musculus HLA-A*0201 Tg NOD.HHD	owl:Class			IEDB
 ONTIE:0001580	Mus musculus H2-Kb OVA SIINFEKL Tg	owl:Class			IEDB
 ONTIE:0001581	Mus musculus H2-Kb VSV RGYVYQGLTg	owl:Class			IEDB
-ONTIE:0001582	Mus musculus HLA-B*0702 Tg	owl:Class			IEDB
+ONTIE:0001582	Mus musculus HLA-B*07:02 Tg	owl:Class			IEDB
 ONTIE:0001583	Neisseria meningitidis serogroup C strain C11	owl:Class			IEDB
 ONTIE:0001584	Escherichia coli K92	owl:Class			IEDB
 ONTIE:0001585	H10N5 subtype (A/duck/Singapore/1998(H10N5))	owl:Class			IEDB
@@ -1779,13 +1779,13 @@ ONTIE:0001776	Mus musculus class II null	owl:Class			IEDB
 ONTIE:0001777	Mus musculus Ob.1A12 TCR Tg	owl:Class			IEDB
 ONTIE:0001778	West Nile virus 208659/09	owl:Class			IEDB
 ONTIE:0001779	Mus musculus 5/4E8 TCR Tg	owl:Class			IEDB
-ONTIE:0001780	Mus musculus HLA-DRB1*0301 Tg	owl:Class			IEDB
+ONTIE:0001780	Mus musculus HLA-DRB1*03:01 Tg	owl:Class			IEDB
 ONTIE:0001781	Mus musculus HLA-A*0201/Kb Tg IFNalpha beta null	owl:Class			IEDB
 ONTIE:0001782	Mus musculus HLA-A*1101/Kb Tg IFNalpha beta null	owl:Class			IEDB
 ONTIE:0001783	Mus musculus HLA-B*4401 Tg IFNalpha beta null	owl:Class			IEDB
 ONTIE:0001784	Mus musculus HLA-B*4401 Tg	owl:Class			IEDB
 ONTIE:0001785	Mus musculus HLA-DRB1*0101 Tg IFNalpha beta null	owl:Class			IEDB
-ONTIE:0001786	Mus musculus HLA-A*0101 Tg	owl:Class			IEDB
+ONTIE:0001786	Mus musculus HLA-A*01:01 Tg	owl:Class			IEDB
 ONTIE:0001787	Mus musculus HLA-B*4402 Tg	owl:Class			IEDB
 ONTIE:0001788	Vaccinia virus Praha	owl:Class			IEDB
 ONTIE:0001789	Mus musculus NOD HLA-A*1101 Tg	owl:Class			IEDB

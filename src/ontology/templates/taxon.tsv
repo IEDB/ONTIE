@@ -368,10 +368,10 @@ Foot-and-mouth disease virus (strain O1) (O1BFS 1860)	Foot-and-mouth disease vir
 Foot-and-mouth disease virus (strain O1) (O1BFS)	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) Kaufbeuren	Foot-and-mouth disease virus (strain O1)	subspecies		taxon		
 Foot-and-mouth disease virus (strain O1) O/UKG/11/2001	Foot-and-mouth disease virus (strain O1)	subspecies	O/UKG/11/2001	taxon		
+Foot-and-mouth disease virus - type A  (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
+Foot-and-mouth disease virus - type A  (strain A32 Venezuela)	Foot-and-mouth disease virus A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
 Foot-and-mouth disease virus - type A (strain A22 Iraq)	Foot-and-mouth disease virus A	subspecies	A22 Irak	taxon		
 Foot-and-mouth disease virus - type A (strain A22)	Foot-and-mouth disease virus A	subspecies		taxon		
-Foot-and-mouth disease virus - type A (strain A27 Cundinamarca Colombia)	Foot-and-mouth disease virus A	subspecies	Cundinamarca Colombia|Cundinamarca Colombia/76	taxon		
-Foot-and-mouth disease virus - type A (strain A32 Venezuela)	Foot-and-mouth disease virus A	subspecies	A32/VEN/1/70|Venezuela/70|strain A32 Venezuela	taxon		
 Foot-and-mouth disease virus - type A (strain ARG 2/2001)	Foot-and-mouth disease virus A	subspecies	ARG 2/2001	taxon		
 Foot-and-mouth disease virus - type A (strain ARG/87)	Foot-and-mouth disease virus A	subspecies	ARG/87	taxon		
 Foot-and-mouth disease virus - type A (strain COL/85)	Foot-and-mouth disease virus A	subspecies	COL/85	taxon		
@@ -889,7 +889,7 @@ Mus musculus B10.BR	Mus musculus B10	subspecies	B10	taxon
 Mus musculus B10.BR DM null	Mus musculus B10.BR	subspecies		taxon		
 Mus musculus B10.BR X C3H.OL	Mus musculus B10 Crosses|Mus musculus C3H Crosses	subspecies	C3H.OL X B10.BR	taxon		
 Mus musculus B10.BR-H2k H2-T18a/SgSnJ	Mus musculus B10.BR	subspecies		taxon		
-Mus musculus B10.BR-SCID bone marrow chimera	Mus musculus B10.BR	subspecies		taxon		
+Mus musculus B10.BR-SCID  bone marrow chimera	Mus musculus B10.BR	subspecies		taxon		
 Mus musculus B10.C-H7b(47N)/SN	Mus musculus B10	subspecies	B10.H7b	taxon		
 Mus musculus B10.CAS2	Mus musculus B10	subspecies		taxon		
 Mus musculus B10.CE-H13b Aw/(30NX)Sn	Mus musculus B10	subspecies	B10.CE-H13b Aw/(30NX)SnJ	taxon		
@@ -961,7 +961,7 @@ Mus musculus BALB/c DM null	Mus musculus BALB/c	subspecies		taxon
 Mus musculus BALB/c Factor IX null	Mus musculus BALB/c	subspecies		taxon		
 Mus musculus BALB/c FcR null	Mus musculus BALB/c	subspecies		taxon		
 Mus musculus BALB/c GalNAc Transferase null	Mus musculus BALB/c	subspecies		taxon		
-Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg|HA(110-120) Tg	taxon		
+Mus musculus BALB/c HA(110-120)-specific TCR Tg/ Flu  HA Tg	Mus musculus BALB/c TCR Transgenic	subspecies	HA Tg|HA(110-120) Tg	taxon		
 Mus musculus BALB/c HLA Transgenic	Mus musculus BALB/c	subspecies	BALB/c HLA Transgenic	taxon		
 Mus musculus BALB/c HLA-B27 Tg human beta2m Tg	Mus musculus BALB/c HLA Transgenic|Mus musculus HLA-B27 Tg	subspecies		taxon		
 Mus musculus BALB/c IFNgamma null	Mus musculus BALB/c	subspecies	BALB/c GKO	taxon		
@@ -1012,7 +1012,6 @@ Mus musculus C3H/DiSn	Mus musculus C3H	subspecies		taxon
 Mus musculus C3H/FeJ	Mus musculus C3H	subspecies		taxon		
 Mus musculus C3H/FeJ X C57BL/6	Mus musculus C3H Crosses|Mus musculus C57BL/6 Crosses	subspecies	C3FeB6F1	taxon		
 Mus musculus C3H/He	Mus musculus C3H	subspecies	C3H/HeN	taxon		
-Mus musculus C3H/He HLA-B*3501 Tg	Mus musculus C3H|Mus musculus HLA-B Transgenic	subspecies	HLA-B*3501	taxon		
 Mus musculus C3H/He-mg	Mus musculus C3H	subspecies		taxon		
 Mus musculus C3H/HePAS	Mus musculus C3H	subspecies	C3H/HePas	taxon		
 Mus musculus C3H/Ou	Mus musculus C3H	subspecies		taxon		
@@ -1106,12 +1105,10 @@ Mus musculus C57L	Mus musculus Uncategorized	subspecies		taxon
 Mus musculus C7 TCR Tg	Mus musculus TCR transgenic	subspecies	C7|ESAT-6	taxon		
 Mus musculus CB6F1 H-2d chimeric scid	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus CBA	Mus musculus	subspecies	cba	taxon		
-Mus musculus CBA /J HLA-B*2705 Tg	Mus musculus CBA|Mus musculus HLA-B27 Tg	subspecies		taxon		
 Mus musculus CBA X AKR	Mus musculus CBA	subspecies		taxon		
 Mus musculus CBA X BALB/c	Mus musculus BALB/c crosses|Mus musculus CBA	subspecies		taxon		
 Mus musculus CBA.M523	Mus musculus CBA	subspecies		taxon		
 Mus musculus CBA/Ca	Mus musculus CBA	subspecies	CBA Carter|CBA.Ca|CBA/CaH/WEHI|CBA/CaJ	taxon		
-Mus musculus CBA/Ca 2Kb/HLA-G Tg human beta2m Tg human CD8alpha Tg	Mus musculus CBA|Mus musculus HLA Transgenic	subspecies		taxon		
 Mus musculus CBA/CaHN-Btkxid/J	Mus musculus CBA	subspecies	CBA/N xid|CBA/NJ xid|CBA/xid	taxon		
 Mus musculus CBA/Igb	Mus musculus CBA	subspecies	CBA/Igb	taxon		
 Mus musculus CBA/J	Mus musculus CBA	subspecies	CBA/jNIA	taxon		
@@ -1140,8 +1137,6 @@ Mus musculus DBA/2 X NCr	Mus musculus DBA Crosses	subspecies	DBA/2 X NCr|NCr X D
 Mus musculus DbGagL TCR Tg	Mus musculus TCR transgenic	subspecies	CCLCLTVFL-specific TCR Tg|FMuLVgag-specific TCR Tg|FV-TCR Tg|GagL(85-93)-specific TCR Tg	taxon		
 Mus musculus DDY	Mus musculus Uncategorized	subspecies	DDY|Deutschland, Denken, and Yoken	taxon		
 Mus musculus DO11.10 TCR Tg	Mus musculus TCR transgenic	subspecies	D0-11.10|OVA(323-339)-specific TCR Tg|Tg(DO11.10)10Dlo	taxon	http://www.informatics.jax.org/allele/MGI:2664398	
-Mus musculus DQB1*0602 Tg	Mus musculus HLA-DQ Tg	subspecies	DQB1*0602	taxon		
-Mus musculus DRB1*1502 Tg	Mus musculus HLA-DR15 Tg	subspecies	DRB1*1502	taxon		
 Mus musculus duffy Fy null	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus F1sc H-2b scid chimera	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus F5 TCR Tg	Mus musculus TCR transgenic	subspecies	ASNENMDAM-specific TCR Tg|NP(366-374)-specific TCR Tg|Tg(CD2-TcraF5,CD2-TcrbF5)1Kio	taxon	http://www.informatics.jax.org/allele/MGI:3706698	
@@ -1158,10 +1153,10 @@ Mus musculus FVB X A2.1	Mus musculus FVB|Mus musculus HLA-A2 Tg	subspecies	A2.1 
 Mus musculus FVB/B X B10.RIII	Mus musculus B10 Crosses|Mus musculus FVB	subspecies	B10.RIII X FVB/B	taxon		
 Mus musculus FVB/J	Mus musculus FVB	subspecies		taxon		
 Mus musculus FVB/N HLA-DR1 Tg	Mus musculus FVB|Mus musculus HLA-DR1 Tg	subspecies		taxon		
-Mus musculus FVB/N HLA-DRB1*0101 Tg	Mus musculus FVB|Mus musculus HLA-DRB1*0101 Tg	subspecies		taxon		
+Mus musculus FVB/N HLA-DRB1*0101 Tg	Mus musculus FVB|Mus musculus HLA-DRB1*01:01 Tg	subspecies		taxon		
 Mus musculus FVB/N Prp null	Mus musculus PrP null	subspecies		taxon		
 Mus musculus FVIII null	Mus musculus Uncategorized	subspecies	E16	taxon		
-Mus musculus G9Calpha -/-.NOD	Mus musculus NOD	subspecies	G9C	taxon		
+Mus musculus G9Calpha –/ –.NOD	Mus musculus NOD	subspecies	G9C	taxon		
 Mus musculus G9Calpha-/-.RIP-B7.1 NOD	Mus musculus NOD	subspecies	G9Calpha-/-.RIP-B7.1 NOD	taxon		
 Mus musculus GAD specific TCR	Mus musculus TCR transgenic	subspecies	GAD	taxon		
 Mus musculus GAD286 TCR Tg	Mus musculus NOD TCR Transgenic	subspecies	B16.3|GAD286|GAD65(286-300)-specific TCR Tg|KKGAAALGIGTDSVI-specific TCR Tg|p286-specific TCR Tg	taxon		
@@ -1173,25 +1168,25 @@ Mus musculus H2-Kb VSV RGYVYQGLTg	Mus musculus Uncategorized	subspecies	VSV	taxo
 Mus musculus H2A+E+	Mus musculus Uncategorized	subspecies	C57BL/10 Ealphak	taxon		
 Mus musculus HA 518-526 TCR Tg	Mus musculus TCR transgenic	subspecies	HA 518-526	taxon		
 Mus musculus HBV(adr) transgenic BALB/c	Mus musculus BALB/c	subspecies		taxon		
-Mus musculus hCD4.DR3-DQ2.MHCII	Mus musculus HLA-DQ Tg|Mus musculus HLA-DR3 Tg	subspecies	hCD4.DR3-DQ2.MHCII	taxon		
+Mus musculus hCD4.DR3-DQ2.MHCII	Mus musculus HLA-DQ Transgenic|Mus musculus HLA-DR3 Tg	subspecies	hCD4.DR3-DQ2.MHCII	taxon		
 Mus musculus HEL expression Tg	Mus musculus Uncategorized	subspecies	Hen egg lysozyme expressig	taxon		
 Mus musculus HH8 TCR Tg	Mus musculus TCR transgenic	subspecies	HH8|QLQPFPQPELPYPQPQS-specicif TCR Tg|α-Gliadin(57-73)Q65E-specific TCR Tg	taxon		
 Mus musculus HLA Transgenic	Mus musculus	subspecies	HLA Transgenic	taxon		
 Mus musculus HLA-A Transgenic	Mus musculus HLA Transgenic	subspecies	HLA-A	taxon		
 Mus musculus HLA-A*01/Kb Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A*01|HLA-A*01/Kb Tg	taxon		
-Mus musculus HLA-A*0101 Tg	Mus musculus HLA-A Transgenic	subspecies		taxon		
-Mus musculus HLA-A*0201 Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
+Mus musculus HLA-A*01:01 Tg	Mus musculus HLA-A Transgenic	subspecies		taxon		
 Mus musculus HLA-A*0201 Tg NOD.HHD	Mus musculus HLA-A2 Tg|Mus musculus NOD	subspecies	HHD|HLA-A2|NOD	taxon		
 Mus musculus HLA-A*0201/Db-human b2m Tg (HHD)	Mus musculus HLA-A2 Tg	subspecies	HHD	taxon		
 Mus musculus HLA-A*0201/Db-human b2m Tg Db null b2m null (HHD-2)	Mus musculus HLA-A2 Tg	subspecies	HHD-2	taxon		
-Mus musculus HLA-A*0201/DRB1*0101	Mus musculus HLA-A2 Tg|Mus musculus HLA-DRB1*0101 Tg	subspecies	DRB1*0101/HLA-A*0201	taxon		
+Mus musculus HLA-A*0201/DRB1*0101	Mus musculus HLA-A2 Tg|Mus musculus HLA-DRB1*01:01 Tg	subspecies	DRB1*0101/HLA-A*0201	taxon		
 Mus musculus HLA-A*0201/Kb Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
 Mus musculus HLA-A*0201/Kb Tg IFNalpha beta null	Mus musculus HLA-A2 Tg	subspecies		taxon		
 Mus musculus HLA-A*020101 Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
+Mus musculus HLA-A*02:01 Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
 Mus musculus HLA-A*1101/Kb Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A*1101|HLA-A*1101/Kb Tg	taxon		
 Mus musculus HLA-A*1101/Kb Tg IFNalpha beta null	Mus musculus HLA-A Transgenic	subspecies		taxon		
-Mus musculus HLA-A*2402/Kb Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A*2402|HLA-A*2402/Kb Tg	taxon		
-Mus musculus HLA-A11/Kb transgenic	Mus musculus HLA-A Transgenic	subspecies		taxon		
+Mus musculus HLA-A*24:02 Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A*2402|HLA-A*2402/Kb Tg	taxon		
+Mus musculus HLA-A11 Tg	Mus musculus HLA-A Transgenic	subspecies		taxon		
 Mus musculus HLA-A2 NOD/SCID/HHD	Mus musculus HLA-A2 Tg|Mus musculus NOD	subspecies		taxon		
 Mus musculus HLA-A2 Tg	Mus musculus HLA-A Transgenic	subspecies		taxon		
 Mus musculus HLA-A2 Tg HBsAg Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
@@ -1208,9 +1203,11 @@ Mus musculus HLA-A2.1/Kb Tg	Mus musculus HLA-A2 Tg	subspecies		taxon
 Mus musculus HLA-A2/Kb Tg	Mus musculus HLA-A2 Tg	subspecies		taxon		
 Mus musculus HLA-A24 Tg	Mus musculus HLA-A Transgenic	subspecies	HLA-A24 Tg	taxon		
 Mus musculus HLA-B Transgenic	Mus musculus HLA Transgenic	subspecies	HLA-B	taxon		
-Mus musculus HLA-B*0702 Tg	Mus musculus HLA-B7 Tg	subspecies	HLA-B*0702	taxon		
 Mus musculus HLA-B*0702 Tg H2-I null	Mus musculus HLA-B7 Tg	subspecies		taxon		
 Mus musculus HLA-B*0702/Kb Tg	Mus musculus HLA-B7 Tg	subspecies	HLA-B*0702|HLA-B*0702/Kb Tg	taxon		
+Mus musculus HLA-B*07:02 Tg	Mus musculus HLA-B7 Tg	subspecies	HLA-B*0702	taxon		
+Mus musculus HLA-B*27:05 Tg	Mus musculus CBA|Mus musculus HLA-B27 Tg	subspecies		taxon		
+Mus musculus HLA-B*35:01 Tg	Mus musculus C3H|Mus musculus HLA-B Transgenic	subspecies	HLA-B*3501	taxon		
 Mus musculus HLA-B*40:01 Tg	Mus musculus HLA-B Transgenic	subspecies	HLA-B*4001|HLA-B*40:01 Tg	taxon		
 Mus musculus HLA-B*4401 Tg	Mus musculus HLA-B Transgenic	subspecies		taxon		
 Mus musculus HLA-B*4401 Tg IFNalpha beta null	Mus musculus HLA-B Transgenic	subspecies		taxon		
@@ -1218,50 +1215,54 @@ Mus musculus HLA-B*4402 Tg	Mus musculus HLA-B Transgenic	subspecies		taxon
 Mus musculus HLA-B27 Tg	Mus musculus HLA-B Transgenic	subspecies		taxon		
 Mus musculus HLA-B7 Tg	Mus musculus HLA-B Transgenic	subspecies		taxon		
 Mus musculus HLA-DP2 Tg	Mus musculus HLA Transgenic	subspecies	HLA-DP2	taxon		
-Mus musculus HLA-DQ Tg	Mus musculus HLA Transgenic	subspecies		taxon		
-Mus musculus HLA-DQ6 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQ6 Tg human CD4 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQ8 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQ8 Tg human CD4 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQ8 Tg IAbeta null	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQB1*03:02 Tg	Mus musculus HLA-DQ Tg	subspecies	HLA-DQB1*0302	taxon		
-Mus musculus HLA-DQB1*0601 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DQB1*0604 Tg	Mus musculus HLA-DQ Tg	subspecies		taxon		
-Mus musculus HLA-DR Tg	Mus musculus HLA Transgenic	subspecies		taxon		
-Mus musculus HLA-DR1 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
+Mus musculus HLA-DQ Transgenic	Mus musculus HLA Transgenic	subspecies		taxon		
+Mus musculus HLA-DQ6 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQ6 Tg human CD4 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQ8 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQ8 Tg human CD4 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQ8 Tg IAbeta null	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQB1*03:02 Tg	Mus musculus HLA-DQ Transgenic	subspecies	HLA-DQB1*0302	taxon		
+Mus musculus HLA-DQB1*06:01 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DQB1*06:02 Tg	Mus musculus HLA-DQ Transgenic	subspecies	DQB1*0602	taxon		
+Mus musculus HLA-DQB1*06:04 Tg	Mus musculus HLA-DQ Transgenic	subspecies		taxon		
+Mus musculus HLA-DR Transgenic	Mus musculus HLA Transgenic	subspecies		taxon		
+Mus musculus HLA-DR1 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
 Mus musculus HLA-DR1 Tg H2-II null	Mus musculus HLA-DR1 Tg	subspecies		taxon		
-Mus musculus HLA-DR15 Tg	Mus musculus HLA-DR Tg	subspecies	HLA-DR15 Tg	taxon		
+Mus musculus HLA-DR15 Tg	Mus musculus HLA-DR Transgenic	subspecies	HLA-DR15 Tg	taxon		
 Mus musculus HLA-DR15 Tg IAbeta null	Mus musculus HLA-DR15 Tg	subspecies		taxon		
 Mus musculus HLA-DR15 Tg Valpha3.1 Vbeta2.1 TCR Tg IAbeta null	Mus musculus HLA-DR15 Tg|Mus musculus TCR transgenic	subspecies		taxon		
-Mus musculus HLA-DR2 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
+Mus musculus HLA-DR2 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
 Mus musculus HLA-DR2 Tg MBP(85-99)-specific human VB2 TCR Tg	Mus musculus HLA-DR2 Tg|Mus musculus TCR transgenic	subspecies		taxon		
 Mus musculus HLA-DR2 Tg RAG-2 null	Mus musculus HLA-DR2 Tg	subspecies	DR2 Tg RAG-2 null	taxon		
 Mus musculus HLA-DR3 hCD4 Tg	Mus musculus HLA-DR3 Tg	subspecies		taxon		
-Mus musculus HLA-DR3 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
+Mus musculus HLA-DR3 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
 Mus musculus HLA-DR3 Tg H2-II null	Mus musculus HLA-DR3 Tg	subspecies		taxon		
 Mus musculus HLA-DR3 Tg IAbeta null	Mus musculus HLA-DR3 Tg	subspecies		taxon		
-Mus musculus HLA-DR3/DQ6 Tg	Mus musculus HLA-DQ Tg|Mus musculus HLA-DR3 Tg	subspecies	DQ6/DR3	taxon		
-Mus musculus HLA-DR3/DQ8 Tg	Mus musculus HLA-DQ Tg|Mus musculus HLA-DR3 Tg	subspecies	DQ8/DR3	taxon		
-Mus musculus HLA-DR4 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
+Mus musculus HLA-DR3/DQ6 Tg	Mus musculus HLA-DQ Transgenic|Mus musculus HLA-DR3 Tg	subspecies	DQ6/DR3	taxon		
+Mus musculus HLA-DR3/DQ8 Tg	Mus musculus HLA-DQ Transgenic|Mus musculus HLA-DR3 Tg	subspecies	DQ8/DR3	taxon		
+Mus musculus HLA-DR4 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
 Mus musculus HLA-DR4 Tg human CD4 Tg	Mus musculus HLA-DR4 Tg	subspecies		taxon		
 Mus musculus HLA-DR4 Tg IAbeta null	Mus musculus HLA-DR4 Tg	subspecies		taxon		
 Mus musculus HLA-DR4/IE Tg H2-II null	Mus musculus HLA-DR4 Tg	subspecies	HLA-DR4-IE Tg	taxon		
-Mus musculus HLA-DR51 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRA*0101/HLA-DRB*0401	Mus musculus HLA-DRB1*0401 Tg	subspecies	HLA-DRA*0101/HLA-DRB*0401	taxon		
-Mus musculus HLA-DRB1*0101 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*0101 Tg IFNalpha beta null	Mus musculus HLA-DRB1*0101 Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*0301 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*03:02 Tg	Mus musculus HLA-DR Tg	subspecies	HLA-DRB1*0302	taxon		
-Mus musculus HLA-DRB1*0401 MBP null Tg	Mus musculus HLA-DRB1*0401 Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*0401 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*0401 Tg CD4Tg I-Abeta null	Mus musculus HLA-DRB1*0401 Tg	subspecies	HLA-DRB1*0401 Tg	taxon		
-Mus musculus HLA-DRB1*0402 Tg	Mus musculus HLA-DR Tg	subspecies	HLA-DRB1*0402	taxon		
-Mus musculus HLA-DRB1*0402 Tg CD4Tg I-Abeta null	Mus musculus HLA-DR Tg	subspecies	HLA-DRB1*0402 Tg	taxon		
-Mus musculus HLA-DRB1*1501 MBP null Tg	Mus musculus HLA-DRB1*1501 Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*1501 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRB1*1501 x DQB1*0602	Mus musculus HLA-DQ Tg|Mus musculus HLA-DRB1*1501 Tg	subspecies	DQB1*0602 x DRB1*1501|DRB1*1501 x DQB1*0602	taxon		
-Mus musculus HLA-DRB5*0101 MBP null Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
-Mus musculus HLA-DRB5*0101 Tg	Mus musculus HLA-DR Tg	subspecies		taxon		
+Mus musculus HLA-DR51 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRA*01:01/DRB1*04:04 Tg	Mus musculus HLA-DRB1*04:01 Tg	subspecies	HLA-DRA*0101/HLA-DRB*0401	taxon		
+Mus musculus HLA-DRB1*0101 Tg IFNalpha beta null	Mus musculus HLA-DRB1*01:01 Tg	subspecies		taxon		
+Mus musculus HLA-DRB1*01:01 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRB1*03:01 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRB1*03:02 Tg	Mus musculus HLA-DR Transgenic	subspecies	HLA-DRB1*0302	taxon		
+Mus musculus HLA-DRB1*0401 MBP null Tg	Mus musculus HLA-DRB1*04:01 Tg	subspecies		taxon		
+Mus musculus HLA-DRB1*0401 Tg CD4Tg I-Abeta null	Mus musculus HLA-DRB1*04:01 Tg	subspecies	HLA-DRB1*0401 Tg	taxon		
+Mus musculus HLA-DRB1*0402 Tg CD4Tg I-Abeta null	Mus musculus HLA-DR Transgenic	subspecies	HLA-DRB1*0402 Tg	taxon		
+Mus musculus HLA-DRB1*04:01 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRB1*04:02 Tg	Mus musculus HLA-DR Transgenic	subspecies	HLA-DRB1*0402	taxon		
+Mus musculus HLA-DRB1*04:04 Tg	Mus musculus HLA-DR Transgenic	subspecies	DR0404	taxon		
+Mus musculus HLA-DRB1*1501 MBP null Tg	Mus musculus HLA-DRB1*15:01 Tg	subspecies		taxon		
+Mus musculus HLA-DRB1*1501 x DQB1*0602	Mus musculus HLA-DQ Transgenic|Mus musculus HLA-DRB1*15:01 Tg	subspecies	DQB1*0602 x DRB1*1501|DRB1*1501 x DQB1*0602	taxon		
+Mus musculus HLA-DRB1*15:01 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRB1*15:02 Tg	Mus musculus HLA-DR15 Tg	subspecies	DRB1*1502	taxon		
+Mus musculus HLA-DRB5*0101 MBP null Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-DRB5*01:01 Tg	Mus musculus HLA-DR Transgenic	subspecies		taxon		
+Mus musculus HLA-G Transgenic	Mus musculus CBA|Mus musculus HLA Transgenic	subspecies		taxon		
 Mus musculus HNT TCR Tg	Mus musculus BALB/c TCR Transgenic	subspecies	BALB/c Thy 1.2|CD4/HNT|HNTNGVTAACSHE-specific TCR Tg|Influenza PR8 HA(126-138)-specific TCR Tg|T2.5-5|Tg(Tcra,Tcrb)1Mcd	taxon	http://www.informatics.jax.org/allele/MGI:3581980	
 Mus musculus HPV 16 E7 Tg	Mus musculus Uncategorized	subspecies	HPV 16 E7	taxon		
 Mus musculus hTNF Tg	Mus musculus Uncategorized	subspecies	Tg197, TNF	taxon		
@@ -1306,7 +1307,7 @@ Mus musculus MOG-specific TCR beta-chain Tg	Mus musculus C57BL/6 TCR transgenic	
 Mus musculus MRL	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus MRL X B10.BR	Mus musculus B10 Crosses	subspecies		taxon		
 Mus musculus MRL/MpJ	Mus musculus Uncategorized	subspecies		taxon		
-Mus musculus MS2-3C8 TCR Tg	Mus musculus HLA-DRB1*0401 Tg|Mus musculus TCR transgenic	subspecies	LSRFSWGAEGQRPGFGYGG-specific TCR Tg|MBP(111-129)-specific TCR Tg|MS2-3C8	taxon		
+Mus musculus MS2-3C8 TCR Tg	Mus musculus HLA-DRB1*04:01 Tg|Mus musculus TCR transgenic	subspecies	LSRFSWGAEGQRPGFGYGG-specific TCR Tg|MBP(111-129)-specific TCR Tg|MS2-3C8	taxon		
 Mus musculus N-acetylgalactosaminyltransferase null	Mus musculus Uncategorized	subspecies	GM1/GD1a null	taxon		
 Mus musculus N15 TCR Tg	Mus musculus TCR transgenic	subspecies	N15tg/RAG-2null|Tg(TcraN15,TcrbN15)L2Elre|VSV NP (52-59)-specific TCR Tg|VSV8-specific TCR Tg	taxon	http://www.informatics.jax.org/allele/MGI:3777745	
 Mus musculus ND4 Swiss Webster	Mus musculus Swiss	subspecies		taxon		
@@ -1317,13 +1318,13 @@ Mus musculus NOD 2B2beta TCR Tg	Mus musculus NOD TCR Transgenic	subspecies		taxo
 Mus musculus NOD B7-2 null	Mus musculus NOD	subspecies	B7-2 null NOD	taxon		
 Mus musculus NOD HLA-A*1101 Tg	Mus musculus HLA-A Transgenic|Mus musculus NOD	subspecies		taxon		
 Mus musculus NOD HLA-B*0702 Tg	Mus musculus HLA-B7 Tg|Mus musculus NOD	subspecies		taxon		
-Mus musculus NOD HLA-DQ8 Tg	Mus musculus HLA-DQ Tg|Mus musculus NOD	subspecies	DQ8	taxon		
+Mus musculus NOD HLA-DQ8 Tg	Mus musculus HLA-DQ Transgenic|Mus musculus NOD	subspecies	DQ8	taxon		
 Mus musculus NOD HLA-DR3 Tg IAbeta null	Mus musculus HLA-DR3 Tg|Mus musculus NOD	subspecies		taxon		
 Mus musculus NOD HSP60 Tg	Mus musculus NOD	subspecies	HSP60	taxon		
 Mus musculus NOD TCR alpha beta deficient	Mus musculus NOD TCR Transgenic	subspecies	NOD.129P2(C)-Tcratm1Mjo/DoiJ	taxon		
 Mus musculus NOD TCR Transgenic	Mus musculus NOD|Mus musculus TCR transgenic	subspecies	NOD TCR Transgenic	taxon		
 Mus musculus NOD X NOR	Mus musculus NOD	subspecies	NOD X NOR/LtJ|NOR X NOD|NOR/LtJ X NOD	taxon		
-Mus musculus NOD-Dralpha Tg	Mus musculus HLA-DR Tg|Mus musculus NOD	subspecies	NOD.Dralpha Tg	taxon		
+Mus musculus NOD-Dralpha Tg	Mus musculus HLA-DR Transgenic|Mus musculus NOD	subspecies	NOD.Dralpha Tg	taxon		
 Mus musculus NOD-Ealpha Tg	Mus musculus NOD	subspecies	NOD.Ealpha Tg	taxon		
 Mus musculus NOD-PI/NOD8.3	Mus musculus NOD	subspecies	NOD-PI/NOD8.3	taxon		
 Mus musculus NOD-Tg(H2-Ea-Ins2)1Wehi/WehiJ	Mus musculus NOD	subspecies	NOD-PI	taxon		
@@ -1345,7 +1346,7 @@ Mus musculus NZB X NZW	Mus musculus Uncategorized	subspecies	NZW X NZB	taxon
 Mus musculus NZW	Mus musculus Uncategorized	subspecies	NZW/LacJ|New Zealand white	taxon		
 Mus musculus NZW X BALB/c	Mus musculus BALB/c crosses	subspecies	BALB/c X NZW	taxon		
 Mus musculus NZW X BXSB	Mus musculus Uncategorized	subspecies	BXSB X NZW	taxon		
-Mus musculus Ob.1A12 TCR Tg	Mus musculus HLA-DRB1*1501 Tg|Mus musculus TCR transgenic	subspecies	DR15 Tg MBP-85-99 TCR Tg|DR2 Tg MBP-85-99 TCR Tg|DR2b|HLA-DRB1*1501/Ob.1A12 TCR Tg|Ob TCR|Ob.1A12	taxon	http://www.informatics.jax.org/allele/MGI:5429700	
+Mus musculus Ob.1A12 TCR Tg	Mus musculus HLA-DRB1*15:01 Tg|Mus musculus TCR transgenic	subspecies	DR15 Tg MBP-85-99 TCR Tg|DR2 Tg MBP-85-99 TCR Tg|DR2b|HLA-DRB1*1501/Ob.1A12 TCR Tg|Ob TCR|Ob.1A12	taxon	http://www.informatics.jax.org/allele/MGI:5429700	
 Mus musculus OF1	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus OT-1 TCR Tg	Mus musculus C57BL/6 TCR transgenic	subspecies	OT-1 TCR Tg B6|OT-1 TCR Tg C57BL/6|OVA(257-264)-specific TCR Tg|SIINFEKL-specific TCR Tg|Tg(TcraTcrb)1100Mjb	taxon	http://www.informatics.jax.org/allele/MGI:3054907	
 Mus musculus OT-3 TCR Tg	Mus musculus TCR transgenic	subspecies	OT-III|OVA(257-264)-specific TCR Tg|SIINFEKL-specific TCR Tg	taxon		
@@ -1377,8 +1378,7 @@ Mus musculus RIIIS	Mus musculus Uncategorized	subspecies	R3|RIII|RIIIS/J	taxon
 Mus musculus RIP-B7	Mus musculus Uncategorized	subspecies	RIP-B7	taxon		
 Mus musculus RIP-B7 H2d/d	Mus musculus Uncategorized	subspecies	d/d	taxon		
 Mus musculus RIP-B7 X BALB/c	Mus musculus BALB/c crosses	subspecies	BALB/c X RIP-B7	taxon		
-Mus musculus RIP-B7/DRB1*0401	Mus musculus HLA-DRB1*0401 Tg	subspecies	DR0401	taxon		
-Mus musculus RIP-B7/DRB1*0404	Mus musculus HLA-DR Tg	subspecies	DR0404	taxon		
+Mus musculus RIP-B7/DRB1*0401	Mus musculus HLA-DRB1*04:01 Tg	subspecies	DR0401	taxon		
 Mus musculus RIP-CD80 LCMV-GP Tg	Mus musculus Uncategorized	subspecies	LCMV-GP|RIP-CD80+	taxon		
 Mus musculus RIP-OVA	Mus musculus Uncategorized	subspecies		taxon		
 Mus musculus RSV-M187 TCR Tg	Mus musculus TCR transgenic	subspecies	NAITNAKII-specific TCR Tg|RSV M(187-195)-specific TCR Tg	taxon		
@@ -1483,14 +1483,14 @@ Neisseria meningitidis M982B	Neisseria meningitidis	subspecies	M982B	taxon
 Neisseria meningitidis MC58 icsB-lpt3	Neisseria meningitidis MC58	subspecies		taxon		
 Neisseria meningitidis serogroup A C408	Neisseria meningitidis serogroup A	subspecies		taxon		
 Neisseria meningitidis serogroup A Strain 8659	Neisseria meningitidis serogroup A	subspecies	8659	taxon		
+Neisseria meningitidis serogroup B  H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon		
 Neisseria meningitidis serogroup B 8047	Neisseria meningitidis serogroup B	subspecies		taxon		
 Neisseria meningitidis serogroup B CU385	Neisseria meningitidis serogroup B	subspecies	Cuba 385	taxon		
-Neisseria meningitidis serogroup B H44/76	Neisseria meningitidis serogroup B	subspecies	Serotype 15 / Subtype 16|44/76	taxon		
+Neisseria meningitidis serogroup B Strain  80–165	Neisseria meningitidis serogroup B	subspecies	80-165	taxon		
 Neisseria meningitidis serogroup B Strain 188/87	Neisseria meningitidis serogroup B	subspecies	188/87	taxon		
 Neisseria meningitidis serogroup B Strain 2996	Neisseria meningitidis serogroup B	subspecies	2996	taxon		
 Neisseria meningitidis serogroup B strain 6275	Neisseria meningitidis serogroup B	subspecies		taxon		
 Neisseria meningitidis serogroup B Strain 7967	Neisseria meningitidis serogroup B	subspecies	7967	taxon		
-Neisseria meningitidis serogroup B Strain 80-165	Neisseria meningitidis serogroup B	subspecies	80-165	taxon		
 Neisseria meningitidis serogroup B Strain 8047	Neisseria meningitidis serogroup B	subspecies		taxon		
 Neisseria meningitidis serogroup B Strain 870277	Neisseria meningitidis serogroup B	subspecies	870277	taxon		
 Neisseria meningitidis serogroup B Strain B11	Neisseria meningitidis serogroup B	subspecies		taxon		
@@ -1866,12 +1866,12 @@ Shigella flexneri 6118	Shigella flexneri	subspecies	6118	taxon
 Shigella flexneri X	Shigella flexneri	subspecies		taxon		
 Shigella flexneri Yv	Shigella flexneri	subspecies	serotype Yv	taxon		
 Shigella sonnei 59G	Shigella sonnei	subspecies	ATCC 11060	taxon		
-Simian immunodeficiency virus - mac - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac 32H	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac BK28	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - mac - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon		
-Simian immunodeficiency virus - sm - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon		
-Simian immunodeficiency virus - sm - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon		
+Simian immunodeficiency virus - mac  - mac 239	Simian immunodeficiency virus - mac	subspecies		taxon		
+Simian immunodeficiency virus - mac  - mac 32H	Simian immunodeficiency virus - mac	subspecies		taxon		
+Simian immunodeficiency virus - mac  - mac BK28	Simian immunodeficiency virus - mac	subspecies		taxon		
+Simian immunodeficiency virus - mac  - mac F965	Simian immunodeficiency virus - mac	subspecies		taxon		
+Simian immunodeficiency virus - sm  - sm E543	Simian immunodeficiency virus - sm	subspecies		taxon		
+Simian immunodeficiency virus - sm  - sm PT573	Simian immunodeficiency virus - sm	subspecies		taxon		
 Simian virus 40 strain 776	Betapolyomavirus macacae	subspecies		taxon		
 Simian virus 40 VA45-54	Betapolyomavirus macacae	subspecies	VA45-54	taxon		
 Sin Nombre virus NM H10	Orthohantavirus sinnombreense	subspecies	NMH10	taxon		
@@ -2010,7 +2010,7 @@ Theileria sergenti Type B2	Theileria sergenti	subspecies		taxon
 Theileria sergenti Type C	Theileria sergenti	subspecies		taxon		
 Theileria sergenti Type I	Theileria sergenti	subspecies		taxon		
 Tick-borne encephalitis virus (strain Senzhang)	Tick-borne encephalitis virus	subspecies		taxon		
-Tick-borne encephalitis virus (WESTERN SUBTYPE) - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon		
+Tick-borne encephalitis virus (WESTERN SUBTYPE)  - Neudoerfl	Tick-borne encephalitis virus (WESTERN SUBTYPE)	subspecies		taxon		
 Tobacco mosaic virus (strain Ni568)	Tobacco mosaic virus	subspecies	Ni568	taxon		
 Tobacco mosaic virus (strain PM5)	Tobacco mosaic virus	subspecies	PM5	taxon		
 Tobacco mosaic virus U1	Tobacco mosaic virus	subspecies		taxon		
@@ -2022,11 +2022,11 @@ Transmissible gastroenteritis virus MAD88	Transmissible gastroenteritis virus	su
 Tree or Shrub	Spermatophyta	subspecies		taxon		
 Treponema pallidum subsp. pallidum (strain Chicago)	Treponema pallidum subsp. pallidum	subspecies	Chicago	taxon		
 Trypanosoma brucei rhodesiense Vitat 1.1	Trypanosoma brucei rhodesiense	subspecies		taxon		
+Trypanosoma cruzi  strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
 Trypanosoma cruzi G	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi MHOM/MX/0000/H1	Trypanosoma cruzi	subspecies	H1	taxon		
 Trypanosoma cruzi MV-13	Trypanosoma cruzi	subspecies	Montalvani 13	taxon		
 Trypanosoma cruzi Silvio X-10/4	Trypanosoma cruzi	subspecies		taxon		
-Trypanosoma cruzi strain Brazil	Trypanosoma cruzi	subspecies	Brazil	taxon		
 Trypanosoma cruzi Tulahuen	Trypanosoma cruzi	subspecies		taxon		
 Trypanosoma cruzi Y	Trypanosoma cruzi	subspecies		taxon		
 Vaccinia virus Acambis 2000	Orthopoxvirus vaccinia	subspecies	Acam2000	taxon		

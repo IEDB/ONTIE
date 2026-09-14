@@ -47,6 +47,9 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
@@ -431,15 +434,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000112 xml:lang="en">a process of cell-division, \ a beating of the heart</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a process of meiosis</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a process of sleeping</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the course of a disease</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the flight of a bird</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the life of an organism</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">your process of aging.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
         <rdfs:label>process</rdfs:label>
     </owl:Class>
     
@@ -466,7 +460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0014667">
         <rdfs:subClassOf rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003542"/>
-        <obo:IAO_0000115 xml:lang="en">A disease that involving errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease that involves errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
         <rdfs:label>disease of metabolism</rdfs:label>
     </owl:Class>
     
@@ -848,7 +842,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <rdfs:label>biological process</rdfs:label>
     </owl:Class>
     
@@ -868,6 +862,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be one or more truthful statement(s) about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
         <rdfs:label>data entity</rdfs:label>
     </owl:Class>
     
@@ -7834,12 +7829,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
-        <obo:IAO_0000112 xml:lang="en">animal</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">fungus</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">plant</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">virus</obo:IAO_0000112>
+        <obo:IAO_0000112>animal</obo:IAO_0000112>
+        <obo:IAO_0000112>fungus</obo:IAO_0000112>
+        <obo:IAO_0000112>plant</obo:IAO_0000112>
+        <obo:IAO_0000112>virus</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">WEB: http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
         <rdfs:label>organism</rdfs:label>
     </owl:Class>
     
@@ -7851,7 +7846,7 @@
         <owl:equivalentClass rdf:resource="https://ontology.iedb.org/ontology/ONTIE_0003314"/>
         <obo:IAO_0000112 xml:lang="en">injecting mice with 10 ug morphine intranasally, a patient taking two pills of 1 mg aspirin orally</obo:IAO_0000112>
         <obo:IAO_0000112>Balb/c mice received an intracameral or subconjunctival injection of trinitrophenylated spleen cells</obo:IAO_0000112>
-        <obo:IAO_0000115>A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
         <rdfs:label>administering substance in vivo [OBI:0600007]</rdfs:label>
     </owl:Class>
@@ -7863,6 +7858,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000006"/>
         <obo:IAO_0000112>antithrombin III is a protein</obo:IAO_0000112>
+        <obo:IAO_0000115>An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
         <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
         <rdfs:label>protein</rdfs:label>
     </owl:Class>
